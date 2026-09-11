@@ -534,6 +534,63 @@ async function crawlFacebookPage(source: Source): Promise<RawPost[]> {
     }
   }
 
+  // Cloud/Datacenter IP Fallback: When direct requests yield 0 posts (e.g. on Render/AWS where Facebook blocks DC IPs),
+  // fetch via Jina Reader which bypasses datacenter blocks and returns rendered content.
+  if (posts.length === 0) {
+    try {
+      const cleanTargetUrl = source.url.replace(/\/$/, '');
+      const jinaRes = await axios.get(`https://r.jina.ai/${cleanTargetUrl}`, {
+        headers: { 'Accept': 'text/plain' },
+        timeout: 20000,
+        validateStatus: () => true
+      });
+
+      if (jinaRes.data && typeof jinaRes.data === 'string') {
+        const md = jinaRes.data;
+        const sections = md.split(/\n(?=## |\n\*\*\[)/g);
+
+        for (const sec of sections) {
+          const imgMatches = [...sec.matchAll(/!\[.*?\]\((https:\/\/[^)]+fbcdn\.net[^)]+)\)/g)].map(m => m[1]);
+          const reelMatch = sec.match(/https:\/\/www\.facebook\.com\/(?:reel|watch\/\?v=|videos\/)(\d+)/);
+
+          let text = sec
+            .replace(/!\[.*?\]\(.*?\)/g, '')
+            .replace(/\[(.*?)\]\(.*?\)/g, '$1')
+            .replace(/##\s+/g, '')
+            .replace(/\*\*/g, '')
+            .replace(/\b(Like|Comment|Share|Privacy|Terms|Advertising|Cookies|Log In|Create new account|See more|Forgot Account\?)\b/gi, '')
+            .trim();
+
+          if (text.length > 25 && !text.includes('Log into Facebook') && !text.includes('Password') && !text.includes('Forgot Account')) {
+            const cleanImg = imgMatches.find(u => !u.includes('emoji') && !u.includes('rsrc.php'));
+            let videoUrl: string | undefined = undefined;
+            let videoEmbedUrl: string | undefined = undefined;
+
+            if (reelMatch) {
+              videoUrl = `https://www.facebook.com/watch/?v=${reelMatch[1]}`;
+              videoEmbedUrl = `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoUrl)}&show_text=0`;
+            } else {
+              const extracted = extractVideoFromText(text);
+              videoUrl = extracted.videoUrl;
+              videoEmbedUrl = extracted.videoEmbedUrl;
+            }
+
+            posts.push({
+              content: text,
+              originalUrl: reelMatch ? `https://www.facebook.com/reel/${reelMatch[1]}` : cleanTargetUrl,
+              publishedAt: new Date().toISOString(),
+              imageUrl: cleanImg,
+              videoUrl,
+              videoEmbedUrl
+            });
+          }
+        }
+      }
+    } catch (jinaErr: any) {
+      console.warn(`Jina Facebook fallback warning for ${source.name}:`, jinaErr.message);
+    }
+  }
+
   return posts;
 }
 
