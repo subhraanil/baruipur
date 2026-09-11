@@ -43,7 +43,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
   }).filter(a => a.id !== article.id);
 
   const postSlug = article.slug || article.id;
-  const shareText = `${article.title} - বারুইপুর বার্তায় সম্পূর্ণ খবরটি পড়ুন।`;
+  const shareText = `${article.title} - বারুইপুরে সম্পূর্ণ খবরটি পড়ুন।`;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">

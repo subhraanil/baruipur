@@ -20,7 +20,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
   const handleWhatsAppShare = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const text = encodeURIComponent(`*${article.title}*\n\nপড়ুন বারুইপুর বার্তায়:\n${shareUrl}`);
+    const text = encodeURIComponent(`*${article.title}*\n\nপড়ুন বারুইপুরে:\n${shareUrl}`);
     window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
   };
 

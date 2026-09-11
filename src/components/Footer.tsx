@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <span className="bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded">লাইভ</span>
-              <h2 className="text-2xl font-black text-white">বারুইপুর বার্তা</h2>
+              <h2 className="text-2xl font-black text-white">বারুইপুর</h2>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed mb-4">
               বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে এবং দক্ষিণ ২৪ পরগনার প্রত্যন্ত অঞ্চলের প্রতি মুহূর্তের তাজা খবর ও প্রয়োজনীয় নাগরিক তথ্য।
@@ -78,7 +78,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} বারুইপুর বার্তা (Baruipur Live). সর্বস্বত্ব সংরক্ষিত।</p>
+          <p>© {new Date().getFullYear()} বারুইপুর (Baruipur). সর্বস্বত্ব সংরক্ষিত।</p>
           <p className="flex items-center gap-1">
             বারুইপুরের নাগরিকদের জন্য নিষ্ঠার সাথে নির্মিত <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 inline" />
           </p>

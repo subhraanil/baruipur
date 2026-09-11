@@ -1,4 +1,4 @@
-﻿// Background Autonomous Social Media News Ingestion Worker
+// Background Autonomous Social Media News Ingestion Worker
 const INTERVAL_MINUTES = 10;
 
 async function triggerCrawl() {
@@ -21,6 +21,6 @@ async function triggerCrawl() {
   }
 }
 
-console.log(`🚀 বারুইপুর বার্তা ক্রলার ওয়ার্কার সক্রিয় (প্রতি ${INTERVAL_MINUTES} মিনিট অন্তর স্বয়ংক্রিয় পর্যবেক্ষণ)...`);
+console.log(`🚀 বারুইপুর ক্রলার ওয়ার্কার সক্রিয় (প্রতি ${INTERVAL_MINUTES} মিনিট অন্তর স্বয়ংক্রিয় পর্যবেক্ষণ)...`);
 triggerCrawl();
 setInterval(triggerCrawl, INTERVAL_MINUTES * 60 * 1000);

@@ -101,7 +101,7 @@ export default function Header() {
                   লাইভ
                 </span>
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight group-hover:text-red-600 transition">
-                  বারুইপুর বার্তা
+                  বারুইপুর
                 </h1>
               </div>
               <p className="text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide mt-0.5">

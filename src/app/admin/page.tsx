@@ -226,7 +226,7 @@ export default function AdminPage() {
     setEditingArticleId(null);
     setArtTitle('');
     setArtCategory('general');
-    setArtSourceName('বারুইপুর বার্তা ডেস্ক');
+    setArtSourceName('বারুইপুর ডেস্ক');
     setArtImageUrl('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80');
     setArtVideoUrl('');
     setArtSummary('');
@@ -243,7 +243,7 @@ export default function AdminPage() {
     setEditingArticleId(article.id);
     setArtTitle(article.title);
     setArtCategory(article.category);
-    setArtSourceName(article.sourceName || 'বারুইপুর বার্তা ডেস্ক');
+    setArtSourceName(article.sourceName || 'বারুইপুর ডেস্ক');
     setArtImageUrl(article.imageUrl || '');
     setArtVideoUrl(article.videoUrl || article.videoEmbedUrl || '');
     setArtSummary(article.summary || '');
@@ -272,7 +272,7 @@ export default function AdminPage() {
       slug: 'baruipur-' + Date.now(),
       category: artCategory,
       categoryNameBn: catObj.nameBn,
-      sourceName: artSourceName.trim() || 'বারুইপুর বার্তা ডেস্ক',
+      sourceName: artSourceName.trim() || 'বারুইপুর ডেস্ক',
       sourceType: 'manual',
       sourceId: 'manual',
       imageUrl: artImageUrl.trim() || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80',
@@ -878,7 +878,7 @@ export default function AdminPage() {
                   </label>
                   <input
                     type="text"
-                    placeholder="যেমন: বারুইপুর বার্তা নিজস্ব প্রতিনিধি"
+                    placeholder="যেমন: বারুইপুর নিজস্ব প্রতিনিধি"
                     value={artSourceName}
                     onChange={(e) => setArtSourceName(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-300 rounded-lg p-2 text-xs focus:bg-white focus:ring-2 focus:ring-red-500 focus:outline-none"

@@ -13,7 +13,7 @@ export const CATEGORIES: CategoryInfo[] = [
 export const INITIAL_SOURCES: Source[] = [
   {
     id: 'src-1',
-    name: 'বারুইপুর বার্তা টেলিগ্রাম (Baruipur Updates TG)',
+    name: 'বারুইপুর টেলিগ্রাম (Baruipur Updates TG)',
     type: 'telegram',
     url: 'https://t.me/s/baruipur_news_update',
     handle: 'baruipur_news_update',
