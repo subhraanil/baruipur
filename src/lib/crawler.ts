@@ -369,154 +369,171 @@ async function crawlFacebookPage(source: Source): Promise<RawPost[]> {
     return await crawlRssFeed(source.url);
   }
 
-  try {
-    const res = await axios.get(source.url, {
-      timeout: 15000,
-      headers: {
-        'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'bn-IN,bn;q=0.9,en-US;q=0.8,en;q=0.7'
-      },
-      maxRedirects: 5,
-      validateStatus: () => true
-    });
+  const userAgents = [
+    'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+    'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+  ];
 
-    if (res.data && typeof res.data === 'string') {
-      const html = res.data;
+  for (const ua of userAgents) {
+    if (posts.length > 0) break; // If we already extracted posts, stop trying fallbacks
 
-      // Extract Comet feed stories from JSON scripts
-      const scriptRegex = /<script type="application\/json"[^>]*>([\s\S]*?)<\/script>/g;
-      let m;
-      const rawStories: any[] = [];
+    try {
+      const res = await axios.get(source.url, {
+        timeout: 15000,
+        headers: {
+          'User-Agent': ua,
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'Accept-Language': 'bn-IN,bn;q=0.9,en-US;q=0.8,en;q=0.7'
+        },
+        maxRedirects: 5,
+        validateStatus: () => true
+      });
 
-      while ((m = scriptRegex.exec(html)) !== null) {
-        const jsonStr = m[1];
-        if (!jsonStr.includes('post_id') && !jsonStr.includes('creation_time')) continue;
-        try {
-          const data = JSON.parse(jsonStr);
-          function scan(obj: any) {
-            if (!obj || typeof obj !== 'object') return;
-            if (obj.creation_time && obj.post_id && (obj.comet_sections || obj.attachments)) {
-              rawStories.push(obj);
+      if (res.data && typeof res.data === 'string') {
+        const html = res.data;
+
+        // Extract Comet feed stories from JSON scripts
+        const scriptRegex = /<script type="application\/json"[^>]*>([\s\S]*?)<\/script>/g;
+        let m;
+        const rawStories: any[] = [];
+
+        while ((m = scriptRegex.exec(html)) !== null) {
+          const jsonStr = m[1];
+          if (!jsonStr.includes('post_id') && !jsonStr.includes('creation_time') && !jsonStr.includes('feedback') && !jsonStr.includes('story')) continue;
+          try {
+            const data = JSON.parse(jsonStr);
+            function scan(obj: any) {
+              if (!obj || typeof obj !== 'object') return;
+              const pId = obj.post_id || obj.legacy_fbid || (obj.__typename === 'Story' ? obj.id : undefined);
+              if (pId && (obj.creation_time || obj.comet_sections || obj.attachments || obj.message)) {
+                rawStories.push({ ...obj, post_id: pId });
+              }
+              for (const k of Object.keys(obj)) {
+                scan(obj[k]);
+              }
             }
-            for (const k of Object.keys(obj)) {
-              scan(obj[k]);
-            }
-          }
-          scan(data);
-        } catch(e) {}
-      }
-
-      const seenPostIds = new Set<string>();
-
-      for (const story of rawStories) {
-        const postId = String(story.post_id);
-        if (!postId || seenPostIds.has(postId)) continue;
-        seenPostIds.add(postId);
-
-        // Find message text recursively
-        function findMessage(o: any): string | null {
-          if (!o) return null;
-          if (o.__typename === 'TextWithEntities' && typeof o.text === 'string') return o.text;
-          if (o.message && typeof o.message.text === 'string') return o.message.text;
-          if (typeof o === 'object') {
-            for (const k of Object.keys(o)) {
-              const r = findMessage(o[k]);
-              if (r) return r;
-            }
-          }
-          return null;
+            scan(data);
+          } catch(e) {}
         }
 
-        const message = findMessage(story.comet_sections?.content) || findMessage(story);
-        if (!message || message.trim().length < 15) continue;
+        const seenPostIds = new Set<string>();
 
-        // Extract media (photos and videos)
-        const images: string[] = [];
-        const videos: string[] = [];
-        function extractMedia(o: any) {
-          if (!o) return;
-          if (typeof o === 'object') {
-            if (o.uri && typeof o.uri === 'string' && o.uri.startsWith('http') && !o.uri.includes('emoji')) {
-              images.push(o.uri);
+        for (const story of rawStories) {
+          const postId = String(story.post_id || story.legacy_fbid || story.id || '');
+          if (!postId || seenPostIds.has(postId)) continue;
+          seenPostIds.add(postId);
+
+          // Find message text recursively
+          function findMessage(o: any): string | null {
+            if (!o) return null;
+            if (o.__typename === 'TextWithEntities' && typeof o.text === 'string') return o.text;
+            if (o.message && typeof o.message.text === 'string') return o.message.text;
+            if (typeof o === 'object') {
+              for (const k of Object.keys(o)) {
+                const r = findMessage(o[k]);
+                if (r) return r;
+              }
             }
-            if (o.playable_url && typeof o.playable_url === 'string') {
-              videos.push(o.playable_url);
-            }
-            if (o.__typename === 'Video' && o.id) {
-              videos.push(`https://www.facebook.com/watch/?v=${o.id}`);
-            }
-            for (const k of Object.keys(o)) {
-              extractMedia(o[k]);
+            return null;
+          }
+
+          const message = findMessage(story.comet_sections?.content) || findMessage(story);
+          if (!message || message.trim().length < 15) continue;
+
+          // Extract media (photos and videos)
+          const images: string[] = [];
+          const videos: string[] = [];
+          function extractMedia(o: any) {
+            if (!o) return;
+            if (typeof o === 'object') {
+              if (
+                o.uri && 
+                typeof o.uri === 'string' && 
+                o.uri.startsWith('http') && 
+                !o.uri.includes('emoji') && 
+                !o.uri.includes('rsrc.php') && 
+                !o.uri.includes('static.xx.fbcdn.net')
+              ) {
+                images.push(o.uri);
+              }
+              if (o.playable_url && typeof o.playable_url === 'string') {
+                videos.push(o.playable_url);
+              }
+              if (o.__typename === 'Video' && o.id) {
+                videos.push(`https://www.facebook.com/watch/?v=${o.id}`);
+              }
+              for (const k of Object.keys(o)) {
+                extractMedia(o[k]);
+              }
             }
           }
-        }
-        extractMedia(story.attachments);
-        extractMedia(story.comet_sections);
+          extractMedia(story.attachments);
+          extractMedia(story.comet_sections);
 
-        const cleanBaseUrl = source.url.replace(/\/$/, '');
-        const postUrl = story.permalink_url || `${cleanBaseUrl}/posts/${postId}`;
-        const publishedAt = story.creation_time ? new Date(story.creation_time * 1000).toISOString() : new Date().toISOString();
-        const imageUrl = images.length > 0 ? images[0] : undefined;
-        let videoUrl: string | undefined = videos.length > 0 ? videos[0] : undefined;
-        let videoEmbedUrl: string | undefined = undefined;
+          const cleanBaseUrl = source.url.replace(/\/$/, '');
+          const postUrl = story.permalink_url || `${cleanBaseUrl}/posts/${postId}`;
+          const publishedAt = story.creation_time ? new Date(story.creation_time * 1000).toISOString() : new Date().toISOString();
+          const imageUrl = images.length > 0 ? images[0] : undefined;
+          let videoUrl: string | undefined = videos.length > 0 ? videos[0] : undefined;
+          let videoEmbedUrl: string | undefined = undefined;
 
-        if (videoUrl) {
-          videoEmbedUrl = getVideoEmbedUrl(videoUrl);
-        } else {
-          const extracted = extractVideoFromText(message);
-          if (extracted.videoUrl) {
-            videoUrl = extracted.videoUrl;
-            videoEmbedUrl = extracted.videoEmbedUrl;
-          }
-        }
-
-        posts.push({
-          content: message,
-          originalUrl: postUrl,
-          publishedAt,
-          imageUrl,
-          videoUrl,
-          videoEmbedUrl
-        });
-      }
-
-      // Fallback: If 0 structured stories parsed, try OpenGraph tags
-      if (posts.length === 0) {
-        const $ = cheerio.load(html);
-        const ogDesc = $('meta[property="og:description"]').attr('content');
-        const ogTitle = $('meta[property="og:title"]').attr('content');
-        const ogImage = $('meta[property="og:image"]').attr('content');
-        const ogVideo = $('meta[property="og:video"]').attr('content') || 
-                        $('meta[property="og:video:url"]').attr('content') || 
-                        $('meta[property="og:video:secure_url"]').attr('content');
-
-        if (ogDesc && ogDesc.length > 30 && !ogDesc.includes('Log into Facebook') && !ogDesc.includes('Log In')) {
-          let videoUrl: string | undefined = ogVideo;
-          let videoEmbedUrl: string | undefined = ogVideo ? getVideoEmbedUrl(ogVideo) : undefined;
-          if (!videoUrl) {
-            const extracted = extractVideoFromText(ogDesc);
-            videoUrl = extracted.videoUrl;
-            videoEmbedUrl = extracted.videoEmbedUrl;
+          if (videoUrl) {
+            videoEmbedUrl = getVideoEmbedUrl(videoUrl);
+          } else {
+            const extracted = extractVideoFromText(message);
+            if (extracted.videoUrl) {
+              videoUrl = extracted.videoUrl;
+              videoEmbedUrl = extracted.videoEmbedUrl;
+            }
           }
 
           posts.push({
-            title: ogTitle && !ogTitle.includes('Log in') ? ogTitle : undefined,
-            content: ogDesc,
-            originalUrl: source.url,
-            publishedAt: new Date().toISOString(),
-            imageUrl: ogImage,
+            content: message,
+            originalUrl: postUrl,
+            publishedAt,
+            imageUrl,
             videoUrl,
             videoEmbedUrl
           });
         }
+
+        // Fallback: If 0 structured stories parsed, try OpenGraph tags
+        if (posts.length === 0) {
+          const $ = cheerio.load(html);
+          const ogDesc = $('meta[property="og:description"]').attr('content');
+          const ogTitle = $('meta[property="og:title"]').attr('content');
+          const ogImage = $('meta[property="og:image"]').attr('content');
+          const ogVideo = $('meta[property="og:video"]').attr('content') || 
+                          $('meta[property="og:video:url"]').attr('content') || 
+                          $('meta[property="og:video:secure_url"]').attr('content');
+
+          if (ogDesc && ogDesc.length > 30 && !ogDesc.includes('Log into Facebook') && !ogDesc.includes('Log In')) {
+            let videoUrl: string | undefined = ogVideo;
+            let videoEmbedUrl: string | undefined = ogVideo ? getVideoEmbedUrl(ogVideo) : undefined;
+            if (!videoUrl) {
+              const extracted = extractVideoFromText(ogDesc);
+              videoUrl = extracted.videoUrl;
+              videoEmbedUrl = extracted.videoEmbedUrl;
+            }
+
+            posts.push({
+              title: ogTitle && !ogTitle.includes('Log in') ? ogTitle : undefined,
+              content: ogDesc,
+              originalUrl: source.url,
+              publishedAt: new Date().toISOString(),
+              imageUrl: ogImage,
+              videoUrl,
+              videoEmbedUrl
+            });
+          }
+        }
       }
+    } catch (err: any) {
+      console.warn(`Facebook crawl attempt (${ua.split(' ')[0]}) for ${source.name}:`, err.message);
     }
-  } catch (err: any) {
-    console.warn(`Facebook crawl error for ${source.name} (${source.url}):`, err.message);
   }
 
-  // NOTE: If posts.length === 0, we return empty array. NO fake/mock articles are generated!
   return posts;
 }
 
@@ -525,18 +542,30 @@ export async function crawlSource(source: Source): Promise<{ fetched: number; pu
   let rawPosts: RawPost[] = [];
   let fetchError = '';
 
+  const urlLower = (source.url || '').toLowerCase();
+  const isFb = source.type === 'facebook' || 
+    urlLower.includes('facebook.com') || 
+    urlLower.includes('fb.watch') || 
+    urlLower.includes('fb.com');
+
+  const isTg = source.type === 'telegram' || urlLower.includes('t.me');
+
+  const isYt = source.type === 'youtube' || urlLower.includes('youtube.com') || urlLower.includes('youtu.be');
+
   try {
-    if (source.type === 'telegram') {
+    if (isFb) {
+      rawPosts = await crawlFacebookPage(source);
+    } else if (isTg) {
       rawPosts = await crawlTelegramChannel(source.handle || source.url);
-    } else if (source.type === 'rss') {
-      rawPosts = await crawlRssFeed(source.url);
-    } else if (source.type === 'youtube') {
+    } else if (isYt) {
       if (source.url.includes('feeds/videos.xml')) {
         rawPosts = await crawlRssFeed(source.url);
       } else {
         rawPosts = await crawlTelegramChannel(source.handle || source.url);
       }
-    } else if (source.type === 'facebook') {
+    } else if (source.type === 'rss') {
+      rawPosts = await crawlRssFeed(source.url);
+    } else {
       rawPosts = await crawlFacebookPage(source);
     }
   } catch (err: any) {
@@ -547,7 +576,7 @@ export async function crawlSource(source: Source): Promise<{ fetched: number; pu
   if (rawPosts.length === 0) {
     const errorMsg = fetchError 
       ? `উৎস সংযোগে সমস্যা: ${fetchError}` 
-      : `উৎস থেকে কোনো নতুন পোস্ট পাওয়া যায়নি। অনুগ্রহ করে পেজটি পাবলিক কি না বা ইউআরএল সঠিক কি না যাচাই করুন।`;
+      : `উৎস থেকে কোনো পোস্ট পাওয়া যায়নি। পেজটি পাবলিক কি না অথবা ইউআরএল সঠিক কি না যাচাই করুন।`;
 
     source.lastCrawledAt = new Date().toISOString();
     db.saveSource(source);
@@ -628,7 +657,7 @@ export async function crawlSource(source: Source): Promise<{ fetched: number; pu
       categoryNameBn: categoryObj.nameBn,
       sourceId: source.id,
       sourceName: source.name,
-      sourceType: source.type,
+      sourceType: isFb ? 'facebook' : (isTg ? 'telegram' : (isYt ? 'youtube' : source.type)),
       sourceUrl: source.url,
       originalPostUrl: post.originalUrl,
       imageUrl: finalImageUrl,
@@ -651,6 +680,17 @@ export async function crawlSource(source: Source): Promise<{ fetched: number; pu
   source.postsCount = (source.postsCount || 0) + publishedCount;
   db.saveSource(source);
 
+  // Informative feedback message
+  let logMessage = '';
+  if (publishedCount > 0) {
+    logMessage = `ক্রলিং সফল! উৎস থেকে মোট ${rawPosts.length} টি পোস্ট পরীক্ষা করা হয়েছে, ${publishedCount} টি নতুন সংবাদ স্বয়ংক্রিয়ভাবে প্রকাশিত হয়েছে।`;
+  } else {
+    logMessage = `ক্রলিং সফল! উৎস থেকে ${rawPosts.length} টি পোস্ট পাওয়া গেছে। এই পোস্টগুলি ইতিমধ্যে ওয়েবসাইটে সংরক্ষিত রয়েছে (কোনো নতুন অপ্রকাশিত পোস্ট নেই)।`;
+  }
+  if (fetchError) {
+    logMessage = `ক্রলিং সম্পন্ন (নেটওয়ার্ক সতর্কতা): প্রাপ্ত ${rawPosts.length}, নতুন প্রকাশিত ${publishedCount} টি।`;
+  }
+
   // Log crawl execution
   const log: CrawlLog = {
     id: 'log-' + Date.now(),
@@ -658,9 +698,7 @@ export async function crawlSource(source: Source): Promise<{ fetched: number; pu
     sourceId: source.id,
     sourceName: source.name,
     status: fetchError ? 'warning' : 'success',
-    message: fetchError 
-      ? `ক্রলিং সম্পন্ন: কিছু নেটওয়ার্ক সতর্কতা ছিল। মোট প্রাপ্ত: ${rawPosts.length}, স্বয়ংক্রিয় প্রকাশিত: ${publishedCount} টি সংবাদ।`
-      : `ক্রলিং সফল! মোট ${rawPosts.length} টি পোস্ট পরীক্ষা করা হয়েছে, ${publishedCount} টি নতুন সংবাদ স্বয়ংক্রিয়ভাবে প্রকাশিত হয়েছে।`,
+    message: logMessage,
     itemsFetched: rawPosts.length,
     itemsPublished: publishedCount
   };
@@ -669,7 +707,7 @@ export async function crawlSource(source: Source): Promise<{ fetched: number; pu
   return {
     fetched: rawPosts.length,
     published: publishedCount,
-    message: log.message
+    message: logMessage
   };
 }
 

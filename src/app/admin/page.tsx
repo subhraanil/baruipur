@@ -41,7 +41,7 @@ export default function AdminPage() {
   // New source form state
   const [showAddSource, setShowAddSource] = useState(false);
   const [sourceName, setSourceName] = useState('');
-  const [sourceType, setSourceType] = useState<'facebook' | 'telegram' | 'youtube' | 'rss'>('telegram');
+  const [sourceType, setSourceType] = useState<'facebook' | 'telegram' | 'youtube' | 'rss'>('facebook');
   const [sourceUrl, setSourceUrl] = useState('');
   const [sourceHandle, setSourceHandle] = useState('');
   const [defaultCategory, setDefaultCategory] = useState<ArticleCategory>('general');
@@ -145,10 +145,20 @@ export default function AdminPage() {
     e.preventDefault();
     if (!sourceName.trim() || !sourceUrl.trim()) return;
 
+    let detectedType = sourceType;
+    const urlLower = sourceUrl.trim().toLowerCase();
+    if (urlLower.includes('facebook.com') || urlLower.includes('fb.watch') || urlLower.includes('fb.com')) {
+      detectedType = 'facebook';
+    } else if (urlLower.includes('t.me')) {
+      detectedType = 'telegram';
+    } else if (urlLower.includes('youtube.com') || urlLower.includes('youtu.be')) {
+      detectedType = 'youtube';
+    }
+
     const newSource: Source = {
       id: 'src-' + Date.now(),
       name: sourceName.trim(),
-      type: sourceType,
+      type: detectedType,
       url: sourceUrl.trim(),
       handle: sourceHandle.trim(),
       defaultCategory,
@@ -482,9 +492,20 @@ export default function AdminPage() {
                   <input
                     type="url"
                     required
-                    placeholder="যেমন: https://t.me/s/baruipur_update অথবা ফেসবুক লিংক"
+                    placeholder="যেমন: https://www.facebook.com/Baruipur অথবা টেলিগ্রাম লিংক"
                     value={sourceUrl}
-                    onChange={(e) => setSourceUrl(e.target.value)}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      setSourceUrl(val);
+                      const lower = val.toLowerCase();
+                      if (lower.includes('facebook.com') || lower.includes('fb.watch') || lower.includes('fb.com')) {
+                        setSourceType('facebook');
+                      } else if (lower.includes('t.me')) {
+                        setSourceType('telegram');
+                      } else if (lower.includes('youtube.com') || lower.includes('youtu.be')) {
+                        setSourceType('youtube');
+                      }
+                    }}
                     className="w-full bg-white border border-slate-300 rounded-lg p-2 text-xs focus:ring-2 focus:ring-red-500 focus:outline-none"
                   />
                 </div>
