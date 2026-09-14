@@ -1,27 +1,6 @@
 {
   "articles": [
     {
-      "id": "art-1789388832692-zqk9",
-      "title": "এটা আবার বারুইপুর বিজেপির নতুন গোষ্ঠী",
-      "slug": "এটা-আবার-বারুইপুর-বিজেপির-নতুন-গোষ্ঠী",
-      "summary": "এটা আবার বারুইপুর বিজেপির নতুন গোষ্ঠী\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "content": "এটা আবার বারুইপুর বিজেপির নতুন গোষ্ঠী\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-voice",
-      "sourceName": "Voice of Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/voiceofbaruipur/posts/1034063696113234",
-      "originalPostUrl": "https://www.facebook.com/voiceofbaruipur/posts/1034063696113234",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:26:15.626Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 54,
-      "crawlHash": "09d46954c49079e362fc41c2c0f6d72e"
-    },
-    {
       "id": "art-1789388832140-wvml",
       "title": "বারুইপুর সাহা পাড়ার ৭ও ৮  নম্বর পল্লী খুঁটি পূজো",
       "slug": "বারুইপুর-সাহা-পাড়ার-৭ও-৮-নম্বর-পল্লী-খুঁটি-পূজো",
@@ -42,7 +21,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 17,
-      "crawlHash": "5cc87a9fb517736400367a4eb68704ed"
+      "crawlHash": "5cc87a9fb517736400367a4eb68704ed",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388831569-rvj5",
@@ -65,7 +47,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 34,
-      "crawlHash": "a5e24e55f01e96d261b211cf221c4933"
+      "crawlHash": "a5e24e55f01e96d261b211cf221c4933",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388831008-se49",
@@ -88,7 +73,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 42,
-      "crawlHash": "c7a9fdecac3036691d530e3911f2fc93"
+      "crawlHash": "c7a9fdecac3036691d530e3911f2fc93",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388829840-m4d4",
@@ -111,7 +99,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "c735638843288d324ae0257dd47c297d"
+      "crawlHash": "c735638843288d324ae0257dd47c297d",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388828349-shor",
@@ -132,7 +123,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 28,
-      "crawlHash": "c05bc8da44ed09ff6c484cf4bac5aaf3"
+      "crawlHash": "c05bc8da44ed09ff6c484cf4bac5aaf3",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388827806-sdik",
@@ -155,7 +149,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "a7359dbecca2a648281b451048a91a39"
+      "crawlHash": "a7359dbecca2a648281b451048a91a39",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388825972-cm14",
@@ -178,7 +175,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 30,
-      "crawlHash": "efca43e7508bd4f8b903e1e70f22846e"
+      "crawlHash": "efca43e7508bd4f8b903e1e70f22846e",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388825271-3pla",
@@ -186,8 +186,8 @@
       "slug": "মহানায়ক-উওম-কুমারের-জন্ম-শতবার্ষিকী-উপলক্ষে-বারুইপুর-২নং-মন্ডলের-পক্ষ-থেকে-রক্তদান-শিবিরে",
       "summary": "মহানায়ক উওম কুমারের জন্ম শতবার্ষিকী উপলক্ষে বারুইপুর ২নং মন্ডলের পক্ষ থেকে রক্তদান শিবিরে আয়েজন করা হয়েছে।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উ...",
       "content": "মহানায়ক উওম কুমারের জন্ম শতবার্ষিকী উপলক্ষে বারুইপুর ২নং মন্ডলের পক্ষ থেকে রক্তদান শিবিরে আয়েজন করা হয়েছে।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "health",
-      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
       "sourceId": "src-fb-voice",
       "sourceName": "Voice of Baruipur",
       "sourceType": "facebook",
@@ -201,7 +201,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 45,
-      "crawlHash": "a3be1c6db012df0c855c45c78fe3db75"
+      "crawlHash": "a3be1c6db012df0c855c45c78fe3db75",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388824657-58sw",
@@ -224,7 +227,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 26,
-      "crawlHash": "5dbb58ef742cf73aebb3bd7fa39a5d36"
+      "crawlHash": "5dbb58ef742cf73aebb3bd7fa39a5d36",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388823982-e8xk",
@@ -247,7 +253,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "bded5f2ca9c088b0621a8f2544d5d1b8"
+      "crawlHash": "bded5f2ca9c088b0621a8f2544d5d1b8",
+      "sources": [
+        "Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388823982-qvhu",
@@ -268,28 +277,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 59,
-      "crawlHash": "368e1239007c6afd26588754752c3982"
-    },
-    {
-      "id": "art-1789388823981-5sas",
-      "title": "মেরুদণ্ড  সোজা থাকলে  রাস্তা ‌ পরিস্কার এমনি হয়ে যাবে",
-      "slug": "মেরুদণ্ড-সোজা-থাকলে-রাস্তা-পরিস্কার-এমনি-হয়ে-যাবে",
-      "summary": "মেরুদণ্ড  সোজা থাকলে  রাস্তা ‌ পরিস্কার এমনি হয়ে যাবে\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "content": "মেরুদণ্ড  সোজা থাকলে  রাস্তা ‌ পরিস্কার এমনি হয়ে যাবে\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "municipality",
-      "categoryNameBn": "পৌরসভা ও নাগরিক",
-      "sourceId": "src-fb-pressclub",
-      "sourceName": "Baruipur Press Club",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurPressClub0/posts/1032745542799503",
-      "originalPostUrl": "https://www.facebook.com/BaruipurPressClub0/posts/1032745542799503",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:26:09.905Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 32,
-      "crawlHash": "de64549afaa4c04197e76092491c5065"
+      "crawlHash": "368e1239007c6afd26588754752c3982",
+      "sources": [
+        "Baruipur Press Club"
+      ]
     },
     {
       "id": "art-1789388816507-v1qa",
@@ -310,7 +301,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 11,
-      "crawlHash": "c2fda63f444188b0009ee3f9bf9ae752"
+      "crawlHash": "c2fda63f444188b0009ee3f9bf9ae752",
+      "sources": [
+        "Baruipur Press Club"
+      ]
     },
     {
       "id": "art-1789388815157-zg9i",
@@ -318,8 +312,8 @@
       "slug": "বারুইপুর-শাসন-বালক-সংঘের-এ-বছরের-দূর্গা-পূজার-থিম-ai-এর-মাধ্যমে-দেখুন",
       "summary": "বারুইপুর শাসন বালক সংঘের এ বছরের দূর্গা পূজার থিম Ai এর মাধ্যমে দেখুন\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা...",
       "content": "বারুইপুর শাসন বালক সংঘের এ বছরের দূর্গা পূজার থিম Ai এর মাধ্যমে দেখুন\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা অভিযোগ জানাতে স্থানীয় থানা বা ডিস্ট্রিক্ট কন্ট্রোল রুমে সরাসরি যোগাযোগ করা যাবে। এলাকায় শান্তি-শৃঙ্খলা বজায় রাখতে পুলিশি টহল অব্যাহত রয়েছে।",
-      "category": "crime",
-      "categoryNameBn": "অপরাধ ও প্রশাসন",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
       "sourceId": "src-fb-barta",
       "sourceName": "Baruipur Barta",
       "sourceType": "facebook",
@@ -333,7 +327,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "910f2a4e743acf6c84d1395cc828098e"
+      "crawlHash": "910f2a4e743acf6c84d1395cc828098e",
+      "sources": [
+        "Baruipur Barta"
+      ]
     },
     {
       "id": "art-1789388814312-6pdc",
@@ -356,30 +353,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 15,
-      "crawlHash": "86665e6a2df55080b49f1d16b4ac5d22"
-    },
-    {
-      "id": "art-1789388813814-fxs5",
-      "title": "বারুইপুর বেঙ্গল TVS এ উদ্বোধন হলো TVS IQUBE মিলিয়নার এডিশন",
-      "slug": "বারুইপুর-বেঙ্গল-tvs-এ-উদ্বোধন-হলো-tvs-iqube-মিলিয়নার-এডিশন",
-      "summary": "বারুইপুর বেঙ্গল TVS এ উদ্বোধন হলো TVS IQUBE মিলিয়নার এডিশন।     । বারুইপুর উদ্বোধন হলো  ফ্যাশান বারুইপুর।   । ।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরি...",
-      "content": "বারুইপুর বেঙ্গল TVS এ উদ্বোধন হলো TVS IQUBE মিলিয়নার এডিশন।     । বারুইপুর উদ্বোধন হলো  ফ্যাশান বারুইপুর।   । ।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-barta",
-      "sourceName": "Baruipur Barta, Voice of Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/baruipurbarta05/videos/1549905866362718/",
-      "originalPostUrl": "https://www.facebook.com/baruipurbarta05/videos/1549905866362718/",
-      "imageUrl": "/images/crawled/efe079f388bcbdd3031531d5560d2547.jpg",
-      "videoUrl": "https://www.facebook.com/watch/?v=1549905866362718",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549905866362718&show_text=0",
-      "publishedAt": "2026-09-08T22:32:45.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 48,
-      "crawlHash": "a8fa5f777bf49a24af6e47252d64124b"
+      "crawlHash": "86665e6a2df55080b49f1d16b4ac5d22",
+      "sources": [
+        "Baruipur Barta, Voice of Baruipur"
+      ]
     },
     {
       "id": "art-1789388813814-5gie",
@@ -387,8 +364,8 @@
       "slug": "জমি-সংক্রান্ত-২০-কুড়ি-লক্ষ-টাকার-প্রতারণায়-অভিযুক্ত-জমির-মালিকের-বিরুদ্ধে-ইং-২২৫২০",
       "summary": "জমি সংক্রান্ত ২০ (কুড়ি) লক্ষ টাকার প্রতারণায় অভিযুক্ত জমির মালিকের বিরুদ্ধে ইং - ২২/৫/২০১৯ তারিখে আই.পি.সি.৪২০/৪০৬ ধারায় FIR রেজিস্ট্রার্ড হয়।\nপদক্ষেপ গ্রহণের অনুরোধে ইং -...",
       "content": "জমি সংক্রান্ত ২০ (কুড়ি) লক্ষ টাকার প্রতারণায় অভিযুক্ত জমির মালিকের বিরুদ্ধে ইং - ২২/৫/২০১৯ তারিখে আই.পি.সি.৪২০/৪০৬ ধারায় FIR রেজিস্ট্রার্ড হয়।\nপদক্ষেপ গ্রহণের অনুরোধে ইং - ২৪/৫/২০১৯ তারিখ হইতে লোকাল থানার আইসি এবং এসডিপিও এবং জেলা পুলিশ সুপারের নিকট বারবার একাধিকবার অনুরোধ জানানোর সত্ত্বেও, প্রতারক আসামী লোকাল প্রসাশনের প্রশ্রয়ে এবং পুলিশ প্রসাশনের সুরক্ষার আজ পর্যন্ত গ্ৰেফতার না হয়ে বহাল তবিয়তে বুক ফুলিয়ে ঘুরে বেড়াচ্ছেন।\nআসামীর বিরুদ্ধে লোকাল থানায় একাধিক প্রতারণায় একাধিক FIR রেজিস্ট্রার্ড।",
-      "category": "railway",
-      "categoryNameBn": "রেল ও যাতায়াত",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-barta",
       "sourceName": "Baruipur Barta",
       "sourceType": "facebook",
@@ -400,7 +377,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 32,
-      "crawlHash": "9cdc815d27a687c2016ef0330a48e432"
+      "crawlHash": "9cdc815d27a687c2016ef0330a48e432",
+      "sources": [
+        "Baruipur Barta"
+      ]
     },
     {
       "id": "art-1789388813327-bud3",
@@ -423,7 +403,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 46,
-      "crawlHash": "e6de12bb5de0329b4d3d2faa1e4e874d"
+      "crawlHash": "e6de12bb5de0329b4d3d2faa1e4e874d",
+      "sources": [
+        "Baruipur Barta"
+      ]
     },
     {
       "id": "art-1789388812850-l9yy",
@@ -446,7 +429,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 43,
-      "crawlHash": "d0d976d097229b7ec94303a36f59229d"
+      "crawlHash": "d0d976d097229b7ec94303a36f59229d",
+      "sources": [
+        "Baruipur Barta"
+      ]
     },
     {
       "id": "art-1789388810960-lmt7",
@@ -454,8 +440,8 @@
       "slug": "বারুইপুরে-শিক্ষকদের-মাইনে-থেকে-কাটমানি-নেওয়ার-অভিযোগ-পুরনো-গভর্নিং-বডির-সঙ্গে-নতুন-কমি",
       "summary": "বারুইপুরে শিক্ষকদের মাইনে থেকে ‘কাটমানি’ নেওয়ার অভিযোগ, পুরনো গভর্নিং বডির সঙ্গে নতুন কমিটির সংঘাত।    । বারুইপুরে গৃহস্থের বাড়িতে চুরি, আলমারি-লকার ভেঙে উধাও গয়না ও নগদ।  ...",
       "content": "বারুইপুরে শিক্ষকদের মাইনে থেকে ‘কাটমানি’ নেওয়ার অভিযোগ, পুরনো গভর্নিং বডির সঙ্গে নতুন কমিটির সংঘাত।    । বারুইপুরে গৃহস্থের বাড়িতে চুরি, আলমারি-লকার ভেঙে উধাও গয়না ও নগদ।    ।\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা অভিযোগ জানাতে স্থানীয় থানা বা ডিস্ট্রিক্ট কন্ট্রোল রুমে সরাসরি যোগাযোগ করা যাবে। এলাকায় শান্তি-শৃঙ্খলা বজায় রাখতে পুলিশি টহল অব্যাহত রয়েছে।",
-      "category": "education",
-      "categoryNameBn": "শিক্ষা ও বিদ্যায়তন",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-barta",
       "sourceName": "Baruipur Barta",
       "sourceType": "facebook",
@@ -469,30 +455,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 10,
-      "crawlHash": "7591f420aa71245bf9511f8a30cf9bd0"
-    },
-    {
-      "id": "art-1789388809666-yg0x",
-      "title": "বারুইপুর বেঙ্গল TVS এ নতুন চমক",
-      "slug": "বারুইপুর-বেঙ্গল-tvs-এ-নতুন-চমক",
-      "summary": "বারুইপুর বেঙ্গল TVS এ নতুন চমক! বৈদ্যুতিক স্কুটার আইকিউব মিলিয়নআর এর নতুন সংস্করণে মাতল ক্রেতারা\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্...",
-      "content": "বারুইপুর বেঙ্গল TVS এ নতুন চমক! বৈদ্যুতিক স্কুটার আইকিউব মিলিয়নআর এর নতুন সংস্করণে মাতল ক্রেতারা\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-update",
-      "sourceName": "Baruipur Update",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurUpdate/videos/1382397450164637/",
-      "originalPostUrl": "https://www.facebook.com/BaruipurUpdate/videos/1382397450164637/",
-      "imageUrl": "/images/crawled/c27d5b8701acacb4172c4f2cc422ce0f.jpg",
-      "videoUrl": "https://www.facebook.com/watch/?v=1382397450164637",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1382397450164637&show_text=0",
-      "publishedAt": "2026-09-09T06:45:36.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 51,
-      "crawlHash": "ee1e30ce2c987ae45e27c544020dd540"
+      "crawlHash": "7591f420aa71245bf9511f8a30cf9bd0",
+      "sources": [
+        "Baruipur Barta"
+      ]
     },
     {
       "id": "art-1789388809606-xds4",
@@ -513,7 +479,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 54,
-      "crawlHash": "c150aa91ab87ace8416becbffc74fe2b"
+      "crawlHash": "c150aa91ab87ace8416becbffc74fe2b",
+      "sources": [
+        "Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388809606-h4wa",
@@ -536,7 +505,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 23,
-      "crawlHash": "cb2199dbbc3767d3c8700e42adaf218b"
+      "crawlHash": "cb2199dbbc3767d3c8700e42adaf218b",
+      "sources": [
+        "Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388809605-hys2",
@@ -559,7 +531,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "ebfb95a7683efea2dca57cbe11123934"
+      "crawlHash": "ebfb95a7683efea2dca57cbe11123934",
+      "sources": [
+        "Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388809604-6ra8",
@@ -567,8 +542,8 @@
       "slug": "ইঞ্জিনিয়ারিং-পড়ুয়াই-বাইক-চোর",
       "summary": "ইঞ্জিনিয়ারিং পড়ুয়াই বাইক চোর! টিটাগড়ে ঘর ভাড়া নিয়ে চুরির কারবার, বারুইপুরে গ্রেপ্তার সৌভিক\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়ে...",
       "content": "ইঞ্জিনিয়ারিং পড়ুয়াই বাইক চোর! টিটাগড়ে ঘর ভাড়া নিয়ে চুরির কারবার, বারুইপুরে গ্রেপ্তার সৌভিক\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা অভিযোগ জানাতে স্থানীয় থানা বা ডিস্ট্রিক্ট কন্ট্রোল রুমে সরাসরি যোগাযোগ করা যাবে। এলাকায় শান্তি-শৃঙ্খলা বজায় রাখতে পুলিশি টহল অব্যাহত রয়েছে।",
-      "category": "education",
-      "categoryNameBn": "শিক্ষা ও বিদ্যায়তন",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-update",
       "sourceName": "Baruipur Update",
       "sourceType": "facebook",
@@ -582,7 +557,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "745def6ec577848dac85d8f59bb29901"
+      "crawlHash": "745def6ec577848dac85d8f59bb29901",
+      "sources": [
+        "Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388809604-nddm",
@@ -605,7 +583,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 15,
-      "crawlHash": "98273f4385e93956ae2f42f7556c9343"
+      "crawlHash": "98273f4385e93956ae2f42f7556c9343",
+      "sources": [
+        "Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388806966-t8gq",
@@ -628,72 +609,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 10,
-      "crawlHash": "26fdb21ac6d226aa9168b8dcf2324d9b"
-    },
-    {
-      "id": "art-1789388805409-s28y",
-      "title": "বারুইপুরে চুরি যাওয়া এনফিল্ড বুলেট বাইকের খোঁজ মেলেনি",
-      "slug": "1058",
-      "summary": "Amar churi jaoya enfield bulet tar ki holo 1058\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "content": "Amar churi jaoya enfield bulet tar ki holo 1058\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "crime",
-      "categoryNameBn": "অপরাধ ও প্রশাসন",
-      "sourceId": "src-fb-update",
-      "sourceName": "Baruipur Update",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurUpdate/posts/1409063711172121",
-      "originalPostUrl": "https://www.facebook.com/BaruipurUpdate/posts/1409063711172121",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:25:57.512Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 39,
-      "crawlHash": "6930f7a59b5c57cb5b6629731f9008c3"
-    },
-    {
-      "id": "art-1789388804975-ep64",
-      "title": "আমার বাড়ি দুর্গাবাটি আর আমিই জানি না বিল টা কোথায়",
-      "slug": "আমার-বাড়ি-দুর্গাবাটি-আর-আমিই-জানি-না-বিল-টা-কোথায়",
-      "summary": "আমার বাড়ি দুর্গাবাটি আর আমিই জানি না বিল টা কোথায় । বিল কি ঠিক বলতে পারব না তবে আমি যেটা জানি  মাঠে বর্ষার সময় ১ কোমর জল হয়ে যায় যখন তখন এই সালতি গুলো বের করে মাছ ধরতে যা...",
-      "content": "আমার বাড়ি দুর্গাবাটি আর আমিই জানি না বিল টা কোথায় । বিল কি ঠিক বলতে পারব না তবে আমি যেটা জানি  মাঠে বর্ষার সময় ১ কোমর জল হয়ে যায় যখন তখন এই সালতি গুলো বের করে মাছ ধরতে যায় বা মাঠের মাঝখানে যাদের উচু উচু বাগান আছে ভেরি এসে সেখানে যায় শালতি করে\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-uncover",
-      "sourceName": "Baruipur Uncover",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/profile.php?id=61573762996730/posts/941834981641668",
-      "originalPostUrl": "https://www.facebook.com/profile.php?id=61573762996730/posts/941834981641668",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:25:52.305Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 32,
-      "crawlHash": "e103568f673a112aa77ab2aae70244e7"
-    },
-    {
-      "id": "art-1789388804974-izd5",
-      "title": "বারুইপুর হ্যাপি ভ্যালির কাছে দুর্গাবাটি বিলে গিয়েছো?",
-      "slug": "বারুইপুর-হ্যাপি-ভ্যালির-কাছে-দুর্গাবাটি-বিলে-গিয়েছো",
-      "summary": "বারুইপুর হ্যাপি ভ্যালির কাছে দুর্গাবাটি বিলে গিয়েছো?\n\n[ durgabati bill, new viral spot, dirgabati bill in baruipur, biral spot in baruipur, baruipur, baruipur uncovered ]\n\n[স...",
-      "content": "বারুইপুর হ্যাপি ভ্যালির কাছে দুর্গাবাটি বিলে গিয়েছো?\n\n[ durgabati bill, new viral spot, dirgabati bill in baruipur, biral spot in baruipur, baruipur, baruipur uncovered ]\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-uncover",
-      "sourceName": "Baruipur Uncover",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/61573762996730/videos/1088151853630387/",
-      "originalPostUrl": "https://www.facebook.com/61573762996730/videos/1088151853630387/",
-      "imageUrl": "/images/crawled/a1c34a72bd77ccf0bf81eca15cc10daa.jpg",
-      "videoUrl": "https://www.facebook.com/watch/?v=1088151853630387",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1088151853630387&show_text=0",
-      "publishedAt": "2026-08-31T16:45:19.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 51,
-      "crawlHash": "a8a62267f261a605bcffcb635208b2bc"
+      "crawlHash": "26fdb21ac6d226aa9168b8dcf2324d9b",
+      "sources": [
+        "Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388804974-dyrd",
@@ -716,7 +635,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "610de518347259c5ca45da368a16d42f"
+      "crawlHash": "610de518347259c5ca45da368a16d42f",
+      "sources": [
+        "Baruipur Uncover, Baruipur 24x7"
+      ]
     },
     {
       "id": "art-1789388804974-ob29",
@@ -737,7 +659,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 59,
-      "crawlHash": "0d66f9f2bcaae40d6b117d6cbb436832"
+      "crawlHash": "0d66f9f2bcaae40d6b117d6cbb436832",
+      "sources": [
+        "Baruipur Uncover"
+      ]
     },
     {
       "id": "art-1789388804490-0wfp",
@@ -760,7 +685,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 51,
-      "crawlHash": "94c16c5f5c754342955fd65e7acd7a53"
+      "crawlHash": "94c16c5f5c754342955fd65e7acd7a53",
+      "sources": [
+        "Baruipur Barta, Baruipur Uncover"
+      ]
     },
     {
       "id": "art-1789388796803-ldcn",
@@ -781,7 +709,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 28,
-      "crawlHash": "a755698142d64eca2e5a7b7b21df1218"
+      "crawlHash": "a755698142d64eca2e5a7b7b21df1218",
+      "sources": [
+        "All Baruipur News"
+      ]
     },
     {
       "id": "art-1789388794046-hlkv",
@@ -789,8 +720,8 @@
       "slug": "মর্মান্তিক-খুনের-দায়ে-অপরাধীর-যাবজ্জীবন-কারাদণ্ড",
       "summary": "মর্মান্তিক খুনের দায়ে অপরাধীর যাবজ্জীবন কারাদণ্ড\n\nহুগলি গ্রামীণ জেলা পুলিশের অন্তর্গত পাণ্ডুয়া থানার ঘটনা। রামেশ্বরপুর এলাকার মঙ্গলা রায় তাঁর ছেলেকে নিয়ে একাই থাকতেন। ধীরে...",
       "content": "মর্মান্তিক খুনের দায়ে অপরাধীর যাবজ্জীবন কারাদণ্ড\n\nহুগলি গ্রামীণ জেলা পুলিশের অন্তর্গত পাণ্ডুয়া থানার ঘটনা। রামেশ্বরপুর এলাকার মঙ্গলা রায় তাঁর ছেলেকে নিয়ে একাই থাকতেন। ধীরে ধীরে মঙ্গলাদেবীর পরিচয় হয় শেখ মহিবুল ইসলামের সঙ্গে। দিন যায়, সম্পর্ক আরও ঘনিষ্ঠ হয়। এভাবে বেশ কিছুদিন যাওয়ার পর শুরু হয় বাদানুবাদ। এরপর থেকে মঙ্গলাদেবীর সঙ্গে প্রায়ই কথা কাটাকাটি ও বচসা লেগেই থাকত মহিবুল ইসলামের।\n\n২২ এপ্রিল, ২০২৩। রাত তখন প্রায় ৮টা ৩০ মিনিট। মহিবুল মঙ্গলাদেবীর বাড়িতে আসে এবং শুরু হয় গালিগালাজ ও বচসা। পরিস্থিতি উত্তপ্ত হলে মহিবুল একটি ইঁট নিয়ে মঙ্গলা দেবীর মুখে ও মাথায় বারবার আঘাত করতে থাকে। মঙ্গলাদেবী নিস্তেজ হয়ে পড়লে ঘটনাস্থল ছেড়ে পালিয়ে যায় মহিবুল।\n\nআশঙ্কাজনক অবস্থায় মঙ্গলাদেবীকে উদ্ধার করে স্থানীয় হাসপাতালে ভর্তি করা হয়। এরপর শারীরিক অবস্থার অবনতি হওয়ায় তাঁকে সেখান থেকে চুঁচুড়া ইমামবাড়া হাসপাতালে স্থানান্তরিত করা হয়। পরদিন সকালে মৃত্যু হয় মঙ্গলা দেবীর।\n\n২৩ এপ্রিল মৃতা মঙ্গলাদেবীর পরিবার পাণ্ডুয়া থানায় মামলা রুজু করেন। মামলার তৎকালীন তদন্তকারী অফিসার সাব-ইন্সপেক্টর রাকেশ দাস পূর্ণাঙ্গ তদন্ত শেষে সমস্ত তথ্য ও প্রমাণ সংগ্রহ করে আদালতে নিখুঁত চার্জশীট জমা করেন।\n\nসম্প্রতি এই নৃশংস হত্যার বিচার শেষে প্রকাশিত রায়ে মহামান্য আদালত অভিযুক্ত শেখ মহিবুল ইসলামকে দোষী সাব্যস্ত করে ২০,০০০ টাকা জরিমানাসহ যাবজ্জীবন কারাদণ্ডের নির্দেশ দিয়েছেন।\n\nHooghly Rural Police",
-      "category": "health",
-      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-police",
       "sourceName": "Baruipur Police District",
       "sourceType": "facebook",
@@ -802,7 +733,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 50,
-      "crawlHash": "f58070b5f16678105f00fba30989b8c0"
+      "crawlHash": "f58070b5f16678105f00fba30989b8c0",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388794046-amz1",
@@ -823,7 +757,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 15,
-      "crawlHash": "c6dd1366f4723e7c6ee9e9c9304e20ca"
+      "crawlHash": "c6dd1366f4723e7c6ee9e9c9304e20ca",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388792833-35v6",
@@ -831,8 +768,8 @@
       "slug": "বারুইপুরের-বিশেষ-সংবাদ-ও-স্থানীয়-আপডেট",
       "summary": "Canning Police station recovers illegal firearms and sharp weapons in two separate operations:। In an operation by Canning Police Station, one small country-made firearm and 7...",
       "content": "Canning Police station recovers illegal firearms and sharp weapons in two separate operations:। In an operation by Canning Police Station, one small country-made firearm and 7 choppers were recovered from the possession of Bablu Sk., a resident of Angadberia area.। In another separate operation, Amit Singh, resident of Bihar, who has been residing in Canning area for the last few years, was detained. Subsequently, on search, one small firearm and one round of ammunition were recovered from his possession.। In both cases, both accused have been arrested and specific cases have been registered under the Arms Act. Investigation is underway to ascertain the source of the illegal arms, the motive behind their use, and whether anyone else is involved. Such operations against illegal arms by Canning Police Station will continue in future as well.। ক্যানিং থানার অভিযানে  অঙ্গদবেড়িয়া এলাকার বাসিন্দা বাবলু শেখের হেফাজত থেকে একটি ছোট দেশি আগ্নেয়াস্ত্র এবং ৭টি চপার উদ্ধার করা হয়। অন্য একটি পৃথক অভিযানে অমিত সিংহ, বাড়ি– বিহার, যিনি গত কয়েক বছর ধরে ক্যানিং এলাকায় বসবাস করছেন, তাকে আটক করা হয়। পরবর্তীতে তল্লাশি চালিয়ে তার হেফাজত থেকে একটি ছোট আগ্নেয়াস্ত্র এবং এক রাউন্ড গুলি উদ্ধার করা হয়। উভয় ক্ষেত্রেই দুই অভিযুক্তকে গ্রেপ্তার করে অস্ত্র আইনের নির্দিষ্ট ধারায় মামলা রুজু করা হয়েছে। বেআইনি অস্ত্রের উৎস, ব্যবহারের উদ্দেশ্য এবং এর সঙ্গে আর কেউ জড়িত রয়েছে কি না, তা খতিয়ে দেখতে তদন্ত প্রক্রিয়া অব্যাহত রয়েছে। বেআইনি অস্ত্রের বিরুদ্ধে ক্যানিং থানার পুলিশের এই অভিযান ভবিষ্যতেও ধারাবাহিকভাবে চলবে। বারুইপুর থানার পুলিশের বড়সড় সাফল্য,উদ্ধার তিনটি চোরাই বাইক — গ্রেপ্তার এক।",
-      "category": "railway",
-      "categoryNameBn": "রেল ও যাতায়াত",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-police",
       "sourceName": "Baruipur Police District, Baruipur Update",
       "sourceType": "facebook",
@@ -846,7 +783,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 25,
-      "crawlHash": "a9686a26b220577df81ed734c4e38688"
+      "crawlHash": "a9686a26b220577df81ed734c4e38688",
+      "sources": [
+        "Baruipur Police District, Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388791585-8z3f",
@@ -867,7 +807,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 10,
-      "crawlHash": "43bda65bc729e5fe86d950b1de0e7c10"
+      "crawlHash": "43bda65bc729e5fe86d950b1de0e7c10",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388790159-m04d",
@@ -875,8 +818,8 @@
       "slug": "বারুইপুরের-বিশেষ-সংবাদ-ও-স্থানীয়-আপডেট",
       "summary": "Joint Enforcement Drive Against Unhygienic Food Establishments in Canning:\n\nToday, a joint inspection was carried out at various hotels, sweet shops and water purification uni...",
       "content": "Joint Enforcement Drive Against Unhygienic Food Establishments in Canning:\n\nToday, a joint inspection was carried out at various hotels, sweet shops and water purification units in Canning in the presence of the SDO Canning, SDPO Canning and Food Safety Officers.\n\nDuring the drive, on the recommendation of the concerned civil authorities, two food establishments, including a biryani shop, were sealed due to unhygienic conditions, use of unsafe food ingredients and poor kitchen cleanliness. \n\nআজ ক্যানিং-এ মাননীয় ক্যানিং মহকুমা শাসক, মাননীয় এস. ডি . পি.ও. ক্যানিং এবং ফুড সেফটি অফিসারদের উপস্থিতিতে বিভিন্ন হোটেল, মিষ্টির দোকান ও জল পরিশোধন ইউনিটে যৌথ পরিদর্শন অভিযান চালানো হয়।\n\nঅভিযান চলাকালীন সংশ্লিষ্ট প্রশাসনিক কর্তৃপক্ষের সুপারিশে অস্বাস্থ্যকর পরিবেশ, অনিরাপদ খাদ্য সামগ্রীর ব্যবহার এবং রান্নাঘরে অপরিচ্ছন্নতার কারণে একটি বিরিয়ানির দোকান সহ দুটি খাদ্য প্রতিষ্ঠান সিল করে দেওয়া হয়।",
-      "category": "railway",
-      "categoryNameBn": "রেল ও যাতায়াত",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-police",
       "sourceName": "Baruipur Police District",
       "sourceType": "facebook",
@@ -888,51 +831,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 36,
-      "crawlHash": "d8b06967355eddf6aa6e17ecee93af9d"
-    },
-    {
-      "id": "art-1789388790158-e50t",
-      "title": "শুভ জন্মাষ্টমীর পূণ্যলগ্নে বাবা লোকনাথ ব্রহ্মচারীর জন্মোৎসব উদযাপনে বসিরহাটের ঐতিহ্যবাহী ক",
-      "slug": "শুভ-জন্মাষ্টমীর-পূণ্যলগ্নে-বাবা-লোকনাথ-ব্রহ্মচারীর-জন্মোৎসব-উদযাপনে-বসিরহাটের-ঐতিহ্যবাহী-ক",
-      "summary": "শুভ জন্মাষ্টমীর পূণ্যলগ্নে বাবা লোকনাথ ব্রহ্মচারীর জন্মোৎসব উদযাপনে বসিরহাটের ঐতিহ্যবাহী কচুয়া ধামে সমবেত হয়েছিলেন সাত লক্ষেরও বেশি ভক্ত।\n\nতীর্থযাত্রা নিরাপদ, শান্তিপূর্ণ ও ...",
-      "content": "শুভ জন্মাষ্টমীর পূণ্যলগ্নে বাবা লোকনাথ ব্রহ্মচারীর জন্মোৎসব উদযাপনে বসিরহাটের ঐতিহ্যবাহী কচুয়া ধামে সমবেত হয়েছিলেন সাত লক্ষেরও বেশি ভক্ত।\n\nতীর্থযাত্রা নিরাপদ, শান্তিপূর্ণ ও নির্বিঘ্ন রাখতে বসিরহাট পুলিশ জেলার তরফ থেকে উপযুক্ত নিরাপত্তা ব্যবস্থা গ্রহণ করা হয়েছিল। এর মধ্যে ছিল নির্দিষ্ট হোল্ডিং জোন, আশেপাশের জলাশয় বরাবর মজবুত বাঁশের ব্যারিকেড। মোতায়েন করা হয়েছিল প্রশিক্ষিত সিভিল ডিফেন্স কর্মী। প্রয়োজনীয় স্থানে নির্মাণ করা হয়েছিল পুলিশ সহায়তা বুথ, পানীয় জলের কিয়স্ক, মেডিকেল ক্যাম্প ও চব্বিশ ঘণ্টার অ্যাম্বুলেন্স পরিষেবা।\n\nএছাড়া নজরদারির জন্য ড্রোন এবং ২০০-টিরও বেশি নাইট-ভিশন সিসিটিভি ক্যামেরার ব্যবস্থাও ছিল, এর সাহায্যে ভেন্যু কন্ট্রোল রুম থেকে নিরবচ্ছিন্নভাবে এই বিশাল জনসমাগমের উপর কড়া নজর রাখা সম্ভব হয়েছিল।\n\nসুষ্ঠু পরিকল্পনা এবং নিরলস সতর্কতার মাধ্যমে এই মহোৎসব নির্বিঘ্নে সম্পন্ন হয়েছে।\n\nBasirhat Police District",
-      "category": "health",
-      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
-      "sourceId": "src-fb-police",
-      "sourceName": "Baruipur Police District",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid02SMUYS14Cvsn3k6SYfsWJXRre3nHhDUnZFtfeQTjBA76YHELuLHbMyRLkGzMnJyakl",
-      "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid02SMUYS14Cvsn3k6SYfsWJXRre3nHhDUnZFtfeQTjBA76YHELuLHbMyRLkGzMnJyakl",
-      "imageUrl": "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg",
-      "videoUrl": "https://www.facebook.com/watch/?v=1713246036640980",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1713246036640980&show_text=0",
-      "publishedAt": "2026-09-06T03:13:04.000Z",
-      "isBreaking": true,
-      "isFeatured": false,
-      "status": "published",
-      "views": 14,
-      "crawlHash": "d6775514d090e44e4028780d8df29463"
-    },
-    {
-      "id": "art-1789388790158-1bgo",
-      "title": "বারুইপুরের বিশেষ সংবাদ ও স্থানীয় আপডেট",
-      "slug": "বারুইপুরের-বিশেষ-সংবাদ-ও-স্থানীয়-আপডেট",
-      "summary": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "content": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-police",
-      "sourceName": "Baruipur Police District",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/4703448369891290",
-      "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/4703448369891290",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:25:42.534Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 27,
-      "crawlHash": "6d1130579e7f95bc91faad8a03534bf5"
+      "crawlHash": "d8b06967355eddf6aa6e17ecee93af9d",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388790158-7hne",
@@ -955,7 +857,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 54,
-      "crawlHash": "16fe432e534ab5e7dc690262c365e82f"
+      "crawlHash": "16fe432e534ab5e7dc690262c365e82f",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388790158-otg5",
@@ -978,7 +883,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 45,
-      "crawlHash": "95e1bd9158993482d8beedb3165b2fc0"
+      "crawlHash": "95e1bd9158993482d8beedb3165b2fc0",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388790158-2zuo",
@@ -986,8 +894,8 @@
       "slug": "ভুয়ো-ডাক্তার-থেকে-সাবধান",
       "summary": "ভুয়ো ডাক্তার থেকে সাবধান!\n\nসালটা ২০২০। বারাসাত থানা এলাকার বাসিন্দা অর্চনা রায়ের বাবা নিখিল চন্দ্র রায় (৫০ বছর) অসুস্থ ছিলেন, তিনি প্রায় মাথার সমস্যায় ভুগতেন। এমতাবস্থায়...",
       "content": "ভুয়ো ডাক্তার থেকে সাবধান!\n\nসালটা ২০২০। বারাসাত থানা এলাকার বাসিন্দা অর্চনা রায়ের বাবা নিখিল চন্দ্র রায় (৫০ বছর) অসুস্থ ছিলেন, তিনি প্রায় মাথার সমস্যায় ভুগতেন। এমতাবস্থায় বিধান নগর পুলিশ কমিশনারেটের অন্তর্ভুক্ত ইকোপার্ক থানা এলাকার, আরিয়ান হাসপাতালে চিকিৎসার জন্য অর্চনাদেবী নিখিল বাবুকে নিয়ে যান। সেখানে ভুয়ো ডাক্তার বজলুর রহমানের অধীনে নিখিলবাবুর চিকিৎসা চলে। চিকিৎসা চলাকালীন রোগীর পরিবারকে বজলুর রহমান জানায় যে ১.৭৫ লক্ষ টাকা জমা দিতে হবে অপারেশনের জন্য। নিখিল বাবুর পরিবার কথামতো টাকা জমা দেন এবং রোগীর অপারেশনের তারিখ ঠিক হয় ৩রা জুলাই। \n\nরোগীর পরিবারের বিশ্বাস ছিল—ডাক্তার ভগবান! ডাক্তার বাবু বলেছেন অপারেশনের পর নিখিলবাবু একদম সুস্থ হয়ে উঠবেন। কিন্তু তা তো হলো না! ১২ ই জুলাই নিখিল চন্দ্র রায়ের মৃত্যু হয়। কিন্তু কেন? এই প্রশ্নটা নিখিল বাবুর পরিবারকে কুরে কুরে খাচ্ছিল। \n\nঅর্চনাদেবীর সন্দেহ হওয়ায়, ১৭ আগস্ট ইকোপার্ক থানায় তিনি একটি লিখিত অভিযোগ দায়ের করেন। অভিযোগ অনুযায়ী মামলা রুজু হয়। এই তদন্তের ভার এসে বর্তায় ওই থানার তৎকালীন সাব-ইন্সপেক্টর (বর্তমানে ইন্সপেক্টর) জোনাকি বাগচীর উপর। তিনি তদন্তে নেমে সবটা খতিয়ে দেখেন। \n\nপরের দিন অর্থাৎ ১৮ আগস্ট অভিযুক্ত বজলুর রহমানকে কল্যাণী থেকে গ্রেফতার করা হয়। জানা যায় গাড়ির চালককে টাকা দিয়ে বজলুর রোগী নিয়ে আসতো, কিছুদিনের মধ্যেই জানাতো রোগীর পরিবারকে অপারেশনের কথা, এভাবেই সে সাধারণ মানুষের কাছ থেকে লক্ষ লক্ষ টাকা লুট করতো। কিছু রোগীর জ্ঞান ফিরলেও সুস্থ হতো না কোনদিনই, আর কিছু রোগী সেখানেই মারা যেত। এমনই এক ভয়ঙ্কর প্রতারণার জাল বিস্তার করেছিল বজলুর। \n\nতদন্তকারী অফিসার সমস্ত তথ্য প্রমাণ সংগ্রহ করে তিন মাসের মধ্যে আদালতে চার্জশিট দাখিল করেন। \n\nসদ্য এই মামলার রায়ে অভিযুক্ত বজলুর রহমানকে মহামান্য আদালত দোষী সাব্যস্ত করে ৩ লক্ষ টাকা জরিমানা সহ ৮ বছর সশ্রম কারাদন্ডে দন্ডিত করেছেন।\n\nBidhannagar City Police",
-      "category": "health",
-      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-police",
       "sourceName": "Baruipur Police District",
       "sourceType": "facebook",
@@ -999,7 +907,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "5cf7ca82c668cd1999ff94e1c0bf6146"
+      "crawlHash": "5cf7ca82c668cd1999ff94e1c0bf6146",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388790158-2qap",
@@ -1020,7 +931,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 34,
-      "crawlHash": "d5d26b11559a325c4678fa16fd89bda9"
+      "crawlHash": "d5d26b11559a325c4678fa16fd89bda9",
+      "sources": [
+        "Baruipur Police District"
+      ]
     },
     {
       "id": "art-1789388788940-qfhf",
@@ -1041,49 +955,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "b9b1be857e1da7528e31c8fa189952b0"
-    },
-    {
-      "id": "art-1789388788939-5wx4",
-      "title": "বারুইপুরের বিশেষ সংবাদ ও স্থানীয় আপডেট",
-      "slug": "বারুইপুরের-বিশেষ-সংবাদ-ও-স্থানীয়-আপডেট",
-      "summary": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "content": "🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-police",
-      "sourceName": "Baruipur Police District",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/1406170588272071",
-      "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/1406170588272071",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:25:42.533Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 21,
-      "crawlHash": "a4568e2264f97f1b5757062a18afded1"
-    },
-    {
-      "id": "art-1789388787527-nu8z",
-      "title": "Awareness Programme on Child Marriage and Human Trafficking organised at Nimpith Girls Hig",
-      "slug": "বারুইপুরের-বিশেষ-সংবাদ-ও-স্থানীয়-আপডেট",
-      "summary": "Awareness Programme on Child Marriage and Human Trafficking organised at Nimpith Girls High School under Bakultala PS:। An awareness programme on child marriage and human traf...",
-      "content": "Awareness Programme on Child Marriage and Human Trafficking organised at Nimpith Girls High School under Bakultala PS:। An awareness programme on child marriage and human trafficking was organised today at Nimpith Girls High School by Bakultala Police Station.। In the programme, students were sensitised about the ill effects of child marriage, legal provisions under the Prohibition of Child Marriage Act, methods of trafficking, its consequences and preventive measures. They were also informed about Child Helpline No. 1098, police assistance and how to seek help in case of any such incident.। The initiative was undertaken to create awareness among adolescent girls and to ensure their safety and empowerment.। আজ বকুলতলা থানার পক্ষ থেকে নিমপীঠ গার্লস হাই স্কুলে বাল্যবিবাহ ও মানব পাচার বিষয়ে একটি সচেতনতামূলক কর্মসূচির আয়োজন করা হয়। উক্ত কর্মসূচিতে ছাত্রীদের বাল্যবিবাহের কুফল, বাল্যবিবাহ প্রতিরোধ আইনের বিধানাবলী, মানব পাচারের বিভিন্ন কৌশল, তার ভয়াবহ পরিণতি ও প্রতিরোধমূলক ব্যবস্থা সম্পর্কে বিস্তারিতভাবে অবহিত করা হয়। এছাড়াও চাইল্ড হেল্পলাইন নম্বর ১০৯৮, পুলিশি সহায়তা এবং এই ধরনের কোনো ঘটনার সম্মুখীন হলে কিভাবে সাহায্য চাইতে হবে সে বিষয়েও তাদের সচেতন করা হয়। কিশোরীদের মধ্যে সচেতনতা বৃদ্ধি এবং তাদের নিরাপত্তা ও ক্ষমতায়ন সুনিশ্চিত করাই ছিল এই উদ্যোগের মূল লক্ষ্য। Station a pichone।",
-      "category": "railway",
-      "categoryNameBn": "রেল ও যাতায়াত",
-      "sourceId": "src-fb-police",
-      "sourceName": "Baruipur Police District, Baruipur 24x7",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid02y7kW8RZAUDghJd4K9b3WUMr7dWmtEa8vSpyczspZwoYH5VekXAGK5wqmK3rBnVoLl",
-      "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid02y7kW8RZAUDghJd4K9b3WUMr7dWmtEa8vSpyczspZwoYH5VekXAGK5wqmK3rBnVoLl",
-      "imageUrl": "/images/crawled/2e03741cc24cc82c09c6b7ccb30cba2d.jpg",
-      "publishedAt": "2026-09-12T17:33:58.000Z",
-      "isBreaking": true,
-      "isFeatured": false,
-      "status": "published",
-      "views": 43,
-      "crawlHash": "86d1758f6f211e81bae87facb69a98f5"
+      "crawlHash": "b9b1be857e1da7528e31c8fa189952b0",
+      "sources": [
+        "Baruipur Police District, Baruipur Update"
+      ]
     },
     {
       "id": "art-1789388786133-gtpx",
@@ -1091,8 +966,8 @@
       "slug": "ব্যাংক-ডাকাতির-mastermind-ব্যাংক-কর্মী",
       "summary": "ব্যাংক ডাকাতির Mastermind ব্যাংক কর্মী। সময়টা ১৯ আগস্ট ২০২৫। রাত তখন প্রায় ১০টা ১৫। রানাঘাট পুলিশ জেলার চাকদহ থানায় এসে উপস্থিত হন উত্তর পাঁচপোতা গ্রামের বাসিন্দা এবং IDFC ...",
       "content": "ব্যাংক ডাকাতির Mastermind ব্যাংক কর্মী। সময়টা ১৯ আগস্ট ২০২৫। রাত তখন প্রায় ১০টা ১৫। রানাঘাট পুলিশ জেলার চাকদহ থানায় এসে উপস্থিত হন উত্তর পাঁচপোতা গ্রামের বাসিন্দা এবং IDFC First Bank-এর (চাকদহ শাখার) গোল্ড লোন বিভাগের SM অভিজিৎ ঘোষ। তিনি একটি লিখিত অভিযোগ দায়ের করেন। অভিযোগ অনুযায়ী, ওইদিন সন্ধ্যা ৬টা ২৩ মিনিটে দুইজন অজ্ঞাতপরিচয় দুষ্কৃতী আগ্নেয়াস্ত্র নিয়ে ব্যাংকের ভিতরে ঢোকে এবং প্রাণনাশের হুমকি দিয়ে ব্যাংকের কর্মীদের ভয় দেখিয়ে ভল্ট থেকে বিপুল পরিমাণ সোনার গয়না নিয়ে তারা পালিয়ে যায়। অভিযোগের ভিত্তিতে একটি মামলা রুজু হয়। মামলাটির তদন্তভার গ্রহণ করেন ওই থানার অফিসার সাব-ইন্সপেক্টর সৌভিক ঘোষ। ঘটনাটি প্রথমে মনে হয়েছিল আর পাঁচটা ব্যাংক ডাকাতির মতোই। কিন্তু তদন্ত শুরু হতেই গল্পটা অন্য মোড় নিতে শুরু করল। ডাকাতির পুরো পরিকল্পনাই ছিল সাজানো। অভিজিৎ ঘোষ তার সহকর্মী বাপ্পা ঘোষের সঙ্গে মিলে ডাকাতির পুরো ছক তৈরি করেছিলো। এরপর তারা রাজ্জাক মণ্ডল, সাহেব মণ্ডল ও মহসিন মণ্ডলকে এই পরিকল্পনায় সামিল করে। প্ল্যান ছিল এমন—যাতে ব্যাংকের ভিতরের কর্মীদের দিকে কোনও সন্দেহের আঙুল না ওঠে। ডাকাতির দিনও অভিজিৎ ও বাপ্পা প্রতিদিনের মতোই ব্যাংকের শাখায় উপস্থিত ছিলো। আর পরিকল্পনা অনুযায়ী মহসিন মোটরসাইকেলে করে রাজ্জাক ও সাহেবকে ব্যাংকের সামনে নামিয়ে দিয়ে যায়। এরপর ঘটে ঠিক সেই ঘটনাই, যার কথা অভিজিৎ ঘোষ থানায় অভিযোগে জানিয়েছিলো। সাব-ইন্সপেক্টর সৌভিক ঘোষ তাঁর তদন্ত শেষ করে পাঁচজন অভিযুক্তকে গ্রেফতার করেন। সমস্ত লুট হওয়া সোনার অলংকার, দুটি দেশি আগ্নেয়াস্ত্র ও জীবন্ত কার্তুজ, ব্যবহৃত পোশাক, দুটি ব্যাগসহ বিভিন্ন সামগ্রী উদ্ধার করা হয়। জমা পড়ে চার্জশিট। বিচার শেষ হয়েছে সম্প্রতি। মহামান্য আদালত অভিযুক্ত অভিজিৎ ঘোষ, বাপ্পা ঘোষ, রাজ্জাক মণ্ডল, মহসিন মণ্ডল এবং সাহেব মণ্ডল এদের প্রত্যেককে দোষী সাব্যস্ত করে ২৫,০০০/- টাকা জরিমানাসহ দীর্ঘ ১০ বছরের কারাবাসে দণ্ডিত করেছেন। Ranaghat Police District - Kalyani। নাবালিকাকে যৌন নির্যাতন: ১০ বছর কারাবাসের সাজা ঘোষণা। ২০২৫ সালের মে মাসে, বছর ষোলোর এক নাবালিকাকে প্রেমের প্রস্তাব দিয়ে একাধিকবার যৌন নির্যাতন করে সাহিল তামাং নামের এক যুবক। কিছুদিন পর গুরুতর অসুস্থ অবস্থায় নাবালিকাকে ভর্তি করা হয় দার্জিলিং সদর হাসপাতালে। হাসপাতাল কর্তৃপক্ষের কাছ থেকে খবর পেয়ে ঘটনাস্থলে পৌঁছায় দার্জিলিং সদর (মহিলা) থানার পুলিশ এবং শুরু হয় তদন্ত। তদন্তের দায়ভার গ্রহণ করেন ওই থানার সাব-ইন্সপেক্টর নম্রতা তামাং। অভিযুক্ত সাহিল তামাংকে দ্রুত গ্রেফতার করা হয়। পরবর্তীতে পূর্ণাঙ্গ তদন্ত শেষে আদালতে চার্জশিট জমা দেয় পুলিশ। মহামান্য আদালত অভিযুক্তকে ১০,০০০/- টাকা জরিমানাসহ দীর্ঘ ১০ বছরের কারাবাসে দণ্ডিত করেছেন। Darjeeling Police। নাবালিকাকে যৌন নির্যাতনে ১০ বছরের কারাদণ্ড। বীরভূমের দুবরাজপুরে এক কিশোরীকে ভুল বুঝিয়ে নিয়ে চলে যায় বাসুদেব ডোম। কিশোরীকে পরিবারের সঙ্গে যোগাযোগ করতে দেওয়া হয় না এবং সঙ্গে চলতে থাকে যৌন নির্যাতন। কিশোরীর বাবার লিখিত অভিযোগের ভিত্তিতে দুবরাজপুর থানায় মামলা রুজু হয়। তদন্তকারী অফিসার সাব-ইন্সপেক্টর রাকেশ তামাং তদন্তে নেমে কিশোরীকে উদ্ধার  ও অভিযুক্তকে গ্রেফতার করেন। দ্রুত চার্জশীট দাখিল করে নিরলস ভাবে মামলার তদারকি করেন। মহামান্য আদালত দোষীকে ১০ বছরের সশ্রম কারাদণ্ড ও  ৫০,০০০/- টাকা আর্থিক জরিমানা ধার্য করেছেন। Birbhum District Police। অস্ত্র নিয়ে তোলাবাজি ও হুমকির অভিযোগে বারুইপুরে গ্রেপ্তার দুষ্কৃতী,উদ্ধার আগ্নেয়াস্ত্র ও তাজা কার্তুজ.। ১৩ বছরের নাবালিকাকে যৌন হেনস্থার অভিযোগ বাবার বিরুদ্ধে, পকসো মামলা রুজু হয়েছে বারুইপুর থানায়। তদন্ত হওয়া দরকার।",
-      "category": "health",
-      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-police",
       "sourceName": "Baruipur Police District, Baruipur Update, Baruipur Barta",
       "sourceType": "facebook",
@@ -1106,22 +981,25 @@
       "isFeatured": false,
       "status": "published",
       "views": 56,
-      "crawlHash": "bb076785577f437a629edb6f4599888d"
+      "crawlHash": "bb076785577f437a629edb6f4599888d",
+      "sources": [
+        "Baruipur Police District, Baruipur Update, Baruipur Barta"
+      ]
     },
     {
       "id": "art-1789388785600-43dv",
-      "title": "উত্তরভাগে তৃণমূল কর্মীর বাড়িতে ভয়াবহ বিস্ফোরণ",
+      "title": "আবারও বারুইপুর - বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ",
       "slug": "উত্তরভাগে-তৃণমূল-কর্মীর-বাড়িতে-ভয়াবহ-বিস্ফোরণ",
       "summary": "* উত্তরভাগে তৃণমূল কর্মীর বাড়িতে ভয়াবহ বিস্ফোরণ।     । Live বারুইপুর উত্তরভাগে তৃণমূল নেতার বাড়িতে ভয়াবহ বিস্ফোরণ,বোমা মজুদের অভিযোগ এলাকাবাসীর। বারুইপুর উত্তরভাগে তৃণমূল ...",
-      "content": "* উত্তরভাগে তৃণমূল কর্মীর বাড়িতে ভয়াবহ বিস্ফোরণ।     । Live বারুইপুর উত্তরভাগে তৃণমূল নেতার বাড়িতে ভয়াবহ বিস্ফোরণ,বোমা মজুদের অভিযোগ এলাকাবাসীর। বারুইপুর উত্তরভাগে তৃণমূল নেতার বাড়িতে ভয়াবহ বিস্ফোরণ,বোমা মজুদের অভিযোগ এলাকাবাসীর। বারুইপুর উত্তরভাগে তৃণমূল নেতার বাড়িতে বিস্ফোরণ।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
+      "content": "আবারও বারুইপুর। বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ কলোনি। তৃণমূল নেতা দ্বিজেন মণ্ডলের দ্বিতল বাড়িতে রাত ২টো নাগাদ আচমকাই বিস্ফোরণ ঘটে। স্থানীয়দের দাবি, বাড়ির দরজার একটি শাটার বিস্ফোরণের অভিঘাতে ছিটকে প্রায় ১০০ মিটার দূরে গিয়ে পড়ে। আতঙ্কে গোটা এলাকা। বারুইপুর উত্তরভাগ লালপুর এলাকায় তৃণমূল নেতার বাড়িতে বিস্ফোরণ।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-voice",
-      "sourceName": "Voice of Baruipur, Baruipur Update, Ramnagar Baruipur",
+      "sourceName": "Voice of Baruipur, Baruipur Update, Ramnagar Baruipur, Baruipur, Baruipur Barta, Baruipur",
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/voiceofbaruipur/videos/941778768403157/",
       "originalPostUrl": "https://www.facebook.com/voiceofbaruipur/videos/941778768403157/",
-      "imageUrl": "/images/crawled/043d9fe0d064fd6a4734b7dcc2ded864.jpg",
+      "imageUrl": "/images/crawled/4eac50c76a360982274f9b2d5415c5b9.jpg",
       "videoUrl": "https://www.facebook.com/watch/?v=941778768403157",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D941778768403157&show_text=0",
       "publishedAt": "2026-09-11T09:47:41.000Z",
@@ -1129,30 +1007,12 @@
       "isFeatured": false,
       "status": "published",
       "views": 37,
-      "crawlHash": "0a0c3f564e902bb1b9b5a3e9117363d8"
-    },
-    {
-      "id": "art-1789388785599-bba5",
-      "title": "আবারও বারুইপুর - বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ",
-      "slug": "আবারও-বারুইপুর-বৃহস্পতিবার-গভীর-রাতে-তীব্র-বিস্ফোরণে-কেঁপে-উঠল-বারুইপুর-পূর্বের-উত্তরভাগ",
-      "summary": "আবারও বারুইপুর। বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ কলোনি। তৃণমূল নেতা দ্বিজেন মণ্ডলের দ্বিতল বাড়িতে রাত ২টো নাগাদ আচমকাই বিস্ফোরণ ঘটে। ...",
-      "content": "আবারও বারুইপুর। বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ কলোনি। তৃণমূল নেতা দ্বিজেন মণ্ডলের দ্বিতল বাড়িতে রাত ২টো নাগাদ আচমকাই বিস্ফোরণ ঘটে। স্থানীয়দের দাবি, বাড়ির দরজার একটি শাটার বিস্ফোরণের অভিঘাতে ছিটকে প্রায় ১০০ মিটার দূরে গিয়ে পড়ে। আতঙ্কে গোটা এলাকা। বারুইপুর উত্তরভাগ লালপুর এলাকায় তৃণমূল নেতার বাড়িতে বিস্ফোরণ।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-baruipur",
-      "sourceName": "Baruipur, Baruipur Barta",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/Baruipur/posts/pfbid0y4useNqBmRQER37drmqkLZYcseeqSbxMRbeQVnaC29Fa3kca1fPXfUGnrXe7WFfUl",
-      "originalPostUrl": "https://www.facebook.com/Baruipur/posts/pfbid0y4useNqBmRQER37drmqkLZYcseeqSbxMRbeQVnaC29Fa3kca1fPXfUGnrXe7WFfUl",
-      "imageUrl": "/images/crawled/4eac50c76a360982274f9b2d5415c5b9.jpg",
-      "videoUrl": "https://www.facebook.com/watch/?v=1595222302186539",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1595222302186539&show_text=0",
-      "publishedAt": "2026-09-11T11:12:47.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 42,
-      "crawlHash": "99708e321a32e15d5f23dda9ec5bd17e"
+      "crawlHash": "0a0c3f564e902bb1b9b5a3e9117363d8",
+      "sources": [
+        "Voice of Baruipur, Baruipur Update, Ramnagar Baruipur",
+        "Baruipur, Baruipur Barta",
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789388785598-n83v",
@@ -1173,28 +1033,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 23,
-      "crawlHash": "59bc649096389a9dcd807bf6bc183e36"
-    },
-    {
-      "id": "art-1789388785598-o0vd",
-      "title": "ারুইপুর,মোনালিসার পিছনে। রেলগেটের নিকট, শ্রীলেদার্সের বিপরীতে।",
-      "slug": "ারুইপুরমোনালিসার-পিছনে-রেলগেটের-নিকট-শ্রীলেদার্সের-বিপরীতে",
-      "summary": "Sujata Sardar বারুইপুর,মোনালিসার পিছনে। রেলগেটের নিকট, শ্রীলেদার্সের বিপরীতে।\n\n[রেল ও যাতায়াত প্রেক্ষাপট]: দক্ষিণ ২৪ পরগনার অন্যতম প্রধান রেল জংশন হলো বারুইপুর। শিয়ালদহ দক্ষ...",
-      "content": "Sujata Sardar বারুইপুর,মোনালিসার পিছনে। রেলগেটের নিকট, শ্রীলেদার্সের বিপরীতে।\n\n[রেল ও যাতায়াত প্রেক্ষাপট]: দক্ষিণ ২৪ পরগনার অন্যতম প্রধান রেল জংশন হলো বারুইপুর। শিয়ালদহ দক্ষিণ শাখার ডায়মন্ড হারবার, ক্যানিং ও নামখানা লাইনের হাজার হাজার যাত্রী প্রতিদিন এই রুটে যাতায়াত করেন। রেল সংক্রান্ত যেকোনো বিঘ্ন বা সময়সূচি পরিবর্তনের ক্ষেত্রে নিত্যযাত্রীদের সচেতন থাকার পরামর্শ দেওয়া হচ্ছে।",
-      "category": "railway",
-      "categoryNameBn": "রেল ও যাতায়াত",
-      "sourceId": "src-fb-baruipur",
-      "sourceName": "Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/Baruipur/posts/1471445884820472",
-      "originalPostUrl": "https://www.facebook.com/Baruipur/posts/1471445884820472",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:25:32.482Z",
-      "isBreaking": true,
-      "isFeatured": false,
-      "status": "published",
-      "views": 41,
-      "crawlHash": "3d9d4a5eb8ee2f2617d1041755e2ed9c"
+      "crawlHash": "59bc649096389a9dcd807bf6bc183e36",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789388785105-rzdz",
@@ -1217,7 +1059,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "f0e3620654287b69e6425d8059631932"
+      "crawlHash": "f0e3620654287b69e6425d8059631932",
+      "sources": [
+        "Baruipur 24x7, Baruipur"
+      ]
     },
     {
       "id": "art-1789388784053-43vb",
@@ -1225,8 +1070,8 @@
       "slug": "জেল-থেকে-পালিয়ে-গেল-বন্দি-কর্তব্যে-গাফিলতির-অভিযোগে-সাসপেন্ড-বারুইপুর-সংশোধনাধারের-দুই-কা",
       "summary": "জেল থেকে পালিয়ে গেল বন্দি, কর্তব্যে গাফিলতির অভিযোগে সাসপেন্ড বারুইপুর সংশোধনাধারের দুই কারারক্ষী।\nবিস্তারিত কমেন্টে ⤵️\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ...",
       "content": "জেল থেকে পালিয়ে গেল বন্দি, কর্তব্যে গাফিলতির অভিযোগে সাসপেন্ড বারুইপুর সংশোধনাধারের দুই কারারক্ষী।\nবিস্তারিত কমেন্টে ⤵️\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
       "sourceId": "src-fb-baruipur",
       "sourceName": "Baruipur",
       "sourceType": "facebook",
@@ -1238,28 +1083,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 38,
-      "crawlHash": "70e83ca94d4f59c9d6a319cf70343d11"
-    },
-    {
-      "id": "art-1789388784053-1s5o",
-      "title": "বারুইপুর ৪ নং স্টেশন রোড(পূর্বের মিলন সিনেমার স্থানে), কলকাতা – 700144",
-      "slug": "বারুইপুর-৪-নং-স্টেশন-রোডপূর্বের-মিলন-সিনেমার-স্থানে-কলকাতা-700144",
-      "summary": "Arpita Ghoshal 📍 বারুইপুর ৪ নং স্টেশন রোড(পূর্বের মিলন সিনেমার স্থানে), কলকাতা – 700144\n📞 9875370957\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নে...",
-      "content": "Arpita Ghoshal 📍 বারুইপুর ৪ নং স্টেশন রোড(পূর্বের মিলন সিনেমার স্থানে), কলকাতা – 700144\n📞 9875370957\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-fb-baruipur",
-      "sourceName": "Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/Baruipur/posts/1110587164995088",
-      "originalPostUrl": "https://www.facebook.com/Baruipur/posts/1110587164995088",
-      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
-      "publishedAt": "2026-09-14T12:25:32.480Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 34,
-      "crawlHash": "c879a7da40cc561ba1d4059ff6ee0ecd"
+      "crawlHash": "70e83ca94d4f59c9d6a319cf70343d11",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789388782408-45uz",
@@ -1282,7 +1109,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 16,
-      "crawlHash": "4ee95d8a96bdc8dc544813e542a4a3b9"
+      "crawlHash": "4ee95d8a96bdc8dc544813e542a4a3b9",
+      "sources": [
+        "Baruipur, Baruipur 24x7"
+      ]
     },
     {
       "id": "art-1789388782407-a4lo",
@@ -1305,7 +1135,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 18,
-      "crawlHash": "956d35f343c892bfcfc89fcebb5ebbc4"
+      "crawlHash": "956d35f343c892bfcfc89fcebb5ebbc4",
+      "sources": [
+        "Baruipur Uncover, Baruipur"
+      ]
     },
     {
       "id": "art-1789145469738-hp4g",
@@ -1326,7 +1159,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 41,
-      "crawlHash": "f5546c9238b2cc6884fc399b8bb9de08"
+      "crawlHash": "f5546c9238b2cc6884fc399b8bb9de08",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789145469720-ozvi",
@@ -1349,28 +1185,34 @@
       "isFeatured": false,
       "status": "published",
       "views": 35,
-      "crawlHash": "13b0a0eaadaedb7275b05c1f7d60002d"
+      "crawlHash": "13b0a0eaadaedb7275b05c1f7d60002d",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789145469674-15d7",
-      "title": "বারুইপুর রেলগেট কালীতলার রক্ষাকালী মন্দিরে কৌশিকী অমাবস্যার পূজা",
+      "title": "বারুইপুর শিবানী পীঠ মন্দিরে কৌশিকী অমাবস্যার পূজা",
       "slug": "বারুইপুর-রেলগেট-কালীতলার-রক্ষাকালী-মন্দিরে-কৌশিকী-অমাবস্যার-পূজা",
       "summary": "🌺 বারুইপুর রেলগেট কালীতলার রক্ষাকালী মন্দিরে কৌশিকী অমাবস্যার পূজা 🌺",
-      "content": "🌺 বারুইপুর রেলগেট কালীতলার রক্ষাকালী মন্দিরে কৌশিকী অমাবস্যার পূজা 🌺",
-      "category": "railway",
-      "categoryNameBn": "রেল ও যাতায়াত",
+      "content": "🌺 বারুইপুর শিবানী পীঠ মন্দিরে কৌশিকী অমাবস্যার পূজা 🌺\n\nমায়ের কৃপায় সকলের জীবন হোক আলোকিত, শান্তিময় ও মঙ্গলময়। 🙏✨",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
       "sourceId": "src-1789145459703",
       "sourceName": "Baruipur",
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/Baruipur/",
       "originalPostUrl": "https://www.facebook.com/Baruipur/posts/pfbid03XXBraPGDYty9aTpuw55yFSz1QmHYPzAojYHabHdjSGNAzrDYPihmHiUJHgTiFkAl",
-      "imageUrl": "/images/crawled/1fed83832684de73919d48943e7a0a32.jpg",
+      "imageUrl": "/images/crawled/215786cadc0a128395ad2c8d955ee7e1.jpg",
       "publishedAt": "2026-09-10T14:19:58.000Z",
       "isBreaking": true,
       "isFeatured": false,
       "status": "published",
       "views": 24,
-      "crawlHash": "334202c6dd6775bd0ced2d860167d9ad"
+      "crawlHash": "334202c6dd6775bd0ced2d860167d9ad",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789145469655-j7nt",
@@ -1378,8 +1220,8 @@
       "slug": "আজ-কৌশিকী-অমাবস্যা-বারুইপুর-ধপধপি-কালী-মন্দিরের-বাৎসরিক-পূজা-অনুষ্ঠান",
       "summary": "আজ কৌশিকী অমাবস্যা, বারুইপুর ধপধপি কালী মন্দিরের বাৎসরিক পূজা অনুষ্ঠান🌺🙏",
       "content": "আজ কৌশিকী অমাবস্যা, বারুইপুর ধপধপি কালী মন্দিরের বাৎসরিক পূজা অনুষ্ঠান🌺🙏",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
       "sourceId": "src-1789145459703",
       "sourceName": "Baruipur",
       "sourceType": "facebook",
@@ -1391,28 +1233,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 37,
-      "crawlHash": "9e1e9586bc15225e1e29d0b2d80302c0"
-    },
-    {
-      "id": "art-1789145469644-1ekj",
-      "title": "বারুইপুর শিবানী পীঠ মন্দিরে কৌশিকী অমাবস্যার পূজা",
-      "slug": "বারুইপুর-শিবানী-পীঠ-মন্দিরে-কৌশিকী-অমাবস্যার-পূজা",
-      "summary": "🌺 বারুইপুর শিবানী পীঠ মন্দিরে কৌশিকী অমাবস্যার পূজা 🌺\n\nমায়ের কৃপায় সকলের জীবন হোক আলোকিত, শান্তিময় ও মঙ্গলময়। 🙏✨",
-      "content": "🌺 বারুইপুর শিবানী পীঠ মন্দিরে কৌশিকী অমাবস্যার পূজা 🌺\n\nমায়ের কৃপায় সকলের জীবন হোক আলোকিত, শান্তিময় ও মঙ্গলময়। 🙏✨",
-      "category": "municipality",
-      "categoryNameBn": "পৌরসভা ও নাগরিক",
-      "sourceId": "src-1789145459703",
-      "sourceName": "Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/Baruipur/",
-      "originalPostUrl": "https://www.facebook.com/Baruipur/posts/pfbid0rtNeA5Uga1priTtno3BXvLSW81ApbXe8wju16TZHTxWcq9odTi6L99A9mExv33T7l",
-      "imageUrl": "/images/crawled/215786cadc0a128395ad2c8d955ee7e1.jpg",
-      "publishedAt": "2026-09-10T17:42:14.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 22,
-      "crawlHash": "52399c06e21caf53a54b545c65432951"
+      "crawlHash": "9e1e9586bc15225e1e29d0b2d80302c0",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789145469628-j2vh",
@@ -1420,8 +1244,8 @@
       "slug": "বারুইপুর-ধপধপি-কালী-মন্দিরে-মায়ের-অন্ন-ভোগ-রান্না-চলছে",
       "summary": "বারুইপুর ধপধপি কালী মন্দিরে মায়ের অন্ন ভোগ রান্না চলছে।যারা যারা মায়ের অন্ন ভোগ নিতে ইচ্ছুক তারা ১১ তারিখ সকাল ৬ টায় মন্দিরে আসবেন এখান থেকেই  মায়ের অন্ন ভোগ বিতরণ করা হবে...",
       "content": "বারুইপুর ধপধপি কালী মন্দিরে মায়ের অন্ন ভোগ রান্না চলছে।যারা যারা মায়ের অন্ন ভোগ নিতে ইচ্ছুক তারা ১১ তারিখ সকাল ৬ টায় মন্দিরে আসবেন এখান থেকেই  মায়ের অন্ন ভোগ বিতরণ করা হবে।\n\n🌺🙏 জয় মা কালী 🙏🌺",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
       "sourceId": "src-1789145459703",
       "sourceName": "Baruipur",
       "sourceType": "facebook",
@@ -1433,7 +1257,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 58,
-      "crawlHash": "9f4b5eda0735b70c6fedc82db8b214b9"
+      "crawlHash": "9f4b5eda0735b70c6fedc82db8b214b9",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789145469609-2mlq",
@@ -1454,7 +1281,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "7a94955a000b6878aac2d1a287177c25"
+      "crawlHash": "7a94955a000b6878aac2d1a287177c25",
+      "sources": [
+        "Baruipur"
+      ]
     },
     {
       "id": "art-1789145469601-euqi",
@@ -1475,49 +1305,10 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "1d6b83fab848dff835d12baf7e1fb5ff"
-    },
-    {
-      "id": "art-1789145469579-dlga",
-      "title": "আবারও বারুইপুর - বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ",
-      "slug": "আবারও-বারুইপুর-বৃহস্পতিবার-গভীর-রাতে-তীব্র-বিস্ফোরণে-কেঁপে-উঠল-বারুইপুর-পূর্বের-উত্তরভাগ",
-      "summary": "আবারও বারুইপুর! বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ কলোনি। তৃণমূল নেতা দ্বিজেন মণ্ডলের দ্বিতল বাড়িতে রাত ২টো নাগাদ আচমকাই বিস্ফোরণ ঘটে। ...",
-      "content": "আবারও বারুইপুর! বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ কলোনি। তৃণমূল নেতা দ্বিজেন মণ্ডলের দ্বিতল বাড়িতে রাত ২টো নাগাদ আচমকাই বিস্ফোরণ ঘটে। স্থানীয়দের দাবি, বাড়ির দরজার একটি শাটার বিস্ফোরণের অভিঘাতে ছিটকে প্রায় ১০০ মিটার দূরে গিয়ে পড়ে। আতঙ্কে গোটা এলাকা।",
-      "category": "general",
-      "categoryNameBn": "সব খবর",
-      "sourceId": "src-1789145459703",
-      "sourceName": "Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/Baruipur/",
-      "originalPostUrl": "https://www.facebook.com/Baruipur/posts/pfbid032ni4rgjHSBCNqHEhi5N4ev3W8HpyyBw182qEz1UR4qvo9x2AiGqboQc7w7G7YkBtl",
-      "imageUrl": "/images/crawled/4eac50c76a360982274f9b2d5415c5b9.jpg",
-      "publishedAt": "2026-09-11T11:12:47.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 11,
-      "crawlHash": "1035f2e3653b867090176ab8c5286cb9"
-    },
-    {
-      "id": "art-1789145469569-mh89",
-      "title": "বারুইপুর রাসমাঠের রায়চৌধুরী বাড়ির আনন্দময়ীর মন্দিরে বৃহস্পতিবার কৌশিকী অমাবস্যা উপলক",
-      "slug": "বারুইপুর-রাসমাঠের-রায়চৌধুরী-বাড়ির-আনন্দময়ীর-মন্দিরে-বৃহস্পতিবার-কৌশিকী-অমাবস্যা-উপলক",
-      "summary": "🙏🌺বারুইপুর রাসমাঠের রায়চৌধুরী বাড়ির আনন্দময়ীর মন্দিরে বৃহস্পতিবার কৌশিকী অমাবস্যা উপলক্ষ্যে মা আনন্দময়ীর পুজো🌺🙏\n\nচিত্র সৌজন্যেঃ সোনু মন্ডল",
-      "content": "🙏🌺বারুইপুর রাসমাঠের রায়চৌধুরী বাড়ির আনন্দময়ীর মন্দিরে বৃহস্পতিবার কৌশিকী অমাবস্যা উপলক্ষ্যে মা আনন্দময়ীর পুজো🌺🙏\n\nচিত্র সৌজন্যেঃ সোনু মন্ডল",
-      "category": "culture",
-      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
-      "sourceId": "src-1789145459703",
-      "sourceName": "Baruipur",
-      "sourceType": "facebook",
-      "sourceUrl": "https://www.facebook.com/Baruipur/",
-      "originalPostUrl": "https://www.facebook.com/Baruipur/posts/pfbid0k4bYscKSA9EgZVcsV83BnAqx6Z4c56jjQggNndHACgTELx7A2q6rcKMxkHsovcm8l",
-      "imageUrl": "/images/crawled/c044f5ac1147a4daff0d38e35f006349.jpg",
-      "publishedAt": "2026-09-11T13:43:02.000Z",
-      "isBreaking": false,
-      "isFeatured": false,
-      "status": "published",
-      "views": 42,
-      "crawlHash": "ac9bb6e6b0811bdfce1371c42ed3ec7b"
+      "crawlHash": "1d6b83fab848dff835d12baf7e1fb5ff",
+      "sources": [
+        "Baruipur"
+      ]
     }
   ],
   "sources": [
