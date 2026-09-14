@@ -26,8 +26,26 @@ export default function HomePage() {
   const municipalityArticles = db.getArticles({ category: 'municipality', limit: 3 });
   const crimeArticles = db.getArticles({ category: 'crime', limit: 3 });
 
+  const homeItemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'বারুইপুর অনলাইন - তাজা সংবাদ ও আপডেট',
+    description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার শীর্ষস্থানীয় আঞ্চলিক সংবাদ সংকলন।',
+    itemListElement: allArticles.slice(0, 30).map((art, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      name: art.title,
+      url: `https://baruipur.online/${encodeURI(art.slug || art.id)}/`
+    }))
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeItemListSchema) }}
+      />
 
       {/* Main Grid: News + Sidebar */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">

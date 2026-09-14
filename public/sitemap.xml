@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>https://baruipur.online/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Category: all -->
+  <url>
+    <loc>https://baruipur.online/category/all/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Category: municipality -->
+  <url>
+    <loc>https://baruipur.online/category/municipality/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Category: railway -->
+  <url>
+    <loc>https://baruipur.online/category/railway/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Category: crime -->
+  <url>
+    <loc>https://baruipur.online/category/crime/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Category: health -->
+  <url>
+    <loc>https://baruipur.online/category/health/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Category: education -->
+  <url>
+    <loc>https://baruipur.online/category/education/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Category: culture -->
+  <url>
+    <loc>https://baruipur.online/category/culture/</loc>
+    <lastmod>2026-09-14T15:14:44.212Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%8F%E0%A6%87-%E0%A6%A4%E0%A7%8B-%E0%A6%AD%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%B9%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A6%87%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A6%BF%E0%A6%9B%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AF%E0%A6%BC/</loc>
+    <lastmod>2026-09-14T12:26:09.906Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>এই তো ভালো তৃণমূল - বেশি বেশি হিন্দুত্ববাদ দেখাতে হয়, নইলে পিছিয়ে পড়তে হয়</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%9C%E0%A6%AE%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A7%A8%E0%A7%A6-%E0%A6%95%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A6%BF-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%9C%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%87%E0%A6%82-%E0%A7%A8%E0%A7%A8%E0%A7%AB%E0%A7%A8%E0%A7%A6/</loc>
+    <lastmod>2026-09-14T12:26:04.325Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>জমি সংক্রান্ত ২০ (কুড়ি) লক্ষ টাকার প্রতারণায় অভিযুক্ত জমির মালিকের বিরুদ্ধে ইং - ২২/৫/২০</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A7%81-%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%A8%E0%A6%BF%E0%A6%89-%E0%A6%97%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A7%A7%E0%A7%AD-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%95%E0%A6%BF-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%93-%E0%A6%86%E0%A6%97%E0%A7%87/</loc>
+    <lastmod>2026-09-14T12:25:52.305Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>্রথম চালু হয়েছিল নিউ গড়িয়া স্টেশনের কাছে প্রায় ১৭ বছর কি তারও আগে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%95%E0%A6%A0%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA-%E0%A6%B8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9A%E0%A7%87%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B8%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BF%E0%A6%87/</loc>
+    <lastmod>2026-09-14T12:25:42.533Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&amp;auto=format&amp;fit=crop&amp;q=80</image:loc>
+      <image:title>অপরাধের বিরুদ্ধে কঠোর পদক্ষেপ, সাধারণ মানুষের নিরাপত্তায় পুলিশের নিরন্তর প্রচেষ্টা—সত্যিই</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%A1%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B0-mastermind-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80/</loc>
+    <lastmod>2026-09-14T03:06:08.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg</image:loc>
+      <image:title>ব্যাংক ডাকাতির Mastermind ব্যাংক কর্মী</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8/</loc>
+    <lastmod>2026-09-13T19:36:23.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/97214687eef726249a731d963cd43ddd.jpg</image:loc>
+      <image:title>বারুইপুর সুপারস্টার ক্লাবের গণেশ পূজার শুভ উদ্বোধন</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%9C%E0%A7%87%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%AB%E0%A6%BF%E0%A6%B2%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%A8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%95%E0%A6%BE/</loc>
+    <lastmod>2026-09-13T04:17:41.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/14f1aa0d322f98dfb009340c1b875010.jpg</image:loc>
+      <image:title>জেল থেকে পালিয়ে গেল বন্দি, কর্তব্যে গাফিলতির অভিযোগে সাসপেন্ড বারুইপুর সংশোধনাধারের দুই কা</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%A8%E0%A7%8B-%E0%A6%97%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%82-%E0%A6%AC%E0%A6%A1%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%95%E0%A6%AE%E0%A6%BF/</loc>
+    <lastmod>2026-09-12T22:19:24.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/19e04147c15819aca720e335fa987011.jpg</image:loc>
+      <image:title>বারুইপুরে শিক্ষকদের মাইনে থেকে ‘কাটমানি’ নেওয়ার অভিযোগ, পুরনো গভর্নিং বডির সঙ্গে নতুন কমি</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%B6%E0%A7%80%E0%A6%B7-%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A8-%E0%A6%95%E0%A7%87-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%B8-%E0%A6%86%E0%A6%B8%E0%A6%B2-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%8F%E0%A6%B2%E0%A7%8B/</loc>
+    <lastmod>2026-09-12T16:16:40.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/202eaeb28ff81795ac8ef9c6f2e7a522.jpg</image:loc>
+      <image:title>বিজেপি নেতা দেবাশীষ গায়েন কে ফাঁসানোর চক্রান্ত ফাঁস! আসল রহস্য সামনে এলো!</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%AF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%B0%E0%A6%AB-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%95/</loc>
+    <lastmod>2026-09-12T13:27:57.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/51579db9461a6534e46397f5a556bea4.jpg</image:loc>
+      <image:title>বারুইপুরে বাগেশ্বর বাবার বক্তব্য নিয়ে কংগ্রেসের তরফ থেকে সাংবাদিক বৈঠক</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A7%81%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A7%8C%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%87/</loc>
+    <lastmod>2026-09-12T10:49:26.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/43ddb60beccae7e7fdd30577f4ed5ace.jpg</image:loc>
+      <image:title>বারুইপুর মহাপ্রভুতলার শ্রী শ্রী গৌর - নিতাই</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%AE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A7%83%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%80-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95/</loc>
+    <lastmod>2026-09-11T13:43:02.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/c044f5ac1147a4daff0d38e35f006349.jpg</image:loc>
+      <image:title>বারুইপুর রাসমাঠের রায়চৌধুরী বাড়ির আনন্দময়ীর মন্দিরে বৃহস্পতিবার কৌশিকী অমাবস্যা উপলক</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AC%E0%A6%B9-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3/</loc>
+    <lastmod>2026-09-11T09:47:41.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/4eac50c76a360982274f9b2d5415c5b9.jpg</image:loc>
+      <image:title>আবারও বারুইপুর - বৃহস্পতিবার গভীর রাতে তীব্র বিস্ফোরণে কেঁপে উঠল বারুইপুর পূর্বের উত্তরভাগ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%A6-%E0%A6%96%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81-%E0%A6%85%E0%A6%B8%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%A5-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95%E0%A6%9C%E0%A6%A8-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%B9%E0%A6%A1%E0%A6%BC%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A6%AA%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%8D%E0%A6%AF/</loc>
+    <lastmod>2026-09-11T08:49:46.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/66cd447ded0400e6cde27779b7247aef.jpg</image:loc>
+      <image:title>মদ খাওয়ার পর দু’জনের মৃত্যু, অসুস্থ আরও একজন হাসপাতালে! বহড়ুর শানপুকুরে চাঞ্চল্য</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%87-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%95-%E0%A6%9A%E0%A7%8B%E0%A6%B0/</loc>
+    <lastmod>2026-09-11T07:03:40.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/3d5ed09373d14451224eddb0d5bad03b.jpg</image:loc>
+      <image:title>ইঞ্জিনিয়ারিং পড়ুয়াই বাইক চোর</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AE%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B2%E0%A6%AB%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%97%E0%A6%A4-%E0%A7%A7%E0%A7%A6%E0%A6%87-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87/</loc>
+    <lastmod>2026-09-11T04:37:53.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/33606aa570880e82da06c26a016e307c.jpg</image:loc>
+      <image:title>বারুইপুরের উত্তরভাগ তারা মা পুজো কমিটি ওয়েলফেয়ার ট্রাস্টের পরিচালনায় গত ১০ই সেপ্টে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AD%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A7%8B-%E0%A6%A1%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A6%A7%E0%A6%BE%E0%A6%A8/</loc>
+    <lastmod>2026-09-11T03:36:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg</image:loc>
+      <image:title>ভুয়ো ডাক্তার থেকে সাবধান!</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%93-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A7%A7%E0%A7%AB-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/</loc>
+    <lastmod>2026-09-11T02:13:56.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/d3fa392ff6c182ff0719ca1c57314891.jpg</image:loc>
+      <image:title>বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সংঘের দুর্গা মন্দিরে আগামী ১৫ সেপ্টেম্বর ২০২৬</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A7%E0%A6%AA%E0%A6%A7%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%AD%E0%A7%8B%E0%A6%97-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE-%E0%A6%9A%E0%A6%B2%E0%A6%9B%E0%A7%87/</loc>
+    <lastmod>2026-09-10T18:57:14.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/6d95cf62400eacb25334fa5f946db383.jpg</image:loc>
+      <image:title>বারুইপুর ধপধপি কালী মন্দিরে মায়ের অন্ন ভোগ রান্না চলছে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%80-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A7%E0%A6%AA%E0%A6%A7%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%8E%E0%A6%B8%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8/</loc>
+    <lastmod>2026-09-10T16:17:35.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/717fb2d5f310904af34905208470f7a3.jpg</image:loc>
+      <image:title>আজ কৌশিকী অমাবস্যা, বারুইপুর ধপধপি কালী মন্দিরের বাৎসরিক পূজা অনুষ্ঠান</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%93-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%AA%E0%A6%A1%E0%A7%87%E0%A6%9F/</loc>
+    <lastmod>2026-09-10T15:02:20.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/9cf703b6a2b75a7543b4b6a9647598d0.jpg</image:loc>
+      <image:title>Jibantala Police arrests two persons with 4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%80-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/</loc>
+    <lastmod>2026-09-10T14:19:58.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/215786cadc0a128395ad2c8d955ee7e1.jpg</image:loc>
+      <image:title>বারুইপুর শিবানী পীঠ মন্দিরে কৌশিকী অমাবস্যার পূজা</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A7%9C-%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%8F%E0%A6%95-%E0%A6%A6%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%80-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0/</loc>
+    <lastmod>2026-09-10T11:02:54.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/189bbf6682ebf52119a5b90c86f16f5b.jpg</image:loc>
+      <image:title>বড় খবর - বারুইপুরে পুলিশের জালে এক দুষ্কৃতী, উদ্ধার হয়েছে আগ্নেয়াস্ত্র</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%80%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AA%E0%A7%87%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B8%E0%A6%AC%E0%A7%81%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%A5%E0%A7%87/</loc>
+    <lastmod>2026-09-10T03:26:23.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg</image:loc>
+      <image:title>কর্তব্যের সীমানা পেরিয়ে, সবুজের পথে।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A7%AD%E0%A7%A6-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE/</loc>
+    <lastmod>2026-09-10T03:18:03.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e67b119d68fbb44e434affed567972d2.jpg</image:loc>
+      <image:title>শাসন বালক সংঘের ৭০ বছরের ভাবনা</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AB%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%8F%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%8B%E0%A6%B8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A7%A9%E0%A7%AC-%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%B8%E0%A6%AD%E0%A6%BE-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%86%E0%A6%9C-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%AC/</loc>
+    <lastmod>2026-09-09T18:27:13.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/a50945ee1c07ac1a54b388d8e09b94ac.jpg</image:loc>
+      <image:title>লাইফইন্সুরেন্স এজেন্ট অ্যাসোসিয়েশনের ৩৬ তম বার্ষিক সাধারণ সভা অনুষ্ঠিত হলো আজ বারুইপুর রব</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%AF%E0%A6%BC-%E0%A6%A6%E0%A7%81%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AE%E0%A7%80-%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A6%A8/</loc>
+    <lastmod>2026-09-09T16:15:18.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/daff7ddf3d19ff2c90907a1e8d7e9e7d.jpg</image:loc>
+      <image:title>এবারের দুর্গাপুজোয় দুদিন সপ্তমী ! কবে কোন দিন?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A6%BE-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87/</loc>
+    <lastmod>2026-09-09T15:28:29.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/0ed5a8fcab67b9695494c2f91a3c021a.jpg</image:loc>
+      <image:title>বারুইপুরের গণেশ পুজো - গণপতি বাপ্পা আসছে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%A4-%E0%A6%AA%E0%A6%BE-%E0%A6%AC%E0%A7%87%E0%A6%81%E0%A6%A7%E0%A7%87-%E0%A6%A8%E0%A7%83%E0%A6%B6%E0%A6%82%E0%A6%B8-%E0%A6%96%E0%A7%81%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%A7%E0%A7%82%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%A4%E0%A6%95-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0/</loc>
+    <lastmod>2026-09-09T11:01:30.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/06a680d8d5b96a9c9d47fd5c292232e2.jpg</image:loc>
+      <image:title>সম্পত্তির লোভে বাবাকে হাত-পা বেঁ/ধে নৃ/শং/স খু/নে/র অভিযোগ, গ্রেপ্তার পুত্রবধূ,পলাতক ছেলের</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%95-%E0%A6%86%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%A8-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%A6-%E0%A7%A7%E0%A7%A8-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F/</loc>
+    <lastmod>2026-09-09T08:13:04.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/6578e02210958966089bfa16141f2233.jpg</image:loc>
+      <image:title>লাহেক আলির অন্তর্বর্তীকালীন জামিনের মেয়াদ ১২ অক্টোবর পর্যন্ত  বাড়ালো কলকাতা হাইকোর্ট।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A6%9A%E0%A7%9C-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-bms-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE/</loc>
+    <lastmod>2026-09-08T21:55:41.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/b3ab9250d9267b5a0507c59bd8148b67.jpg</image:loc>
+      <image:title>বারুইপুরে পুলিশকে চড় মারার অপরাধে গ্রেফতার BMS নেতা</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%8F-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A6%BF%E0%A6%AE-ai-%E0%A6%8F%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%81%E0%A6%A8/</loc>
+    <lastmod>2026-09-08T17:08:07.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/747758f5b669ee1872c6ad7d4b5fe7ab.jpg</image:loc>
+      <image:title>বারুইপুর শাসন বালক সংঘের এ বছরের দূর্গা পূজার থিম Ai এর মাধ্যমে দেখুন</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%A4%E0%A7%8B-%E0%A6%85%E0%A6%A8%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%A8/</loc>
+    <lastmod>2026-09-08T05:46:53.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/3581d7cb5dffbf5ad876735b64b21480.jpg</image:loc>
+      <image:title>পুজো তো অনেকেই করেন…</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8C%E0%A6%B0%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2/</loc>
+    <lastmod>2026-09-07T12:16:35.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/096bafb241366ea7d05dc8df2b2e6217.jpg</image:loc>
+      <image:title>আজ বারুইপুর পৌরসভার  পক্ষ থেকে সাংবাদিক সম্মেলনের আয়োজন করা হয়েছিল</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9A%E0%A7%81%E0%A6%B0-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87/</loc>
+    <lastmod>2026-09-07T03:17:16.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg</image:loc>
+      <image:title>সাইবার-জালিয়াতির প্রচুর টাকা ফেরত প্রতারিত মানুষের কাছে।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95-%E0%A6%89%E0%A6%93%E0%A6%AE-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AE-%E0%A6%B6%E0%A6%A4%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%95%E0%A7%80-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%A8%E0%A6%A8%E0%A6%82-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%87/</loc>
+    <lastmod>2026-09-06T07:09:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/6b83eb37ed1cb01b33662983e482f82f.jpg</image:loc>
+      <image:title>মহানায়ক উওম কুমারের জন্ম শতবার্ষিকী উপলক্ষে বারুইপুর ২নং মন্ডলের পক্ষ থেকে রক্তদান শিবিরে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%A8-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A7%87/</loc>
+    <lastmod>2026-09-05T14:44:29.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/9d139121529e9bbb90796d8bc0d243d0.jpg</image:loc>
+      <image:title>আজ শিক্ষক দিবস পালন হলো  বারুইপুর হাইস্কুলে।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AD%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A7%AB%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%9C%E0%A6%97%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%86%E0%A6%9C-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%96%E0%A7%81%E0%A6%81%E0%A6%9F%E0%A6%BF-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B/</loc>
+    <lastmod>2026-09-04T16:37:46.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/266e574f3288a3c3c9a5a76fb285cd50.jpg</image:loc>
+      <image:title>নতুন ভোরের ৫ম বর্ষে জগদ্ধাত্রী পুজো, আজ অনুষ্ঠিত হলো শুভ খুঁটি পুজো</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%93-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%AA%E0%A6%A1%E0%A7%87%E0%A6%9F/</loc>
+    <lastmod>2026-09-03T16:32:46.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/b7eb605dde8839c2f9933371962d0d29.jpg</image:loc>
+      <image:title>Joint Enforcement Drive Against Unhygienic Food Establishments in Canning</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%93-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%AA%E0%A6%A1%E0%A7%87%E0%A6%9F/</loc>
+    <lastmod>2026-09-03T15:43:59.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/785699acf8c2bf10cd79063144187838.jpg</image:loc>
+      <image:title>Community Outreach and Awareness Program under Kultali Police Station</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%93-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%AA%E0%A6%A1%E0%A7%87%E0%A6%9F/</loc>
+    <lastmod>2026-09-03T15:35:06.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/9e99b26c6ade86a29150fa4efaa13139.jpg</image:loc>
+      <image:title>Canning Police station recovers illegal firearms and sharp weapons in two separate operati</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%86%E0%A6%87%E0%A6%8F%E0%A6%AE-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%95-%E0%A6%86%E0%A6%B2%E0%A7%80-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F/</loc>
+    <lastmod>2026-09-02T16:32:32.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/bd7791e482c3615328c392caea7b7f4c.jpg</image:loc>
+      <image:title>সিপিআইএম নেতা লাহেক আলী অন্তর্বর্তী জামিন দিল কলকাতা হাইকোর্ট</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%95%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95-%E0%A6%AC%E0%A6%A1%E0%A6%BC-%E0%A6%AA%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA/</loc>
+    <lastmod>2026-09-02T14:56:42.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg</image:loc>
+      <image:title>মাদকমুক্ত বাংলার লক্ষ্যে আরও এক বড় পদক্ষেপ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B2%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%BE/</loc>
+    <lastmod>2026-09-02T13:04:38.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/0bf72997012a7cdf46b1691f702681b7.jpg</image:loc>
+      <image:title>লাগাতার বৃষ্টিতে বেহাল বারুইপুর রাস মাঠের রাস্তা, চরম ভোগান্তিতে স্কুল পড়ুয়ারা।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%96%E0%A7%81%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%80%E0%A6%B0-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1/</loc>
+    <lastmod>2026-09-02T09:10:40.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg</image:loc>
+      <image:title>মর্মান্তিক খুনের দায়ে অপরাধীর যাবজ্জীবন কারাদণ্ড</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%BE-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%A0%E0%A6%BF-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A7%AA%E0%A7%AB-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A6%BF/</loc>
+    <lastmod>2026-09-02T07:44:43.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/83201708d6e3759da87d773aa3561383.jpg</image:loc>
+      <image:title>মা আসছে... ঢাকের কাঠি পড়তে আর মাত্র ৪৫ দিন বাকি।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%8F%E0%A6%95%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%98%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8B-%E0%A6%8F%E0%A6%87-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87/</loc>
+    <lastmod>2026-09-01T17:22:53.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/7d0d185fc6ae11a93c0d59450ead2619.jpg</image:loc>
+      <image:title>বারুইপুরে একদিন বিকেলে ঘুরে আসতে পারো এই সুন্দর রাস্তা থেকে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F-%E0%A6%B8%E0%A6%AC-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%9C%E0%A6%B2%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%9F%E0%A6%BF/</loc>
+    <lastmod>2026-09-01T09:01:05.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/cec2e3fa766b87e01345e1ef7ebc93e1.jpg</image:loc>
+      <image:title>বারুইপুর এ সব থেকে বেশি জলমগ্ন জায়গা কোনটি</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%97%E0%A7%8B-%E0%A6%B8%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%A8%E0%A7%80-%E0%A6%B8%E0%A6%82%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%86%E0%A6%9C-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%BF-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AF%E0%A6%BC/</loc>
+    <lastmod>2026-08-28T11:14:47.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/17f49b51a0075d25e609ace6e55331e4.jpg</image:loc>
+      <image:title>বারুইপুর সাগর সংঘের মাঠে জাগো সনাতনী সংগঠনের উদ্যোগে আজ রাখি উৎসব পালন করা হয়</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%9F-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%AC%E0%A7%83%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%BF-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8-%E0%A6%B9%E0%A6%B2/</loc>
+    <lastmod>2026-08-28T09:03:03.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e0ce59ac80a233882c17511935a2608e.jpg</image:loc>
+      <image:title>আজ মদারাট অঞ্চলে বিজেপি কর্মীবৃন্দদের উদ্যোগে রাখি বন্ধন অনুষ্ঠান হল</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B0%E0%A6%99-%E0%A6%AC%E0%A7%87%E0%A6%B0%E0%A6%99%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%A4%E0%A7%8B%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%BF-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%87-%E0%A6%AC%E0%A7%8B%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%BF-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%BF%E0%A6%AE%E0%A6%BE/</loc>
+    <lastmod>2026-08-28T07:26:15.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/7738fc9ba6d08def0df3d7a9f260b7e5.jpg</image:loc>
+      <image:title>রঙ বেরঙের সুতোর সমাহার, রাখি বন্ধন মানে ভাই-বোনের ভালোবাসার অঙ্গীকার। শুভ রাখি পূর্ণিমা!</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A7%AD%E0%A6%93-%E0%A7%AE-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%96%E0%A7%81%E0%A6%81%E0%A6%9F%E0%A6%BF-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A7%8B/</loc>
+    <lastmod>2026-08-27T09:27:31.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/c14afa16b00091f7b4b02bdd4bca29cd.jpg</image:loc>
+      <image:title>বারুইপুর সাহা পাড়ার ৭ও ৮  নম্বর পল্লী খুঁটি পূজো</image:title>
+    </image:image>
+  </url>
+</urlset>

@@ -60,25 +60,53 @@ export default function Footer() {
           {/* Useful Links & Admin */}
           <div>
             <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2">
-              কমিউনিটি ও নিয়ন্ত্রণ
+              পোর্টাল ও তথ্যসূত্র
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#emergency-section" className="hover:text-slate-200 transition">
-                  সম্পূর্ণ জরুরি ডিরেক্টরি
+                <a href="/sitemap.xml" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
+                  <span className="text-slate-500">›</span> XML সাইটম্যাপ (Sitemap)
                 </a>
               </li>
               <li>
-                <a href="#train-section" className="hover:text-slate-200 transition">
-                  শিয়ালদহ দক্ষিণ লোকাল ট্রেন সময়সূচি
+                <a href="/feed.xml" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
+                  <span className="text-slate-500">›</span> আরএসএস ফিড (RSS Feed)
+                </a>
+              </li>
+              <li>
+                <a href="/llms.txt" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
+                  <span className="text-slate-500">›</span> AI ও LLM নির্দেশিকা (llms.txt)
+                </a>
+              </li>
+              <li>
+                <a href="/category/municipality" className="hover:text-slate-200 transition flex items-center gap-1">
+                  <span className="text-slate-500">›</span> বারুইপুর পৌরসভা আপডেট
+                </a>
+              </li>
+              <li>
+                <a href="/category/railway" className="hover:text-slate-200 transition flex items-center gap-1">
+                  <span className="text-slate-500">›</span> শিয়ালদহ দক্ষিণ ট্রেন খবর
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} বারুইপুর (Baruipur). সর্বস্বত্ব সংরক্ষিত।</p>
+        {/* AI & Search Engine Regional Context Knowledge Block */}
+        <div className="border-t border-slate-800/80 pt-6 pb-6 text-xs text-slate-400 leading-relaxed space-y-2">
+          <p className="font-semibold text-slate-300">
+            বারুইপুর মহকুমা ও আঞ্চলিক তথ্যবাতায়ন (About Baruipur Online):
+          </p>
+          <p>
+            বারুইপুর অনলাইন (Baruipur Online) দক্ষিণ ২৪ পরগনা জেলার বারুইপুর মহকুমা (Baruipur Subdivision), বারুইপুর পৌরসভা (Baruipur Municipality - ১৭টি ওয়ার্ড), বারুইপুর পুলিশ জেলা (Baruipur Police District), বারুইপুর মহকুমা হাসপাতাল ও শিয়ালদহ দক্ষিণ রেলওয়ে শাখার (Sealdah South Section - বারুইপুর জংশন, ক্যানিং, ডায়মন্ড হারবার, নামখানা ও লক্ষ্মীকান্তপুর রুট) সাধারণ মানুষ ও যাত্রীদের জন্য সার্বক্ষণিক ডিজিটাল তথ্য ও সংবাদ সংযোগ মাধ্যম।
+          </p>
+          <p>
+            সামাজিক যোগাযোগ মাধ্যমে ছড়িয়ে থাকা আঞ্চলিক তথ্য, স্থানীয় প্রশাসনের বিজ্ঞপ্তি ও নাগরিক সুবিধাগুলোকে সাধারণ মানুষ ও কৃত্রিম বুদ্ধিমত্তা (AI) গবেষকদের কাছে সহজে ও তথ্যনিষ্ঠভাবে পৌঁছে দেওয়াই এই পোর্টালের মূল লক্ষ্য।
+          </p>
+        </div>
+
+        <div className="pt-6 border-t border-slate-800 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p>© {new Date().getFullYear()} বারুইপুর অনলাইন (Baruipur Online). সর্বস্বত্ব সংরক্ষিত।</p>
           <p className="flex items-center gap-1">
             বারুইপুরের নাগরিকদের জন্য নিষ্ঠার সাথে নির্মিত <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 inline" />
           </p>

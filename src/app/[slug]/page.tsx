@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { db } from '@/lib/db';
 import { formatBengaliDate, formatTimeAgoBengali } from '@/lib/dateUtils';
@@ -30,6 +31,68 @@ export function generateStaticParams() {
   }));
 }
 
+export function generateMetadata({ params }: PostPageProps): Metadata {
+  const rawSlug = params.slug;
+  const decodedSlug = decodeURIComponent(rawSlug);
+  const article = db.getArticleById(rawSlug) || db.getArticleById(decodedSlug);
+
+  if (!article) {
+    return {
+      title: 'খবর পাওয়া যায়নি | বারুইপুর অনলাইন'
+    };
+  }
+
+  const postSlug = article.slug || article.id;
+  const canonicalUrl = `https://baruipur.online/${encodeURI(postSlug)}/`;
+  const summary = article.summary || article.content.slice(0, 160).replace(/\n/g, ' ');
+  const safeImage = getSafeImageUrl(article.imageUrl);
+  const imageUrl = safeImage.startsWith('http') ? safeImage : `https://baruipur.online${safeImage}`;
+
+  return {
+    title: article.title,
+    description: summary,
+    keywords: [
+      article.categoryNameBn,
+      'Baruipur news',
+      'বারুইপুর খবর',
+      'বারুইপুর আপডেট',
+      article.sourceName || 'বারুইপুর',
+      'Baruipur South 24 Parganas'
+    ],
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: `${article.title} - বারুইপুর অনলাইন`,
+      description: summary,
+      url: canonicalUrl,
+      type: 'article',
+      publishedTime: article.publishedAt,
+      modifiedTime: article.publishedAt,
+      section: article.categoryNameBn,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ],
+      siteName: 'বারুইপুর অনলাইন',
+      locale: 'bn_IN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: summary,
+      images: [imageUrl],
+    },
+    other: {
+      'news_keywords': `${article.categoryNameBn}, Baruipur news, বারুইপুর খবর, ${article.sourceName || 'বারুইপুর'}`
+    }
+  };
+}
+
 export default function PostSlugPage({ params }: PostPageProps) {
   const rawSlug = params.slug;
   const decodedSlug = decodeURIComponent(rawSlug);
@@ -47,10 +110,86 @@ export default function PostSlugPage({ params }: PostPageProps) {
   }).filter(a => a.id !== article.id);
 
   const postSlug = article.slug || article.id;
+  const canonicalUrl = `https://baruipur.online/${encodeURI(postSlug)}/`;
   const shareText = `${article.title} - বারুইপুরে সম্পূর্ণ খবরটি পড়ুন।`;
+
+  const safeImage = getSafeImageUrl(article.imageUrl);
+  const imageUrl = safeImage.startsWith('http') ? safeImage : `https://baruipur.online${safeImage}`;
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': canonicalUrl
+    },
+    headline: article.title,
+    description: article.summary || article.content.slice(0, 200).replace(/\n/g, ' '),
+    image: [imageUrl],
+    datePublished: article.publishedAt,
+    dateModified: article.publishedAt,
+    author: {
+      '@type': 'Organization',
+      name: 'বারুইপুর অনলাইন বার্তা ডেস্ক',
+      url: 'https://baruipur.online/'
+    },
+    publisher: {
+      '@type': 'NewsMediaOrganization',
+      name: 'বারুইপুর অনলাইন',
+      url: 'https://baruipur.online/',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://baruipur.online/images/og-image.png'
+      }
+    },
+    articleSection: article.categoryNameBn,
+    inLanguage: 'bn',
+    articleBody: article.content,
+    citation: (article.sources || [article.sourceName]).filter(Boolean),
+    about: {
+      '@type': 'Place',
+      name: 'Baruipur',
+      sameAs: 'https://en.wikipedia.org/wiki/Baruipur'
+    }
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'প্রচ্ছদ',
+        item: 'https://baruipur.online/'
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: article.categoryNameBn,
+        item: `https://baruipur.online/category/${article.category}/`
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: article.title,
+        item: canonicalUrl
+      }
+    ]
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-5 overflow-x-auto">
         <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>

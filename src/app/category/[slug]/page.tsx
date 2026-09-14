@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { db } from '@/lib/db';
 import { CATEGORIES } from '@/lib/constants';
@@ -18,6 +19,52 @@ export function generateStaticParams() {
   }));
 }
 
+export function generateMetadata({ params }: CategoryPageProps): Metadata {
+  const category = CATEGORIES.find(c => c.slug === params.slug);
+
+  if (!category) {
+    return {
+      title: 'বিভাগ পাওয়া যায়নি | বারুইপুর অনলাইন'
+    };
+  }
+
+  const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
+  const title = `${category.nameBn} - বারুইপুর অনলাইন`;
+  const description = `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও সামাজিক মাধ্যমে প্রকাশিত নির্ভরযোগ্য প্রতিবেদন।`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      category.nameBn,
+      category.nameEn,
+      'Baruipur news',
+      'বারুইপুর খবর',
+      'বারুইপুর আপডেট',
+      'দক্ষিণ ২৪ পরগনা'
+    ],
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: 'website',
+      siteName: 'বারুইপুর অনলাইন',
+      locale: 'bn_IN',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
+    other: {
+      'news_keywords': `${category.nameBn}, Baruipur news, বারুইপুর খবর, দক্ষিণ ২৪ পরগনা`
+    }
+  };
+}
+
 export default function CategoryPage({ params }: CategoryPageProps) {
   const category = CATEGORIES.find(c => c.slug === params.slug);
 
@@ -30,8 +77,68 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     status: 'published'
   });
 
+  const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
+
+  const categorySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${category.nameBn} - বারুইপুর অনলাইন`,
+    description: `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সাম্প্রতিক খবর ও নাগরিক আপডেট।`,
+    url: canonicalUrl,
+    inLanguage: 'bn',
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'বারুইপুর অনলাইন',
+      url: 'https://baruipur.online/'
+    }
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'প্রচ্ছদ',
+        item: 'https://baruipur.online/'
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: category.nameBn,
+        item: canonicalUrl
+      }
+    ]
+  };
+
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: articles.map((art, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: art.title,
+      url: `https://baruipur.online/${encodeURI(art.slug || art.id)}/`
+    }))
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categorySchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-5">
         <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>

@@ -31,6 +31,7 @@ export interface Article {
   status: 'published' | 'draft' | 'archived';
   views: number;
   crawlHash?: string;
+  sources?: string[];
 }
 
 export interface Source {
