@@ -164,8 +164,8 @@ export function generateHeadline(content: string, fallbackTitle?: string, source
     const escaped = sourceName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     title = title.replace(new RegExp(`^${escaped}\\s*[:|\\-–—]\\s*`, 'i'), '');
   }
-  // Strip any handle or Latin/Bengali prefix followed by a colon or dash
-  title = title.replace(/^[a-zA-Z0-9_.\s-]+[:|\\-–—]\s*/, '');
+  // Strip any short handle or source prefix followed by a colon or dash
+  title = title.replace(/^[\w\u0980-\u09FF]{2,25}\s*[:|–—]\s*/, '');
   title = title.replace(/^#\w+\s*[:\-–—]?\s*/i, '');
   title = title
     .replace(/^[\s\p{Extended_Pictographic}\p{Emoji_Presentation}\p{Symbol}#*:|–—\-🙏🌺✨🌸🛍️🔥😍🕉️🛵⚡🇮🇳]+/gu, '')
