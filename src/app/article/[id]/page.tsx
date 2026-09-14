@@ -7,7 +7,12 @@ interface ArticlePageProps {
   };
 }
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  const articles = db.getArticles({ status: 'published' });
+  return articles.map(a => ({
+    id: a.id
+  }));
+}
 
 export default function ArticleRedirectPage({ params }: ArticlePageProps) {
   const article = db.getArticleById(params.id);

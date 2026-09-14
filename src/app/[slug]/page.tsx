@@ -23,7 +23,12 @@ interface PostPageProps {
   };
 }
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  const articles = db.getArticles({ status: 'published' });
+  return articles.map(a => ({
+    slug: a.slug || a.id
+  }));
+}
 
 export default function PostSlugPage({ params }: PostPageProps) {
   const rawSlug = params.slug;
@@ -34,8 +39,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
     notFound();
   }
 
-  // Increment views
-  db.incrementViews(article.id);
+  // Views are recorded in production client
 
   const relatedArticles = db.getArticles({
     category: article.category,

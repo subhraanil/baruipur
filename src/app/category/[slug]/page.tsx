@@ -12,7 +12,11 @@ interface CategoryPageProps {
   };
 }
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  return CATEGORIES.map(c => ({
+    slug: c.slug
+  }));
+}
 
 export default function CategoryPage({ params }: CategoryPageProps) {
   const category = CATEGORIES.find(c => c.slug === params.slug);

@@ -23,16 +23,8 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Build Next.js 14 Application
+      - name: Build Next.js 14 Static Export
         run: npm run build
-
-      - name: Prepare Standalone Bundle for cPanel Passenger
-        run: |
-          cp -r public .next/standalone/public
-          cp -r .next/static .next/standalone/.next/static
-          echo "require('./server.js');" > .next/standalone/app.js
-          mkdir -p .next/standalone/tmp
-          touch .next/standalone/tmp/restart.txt
 
       - name: Deploy to cPanel via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -41,4 +33,4 @@ jobs:
           username: twofouti
           password: ${{ secrets.CPANEL_PASSWORD }}
           server-dir: public_html/baruipur/
-          local-dir: .next/standalone/
+          local-dir: out/
