@@ -25,9 +25,17 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [breakingArticles, setBreakingArticles] = useState<Article[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isLocal, setIsLocal] = useState(false);
 
   useEffect(() => {
     setCurrentDate(formatBengaliDate(new Date()));
+
+    if (typeof window !== 'undefined') {
+      const host = window.location.hostname;
+      if (host === 'localhost' || host === '127.0.0.1' || host.startsWith('192.168.')) {
+        setIsLocal(true);
+      }
+    }
 
     // Fetch breaking news articles for ticker
     fetch('/api/articles?limit=5')
@@ -71,14 +79,18 @@ export default function Header() {
               <PhoneCall className="w-3.5 h-3.5" />
               <span>জরুরি ডিরেক্টরি</span>
             </a>
-            <span className="text-slate-700">|</span>
-            <a 
-              href="/admin" 
-              className="flex items-center gap-1 bg-red-700 hover:bg-red-800 text-white px-2.5 py-0.5 rounded font-semibold transition"
-            >
-              <Settings className="w-3 h-3" />
-              <span>অ্যাডমিন প্যানেল</span>
-            </a>
+            {isLocal && (
+              <>
+                <span className="text-slate-700">|</span>
+                <a 
+                  href="/admin" 
+                  className="flex items-center gap-1 bg-red-700 hover:bg-red-800 text-white px-2.5 py-0.5 rounded font-semibold transition"
+                >
+                  <Settings className="w-3 h-3" />
+                  <span>অ্যাডমিন প্যানেল</span>
+                </a>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -96,13 +108,13 @@ export default function Header() {
             </button>
 
             <a href="/" className="group flex flex-col">
-              <div className="flex items-center gap-2">
-                <span className="bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded uppercase tracking-wider">
-                  লাইভ
-                </span>
+              <div className="flex items-baseline gap-2.5">
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight group-hover:text-red-600 transition">
                   বারুইপুর
                 </h1>
+                <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-red-600 tracking-tight">
+                  Baruipur
+                </span>
               </div>
               <p className="text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide mt-0.5">
                 দক্ষিণ ২৪ পরগনার নির্ভরযোগ্য আঞ্চলিক ডিজিটাল সংবাদ পোর্টাল
@@ -179,6 +191,16 @@ export default function Header() {
                 </a>
               );
             })}
+            <a
+              href="/places"
+              className={`px-3.5 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname.startsWith('/places') 
+                  ? 'bg-red-600 text-white shadow-sm' 
+                  : 'text-amber-700 hover:bg-amber-50 hover:text-amber-800'
+              }`}
+            >
+              🏛️ গুরুত্বপূর্ণ স্থান ও তথ্য
+            </a>
           </div>
 
           {/* Mobile Category Dropdown */}
@@ -209,14 +231,23 @@ export default function Header() {
                   {cat.nameBn}
                 </a>
               ))}
-              <div className="pt-2 border-t border-slate-100">
-                <a 
-                  href="/admin" 
-                  className="block px-3 py-2 rounded bg-red-600 text-white text-center font-bold"
-                >
-                  অ্যাডমিন ড্যাশবোর্ড
-                </a>
-              </div>
+              <a
+                href="/places"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-amber-700 hover:bg-amber-50"
+              >
+                🏛️ গুরুত্বপূর্ণ স্থান ও তথ্য (Guide)
+              </a>
+              {isLocal && (
+                <div className="pt-2 border-t border-slate-100">
+                  <a 
+                    href="/admin" 
+                    className="block px-3 py-2 rounded bg-red-600 text-white text-center font-bold"
+                  >
+                    অ্যাডমিন ড্যাশবোর্ড
+                  </a>
+                </div>
+              )}
             </div>
           )}
         </div>

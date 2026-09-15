@@ -29,7 +29,7 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
   }
 
   const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
-  const title = `${category.nameBn} - বারুইপুর অনলাইন`;
+  const title = `${category.nameBn} - বারুইপুর Baruipur`;
   const description = `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও সামাজিক মাধ্যমে প্রকাশিত নির্ভরযোগ্য প্রতিবেদন।`;
 
   return {
@@ -51,7 +51,7 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
       description,
       url: canonicalUrl,
       type: 'website',
-      siteName: 'বারুইপুর অনলাইন',
+      siteName: 'বারুইপুর Baruipur',
       locale: 'bn_IN',
     },
     twitter: {
@@ -82,13 +82,13 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   const categorySchema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${category.nameBn} - বারুইপুর অনলাইন`,
+    name: `${category.nameBn} - বারুইপুর Baruipur`,
     description: `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সাম্প্রতিক খবর ও নাগরিক আপডেট।`,
     url: canonicalUrl,
     inLanguage: 'bn',
     isPartOf: {
       '@type': 'WebSite',
-      name: 'বারুইপুর অনলাইন',
+      name: 'বারুইপুর Baruipur',
       url: 'https://baruipur.online/'
     }
   };

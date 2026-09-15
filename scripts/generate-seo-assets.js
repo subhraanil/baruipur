@@ -34,6 +34,16 @@ const articles = (data.articles || [])
   .filter(a => a.status === 'published')
   .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
+const PLACES_FILE = path.join(__dirname, '../src/data/places_data.json');
+let places = [];
+try {
+  if (fs.existsSync(PLACES_FILE)) {
+    places = JSON.parse(fs.readFileSync(PLACES_FILE, 'utf8'));
+  }
+} catch (e) {
+  console.warn('Could not load places_data.json:', e.message);
+}
+
 const categories = [
   { slug: 'all', nameBn: 'সব খবর', nameEn: 'All News', desc: 'বারুইপুর অঞ্চলের সমস্ত তাজা খবর ও সংকলন।' },
   { slug: 'municipality', nameBn: 'পৌরসভা ও নাগরিক', nameEn: 'Municipality & Civic', desc: 'বারুইপুর পৌরসভা, রাস্তাঘাট, পানীয় জল ও নাগরিক সমস্যা।' },
@@ -137,6 +147,27 @@ for (const cat of categories) {
 `;
 }
 
+// Places & Landmark Guides
+sitemapXml += `  <!-- Places Hub -->
+  <url>
+    <loc>${SITE_URL}/places/</loc>
+    <lastmod>${nowIso}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+`;
+
+for (const p of places) {
+  sitemapXml += `  <!-- Place: ${p.slug} -->
+  <url>
+    <loc>${SITE_URL}/places/${p.slug}/</loc>
+    <lastmod>${nowIso}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+`;
+}
+
 // Articles
 for (const art of articles) {
   const postSlug = art.slug || art.id;
@@ -213,7 +244,7 @@ let rssXml = `<?xml version="1.0" encoding="UTF-8"?>
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>বারুইপুর অনলাইন (Baruipur Online) - তাজা আঞ্চলিক সংবাদ ও আপডেট</title>
+    <title>বারুইপুর Baruipur - তাজা আঞ্চলিক সংবাদ ও আপডেট</title>
     <link>${SITE_URL}/</link>
     <description>বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে ও দক্ষিণ ২৪ পরগনার শীর্ষস্থানীয় আঞ্চলিক ডিজিটাল সংবাদ ও সামাজিক তথ্যবাতায়ন।</description>
     <language>bn-in</language>
@@ -254,7 +285,7 @@ console.log(`✓ Generated public/feed.xml with ${articles.length} items`);
 // ==========================================
 // 6. Generate public/llms.txt (llmstxt.org standard)
 // ==========================================
-const llmsTxt = `# Baruipur Online - বারুইপুর অনলাইন (llms.txt)
+const llmsTxt = `# বারুইপুর Baruipur - Baruipur Online (llms.txt)
 
 > বারুইপুর মহকুমা, দক্ষিণ ২৪ পরগনা ও শিয়ালদহ দক্ষিণ শাখার শীর্ষস্থানীয় ডিজিটাল আঞ্চলিক সংবাদ, নাগরিক পরিষেবা ও সামাজিক তথ্যবাতায়ন।
 
@@ -270,6 +301,10 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [স্বাস্থ্য ও হাসপাতাল (Health & Hospital)](${SITE_URL}/category/health/): Baruipur Subdivisional Hospital, blood donation camps, immunization schedules, emergency contacts.
 - [শিক্ষা ও স্কুল (Education & Schools)](${SITE_URL}/category/education/): Baruipur High School, colleges, board examination updates, scholarships, student achievements.
 - [উৎসব ও খেলাধুলা (Culture & Sports)](${SITE_URL}/category/culture/): Baruipur Rasmela (রাসমেলা), Durga Puja, Kali Puja (Dhapdhapi), regional football and cricket tournaments.
+
+## Important Places & Civic Landmark Guides (গুরুত্বপূর্ণ স্থান ও প্রতিষ্ঠান)
+- [গুরুত্বপূর্ণ স্থান ডিরেক্টরি (Places Hub)](${SITE_URL}/places/): বারুইপুরের ঐতিহাসিক, প্রশাসনিক ও নাগরিক প্রতিষ্ঠানের পূর্ণাঙ্গ গাইড।
+${places.map(p => `- [${p.nameBn} (${p.nameEn})](${SITE_URL}/places/${p.slug}/): ${p.taglineBn}. Established: ${p.established}. Address: ${p.address}`).join('\n')}
 
 ## Machine-Readable Feeds & Feeds for AI Systems
 - XML Sitemap: ${SITE_URL}/sitemap.xml
@@ -300,14 +335,44 @@ console.log('✓ Generated public/llms.txt');
 // ==========================================
 // 7. Generate public/llms-full.txt
 // ==========================================
-let llmsFullTxt = `# Baruipur Online - Complete Regional News & Information Corpus
+let llmsFullTxt = `# বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: ${SITE_URL}
 # Last Updated: ${new Date().toISOString()}
 # Total Articles: ${articles.length}
+# Total Key Landmarks: ${places.length}
 # Jurisdiction: Baruipur, South 24 Parganas, West Bengal, India
 
-This single document contains the complete, unshortened text of all verified regional articles and civic updates published by Baruipur Online. It is designed for single-shot context ingestion, RAG pipelines, and AI research on Baruipur.
+This document contains the complete, unshortened text of all verified regional articles, civic updates, and permanent landmark guides published by Baruipur Online. It is designed for single-shot context ingestion, RAG pipelines, and AI research on Baruipur.
 
+================================================================================
+PART 1: IMPORTANT CIVIC LANDMARKS & INSTITUTIONS OF BARUIPUR
+================================================================================
+${places.map((p, i) => `
+--------------------------------------------------------------------------------
+LANDMARK #${i + 1}: ${p.nameBn} (${p.nameEn})
+--------------------------------------------------------------------------------
+- Category: ${p.category}
+- Established: ${p.established}
+- Canonical URL: ${SITE_URL}/places/${p.slug}/
+- Address: ${p.address}
+- Phone: ${p.contact.phone || p.contact.helpline || 'N/A'}
+- Timings: ${p.timings}
+
+OVERVIEW:
+${p.overview}
+
+HISTORY & HERITAGE:
+${p.history}
+
+KEY SERVICES & FACILITIES:
+${p.keyServices.map(s => `- ${s}`).join('\n')}
+
+HOW TO REACH:
+${p.howToReach}
+`).join('\n')}
+
+================================================================================
+PART 2: REGIONAL NEWS ARTICLES & CIVIC UPDATES (${articles.length} TOTAL)
 ================================================================================
 `;
 

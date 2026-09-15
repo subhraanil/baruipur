@@ -63,7 +63,7 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${article.title} - বারুইপুর অনলাইন`,
+      title: `${article.title} - বারুইপুর Baruipur`,
       description: summary,
       url: canonicalUrl,
       type: 'article',
@@ -78,7 +78,7 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
           alt: article.title,
         },
       ],
-      siteName: 'বারুইপুর অনলাইন',
+      siteName: 'বারুইপুর Baruipur',
       locale: 'bn_IN',
     },
     twitter: {
@@ -135,7 +135,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
     },
     publisher: {
       '@type': 'NewsMediaOrganization',
-      name: 'বারুইপুর অনলাইন',
+      name: 'বারুইপুর Baruipur',
       url: 'https://baruipur.online/',
       logo: {
         '@type': 'ImageObject',
