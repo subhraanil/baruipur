@@ -23,6 +23,7 @@ export interface Article {
   sourceUrl?: string;
   originalPostUrl?: string;
   imageUrl: string;
+  images?: string[];
   videoUrl?: string;
   videoEmbedUrl?: string;
   publishedAt: string; // ISO string

@@ -115,6 +115,12 @@ export default function PostSlugPage({ params }: PostPageProps) {
 
   const safeImage = getSafeImageUrl(article.imageUrl);
   const imageUrl = safeImage.startsWith('http') ? safeImage : `https://baruipur.online${safeImage}`;
+  const allImages = (article.images && article.images.length > 0)
+    ? Array.from(new Set(article.images.map(img => {
+        const s = getSafeImageUrl(img);
+        return s.startsWith('http') ? s : `https://baruipur.online${s}`;
+      })))
+    : [imageUrl];
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -125,7 +131,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
     },
     headline: article.title,
     description: article.summary || article.content.slice(0, 200).replace(/\n/g, ' '),
-    image: [imageUrl],
+    image: allImages,
     datePublished: article.publishedAt,
     dateModified: article.publishedAt,
     author: {
@@ -333,6 +339,35 @@ export default function PostSlugPage({ params }: PostPageProps) {
               </p>
             ))}
           </div>
+
+          {/* Multi-Image Photo Stream & Gallery */}
+          {article.images && article.images.length > 1 && (
+            <div className="mt-8 pt-6 border-t border-slate-200">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-red-600"></span>
+                  প্রতিবেদনের ছবি সংকলন ({article.images.length}টি ছবি)
+                </h3>
+                <span className="text-xs text-slate-500 font-medium hidden sm:inline">মূল উৎস থেকে সংরক্ষিত</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {article.images.map((img, idx) => (
+                  <div key={idx} className="relative rounded-xl overflow-hidden bg-slate-100 border border-slate-200 shadow-sm aspect-[4/3] group">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img 
+                      src={getSafeImageUrl(img)} 
+                      alt={`${article.title} - ছবি ${idx + 1}`}
+                      className="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-2.5 text-white text-xs font-semibold opacity-90 sm:opacity-0 group-hover:opacity-100 transition">
+                      ছবি {idx + 1} / {article.images.length}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Bottom Navigation Back Button */}
           <div className="mt-8 pt-6 border-t border-slate-200 flex justify-between items-center">

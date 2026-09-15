@@ -21,10 +21,25 @@ if (!fs.existsSync(CACHE_DIR)) {
   fs.mkdirSync(CACHE_DIR, { recursive: true });
 }
 
-// 1. Promotional filter
-function isPromotionalPost(text) {
-  if (!text) return false;
-  const t = text.toLowerCase();
+// 1. Comprehensive Spam, Advertisement & Comment Filter
+function isJunkOrCommentOrPromo(text) {
+  if (!text || text.trim().length < 30) return true;
+  const t = text.trim();
+  const lower = t.toLowerCase();
+
+  // A. Facebook user comments / banter / transliterated chatter
+  if (/^[A-Z][a-z]+\s+[A-Z][a-z]+\s+sure\b/i.test(t)) return true;
+  if (/(?:dar gari|amra roj jai|ami chini|kheye nebe|valobasa|bhalobasa|bhaipo|bhalo theko|choto bhai|pukur bujiye|ekhn diye roj)\b/i.test(lower)) return true;
+  if (/happy\s*birthday|shuvo\s*jonmodin|শুভ\s*জন্মদিন|অনেক\s*অনেক\s*ভালোবাসা/i.test(lower)) return true;
+  if (/good\s*morning|good\s*night|shuvo\s*sokal|শুভ\s*সকাল|শুভ\s*রাত্রি/i.test(lower)) return true;
+  if (/মাশাল্লাহ|সব রখম মোবাইল|calender না দেখে|roll best/i.test(lower)) return true;
+  if (/never share your otp/i.test(lower)) return true;
+
+  if (/^[a-zA-Z0-9\s.,!?:;'"()-]+$/.test(t) && !lower.includes('police') && !lower.includes('arrest') && !lower.includes('baruipur')) {
+    return true;
+  }
+
+  // B. Commercial Advertisements & Promotions
   const promoKeywords = [
     'অফার', 'ডিসকাউন্ট', 'সেল', 'কেনাকাটা', 'শপিং', 'প্রাইস', 'দাম মাত্র',
     'মূল্য মাত্র', 'মূল্যঃ', 'দামঃ', 'টাকা মাত্র', '₹', 'store opening',
@@ -33,29 +48,37 @@ function isPromotionalPost(text) {
     'বুকিং চলছে', 'অর্ডার করতে', 'ফ্রি ডেলিভারি', 'dm for details', 'whatsapp us',
     'call now', 'discount', 'special offer', 'flat off', 'cash on delivery',
     'flat 50%', 'flat 20%', 'flat 30%', 'buy 1 get 1', 'buy 2 get 1', 'sale',
-    'স্টক সীমিত', 'হোলসেল', 'রিটেল', 'শোরুম', 'গ্র্যান্ড ওপেনিং', 'মেগা সেল', 'ধামাকা অফার'
+    'স্টক সীমিত', 'হোলসেল', 'রিটেল', 'শোরুম', 'গ্র্যান্ড ওপেনিং', 'মেগা সেল', 'ধামাকা অফার',
+    'জুয়েলার্স', 'গহনা কিনলে', 'সোনার গহনা', 'রুপোর গহনা', 'স্কুটার', 'প্রচার করুন',
+    'বিজ্ঞাপন দিন', 'ব্র্যান্ডের প্রচার', 'রেজিস্ট্রেশন করে'
   ];
+
   const newsKeywords = [
     'গ্রেফতার', 'আটক', 'পুলিশ', 'থানা', 'আইসি', 'এসপি', 'তদন্ত', 'অভিযোগ',
     'মৃত্যু', 'নিহত', 'আহত', 'দুর্ঘটনা', 'অগ্নিকাণ্ড', 'রেল', 'ট্রেন',
     'শিয়ালদহ', 'লোকাল', 'পৌরসভা', 'চেয়ারম্যান', 'ওয়ার্ড', 'নিকাশি',
     'হাসপাতাল', 'চিকিৎসা', 'স্বাস্থ্য', 'বিদ্যালয়', 'কলেজ', 'মাধ্যমিক',
     'উচ্চমাধ্যমিক', 'পরীক্ষা', 'আদালত', 'বিচারক', 'রায়', 'প্রশাসন', 'মহকুমা শাসক',
-    'বন্যা', 'বৃষ্টি', 'বিদ্যুৎ', 'পানি', 'জলমগ্ন', 'বিক্ষোভ', 'উদ্ধার'
+    'বন্যা', 'বৃষ্টি', 'বিদ্যুৎ', 'পানি', 'জলমগ্ন', 'বিক্ষোভ', 'উদ্ধার', 'বিস্ফোরণ',
+    'পুজো', 'পূজা', 'উৎসব', 'রাসমাঠ', 'রক্তদান'
   ];
 
   let promoScore = 0;
-  for (const word of promoKeywords) {
-    if (t.includes(word)) promoScore++;
+  for (const w of promoKeywords) {
+    if (lower.includes(w)) promoScore++;
   }
   let newsScore = 0;
-  for (const word of newsKeywords) {
-    if (t.includes(word)) newsScore++;
+  for (const w of newsKeywords) {
+    if (lower.includes(w)) newsScore++;
   }
-  if (/(?:call|whatsapp|অর্ডার|বুকিং|যোগাযোগ).*?\b\d{10}\b/i.test(t)) promoScore += 2;
-  if (/(?:₹\s*\d+|\d+\s*\/-|\d+%\s*(?:off|ছাড়))/i.test(t)) promoScore += 2;
 
-  return promoScore >= 2 && newsScore === 0;
+  if (/(?:call|whatsapp|অর্ডার|বুকিং|যোগাযোগ).*?\b\d{10}\b/i.test(lower)) promoScore += 2;
+  if (/(?:₹\s*\d+|\d+\s*\/-|\d+%\s*(?:off|ছাড়))/i.test(lower)) promoScore += 2;
+
+  if (promoScore >= 2 && newsScore <= 1) return true;
+  if (promoScore >= 1 && newsScore === 0) return true;
+
+  return false;
 }
 
 // 2. Category detector
@@ -289,15 +312,14 @@ async function downloadImageLocally(url) {
   return url;
 }
 
-// 7. Scrape a Facebook page with Jina Reader fallback
+// 7. Scrape a Facebook page with clean comment isolation
 async function scrapeFacebookSource(source) {
   const posts = [];
   const cleanTargetUrl = source.url.replace(/\/$/, '');
 
-  // Attempt 1: Direct Comet scraper
   try {
     const res = await axios.get(source.url, {
-      timeout: 12000,
+      timeout: 15000,
       headers: {
         'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -315,76 +337,101 @@ async function scrapeFacebookSource(source) {
 
       while ((m = scriptRegex.exec(html)) !== null) {
         const jsonStr = m[1];
-        if (!jsonStr.includes('post_id') && !jsonStr.includes('creation_time') && !jsonStr.includes('story')) continue;
+        if (!jsonStr.includes('comet_sections') || !jsonStr.includes('post_id')) continue;
         try {
           const data = JSON.parse(jsonStr);
-          function scan(obj) {
-            if (!obj || typeof obj !== 'object') return;
-            const pId = obj.post_id || obj.legacy_fbid || (obj.__typename === 'Story' ? obj.id : undefined);
-            if (pId && (obj.creation_time || obj.comet_sections || obj.attachments || obj.message)) {
-              rawStories.push({ ...obj, post_id: pId });
+
+          function extractStories(obj) {
+            if (!obj || typeof obj !== 'object') return [];
+            // Strictly block comments and replies
+            if (obj.comment_rendering_instance || obj.comments || obj.feedback_target_with_context || obj.comment_list_renderer) return [];
+
+            let found = [];
+            if (obj.__typename === 'Story' && obj.post_id) {
+              let text = '';
+              const msgObj = obj.comet_sections?.content?.story?.message || obj.message;
+              if (msgObj && typeof msgObj.text === 'string') text = msgObj.text;
+
+              const mediaImages = new Set();
+              function getImgs(o) {
+                if (!o || typeof o !== 'object') return;
+                if (o.uri && typeof o.uri === 'string' && o.uri.startsWith('http') && !o.uri.includes('emoji') && !o.uri.includes('rsrc.php') && !o.uri.includes('static.xx.fbcdn.net')) {
+                  mediaImages.add(o.uri);
+                }
+                for (const k of Object.keys(o)) {
+                  if (k === 'comments' || k === 'feedback' || k === 'feedback_context') continue;
+                  getImgs(o[k]);
+                }
+              }
+              getImgs(obj.attachments);
+              getImgs(obj.comet_sections?.content?.story?.attachments);
+
+              let videoUrl;
+              function getVideo(o) {
+                if (!o || typeof o !== 'object') return;
+                if (o.playable_url && typeof o.playable_url === 'string') videoUrl = o.playable_url;
+                if (o.__typename === 'Video' && o.id) videoUrl = `https://www.facebook.com/watch/?v=${o.id}`;
+                for (const k of Object.keys(o)) {
+                  if (k === 'comments' || k === 'feedback' || k === 'feedback_context') continue;
+                  getVideo(o[k]);
+                }
+              }
+              getVideo(obj.attachments);
+              getVideo(obj.comet_sections?.content?.story?.attachments);
+
+              const imagesList = Array.from(mediaImages);
+              const hasMedia = imagesList.length > 0 || !!videoUrl;
+
+              // Mandatory Media and Clean Content validation
+              if (text && text.trim().length >= 35 && hasMedia) {
+                found.push({
+                  postId: obj.post_id,
+                  text: text.trim(),
+                  images: imagesList,
+                  videoUrl,
+                  creationTime: obj.creation_time
+                });
+              }
             }
-            for (const k of Object.keys(obj)) scan(obj[k]);
+
+            for (const k of Object.keys(obj)) {
+              if (k === 'comments' || k === 'feedback' || k === 'feedback_context') continue;
+              found = found.concat(extractStories(obj[k]));
+            }
+            return found;
           }
-          scan(data);
+
+          const stories = extractStories(data);
+          stories.forEach(s => rawStories.push(s));
         } catch (e) {}
       }
 
-      const seenPostIds = new Set();
-      for (const story of rawStories) {
-        const postId = String(story.post_id || story.legacy_fbid || story.id || '');
-        if (!postId || seenPostIds.has(postId)) continue;
-        seenPostIds.add(postId);
+      const seenIds = new Set();
+      for (const item of rawStories) {
+        if (seenIds.has(item.postId)) continue;
+        seenIds.add(item.postId);
 
-        function findMessage(o) {
-          if (!o) return null;
-          if (o.__typename === 'TextWithEntities' && typeof o.text === 'string') return o.text;
-          if (o.message && typeof o.message.text === 'string') return o.message.text;
-          if (typeof o === 'object') {
-            for (const k of Object.keys(o)) {
-              const r = findMessage(o[k]);
-              if (r) return r;
-            }
-          }
-          return null;
-        }
+        if (isJunkOrCommentOrPromo(item.text)) continue;
 
-        const message = findMessage(story.comet_sections?.content) || findMessage(story);
-        if (!message || message.trim().length < 15) continue;
-
-        const images = [];
-        const videos = [];
-        function extractMedia(o) {
-          if (!o || typeof o !== 'object') return;
-          if (o.uri && typeof o.uri === 'string' && o.uri.startsWith('http') && !o.uri.includes('emoji') && !o.uri.includes('rsrc.php') && !o.uri.includes('static.xx.fbcdn.net')) {
-            images.push(o.uri);
-          }
-          if (o.playable_url && typeof o.playable_url === 'string') videos.push(o.playable_url);
-          if (o.__typename === 'Video' && o.id) videos.push(`https://www.facebook.com/watch/?v=${o.id}`);
-          for (const k of Object.keys(o)) extractMedia(o[k]);
-        }
-        extractMedia(story.attachments);
-        extractMedia(story.comet_sections);
-
-        const postUrl = story.permalink_url || `${cleanTargetUrl}/posts/${postId}`;
-        const publishedAt = story.creation_time ? new Date(story.creation_time * 1000).toISOString() : new Date().toISOString();
-        const imageUrl = images.length > 0 ? images[0] : undefined;
-        let videoUrl = videos.length > 0 ? videos[0] : undefined;
-        let videoEmbedUrl = videoUrl ? `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoUrl)}&show_text=0` : undefined;
+        let videoEmbedUrl = item.videoUrl 
+          ? `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(item.videoUrl)}&show_text=0`
+          : undefined;
 
         posts.push({
-          content: message,
-          originalUrl: postUrl,
-          publishedAt,
-          imageUrl,
-          videoUrl,
-          videoEmbedUrl,
           sourceId: source.id,
-          sourceName: source.name
+          sourceName: source.name,
+          postId: item.postId,
+          content: item.text,
+          images: item.images,
+          imageUrl: item.images.length > 0 ? item.images[0] : undefined,
+          videoUrl: item.videoUrl,
+          videoEmbedUrl: videoEmbedUrl,
+          originalUrl: `https://www.facebook.com/${item.postId}`,
+          publishedAt: item.creationTime ? new Date(item.creationTime * 1000).toISOString() : new Date().toISOString()
         });
       }
     }
-  } catch (e) {}
+  } catch (err) {}
 
   // Attempt 2: High-reliability Jina Reader Fallback
   if (posts.length === 0) {
@@ -471,7 +518,7 @@ async function runWorkflow() {
         const pTime = new Date(p.publishedAt).getTime();
         if (!isNaN(pTime) && pTime < cutoffMs) continue;
       }
-      if (isPromotionalPost(p.content)) {
+      if (isJunkOrCommentOrPromo(p.content)) {
         promoCount++;
         continue;
       }
@@ -494,7 +541,7 @@ async function runWorkflow() {
 
   for (const post of synthesizedPosts) {
     const cleaned = cleanBengaliContent(post.content);
-    if (!cleaned || cleaned.length < 15) continue;
+    if (!cleaned || cleaned.length < 30) continue;
 
     const hash = crypto
       .createHash('md5')
@@ -505,19 +552,30 @@ async function runWorkflow() {
       continue;
     }
 
+    // Mandatory Media Requirement: strictly discard posts without media
+    const rawImages = post.images || (post.imageUrl ? [post.imageUrl] : []);
+    if (rawImages.length === 0 && !post.videoUrl) {
+      continue;
+    }
+
+    // Download all attached images locally
+    const downloadedImages = [];
+    for (const imgUri of rawImages) {
+      const local = await downloadImageLocally(imgUri);
+      if (local) downloadedImages.push(local);
+    }
+
+    const primaryImage = downloadedImages.length > 0 ? downloadedImages[0] : '';
+    if (!primaryImage && !post.videoUrl) {
+      continue;
+    }
+
     const category = detectCategory(cleaned);
     const categoryBn = CATEGORY_NAMES[category] || 'সব খবর';
     const headline = generateHeadline(cleaned, post.title, post.sourceName);
     const enriched = enrichContentWithContext(headline, cleaned, category);
     const summary = enriched.length > 180 ? enriched.substring(0, 175) + '...' : enriched;
     const articleId = 'art-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6);
-
-    let finalImageUrl = post.imageUrl;
-    if (finalImageUrl) {
-      finalImageUrl = await downloadImageLocally(finalImageUrl);
-    } else {
-      finalImageUrl = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80';
-    }
 
     const article = {
       id: articleId,
@@ -533,12 +591,13 @@ async function runWorkflow() {
       sourceType: 'facebook',
       sourceUrl: post.originalUrl,
       originalPostUrl: post.originalUrl,
-      imageUrl: finalImageUrl,
+      imageUrl: primaryImage,
+      images: downloadedImages,
       videoUrl: post.videoUrl,
       videoEmbedUrl: post.videoEmbedUrl,
       publishedAt: post.publishedAt || new Date().toISOString(),
       isBreaking: category === 'railway' || category === 'crime',
-      isFeatured: false,
+      isFeatured: downloadedImages.length > 2,
       status: 'published',
       views: Math.floor(Math.random() * 50) + 10,
       crawlHash: hash
