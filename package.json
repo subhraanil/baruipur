@@ -9,7 +9,8 @@
     "start": "next start",
     "worker": "node src/lib/worker.js",
     "crawl:initial": "node scripts/sync-news.js --days=30",
-    "crawl:sync": "node scripts/sync-news.js --days=7"
+    "crawl:sync": "node scripts/sync-news.js --days=7",
+    "submit:indexing": "node scripts/submit-indexing.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
