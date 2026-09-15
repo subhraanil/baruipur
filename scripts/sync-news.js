@@ -633,19 +633,42 @@ async function runWorkflow() {
   console.log(`📁 ডেটাবেস সাইজ: ${existingArticles.length} টি প্রকাশিত সংবাদ`);
   console.log('---------------------------------------------------------------\n');
 
-  // Push to GitHub so Render updates live!
-  console.log('🌐 গিটহাবে পুশ ও লাইভ রেন্ডার সার্ভার আপডেট শুরু হচ্ছে...');
+  // Regenerate SEO assets (sitemaps, RSS feed, llms.txt)
   try {
-    execSync('git add src/data/news_data.json public/images/crawled/ src/lib/ scripts/', { stdio: 'inherit' });
-    const commitMsg = `Sync ${daysBack} days news from 10 Facebook sources (${newPublishedCount} new articles)`;
+    console.log('📄 এসইও অ্যাসেট (Sitemap, RSS, llms.txt) পুনর্নির্মাণ করা হচ্ছে...');
+    execSync('node scripts/generate-seo-assets.js', { stdio: 'inherit' });
+  } catch (seoErr) {
+    console.warn('⚠️ SEO asset generation warning:', seoErr.message);
+  }
+
+  // Push to GitHub so GitHub Actions deploys live to cPanel!
+  console.log('🌐 গিটহাবে পুশ ও লাইভ cPanel ডিপ্লয়মেন্ট শুরু হচ্ছে...');
+  try {
+    execSync('git add src/data/news_data.json public/ public/images/crawled/ src/ scripts/', { stdio: 'inherit' });
+    const commitMsg = `Sync today's news from 10 Facebook sources (${newPublishedCount} new articles)`;
+    try {
+      execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
+    } catch (e) {
+      console.log('ℹ️ No changes to commit.');
+    }
     const token = process.env.GITHUB_TOKEN;
     const pushCmd = token 
       ? `git -c credential.helper= push https://subhraanil:${token}@github.com/subhraanil/baruipur.git main`
       : 'git push origin main';
     execSync(pushCmd, { stdio: 'inherit' });
-    console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন! রেন্ডার লাইভ সাইট স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে।');
+    console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন! cPanel লাইভ সাইট স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে।');
   } catch (gitErr) {
     console.warn('⚠️ গিট অপারেশনের সময় সতর্কতা:', gitErr.message);
+  }
+
+  // Auto-submit updated URLs to Google Indexing API
+  if (newPublishedCount > 0) {
+    try {
+      console.log('🚀 নতুন পোস্টগুলি গুগল সার্চ কনসোলে ইনডেক্সিং এর জন্য পাঠানো হচ্ছে...');
+      execSync('node scripts/submit-indexing.js', { stdio: 'inherit' });
+    } catch (idxErr) {
+      console.warn('⚠️ গুগল ইনডেক্সিং সাবমিশনে সতর্কতা:', idxErr.message);
+    }
   }
 }
 
