@@ -77,8 +77,11 @@ function isJunkOrCommentOrPromo(text) {
   if (/(?:call|whatsapp|অর্ডার|বুকিং|যোগাযোগ).*?\b\d{10}\b/i.test(lower)) promoScore += 3;
   if (/(?:₹\s*\d+|\d+\s*\/-|\d+%\s*(?:off|ছাড়))/i.test(lower)) promoScore += 2;
 
+  if (promoScore >= 3) return true;
+  if (promoScore >= 2 && promoScore > newsScore) return true;
   if (promoScore >= 2 && newsScore <= 1) return true;
   if (promoScore >= 1 && newsScore === 0) return true;
+  if (/(?:শাড়ি|শাড়ির|পাইকারি|ডিসকাউন্ট|ট্রেডিং|শোরুম|জুয়েলার্স|অফার|সেল|কেনাকাটা|মূল্য মাত্র|দাম মাত্র|বুকিং চলছে|মাত্র\s*\d+\s*টাকা)/i.test(lower)) return true;
 
   return false;
 }
