@@ -109,6 +109,10 @@ export default function PostSlugPage({ params }: PostPageProps) {
     limit: 4
   }).filter(a => a.id !== article.id);
 
+  const moreArticles = db.getArticles({
+    limit: 7
+  }).filter(a => a.id !== article.id);
+
   const postSlug = article.slug || article.id;
   const canonicalUrl = `https://baruipur.online/${encodeURI(postSlug)}/`;
   const shareText = `${article.title} - বারুইপুরে সম্পূর্ণ খবরটি পড়ুন।`;
@@ -412,8 +416,14 @@ export default function PostSlugPage({ params }: PostPageProps) {
             </div>
           )}
 
-          {/* Local Utilities (Train live removed as requested, emergency helpline preserved) */}
-          <BaruipurUtilities showTrains={false} />
+          {/* Categories, Guide & Emergency Directory */}
+          <BaruipurUtilities 
+            recentPosts={moreArticles}
+            showCategories={true}
+            showRecentPosts={relatedArticles.length === 0}
+            showPlaces={true}
+            showEmergency={true}
+          />
         </aside>
       </div>
     </div>

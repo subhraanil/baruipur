@@ -135,22 +135,22 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* Railway Spotlight */}
-          <section className="bg-blue-50/50 p-5 rounded-xl border border-blue-100">
+          {/* Crime & Police District Spotlight */}
+          <section className="bg-rose-50/50 p-5 rounded-xl border border-rose-100">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <h3 className="text-base font-bold text-blue-950 flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-blue-600"></span>
-                  শিয়ালদহ দক্ষিণ রেল ও যাতায়াত
+                <h3 className="text-base font-bold text-rose-950 flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-rose-600"></span>
+                  আইনশৃঙ্খলা ও বারুইপুর পুলিশ জেলা
                 </h3>
-                <p className="text-xs text-blue-700">বারুইপুর জংশন ও লোকাল ট্রেন সংক্রান্ত খবর</p>
+                <p className="text-xs text-rose-700">থানা, প্রশাসন ও মহকুমার নিরাপত্তা সংবাদ</p>
               </div>
-              <a href="/category/railway" className="text-xs font-bold text-blue-700 hover:underline">
+              <a href="/category/crime" className="text-xs font-bold text-rose-700 hover:underline">
                 আরও দেখুন →
               </a>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {railwayArticles.map(art => (
+              {crimeArticles.map(art => (
                 <NewsCard key={art.id} article={art} variant="standard" />
               ))}
             </div>
@@ -159,8 +159,13 @@ export default function HomePage() {
 
         {/* Right Column: Sidebar (4 cols) */}
         <aside className="lg:col-span-4 space-y-6">
-          {/* Train & Emergency Directory Widgets */}
-          <BaruipurUtilities />
+          <BaruipurUtilities 
+            recentPosts={allArticles.slice(4, 11)} 
+            showCategories={true}
+            showRecentPosts={true}
+            showPlaces={true}
+            showEmergency={true}
+          />
         </aside>
       </div>
     </div>

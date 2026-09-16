@@ -77,6 +77,11 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     status: 'published'
   });
 
+  const sidebarArticles = db.getArticles({
+    status: 'published',
+    limit: 6
+  }).filter(a => !articles.some(x => x.id === a.id));
+
   const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
 
   const categorySchema = {
@@ -200,7 +205,13 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         {/* Sidebar (4 cols) */}
         <aside className="lg:col-span-4 space-y-6">
-          <BaruipurUtilities />
+          <BaruipurUtilities 
+            recentPosts={sidebarArticles} 
+            showCategories={true}
+            showRecentPosts={true}
+            showPlaces={true}
+            showEmergency={true}
+          />
         </aside>
       </div>
     </div>
