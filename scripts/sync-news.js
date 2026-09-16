@@ -492,7 +492,101 @@ async function scrapeFacebookSource(source) {
   return posts;
 }
 
-// 8. Main execution orchestrator
+// 8. Multi-factor deduplication engine
+function normalizeForComparison(str) {
+  if (!str) return '';
+  return str
+    .toLowerCase()
+    .replace(/[\s\p{P}\p{Symbol}#*:|–—\-🙏🌺✨🌸🛍️🔥😍🕉️🛵⚡🇮🇳]+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function getComparisonTokens(str) {
+  const norm = normalizeForComparison(str);
+  const stopWords = new Set(['বারুইপুর', 'এর', 'ও', 'এবং', 'হলো', 'করা', 'হয়েছে', '২০২৬', '2026', 'হতে', 'নিয়ে', 'থেকে', 'একটি', 'এই', 'সেই']);
+  return norm.split(' ').filter(w => w.length >= 2 && !stopWords.has(w));
+}
+
+function findDuplicateArticle(candidate, existingArticles) {
+  const candTitleNorm = normalizeForComparison(candidate.title);
+  const candSlug = candidate.slug;
+  const candPureContent = (candidate.content || '').split('\n\n[')[0].trim();
+  const candContentNorm = normalizeForComparison(candPureContent);
+  const candTokens = new Set(getComparisonTokens(candPureContent));
+  const candTitleTokens = new Set(getComparisonTokens(candidate.title));
+  
+  const candPostIdMatch = (candidate.originalUrl || '').match(/(?:posts\/|\?v=|videos\/|reel\/|\/)(\d{8,})/);
+  const candPostId = candPostIdMatch ? candPostIdMatch[1] : null;
+
+  for (const existing of existingArticles) {
+    // 1. Exact or normalized title match
+    const exTitleNorm = normalizeForComparison(existing.title);
+    if (candTitleNorm && exTitleNorm && candTitleNorm === exTitleNorm) {
+      return { duplicate: true, matchedArticle: existing, reason: 'exact_title' };
+    }
+
+    // 2. Slug match
+    if (candSlug && existing.slug && candSlug === existing.slug) {
+      return { duplicate: true, matchedArticle: existing, reason: 'slug_match' };
+    }
+
+    // 3. Original post URL match or Post ID match
+    if (candidate.originalUrl && (candidate.originalUrl === existing.originalPostUrl || candidate.originalUrl === existing.sourceUrl)) {
+      return { duplicate: true, matchedArticle: existing, reason: 'url_match' };
+    }
+    if (candPostId) {
+      const exPostIdMatch = (existing.originalPostUrl || existing.sourceUrl || '').match(/(?:posts\/|\?v=|videos\/|reel\/|\/)(\d{8,})/);
+      if (exPostIdMatch && exPostIdMatch[1] === candPostId) {
+        return { duplicate: true, matchedArticle: existing, reason: 'post_id_match' };
+      }
+    }
+
+    // 4. Content similarity
+    const exPureContent = (existing.content || '').split('\n\n[')[0].trim();
+    const exContentNorm = normalizeForComparison(exPureContent);
+
+    // Exact content prefix match (first 60 chars)
+    if (candContentNorm.length >= 40 && exContentNorm.length >= 40) {
+      if (candContentNorm.substring(0, 60) === exContentNorm.substring(0, 60)) {
+        return { duplicate: true, matchedArticle: existing, reason: 'content_prefix' };
+      }
+    }
+
+    // Word token overlap on pure content
+    const exTokens = new Set(getComparisonTokens(exPureContent));
+    if (candTokens.size >= 10 && exTokens.size >= 10) {
+      let shared = 0;
+      for (const w of candTokens) {
+        if (exTokens.has(w)) shared++;
+      }
+      const union = candTokens.size + exTokens.size - shared;
+      const jaccard = shared / union;
+      const minOverlap = shared / Math.min(candTokens.size, exTokens.size);
+
+      if (jaccard >= 0.55 || minOverlap >= 0.70) {
+        return { duplicate: true, matchedArticle: existing, reason: 'content_overlap' };
+      }
+    }
+
+    // Title token overlap
+    const exTitleTokens = new Set(getComparisonTokens(existing.title));
+    if (candTitleTokens.size >= 4 && exTitleTokens.size >= 4) {
+      let sharedTitle = 0;
+      for (const w of candTitleTokens) {
+        if (exTitleTokens.has(w)) sharedTitle++;
+      }
+      const titleOverlap = sharedTitle / Math.min(candTitleTokens.size, exTitleTokens.size);
+      if (titleOverlap >= 0.75) {
+        return { duplicate: true, matchedArticle: existing, reason: 'title_overlap' };
+      }
+    }
+  }
+
+  return { duplicate: false };
+}
+
+// 9. Main execution orchestrator
 async function runWorkflow() {
   console.log('===============================================================');
   console.log(`🚀 বারুইপুর মাল্টি-সোর্স নিউজ ক্রলার ও সিন্থেসিস ওয়ার্কফ্লো`);
@@ -542,24 +636,67 @@ async function runWorkflow() {
   console.log(`✨ সমন্বয়ের পর চূড়ান্ত সংবাদ রিপোর্ট সংখ্যা: ${synthesizedPosts.length} টি\n`);
 
   let newPublishedCount = 0;
-  const existingHashes = new Set(existingArticles.map(a => a.crawlHash).filter(Boolean));
+  let mediaMergedCount = 0;
 
   for (const post of synthesizedPosts) {
     const cleaned = cleanBengaliContent(post.content);
     if (!cleaned || cleaned.length < 30) continue;
 
-    const hash = crypto
-      .createHash('md5')
-      .update(cleaned.substring(0, 100) + (post.sourceId || ''))
-      .digest('hex');
-
-    if (existingHashes.has(hash)) {
-      continue;
-    }
-
     // Mandatory Media Requirement: strictly discard posts without media
     const rawImages = post.images || (post.imageUrl ? [post.imageUrl] : []);
     if (rawImages.length === 0 && !post.videoUrl) {
+      continue;
+    }
+
+    const category = detectCategory(cleaned);
+    const categoryBn = CATEGORY_NAMES[category] || 'সব খবর';
+    const headline = generateHeadline(cleaned, post.title, post.sourceName);
+    const candidateSlug = createSlug(headline);
+
+    // Multi-factor Deduplication Check against existing database articles
+    const dupCheck = findDuplicateArticle({
+      title: headline,
+      slug: candidateSlug,
+      content: cleaned,
+      originalUrl: post.originalUrl
+    }, existingArticles);
+
+    if (dupCheck.duplicate) {
+      const existing = dupCheck.matchedArticle;
+      console.log(`🔁 ডুপ্লিকেট শনাক্ত (${dupCheck.reason}): "${headline.substring(0, 35)}..." -> পূর্ববর্তী: "${existing.title.substring(0, 35)}..."`);
+
+      // Merge media if candidate post has additional photos or videos
+      let mediaUpdated = false;
+      if (rawImages.length > 0) {
+        const exImages = new Set(existing.images || (existing.imageUrl ? [existing.imageUrl] : []));
+        for (const imgUri of rawImages) {
+          if (!exImages.has(imgUri)) {
+            const local = await downloadImageLocally(imgUri);
+            if (local && !exImages.has(local)) {
+              exImages.add(local);
+              mediaUpdated = true;
+            }
+          }
+        }
+        if (mediaUpdated) {
+          existing.images = Array.from(exImages);
+          if (!existing.imageUrl || existing.imageUrl.includes('placeholder')) {
+            existing.imageUrl = existing.images[0];
+          }
+        }
+      }
+
+      if (!existing.videoUrl && post.videoUrl) {
+        existing.videoUrl = post.videoUrl;
+        existing.videoEmbedUrl = post.videoEmbedUrl;
+        mediaUpdated = true;
+      }
+
+      if (mediaUpdated) {
+        mediaMergedCount++;
+        console.log(`   📸 পূর্ববর্তী পোস্টে নতুন ছবি/ভিডিও সংযুক্ত করা হয়েছে।`);
+      }
+
       continue;
     }
 
@@ -575,9 +712,6 @@ async function runWorkflow() {
       continue;
     }
 
-    const category = detectCategory(cleaned);
-    const categoryBn = CATEGORY_NAMES[category] || 'সব খবর';
-    const headline = generateHeadline(cleaned, post.title, post.sourceName);
     const enriched = enrichContentWithContext(headline, cleaned, category);
     const summary = enriched.length > 180 ? enriched.substring(0, 175) + '...' : enriched;
     const articleId = 'art-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6);
@@ -605,11 +739,10 @@ async function runWorkflow() {
       isFeatured: downloadedImages.length > 2,
       status: 'published',
       views: Math.floor(Math.random() * 50) + 10,
-      crawlHash: hash
+      crawlHash: crypto.createHash('md5').update(cleaned.substring(0, 100)).digest('hex')
     };
 
     existingArticles.unshift(article);
-    existingHashes.add(hash);
     newPublishedCount++;
   }
 
