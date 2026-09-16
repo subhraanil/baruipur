@@ -1,0 +1,45 @@
+name: Twice Daily News Sync
+
+on:
+  schedule:
+    # 03:30 UTC = 9:00 AM IST, 13:30 UTC = 7:00 PM IST
+    - cron: '30 3,13 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run News Sync for Today
+        run: node scripts/sync-news.js --days=1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push Changes (if any new posts)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/news_data.json public/ scripts/
+          if git diff --staged --quiet; then
+            echo "No new articles found today."
+          else
+            git commit -m "Auto-sync daily news from Facebook sources"
+            git push origin main
+          fi

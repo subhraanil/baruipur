@@ -10,6 +10,7 @@
     "worker": "node src/lib/worker.js",
     "crawl:initial": "node scripts/sync-news.js --days=30",
     "crawl:sync": "node scripts/sync-news.js --days=7",
+    "sync:today": "node scripts/sync-news.js --days=1",
     "submit:indexing": "node scripts/submit-indexing.js"
   },
   "dependencies": {
