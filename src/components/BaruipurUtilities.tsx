@@ -34,11 +34,22 @@ interface BaruipurUtilitiesProps {
 const PLACES_LINKS = [
   { slug: 'baruipur-municipality', name: 'বারুইপুর পৌরসভা', subtitle: '১৭টি ওয়ার্ড ও নাগরিক সেবা' },
   { slug: 'baruipur-police-district', name: 'বারুইপুর পুলিশ জেলা', subtitle: 'আইনশৃঙ্খলা ও হেল্পলাইন' },
-  { slug: 'baruipur-swimming-pool', name: 'বারুইপুর সুইমিং পুল', subtitle: 'সাঁতার প্রশিক্ষণ ও সদস্যপদ' },
+  { slug: 'baruipur-college', name: 'বারুইপুর কলেজ', subtitle: 'স্নাতক উচ্চশিক্ষা প্রতিষ্ঠান' },
+  { slug: 'baruipur-jail', name: 'বারুইপুর কেন্দ্রীয় সংশোধনাগার', subtitle: 'আধুনিক কেন্দ্রীয় কারাগার' },
+  { slug: 'baruipur-film-city', name: 'টেলি একাডেমি ফিল্ম সিটি', subtitle: 'চলচ্চিত্র ও সিরিয়াল শুটিং হাব' },
+  { slug: 'baruipur-sdo-office', name: 'বারুইপুর এসডিও অফিস', subtitle: 'মহকুমা শাসক প্রশাসন' },
+  { slug: 'baruipur-bdo-office', name: 'বারুইপুর বিডিও অফিস', subtitle: '১৯টি গ্রাম পঞ্চায়েত সেবা' },
+  { slug: 'baruipur-women-police-station', name: 'বারুইপুর মহিলা থানা', subtitle: 'নারী ও শিশু সুরক্ষা হেল্পলাইন' },
+  { slug: 'baruipur-town-library', name: 'বারুইপুর টাউন লাইব্রেরি', subtitle: 'ঐতিহ্যবাহী পাঠাগার ও রিডিং রুম' },
+  { slug: 'baruipur-mahaprabhu-tala-sadabrata-ghat', name: 'মহাপ্রভুতলা ও সদাব্রত ঘাট', subtitle: '৫০০ বছরের প্রাচীন বৈষ্ণব তীর্থ' },
+  { slug: 'baruipur-rajbari', name: 'বারুইপুর রাজবাড়ি', subtitle: 'সাবর্ণ চৌধুরীদের ঐতিহাসিক প্রাসাদ' },
+  { slug: 'baruipur-aranyak', name: 'বারুইপুর আরণ্যক', subtitle: 'ইকোট্যুরিজম ও পিকনিক গার্ডেন' },
+  { slug: 'baruipur-happy-valley', name: 'বারুইপুর হ্যাপি ভ্যালি', subtitle: 'বিনোদন পার্ক, ওয়াটার গেমস ও রিসর্ট' },
   { slug: 'baruipur-rashmath', name: 'বারুইপুর রাসমাঠ', subtitle: '৩৫০ বছরের প্রাচীন রাসমেলা' },
-  { slug: 'baruipur-bypass', name: 'বারুইপুর বাইপাস', subtitle: 'ইএম বাইপাস সংযোগ ও ট্রাফিক' },
-  { slug: 'baruipur-hospital', name: 'মহকুমা হাসপাতাল', subtitle: 'জরুরি চিকিৎসা ও ব্লাড ব্যাংক' },
-  { slug: 'baruipur-junction', name: 'বারুইপুর রেল জংশন', subtitle: 'শিয়ালদহ দক্ষিণ রেল নেটওয়ার্ক' },
+  { slug: 'baruipur-swimming-pool', name: 'বারুইপুর সুইমিং পুল', subtitle: 'সাঁতার প্রশিক্ষণ ও ক্রীড়া কেন্দ্র' },
+  { slug: 'baruipur-bypass', name: 'বারুইপুর বাইপাস', subtitle: 'ইএম বাইপাস সংযোগ ও ওভারব্রিজ' },
+  { slug: 'baruipur-subdivisional-hospital', name: 'মহকুমা হাসপাতাল', subtitle: 'জরুরি চিকিৎসা ও ব্লাড ব্যাংক' },
+  { slug: 'baruipur-junction-railway-station', name: 'বারুইপুর রেল জংশন', subtitle: 'শিয়ালদহ দক্ষিণ রেলওয়ে নেটওয়ার্ক' },
 ];
 
 export default function BaruipurUtilities({

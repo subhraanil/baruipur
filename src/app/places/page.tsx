@@ -14,23 +14,27 @@ import {
   Phone, 
   Clock, 
   ArrowRight,
-  Landmark
+  Landmark,
+  GraduationCap
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও নাগরিক নির্দেশিকা | বারুইপুর Baruipur',
-  description: 'বারুইপুর পৌরসভা, বারুইপুর পুলিশ জেলা, সুইমিং পুল কমপ্লেক্স, ঐতিহ্যবাহী রাসমাঠ, বাইপাস ও রেল ওভারব্রিজ সহ শহরের গুরুত্বপূর্ণ স্থানগুলির বিস্তারিত তথ্য ও নির্দেশিকা।',
+  description: 'বারুইপুর পৌরসভা, বারুইপুর পুলিশ জেলা, বারুইপুর কলেজ, সংশোধনাগার (জেল), ফিল্ম সিটি, বিডিও ও এসডিও অফিস, টাউন লাইব্রেরি, মহাপ্রভুতলা ও সদাব্রত ঘাট, মহিলা থানা, আরণ্যক, রাজবাড়ি ও হ্যাপি ভ্যালি সহ শহরের গুরুত্বপূর্ণ সকল স্থান ও প্রতিষ্ঠানের পূর্ণাঙ্গ তথ্যকোষ।',
   keywords: [
-    'Baruipur Municipality', 'Baruipur Police District', 'Baruipur Swimming pool',
-    'Baruipur Rashmath', 'Baruipur bypass', 'বারুইপুর পৌরসভা', 'বারুইপুর পুলিশ জেলা',
-    'বারুইপুর সুইমিং পুল', 'বারুইপুর রাসমাঠ', 'বারুইপুর বাইপাস', 'Baruipur guide'
+    'Baruipur Municipality', 'Baruipur Police District', 'Baruipur College', 'Baruipur Jail',
+    'Baruipur Film City', 'Baruipur BDO', 'Baruipur SDO', 'Baruipur Town Library',
+    'Baruipur Mahaprabhu Tala and Sadabrata Ghat', 'Baruipur Women Police Station',
+    'Baruipur Aranyak', 'Baruipur Rajbari', 'Baruipur Happy Valley',
+    'Baruipur Swimming pool', 'Baruipur Rashmath', 'Baruipur bypass', 'বারুইপুর কলেজ',
+    'বারুইপুর জেল', 'বারুইপুর ফিল্ম সিটি', 'বারুইপুর রাজবাড়ি', 'মহাপ্রভুতলা ও সদাব্রত ঘাট', 'Baruipur guide'
   ],
   alternates: {
     canonical: 'https://baruipur.online/places/',
   },
   openGraph: {
     title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও তথ্য | বারুইপুর Baruipur',
-    description: 'পৌরসভা, পুলিশ জেলা, সুইমিং পুল, রাসমাঠ ও বাইপাসের বিস্তারিত ইতিহাস, যোগাযোগের ঠিকানা ও নাগরিক নির্দেশিকা।',
+    description: 'পৌরসভা, কলেজ, সংশোধনাগার, ফিল্ম সিটি, বিডিও, এসডিও, লাইব্রেরি, মহাপ্রভুতলা, মহিলা থানা, আরণ্যক, রাজবাড়ি ও হ্যাপি ভ্যালির পূর্ণাঙ্গ তথ্য ও নির্দেশিকা।',
     url: 'https://baruipur.online/places/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
@@ -49,6 +53,7 @@ const getCategoryIcon = (category: string) => {
     case 'police': return <ShieldAlert className="w-6 h-6 text-rose-600" />;
     case 'sports': return <Waves className="w-6 h-6 text-cyan-600" />;
     case 'culture': return <Sparkles className="w-6 h-6 text-amber-600" />;
+    case 'education': return <GraduationCap className="w-6 h-6 text-purple-600" />;
     case 'infrastructure': return <Compass className="w-6 h-6 text-blue-600" />;
     case 'health': return <Hospital className="w-6 h-6 text-teal-600" />;
     case 'transit': return <TrainTrack className="w-6 h-6 text-indigo-600" />;
