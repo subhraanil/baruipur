@@ -20,7 +20,8 @@ import {
   Sparkles,
   TrainTrack,
   ArrowRight,
-  Play
+  Play,
+  Compass
 } from 'lucide-react';
 
 interface BaruipurUtilitiesProps {
@@ -30,6 +31,39 @@ interface BaruipurUtilitiesProps {
   showPlaces?: boolean;
   showEmergency?: boolean;
 }
+
+const LIFESTYLE_GUIDES = [
+  {
+    title: 'বারুইপুরে কী কী করবেন: সেরা ৮টি অভিজ্ঞতা',
+    slug: 'top-things-to-do-in-baruipur-complete-experience-guide',
+    tag: 'অভিজ্ঞতা ও উৎসব'
+  },
+  {
+    title: 'বারুইপুরের সেরা দর্শনীয় স্থানসমূহের গাইড',
+    slug: 'best-places-to-visit-in-baruipur-travel-guide',
+    tag: 'পর্যটন ও ঐতিহ্য'
+  },
+  {
+    title: 'বারুইপুরের শপিং মল, ব্র্যান্ড ও বাজার',
+    slug: 'shopping-malls-and-top-brands-in-baruipur-market-guide',
+    tag: 'কেনাকাটা'
+  },
+  {
+    title: 'বারুইপুরের সেরা স্কুল ও শিক্ষা প্রতিষ্ঠান',
+    slug: 'top-schools-in-baruipur-education-admission-guide',
+    tag: 'শিক্ষা পরিকাঠামো'
+  },
+  {
+    title: 'বারুইপুরের সেরা রেস্তোরাঁ ও মিষ্টির ঠিকানা',
+    slug: 'best-restaurants-cafes-and-sweets-in-baruipur-food-guide',
+    tag: 'খাবার ও রেস্তোরাঁ'
+  },
+  {
+    title: 'বারুইপুরের রাজনৈতিক চালচিত্র ও নেতৃত্ব',
+    slug: 'baruipur-political-profile-parties-mlas-and-leaders',
+    tag: 'শাসন ও রাজনীতি'
+  }
+];
 
 const PLACES_LINKS = [
   { slug: 'baruipur-municipality', name: 'বারুইপুর পৌরসভা', subtitle: '১৭টি ওয়ার্ড ও নাগরিক সেবা' },
@@ -251,7 +285,40 @@ export default function BaruipurUtilities({
         </div>
       )}
 
-      {/* 4. Baruipur Emergency Directory */}
+      {/* 4. Baruipur Essential Guides Widget */}
+      <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">
+        <div className="flex items-center gap-2 border-b border-slate-100 pb-3 mb-3">
+          <div className="p-2 rounded-lg bg-emerald-50 text-emerald-600">
+            <Compass className="w-5 h-5" />
+          </div>
+          <div>
+            <h3 className="font-bold text-slate-900 text-base">বারুইপুর স্পেশাল গাইড</h3>
+            <p className="text-xs text-slate-500">জীবনযাত্রা, বিনোদন ও প্রয়োজনীয় তথ্যকোষ</p>
+          </div>
+        </div>
+
+        <div className="space-y-2">
+          {LIFESTYLE_GUIDES.map((guide, idx) => (
+            <a
+              key={idx}
+              href={`/${guide.slug}/`}
+              className="block p-2.5 rounded-lg border border-slate-150 hover:border-emerald-300 hover:bg-emerald-50/30 transition group"
+            >
+              <div className="flex items-center justify-between gap-1 mb-1">
+                <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                  {guide.tag}
+                </span>
+                <ChevronRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition" />
+              </div>
+              <h4 className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug">
+                {guide.title}
+              </h4>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* 5. Baruipur Emergency Directory */}
       {showEmergency && (
         <div id="emergency-section" className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">
           <div className="flex items-center gap-2 border-b border-slate-100 pb-3 mb-4">

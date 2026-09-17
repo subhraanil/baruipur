@@ -1,5 +1,14 @@
 import placesData from '@/data/places_data.json';
 
+export interface WardItem {
+  wardNo: number;
+  nameBn: string;
+  nameEn: string;
+  phone?: string;
+  designationBn?: string;
+  designationEn?: string;
+}
+
 export interface PlaceItem {
   slug: string;
   nameBn: string;
@@ -9,6 +18,7 @@ export interface PlaceItem {
   schemaType: string;
   established: string;
   wardsCount?: number;
+  wards?: WardItem[];
   overview: string;
   history: string;
   administrativeDetails: Record<string, string>;

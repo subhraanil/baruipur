@@ -8,11 +8,151 @@
     "schemaType": "GovernmentBuilding",
     "established": "1869",
     "wardsCount": 17,
+    "wards": [
+      {
+        "wardNo": 1,
+        "nameBn": "শ্রী স্বপন কুমার নস্কর",
+        "nameEn": "Sri Swapan Kumar Naskar",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১",
+        "designationEn": "Councillor, Ward 1"
+      },
+      {
+        "wardNo": 2,
+        "nameBn": "শ্রী হৃষিকেশ নস্কর",
+        "nameEn": "Sri Hrishikesh Naskar",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ২",
+        "designationEn": "Councillor, Ward 2"
+      },
+      {
+        "wardNo": 3,
+        "nameBn": "শ্রী স্বপন কুমার মণ্ডল",
+        "nameEn": "Sri Swapan Kumar Mondal",
+        "phone": "9231625358",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৩",
+        "designationEn": "Councillor, Ward 3"
+      },
+      {
+        "wardNo": 4,
+        "nameBn": "শ্রীমতী অপরাজিতা দাস",
+        "nameEn": "Smt. Aparajita Das",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৪",
+        "designationEn": "Councillor, Ward 4"
+      },
+      {
+        "wardNo": 5,
+        "nameBn": "শ্রীমতী মিলু গুহঠাকুরতা",
+        "nameEn": "Smt. Milu Guhathakurata",
+        "phone": "9477506673",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৫",
+        "designationEn": "Councillor, Ward 5"
+      },
+      {
+        "wardNo": 6,
+        "nameBn": "শ্রী বিকাশ কুমার দত্ত",
+        "nameEn": "Sri Bikash Kumar Datta",
+        "phone": "9007691464",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৬",
+        "designationEn": "Councillor, Ward 6"
+      },
+      {
+        "wardNo": 7,
+        "nameBn": "শ্রীমতী নমিতা সরদার নস্কর",
+        "nameEn": "Smt. Namita Sardar Naskar",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৭",
+        "designationEn": "Councillor, Ward 7"
+      },
+      {
+        "wardNo": 8,
+        "nameBn": "শ্রীমতী মিতা দত্ত",
+        "nameEn": "Smt. Mita Dutta",
+        "phone": "9007415403",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৮",
+        "designationEn": "Councillor, Ward 8"
+      },
+      {
+        "wardNo": 9,
+        "nameBn": "শ্রী সুভাষ রায়চৌধুরী",
+        "nameEn": "Sri Subhash Raichaudhuri",
+        "phone": "9830564986",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ৯",
+        "designationEn": "Councillor, Ward 9"
+      },
+      {
+        "wardNo": 10,
+        "nameBn": "জনাব মোজাফফর আহমেদ",
+        "nameEn": "Janab Mozaffar Ahmed",
+        "phone": "9433224117",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১০",
+        "designationEn": "Councillor, Ward 10"
+      },
+      {
+        "wardNo": 11,
+        "nameBn": "শ্রীমতী অর্চনা ভদ্র",
+        "nameEn": "Smt. Archana Bhadra",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১১",
+        "designationEn": "Councillor, Ward 11"
+      },
+      {
+        "wardNo": 12,
+        "nameBn": "শ্রী গৌতম কুমার দাস",
+        "nameEn": "Sri Goutam Kumar Das",
+        "phone": "9830161720",
+        "designationBn": "ভাইস চেয়ারম্যান ও কাউন্সিলর, ওয়ার্ড ১২",
+        "designationEn": "Vice Chairman & Councillor, Ward 12"
+      },
+      {
+        "wardNo": 13,
+        "nameBn": "শ্রী তাপস ভদ্র (বাপি)",
+        "nameEn": "Sri Tapas Bhadra (Bapi)",
+        "phone": "9831069854",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১৩",
+        "designationEn": "Councillor, Ward 13"
+      },
+      {
+        "wardNo": 14,
+        "nameBn": "শ্রীমতী সঙ্গীতা কয়াল মণ্ডল",
+        "nameEn": "Smt. Sangita Kayal Mondal",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১৪",
+        "designationEn": "Councillor, Ward 14"
+      },
+      {
+        "wardNo": 15,
+        "nameBn": "শ্রীমতী অর্চনা মল্লিক",
+        "nameEn": "Smt. Archana Mallick",
+        "phone": "033-2433-8201",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১৫",
+        "designationEn": "Councillor, Ward 15"
+      },
+      {
+        "wardNo": 16,
+        "nameBn": "শ্রী আশিস দেব রায়",
+        "nameEn": "Sri Ashis Deb Roy",
+        "phone": "9903229876",
+        "designationBn": "কাউন্সিলর, ওয়ার্ড ১৬",
+        "designationEn": "Councillor, Ward 16"
+      },
+      {
+        "wardNo": 17,
+        "nameBn": "শ্রী শক্তি রায়চৌধুরী",
+        "nameEn": "Sri Shakti Roychowdhury",
+        "phone": "9836442485",
+        "designationBn": "পৌরপ্রধান (Chairman) ও কাউন্সিলর, ওয়ার্ড ১৭",
+        "designationEn": "Chairman & Councillor, Ward 17"
+      }
+    ],
     "overview": "বারুইপুর পৌরসভা (Baruipur Municipality) পশ্চিমবঙ্গের দক্ষিণ ২৪ পরগনা জেলার বারুইপুর মহকুমার সদর শহরের প্রধান স্বায়ত্তশাসিত স্থানীয় প্রশাসনিক কর্তৃপক্ষ। ১৮৬৯ সালে প্রতিষ্ঠিত এই পৌরসভাটি বাংলার অন্যতম প্রাচীন নগর পঞ্চায়েত বা পৌর প্রতিষ্ঠান। বর্তমানে ১৭টি ওয়ার্ড নিয়ে গঠিত এই পৌরসভা বারুইপুর শহরের নাগরিক স্বাচ্ছন্দ্য, পরিচ্ছন্নতা, কঠিন বর্জ্য ব্যবস্থাপনা, পরিস্রুত পানীয় জল সরবরাহ, আলোকসজ্জা, স্বাস্থ্যসেবা ও পরিকল্পিত ড্রেনেজ ব্যবস্থার দেখভালের দায়িত্বে নিয়োজিত।",
     "history": "ব্রিটিশ শাসনকালে বারুইপুর যখন একটি গুরুত্বপূর্ণ মহকুমা শহর হিসেবে গড়ে ওঠে, তখনই ১৮৬৯ সালে স্থানীয় শাসন ব্যবস্থার সূচনা ঘটে। ঐতিহাসিক নীল বিদ্রোহ ও রায়চৌধুরী জমিদারদের প্রভাবের কেন্দ্রে অবস্থিত বারুইপুরে সেই যুগ থেকেই সুপরিকল্পিত নগর উন্নয়নের উদ্যোগ নেওয়া হয়। প্রাচীন কাচারি বাড়ি, রাসমাঠ ও পুরনো বাজার অঞ্চল থেকেই পৌরসভার বিকাশ শুরু হয়। সময়ের সাথে সাথে বারুইপুর আধুনিক কলকাতার অন্যতম গুরুত্বপূর্ণ উপনগরী হয়ে উঠেছে।",
     "administrativeDetails": {
-      "chairpersonOffice": "পৌরপ্রধান (Chairman, Baruipur Municipality)",
-      "totalWards": "১৭ টি ওয়ার্ড",
+      "chairpersonOffice": "শ্রী শক্তি রায়চৌধুরী (Chairman, Mobile: 9836442485)",
+      "viceChairmanOffice": "শ্রী গৌতম কুমার দাস (Vice Chairman, Mobile: 9830161720)",
+      "totalWards": "১৭ টি ওয়ার্ড (ওয়ার্ড ১ থেকে ১৭)",
+      "executiveOfficer": "Executive Officer (Office: 033-2433-8201)",
       "subdivision": "বারুইপুর মহকুমা",
       "district": "দক্ষিণ ২৪ পরগনা",
       "pincode": "743302",

@@ -20,7 +20,8 @@ import {
   CheckCircle2, 
   HelpCircle,
   Landmark,
-  ArrowLeft
+  ArrowLeft,
+  Users
 } from 'lucide-react';
 
 interface PlacePageProps {
@@ -210,6 +211,78 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               <p className="text-base text-slate-700 leading-relaxed text-justify">
                 {place.history}
               </p>
+            </section>
+          )}
+
+          {/* 17 Municipal Wards & Councillors Directory */}
+          {place.wards && place.wards.length > 0 && (
+            <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-150 pb-4 mb-5 gap-2">
+                <div>
+                  <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                    <Users className="w-5 h-5 text-blue-600" />
+                    পৌরসভার ১৭টি ওয়ার্ডের কাউন্সিলর ও ফোন নম্বর
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-500 mt-1">
+                    নাগরিক সমস্যা, প্রত্যয়ন পত্র ও পরিষেবা সংক্রান্ত প্রয়োজনে সংশ্লিষ্ট ওয়ার্ডের কাউন্সিলরের সাথে সরাসরি যোগাযোগ করুন
+                  </p>
+                </div>
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200 shrink-0 self-start sm:self-auto">
+                  মোট ১৭ টি ওয়ার্ড
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                {place.wards.map((ward) => (
+                  <div 
+                    key={ward.wardNo}
+                    className="p-4 rounded-xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white hover:border-blue-300 hover:shadow-xs transition-all flex flex-col justify-between"
+                  >
+                    <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="px-2.5 py-0.5 rounded-md text-xs font-black bg-blue-600 text-white tracking-wide">
+                          ওয়ার্ড নং {ward.wardNo}
+                        </span>
+                        {ward.designationBn && (
+                          <span className="text-[11px] font-bold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                            {ward.designationBn}
+                          </span>
+                        )}
+                      </div>
+                      <h3 className="text-base font-bold text-slate-900 mb-0.5">
+                        {ward.nameBn}
+                      </h3>
+                      <p className="text-xs text-slate-500 mb-3 font-medium">
+                        {ward.nameEn}
+                      </p>
+                    </div>
+
+                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
+                      <span className="text-xs text-slate-500 font-medium">যোগাযোগ:</span>
+                      {ward.phone ? (
+                        <a 
+                          href={`tel:${ward.phone}`}
+                          className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg transition-colors"
+                        >
+                          <Phone className="w-3.5 h-3.5 text-blue-600" />
+                          <span>{ward.phone}</span>
+                        </a>
+                      ) : (
+                        <span className="text-xs text-slate-400">পৌরসভা অফিস</span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="mt-5 p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                <div>
+                  <strong>পৌর প্রধান কার্যালয় হেল্পলাইন:</strong> 033-2433-8201 / 033-2433-8260
+                  <span className="mx-2 hidden sm:inline">|</span>
+                  <strong className="block sm:inline mt-1 sm:mt-0">জরুরি টোল-ফ্রি:</strong> 1800-345-5555
+                </div>
+                <span className="text-[11px] text-slate-400">তথ্যসূত্র: বারুইপুর পৌরসভা অফিশিয়াল রেকর্ড</span>
+              </div>
             </section>
           )}
 
