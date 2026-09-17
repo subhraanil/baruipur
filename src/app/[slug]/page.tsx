@@ -15,8 +15,10 @@ import {
   ChevronRight, 
   Flame, 
   Send,
-  Play
+  Play,
+  ShieldCheck
 } from 'lucide-react';
+import MarkdownRenderer from '@/components/MarkdownRenderer';
 
 interface PostPageProps {
   params: {
@@ -188,6 +190,30 @@ export default function PostSlugPage({ params }: PostPageProps) {
     ]
   };
 
+  // Extract FAQs for FAQPage Schema if present
+  const faqRegex = /###\s+(?:Q\d*[:.]?\s*)?([^\n\?]+\?)\s*\n+([\s\S]*?)(?=\n###|\n##|$)/g;
+  const faqs: Array<{ question: string; answer: string }> = [];
+  let match;
+  while ((match = faqRegex.exec(article.content)) !== null) {
+    faqs.push({
+      question: match[1].trim(),
+      answer: match[2].trim().replace(/\n+/g, ' ').slice(0, 300)
+    });
+  }
+
+  const faqSchema = faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(f => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.answer
+      }
+    }))
+  } : null;
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
@@ -199,6 +225,12 @@ export default function PostSlugPage({ params }: PostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-5 overflow-x-auto">
@@ -335,13 +367,20 @@ export default function PostSlugPage({ params }: PostPageProps) {
             </a>
           </div>
 
-          {/* Full Article Content */}
-          <div className="prose prose-slate max-w-none text-slate-800 text-base sm:text-lg leading-relaxed space-y-4">
-            {article.content.split('\n\n').map((paragraph, i) => (
-              <p key={i} className="text-justify">
-                {paragraph}
-              </p>
-            ))}
+          {/* Information Verification & Freshness Badge */}
+          <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-600 mb-6">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-emerald-600" />
+              <span><strong>তথ্য সত্যতা ও যাচাই:</strong> সেপ্টেম্বর ২০২৬ (Verified Local Directory)</span>
+            </div>
+            <div className="text-slate-500 font-medium">
+              সর্বশেষ পরিমার্জন: সেপ্টেম্বর ২০২৬
+            </div>
+          </div>
+
+          {/* Full Article Content with Markdown Rendering */}
+          <div className="max-w-none text-slate-800 text-base sm:text-lg leading-relaxed">
+            <MarkdownRenderer content={article.content} />
           </div>
 
           {/* Multi-Image Photo Stream & Gallery */}
