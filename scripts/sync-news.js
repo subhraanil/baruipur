@@ -24,10 +24,16 @@ if (!fs.existsSync(CACHE_DIR)) {
 // 1. Comprehensive Spam, Advertisement & Comment Filter
 function isJunkOrCommentOrPromo(text) {
   if (!text || text.trim().length < 30) return true;
-  const t = text.trim();
+  // Normalize mathematical bold/italic Unicode letters (e.g. 𝐖𝐞 𝐈𝐧𝐬𝐭𝐚𝐥𝐥 -> We Install)
+  const normalizedText = (text || '').normalize('NFKD');
+  const t = normalizedText.trim();
   const lower = t.toLowerCase();
 
-  // A. Facebook user comments / banter / transliterated chatter
+  // A. Facebook UI artifacts & button fragments
+  if (/^(?:see\s+all\s+photos|see\s+more|view\s+more|log\s+in|sign\s+up|watch\s+more)/i.test(t)) return true;
+  if (/see all photos/i.test(lower)) return true;
+
+  // B. Facebook user comments / banter / transliterated chatter / surveys
   if (/^[A-Z][a-z]+\s+[A-Z][a-z]+\s+sure\b/i.test(t)) return true;
   if (/(?:dar gari|amra roj jai|ami chini|kheye nebe|valobasa|bhalobasa|bhaipo|bhalo theko|choto bhai|pukur bujiye|ekhn diye roj)\b/i.test(lower)) return true;
   if (/happy\s*birthday|shuvo\s*jonmodin|শুভ\s*জন্মদিন|অনেক\s*অনেক\s*ভালোবাসা/i.test(lower)) return true;
@@ -35,11 +41,17 @@ function isJunkOrCommentOrPromo(text) {
   if (/মাশাল্লাহ|সব রখম মোবাইল|calender না দেখে|roll best/i.test(lower)) return true;
   if (/never share your otp/i.test(lower)) return true;
 
+  // Social media conversation prompts / questionnaires
+  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*গেছ|কে\s*কে\s*আছো|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারবেন|কারা\s*বলতে\s*পারবেন|কারা\s*চেনো|চিনতে\s*পারছেন)/i.test(lower)) return true;
+
+  // Conversational train surveys
+  if (/তোমরা\s*কারা\s*এই\s*ট্রেন/i.test(lower)) return true;
+
   if (/^[a-zA-Z0-9\s.,!?:;'"()-]+$/.test(t) && !lower.includes('police') && !lower.includes('arrest') && !lower.includes('baruipur')) {
     return true;
   }
 
-  // B. Commercial Advertisements & Promotions
+  // C. Commercial Advertisements & Promotions
   const promoKeywords = [
     'অফার', 'ডিসকাউন্ট', 'সেল', 'কেনাকাটা', 'শপিং', 'প্রাইস', 'দাম মাত্র',
     'মূল্য মাত্র', 'মূল্যঃ', 'দামঃ', 'টাকা মাত্র', '₹', 'store opening',
@@ -52,7 +64,8 @@ function isJunkOrCommentOrPromo(text) {
     'জুয়েলার্স', 'গহনা কিনলে', 'সোনার গহনা', 'রুপোর গহনা', 'স্কুটার', 'প্রচার করুন',
     'বিজ্ঞাপন দিন', 'ব্র্যান্ডের প্রচার', 'রেজিস্ট্রেশন করে', 'ট্রেডিং', 'পাইকারি', 'খুচরা',
     'শাড়ির', 'শাড়ি', 'শাড়ী', 'গিফ্ট', 'উপহার', 'পাইকারি দামে', 'শুরু মাত্র', 'টাকা থেকে শুরু',
-    'অর্ডার করুন', 'হোম ডেলিভারি'
+    'অর্ডার করুন', 'হোম ডেলিভারি', 'cctv', 'camera', 'we install', 'installation', 'enterprise',
+    'gift', 'ব্র্যান্ড নিউ', 'পুরনো দামেই', 'ক্যামেরা লাগাতে', 'সার্ভিসিং'
   ];
 
   const newsKeywords = [
@@ -76,12 +89,13 @@ function isJunkOrCommentOrPromo(text) {
 
   if (/(?:call|whatsapp|অর্ডার|বুকিং|যোগাযোগ).*?\b\d{10}\b/i.test(lower)) promoScore += 3;
   if (/(?:₹\s*\d+|\d+\s*\/-|\d+%\s*(?:off|ছাড়))/i.test(lower)) promoScore += 2;
+  if (/(?:cctv|we install|camera's|gift & enterprise)/i.test(lower)) promoScore += 3;
 
   if (promoScore >= 3) return true;
   if (promoScore >= 2 && promoScore > newsScore) return true;
   if (promoScore >= 2 && newsScore <= 1) return true;
   if (promoScore >= 1 && newsScore === 0) return true;
-  if (/(?:শাড়ি|শাড়ির|পাইকারি|ডিসকাউন্ট|ট্রেডিং|শোরুম|জুয়েলার্স|অফার|সেল|কেনাকাটা|মূল্য মাত্র|দাম মাত্র|বুকিং চলছে|মাত্র\s*\d+\s*টাকা)/i.test(lower)) return true;
+  if (/(?:শাড়ি|শাড়ির|পাইকারি|ডিসকাউন্ট|ট্রেডিং|শোরুম|জুয়েলার্স|অফার|সেল|কেনাকাটা|মূল্য মাত্র|দাম মাত্র|বুকিং চলছে|মাত্র\s*\d+\s*টাকা|cctv|we install)/i.test(lower)) return true;
 
   return false;
 }
@@ -138,7 +152,10 @@ function generateHeadline(content, fallbackTitle, sourceName) {
       .replace(/https?:\/\/\S+/g, '')
       .replace(/#[\w\u0980-\u09FF]+/g, '')
       .trim();
-    const lines = cleaned.split('\n').map(l => l.trim()).filter(l => l.length > 10);
+    const lines = cleaned
+      .split('\n')
+      .map(l => l.trim())
+      .filter(l => l.length > 10 && !/^(?:see\s+all|see\s+more|view\s+more|log\s+in|watch\s+more|sign\s+up)/i.test(l));
     if (lines.length > 0) {
       const firstLine = lines[0];
       if (firstLine.length <= 90) {
@@ -780,23 +797,31 @@ async function runWorkflow() {
   }
 
   // Push to GitHub so GitHub Actions deploys live to cPanel!
-  console.log('🌐 গিটহাবে পুশ ও লাইভ cPanel ডিপ্লয়মেন্ট শুরু হচ্ছে...');
-  try {
-    execSync('git add src/data/news_data.json public/ public/images/crawled/ src/ scripts/', { stdio: 'inherit' });
-    const commitMsg = `Sync today's news from 10 Facebook sources (${newPublishedCount} new articles)`;
+  if (!process.env.GITHUB_ACTIONS) {
+    console.log('🌐 গিটহাবে পুশ ও লাইভ cPanel ডিপ্লয়মেন্ট শুরু হচ্ছে...');
     try {
-      execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
-    } catch (e) {
-      console.log('ℹ️ No changes to commit.');
+      try {
+        execSync('git pull --rebase origin main', { stdio: 'inherit' });
+      } catch (e) {}
+      execSync('git add src/data/news_data.json public/ public/images/crawled/ src/ scripts/', { stdio: 'inherit' });
+      const commitMsg = `Sync today's news from 10 Facebook sources (${newPublishedCount} new articles)`;
+      try {
+        execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
+      } catch (e) {
+        console.log('ℹ️ No changes to commit.');
+      }
+      try {
+        execSync('git pull --rebase origin main', { stdio: 'inherit' });
+      } catch (e) {}
+      const token = process.env.GITHUB_TOKEN;
+      const pushCmd = token 
+        ? `git -c credential.helper= push https://subhraanil:${token}@github.com/subhraanil/baruipur.git main`
+        : 'git push origin main';
+      execSync(pushCmd, { stdio: 'inherit' });
+      console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন! cPanel লাইভ সাইট স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে।');
+    } catch (gitErr) {
+      console.warn('⚠️ গিট অপারেশনের সময় সতর্কতা:', gitErr.message);
     }
-    const token = process.env.GITHUB_TOKEN;
-    const pushCmd = token 
-      ? `git -c credential.helper= push https://subhraanil:${token}@github.com/subhraanil/baruipur.git main`
-      : 'git push origin main';
-    execSync(pushCmd, { stdio: 'inherit' });
-    console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন! cPanel লাইভ সাইট স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে।');
-  } catch (gitErr) {
-    console.warn('⚠️ গিট অপারেশনের সময় সতর্কতা:', gitErr.message);
   }
 
   // Auto-submit updated URLs to Google Indexing API
