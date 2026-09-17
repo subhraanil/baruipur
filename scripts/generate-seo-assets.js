@@ -147,15 +147,29 @@ for (const cat of categories) {
 `;
 }
 
-// Places & Landmark Guides
-sitemapXml += `  <!-- Places Hub -->
+const staticPages = [
+  { path: '/places/', priority: '0.9', changefreq: 'weekly', title: 'Places Hub' },
+  { path: '/transport/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Transport Guide' },
+  { path: '/citizen-services/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Citizen Services' },
+  { path: '/events/', priority: '0.8', changefreq: 'weekly', title: 'Baruipur Annual Events 2026' },
+  { path: '/emergency-contacts/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Emergency Contacts' },
+  { path: '/about/', priority: '0.7', changefreq: 'monthly', title: 'About Baruipur Online' },
+  { path: '/editorial-policy/', priority: '0.7', changefreq: 'monthly', title: 'Editorial Policy' },
+  { path: '/corrections-policy/', priority: '0.7', changefreq: 'monthly', title: 'Corrections Policy' },
+  { path: '/contact/', priority: '0.7', changefreq: 'monthly', title: 'Contact Us' },
+  { path: '/submit-news/', priority: '0.8', changefreq: 'monthly', title: 'Submit Local News' },
+];
+
+for (const sp of staticPages) {
+  sitemapXml += `  <!-- Static: ${sp.title} -->
   <url>
-    <loc>${SITE_URL}/places/</loc>
+    <loc>${SITE_URL}${sp.path}</loc>
     <lastmod>${nowIso}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>${sp.changefreq}</changefreq>
+    <priority>${sp.priority}</priority>
   </url>
 `;
+}
 
 for (const p of places) {
   sitemapXml += `  <!-- Place: ${p.slug} -->
@@ -301,6 +315,17 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [স্বাস্থ্য ও হাসপাতাল (Health & Hospital)](${SITE_URL}/category/health/): Baruipur Subdivisional Hospital, blood donation camps, immunization schedules, emergency contacts.
 - [শিক্ষা ও স্কুল (Education & Schools)](${SITE_URL}/category/education/): Baruipur High School, colleges, board examination updates, scholarships, student achievements.
 - [উৎসব ও খেলাধুলা (Culture & Sports)](${SITE_URL}/category/culture/): Baruipur Rasmela (রাসমেলা), Durga Puja, Kali Puja (Dhapdhapi), regional football and cricket tournaments.
+
+## Core Information Pillars & Citizen Guides
+- [যাতায়াত ও পরিবহন (Transport)](${SITE_URL}/transport/): শিয়ালদহ দক্ষিণ রেলওয়ে, অটো ও টোটো স্ট্যান্ড, বাস রুট ও ইএম বাইপাস গাইড।
+- [নাগরিক পরিষেবা (Citizen Services)](${SITE_URL}/citizen-services/): বারুইপুর পৌরসভা সার্টিফিকেট, ট্যাক্স, পুলিশ কন্ট্রোল রুম, হেল্পলাইন ও বিদ্যুৎ অভিযোগ।
+- [বার্ষিক উৎসব ও মেলা ক্যালেন্ডার ২০২৬ (Events & Festivals)](${SITE_URL}/events/): বারুইপুর ঐতিহাসিক রাসমেলা, রাস উৎসব, শ্রী শ্রী অনুকূলচন্দ্র মেলা ও দক্ষিণ চব্বিশ পরগনা হস্তশিল্প মেলা।
+- [জরুরি যোগাযোগ ডিরেক্টরি (Emergency Contacts)](${SITE_URL}/emergency-contacts/): বারুইপুর পুলিশ জেলা, মহকুমা হাসপাতাল, দমকল ও মহিলা থানার ২৪/৭ হেল্পলাইন।
+- [আমাদের পরিচয় ও মিশন (About Us)](${SITE_URL}/about/): বারুইপুর অনলাইনের লক্ষ্য, টিম ও পটভূমি।
+- [সম্পাদকীয় নীতিমালা (Editorial Policy)](${SITE_URL}/editorial-policy/): তথ্য যাচাই, সোর্স অ্যাট্রিবিউশন ও নীতি নির্দেশিকা।
+- [সংশোধন নীতি (Corrections Policy)](${SITE_URL}/corrections-policy/): স্বচ্ছ তথ্য সংশোধনের নিয়মাবলী।
+- [সংবাদ বা তথ্য জমা দিন (Submit News)](${SITE_URL}/submit-news/): স্থানীয় নাগরিক রিপোর্টিং ফর্ম।
+- [যোগাযোগ (Contact)](${SITE_URL}/contact/): সম্পাদকীয় ও সার্বিক যোগাযোগের ঠিকানা।
 
 ## Important Places & Civic Landmark Guides (গুরুত্বপূর্ণ স্থান ও প্রতিষ্ঠান)
 - [গুরুত্বপূর্ণ স্থান ডিরেক্টরি (Places Hub)](${SITE_URL}/places/): বারুইপুরের ঐতিহাসিক, প্রশাসনিক ও নাগরিক প্রতিষ্ঠানের পূর্ণাঙ্গ গাইড।

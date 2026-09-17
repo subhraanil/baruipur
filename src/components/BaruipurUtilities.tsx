@@ -34,32 +34,32 @@ interface BaruipurUtilitiesProps {
 
 const LIFESTYLE_GUIDES = [
   {
-    title: 'বারুইপুরে কী কী করবেন: সেরা ৮টি অভিজ্ঞতা',
+    title: 'বারুইপুরে কী কী করবেন: ভ্রমণ ও স্থানীয় অভিজ্ঞতা',
     slug: 'top-things-to-do-in-baruipur-complete-experience-guide',
     tag: 'অভিজ্ঞতা ও উৎসব'
   },
   {
-    title: 'বারুইপুরের সেরা দর্শনীয় স্থানসমূহের গাইড',
+    title: 'বারুইপুরের দর্শনীয় স্থান: ঐতিহ্য, প্রকৃতি ও ভ্রমণ গাইড',
     slug: 'best-places-to-visit-in-baruipur-travel-guide',
     tag: 'পর্যটন ও ঐতিহ্য'
   },
   {
-    title: 'বারুইপুরের শপিং মল, ব্র্যান্ড ও বাজার',
+    title: 'বারুইপুরের শপিং মল, ব্র্যান্ড ও বাজার গাইড',
     slug: 'shopping-malls-and-top-brands-in-baruipur-market-guide',
     tag: 'কেনাকাটা'
   },
   {
-    title: 'বারুইপুরের সেরা স্কুল ও শিক্ষা প্রতিষ্ঠান',
+    title: 'বারুইপুরের স্কুল: CBSE, ICSE ও WBBSE গাইড',
     slug: 'top-schools-in-baruipur-education-admission-guide',
     tag: 'শিক্ষা পরিকাঠামো'
   },
   {
-    title: 'বারুইপুরের সেরা রেস্তোরাঁ ও মিষ্টির ঠিকানা',
+    title: 'বারুইপুরের রেস্তোরাঁ, ক্যাফে ও মিষ্টির গাইড',
     slug: 'best-restaurants-cafes-and-sweets-in-baruipur-food-guide',
     tag: 'খাবার ও রেস্তোরাঁ'
   },
   {
-    title: 'বারুইপুরের রাজনৈতিক চালচিত্র ও নেতৃত্ব',
+    title: 'বারুইপুরের রাজনৈতিক চালচিত্র, বিধানসভা ও নেতৃত্ব',
     slug: 'baruipur-political-profile-parties-mlas-and-leaders',
     tag: 'শাসন ও রাজনীতি'
   }

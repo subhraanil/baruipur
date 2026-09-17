@@ -199,13 +199,19 @@ function saveDatabase(data: DatabaseSchema) {
 }
 
 export const db = {
-  getArticles(filter?: { category?: string; status?: string; search?: string; limit?: number; featured?: boolean }): Article[] {
+  getArticles(filter?: { category?: string; status?: string; search?: string; limit?: number; featured?: boolean; isGuide?: boolean; excludeGuides?: boolean }): Article[] {
     const currentDb = getDb();
     let list = [...currentDb.articles];
     if (filter?.status && filter.status !== 'all') {
       list = list.filter(a => a.status === filter.status);
     } else if (!filter?.status) {
       list = list.filter(a => a.status === 'published');
+    }
+
+    if (filter?.excludeGuides) {
+      list = list.filter(a => !a.isGuide);
+    } else if (filter?.isGuide !== undefined) {
+      list = list.filter(a => Boolean(a.isGuide) === filter.isGuide);
     }
 
     if (filter?.category && filter.category !== 'all') {

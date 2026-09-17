@@ -73,11 +73,25 @@ export default function Header() {
 
           <div className="flex items-center space-x-3 text-xs">
             <a 
-              href="#emergency-section" 
+              href="/emergency-contacts" 
               className="flex items-center gap-1 text-red-400 hover:text-red-300 font-medium"
             >
               <PhoneCall className="w-3.5 h-3.5" />
               <span>জরুরি ডিরেক্টরি</span>
+            </a>
+            <span className="text-slate-700">|</span>
+            <a 
+              href="/submit-news" 
+              className="text-slate-300 hover:text-white font-medium hidden sm:inline"
+            >
+              সংবাদ পাঠান
+            </a>
+            <span className="text-slate-700 hidden sm:inline">|</span>
+            <a 
+              href="/about" 
+              className="text-slate-300 hover:text-white font-medium"
+            >
+              আমাদের সম্পর্কে
             </a>
             {isLocal && (
               <>
@@ -87,7 +101,7 @@ export default function Header() {
                   className="flex items-center gap-1 bg-red-700 hover:bg-red-800 text-white px-2.5 py-0.5 rounded font-semibold transition"
                 >
                   <Settings className="w-3 h-3" />
-                  <span>অ্যাডমিন প্যানেল</span>
+                  <span>অ্যাডমিন</span>
                 </a>
               </>
             )}
@@ -171,39 +185,75 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Category Navigation Bar */}
+      {/* 6 Pillars Primary Navigation Bar */}
       <nav className="border-t border-slate-100 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="hidden md:flex items-center space-x-1 overflow-x-auto py-1">
-            {CATEGORIES.map((cat) => {
-              const isActive = cat.slug === 'all' ? pathname === '/' : pathname.includes(`/category/${cat.slug}`);
-              return (
-                <a
-                  key={cat.id}
-                  href={cat.slug === 'all' ? '/' : `/category/${cat.slug}`}
-                  className={`px-3.5 py-2 rounded-md text-sm font-semibold whitespace-nowrap transition-all ${
-                    isActive 
-                      ? 'bg-red-600 text-white shadow-sm' 
-                      : 'text-slate-700 hover:bg-red-50 hover:text-red-600'
-                  }`}
-                >
-                  {cat.nameBn}
-                </a>
-              );
-            })}
+            <a
+              href="/"
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname === '/' 
+                  ? 'bg-red-600 text-white shadow-sm' 
+                  : 'text-slate-700 hover:bg-red-50 hover:text-red-600'
+              }`}
+            >
+              প্রচ্ছদ
+            </a>
+            <a
+              href="/#latest-news"
+              className="px-3 py-2 rounded-md text-sm font-semibold whitespace-nowrap text-slate-700 hover:bg-red-50 hover:text-red-600 transition"
+            >
+              📰 তাজা সংবাদ
+            </a>
             <a
               href="/places"
-              className={`px-3.5 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
                 pathname.startsWith('/places') 
                   ? 'bg-red-600 text-white shadow-sm' 
                   : 'text-amber-700 hover:bg-amber-50 hover:text-amber-800'
               }`}
             >
-              🏛️ গুরুত্বপূর্ণ স্থান ও তথ্য
+              🏛️ ডিরেক্টরি
+            </a>
+            <a
+              href="/#featured-guides"
+              className="px-3 py-2 rounded-md text-sm font-semibold whitespace-nowrap text-slate-700 hover:bg-cyan-50 hover:text-cyan-800 transition"
+            >
+              🧭 স্পেশাল গাইড
+            </a>
+            <a
+              href="/transport"
+              className={`px-3 py-2 rounded-md text-sm font-semibold whitespace-nowrap transition-all ${
+                pathname.startsWith('/transport') 
+                  ? 'bg-blue-600 text-white shadow-sm' 
+                  : 'text-slate-700 hover:bg-blue-50 hover:text-blue-700'
+              }`}
+            >
+              🚆 পরিবহন ও ট্রেন
+            </a>
+            <a
+              href="/citizen-services"
+              className={`px-3 py-2 rounded-md text-sm font-semibold whitespace-nowrap transition-all ${
+                pathname.startsWith('/citizen-services') 
+                  ? 'bg-emerald-600 text-white shadow-sm' 
+                  : 'text-slate-700 hover:bg-emerald-50 hover:text-emerald-700'
+              }`}
+            >
+              📋 নাগরিক পরিষেবা
+            </a>
+            <a
+              href="/events"
+              className={`px-3 py-2 rounded-md text-sm font-semibold whitespace-nowrap transition-all ${
+                pathname.startsWith('/events') 
+                  ? 'bg-amber-600 text-white shadow-sm' 
+                  : 'text-slate-700 hover:bg-amber-50 hover:text-amber-700'
+              }`}
+            >
+              🎡 উৎসব ও মেলা
             </a>
           </div>
 
-          {/* Mobile Category Dropdown */}
+          {/* Mobile Navigation Dropdown */}
           {mobileMenuOpen && (
             <div className="md:hidden py-3 border-t border-slate-100 space-y-1">
               <form onSubmit={handleSearch} className="mb-3 px-2">
@@ -221,23 +271,70 @@ export default function Header() {
                 </div>
               </form>
 
-              {CATEGORIES.map((cat) => (
-                <a
-                  key={cat.id}
-                  href={cat.slug === 'all' ? '/' : `/category/${cat.slug}`}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block px-3 py-2 rounded text-base font-semibold text-slate-800 hover:bg-red-50 hover:text-red-600"
-                >
-                  {cat.nameBn}
-                </a>
-              ))}
+              <a
+                href="/"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-slate-800 hover:bg-red-50 hover:text-red-600"
+              >
+                🏠 প্রচ্ছদ (Home)
+              </a>
               <a
                 href="/places"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded text-base font-bold text-amber-700 hover:bg-amber-50"
               >
-                🏛️ গুরুত্বপূর্ণ স্থান ও তথ্য (Guide)
+                🏛️ বারুইপুর ডিরেক্টরি (Directory)
               </a>
+              <a
+                href="/#featured-guides"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-cyan-700 hover:bg-cyan-50"
+              >
+                🧭 স্পেশাল গাইড (Guides)
+              </a>
+              <a
+                href="/transport"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-blue-700 hover:bg-blue-50"
+              >
+                🚆 পরিবহন ও ট্রেন (Transport)
+              </a>
+              <a
+                href="/citizen-services"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-emerald-700 hover:bg-emerald-50"
+              >
+                📋 নাগরিক পরিষেবা (Citizen Services)
+              </a>
+              <a
+                href="/events"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-purple-700 hover:bg-purple-50"
+              >
+                🎡 উৎসব ও মেলা (Events)
+              </a>
+              <a
+                href="/emergency-contacts"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-bold text-rose-700 hover:bg-rose-50"
+              >
+                🚓 জরুরি নম্বর (Emergency Contacts)
+              </a>
+              <a
+                href="/submit-news"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-semibold text-slate-700 hover:bg-slate-50"
+              >
+                ✉️ সংবাদ পাঠান (Submit News)
+              </a>
+              <a
+                href="/about"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-3 py-2 rounded text-base font-semibold text-slate-700 hover:bg-slate-50"
+              >
+                ℹ️ আমাদের সম্পর্কে (About)
+              </a>
+
               {isLocal && (
                 <div className="pt-2 border-t border-slate-100">
                   <a 

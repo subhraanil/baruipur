@@ -86,7 +86,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
               <div className="flex items-center gap-3 text-xs text-slate-300 mb-2">
                 <span className="flex items-center gap-1">
                   <Clock className="w-3.5 h-3.5" />
-                  {formatTimeAgoBengali(article.publishedAt)}
+                  {article.isGuide ? 'স্থায়ী গাইড • সেপ্টেম্বর ২০২৬' : formatTimeAgoBengali(article.publishedAt)}
                 </span>
                 <span>•</span>
                 <span>সূত্র: {article.sourceName}</span>
@@ -161,7 +161,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
               )}
               <span className="text-slate-400 text-xs flex items-center gap-1">
                 <Clock className="w-3 h-3" />
-                {formatTimeAgoBengali(article.publishedAt)}
+                {article.isGuide ? 'স্থায়ী গাইড • সেপ্টেম্বর ২০২৬' : formatTimeAgoBengali(article.publishedAt)}
               </span>
             </div>
 
@@ -243,7 +243,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
           <div className="flex items-center gap-2 text-slate-400 text-xs mb-2">
             <span className="flex items-center gap-1">
               <Clock className="w-3 h-3" />
-              {formatTimeAgoBengali(article.publishedAt)}
+              {article.isGuide ? 'স্থায়ী গাইড • সেপ্টেম্বর ২০২৬' : formatTimeAgoBengali(article.publishedAt)}
             </span>
             <span>•</span>
             <span className="truncate">সূত্র: {article.sourceName}</span>

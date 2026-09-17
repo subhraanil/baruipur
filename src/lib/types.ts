@@ -29,6 +29,9 @@ export interface Article {
   publishedAt: string; // ISO string
   isBreaking?: boolean;
   isFeatured?: boolean;
+  isGuide?: boolean;
+  sourceCategory?: 'official' | 'community' | 'original';
+  verifiedDate?: string;
   status: 'published' | 'draft' | 'archived';
   views: number;
   crawlHash?: string;

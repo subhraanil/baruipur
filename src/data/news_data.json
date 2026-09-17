@@ -25,7 +25,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 19,
-      "crawlHash": "8950e0d315a1c3bba8a40727e4dc6546"
+      "crawlHash": "8950e0d315a1c3bba8a40727e4dc6546",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789666871752-rzn3",
@@ -51,7 +53,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 14,
-      "crawlHash": "bb3ab1c3dbbb595ca599740d9a1111bd"
+      "crawlHash": "bb3ab1c3dbbb595ca599740d9a1111bd",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789666871555-upjc",
@@ -79,7 +83,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 53,
-      "crawlHash": "f363b205036fd3efa1ea5d4a7dab9193"
+      "crawlHash": "f363b205036fd3efa1ea5d4a7dab9193",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-guide-baruipur-politics",
@@ -90,7 +96,7 @@
       "category": "municipality",
       "categoryNameBn": "পৌরসভা ও প্রশাসন",
       "sourceId": "src-editorial",
-      "sourceName": "বারুইপুর অনলাইন পলিটিক্যাল ডেস্ক",
+      "sourceName": "বারুইপুর অনলাইন ডেক্স",
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places/baruipur-municipality",
       "originalPostUrl": "https://baruipur.online/places/baruipur-municipality",
@@ -98,12 +104,15 @@
       "images": [
         "/images/crawled/259888058bf68f0396e450c2ea60d226.jpg"
       ],
-      "publishedAt": "2026-09-17T17:00:00.000Z",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "status": "published",
       "views": 145,
-      "crawlHash": "7a3cb7f48b7e727e2e94e3040d504a8b"
+      "crawlHash": "7a3cb7f48b7e727e2e94e3040d504a8b",
+      "isGuide": true,
+      "sourceCategory": "original",
+      "verifiedDate": "September 2026"
     },
     {
       "id": "art-guide-things-to-do",
@@ -114,7 +123,7 @@
       "category": "lifestyle",
       "categoryNameBn": "লাইফস্টাইল ও ভ্রমণ",
       "sourceId": "src-editorial",
-      "sourceName": "Baruipur Online Editorial",
+      "sourceName": "বারুইপুর অনলাইন ডেক্স",
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places",
       "originalPostUrl": "https://baruipur.online/places",
@@ -122,12 +131,15 @@
       "images": [
         "/images/crawled/1e12bc4bf10feef67a031f743ccdff8b.jpg"
       ],
-      "publishedAt": "2026-09-17T17:05:00.000Z",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "status": "published",
       "views": 290,
-      "crawlHash": "35c659c8d34b913e9a975a1d281c65ed"
+      "crawlHash": "35c659c8d34b913e9a975a1d281c65ed",
+      "isGuide": true,
+      "sourceCategory": "original",
+      "verifiedDate": "September 2026"
     },
     {
       "id": "art-guide-places-to-visit",
@@ -138,7 +150,7 @@
       "category": "lifestyle",
       "categoryNameBn": "লাইফস্টাইল ও ভ্রমণ",
       "sourceId": "src-editorial",
-      "sourceName": "Baruipur Online Editorial",
+      "sourceName": "বারুইপুর অনলাইন ডেক্স",
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places",
       "originalPostUrl": "https://baruipur.online/places",
@@ -146,12 +158,15 @@
       "images": [
         "/images/crawled/00fd25e77d0d295899679e8cf8c4f91d.jpg"
       ],
-      "publishedAt": "2026-09-17T17:10:00.000Z",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "status": "published",
       "views": 310,
-      "crawlHash": "e9d2527d464884e8fa28015bf97741b0"
+      "crawlHash": "e9d2527d464884e8fa28015bf97741b0",
+      "isGuide": true,
+      "sourceCategory": "original",
+      "verifiedDate": "September 2026"
     },
     {
       "id": "art-guide-shopping-malls-brands",
@@ -162,7 +177,7 @@
       "category": "lifestyle",
       "categoryNameBn": "লাইফস্টাইল ও শপিং",
       "sourceId": "src-editorial",
-      "sourceName": "Baruipur Online Editorial",
+      "sourceName": "বারুইপুর অনলাইন ডেক্স",
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places",
       "originalPostUrl": "https://baruipur.online/places",
@@ -170,12 +185,15 @@
       "images": [
         "/images/crawled/040d6d99d6f17d257d2d6413a62e9097.jpg"
       ],
-      "publishedAt": "2026-09-17T17:15:00.000Z",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "status": "published",
       "views": 265,
-      "crawlHash": "8d74b41d1da08ce0267a208b7a39597a"
+      "crawlHash": "8d74b41d1da08ce0267a208b7a39597a",
+      "isGuide": true,
+      "sourceCategory": "original",
+      "verifiedDate": "September 2026"
     },
     {
       "id": "art-guide-top-schools",
@@ -186,7 +204,7 @@
       "category": "education",
       "categoryNameBn": "শিক্ষা ও কর্মসংস্থান",
       "sourceId": "src-editorial",
-      "sourceName": "Baruipur Online Editorial",
+      "sourceName": "বারুইপুর অনলাইন ডেক্স",
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places/baruipur-college",
       "originalPostUrl": "https://baruipur.online/places/baruipur-college",
@@ -194,12 +212,15 @@
       "images": [
         "/images/crawled/044059cde8ede80218331ff7896570b6.jpg"
       ],
-      "publishedAt": "2026-09-17T17:20:00.000Z",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "status": "published",
       "views": 280,
-      "crawlHash": "4eaf5fbbb5b04463b23c0c3c172675e3"
+      "crawlHash": "4eaf5fbbb5b04463b23c0c3c172675e3",
+      "isGuide": true,
+      "sourceCategory": "original",
+      "verifiedDate": "September 2026"
     },
     {
       "id": "art-guide-best-restaurants",
@@ -210,7 +231,7 @@
       "category": "lifestyle",
       "categoryNameBn": "খাবার ও রেস্তোরাঁ",
       "sourceId": "src-editorial",
-      "sourceName": "Baruipur Online Editorial",
+      "sourceName": "বারুইপুর অনলাইন ডেক্স",
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places",
       "originalPostUrl": "https://baruipur.online/places",
@@ -218,12 +239,15 @@
       "images": [
         "/images/crawled/063618d2c590af880b709c54e08ba7a3.jpg"
       ],
-      "publishedAt": "2026-09-17T17:25:00.000Z",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "status": "published",
       "views": 320,
-      "crawlHash": "63cfef9ccf2edb366fffc1fbff6a6327"
+      "crawlHash": "63cfef9ccf2edb366fffc1fbff6a6327",
+      "isGuide": true,
+      "sourceCategory": "original",
+      "verifiedDate": "September 2026"
     },
     {
       "id": "art-1789662979251-gxci",
@@ -249,7 +273,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 53,
-      "crawlHash": "bb51a13c357f8d65f644f470dcdf0ea6"
+      "crawlHash": "bb51a13c357f8d65f644f470dcdf0ea6",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789662978785-emtt",
@@ -273,7 +299,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "d86e72fdebc228ded82d1483ef8110fb"
+      "crawlHash": "d86e72fdebc228ded82d1483ef8110fb",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789662977434-cp0d",
@@ -297,7 +325,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 37,
-      "crawlHash": "3c187bc9dbc80c36d95c20f8716fbf74"
+      "crawlHash": "3c187bc9dbc80c36d95c20f8716fbf74",
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789662976089-c2fu",
@@ -322,7 +352,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 28,
-      "crawlHash": "666926e6a94859640dd8bbaf132132f5"
+      "crawlHash": "666926e6a94859640dd8bbaf132132f5",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789662973125-dgum",
@@ -346,7 +378,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 17,
-      "crawlHash": "680eb6e1760a587e3fae2c75a732b9ba"
+      "crawlHash": "680eb6e1760a587e3fae2c75a732b9ba",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789662971252-btw3",
@@ -372,7 +406,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 27,
-      "crawlHash": "1e08c30b5785d8d51b3bc7d097c0ad37"
+      "crawlHash": "1e08c30b5785d8d51b3bc7d097c0ad37",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789634853761-izo9",
@@ -400,7 +436,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 18,
-      "crawlHash": "2e0c4eebf1a81c7d698b92aa119cb4ff"
+      "crawlHash": "2e0c4eebf1a81c7d698b92aa119cb4ff",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789569612374-byyx",
@@ -430,7 +468,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 56,
-      "crawlHash": "439ec2a119c553056dffe0405b9cda45"
+      "crawlHash": "439ec2a119c553056dffe0405b9cda45",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789569611637-eycm",
@@ -454,7 +494,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "f9222012afcf0c8857882b258bbec7cb"
+      "crawlHash": "f9222012afcf0c8857882b258bbec7cb",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789569609875-6r50",
@@ -482,7 +524,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 27,
-      "crawlHash": "54e28b3b00b693efc705fd5696749709"
+      "crawlHash": "54e28b3b00b693efc705fd5696749709",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789538551083-2pbe",
@@ -509,7 +553,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "60b6608f4838486c3525389b058b04f0"
+      "crawlHash": "60b6608f4838486c3525389b058b04f0",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789538550306-bh17",
@@ -537,7 +583,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "2a06ae115a7e1212731ad2b26e5e3220"
+      "crawlHash": "2a06ae115a7e1212731ad2b26e5e3220",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789538548902-an27",
@@ -565,7 +613,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 35,
-      "crawlHash": "e166f7ac5e0064157bfc53ec43b1d62f"
+      "crawlHash": "e166f7ac5e0064157bfc53ec43b1d62f",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789538541792-fdp1",
@@ -591,7 +641,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 23,
-      "crawlHash": "fcb97040eda51af194f2ea4718d9a6b7"
+      "crawlHash": "fcb97040eda51af194f2ea4718d9a6b7",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789538541072-btje",
@@ -617,7 +669,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "2ba2fa33b1d6c213aef64b6e493e6ea8"
+      "crawlHash": "2ba2fa33b1d6c213aef64b6e493e6ea8",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484277893-pbt2",
@@ -645,7 +699,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 21,
-      "crawlHash": "73e53f9c1ee0fd434fd921c344738d26"
+      "crawlHash": "73e53f9c1ee0fd434fd921c344738d26",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484277356-jttf",
@@ -672,7 +728,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 46,
-      "crawlHash": "92edd2a30355dd5afefad09f41e66375"
+      "crawlHash": "92edd2a30355dd5afefad09f41e66375",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484277354-me87",
@@ -698,7 +756,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 24,
-      "crawlHash": "447cb136a7943a6a43d7a938129695da"
+      "crawlHash": "447cb136a7943a6a43d7a938129695da",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484276949-mbv2",
@@ -729,7 +789,9 @@
       "views": 14,
       "crawlHash": "e56bcf5f3188599ef3bbc632f816f741",
       "videoUrl": "https://www.facebook.com/watch/?v=1755343625680228",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1755343625680228&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1755343625680228&show_text=0",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484269526-ct5y",
@@ -755,7 +817,9 @@
       "views": 38,
       "crawlHash": "e5bc6b58b39eec5ed1618a4ba374a8c1",
       "videoUrl": "https://www.facebook.com/watch/?v=1432915012130966",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1432915012130966&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1432915012130966&show_text=0",
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789484269525-evun",
@@ -779,7 +843,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 50,
-      "crawlHash": "0ec5b74df1dc408d59493eba8668515f"
+      "crawlHash": "0ec5b74df1dc408d59493eba8668515f",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484267618-moq8",
@@ -805,7 +871,9 @@
       "views": 35,
       "crawlHash": "ee044a9a0d6a9e2de7304e223796728e",
       "videoUrl": "https://www.facebook.com/watch/?v=1559963682597688",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1559963682597688&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1559963682597688&show_text=0",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789484265454-yo7y",
@@ -832,7 +900,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 46,
-      "crawlHash": "54693812eb2cabeb99524a72bf1142ce"
+      "crawlHash": "54693812eb2cabeb99524a72bf1142ce",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441889019-gv7u",
@@ -857,7 +927,9 @@
       "images": [
         "/images/crawled/063618d2c590af880b709c54e08ba7a3.jpg",
         "/images/crawled/d3fa392ff6c182ff0719ca1c57314891.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450893-7rl9",
@@ -883,7 +955,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "51c7699b0de319bc4147a0a70dd84c33"
+      "crawlHash": "51c7699b0de319bc4147a0a70dd84c33",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441891558-r164",
@@ -907,7 +981,9 @@
       "crawlHash": "4f7a02c8335877a1c340e34bc571b196",
       "images": [
         "/images/crawled/6b932fbbb648277235628215167a238d.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450894-3q4i",
@@ -936,7 +1012,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 26,
-      "crawlHash": "f15c8ed7db4f96c7d71faef4b91923f9"
+      "crawlHash": "f15c8ed7db4f96c7d71faef4b91923f9",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450895-s6zf",
@@ -965,7 +1043,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 19,
-      "crawlHash": "e7783393c20e7385d1596998219d8f29"
+      "crawlHash": "e7783393c20e7385d1596998219d8f29",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450895-q80u",
@@ -990,7 +1070,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 51,
-      "crawlHash": "aa09b85cd27667f2ed03a8efa3dbcf61"
+      "crawlHash": "aa09b85cd27667f2ed03a8efa3dbcf61",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450895-gwt5",
@@ -1015,7 +1097,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 22,
-      "crawlHash": "859f38c7db39ac230965e3a13c182001"
+      "crawlHash": "859f38c7db39ac230965e3a13c182001",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450895-46yy",
@@ -1041,7 +1125,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "1272d9b46883f0783d7258b8ac48fa38"
+      "crawlHash": "1272d9b46883f0783d7258b8ac48fa38",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450895-f4lz",
@@ -1066,7 +1152,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 63,
-      "crawlHash": "57909dbea74eced514bfbac24e8a822b"
+      "crawlHash": "57909dbea74eced514bfbac24e8a822b",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441899168-jtjg",
@@ -1090,7 +1178,9 @@
       "crawlHash": "ad0dab812b38b8ab1057131edfd856bb",
       "images": [
         "/images/crawled/5631c8ff55a654e631d27942b995b7ee.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444519142-edpo",
@@ -1118,7 +1208,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 32,
-      "crawlHash": "674b530e2c6bcf8eb6de56558ca68df8"
+      "crawlHash": "674b530e2c6bcf8eb6de56558ca68df8",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450896-lwxp",
@@ -1144,7 +1236,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 19,
-      "crawlHash": "0f82329e7c25bdeb29bac9d8d1d5d56a"
+      "crawlHash": "0f82329e7c25bdeb29bac9d8d1d5d56a",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444478676-ei8c",
@@ -1170,7 +1264,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 34,
-      "crawlHash": "b3402f936f2d10318e75b22034ab5c9e"
+      "crawlHash": "b3402f936f2d10318e75b22034ab5c9e",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450896-3jo4",
@@ -1199,7 +1295,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 50,
-      "crawlHash": "23d89dfff0878e82b24d5572f3d5b4c2"
+      "crawlHash": "23d89dfff0878e82b24d5572f3d5b4c2",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444482736-wj50",
@@ -1226,7 +1324,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 52,
-      "crawlHash": "9485fe863ca5f1241e4ea85e8890de94"
+      "crawlHash": "9485fe863ca5f1241e4ea85e8890de94",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444490358-g7fg",
@@ -1255,7 +1355,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 29,
-      "crawlHash": "1102769accd05d53a842e120e278f874"
+      "crawlHash": "1102769accd05d53a842e120e278f874",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441893367-inry",
@@ -1279,7 +1381,9 @@
       "crawlHash": "9e36a7f60a9ce7b163598404306f6c87",
       "images": [
         "/images/crawled/f75743257f10658a18c9b5311b05078b.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444491111-1z51",
@@ -1307,7 +1411,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 61,
-      "crawlHash": "0bff68bbdbfa6976160c53122214e999"
+      "crawlHash": "0bff68bbdbfa6976160c53122214e999",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388786133-gtpx",
@@ -1336,7 +1442,9 @@
       ],
       "images": [
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789444450896-xdua",
@@ -1372,7 +1480,9 @@
       "views": 48,
       "crawlHash": "c5bc6ec20a9bf1bac04d78a44d78c7e2",
       "videoUrl": "https://www.facebook.com/watch/?v=945124048656128",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D945124048656128&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D945124048656128&show_text=0",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441900126-n1fe",
@@ -1398,7 +1508,9 @@
       "crawlHash": "46cba7df2f055fae5f3f50ada357c68d",
       "images": [
         "/images/crawled/97214687eef726249a731d963cd43ddd.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441894879-9tpm",
@@ -1422,7 +1534,9 @@
       "crawlHash": "be049df7765ece57610386cceb3e0558",
       "images": [
         "/images/crawled/944ed18ac74a7f460a41d8da6c3b66c0.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450896-eczn",
@@ -1447,7 +1561,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "e0c9c37a9eb393eba893fe4c7b4d7865"
+      "crawlHash": "e0c9c37a9eb393eba893fe4c7b4d7865",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444503265-n0ve",
@@ -1475,7 +1591,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 35,
-      "crawlHash": "00b0a6f6cafe11aab2f66f1f278c8dbf"
+      "crawlHash": "00b0a6f6cafe11aab2f66f1f278c8dbf",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789441899177-ok89",
@@ -1501,7 +1619,9 @@
       "crawlHash": "cd290524f0479683e37d03dcfe4d24ff",
       "images": [
         "/images/crawled/37d1bf0255750f7183bc526cf91d06ec.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444504640-suhp",
@@ -1526,7 +1646,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "a571c9beb965f955177fa3a253c57027"
+      "crawlHash": "a571c9beb965f955177fa3a253c57027",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388784053-43vb",
@@ -1553,7 +1675,9 @@
       ],
       "images": [
         "/images/crawled/14f1aa0d322f98dfb009340c1b875010.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388810960-lmt7",
@@ -1582,7 +1706,9 @@
       ],
       "images": [
         "/images/crawled/19e04147c15819aca720e335fa987011.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444457649-exlx",
@@ -1607,7 +1733,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 39,
-      "crawlHash": "adfec6c18994dea9864da33ae16bbbaa"
+      "crawlHash": "adfec6c18994dea9864da33ae16bbbaa",
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789444506558-lyo9",
@@ -1632,7 +1760,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 15,
-      "crawlHash": "f88dd1bc108f1e2187389406160878fc"
+      "crawlHash": "f88dd1bc108f1e2187389406160878fc",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444504669-bp0e",
@@ -1660,7 +1790,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 60,
-      "crawlHash": "d740920d3a89e035386dcd5aec1ee011"
+      "crawlHash": "d740920d3a89e035386dcd5aec1ee011",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444506593-6df3",
@@ -1688,7 +1820,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 29,
-      "crawlHash": "8a8dad3daea832a13d73113d6fafa646"
+      "crawlHash": "8a8dad3daea832a13d73113d6fafa646",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444507745-2u05",
@@ -1716,7 +1850,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 37,
-      "crawlHash": "55f375e1ce4a8f4ae21c73372373d8e7"
+      "crawlHash": "55f375e1ce4a8f4ae21c73372373d8e7",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388782408-45uz",
@@ -1745,7 +1881,9 @@
       ],
       "images": [
         "/images/crawled/43ddb60beccae7e7fdd30577f4ed5ace.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444505195-7d4n",
@@ -1773,7 +1911,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 25,
-      "crawlHash": "98f88cd8255706302fa4cb6006a55a30"
+      "crawlHash": "98f88cd8255706302fa4cb6006a55a30",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444508322-prf8",
@@ -1801,7 +1941,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 39,
-      "crawlHash": "7085b2af08dded5f4e0dd6456e084147"
+      "crawlHash": "7085b2af08dded5f4e0dd6456e084147",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458954-lmr5",
@@ -1826,7 +1968,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "5b1976fcc365b02e84807838bcfb4b0e"
+      "crawlHash": "5b1976fcc365b02e84807838bcfb4b0e",
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789388785598-n83v",
@@ -1853,7 +1997,9 @@
       ],
       "images": [
         "/images/crawled/c044f5ac1147a4daff0d38e35f006349.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388785600-43dv",
@@ -1892,7 +2038,9 @@
         "/images/crawled/4b095e0d765dcb9355c72565fd9f879c.jpg",
         "/images/crawled/c9cece71cccd778167533c6ff55d610f.jpg",
         "/images/crawled/ed4a359081b5a4f70659701911c0ac94.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388809604-nddm",
@@ -1921,7 +2069,9 @@
       ],
       "images": [
         "/images/crawled/66cd447ded0400e6cde27779b7247aef.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444541117-708i",
@@ -1950,7 +2100,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 57,
-      "crawlHash": "04cd623820522f317c6f513aa72ce633"
+      "crawlHash": "04cd623820522f317c6f513aa72ce633",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444495315-3hoj",
@@ -1978,7 +2130,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 33,
-      "crawlHash": "4815f3bd3856bb12bd11da7e6933df73"
+      "crawlHash": "4815f3bd3856bb12bd11da7e6933df73",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388809604-6ra8",
@@ -2007,7 +2161,9 @@
       ],
       "images": [
         "/images/crawled/3d5ed09373d14451224eddb0d5bad03b.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789145469601-euqi",
@@ -2034,7 +2190,9 @@
       ],
       "images": [
         "/images/crawled/33606aa570880e82da06c26a016e307c.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789145469628-j2vh",
@@ -2061,7 +2219,9 @@
       ],
       "images": [
         "/images/crawled/6d95cf62400eacb25334fa5f946db383.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789145469655-j7nt",
@@ -2088,7 +2248,9 @@
       ],
       "images": [
         "/images/crawled/717fb2d5f310904af34905208470f7a3.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458954-03sr",
@@ -2113,7 +2275,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 29,
-      "crawlHash": "9e8576b30a30af926cbcd488c1a287fe"
+      "crawlHash": "9e8576b30a30af926cbcd488c1a287fe",
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789145469674-15d7",
@@ -2144,7 +2308,9 @@
         "/images/crawled/30250d5736c622362c2ea7e38d2849ed.jpg",
         "/images/crawled/84de49059cff53834bdae4b341b37232.jpg",
         "/images/crawled/ea802c151754299c23142df8ff330819.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388813327-bud3",
@@ -2173,7 +2339,9 @@
       ],
       "images": [
         "/images/crawled/189bbf6682ebf52119a5b90c86f16f5b.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444520253-v1m3",
@@ -2201,7 +2369,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "6845f7a4c26068981de8d033a12f4273"
+      "crawlHash": "6845f7a4c26068981de8d033a12f4273",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444505254-fm1z",
@@ -2229,7 +2399,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "cd9201b608d93d8c84f3b2f590398601"
+      "crawlHash": "cd9201b608d93d8c84f3b2f590398601",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444505286-1e31",
@@ -2257,7 +2429,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "2ddc9c66f170c5ac35b4e6cc6230ba03"
+      "crawlHash": "2ddc9c66f170c5ac35b4e6cc6230ba03",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388790158-otg5",
@@ -2286,7 +2460,9 @@
       ],
       "images": [
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789388809605-hys2",
@@ -2315,7 +2491,9 @@
       ],
       "images": [
         "/images/crawled/a50945ee1c07ac1a54b388d8e09b94ac.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444541243-3svh",
@@ -2343,7 +2521,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "4e6373a4564c96802b3caad297e50644"
+      "crawlHash": "4e6373a4564c96802b3caad297e50644",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789145469738-hp4g",
@@ -2370,7 +2550,9 @@
       ],
       "images": [
         "/images/crawled/daff7ddf3d19ff2c90907a1e8d7e9e7d.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444500138-7dc3",
@@ -2398,7 +2580,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 44,
-      "crawlHash": "15bf85eef0a30faa776a14a7e83f0b4b"
+      "crawlHash": "15bf85eef0a30faa776a14a7e83f0b4b",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444505539-kzfx",
@@ -2426,7 +2610,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 56,
-      "crawlHash": "872eab18d25ec5c323bcb7a7abf7bc99"
+      "crawlHash": "872eab18d25ec5c323bcb7a7abf7bc99",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388809606-xds4",
@@ -2453,7 +2639,9 @@
       ],
       "images": [
         "/images/crawled/6578e02210958966089bfa16141f2233.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444541243-n9ts",
@@ -2478,7 +2666,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "de1c98a989053a4b20edb13e2d7a474c"
+      "crawlHash": "de1c98a989053a4b20edb13e2d7a474c",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444508902-jdyi",
@@ -2506,7 +2696,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 60,
-      "crawlHash": "99c1c0db9591c842657b9b99bc529a4e"
+      "crawlHash": "99c1c0db9591c842657b9b99bc529a4e",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388814312-6pdc",
@@ -2535,7 +2727,9 @@
       ],
       "images": [
         "/images/crawled/b3ab9250d9267b5a0507c59bd8148b67.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444508932-qose",
@@ -2564,7 +2758,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "75a6cd31205c1fbedf3918185251d416"
+      "crawlHash": "75a6cd31205c1fbedf3918185251d416",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444500176-cg4x",
@@ -2592,7 +2788,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 32,
-      "crawlHash": "2327105bf19501a4fbb26cd561ad7195"
+      "crawlHash": "2327105bf19501a4fbb26cd561ad7195",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444508933-4086",
@@ -2617,7 +2815,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "a1856e510ef9eadda540f25ff5451fae"
+      "crawlHash": "a1856e510ef9eadda540f25ff5451fae",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444500255-ty5j",
@@ -2645,7 +2845,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 46,
-      "crawlHash": "ed89bce77caa8ab3c1160af147fcf311"
+      "crawlHash": "ed89bce77caa8ab3c1160af147fcf311",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444520286-c1bk",
@@ -2673,7 +2875,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 64,
-      "crawlHash": "62b36383232af82f9ee8922b6adff100"
+      "crawlHash": "62b36383232af82f9ee8922b6adff100",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458955-2mes",
@@ -2698,7 +2902,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "c7bd34a1ce496cbff86d57ce8bd20a53"
+      "crawlHash": "c7bd34a1ce496cbff86d57ce8bd20a53",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388790158-7hne",
@@ -2727,7 +2933,9 @@
       ],
       "images": [
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789444520855-sl21",
@@ -2755,7 +2963,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 23,
-      "crawlHash": "6f7fec2d3dcc01f3678870299b3b9bff"
+      "crawlHash": "6f7fec2d3dcc01f3678870299b3b9bff",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444543951-0iqa",
@@ -2782,7 +2992,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 39,
-      "crawlHash": "ae6394c1010b04ee0be66cae7f139472"
+      "crawlHash": "ae6394c1010b04ee0be66cae7f139472",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388825271-3pla",
@@ -2811,7 +3023,9 @@
       ],
       "images": [
         "/images/crawled/6b83eb37ed1cb01b33662983e482f82f.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444501692-sex2",
@@ -2837,7 +3051,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 51,
-      "crawlHash": "e29b129735fe564dcc24e678c2cb3a30"
+      "crawlHash": "e29b129735fe564dcc24e678c2cb3a30",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444521288-8thr",
@@ -2865,7 +3081,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 45,
-      "crawlHash": "90207c3397530a26596063f60c227e87"
+      "crawlHash": "90207c3397530a26596063f60c227e87",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444545466-ugfa",
@@ -2890,7 +3108,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "13f97d351aa318743441ee50fb8d4259"
+      "crawlHash": "13f97d351aa318743441ee50fb8d4259",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444546902-2l9k",
@@ -2916,7 +3136,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 25,
-      "crawlHash": "d5e186231f5e31c961f390f242ab2587"
+      "crawlHash": "d5e186231f5e31c961f390f242ab2587",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444502216-ltkx",
@@ -2944,7 +3166,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 32,
-      "crawlHash": "ef03b18a1633a718243d9e6f4080db9a"
+      "crawlHash": "ef03b18a1633a718243d9e6f4080db9a",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444521750-wrgj",
@@ -2972,7 +3196,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 26,
-      "crawlHash": "279a23f5ccd9e27c7a0bfbd2121a0b08"
+      "crawlHash": "279a23f5ccd9e27c7a0bfbd2121a0b08",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444549499-v00c",
@@ -3002,7 +3228,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 46,
-      "crawlHash": "84e9de301c89b6b24cd2e81672438427"
+      "crawlHash": "84e9de301c89b6b24cd2e81672438427",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444508933-3coi",
@@ -3027,7 +3255,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 28,
-      "crawlHash": "212014e1d20a510693c92593df463941"
+      "crawlHash": "212014e1d20a510693c92593df463941",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458954-b6li",
@@ -3052,7 +3282,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 34,
-      "crawlHash": "80a4e73004f52d0d4f0614a7189eeaea"
+      "crawlHash": "80a4e73004f52d0d4f0614a7189eeaea",
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789388791585-8z3f",
@@ -3079,7 +3311,9 @@
       ],
       "images": [
         "/images/crawled/785699acf8c2bf10cd79063144187838.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789388792833-35v6",
@@ -3108,7 +3342,9 @@
       ],
       "images": [
         "/images/crawled/9e99b26c6ade86a29150fa4efaa13139.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789444522717-c49k",
@@ -3136,7 +3372,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 50,
-      "crawlHash": "0e96fb3bedfa28c7788d9907e6347464"
+      "crawlHash": "0e96fb3bedfa28c7788d9907e6347464",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444550830-xdax",
@@ -3164,7 +3402,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 15,
-      "crawlHash": "acb58a2dbb26e0c85f8128ebb25da5de"
+      "crawlHash": "acb58a2dbb26e0c85f8128ebb25da5de",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444523129-sibf",
@@ -3192,7 +3432,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "be07f049f1d6d59517ee21c991843065"
+      "crawlHash": "be07f049f1d6d59517ee21c991843065",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388794046-amz1",
@@ -3219,7 +3461,9 @@
       ],
       "images": [
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789444527250-qjk3",
@@ -3247,7 +3491,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 23,
-      "crawlHash": "ce35e5b7f9a37b97e2c69bb3a3bcdf54"
+      "crawlHash": "ce35e5b7f9a37b97e2c69bb3a3bcdf54",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388794046-hlkv",
@@ -3274,7 +3520,9 @@
       ],
       "images": [
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "official"
     },
     {
       "id": "art-1789444527677-yi9e",
@@ -3302,7 +3550,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 19,
-      "crawlHash": "9f95aa334e10340222e6b0ce83d708a3"
+      "crawlHash": "9f95aa334e10340222e6b0ce83d708a3",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444502850-0ks6",
@@ -3330,7 +3580,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 42,
-      "crawlHash": "33e8f8f7cbda7da7e54db4982e879793"
+      "crawlHash": "33e8f8f7cbda7da7e54db4982e879793",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444551237-icij",
@@ -3358,7 +3610,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 61,
-      "crawlHash": "49c340faee5351426bad07d2a8ace68b"
+      "crawlHash": "49c340faee5351426bad07d2a8ace68b",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444528098-b3ur",
@@ -3386,7 +3640,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 24,
-      "crawlHash": "7a766607b8c157aa3bec17953dd32440"
+      "crawlHash": "7a766607b8c157aa3bec17953dd32440",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444556990-p8bp",
@@ -3415,7 +3671,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 53,
-      "crawlHash": "54e5a72e770b0948c2b24211015f19a9"
+      "crawlHash": "54e5a72e770b0948c2b24211015f19a9",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444502881-l5xt",
@@ -3443,7 +3701,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "d6a7258579c26d3a7e4c400a132e393b"
+      "crawlHash": "d6a7258579c26d3a7e4c400a132e393b",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444556990-46tc",
@@ -3468,7 +3728,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 42,
-      "crawlHash": "2331a3e844c5ad4af65fbc1821e57473"
+      "crawlHash": "2331a3e844c5ad4af65fbc1821e57473",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444557917-kvef",
@@ -3496,7 +3758,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "fd6562e2f1f730131e91f24b1e806912"
+      "crawlHash": "fd6562e2f1f730131e91f24b1e806912",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388831008-se49",
@@ -3525,7 +3789,9 @@
       ],
       "images": [
         "/images/crawled/17f49b51a0075d25e609ace6e55331e4.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444528529-lny1",
@@ -3553,7 +3819,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 15,
-      "crawlHash": "9153ae88f5b6ee9aac8ef3b04c031946"
+      "crawlHash": "9153ae88f5b6ee9aac8ef3b04c031946",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789388796803-ldcn",
@@ -3580,7 +3848,9 @@
       ],
       "images": [
         "/images/crawled/7738fc9ba6d08def0df3d7a9f260b7e5.jpg"
-      ]
+      ],
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444529032-9urm",
@@ -3608,7 +3878,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 17,
-      "crawlHash": "3520a0c03f103a3e98acefc122dcdc30"
+      "crawlHash": "3520a0c03f103a3e98acefc122dcdc30",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444530959-etsk",
@@ -3636,7 +3908,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 64,
-      "crawlHash": "57b9184dcbdca0dffe45723d62e2fcfa"
+      "crawlHash": "57b9184dcbdca0dffe45723d62e2fcfa",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458955-klqk",
@@ -3661,7 +3935,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 43,
-      "crawlHash": "83d809f7d451573c811402311bd21068"
+      "crawlHash": "83d809f7d451573c811402311bd21068",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458955-unc4",
@@ -3686,7 +3962,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 45,
-      "crawlHash": "b05cd3a98c6a9de8c2b42ef42da37e18"
+      "crawlHash": "b05cd3a98c6a9de8c2b42ef42da37e18",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444458955-rr9v",
@@ -3711,7 +3989,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 48,
-      "crawlHash": "f7d72d33db5dfa5a91bcf545e9c54f92"
+      "crawlHash": "f7d72d33db5dfa5a91bcf545e9c54f92",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444459431-sll5",
@@ -3739,7 +4019,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 58,
-      "crawlHash": "f5a685fbfb976bc4ba3ef3dc3e55b858"
+      "crawlHash": "f5a685fbfb976bc4ba3ef3dc3e55b858",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444459432-1e0v",
@@ -3764,7 +4046,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 30,
-      "crawlHash": "338c8771a56081d1451fe000bd55364f"
+      "crawlHash": "338c8771a56081d1451fe000bd55364f",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444509723-lbm8",
@@ -3792,7 +4076,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 38,
-      "crawlHash": "67b04490cc66ac3c6d4fcb6442309e2d"
+      "crawlHash": "67b04490cc66ac3c6d4fcb6442309e2d",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444516917-37ma",
@@ -3821,7 +4107,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 24,
-      "crawlHash": "7db8aeffbe7d92dd04e69395b775f005"
+      "crawlHash": "7db8aeffbe7d92dd04e69395b775f005",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444518333-cm1u",
@@ -3846,7 +4134,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 49,
-      "crawlHash": "ab3636db5f79d14786817b4bd6eb92df"
+      "crawlHash": "ab3636db5f79d14786817b4bd6eb92df",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444460735-err2",
@@ -3871,7 +4161,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 17,
-      "crawlHash": "02e4ba8b248fa3e73b2ad2e16a0a5be5"
+      "crawlHash": "02e4ba8b248fa3e73b2ad2e16a0a5be5",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444464856-r3eh",
@@ -3898,7 +4190,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 46,
-      "crawlHash": "2298f7482051952400eda2596d4fe70f"
+      "crawlHash": "2298f7482051952400eda2596d4fe70f",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444466151-q7fk",
@@ -3923,7 +4217,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 36,
-      "crawlHash": "7e13a24c5e63485b1046b03b54eec3c3"
+      "crawlHash": "7e13a24c5e63485b1046b03b54eec3c3",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444466784-b1z1",
@@ -3951,7 +4247,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 25,
-      "crawlHash": "f78042bcad486c41abbf2a77e462833c"
+      "crawlHash": "f78042bcad486c41abbf2a77e462833c",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444468064-h1h3",
@@ -3976,7 +4274,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 22,
-      "crawlHash": "f16957d5040e83cbdff893d7b9ccf83b"
+      "crawlHash": "f16957d5040e83cbdff893d7b9ccf83b",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444469397-ajmj",
@@ -4001,7 +4301,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 29,
-      "crawlHash": "c5f3a622eba52f5f8a441408bd461a8c"
+      "crawlHash": "c5f3a622eba52f5f8a441408bd461a8c",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444470809-du1z",
@@ -4026,7 +4328,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 54,
-      "crawlHash": "3ab19a96b241945f942bc374cdd5fd0d"
+      "crawlHash": "3ab19a96b241945f942bc374cdd5fd0d",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450983-v9p0",
@@ -4051,7 +4355,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 27,
-      "crawlHash": "4a87f43e11d07f3acd732eebb66019ca"
+      "crawlHash": "4a87f43e11d07f3acd732eebb66019ca",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444450983-rr44",
@@ -4076,7 +4382,9 @@
       "isFeatured": false,
       "status": "published",
       "views": 17,
-      "crawlHash": "ee369cf380f518e93513ad18eab11249"
+      "crawlHash": "ee369cf380f518e93513ad18eab11249",
+      "isGuide": false,
+      "sourceCategory": "community"
     },
     {
       "id": "art-1789444457649-lwlj",
@@ -4105,7 +4413,9 @@
       "isFeatured": true,
       "status": "published",
       "views": 17,
-      "crawlHash": "93c0e2a78fe8210acecda5195eb977e4"
+      "crawlHash": "93c0e2a78fe8210acecda5195eb977e4",
+      "isGuide": false,
+      "sourceCategory": "community"
     }
   ],
   "sources": [

@@ -18,58 +18,99 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Categories */}
+          {/* Quick Pillars & Directory */}
           <div>
             <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2">
-              সংবাদ বিভাগ
-            </h3>
-            <ul className="grid grid-cols-1 gap-2 text-sm">
-              {CATEGORIES.slice(1).map((cat) => (
-                <li key={cat.id}>
-                  <a 
-                    href={`/category/${cat.slug}`}
-                    className="hover:text-red-400 transition flex items-center gap-1.5"
-                  >
-                    <span className="text-red-500 text-xs">›</span>
-                    {cat.nameBn}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Emergency Helplines preview */}
-          <div>
-            <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2 flex items-center gap-2">
-              <Phone className="w-4 h-4 text-red-400" />
-              বারুইপুর জরুরি নম্বর
-            </h3>
-            <ul className="space-y-2 text-xs">
-              {EMERGENCY_CONTACTS.slice(0, 4).map((c, i) => (
-                <li key={i} className="bg-slate-800/50 p-2 rounded border border-slate-800">
-                  <div className="font-semibold text-slate-200">{c.titleBn}</div>
-                  <a href={`tel:${c.phone.replace(/[^0-9]/g, '')}`} className="text-red-400 font-bold hover:underline">
-                    {c.phone}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Useful Links & Admin */}
-          <div>
-            <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2">
-              পোর্টাল ও তথ্যসূত্র
+              প্ল্যাটফর্মের মূল স্তম্ভ
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1 font-semibold text-amber-300">
-                  <span className="text-amber-500">›</span> গুরুত্বপূর্ণ স্থান ও তথ্য (Places)
+                <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1.5 font-medium text-amber-300">
+                  <span className="text-amber-500">›</span> বারুইপুর ডিরেক্টরি (Directory)
                 </a>
               </li>
               <li>
+                <a href="/transport" className="hover:text-blue-400 transition flex items-center gap-1.5 font-medium text-blue-300">
+                  <span className="text-blue-500">›</span> পরিবহন ও লোকাল ট্রেন (Transport)
+                </a>
+              </li>
+              <li>
+                <a href="/citizen-services" className="hover:text-emerald-400 transition flex items-center gap-1.5 font-medium text-emerald-300">
+                  <span className="text-emerald-500">›</span> নাগরিক পরিষেবা গাইড (Services)
+                </a>
+              </li>
+              <li>
+                <a href="/events" className="hover:text-purple-400 transition flex items-center gap-1.5 font-medium text-purple-300">
+                  <span className="text-purple-500">›</span> উৎসব ও মেলা ক্যালেন্ডার (Events)
+                </a>
+              </li>
+              <li>
+                <a href="/#featured-guides" className="hover:text-red-400 transition flex items-center gap-1.5 font-medium">
+                  <span className="text-red-500">›</span> ৫টি বিশেষ লাইফস্টাইল গাইড
+                </a>
+              </li>
+              <li>
+                <a href="/places/baruipur-municipality/" className="hover:text-slate-200 transition flex items-center gap-1.5 text-xs text-slate-400">
+                  <span className="text-slate-600">›</span> ১৭ ওয়ার্ড কাউন্সিলর তালিকা
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Trust, Governance & Editorial */}
+          <div>
+            <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2 flex items-center gap-2">
+              <Shield className="w-4 h-4 text-emerald-400" />
+              স্বচ্ছতা ও সম্পাদকীয় নীতি
+            </h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="/about" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> আমাদের সম্পর্কে (About Us)
+                </a>
+              </li>
+              <li>
+                <a href="/editorial-policy" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> সম্পাদকীয় নীতি (Editorial Policy)
+                </a>
+              </li>
+              <li>
+                <a href="/corrections-policy" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> ভুল সংশোধনী নীতি (Corrections)
+                </a>
+              </li>
+              <li>
+                <a href="/submit-news" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> নাগরিক সংবাদ পাঠান (Submit News)
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> যোগাযোগ ও হেল্পডেস্ক (Contact)
+                </a>
+              </li>
+              <li>
+                <a href="/emergency-contacts" className="hover:text-red-400 transition flex items-center gap-1.5 font-bold text-rose-400">
+                  <span className="text-rose-500 text-xs">›</span> জরুরি হেল্পলাইন ডিরেক্টরি
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Useful Links, SEO & AI Feeds */}
+          <div>
+            <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2">
+              সাইটম্যাপ ও AI ডেটা
+            </h3>
+            <ul className="space-y-2 text-sm">
+              <li>
                 <a href="/sitemap.xml" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
                   <span className="text-slate-500">›</span> XML সাইটম্যাপ (Sitemap)
+                </a>
+              </li>
+              <li>
+                <a href="/sitemap-news.xml" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
+                  <span className="text-slate-500">›</span> গুগল নিউজ সাইটম্যাপ
                 </a>
               </li>
               <li>
@@ -78,18 +119,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/llms.txt" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
-                  <span className="text-slate-500">›</span> AI ও LLM নির্দেশিকা (llms.txt)
+                <a href="/llms.txt" target="_blank" className="hover:text-red-400 transition flex items-center gap-1 font-semibold text-emerald-400">
+                  <span className="text-emerald-500">›</span> AI ও LLM ম্যানিফেস্ট (llms.txt)
                 </a>
               </li>
               <li>
-                <a href="/category/municipality" className="hover:text-slate-200 transition flex items-center gap-1">
-                  <span className="text-slate-500">›</span> বারুইপুর পৌরসভা আপডেট
-                </a>
-              </li>
-              <li>
-                <a href="/category/railway" className="hover:text-slate-200 transition flex items-center gap-1">
-                  <span className="text-slate-500">›</span> শিয়ালদহ দক্ষিণ ট্রেন খবর
+                <a href="/llms-full.txt" target="_blank" className="hover:text-red-400 transition flex items-center gap-1 text-xs text-slate-400">
+                  <span className="text-slate-500">›</span> সম্পূর্ণ টেক্সট ডাম্প (llms-full.txt)
                 </a>
               </li>
             </ul>

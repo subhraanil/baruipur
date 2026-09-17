@@ -15,7 +15,9 @@ import {
   Clock, 
   ArrowRight,
   Landmark,
-  GraduationCap
+  GraduationCap,
+  CheckCircle2,
+  Map
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -147,66 +149,138 @@ export default function PlacesIndexPage() {
         </div>
       </div>
 
-      {/* Places Grid */}
+      {/* Directory Category Badges */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-8 text-xs font-bold no-scrollbar">
+        <span className="bg-red-600 text-white px-4 py-2 rounded-full shadow-sm whitespace-nowrap">
+          সব প্রতিষ্ঠান ({places.length})
+        </span>
+        <span className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full whitespace-nowrap">
+          🏛️ পৌরসভা ও প্রশাসন
+        </span>
+        <span className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full whitespace-nowrap">
+          🚓 পুলিশ ও নিরাপত্তা
+        </span>
+        <span className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full whitespace-nowrap">
+          🏥 স্বাস্থ্য ও হাসপাতাল
+        </span>
+        <span className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full whitespace-nowrap">
+          🎓 শিক্ষা ও প্রতিষ্ঠান
+        </span>
+        <span className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full whitespace-nowrap">
+          🌿 দর্শনীয় স্থান ও ঐতিহ্য
+        </span>
+        <span className="bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full whitespace-nowrap">
+          🚆 পরিবহন ও পরিকাঠামো
+        </span>
+      </div>
+
+      {/* Places Grid - Scannable Card Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {places.map((place) => (
-          <article 
-            key={place.slug}
-            className="bg-white rounded-2xl border border-slate-200 hover:border-red-400 shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group"
-          >
-            <div className="p-6 flex-1 flex flex-col">
-              <div className="flex items-start justify-between gap-3 mb-4">
-                <div className="p-3 rounded-xl bg-slate-100 group-hover:bg-red-50 transition">
-                  {getCategoryIcon(place.category)}
-                </div>
-                <span className="text-xs font-bold bg-slate-100 text-slate-600 px-2.5 py-1 rounded-full">
-                  {place.established}
-                </span>
-              </div>
+        {places.map((place) => {
+          const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.nameEn + ' Baruipur ' + place.address)}`;
+          const phoneRaw = place.contact.phone ? place.contact.phone.replace(/[^0-9]/g, '') : '';
 
-              <h2 className="text-xl font-black text-slate-900 group-hover:text-red-600 transition mb-1 leading-snug">
-                <a href={`/places/${place.slug}/`}>
-                  {place.nameBn}
-                </a>
-              </h2>
-              <h3 className="text-xs font-semibold text-slate-500 mb-3 tracking-wide">
-                {place.nameEn}
-              </h3>
-
-              <p className="text-xs text-red-700 font-semibold mb-3">
-                {place.taglineBn}
-              </p>
-
-              <p className="text-sm text-slate-600 line-clamp-3 mb-6 leading-relaxed">
-                {place.overview}
-              </p>
-
-              <div className="mt-auto pt-4 border-t border-slate-150 space-y-2 text-xs text-slate-600">
-                <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
-                  <span className="line-clamp-1">{place.address}</span>
-                </div>
-                {place.contact.phone && (
+          return (
+            <article 
+              key={place.slug}
+              className="bg-white rounded-2xl border border-slate-200 hover:border-red-400 shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group"
+            >
+              <div className="p-5 sm:p-6 flex-1 flex flex-col">
+                {/* Header: Icon, Category & Verification */}
+                <div className="flex items-start justify-between gap-3 mb-3">
                   <div className="flex items-center gap-2">
-                    <Phone className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span className="font-semibold text-slate-700">{place.contact.phone}</span>
+                    <div className="p-2.5 rounded-xl bg-slate-100 group-hover:bg-red-50 transition">
+                      {getCategoryIcon(place.category)}
+                    </div>
+                    <div>
+                      <span className="text-[11px] font-extrabold uppercase tracking-wide text-slate-500 block">
+                        {place.category}
+                      </span>
+                      <span className="text-[10px] text-slate-400">
+                        স্থাপিত: {place.established}
+                      </span>
+                    </div>
                   </div>
-                )}
-                {place.timings && (
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-4 h-4 text-amber-500 shrink-0" />
-                    <span className="line-clamp-1 text-slate-500">{place.timings}</span>
-                  </div>
-                )}
-              </div>
-            </div>
+                  <span className="inline-flex items-center gap-1 text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full whitespace-nowrap">
+                    <CheckCircle2 className="w-3 h-3 text-emerald-600" />
+                    যাচাইকৃত ২০২৬
+                  </span>
+                </div>
 
-            <div className="bg-slate-50 px-6 py-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600 group-hover:bg-red-600 group-hover:text-white transition">
-              <span>সম্পূর্ণ তথ্য ও নির্দেশিকা পড়ুন</span>
-              <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
-            </div>
-          </article>
-        ))}
+                {/* Name */}
+                <h2 className="text-lg sm:text-xl font-black text-slate-900 group-hover:text-red-600 transition mb-0.5 leading-snug">
+                  <a href={`/places/${place.slug}/`}>
+                    {place.nameBn}
+                  </a>
+                </h2>
+                <h3 className="text-xs font-semibold text-slate-500 mb-2">
+                  {place.nameEn}
+                </h3>
+
+                <p className="text-xs text-red-700 font-medium mb-3 line-clamp-1">
+                  {place.taglineBn}
+                </p>
+
+                {/* Scannable Metadata Rows */}
+                <div className="bg-slate-50 rounded-xl p-3 space-y-2 text-xs text-slate-600 mb-4 border border-slate-100">
+                  <div className="flex items-start gap-2">
+                    <MapPin className="w-3.5 h-3.5 text-red-500 shrink-0 mt-0.5" />
+                    <span className="line-clamp-1 font-medium">{place.address}</span>
+                  </div>
+                  {place.contact.phone && (
+                    <div className="flex items-center gap-2">
+                      <Phone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                      <a href={`tel:${phoneRaw}`} className="font-bold text-slate-800 hover:text-red-600 transition">
+                        {place.contact.phone}
+                      </a>
+                    </div>
+                  )}
+                  {place.timings && (
+                    <div className="flex items-center gap-2">
+                      <Clock className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+                      <span className="line-clamp-1 text-slate-500">{place.timings}</span>
+                    </div>
+                  )}
+                </div>
+
+                {/* Action Buttons: Details | Map | Call */}
+                <div className="mt-auto grid grid-cols-3 gap-2 pt-2 border-t border-slate-100">
+                  <a
+                    href={`/places/${place.slug}/`}
+                    className="bg-slate-900 hover:bg-red-600 text-white text-xs font-bold py-2 px-2 rounded-lg text-center transition flex items-center justify-center gap-1"
+                  >
+                    <span>বিস্তারিত</span>
+                    <ArrowRight className="w-3 h-3" />
+                  </a>
+
+                  <a
+                    href={mapUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold py-2 px-2 rounded-lg text-center transition flex items-center justify-center gap-1 border border-slate-200"
+                  >
+                    <Map className="w-3 h-3 text-blue-600" />
+                    <span>ম্যাপ</span>
+                  </a>
+
+                  {phoneRaw ? (
+                    <a
+                      href={`tel:${phoneRaw}`}
+                      className="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold py-2 px-2 rounded-lg text-center transition flex items-center justify-center gap-1"
+                    >
+                      <Phone className="w-3 h-3 text-emerald-600" />
+                      <span>কল</span>
+                    </a>
+                  ) : (
+                    <span className="bg-slate-50 text-slate-400 text-xs font-semibold py-2 px-2 rounded-lg text-center border border-slate-100">
+                      সরাসরি
+                    </span>
+                  )}
+                </div>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </div>
   );

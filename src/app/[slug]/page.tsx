@@ -285,9 +285,17 @@ export default function PostSlugPage({ params }: PostPageProps) {
           <div className="flex flex-wrap items-center justify-between gap-3 py-3 border-y border-slate-150 mb-6 text-xs text-slate-600">
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-red-500" />
-              <span>{formatBengaliDate(article.publishedAt)}</span>
-              <span>•</span>
-              <span className="text-slate-500">{formatTimeAgoBengali(article.publishedAt)}</span>
+              {article.isGuide ? (
+                <span className="font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-full">
+                  ✓ স্থায়ী নির্দেশিকা | তথ্য যাচাইকৃত: {article.verifiedDate || 'সেপ্টেম্বর ২০২৬'}
+                </span>
+              ) : (
+                <>
+                  <span>{formatBengaliDate(article.publishedAt)}</span>
+                  <span>•</span>
+                  <span className="text-slate-500">{formatTimeAgoBengali(article.publishedAt)}</span>
+                </>
+              )}
             </div>
 
             <div className="flex items-center gap-2">
@@ -295,6 +303,11 @@ export default function PostSlugPage({ params }: PostPageProps) {
               <span className="bg-slate-100 px-2 py-0.5 rounded font-bold text-slate-800">
                 {article.sourceName}
               </span>
+              {article.sourceCategory === 'official' && (
+                <span className="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded">
+                  সরকারি সূত্র
+                </span>
+              )}
               {article.originalPostUrl && (
                 <a 
                   href={article.originalPostUrl} 
@@ -411,6 +424,33 @@ export default function PostSlugPage({ params }: PostPageProps) {
               </div>
             </div>
           )}
+
+          {/* Editorial Source & Transparency Box */}
+          <div className="mt-8 p-4 sm:p-5 bg-slate-50 rounded-2xl border border-slate-200 text-xs text-slate-600 space-y-2">
+            <div className="flex items-center justify-between pb-2 border-b border-slate-200">
+              <span className="font-bold text-slate-800 flex items-center gap-1.5">
+                <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                সংবাদ উৎস ও সম্পাদকীয় বিবৃতি (Editorial Sourcing)
+              </span>
+              <span className="text-[11px] font-semibold text-slate-500">
+                {article.sourceCategory === 'official' ? 'সরকারি বিজ্ঞপ্তি' : article.sourceCategory === 'original' ? 'মৌলিক প্রতিবেদন' : 'সামাজিক মাধ্যম সংকলন'}
+              </span>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+              <div><strong>মূল সংবাদ সূত্র:</strong> {article.sourceName}</div>
+              <div><strong>প্রকাশের তারিখ:</strong> {formatBengaliDate(article.publishedAt)}</div>
+              <div><strong>সংকলন ও সম্পাদনা:</strong> বারুইপুর অনলাইন ডেস্ক</div>
+              <div><strong>সম্পাদকীয় নীতি:</strong> <a href="/editorial-policy" className="text-red-600 hover:underline">নীতিমালা পড়ুন</a> | <a href="/corrections-policy" className="text-red-600 hover:underline">ভুল সংশোধন রিপোর্ট</a></div>
+            </div>
+            {article.originalPostUrl && (
+              <div className="pt-2 border-t border-slate-200 flex items-center gap-1 text-slate-500">
+                <span>মূল পাবলিক পোস্টের রেফারেন্স:</span>
+                <a href={article.originalPostUrl} target="_blank" rel="noreferrer" className="text-red-600 font-semibold hover:underline flex items-center gap-0.5">
+                  এখানে দেখুন <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            )}
+          </div>
 
           {/* Bottom Navigation Back Button */}
           <div className="mt-8 pt-6 border-t border-slate-200 flex justify-between items-center">
