@@ -4,254 +4,294 @@
   <!-- Homepage -->
   <url>
     <loc>https://baruipur.online/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Category: all -->
   <url>
     <loc>https://baruipur.online/category/all/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Category: municipality -->
   <url>
     <loc>https://baruipur.online/category/municipality/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Category: railway -->
   <url>
     <loc>https://baruipur.online/category/railway/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Category: crime -->
   <url>
     <loc>https://baruipur.online/category/crime/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Category: health -->
   <url>
     <loc>https://baruipur.online/category/health/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Category: education -->
   <url>
     <loc>https://baruipur.online/category/education/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Category: culture -->
   <url>
     <loc>https://baruipur.online/category/culture/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Static: Places Hub -->
   <url>
     <loc>https://baruipur.online/places/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Static: Baruipur Transport Guide -->
   <url>
     <loc>https://baruipur.online/transport/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Static: Baruipur Citizen Services -->
   <url>
     <loc>https://baruipur.online/citizen-services/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Static: Baruipur Annual Events 2026 -->
   <url>
     <loc>https://baruipur.online/events/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Static: Baruipur Emergency Contacts -->
   <url>
     <loc>https://baruipur.online/emergency-contacts/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Static: About Baruipur Online -->
   <url>
     <loc>https://baruipur.online/about/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Static: Editorial Policy -->
   <url>
     <loc>https://baruipur.online/editorial-policy/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Static: Corrections Policy -->
   <url>
     <loc>https://baruipur.online/corrections-policy/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Static: Contact Us -->
   <url>
     <loc>https://baruipur.online/contact/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Static: Submit Local News -->
   <url>
     <loc>https://baruipur.online/submit-news/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Place: baruipur-municipality -->
   <url>
     <loc>https://baruipur.online/places/baruipur-municipality/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-police-district -->
   <url>
     <loc>https://baruipur.online/places/baruipur-police-district/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-swimming-pool -->
   <url>
     <loc>https://baruipur.online/places/baruipur-swimming-pool/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-rashmath -->
   <url>
     <loc>https://baruipur.online/places/baruipur-rashmath/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-bypass -->
   <url>
     <loc>https://baruipur.online/places/baruipur-bypass/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-subdivisional-hospital -->
   <url>
     <loc>https://baruipur.online/places/baruipur-subdivisional-hospital/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-junction-railway-station -->
   <url>
     <loc>https://baruipur.online/places/baruipur-junction-railway-station/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-college -->
   <url>
     <loc>https://baruipur.online/places/baruipur-college/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-jail -->
   <url>
     <loc>https://baruipur.online/places/baruipur-jail/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-film-city -->
   <url>
     <loc>https://baruipur.online/places/baruipur-film-city/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-bdo-office -->
   <url>
     <loc>https://baruipur.online/places/baruipur-bdo-office/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-sdo-office -->
   <url>
     <loc>https://baruipur.online/places/baruipur-sdo-office/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-town-library -->
   <url>
     <loc>https://baruipur.online/places/baruipur-town-library/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-mahaprabhu-tala-sadabrata-ghat -->
   <url>
     <loc>https://baruipur.online/places/baruipur-mahaprabhu-tala-sadabrata-ghat/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-women-police-station -->
   <url>
     <loc>https://baruipur.online/places/baruipur-women-police-station/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-aranyak -->
   <url>
     <loc>https://baruipur.online/places/baruipur-aranyak/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-rajbari -->
   <url>
     <loc>https://baruipur.online/places/baruipur-rajbari/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Place: baruipur-happy-valley -->
   <url>
     <loc>https://baruipur.online/places/baruipur-happy-valley/</loc>
-    <lastmod>2026-09-18T17:08:33.764Z</lastmod>
+    <lastmod>2026-09-19T08:11:25.341Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://baruipur.online/baruipur-news-art-1789/</loc>
+    <lastmod>2026-09-19T04:28:25.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/d0dbef149a594d502a7ab39ce8509d45.jpg</image:loc>
+      <image:title>𝐀𝐥𝐥 𝐁𝐨𝐬𝐞 𝐒𝐨𝐮𝐧𝐝 𝐒𝐲𝐬𝐭𝐞𝐦/𝐇𝐨𝐦𝐞 𝐓𝐡𝐞𝐚𝐭𝐫𝐞 𝐑𝐞𝐩𝐚𝐢𝐫 𝐚𝐧𝐝 𝐒𝐞�</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87/</loc>
+    <lastmod>2026-09-19T02:27:20.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/6cb0140ebb9d8979ea2df0ed18bcf429.jpg</image:loc>
+      <image:title>রাধে রাধে</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%95%E0%A7%8B%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%86%E0%A6%87%E0%A6%8F%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BF-%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%9A%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87/</loc>
+    <lastmod>2026-09-18T18:26:56.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/f74a3eb06a4d30776c5c0d8079048c12.jpg</image:loc>
+      <image:title>কোদালিয়ায়  সিপিআইএমের পার্টি অফিস ভাঙচুর করার অভিযোগ বিজেপির বিরুদ্ধে।</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF-%E0%A6%A6%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87/</loc>
+    <lastmod>2026-09-18T17:25:48.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/16f35a23136fa21ef61cbeb2e265ea32.jpg</image:loc>
+      <image:title>মিষ্টি দোকানটি কোথায় কারা বলতে পারবে?</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BF%E0%A6%A4-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%95%E0%A7%81%E0%A6%87%E0%A6%9C-%E0%A6%85%E0%A6%82%E0%A6%B6-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%B0%E0%A6%AB-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87/</loc>
@@ -271,6 +311,16 @@
     <image:image>
       <image:loc>https://baruipur.online/images/crawled/3401840be4894a31c7ac9ec9392e311a.jpg</image:loc>
       <image:title>বারুইপুর শিবানীপীঠে  মায়ের সন্ধ্যারতি</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BF-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%AB%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6/</loc>
+    <lastmod>2026-09-18T14:52:09.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://baruipur.online/images/crawled/e74d72240ffc7b8705c948652745c3af.jpg</image:loc>
+      <image:title>পূর্ব রেলওয়ের বারুইপুর শাখার পি. ওয়ে স্টাফদের পরিচালনায় শ্রীশ্রী বিশ্বকর্মা পূজা - ২০</image:title>
     </image:image>
   </url>
   <url>
