@@ -33,7 +33,7 @@ function isJunkOrCommentOrPromo(text) {
   if (/^(?:see\s+all\s+photos|see\s+more|view\s+more|log\s+in|sign\s+up|watch\s+more)/i.test(t)) return true;
   if (/see all photos/i.test(lower)) return true;
 
-  // B. Facebook user comments / banter / transliterated chatter / surveys
+  // B. Facebook user comments / banter / transliterated chatter / surveys / greetings
   if (/^[A-Z][a-z]+\s+[A-Z][a-z]+\s+sure\b/i.test(t)) return true;
   if (/(?:dar gari|amra roj jai|ami chini|kheye nebe|valobasa|bhalobasa|bhaipo|bhalo theko|choto bhai|pukur bujiye|ekhn diye roj)\b/i.test(lower)) return true;
   if (/happy\s*birthday|shuvo\s*jonmodin|শুভ\s*জন্মদিন|অনেক\s*অনেক\s*ভালোবাসা/i.test(lower)) return true;
@@ -41,13 +41,24 @@ function isJunkOrCommentOrPromo(text) {
   if (/মাশাল্লাহ|সব রখম মোবাইল|calender না দেখে|roll best/i.test(lower)) return true;
   if (/never share your otp/i.test(lower)) return true;
 
-  // Social media conversation prompts / questionnaires
-  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*গেছ|কে\s*কে\s*আছো|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারবেন|কারা\s*বলতে\s*পারবেন|কারা\s*চেনো|চিনতে\s*পারছেন)/i.test(lower)) return true;
+  // Pure religious / festive one-liner greeting messages without substantive news
+  if (/(?:শুভ\s*রাধাষ্টমী|রাধে\s*রাধে|জয়\s*বাবা\s*বিশ্বকর্মা|বিশ্বকর্মা\s*(?:পূজো?র|পূজার)?\s*(?:অনেক\s*অনেক\s*)?শুভেচ্ছা|শুভ\s*বিজয়া|শুভ\s*দীপাবলি|শুভ\s*নববর্ষ|জয়\s*শ্রী\s*রাম|জয়\s*শ্রী\s*কৃষ্ণ|হর\s*হর\s*মহাদেব)/i.test(lower)) {
+    // If it's just a greeting without news event
+    if (!/(?:গ্রেফতার|আটক|উদ্বোধন|মিছিল|সভা|কর্মসূচি|তদন্ত|দুর্ঘটনা|প্রতিযোগিতা|পুজোয়\s*উপস্থিত|বৈঠক|রক্তদান)/i.test(lower)) {
+      return true;
+    }
+  }
+
+  // Social media conversation prompts, quiz questions & questionnaires
+  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন)/i.test(lower)) return true;
 
   // Conversational train surveys
   if (/তোমরা\s*কারা\s*এই\s*ট্রেন/i.test(lower)) return true;
 
-  if (/^[a-zA-Z0-9\s.,!?:;'"()-]+$/.test(t) && !lower.includes('police') && !lower.includes('arrest') && !lower.includes('baruipur')) {
+  // Commercial repairs / servicing / electronics shop ads
+  if (/(?:repair|repairing|service\s*centre|service\s*center|home\s*theatre|sound\s*system|সারানো\s*হয়|সারানো\s*হচ্ছে|স্পিকার\s*সারানো|মোবাইল\s*সারানো|we\s*service\s*and\s*repair|all\s*kinds\s*of\s*speakers)/i.test(lower)) return true;
+
+  if (/^[a-zA-Z0-9\s.,!?:;'"()/\-]+$/.test(t) && !lower.includes('police') && !lower.includes('arrest') && !lower.includes('hospital')) {
     return true;
   }
 
@@ -65,7 +76,8 @@ function isJunkOrCommentOrPromo(text) {
     'বিজ্ঞাপন দিন', 'ব্র্যান্ডের প্রচার', 'রেজিস্ট্রেশন করে', 'ট্রেডিং', 'পাইকারি', 'খুচরা',
     'শাড়ির', 'শাড়ি', 'শাড়ী', 'গিফ্ট', 'উপহার', 'পাইকারি দামে', 'শুরু মাত্র', 'টাকা থেকে শুরু',
     'অর্ডার করুন', 'হোম ডেলিভারি', 'cctv', 'camera', 'we install', 'installation', 'enterprise',
-    'gift', 'ব্র্যান্ড নিউ', 'পুরনো দামেই', 'ক্যামেরা লাগাতে', 'সার্ভিসিং'
+    'gift', 'ব্র্যান্ড নিউ', 'পুরনো দামেই', 'ক্যামেরা লাগাতে', 'সার্ভিসিং', 'সারানো হয়',
+    'সার্ভিস সেন্টার', 'সার্ভিসিং সেন্টার'
   ];
 
   const newsKeywords = [
