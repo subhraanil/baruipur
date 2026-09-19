@@ -531,10 +531,27 @@ function normalizeForComparison(str) {
     .trim();
 }
 
+function normalizeBengaliWord(w) {
+  if (!w || w.length < 2) return w;
+  let s = w
+    .replace(/\u09C0/g, '\u09BF') // ী -> ি
+    .replace(/\u09C2/g, '\u09C1') // ূ -> ু
+    .replace(/\u09CE/g, '\u09A4') // ৎ -> ত
+    .replace(/\u09DC|\u09DD/g, '\u09A1'); // ড়/ঢ় -> ড
+  if (s.length >= 4) {
+    s = s.replace(/(?:ে|তে|কে|য়ের|ের|র|টি|টা|দের)$/, '');
+  }
+  return s;
+}
+
 function getComparisonTokens(str) {
   const norm = normalizeForComparison(str);
-  const stopWords = new Set(['বারুইপুর', 'এর', 'ও', 'এবং', 'হলো', 'করা', 'হয়েছে', '২০২৬', '2026', 'হতে', 'নিয়ে', 'থেকে', 'একটি', 'এই', 'সেই']);
-  return norm.split(' ').filter(w => w.length >= 2 && !stopWords.has(w));
+  const stopWords = new Set(['বারুইপুর', 'এর', 'ও', 'এবং', 'হলো', 'করা', 'হয়েছে', '২০২৬', '2026', 'হতে', 'নিয়ে', 'থেকে', 'একটি', 'এই', 'সেই', 'ছিল', 'হবে', 'করেন', 'বলেন', 'তার', 'জন্য']);
+  return norm
+    .split(' ')
+    .filter(w => w.length >= 2)
+    .map(normalizeBengaliWord)
+    .filter(w => w.length >= 2 && !stopWords.has(w));
 }
 
 function findDuplicateArticle(candidate, existingArticles) {
@@ -560,7 +577,22 @@ function findDuplicateArticle(candidate, existingArticles) {
       return { duplicate: true, matchedArticle: existing, reason: 'slug_match' };
     }
 
-    // 3. Original post URL match or Post ID match
+    // 3. Title token overlap (shared normalized entities / keywords >= 60%)
+    if (candTitleTokens.size >= 3) {
+      const exTitleTokens = new Set(getComparisonTokens(existing.title));
+      if (exTitleTokens.size >= 3) {
+        let titleShared = 0;
+        for (const w of candTitleTokens) {
+          if (exTitleTokens.has(w)) titleShared++;
+        }
+        const titleOverlap = titleShared / Math.min(candTitleTokens.size, exTitleTokens.size);
+        if (titleOverlap >= 0.60) {
+          return { duplicate: true, matchedArticle: existing, reason: 'title_token_overlap' };
+        }
+      }
+    }
+
+    // 4. Original post URL match or Post ID match
     if (candidate.originalUrl && (candidate.originalUrl === existing.originalPostUrl || candidate.originalUrl === existing.sourceUrl)) {
       return { duplicate: true, matchedArticle: existing, reason: 'url_match' };
     }
@@ -571,7 +603,7 @@ function findDuplicateArticle(candidate, existingArticles) {
       }
     }
 
-    // 4. Content similarity
+    // 5. Content similarity
     const exPureContent = (existing.content || '').split('\n\n[')[0].trim();
     const exContentNorm = normalizeForComparison(exPureContent);
 
@@ -595,19 +627,6 @@ function findDuplicateArticle(candidate, existingArticles) {
 
       if (jaccard >= 0.55 || minOverlap >= 0.70) {
         return { duplicate: true, matchedArticle: existing, reason: 'content_overlap' };
-      }
-    }
-
-    // Title token overlap
-    const exTitleTokens = new Set(getComparisonTokens(existing.title));
-    if (candTitleTokens.size >= 4 && exTitleTokens.size >= 4) {
-      let sharedTitle = 0;
-      for (const w of candTitleTokens) {
-        if (exTitleTokens.has(w)) sharedTitle++;
-      }
-      const titleOverlap = sharedTitle / Math.min(candTitleTokens.size, exTitleTokens.size);
-      if (titleOverlap >= 0.75) {
-        return { duplicate: true, matchedArticle: existing, reason: 'title_overlap' };
       }
     }
   }
