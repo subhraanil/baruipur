@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "art-1789923245586-az9t",
+      "title": "বারুইপুরে এই লেডিস সালোন এ ন্যানো প্লাস্টিয়া আর বোটক্স করালেই পেয়ে যাবে 755 টাকার শ্যাম্পু",
+      "slug": "বারুইপুরে-এই-লেডিস-সালোন-এ-ন্যানো-প্লাস্টিয়া-আর-বোটক্স-করালেই-পেয়ে-যাবে-755-টাকার-শ্যাম্পু",
+      "summary": "বারুইপুরে এই লেডিস সালোন এ ন্যানো প্লাস্টিয়া আর বোটক্স করালেই পেয়ে যাবে 755 টাকার শ্যাম্পু একদম ফ্রি! আর ন্যানো, বোটক্স , কেরাটিন, বোটোপ্লাস্টিয়া বা এক্স-প্লেক্স ট্রিটমেন্ট পে...",
+      "content": "বারুইপুরে এই লেডিস সালোন এ ন্যানো প্লাস্টিয়া আর বোটক্স করালেই পেয়ে যাবে 755 টাকার শ্যাম্পু একদম ফ্রি! আর ন্যানো, বোটক্স , কেরাটিন, বোটোপ্লাস্টিয়া বা এক্স-প্লেক্স ট্রিটমেন্ট পেয়ে যাবে মাত্র ৩,৯৯৯ টাকায়! এছাড়া প্রতিবারের মতো স্মুদনিং, কেরাটিন বা স্ট্রেটনিং মাত্র ২,৯৯৯ টাকায় পায়ে যাবে ।\n\n📍 Branch Locations:\nMain Branch: শ্রীলেদার্সের ঠিক উল্টোদিকে, টেস্ট অ্যান্ড বাইটের উপরে, বারুইপুর।\n2nd Branch: প্রগতি সংঘের কাছে, বারুইপুর।\n3rd Branch: শতাব্দীর পাশে (Coming Soon)!\n\n[ salon in baruipur, ladies salon in baruipur, ladies beauty parlour, baruipur, aesthetic clinic, durgapuja offer , baruipur uncovered ]",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "sourceId": "src-fb-uncover",
+      "sourceName": "Baruipur Uncover",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122226771890792099",
+      "originalPostUrl": "https://www.facebook.com/122226771890792099",
+      "imageUrl": "/images/crawled/f7398c6712e05fb20eaa0cf6f11f2d6c.jpg",
+      "images": [
+        "/images/crawled/f7398c6712e05fb20eaa0cf6f11f2d6c.jpg",
+        "/images/crawled/9a9c98805ccbe5396634afbdfa627fdf.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1712239649850395",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1712239649850395&show_text=0",
+      "publishedAt": "2026-09-20T15:45:10.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 29,
+      "crawlHash": "4e33c715fbe15e0b1a5279dc4c19074c"
+    },
+    {
       "id": "art-1789893830446-92oc",
       "title": "আর কে এস ইঞ্জিনিয়ারিং এন্ড কন্ট্রাক্টর-এর বিশ্বকর্মা বিসর্জনের শোভাযাত্রা",
       "slug": "আর-কে-এস-ইঞ্জিনিয়ারিং-এন্ড-কন্ট্রাক্টর-এর-বিশ্বকর্মা-বিসর্জনের-শোভাযাত্রা",
@@ -17,7 +44,8 @@
       "images": [
         "/images/crawled/240f8d181a937856ea4025f1a00d17d0.jpg",
         "/images/crawled/8dafe2ffb7f030662cc1fbc8252b30b7.jpg",
-        "/images/crawled/58df6760c2a791563903b0f1fa8c547b.jpg"
+        "/images/crawled/58df6760c2a791563903b0f1fa8c547b.jpg",
+        "/images/crawled/4ae342fbab137bc7e901c420704b68b8.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1004849772201066",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1004849772201066&show_text=0",
@@ -4711,7 +4739,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-09-20T13:47:47.271Z"
+      "lastCrawledAt": "2026-09-20T16:53:40.877Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -4724,7 +4752,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-09-20T13:47:49.834Z"
+      "lastCrawledAt": "2026-09-20T16:53:42.733Z"
     },
     {
       "id": "src-fb-police",
@@ -4737,7 +4765,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-09-20T13:47:53.107Z"
+      "lastCrawledAt": "2026-09-20T16:53:44.807Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -4750,7 +4778,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-09-20T13:47:56.270Z"
+      "lastCrawledAt": "2026-09-20T16:53:46.590Z"
     },
     {
       "id": "src-fb-uncover",
@@ -4763,7 +4791,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-09-20T13:48:01.119Z"
+      "lastCrawledAt": "2026-09-20T16:53:49.547Z"
     },
     {
       "id": "src-fb-update",
@@ -4776,7 +4804,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-09-20T13:48:05.395Z"
+      "lastCrawledAt": "2026-09-20T16:53:51.867Z"
     },
     {
       "id": "src-fb-barta",
@@ -4789,7 +4817,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-09-20T13:48:09.163Z"
+      "lastCrawledAt": "2026-09-20T16:53:56.085Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -4802,7 +4830,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-09-20T13:48:11.971Z"
+      "lastCrawledAt": "2026-09-20T16:53:58.262Z"
     },
     {
       "id": "src-fb-voice",
@@ -4815,7 +4843,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-09-20T13:48:17.085Z"
+      "lastCrawledAt": "2026-09-20T16:54:02.065Z"
     },
     {
       "id": "src-fb-24x7",
@@ -4828,10 +4856,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-09-20T13:48:20.627Z"
+      "lastCrawledAt": "2026-09-20T16:54:05.238Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1789923245705",
+      "timestamp": "2026-09-20T16:54:05.705Z",
+      "sourceId": "multi-10-sources",
+      "sourceName": "১০টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের ১০টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 4, সমন্বয়ের পর: 4, নতুন প্রকাশিত সংবাদ: 1 টি।",
+      "itemsFetched": 4,
+      "itemsPublished": 1
+    },
     {
       "id": "log-1789912101228",
       "timestamp": "2026-09-20T13:48:21.229Z",
