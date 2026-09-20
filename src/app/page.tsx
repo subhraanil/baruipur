@@ -1,6 +1,7 @@
 import React from 'react';
 import { db } from '@/lib/db';
 import NewsCard from '@/components/NewsCard';
+import FeaturedNewsSlider from '@/components/FeaturedNewsSlider';
 import BaruipurUtilities from '@/components/BaruipurUtilities';
 import { 
   Sparkles, 
@@ -31,14 +32,22 @@ interface PageProps {
 
 export default function HomePage() {
   // Strictly exclude evergreen guides from breaking and latest news
+  // db.getArticles returns articles sorted by publishedAt DESCENDING (newest first)
   const newsArticles = db.getArticles({
     status: 'published',
     excludeGuides: true
   });
 
-  const featuredArticle = newsArticles.find(a => a.isFeatured) || newsArticles[0];
-  const sideArticles = newsArticles.filter(a => a.id !== featuredArticle?.id).slice(0, 4);
-  const remainingArticles = newsArticles.filter(a => a.id !== featuredArticle?.id).slice(4, 16);
+  // Top 5 most recent news articles for the interactive hero slider (strictly latest news, not old views or flags)
+  const sliderArticles = newsArticles.slice(0, 5);
+  const sliderArticleIds = new Set(sliderArticles.map(a => a.id));
+
+  // Next recent articles for 2x2 grid
+  const sideArticles = newsArticles.filter(a => !sliderArticleIds.has(a.id)).slice(0, 4);
+  const sideArticleIds = new Set(sideArticles.map(a => a.id));
+
+  // Remaining articles for the chronological stream
+  const remainingArticles = newsArticles.filter(a => !sliderArticleIds.has(a.id) && !sideArticleIds.has(a.id)).slice(0, 16);
 
   const railwayArticles = db.getArticles({ category: 'railway', limit: 3, excludeGuides: true });
   const municipalityArticles = db.getArticles({ category: 'municipality', limit: 3, excludeGuides: true });
@@ -165,17 +174,22 @@ export default function HomePage() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Left Column: News Content (8 cols) */}
         <div className="lg:col-span-8 space-y-8" id="latest-news">
-          {/* Top Hero Section */}
-          {featuredArticle && (
+          {/* Top Hero Section: Interactive Slider of Latest News */}
+          {sliderArticles.length > 0 && (
             <section>
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-2.5 h-2.5 rounded-full bg-red-600"></span>
-                <h2 className="text-lg font-bold text-slate-900 flex items-center gap-1.5">
-                  <Sparkles className="w-4 h-4 text-red-600" />
-                  প্রধান ও আলোচিত খবর
-                </h2>
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-red-600 animate-pulse"></span>
+                  <h2 className="text-lg font-bold text-slate-900 flex items-center gap-1.5">
+                    <Sparkles className="w-4 h-4 text-red-600" />
+                    প্রধান ও আলোচিত খবর
+                  </h2>
+                </div>
+                <span className="text-xs font-semibold text-slate-500 hidden sm:inline-flex items-center gap-1">
+                  সর্বশেষ তাজা খবর
+                </span>
               </div>
-              <NewsCard article={featuredArticle} variant="featured" />
+              <FeaturedNewsSlider articles={sliderArticles} />
             </section>
           )}
 
