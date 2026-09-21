@@ -801,13 +801,13 @@ async function runWorkflow() {
   rawDb.articles = existingArticles;
   rawDb.sources = sources;
 
-  const logMsg = `বিগত ${daysBack} দিনের ১০টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: ${allRawPosts.length}, সমন্বয়ের পর: ${synthesizedPosts.length}, নতুন প্রকাশিত সংবাদ: ${newPublishedCount} টি।`;
+  const logMsg = `বিগত ${daysBack} দিনের ${sources.length}টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: ${allRawPosts.length}, সমন্বয়ের পর: ${synthesizedPosts.length}, নতুন প্রকাশিত সংবাদ: ${newPublishedCount} টি।`;
   rawDb.crawlLogs = rawDb.crawlLogs || [];
   rawDb.crawlLogs.unshift({
     id: 'log-' + Date.now(),
     timestamp: new Date().toISOString(),
-    sourceId: 'multi-10-sources',
-    sourceName: '১০টি ফেসবুক পেজ ও গ্রুপ',
+    sourceId: `multi-${sources.length}-sources`,
+    sourceName: `${sources.length}টি ফেসবুক পেজ ও গ্রুপ`,
     status: 'success',
     message: logMsg,
     itemsFetched: allRawPosts.length,
@@ -838,7 +838,7 @@ async function runWorkflow() {
         execSync('git pull --rebase origin main', { stdio: 'inherit' });
       } catch (e) {}
       execSync('git add src/data/news_data.json public/ public/images/crawled/ src/ scripts/', { stdio: 'inherit' });
-      const commitMsg = `Sync today's news from 10 Facebook sources (${newPublishedCount} new articles)`;
+      const commitMsg = `Sync today's news from ${sources.length} Facebook sources (${newPublishedCount} new articles)`;
       try {
         execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
       } catch (e) {
