@@ -170,8 +170,8 @@
     ],
     "address": "কুলপী রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২ (কাচারি ময়দানের নিকটে)",
     "coordinates": {
-      "lat": 22.3642,
-      "lng": 88.4319
+      "lat": 22.3654,
+      "lng": 88.4328
     },
     "contact": {
       "phone": "033-2433-8260",
@@ -190,6 +190,37 @@
         "question": "নাগরিক সমস্যা বা জল সরবরাহ বিভ্রাটে কার সাথে যোগাযোগ করবেন?",
         "answer": "পৌরসভার কন্ট্রোল রুম নম্বর 033-2433-8260 অথবা স্থানীয় ওয়ার্ডের কাউন্সিলরের কার্যালয়ে সরাসরি অভিযোগ জানানো যাবে।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর পৌরসভা প্রশাসনিক প্রধান কার্যালয় ভবন (পূর্ব শ্রীধরপুর)",
+        "captionEn": "Baruipur Municipality Main Administrative Building"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "নাগরিক সেবা ও তথ্যপ্রযুক্তি সহায়তা ডেস্ক",
+        "captionEn": "Citizen Service & Help Desk Counter"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "পৌরসভা চত্বরে নিকাশি ও নগর উন্নয়ন প্রকল্পের পরিকাঠামো",
+        "captionEn": "Civic Sanitation & Urban Development Infrastructure"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=F3_m_w-Vd7s",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/F3_m_w-Vd7s",
+    "videoTitleBn": "বারুইপুর পৌরসভার নাগরিক পরিষেবা ও উন্নয়ন পরিক্রমা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3654,88.4328&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Municipality+Kolkata+West+Bengal",
+    "entryFee": "বিনামূল্যে (নাগরিক সেবা ফি প্রযোজ্য ক্ষেত্রে)",
+    "bestTimeToVisit": "সোম থেকে শুক্র: সকাল ১০:০০ - বিকাল ৫:০০",
+    "highlights": [
+      "১৮৬৯ সালে প্রতিষ্ঠিত ১৭টি ওয়ার্ডের বিস্তৃত নগর প্রশাসন",
+      "১৭টি ওয়ার্ডের নির্বাচিত কাউন্সিলর ও সরাসরি যোগাযোগের ফোন নম্বর",
+      "অনলাইন মিউটেশন, কর প্রদান ও ট্রেড লাইসেন্স পরিষেবা",
+      "২৪ ঘণ্টা হেল্পলাইন ও স্যানিটেশন ইমার্জেন্সি সাপোর্ট"
     ]
   },
   {
@@ -220,7 +251,7 @@
     ],
     "address": "পুলিশ সুপারের কার্যালয়, বারুইপুর মহকুমা আদালত ও প্রশাসনিক ভবন সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.3685,
+      "lat": 22.3789,
       "lng": 88.4352
     },
     "contact": {
@@ -241,6 +272,32 @@
         "question": "অনলাইন সাইবার প্রতারণার শিকার হলে কোথায় অভিযোগ করবেন?",
         "answer": "বারুইপুর পুলিশ জেলার অধীনস্থ সাইবার ক্রাইম থানায় সরাসরি উপস্থিত হতে পারেন অথবা জাতীয় সাইবার ক্রাইম পোর্টাল cybercrime.gov.in-এ অভিযোগ জানাতে পারেন।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর পুলিশ জেলা পুলিশ সুপার কার্যালয় ভবন (পদ্মপুকুর)",
+        "captionEn": "Baruipur Police District SP Office Campus"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "২৪ ঘণ্টা সক্রিয় জেলা পুলিশ কন্ট্রোল রুম ও মনিটরিং সেল",
+        "captionEn": "24x7 District Police Control Room & Monitoring Cell"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=1635283414850168",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/1635283414850168",
+    "videoTitleBn": "বারুইপুর পুলিশ জেলার সার্বিক নিরাপত্তা ও নজরদারি ব্যবস্থা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3789,88.4352&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Office+of+the+Superintendent+of+Police+Baruipur+Police+District",
+    "entryFee": "বিনামূল্যে (আইন-শৃঙ্খলা ও নাগরিক সেবা কার্যালয়)",
+    "bestTimeToVisit": "২৪ ঘণ্টা জরুরি সহায়তা কার্যকর",
+    "highlights": [
+      "২৪x৭ জরুরি পুলিশ কন্ট্রোল রুম (০৩৩-২৪৩৩-৮২০০ / ১১২)",
+      "মহিলা থানা ও বিশেষ সাইবার ক্রাইম তদন্ত উইং",
+      "বারুইপুর, সোনারপুর, জয়নগর, ক্যানিং ও কুলতলি জুড়ে বিস্তৃত প্রশাসনিক এক্তিয়ার",
+      "ট্রাফিক নিরাপত্তা ও উন্নত সিসিটিভি নজরদারি নেটওয়ার্ক"
     ]
   },
   {
@@ -268,7 +325,7 @@
     "address": "পদ্মপুকুর স্টেডিয়াম সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
       "lat": 22.3612,
-      "lng": 88.4285
+      "lng": 88.4335
     },
     "contact": {
       "phone": "033-2433-8260 (পৌর ক্রীড়া ডেস্ক)",
@@ -286,6 +343,32 @@
         "question": "মহিলাদের জন্য কি আলাদা সময়সূচি আছে?",
         "answer": "হ্যাঁ, নারী শিক্ষার্থীদের জন্য নির্দিষ্ট পৃথক ব্যাচ রয়েছে এবং মহিলা ট্রেইনারের নজরদারিতে প্রশিক্ষণ দেওয়া হয়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর মহকুমা সুইমিং পুল মূল প্রশিক্ষণ লেন",
+        "captionEn": "Baruipur Subdivisional Swimming Pool Main Training Lanes"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "শিশুদের গ্রীষ্মকালীন সাঁতার ও লাইফ-সেভিং প্রশিক্ষণ ক্যাম্প",
+        "captionEn": "Youth Swimming Training & Lifesaving Sessions"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=7hXN2pYjP-g",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/7hXN2pYjP-g",
+    "videoTitleBn": "বারুইপুর সুইমিং পুল কমপ্লেক্সের প্রশিক্ষণ ও ক্রীড়া সুবিধা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3612,88.4335&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Swimming+Pool+Kachari+Bazar+Baruipur",
+    "entryFee": "মাসিক মেম্বারশিপ ও প্রশিক্ষণ ফি প্রযোজ্য",
+    "bestTimeToVisit": "মার্চ থেকে অক্টোবর (সকাল ৬:০০ - ৯:০০ এবং বিকাল ৩:০০ - ৬:০০)",
+    "highlights": [
+      "মহকুমা ক্রীড়া সংস্থা ও দক্ষ প্রশিক্ষকদের সরাসরি তত্ত্বাবধান",
+      "মহিলা ও শিশুদের জন্য সম্পূর্ণ পৃথক নিরাপদ স্লট",
+      "আধুনিক ওয়াটার পিউরিফিকেশন ও ফিল্ট্রেশন প্ল্যান্ট",
+      "জেলা ও রাজ্য স্তরের সাঁতার প্রতিযোগিতার প্রধান ভেন্যু"
     ]
   },
   {
@@ -312,8 +395,8 @@
     ],
     "address": "রাসমাঠ, কাচারি রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.3662,
-      "lng": 88.4338
+      "lat": 22.3678,
+      "lng": 88.4412
     },
     "contact": {
       "phone": "033-2433-8260 (পৌর সংস্কৃতি শাখা)",
@@ -330,6 +413,32 @@
         "question": "রাসমেলায় দর্শনার্থীদের বিশেষ আকর্ষণ কী?",
         "answer": "ঐতিহাসিক পুতুল নাচ, সার্কাস, বাংলার প্রসিদ্ধ খাবারের স্টল, সুন্দরবনের মধু ও হস্তশিল্প এবং রাধাবল্লভ জিউর দর্শন।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "ঐতিহাসিক রাসমাঠ প্রাঙ্গণে রাস পূর্ণিমার আলোকোজ্জ্বল মেলা",
+        "captionEn": "Historic Baruipur Rashmath during Rasmela Festival"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "শ্রী শ্রী রাধাবল্লভ জিউ মন্দির ও ঐতিহ্যবাহী রাস উৎসব চত্বর",
+        "captionEn": "Sri Sri Radhaballabh Temple and Festival Enclosure"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=R9_W7zC7V2M",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/R9_W7zC7V2M",
+    "videoTitleBn": "বারুইপুরের ৩৫০ বছরের ঐতিহাসিক রাসমেলা ও রাধাবল্লভ উৎসব",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3678,88.4412&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Rash+Math+Baruipur",
+    "entryFee": "সম্পূর্ণ বিনামূল্যে উন্মুক্ত",
+    "bestTimeToVisit": "কার্তিক পূর্ণিমা (নভেম্বর-ডিসেম্বর রাসমেলা উৎসব মরসুম)",
+    "highlights": [
+      "সাবর্ণ রায়চৌধুরী পরিবারের সূচনা করা ৩৫০+ বছরের প্রাচীন ঐতিহ্যবাহী রাসমেলা",
+      "দক্ষিণ ২৪ পরগনার অন্যতম বৃহৎ মেলা ও লোকসংস্কৃতির মিলনমেলা",
+      "সারাবছর ফুটবল, ক্রিকেট ম্যাচ ও উন্মুক্ত জনসভার প্রাণকেন্দ্র",
+      "বারুইপুর জংশন থেকে মাত্র ৫-৭ মিনিটের সহজ দূরত্বে অবস্থিত"
     ]
   },
   {
@@ -356,8 +465,8 @@
     ],
     "address": "বারুইপুর বাইপাস কানেক্টর, মল্লিকপুর - বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.3755,
-      "lng": 88.4215
+      "lat": 22.3745,
+      "lng": 88.4289
     },
     "contact": {
       "helpline": "বারুইপুর ট্রাফিক গার্ড: 033-2433-8200",
@@ -374,6 +483,32 @@
         "question": "বাইপাসের উপর কোনো পেট্রোল পাম্প ও জরুরি সার্ভিস রয়েছে?",
         "answer": "হ্যাঁ, বাইপাসের দুপাশে একাধিক ২৪ ঘণ্টার আধুনিক পেট্রোল পাম্প, সিএনজি স্টেশন ও সার্ভিসিং সেন্টার রয়েছে।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর বাইপাসের চার লেনের আধুনিক প্রশস্ত সড়ক",
+        "captionEn": "Baruipur Bypass 4-Lane Arterial Highway"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "পদ্মপুকুর ও মল্লিকপুর রেল ওভারব্রিজ (ROB)",
+        "captionEn": "Padmapukur & Mallickpur Rail Overbridge Structure"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=1635283414850168",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/1635283414850168",
+    "videoTitleBn": "কমলগাজী ফ্লাইওভার থেকে বারুইপুর বাইপাস ড্রাইভিং করিডোর",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3745,88.4289&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Bypass+Padmapukur+Baruipur",
+    "entryFee": "টোলমুক্ত সরকারি সড়ক",
+    "bestTimeToVisit": "সারাবছর ২৪ ঘণ্টা সচল",
+    "highlights": [
+      "ইএম বাইপাস ও গড়িয়া থেকে সরাসরি ২৫-৩০ মিনিটে বারুইপুর সংযোগ",
+      "কুলপি রোডের রেলগেট ও বাজারের দীর্ঘ জ্যাম সম্পূর্ণভাবে এড়িয়ে চলা",
+      "ক্যানিং, সুন্দরবন ও নামখানা রুটের দ্রুততম এক্সপ্রেস করিডোর",
+      "সড়কের দুই পাশে আধুনিক রেস্তোরাঁ ও জ্বালানি পাম্পের সুবিধা"
     ]
   },
   {
@@ -400,8 +535,8 @@
     ],
     "address": "হাসপাতাল রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.3619,
-      "lng": 88.4298
+      "lat": 22.3598,
+      "lng": 88.4421
     },
     "contact": {
       "phone": "033-2433-8244",
@@ -415,6 +550,32 @@
         "question": "হাসপাতালে কি জরুরি রক্তের ব্যবস্থা রয়েছে?",
         "answer": "হ্যাঁ, হাসপাতালে সরকারি ব্লাড ব্যাংক রয়েছে যেখানে ২৪ ঘণ্টা বৈধ প্রেসক্রিপশন ও ক্রস-ম্যাচিংয়ের মাধ্যমে রক্তের ইউনিট পাওয়া যায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর মহকুমা হাসপাতাল প্রধান ভবন ও জরুরি বিভাগ চত্বর",
+        "captionEn": "Baruipur Hospital Main Building & Emergency Ward"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "নিওন্যাটাল কেয়ার ইউনিট (SNCU) ও বিশেষ মাতৃত্ব কক্ষ",
+        "captionEn": "Special Newborn Care Unit & Maternity Wing"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0j3K5Z8sW_4",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/0j3K5Z8sW_4",
+    "videoTitleBn": "বারুইপুর মহকুমা হাসপাতালের উন্নত চিকিৎসা পরিকাঠামো",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3598,88.4421&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Subdivisional+Hospital+Madarat+Road+Baruipur",
+    "entryFee": "সরকারি বহির্বিভাগ টিকিট মাত্র ₹২",
+    "bestTimeToVisit": "জরুরি বিভাগ ২৪x৭, আউটডোর সকাল ৯:০০ - দুপুর ২:০০",
+    "highlights": [
+      "৩০০ শয্যাবিশিষ্ট অত্যাধুনিক সরকারি চিকিৎসাকেন্দ্র",
+      "২৪ ঘণ্টা জীবনদায়ী ক্রিটিক্যাল কেয়ার ও ডায়ালিসিস সুবিধা",
+      "বিনামূল্যে প্যাথলজিক্যাল টেস্ট, এক্স-রে ও অত্যাবশ্যকীয় সরকারি ওষুধ",
+      "জরুরি অ্যাম্বুলেন্স সহায়তা: ১০২ ও হাসপাতালের টেলিফোন ০৩৩-২৪৩৩-৮২৪৪"
     ]
   },
   {
@@ -442,8 +603,8 @@
     ],
     "address": "বারুইপুর রেলওয়ে স্টেশন রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.3592,
-      "lng": 88.4355
+      "lat": 22.3685,
+      "lng": 88.4358
     },
     "contact": {
       "enquiry": "139 (রেল অনুসন্ধান)",
@@ -457,6 +618,32 @@
         "question": "বারুইপুর থেকে শিয়ালদহ পৌঁছাতে লোকাল ট্রেনে কত সময় লাগে?",
         "answer": "নরমাল লোকাল ট্রেনে প্রায় ৪৫-৫০ মিনিট এবং গালিয়াফাস্ট বা বিশেষ লোকাল ট্রেনে প্রায় ৩৫-৪০ মিনিট সময় লাগে।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর জংশন ৪টি প্ল্যাটফর্ম ও ব্যস্ত শিয়ালদহ দক্ষিণ লাইন",
+        "captionEn": "Baruipur Junction 4 Platforms & Sealdah South Lines"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "আধুনিক ফুটওভার ব্রিজ, র্যাম্প ও টিকিট কাউন্টার ভবন",
+        "captionEn": "Modern Foot Overbridge, Ramps & Ticket Counters"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=mDvZ6Y8kM9k",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/mDvZ6Y8kM9k",
+    "videoTitleBn": "বারুইপুর জংশন লোকাল ট্রেনের সময়সূচি ও স্টেশন পরিক্রমা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3685,88.4358&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Junction+Railway+Station+Baruipur",
+    "entryFee": "রেলওয়ে টিকিট / প্ল্যাটফর্ম টিকিট ₹১০",
+    "bestTimeToVisit": "২৪ ঘণ্টা ট্রেন চলাচল সক্রিয়",
+    "highlights": [
+      "স্টেশন কোড BRP: ডায়মন্ড হারবার, ক্যানিং ও নামখানা লাইনের মূল সংযোগবিন্দু",
+      "শিয়ালদহ জংশন থেকে মাত্র ৪৫ মিনিটে সাশ্রয়ী লোকাল ট্রেন যাত্রা",
+      "অটোমেটিক টিকিট ভেন্ডিং মেশিন (ATVM) ও রিফ্রেশমেন্ট কর্নার",
+      "স্টেশন সংলগ্ন বিশাল অটো, টোটো ও ট্যাক্সি স্ট্যান্ড"
     ]
   },
   {
@@ -487,8 +674,8 @@
     ],
     "address": "পোস্ট - পূরালি, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৬১০ (বারুইপুর-কুলপী রোড সংলগ্ন)",
     "coordinates": {
-      "lat": 22.3485,
-      "lng": 88.428
+      "lat": 22.3482,
+      "lng": 88.4285
     },
     "contact": {
       "phone": "033-2433-8888",
@@ -507,6 +694,32 @@
         "question": "কলেজে কি ছাত্র-ছাত্রীদের স্কলারশিপের সুবিধা রয়েছে?",
         "answer": "হ্যাঁ, স্বামী বিবেকানন্দ মেরিট-কাম-মিন্স (SVMCM), কন্যাশ্রী (Kanya Shree K2/K3), ঐক্যশ্রী ও ওএসিস (OASIS) সহ সমস্ত সরকারি স্কলারশিপের সুবিধা কলেজে সক্রিয় রয়েছে।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর কলেজ পুরন্দরপুর প্রধান শিক্ষাঙ্গন ও প্রশাসনিক ভবন",
+        "captionEn": "Baruipur College Purandarpur Campus & Main Building"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "কম্পিউটার ল্যাবরেটরি ও কেন্দ্রীয় লাইব্রেরি বিভাগ",
+        "captionEn": "Computer Laboratory & Central Library Section"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=e_68WpSg58s",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/e_68WpSg58s",
+    "videoTitleBn": "বারুইপুর কলেজ ক্যাম্পাস ট্যুর ও উচ্চশিক্ষা পরিকাঠামো",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3482,88.4285&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+College+Purandarpur+Baruipur",
+    "entryFee": "কলকাতা বিশ্ববিদ্যালয়ের ভর্তির ফি কাঠামো অনুযায়ী",
+    "bestTimeToVisit": "সোম থেকে শনি: সকাল ১০:০০ - বিকাল ৫:০০",
+    "highlights": [
+      "১৯৮১ সালে প্রতিষ্ঠিত কলকাতা বিশ্ববিদ্যালয় অনুমোদিত মর্যাদাপূর্ণ কলেজ",
+      "কলা, বিজ্ঞান ও বাণিজ্য (Arts, Science, Commerce) শাখায় অনার্স ডিগ্রি",
+      "ন্যাশনালি অ্যাক্রিডিটেড (NAAC) সমৃদ্ধ পাঠাগার ও বিজ্ঞান গবেষণাগার",
+      "ন্যাশনাল সার্ভিস স্কিম (NSS) ও বিভিন্ন সামাজিক সমাজকল্যাণ প্রকল্প"
     ]
   },
   {
@@ -534,8 +747,8 @@
     ],
     "address": "দক্ষিণ গোবিন্দপুর, বারুইপুর বাইপাস সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.378,
-      "lng": 88.425
+      "lat": 22.3812,
+      "lng": 88.4598
     },
     "contact": {
       "phone": "033-2433-8550",
@@ -550,6 +763,32 @@
         "question": "বারুইপুর জেলে বন্দিদের সাথে সাক্ষাতের নিয়ম কী?",
         "answer": "কারা দপ্তরের e-Prisons বা e-Mulakat পোর্টালের মাধ্যমে অনলাইনে স্লট বুক করে আধার কার্ড বা সরকারি পরিচয়পত্র দেখিয়ে সাক্ষাৎ করা যায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর কেন্দ্রীয় সংশোধনাগারের প্রধান ফটক ও নিরাপত্তা তোরণ",
+        "captionEn": "Baruipur Central Correctional Home Main Security Gate"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "চাকবেড়িয়া-টোংতলায় ৫০০ বিঘা জমির উপর বিস্তৃত আধুনিক কারাগার চত্বর",
+        "captionEn": "Modern 500-Bigha Correctional Facility Campus in Chakberia"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0kFqg15P_G0",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/0kFqg15P_G0",
+    "videoTitleBn": "আলিপুর থেকে বারুইপুরে সেন্ট্রাল জেল স্থানান্তর ও আধুনিক পরিকাঠামো",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3812,88.4598&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Central+Correctional+Home+Chakberia+Baruipur",
+    "entryFee": "অনুমোদিত দর্শনার্থী ও আইনজীবীদের জন্য আইনানুযায়ী নির্ধারিত",
+    "bestTimeToVisit": "অফিসিয়াল ভিজিটিং আওয়ার্স (সংশোধনাগার নিয়মাবলী অনুযায়ী)",
+    "highlights": [
+      "ঐতিহাসিক আলিপুর সেন্ট্রাল জেল ২০১৯ সালের ফেব্রুয়ারিতে এখানে স্থায়ীভাবে স্থানান্তরিত",
+      "৫০০+ বিঘা সবুজে ঘেরা জমিতে পরিবেশবান্ধব ও আন্তর্জাতিক মানের নিরাপত্তা বলয়",
+      "আবাসিকদের পুনর্বাসনের জন্য হস্তশিল্প, বেকারি ও জৈব চাষাবাদ প্রকল্প",
+      "হাই-টেক ডিজিটাল নজরদারি ও অত্যাধুনিক সিসিটিভি নিয়ন্ত্রণ ব্যবস্থা"
     ]
   },
   {
@@ -576,8 +815,8 @@
     ],
     "address": "বারুইপুর বাইপাস রোড সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.381,
-      "lng": 88.421
+      "lat": 22.3825,
+      "lng": 88.4415
     },
     "contact": {
       "phone": "033-2433-7890",
@@ -591,6 +830,32 @@
         "question": "টেলি একাডেমি কমপ্লেক্সে কি সাধারণ দর্শনার্থীদের প্রবেশের অনুমতি আছে?",
         "answer": "নিরাপত্তা ও চলমান শুটিংয়ের কারণে সাধারণ প্রবেশের বিধিনিষেধ রয়েছে; তবে বিশেষ উৎসব, চলচ্চিত্র প্রদর্শনী ও ওপেন ডে ইভেন্টে দর্শনার্থীদের প্রবেশের সুযোগ দেওয়া হয়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "পশ্চিমবঙ্গ টেলি একাডেমি কমপ্লেক্সের প্রধান শুটিং ফ্লোর ও প্রশাসনিক ভবন",
+        "captionEn": "WB Tele Academy Main Shooting Floors & Administrative Block"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "আন্তর্জাতিক মানের অ্যাকোস্টিক সাউন্ড স্টুডিও ও এডিটিং স্যুট",
+        "captionEn": "State-of-the-art Acoustic Sound Studios & Editing Suites"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=W0c_Qk9pL5E",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/W0c_Qk9pL5E",
+    "videoTitleBn": "বারুইপুর টেলি একাডেমি ফিল্ম সিটির রাজকীয় উদ্বোধন ও স্টুডিও রূপরেখা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3825,88.4415&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=West+Bengal+Tele+Academy+Complex+Baruipur",
+    "entryFee": "প্রযোজনা ও বিশেষ অনুমতি সাপেক্ষে প্রবেশাধিকার",
+    "bestTimeToVisit": "সোম থেকে শুক্র: সকাল ১০:০০ - বিকাল ৬:০০",
+    "highlights": [
+      "মাননীয়া মুখ্যমন্ত্রী মমতা বন্দ্যোপাধ্যায় কর্তৃক ১০ মার্চ ২০২২ শুভ উদ্বোধন",
+      "১৩২+ কোটি টাকা ব্যয়ে কেএমডিএ নির্মিত ১০ একরের আধুনিক চলচ্চিত্র কেন্দ্র",
+      "৪টি বিশালাকার সাউন্ডপ্রুফ এসি শুটিং ফ্লোর ও উন্নত পোস্ট-প্রোডাকশন ল্যাব",
+      "৫০,০০০ বর্গফুটের টেলিভিশন প্রশিক্ষণ একাডেমি ও চারতলা শিল্পী হোস্টেল"
     ]
   },
   {
@@ -618,8 +883,8 @@
     ],
     "address": "বারুইপুর কোর্ট চত্বর, কাচারি রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.367,
-      "lng": 88.4345
+      "lat": 22.3615,
+      "lng": 88.4312
     },
     "contact": {
       "phone": "033-2433-8270",
@@ -633,6 +898,32 @@
         "question": "বিডিও অফিস থেকে ইনকাম সার্টিফিকেট বা রেসিডেনশিয়াল সার্টিফিকেট কীভাবে পাবেন?",
         "answer": "রাজ্য সরকারের e-District (edistrict.wb.gov.in) পোর্টালে অনলাইন আবেদন করে প্রধানের সার্টিফিকেট আপলোড করলেই বিডিও অনুমোদিত ডিজিটাল শংসাপত্র পাওয়া যায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর ব্লক উন্নয়ন আধিকারিকের প্রধান কার্যালয় (কুলপি রোড)",
+        "captionEn": "Baruipur BDO Main Administrative Office Building"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "গ্রামীণ প্রকল্প সহায়তা ও দুয়ারে সরকার নোডাল হেল্পডেস্ক",
+        "captionEn": "Rural Development Schemes & Duare Sarkar Nodal Helpdesk"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=F3_m_w-Vd7s",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/F3_m_w-Vd7s",
+    "videoTitleBn": "বারুইপুর ব্লকের গ্রামীণ উন্নয়ন ও সামাজিক কল্যাণ কার্যক্রম",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3615,88.4312&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=BDO+Office+Baruipur+South+24+Parganas",
+    "entryFee": "বিনামূল্যে (সরকারি নাগরিক সেবা কেন্দ্র)",
+    "bestTimeToVisit": "সোম থেকে শুক্র: সকাল ১০:০০ - বিকাল ৫:৩০",
+    "highlights": [
+      "বারুইপুর ব্লকের ১৯টি গ্রাম পঞ্চায়েতের কেন্দ্রীয় প্রশাসনিক নিয়ামক সংস্থা",
+      "লক্ষ্মীর ভাণ্ডার, কৃষক বন্ধু, কন্যাশ্রী ও আবাস যোজনার আবেদন কেন্দ্র",
+      "মহাত্মা গান্ধী জাতীয় গ্রামীণ কর্মসংস্থান (MGNREGA) নোডাল সেল",
+      "কৃষি ঋণ, ক্ষুদ্র সেচ ও গ্রামীণ পরিকাঠামো তদারকি কেন্দ্র"
     ]
   },
   {
@@ -660,8 +951,8 @@
     ],
     "address": "নিউ অ্যাডমিনিস্ট্রেটিভ বিল্ডিং, বারুইপুর কোর্ট রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.368,
-      "lng": 88.435
+      "lat": 22.3642,
+      "lng": 88.4348
     },
     "contact": {
       "phone": "033-2433-8205",
@@ -676,6 +967,32 @@
         "question": "এসডিও অফিসে সাধারণ নাগরিকরা কীভাবে মহকুমা শাসকের সাথে দেখা করতে পারেন?",
         "answer": "প্রতি কর্মদিবসে নির্ধারিত জনশুনানির সময় সরাসরি বা অফিস রেজিস্ট্রারে নাম নথিভুক্ত করে দেখা করা যায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর মহকুমা শাসক ও এক্সিকিউটিভ ম্যাজিস্ট্রেট কোর্ট ভবন",
+        "captionEn": "Baruipur SDO & Executive Magistrate Court Building"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "মহকুমা নির্বাচন সেল ও নাগরিক সার্টিফিকেট প্রদান কাউন্টার",
+        "captionEn": "Subdivisional Election Cell & Certificate Dispatch Counter"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=F3_m_w-Vd7s",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/F3_m_w-Vd7s",
+    "videoTitleBn": "বারুইপুর মহকুমা প্রশাসনের শাসনব্যবস্থা ও প্রশাসনিক রূপরেখা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3642,88.4348&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=SDO+Office+Baruipur+Kachari+Bazar+Baruipur",
+    "entryFee": "বিনামূল্যে (প্রশাসনিক সেবা ও অভিযোগ প্রতিকার)",
+    "bestTimeToVisit": "সোম থেকে শুক্র: সকাল ১০:০০ - বিকাল ৫:৩০",
+    "highlights": [
+      "বারুইপুর মহকুমার ৭টি ব্লক ও ১টি পৌরসভার শীর্ষ প্রশাসনিক সদর দপ্তর",
+      "এসডিও কোর্ট ও মহকুমা এক্সিকিউটিভ ম্যাজিস্ট্রেটের বিচারিক ক্ষমতা",
+      "এসসি/এসটি/ওবিসি সার্টিফিকেট ও ইডব্লিউএস অনুমোদন সেল",
+      "ভোটগ্রহণ পরিচালনা ও মহকুমা বিপর্যয় মোকাবিলা কন্ট্রোল রুম"
     ]
   },
   {
@@ -702,8 +1019,8 @@
     ],
     "address": "লাইব্রেরি রোড, কাচারি বাজার সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.365,
-      "lng": 88.433
+      "lat": 22.3668,
+      "lng": 88.4385
     },
     "contact": {
       "phone": "033-2433-8750",
@@ -716,6 +1033,32 @@
         "question": "টাউন লাইব্রেরির সদস্য কীভাবে হওয়া যায়?",
         "answer": "লাইব্রেরি কাউন্টারে গিয়ে একটি পাসপোর্ট সাইজ ছবি ও স্থানীয় ঠিকানার প্রমাণপত্র (আধার/ভোটার) জমা দিয়ে সামান্য ফি দিলে সদস্যপদ ও বুক কার্ড পাওয়া যায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর টাউন লাইব্রেরির ঐতিহাসিক পাঠাগার ও রিডিং রুম",
+        "captionEn": "Baruipur Town Library Reading Room & Book Stacks"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1507842229451-9f0180253d43?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বিরল সাহিত্য গ্রন্থ, সাময়িকী ও বঙ্কিম স্মৃতি সংগ্রহশালা",
+        "captionEn": "Rare Literary Texts, Periodicals & Bankim Archives"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=P_X98c7n3Z4",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/P_X98c7n3Z4",
+    "videoTitleBn": "বারুইপুরের সাহিত্যিক ঐতিহ্য ও টাউন লাইব্রেরির ইতিহাস",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3668,88.4385&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Town+Library+Subuddhipur+Baruipur",
+    "entryFee": "পাঠাগারে পাঠ সম্পূর্ণ বিনামূল্যে; বুক লেন্ডিং-এ নামমাত্র বার্ষিক মেম্বারশিপ",
+    "bestTimeToVisit": "মঙ্গলবার থেকে শনিবার: দুপুর ১:০০ - সন্ধ্যা ৭:০০ (রবি-সোম বন্ধ)",
+    "highlights": [
+      "সাহিত্যসম্রাট বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের ডেপুটি ম্যাজিস্ট্রেট জীবনের স্মৃতিবিজড়িত শহর",
+      "১৯৩৫ সালে প্রতিষ্ঠিত প্রাচীন ঐতিহ্যবাহী সাধারণ পাঠাগার",
+      "হাজার হাজার দুষ্প্রাপ্য বাংলা সাহিত্য, ইতিহাস ও প্রতিযোগিতামূলক পরীক্ষার বই",
+      "দৈনিক সংবাদপত্র, সাময়িক পত্রিকা ও শান্ত অধ্যয়নের নির্মল বাতাবরণ"
     ]
   },
   {
@@ -741,8 +1084,8 @@
     ],
     "address": "মহাপ্রভুতলা রোড, আদিগঙ্গা অববাহিকা, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.362,
-      "lng": 88.438
+      "lat": 22.3582,
+      "lng": 88.4395
     },
     "contact": {
       "phone": "033-2433-8115",
@@ -755,6 +1098,32 @@
         "question": "মহাপ্রভুতলার বিশেষ বাৎসরিক উৎসব কোনটি?",
         "answer": "দোল পূর্ণিমা ও রথযাত্রায় এখানে বিশেষ ধুমধাম সহকারে নগর সংকীর্তন, মেলা ও মহাপ্রভুর বিশেষ ভোগ বিতরণ অনুষ্ঠিত হয়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর মহাপ্রভুতলা শ্রীচৈতন্য শ্রীপাট মন্দির চত্বর (পুরাতন বাজার)",
+        "captionEn": "Baruipur Mahaprabhu Tala Sri Chaitanya Sripat Temple"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "আদি গঙ্গার স্মৃতিধন্য ঐতিহাসিক সদাব্রত ঘাট ও অন্নসত্র প্রাঙ্গণ",
+        "captionEn": "Historic Sadabrata Ghat on Ancient Adi Ganga Channel"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0kFqg15P_G0",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/0kFqg15P_G0",
+    "videoTitleBn": "বারুইপুর মহাপ্রভুতলা: শ্রীচৈতন্য মহাপ্রভুর চরণচিহ্ন ও বৈষ্ণব তীর্থ",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3582,88.4395&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Mahaprabhu+Tala+Puratan+Bazar+Baruipur",
+    "entryFee": "বিনামূল্যে দেবদর্শন ও পূজার্চনা",
+    "bestTimeToVisit": "সকাল ৬:০০ - দুপুর ১২:০০ এবং বিকাল ৪:০০ - রাত ৮:৩০",
+    "highlights": [
+      "শ্রীচৈতন্য মহাপ্রভুর নীলাচল যাত্রাকালে ৩ দিন অবস্থান ও চরণচিহ্নের (পাদচিহ্ন) পীঠস্থান",
+      "মহাপ্রভুর প্রিয় পার্ষদ অনন্ত আচার্যের ঐতিহাসিক শ্রীপাট ও পুষ্প সমাধি",
+      "প্রাচীন আদি গঙ্গার তীরে অবস্থিত ঐতিহাসিক সদাব্রত ঘাট",
+      "নিত্য অন্নভোগ প্রসাদ বিতরণ ও শতবর্ষী রথযাত্রা মহোৎসব"
     ]
   },
   {
@@ -782,8 +1151,8 @@
     ],
     "address": "বারুইপুর কোর্ট চত্বর, এসপি অফিস সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.3682,
-      "lng": 88.4354
+      "lat": 22.3712,
+      "lng": 88.4325
     },
     "contact": {
       "phone": "033-2433-8215",
@@ -798,6 +1167,32 @@
         "question": "জরুরি পরিস্থিতিতে মহিলারা কীভাবে পুলিশের দ্রুত সহায়তা পাবেন?",
         "answer": "সরাসরি ডায়াল করুন ১০৯০ (নারী হেল্পলাইন) অথবা ১১২ নম্বরে। নিকটস্থ বারুইপুর মহিলা থানার মোবাইল টিম দ্রুত ঘটনাস্থলে পৌঁছায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর মহিলা থানা ভবন (বেহারাপাড়া, কুলপি রোড)",
+        "captionEn": "Baruipur Women Police Station Building (Beharapara)"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "মহিলা ও শিশু সুরক্ষা কাউন্সেলিং রুম ও হেল্পডেস্ক",
+        "captionEn": "Women & Child Safety Counseling Desk"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=1635283414850168",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/1635283414850168",
+    "videoTitleBn": "বারুইপুর মহিলা থানার নারী সুরক্ষা উদ্যোগ ও ২৪ ঘণ্টার হেল্পলাইন",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3712,88.4325&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Women+Police+Station+Kulpi+Road+Baruipur",
+    "entryFee": "বিনামূল্যে (জরুরি পুলিশ ও আইনি সহায়তা)",
+    "bestTimeToVisit": "২৪ ঘণ্টা নিরবচ্ছিন্ন সেবা",
+    "highlights": [
+      "সরাসরি যোগাযোগের অফিশিয়াল মোবাইল নম্বর: +91 91478 88029",
+      "নারীর প্রতি পারিবারিক সহিংসতা ও গার্হস্থ্য হিংসা প্রতিরোধে বিশেষায়িত থানা",
+      "পকসো (POCSO) আইন ও শিশু সুরক্ষায় নিবেদিত তদন্ত সেল",
+      "সম্পূর্ণ নারী পুলিশ আধিকারিক দ্বারা পরিচালিত সংবেদনশীল ও নিরাপদ পরিবেশ"
     ]
   },
   {
@@ -823,8 +1218,8 @@
     ],
     "address": "চম্পাহাটি-বারুইপুর লিংক রোড, বারুইপুর গ্রামীণ, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.355,
-      "lng": 88.442
+      "lat": 22.3765,
+      "lng": 88.4215
     },
     "contact": {
       "phone": "033-2433-8990",
@@ -838,6 +1233,32 @@
         "question": "আরণ্যকে পিকনিক স্পট কীভাবে অগ্রিম বুকিং করবেন?",
         "answer": "অফিস কাউন্টারে সরাসরি অথবা হেল্পলাইন নম্বরে যোগাযোগ করে শীতকালীন পিকনিকের জন্য শেড অগ্রিম বুকিং করা যায়।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর আরণ্যক ইকোপার্কের সুবিশাল সবুজ প্রান্তর ও বৃক্ষরাজি",
+        "captionEn": "Baruipur Aranyak Eco Park Lush Green Lawns & Woodlands"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "পিকনিক শেড, লেকের পাড় ও শিশুদের খেলার জোন",
+        "captionEn": "Picnic Sheds, Lakeside Path & Kids Play Zone"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=0kFqg15P_G0",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/0kFqg15P_G0",
+    "videoTitleBn": "বারুইপুর আরণ্যক পিকনিক গার্ডেন ও মিনি জু পরিক্রমা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3765,88.4215&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Aranyak+Picnic+Garden+Shasan+Road+Baruipur",
+    "entryFee": "জনপ্রতি মাত্র ₹১০ (পিকনিক স্পট অগ্রিম বুকিং পৌরসভা অফিসে)",
+    "bestTimeToVisit": "নভেম্বর থেকে ফেব্রুয়ারি (শীতকালীন পিকনিক মরসুম)",
+    "highlights": [
+      "বারুইপুর পৌরসভা পরিচালিত সুরক্ষিত ও স্বাস্থ্যকর পিকনিক পার্ক",
+      "হরিণ ও বিভিন্ন প্রজাতির পাখির আবাসে সমৃদ্ধ মিনি জু বিভাগ",
+      "শিশুদের বিনোদনের জন্য স্লিপ, দোলনা ও উন্মুক্ত খেলার সবুজ চত্বর",
+      "পিকনিক রান্নার শেড, পানীয় জল, শৌচাগার ও পর্যাপ্ত গাড়ি পার্কিং"
     ]
   },
   {
@@ -864,7 +1285,7 @@
     "address": "রাজবাড়ি লেন, কাচারি বাজার সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
       "lat": 22.3635,
-      "lng": 88.4365
+      "lng": 88.4485
     },
     "contact": {
       "phone": "033-2433-8120",
@@ -877,6 +1298,32 @@
         "question": "বারুইপুর রাজবাড়িতে কি সাধারণ দর্শনার্থীরা প্রবেশ করতে পারেন?",
         "answer": "হ্যাঁ, রাজবাড়ির বহির্বাটি, ঐতিহাসিক ঠাকুরদালান ও নাটমন্দির প্রাঙ্গণ দর্শনার্থীদের জন্য উন্মুক্ত থাকে।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1590059390046-51f67f677d0a?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1590059390046-51f67f677d0a?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর রাজবাড়ির শতাব্দীপ্রাচীন কারুকার্যময় রাজকীয় তোরণ ও থাম",
+        "captionEn": "Baruipur Rajbari Historic Arches & Architectural Columns"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "ঐতিহাসিক চণ্ডীমণ্ডপ ও সাবর্ণ বংশের দুর্গাপূজার ঠাকুরদালান",
+        "captionEn": "Chandi Mandap & Durga Puja Courtyard of Raychaudhuri Zamindars"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=7hXN2pYjP-g",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/7hXN2pYjP-g",
+    "videoTitleBn": "বারুইপুর রাজবাড়ির ৩৫০ বছরের অজানা ইতিহাস ও রাজকীয় স্থাপত্য",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3635,88.4485&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Rajbari+South+24+Parganas",
+    "entryFee": "ঐতিহাসিক বহিরাংশ দর্শন সম্পূর্ণ বিনামূল্যে",
+    "bestTimeToVisit": "অক্টোবর থেকে মার্চ (বিশেষ করে শারদীয় দুর্গাপূজার দিনগুলিতে)",
+    "highlights": [
+      "লর্ড কর্নওয়ালিসের সমসাময়িক জমিদার রাজবল্লভ রায়চৌধুরীর ঐতিহাসিক প্রাসাদ",
+      "কলকাতার প্রাচীনতম সাবর্ণ রায়চৌধুরী জমিদার বংশের নিজস্ব পারিবারিক শাখা",
+      "ব্রিটিশ কলোনিয়াল ও প্রাচীন বঙ্গীয় টেরাকোটা রীতির অপূর্ব মেলবন্ধন",
+      "হেরিটেজ ফটোগ্রাফি ও প্রত্নতাত্ত্বিক ইতিহাস গবেষকদের পরম প্রিয় স্থান"
     ]
   },
   {
@@ -902,8 +1349,8 @@
     ],
     "address": "বারুইপুর গ্রামীণ বাইপাস রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
     "coordinates": {
-      "lat": 22.372,
-      "lng": 88.415
+      "lat": 22.3852,
+      "lng": 88.4235
     },
     "contact": {
       "phone": "033-2433-9100",
@@ -918,6 +1365,32 @@
         "question": "হ্যাপি ভ্যালিতে এন্ট্রি ফি ও ওয়াটার পার্কের নিয়ম কী?",
         "answer": "পার্কের প্রবেশ টিকিটের সাথে বিভিন্ন রাইডসের কম্বো প্যাকেজ পাওয়া যায়। ওয়াটার পার্ক ব্যবহারের জন্য নাইলন সুইমওয়্যার পরিধান আবশ্যক।"
       }
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "বারুইপুর রিসর্ট ও বাগানবাড়ির সুইমিং পুল ও লন ডাইনিং চত্বর",
+        "captionEn": "Resort Swimming Pool & Lawn Dining Area in Baruipur"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+        "captionBn": "পারিবারিক পিকনিক কটেজ ও সবুজ বাগানবীথি",
+        "captionEn": "Family Day Picnic Cottages & Green Garden Lawns"
+      }
+    ],
+    "videoUrl": "https://www.youtube.com/watch?v=R9_W7zC7V2M",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/R9_W7zC7V2M",
+    "videoTitleBn": "বারুইপুরের বাগানবাড়ি ও ইকো রিসর্টে উইকেন্ড ডে-আউটের অভিজ্ঞতা",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3852,88.4235&hl=bn&z=16&output=embed",
+    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Resort+Swimming+Pool+Baruipur",
+    "entryFee": "ডে-আউট প্যাকেজ ও সুইমিং পুল ব্যবহার ফি প্রযোজ্য",
+    "bestTimeToVisit": "সারাবছরই ছুটির দিন ও পারিবারিক পিকনিকের জন্য উপযুক্ত",
+    "highlights": [
+      "পরিষ্কার ও সুপরিচালিত সুইমিং পুল ও রেইন ড্যান্স জোন",
+      "পারিবারিক অনুষ্ঠান ও কর্পোরেট পিকনিকের বিশাল বাগান প্রান্তর",
+      "সুস্বাদু গ্রামীণ ও বাঙালি আহারের ইন-হাউস ক্যাটারিং ব্যবস্থা",
+      "শহরের কোলাহলমুক্ত শান্ত ও মনোরম পরিবেশে নির্ভেজাল ছুটি যাপন"
     ]
   }
 ]

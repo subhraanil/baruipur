@@ -21,7 +21,13 @@ import {
   HelpCircle,
   Landmark,
   ArrowLeft,
-  Users
+  Users,
+  Camera,
+  Video,
+  ExternalLink,
+  Coins,
+  Calendar,
+  Star
 } from 'lucide-react';
 
 interface PlacePageProps {
@@ -49,6 +55,7 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
   const title = `${place.nameBn} (${place.nameEn}) - বারুইপুর Baruipur`;
   const description = `${place.overview.slice(0, 160)}...`;
+  const image = place.coverImage || place.images?.[0]?.url || 'https://baruipur.online/images/baruipur-logo.png';
 
   return {
     title,
@@ -72,11 +79,20 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
       type: 'article',
       siteName: 'বারুইপুর Baruipur',
       locale: 'bn_IN',
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: place.nameBn
+        }
+      ]
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: [image]
     }
   };
 }
@@ -91,6 +107,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
   const allPlaces = getAllPlaces();
   const otherPlaces = allPlaces.filter(p => p.slug !== place.slug).slice(0, 4);
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
+  const primaryImage = place.coverImage || place.images?.[0]?.url || '';
 
   const placeSchema = {
     '@context': 'https://schema.org',
@@ -98,6 +115,8 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
     name: `${place.nameBn} (${place.nameEn})`,
     description: place.overview,
     url: canonicalUrl,
+    image: primaryImage,
+    hasMap: place.gmbMapUrl || `https://maps.google.com/?q=${place.coordinates.lat},${place.coordinates.lng}`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: place.address,
@@ -165,31 +184,73 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
         <span className="text-slate-800 font-bold truncate">{place.nameBn}</span>
       </nav>
 
-      {/* Hero Header */}
-      <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-red-950 text-white rounded-3xl p-6 sm:p-10 mb-8 shadow-md border border-slate-800">
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
-            বারুইপুর পরিচিতি ও গাইড
-          </span>
-          <span className="bg-white/10 text-white/90 text-xs font-medium px-3 py-1 rounded-full">
-            স্থাপিত: {place.established}
-          </span>
-        </div>
+      {/* Hero Header with optional Cover Image Background */}
+      <div className="relative rounded-3xl overflow-hidden mb-8 shadow-lg border border-slate-800 bg-slate-950">
+        {primaryImage && (
+          <div 
+            className="absolute inset-0 bg-cover bg-center opacity-25 filter blur-xs scale-105 transition-transform duration-700"
+            style={{ backgroundImage: `url(${primaryImage})` }}
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />
 
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-2 leading-tight">
-          {place.nameBn}
-        </h1>
-        <h2 className="text-lg sm:text-xl font-medium text-red-300 mb-4">
-          {place.nameEn}
-        </h2>
-        <p className="text-sm sm:text-base text-slate-200 max-w-3xl leading-relaxed">
-          {place.taglineBn}
-        </p>
+        <div className="relative z-10 p-6 sm:p-10 text-white">
+          <div className="flex flex-wrap items-center gap-2 mb-4">
+            <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider flex items-center gap-1">
+              <Sparkles className="w-3.5 h-3.5" />
+              বারুইপুর পরিচিতি ও গাইড
+            </span>
+            <span className="bg-white/15 text-white/90 text-xs font-medium px-3 py-1 rounded-full backdrop-blur-sm">
+              স্থাপিত: {place.established}
+            </span>
+            {place.entryFee && (
+              <span className="bg-emerald-600/90 text-white text-xs font-medium px-3 py-1 rounded-full backdrop-blur-sm flex items-center gap-1">
+                <Coins className="w-3 h-3" />
+                {place.entryFee}
+              </span>
+            )}
+            {place.bestTimeToVisit && (
+              <span className="bg-amber-500/80 text-white text-xs font-medium px-3 py-1 rounded-full backdrop-blur-sm hidden sm:inline-flex items-center gap-1">
+                <Calendar className="w-3 h-3" />
+                {place.bestTimeToVisit}
+              </span>
+            )}
+          </div>
+
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-2 leading-tight">
+            {place.nameBn}
+          </h1>
+          <h2 className="text-lg sm:text-xl font-medium text-red-300 mb-4">
+            {place.nameEn}
+          </h2>
+          <p className="text-sm sm:text-base text-slate-200 max-w-3xl leading-relaxed">
+            {place.taglineBn}
+          </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Main Content (8 cols) */}
         <div className="lg:col-span-8 space-y-8">
+          
+          {/* Key Highlights Grid */}
+          {place.highlights && place.highlights.length > 0 && (
+            <section className="bg-gradient-to-br from-amber-50/80 via-white to-red-50/50 rounded-2xl border border-amber-200/80 p-6 shadow-sm">
+              <h2 className="text-lg font-black text-slate-900 mb-3 flex items-center gap-2">
+                <Star className="w-5 h-5 text-amber-600 fill-amber-500" />
+                প্রধান বৈশিষ্ট্য ও এক নজরে তথ্য (Key Highlights)
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {place.highlights.map((item, idx) => (
+                  <div key={idx} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-800 bg-white/80 p-2.5 rounded-xl border border-amber-100">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* Detailed Overview */}
           <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
             <h2 className="text-xl font-black text-slate-900 border-b border-slate-150 pb-3 mb-4 flex items-center gap-2">
@@ -199,6 +260,141 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
             <p className="text-base text-slate-700 leading-relaxed text-justify">
               {place.overview}
             </p>
+          </section>
+
+          {/* Photo Gallery Section */}
+          {place.images && place.images.length > 0 && (
+            <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+              <div className="flex items-center justify-between border-b border-slate-150 pb-3 mb-5">
+                <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                  <Camera className="w-5 h-5 text-red-600" />
+                  আলোকচিত্র ও দৃশ্যপট (Photo Gallery)
+                </h2>
+                <span className="text-xs font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full">
+                  মোট {place.images.length} টি ছবি
+                </span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {place.images.map((img, idx) => (
+                  <div 
+                    key={idx} 
+                    className="group rounded-xl overflow-hidden border border-slate-200 bg-slate-50 flex flex-col shadow-xs hover:shadow-md transition duration-300"
+                  >
+                    <div className="relative h-48 sm:h-52 w-full overflow-hidden bg-slate-900">
+                      <img 
+                        src={img.url} 
+                        alt={img.captionBn}
+                        className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="p-3 bg-white border-t border-slate-100 flex-1 flex flex-col justify-between">
+                      <p className="text-xs font-bold text-slate-800 leading-snug">
+                        {img.captionBn}
+                      </p>
+                      {img.captionEn && (
+                        <p className="text-[11px] text-slate-400 mt-1">
+                          {img.captionEn}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Embedded Video Tour & Documentary */}
+          {place.videoEmbedUrl && (
+            <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+              <div className="flex items-center justify-between border-b border-slate-150 pb-3 mb-5">
+                <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                  <Video className="w-5 h-5 text-red-600" />
+                  ভিডিও ট্যুর ও তথ্যচিত্র (Video Tour)
+                </h2>
+                <span className="text-xs font-bold text-red-600 bg-red-50 border border-red-200 px-2.5 py-1 rounded-full flex items-center gap-1">
+                  <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse" />
+                  ভিডিও দেখুন
+                </span>
+              </div>
+              <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-md bg-black">
+                <iframe
+                  src={place.videoEmbedUrl}
+                  title={place.videoTitleBn || place.nameBn}
+                  className="w-full h-full border-0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+              {place.videoTitleBn && (
+                <p className="text-xs sm:text-sm text-slate-600 mt-3 font-medium flex items-center justify-between">
+                  <span>{place.videoTitleBn}</span>
+                  {place.videoUrl && (
+                    <a 
+                      href={place.videoUrl} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="text-red-600 hover:underline flex items-center gap-1 text-xs shrink-0"
+                    >
+                      <span>ইউটিউবে খুলুন</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  )}
+                </p>
+              )}
+            </section>
+          )}
+
+          {/* Interactive Google Maps & GMB Embed Section */}
+          <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+            <div className="flex items-center justify-between border-b border-slate-150 pb-3 mb-4">
+              <h2 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-red-600" />
+                গুগল ম্যাপে অবস্থান ও ডিরেকশন (Google Maps & GMB)
+              </h2>
+              <span className="text-xs text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-full font-semibold">
+                লাইভ জিপিএস
+              </span>
+            </div>
+            
+            <p className="text-xs sm:text-sm text-slate-600 mb-4">
+              নিচের ইন্টার‍্যাক্টিভ গুগল ম্যাপের মাধ্যমে সঠিক অবস্থান দেখে নিন অথবা সরাসরি দিকনির্দেশনা ও রিভিউ দেখতে বাটনগুলিতে ক্লিক করুন।
+            </p>
+
+            <div className="w-full h-72 sm:h-96 rounded-2xl overflow-hidden border border-slate-200 shadow-inner bg-slate-100 mb-4">
+              <iframe
+                src={place.gmbEmbedUrl || `https://maps.google.com/maps?q=${place.coordinates.lat},${place.coordinates.lng}&hl=bn&z=16&output=embed`}
+                className="w-full h-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={`${place.nameBn} গুগল ম্যাপ অবস্থান`}
+              />
+            </div>
+
+            <div className="flex flex-wrap gap-3">
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${place.coordinates.lat},${place.coordinates.lng}`}
+                target="_blank"
+                rel="noreferrer"
+                className="bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition flex items-center gap-1.5 shadow-sm"
+              >
+                <Navigation className="w-4 h-4" />
+                গুগল ম্যাপে দিকনির্দেশনা (Get Directions)
+              </a>
+              {place.gmbMapUrl && (
+                <a
+                  href={place.gmbMapUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-slate-800 hover:bg-slate-700 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition flex items-center gap-1.5 shadow-sm"
+                >
+                  <MapPin className="w-4 h-4 text-amber-400" />
+                  গুগল বিজনেস প্রোফাইল ও রিভিউ (GMB)
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400 ml-0.5" />
+                </a>
+              )}
+            </div>
           </section>
 
           {/* History & Background */}
@@ -296,7 +492,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 {place.keyServices.map((service, index) => (
                   <div 
-                    key={index}
+                    key={index} 
                     className="flex items-start gap-2.5 p-3.5 rounded-xl bg-slate-50 border border-slate-150 text-sm text-slate-800"
                   >
                     <span className="w-2 h-2 rounded-full bg-red-600 shrink-0 mt-2" />
@@ -464,14 +660,26 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                   <a
                     key={other.slug}
                     href={`/places/${other.slug}/`}
-                    className="block p-2.5 rounded-lg hover:bg-slate-50 border border-transparent hover:border-slate-200 transition group"
+                    className="flex items-center gap-3 p-2.5 rounded-xl hover:bg-slate-50 border border-transparent hover:border-slate-200 transition group"
                   >
-                    <h4 className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition">
-                      {other.nameBn}
-                    </h4>
-                    <p className="text-xs text-slate-500 mt-0.5 line-clamp-1">
-                      {other.nameEn}
-                    </p>
+                    {other.coverImage && (
+                      <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-slate-100">
+                        <img 
+                          src={other.coverImage} 
+                          alt={other.nameBn} 
+                          className="w-full h-full object-cover group-hover:scale-105 transition"
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                    <div className="flex-1 min-w-0">
+                      <h4 className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition truncate">
+                        {other.nameBn}
+                      </h4>
+                      <p className="text-xs text-slate-500 mt-0.5 truncate">
+                        {other.nameEn}
+                      </p>
+                    </div>
                   </a>
                 ))}
               </div>

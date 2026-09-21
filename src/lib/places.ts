@@ -9,6 +9,12 @@ export interface WardItem {
   designationEn?: string;
 }
 
+export interface PlacePhoto {
+  url: string;
+  captionBn: string;
+  captionEn?: string;
+}
+
 export interface PlaceItem {
   slug: string;
   nameBn: string;
@@ -31,6 +37,16 @@ export interface PlaceItem {
   contact: Record<string, string>;
   timings: string;
   howToReach: string;
+  coverImage?: string;
+  images?: PlacePhoto[];
+  videoUrl?: string;
+  videoEmbedUrl?: string;
+  videoTitleBn?: string;
+  gmbEmbedUrl?: string;
+  gmbMapUrl?: string;
+  entryFee?: string;
+  bestTimeToVisit?: string;
+  highlights?: string[];
   faqs: Array<{ question: string; answer: string }>;
 }
 

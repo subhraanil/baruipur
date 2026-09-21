@@ -17,7 +17,10 @@ import {
   Landmark,
   GraduationCap,
   CheckCircle2,
-  Map
+  Map,
+  Coins,
+  Camera,
+  Video
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -51,15 +54,15 @@ export const metadata: Metadata = {
 
 const getCategoryIcon = (category: string) => {
   switch (category) {
-    case 'civic': return <Building2 className="w-6 h-6 text-emerald-600" />;
-    case 'police': return <ShieldAlert className="w-6 h-6 text-rose-600" />;
-    case 'sports': return <Waves className="w-6 h-6 text-cyan-600" />;
-    case 'culture': return <Sparkles className="w-6 h-6 text-amber-600" />;
-    case 'education': return <GraduationCap className="w-6 h-6 text-purple-600" />;
-    case 'infrastructure': return <Compass className="w-6 h-6 text-blue-600" />;
-    case 'health': return <Hospital className="w-6 h-6 text-teal-600" />;
-    case 'transit': return <TrainTrack className="w-6 h-6 text-indigo-600" />;
-    default: return <Landmark className="w-6 h-6 text-slate-600" />;
+    case 'civic': return <Building2 className="w-4 h-4 text-emerald-600" />;
+    case 'police': return <ShieldAlert className="w-4 h-4 text-rose-600" />;
+    case 'sports': return <Waves className="w-4 h-4 text-cyan-600" />;
+    case 'culture': return <Sparkles className="w-4 h-4 text-amber-600" />;
+    case 'education': return <GraduationCap className="w-4 h-4 text-purple-600" />;
+    case 'infrastructure': return <Compass className="w-4 h-4 text-blue-600" />;
+    case 'health': return <Hospital className="w-4 h-4 text-teal-600" />;
+    case 'transit': return <TrainTrack className="w-4 h-4 text-indigo-600" />;
+    default: return <Landmark className="w-4 h-4 text-slate-600" />;
   }
 };
 
@@ -144,7 +147,7 @@ export default function PlacesIndexPage() {
             বারুইপুরের গুরুত্বপূর্ণ স্থান ও প্রধান প্রতিষ্ঠান
           </h1>
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-            ঐতিহাসিক পৌরসভা থেকে শুরু করে পুলিশ জেলা সদর, আধুনিক সুইমিং পুল কমপ্লেক্স, শতবর্ষ প্রাচীন রাসমাঠ কিংবা কলকাতার সাথে সংযোগকারী আধুনিক ৪-লেনের বাইপাস—বারুইপুরের প্রতিটি প্রধান স্থানের পূর্ণাঙ্গ তথ্য, ইতিহাস, যোগাযোগের নম্বর ও নাগরিক পরিষেবা নির্দেশিকা।
+            ঐতিহাসিক পৌরসভা থেকে শুরু করে পুলিশ জেলা সদর, আধুনিক সুইমিং পুল কমপ্লেক্স, শতবর্ষ প্রাচীন রাসমাঠ, ফিল্ম সিটি, রাজবাড়ি কিংবা কলকাতার সাথে সংযোগকারী আধুনিক বাইপাস—বারুইপুরের প্রতিটি প্রধান স্থানের পূর্ণাঙ্গ তথ্য, ছবি, ভিডিও, যোগাযোগের নম্বর ও গুগল ম্যাপ নির্দেশিকা।
           </p>
         </div>
       </div>
@@ -174,41 +177,62 @@ export default function PlacesIndexPage() {
         </span>
       </div>
 
-      {/* Places Grid - Scannable Card Layout */}
+      {/* Places Grid - Rich Visual Card Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {places.map((place) => {
-          const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.nameEn + ' Baruipur ' + place.address)}`;
+          const mapUrl = place.gmbMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.nameEn + ' Baruipur ' + place.address)}`;
           const phoneRaw = place.contact.phone ? place.contact.phone.replace(/[^0-9]/g, '') : '';
+          const coverImg = place.coverImage || place.images?.[0]?.url;
 
           return (
             <article 
               key={place.slug}
               className="bg-white rounded-2xl border border-slate-200 hover:border-red-400 shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group"
             >
-              <div className="p-5 sm:p-6 flex-1 flex flex-col">
-                {/* Header: Icon, Category & Verification */}
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <div className="flex items-center gap-2">
-                    <div className="p-2.5 rounded-xl bg-slate-100 group-hover:bg-red-50 transition">
+              {/* Cover Image Thumbnail */}
+              {coverImg && (
+                <div className="relative h-44 w-full overflow-hidden bg-slate-900">
+                  <img 
+                    src={coverImg} 
+                    alt={place.nameBn}
+                    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
+                  
+                  {/* Top Badges */}
+                  <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+                    <span className="inline-flex items-center gap-1 text-[11px] font-bold bg-white/90 text-slate-800 px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
                       {getCategoryIcon(place.category)}
-                    </div>
-                    <div>
-                      <span className="text-[11px] font-extrabold uppercase tracking-wide text-slate-500 block">
-                        {place.category}
-                      </span>
-                      <span className="text-[10px] text-slate-400">
-                        স্থাপিত: {place.established}
-                      </span>
+                      <span className="uppercase tracking-wide">{place.category}</span>
+                    </span>
+
+                    <div className="flex items-center gap-1.5">
+                      {place.videoEmbedUrl && (
+                        <span className="p-1.5 rounded-full bg-red-600 text-white shadow-xs" title="ভিডিও উপলব্ধ">
+                          <Video className="w-3.5 h-3.5" />
+                        </span>
+                      )}
+                      {place.images && place.images.length > 0 && (
+                        <span className="inline-flex items-center gap-1 text-[10px] font-bold bg-slate-900/80 text-white px-2 py-0.5 rounded-full backdrop-blur-xs">
+                          <Camera className="w-3 h-3" />
+                          <span>{place.images.length}</span>
+                        </span>
+                      )}
                     </div>
                   </div>
-                  <span className="inline-flex items-center gap-1 text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full whitespace-nowrap">
-                    <CheckCircle2 className="w-3 h-3 text-emerald-600" />
-                    যাচাইকৃত ২০২৬
-                  </span>
-                </div>
 
+                  {/* Bottom Image Overlay Tagline */}
+                  <div className="absolute bottom-2.5 left-3 right-3 text-white text-[11px] font-medium line-clamp-1">
+                    {place.established && `স্থাপিত: ${place.established}`}
+                    {place.entryFee && ` • ফি: ${place.entryFee}`}
+                  </div>
+                </div>
+              )}
+
+              <div className="p-5 flex-1 flex flex-col">
                 {/* Name */}
-                <h2 className="text-lg sm:text-xl font-black text-slate-900 group-hover:text-red-600 transition mb-0.5 leading-snug">
+                <h2 className="text-lg font-black text-slate-900 group-hover:text-red-600 transition mb-0.5 leading-snug">
                   <a href={`/places/${place.slug}/`}>
                     {place.nameBn}
                   </a>
@@ -230,7 +254,7 @@ export default function PlacesIndexPage() {
                   {place.contact.phone && (
                     <div className="flex items-center gap-2">
                       <Phone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                      <a href={`tel:${phoneRaw}`} className="font-bold text-slate-800 hover:text-red-600 transition">
+                      <a href={`tel:${phoneRaw}`} className="font-bold text-slate-800 hover:text-red-600 transition truncate">
                         {place.contact.phone}
                       </a>
                     </div>
