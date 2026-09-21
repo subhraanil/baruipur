@@ -89,44 +89,9 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeItemListSchema) }}
       />
 
-      {/* 1. HERO BANNER: The Digital Home of Baruipur */}
-      <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-red-950 text-white rounded-3xl p-6 sm:p-10 mb-8 shadow-xl border border-slate-800 relative overflow-hidden">
-        <div className="relative z-10 max-w-3xl">
-          <div className="inline-flex items-center gap-2 bg-red-600/90 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
-            <Landmark className="w-3.5 h-3.5" />
-            বারুইপুরের নিজস্ব ডিজিটাল পোর্টাল
-          </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white mb-3 leading-tight">
-            বারুইপুর অনলাইন: আপনার স্থানীয় গাইড ও তথ্যকোষ
-          </h1>
-          <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-6 max-w-2xl">
-            দক্ষিণ ২৪ পরগনার বারুইপুর মহকুমার তাজা আঞ্চলিক সংবাদ, পৌরসভা ও প্রশাসনিক তথ্য, বিদ্যালয় ও হাসপাতাল ডিরেক্টরি, গণপরিবহন এবং পর্যটন নির্দেশিকার পূর্ণাঙ্গ ডিজিটাল প্ল্যাটফর্ম।
-          </p>
-          <div className="flex flex-wrap gap-3">
-            <a 
-              href="#latest-news" 
-              className="bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-bold px-5 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5"
-            >
-              <Newspaper className="w-4 h-4" />
-              তাজা সংবাদ
-            </a>
-            <a 
-              href="/places" 
-              className="bg-slate-800 hover:bg-slate-700 text-slate-100 border border-slate-700 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-xl transition flex items-center gap-1.5"
-            >
-              <Landmark className="w-4 h-4 text-amber-400" />
-              বারুইপুর ডিরেক্টরি
-            </a>
-            <a 
-              href="#featured-guides" 
-              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-xl transition flex items-center gap-1.5"
-            >
-              <Compass className="w-4 h-4 text-cyan-400" />
-              শহর পরিক্রমা ও গাইড
-            </a>
-          </div>
-        </div>
-      </section>
+      {/* Visually hidden H1 for SEO semantics */}
+      <h1 className="sr-only">বারুইপুর অনলাইন: আপনার স্থানীয় সংবাদ, গাইড ও তথ্যকোষ</h1>
+
 
       {/* 2. TODAY IN BARUIPUR: Informational Bulletin Strip */}
       <section className="bg-amber-50/70 border border-amber-200/80 rounded-2xl p-4 mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
