@@ -58,6 +58,11 @@ function isJunkOrCommentOrPromo(text) {
   // Commercial repairs / servicing / electronics shop ads
   if (/(?:repair|repairing|service\s*centre|service\s*center|home\s*theatre|sound\s*system|সারানো\s*হয়|সারানো\s*হচ্ছে|স্পিকার\s*সারানো|মোবাইল\s*সারানো|we\s*service\s*and\s*repair|all\s*kinds\s*of\s*speakers)/i.test(lower)) return true;
 
+  // Facebook follower shoutouts, milestone celebrations & engagement lists
+  if (/(?:shout\s*out\s*to\s*my\s*newest\s*followers|excited\s*to\s*have\s*you\s*onboard|weekly\s*engagement\s*list)/i.test(lower)) return true;
+  if (/\b\d+(\.\d+)?k\s*(?:পরিবার|followers|ভালোবাসা)/i.test(lower)) return true;
+  if (/(?:লাখ\s*মানুষের\s*কাছে\s*পৌঁছে\s*গেছে|পাশে\s*থাকার\s*জন্য\s*ধন্যবাদ|আপনাদের\s*ভালোবাসাই\s*আমার\s*শক্তি)/i.test(lower)) return true;
+
   // Commercial beauty parlour, salon, spa, cosmetics or hair treatment ads
   if (/(?:সালোন|স্যালোন|salon|পার্লার|parlour|parlor|বিউটি\s*পার্লার|কেরাটিন|বোটক্স|স্মুদনিং|স্ট্রেটনিং|বোটোপ্লাস্টিয়া|শ্যাম্পু\s*একদম\s*ফ্রি|পাবেন\s*একদম\s*ফ্রি|মাত্র\s*[\d০-৯,]+\s*টাকা|branch\s*locations|main\s*branch)/i.test(lower)) return true;
 
@@ -119,10 +124,10 @@ function isJunkOrCommentOrPromo(text) {
 function detectCategory(text) {
   const raw = text.split('\n\n[')[0].toLowerCase();
   if (/মেলা|পুজো|পূজো|পূজা|উৎসব|গণেশ|গনেশ|দুর্গা|কালী|কার্তিক|নাটক|সাংস্কৃতিক|খেলা|ফুটবল|ক্রিকেট|টুর্নামেন্ট|রাসমেলা|রাসমাঠ|যাত্রাপালা|সংগীত|রাখি|ঢাকের কাঠি|উওম কুমার|শরৎ|মহালয়া/.test(raw)) return 'culture';
-  if (/রেল|ট্রেন|লোকাল|শিয়ালদহ|ক্যানিং|নামখানা|ডায়মন্ড|বারুইপুর জংশন|প্ল্যাটফর্ম|রেলওয়ে|যাত্রী|বগির|লাইন|সিগন্যাল|রেলগেট/.test(raw)) return 'railway';
+  if (/পৌরসভা|পুরসভা|চেয়ারম্যান|কাউন্সিলর|ওয়ার্ড|নিকাশি|ড্রেন|আবর্জনা|সাফাই|পানীয় জল|রাস্তাঘাট|রাস্তা|ঘাট|আলো|ট্যাক্স|পৌরপ্রধান|পুরপ্রধান|জলমগ্ন/.test(raw)) return 'municipality';
+  if (/রেল|ট্রেন|লোকাল|শিয়ালদহ|ক্যানিং|নামখানা|ডায়মন্ড|বারুইপুর জংশন|প্ল্যাটফর্ম|রেলওয়ে|যাত্রী|বগির|(?:রেললাইন|রেলপথ|রেল\s*লাইন|আপ\s*লাইন|ডাউন\s*লাইন)|সিগন্যাল|রেলগেট/.test(raw)) return 'railway';
   if (/হাসপাতাল|স্বাস্থ্য|ডাক্তার|নার্স|চিকিৎসা|রোগী|ওষুধ|ব্লাড ব্যাংক|অ্যাম্বুলেন্স|স্বাস্থ্যকেন্দ্র|স্বাস্থ্যসাথী|মহকুমা হাসপাতাল|অপারেশন|রক্তদান/.test(raw)) return 'health';
   if (/স্কুল|বিদ্যালয়|কলেজ|পড়ুয়া|ছাত্র|ছাত্রী|পরীক্ষা|মাধ্যমিক|উচ্চমাধ্যমিক|শিক্ষক|শিক্ষিকা|সিলেবাস|বৃত্তি|বিশ্ববিদ্যালয়/.test(raw)) return 'education';
-  if (/পৌরসভা|পুরসভা|চেয়ারম্যান|কাউন্সিলর|ওয়ার্ড|নিকাশি|ড্রেন|আবর্জনা|সাফাই|পানীয় জল|রাস্তাঘাট|রাস্তা|ঘাট|আলো|ট্যাক্স|পৌরপ্রধান|পুরপ্রধান|জলমগ্ন/.test(raw)) return 'municipality';
   if (/থানা|পুলিশ|আইসি|এসপি|গ্রেফতার|আটক|চুরি|ছিনতাই|(?<!রা)খুন|মাদক|তল্লাশি|আদালত|আইন|অপরাধ|অভিযান|মারপিট|প্রতারণা|হাইকোর্ট|জামিন|সাইবার/.test(raw)) return 'crime';
   return 'general';
 }
@@ -212,6 +217,8 @@ function cleanBengaliContent(raw) {
     .replace(/বি\/স্ফোর\/ণ/g, 'বিস্ফোরণ')
     .replace(/ফোনে যোগাযোগ করুন.*?$/gi, '')
     .replace(/লাইক ও শেয়ার করুন.*?$/gi, '')
+    .replace(/(?:আপনার\s*ওয়ার্ডে|আপনার\s*এলাকায়|কমেন্টে\s*জানান).*?$/gim, '')
+    .replace(/📍.*?$/gim, '')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
