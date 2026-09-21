@@ -58,6 +58,9 @@ function isJunkOrCommentOrPromo(text) {
   // Commercial repairs / servicing / electronics shop ads
   if (/(?:repair|repairing|service\s*centre|service\s*center|home\s*theatre|sound\s*system|সারানো\s*হয়|সারানো\s*হচ্ছে|স্পিকার\s*সারানো|মোবাইল\s*সারানো|we\s*service\s*and\s*repair|all\s*kinds\s*of\s*speakers)/i.test(lower)) return true;
 
+  // Commercial beauty parlour, salon, spa, cosmetics or hair treatment ads
+  if (/(?:সালোন|স্যালোন|salon|পার্লার|parlour|parlor|বিউটি\s*পার্লার|কেরাটিন|বোটক্স|স্মুদনিং|স্ট্রেটনিং|বোটোপ্লাস্টিয়া|শ্যাম্পু\s*একদম\s*ফ্রি|পাবেন\s*একদম\s*ফ্রি|মাত্র\s*[\d০-৯,]+\s*টাকা|branch\s*locations|main\s*branch)/i.test(lower)) return true;
+
   if (/^[a-zA-Z0-9\s.,!?:;'"()/\-]+$/.test(t) && !lower.includes('police') && !lower.includes('arrest') && !lower.includes('hospital')) {
     return true;
   }
