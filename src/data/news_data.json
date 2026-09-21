@@ -16,7 +16,8 @@
       "imageUrl": "/images/crawled/311e46115d1317d88b74840f6fa0a6e9.jpg",
       "images": [
         "/images/crawled/311e46115d1317d88b74840f6fa0a6e9.jpg",
-        "/images/crawled/e6f0c87137f89ff16dde1cc60570368a.jpg"
+        "/images/crawled/e6f0c87137f89ff16dde1cc60570368a.jpg",
+        "/images/crawled/2bf6eda22dd07e338a9cd498f492de28.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=28917218444542388",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28917218444542388&show_text=0",
@@ -2529,7 +2530,8 @@
         "Baruipur"
       ],
       "images": [
-        "/images/crawled/6d95cf62400eacb25334fa5f946db383.jpg"
+        "/images/crawled/6d95cf62400eacb25334fa5f946db383.jpg",
+        "/images/crawled/c80212a95c6ae4bb6b934b6a187eb8b0.jpg"
       ],
       "isGuide": false,
       "sourceCategory": "community"
@@ -4741,7 +4743,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-09-21T08:03:42.308Z"
+      "lastCrawledAt": "2026-09-21T09:09:28.649Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -4754,7 +4756,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-09-21T08:03:44.870Z"
+      "lastCrawledAt": "2026-09-21T09:09:30.793Z"
     },
     {
       "id": "src-fb-police",
@@ -4767,7 +4769,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-09-21T08:03:47.579Z"
+      "lastCrawledAt": "2026-09-21T09:09:34.431Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -4780,7 +4782,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-09-21T08:03:49.586Z"
+      "lastCrawledAt": "2026-09-21T09:09:37.438Z"
     },
     {
       "id": "src-fb-uncover",
@@ -4793,7 +4795,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-09-21T08:03:52.934Z"
+      "lastCrawledAt": "2026-09-21T09:09:40.758Z"
     },
     {
       "id": "src-fb-update",
@@ -4806,7 +4808,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-09-21T08:03:55.842Z"
+      "lastCrawledAt": "2026-09-21T09:09:44.357Z"
     },
     {
       "id": "src-fb-barta",
@@ -4819,7 +4821,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-09-21T08:03:58.519Z"
+      "lastCrawledAt": "2026-09-21T09:09:49.295Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -4832,7 +4834,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-09-21T08:04:00.772Z"
+      "lastCrawledAt": "2026-09-21T09:09:51.892Z"
     },
     {
       "id": "src-fb-voice",
@@ -4845,7 +4847,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-09-21T08:04:04.614Z"
+      "lastCrawledAt": "2026-09-21T09:09:56.183Z"
     },
     {
       "id": "src-fb-24x7",
@@ -4858,10 +4860,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-09-21T08:04:07.522Z"
+      "lastCrawledAt": "2026-09-21T09:10:00.948Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1789981801507",
+      "timestamp": "2026-09-21T09:10:01.507Z",
+      "sourceId": "multi-10-sources",
+      "sourceName": "১০টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের ১০টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 3, সমন্বয়ের পর: 3, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 3,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1789977849072",
       "timestamp": "2026-09-21T08:04:09.072Z",
