@@ -66,6 +66,23 @@ function isJunkOrCommentOrPromo(text) {
   // Commercial beauty parlour, salon, spa, cosmetics or hair treatment ads
   if (/(?:সালোন|স্যালোন|salon|পার্লার|parlour|parlor|বিউটি\s*পার্লার|কেরাটিন|বোটক্স|স্মুদনিং|স্ট্রেটনিং|বোটোপ্লাস্টিয়া|শ্যাম্পু\s*একদম\s*ফ্রি|পাবেন\s*একদম\s*ফ্রি|মাত্র\s*[\d০-৯,]+\s*টাকা|branch\s*locations|main\s*branch)/i.test(lower)) return true;
 
+  // Commercial real estate, warehouse, office, shop, flat, land rental or sales ads
+  if (/(?:rent\s*available|ভাড়া\s*হবে|ভাড়ার\s*জন্য|ভাড়ায়\s*পাওয়া\s*যাবে|গোডাউন|sqft|ঘর\s*ভাড়া|দোকান\s*ভাড়া|ফ্ল্যাট\s*বিক্রি|জমি\s*বিক্রি|প্লট\s*বিক্রি|ব্যাংক\s*ভাড়া)/i.test(lower)) return true;
+
+  // Commercial coaching centres, private tuitions, academic admission ads
+  if (/(?:অ্যাকাডেমি|একাডেমি|academy|admission\s*open|ভর্তি\s*চলছে|স্পোকেন\s*ইংলিশ|অ্যাবাকাস|টিউশন|কোচিং|আমাদের\s*বিশেষত্ব|আমাদের\s*ঠিকানা.*?যোগাযোগ.*?ফোন)/i.test(lower)) {
+    if (!/(?:গ্রেফতার|আটক|পুলিশ|তদন্ত|বিক্ষোভ|ভাঙচুর|উত্তপ্ত|সংঘর্ষ)/i.test(lower)) {
+      return true;
+    }
+  }
+
+  // Pure devotional prayer posts without news event
+  if (/(?:জয়\s*শ্রী\s*বজরংবলী|বজরংবলীর\s*মন্দির|শ্রী\s*হনুমানজি|সকলের\s*জীবন\s*ভরে\s*উঠুক|অটুট\s*ভক্তি\s*আমাদের\s*শেখায়|দূর\s*হোক\s*সকল\s*বাধা)/i.test(lower)) {
+    if (!/(?:গ্রেফতার|আটক|উদ্বোধন|মিছিল|সভা|তদন্ত|দুর্ঘটনা|প্রতিযোগিতা|পুজোয়\s*উপস্থিত|বৈঠক|রক্তদান)/i.test(lower)) {
+      return true;
+    }
+  }
+
   if (/^[a-zA-Z0-9\s.,!?:;'"()/\-]+$/.test(t) && !lower.includes('police') && !lower.includes('arrest') && !lower.includes('hospital')) {
     return true;
   }
