@@ -19,7 +19,6 @@ import {
   MapPin, 
   CheckCircle2, 
   ArrowRight,
-  Radio,
   Building2
 } from 'lucide-react';
 
@@ -93,19 +92,6 @@ export default function HomePage() {
       <h1 className="sr-only">বারুইপুর অনলাইন: আপনার স্থানীয় সংবাদ, গাইড ও তথ্যকোষ</h1>
 
 
-      {/* 2. TODAY IN BARUIPUR: Informational Bulletin Strip */}
-      <section className="bg-amber-50/70 border border-amber-200/80 rounded-2xl p-4 mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
-        <div className="flex items-center gap-2 text-amber-900 font-bold shrink-0">
-          <Radio className="w-4 h-4 text-red-600 animate-pulse" />
-          <span>আজ বারুইপুরে:</span>
-        </div>
-        <p className="text-slate-700 flex-1">
-          শিয়ালদহ দক্ষিণ শাখায় ট্রেন চলাচল স্বাভাবিক • বারুইপুর পৌর এলাকায় বিশেষ নিকাশি ও ডেঙ্গি সচেতনতা অভিযান চলমান • মহকুমা হাসপাতালে বহির্বিভাগ খোলা রয়েছে সকাল ৯টা থেকে।
-        </p>
-        <a href="/emergency-contacts" className="text-red-700 font-bold hover:underline shrink-0 flex items-center gap-1">
-          জরুরি ডিরেক্টরি →
-        </a>
-      </section>
 
       {/* 3. QUICK ACCESS GRID (12 Interactive Civic & Lifestyle Tiles) */}
       <section className="mb-10">

@@ -9,7 +9,6 @@ import {
   PhoneCall, 
   Settings, 
   Search, 
-  Flame, 
   Menu, 
   X,
   Share2,
@@ -17,13 +16,11 @@ import {
 } from 'lucide-react';
 import { CATEGORIES } from '@/lib/constants';
 import { formatBengaliDate } from '@/lib/dateUtils';
-import { Article } from '@/lib/types';
 
 export default function Header() {
   const pathname = usePathname();
   const [currentDate, setCurrentDate] = useState('');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [breakingArticles, setBreakingArticles] = useState<Article[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [isLocal, setIsLocal] = useState(false);
 
@@ -36,16 +33,6 @@ export default function Header() {
         setIsLocal(true);
       }
     }
-
-    // Fetch breaking news articles for ticker
-    fetch('/api/articles?limit=5')
-      .then(res => res.json())
-      .then(data => {
-        if (data.data && Array.isArray(data.data)) {
-          setBreakingArticles(data.data.slice(0, 5));
-        }
-      })
-      .catch(() => {});
   }, []);
 
   const handleSearch = (e: React.FormEvent) => {
@@ -157,33 +144,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Breaking News Ticker */}
-      <div className="bg-red-50 border-y border-red-100 py-1.5 px-4 sm:px-6 overflow-hidden">
-        <div className="max-w-7xl mx-auto flex items-center gap-3">
-          <div className="flex items-center gap-1.5 bg-red-600 text-white text-xs font-bold px-2.5 py-1 rounded shrink-0 shadow-sm animate-pulse">
-            <Flame className="w-3.5 h-3.5" />
-            <span>তাজা খবর</span>
-          </div>
-          <div className="relative flex-1 overflow-hidden h-6 flex items-center">
-            <div className="animate-ticker text-sm text-slate-800 font-medium whitespace-nowrap">
-              {breakingArticles.length > 0 ? (
-                breakingArticles.map((art, idx) => (
-                  <a 
-                    key={art.id} 
-                    href={`/${art.slug || art.id}`}
-                    className="inline-flex items-center hover:text-red-600 hover:underline mx-4"
-                  >
-                    <span className="text-red-600 font-bold mr-2">●</span>
-                    {art.title}
-                  </a>
-                ))
-              ) : (
-                <span className="text-slate-600">বারুইপুর জংশন, মহকুমা হাসপাতাল ও পৌরসভার সমস্ত তাজা খবর সরাসরি সামাজিক মাধ্যম থেকে ক্রল ও প্রকাশিত হচ্ছে...</span>
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* 6 Pillars Primary Navigation Bar */}
       <nav className="border-t border-slate-100 bg-white">
