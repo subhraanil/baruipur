@@ -2,102 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://baruipur.online/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%B9%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-is-in-baruipur-india/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T08:43:58.839Z</news:publication_date>
-      <news:title>আমার শহর বারুইপুর is in Baruipur, India.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/abvp-%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F%E0%A6%B8%E0%A6%AA%E0%A6%BF-%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8/</loc>
+    <loc>https://baruipur.online/%E0%A6%8F%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F%E0%A6%B8%E0%A6%AA%E0%A6%BF-%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-23T07:47:44.000Z</news:publication_date>
-      <news:title>Abvp র কার্যকর্তাদের ওপর হামলার প্রতিবাদে বারুইপুর এসপি অফিস অভিযান</news:title>
+      <news:title>এবিভিপি কার্যকর্তাদের ওপর হামলার প্রতিবাদ: বারুইপুর পুলিশ জেলা এসপি অফিস অভিযান ও ডেপুটেশন</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T07:07:38.000Z</news:publication_date>
-      <news:title>জেলার সেরা পুজোর শিরোপা ২০২৬</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%9F%E0%A6%BF%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A7%81%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%B8%E0%A6%96%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%9F%E0%A6%BF%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A7%81%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%85%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%B8%E0%A6%96%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-23T06:35:43.000Z</news:publication_date>
-      <news:title>বারুইপুর আটিসারা মহাপ্রভুতলার অস্টসখী মন্দির</news:title>
+      <news:title>বারুইপুর আটিসারা মহাপ্রভুতলার ঐতিহ্যবাহী অষ্টসখী মন্দির ও দর্শনীয় শ্রীপাট</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%95%E0%A6%B2-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80-%E0%A6%B8%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%9F%E0%A6%BF-%E0%A6%B8%E0%A6%9A%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A6%A4%E0%A6%BE-%E0%A6%B8%E0%A6%AD%E0%A6%BE/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-23T03:54:03.000Z</news:publication_date>
-      <news:title>গুরুত্বপূর্ণ বিজ্ঞপ্তি - বারুইপুরের সকল ব্যবসায়ীদের জন্য</news:title>
+      <news:title>বারুইপুর ব্যবসায়ী সমিতির উদ্যোগে জিএসটি সচেতনতা ও অনুবর্তিতা বিষয়ক বিশেষ সভা</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A7%9F%E0%A6%BE%E0%A6%AC%E0%A6%B9-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF-%E0%A6%8F%E0%A6%96%E0%A6%A8-%E0%A6%B6%E0%A7%81%E0%A6%A7%E0%A7%81-%E0%A6%9C%E0%A6%B2%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%BE-%E0%A6%A1%E0%A7%81%E0%A6%AC%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%98%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B8%E0%A7%80%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%A8%E0%A7%87%E0%A6%87/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-22T19:21:20.000Z</news:publication_date>
-      <news:title>বিহারের ভয়াবহ বন্যার ছবি এখন শুধু জলমগ্ন রাস্তা বা ডুবে যাওয়া ঘরবাড়ির মধ্যে সীমাবদ্ধ নেই</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%95%E0%A7%80-%E0%A6%98%E0%A6%9F%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF-%E0%A6%93-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AC/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T17:34:07.000Z</news:publication_date>
-      <news:title>বারুইপুর কোর্টে কী ঘটেছিল</news:title>
+      <news:title>বারুইপুর আদালতের ঘটনায় মুখ খুললেন আইনজীবী সায়ন ব্যানার্জি ও বিজেপি নেতৃত্ব</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/39-stolen-mobile-phones-seized-in-ghutiary-sharif-one-person-arrested/</loc>
+    <loc>https://baruipur.online/%E0%A6%98%E0%A7%81%E0%A6%9F%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%B6%E0%A6%B0%E0%A7%80%E0%A6%AB%E0%A7%87-%E0%A7%A9%E0%A7%AF%E0%A6%9F%E0%A6%BF-%E0%A6%9A%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%87-%E0%A6%AE%E0%A7%8B%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B2-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%A7/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T16:21:08.000Z</news:publication_date>
-      <news:title>39 Stolen Mobile Phones Seized in Ghutiary Sharif, One Person arrested</news:title>
+      <news:title>ঘুটিয়ারি শরীফে স্কুটি থেকে ৩৯টি চোরাই মোবাইল উদ্ধার, বারুইপুর পুলিশ জেলার জালে ধৃত ১</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AE-%E0%A6%A5%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87/</loc>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AE-%E0%A6%9B%E0%A7%8B%E0%A6%81%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T15:00:25.000Z</news:publication_date>
-      <news:title>আইনজীবী সায়ন ব্যানার্জিকে ডিম থেরাপির অভিযোগ বারুইপুর আদালত চত্বরে</news:title>
+      <news:title>আইনজীবী সায়ন ব্যানার্জিকে লক্ষ্য করে ডিম ছোঁড়ার অভিযোগ বারুইপুর আদালত চত্বরে, এবিভিপির বিক্ষোভ</news:title>
     </news:news>
   </url>
   <url>
@@ -108,40 +75,40 @@
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T14:25:38.000Z</news:publication_date>
-      <news:title>বারুইপুর চৌধুরী  জমিদার বাড়ির ৩০০ বছরের প্রাচীন দুর্গাপুজো</news:title>
+      <news:title>বারুইপুর চৌধুরী জমিদার বাড়ির ৩০০ বছরের প্রাচীন দুর্গাপুজো: ঐতিহ্য ও রীতিনীতি</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%86%E0%A6%A6%E0%A6%BF-%E0%A6%97%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%8F%E0%A6%96%E0%A6%A8-%E0%A6%A1%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%AC%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE/</loc>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%A6%E0%A6%BF-%E0%A6%97%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%8F%E0%A6%96%E0%A6%A8-%E0%A6%A1%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%AC%E0%A6%BF%E0%A6%A8-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%A3-%E0%A6%93-%E0%A6%86%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A6%E0%A7%80-%E0%A6%98%E0%A6%BE%E0%A6%9F/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T13:31:47.000Z</news:publication_date>
-      <news:title>আদি গঙ্গা এখন ডাস্টবিন? বারুইপুরের লজ্জা!</news:title>
+      <news:title>আদি গঙ্গা এখন ডাস্টবিন? চরম দূষণ ও প্রতিমার কাঠামোয় বিপন্ন বারুইপুরের ঐতিহ্যবাহী নদী ঘাট</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/abvp-%E0%A6%B0-%E0%A6%A4%E0%A6%B0%E0%A6%AB-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%AA%E0%A6%BF-%E0%A6%B0%E0%A7%8B%E0%A6%A1-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%8F%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T13:02:43.000Z</news:publication_date>
-      <news:title>abvp র তরফ থেকে রাস্তা অবরোধ বারুপুরে</news:title>
+      <news:title>বারুইপুর আদালতের ঘটনার প্রতিবাদে কুলপি রোড অবরোধ এবিভিপির, যান চলাচল ব্যাহত</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/sfi-%E0%A6%93-abvp-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0/</loc>
+    <loc>https://baruipur.online/%E0%A6%8F%E0%A6%B8%E0%A6%8F%E0%A6%AB%E0%A6%86%E0%A6%87-%E0%A6%93-%E0%A6%8F%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-09-22T11:45:42.000Z</news:publication_date>
-      <news:title>Sfi ও abvp সংঘর্ষে উত্তপ্ত বারুইপুর কোর্ট চত্বর</news:title>
+      <news:title>এসএফআই ও এবিভিপি মুখোমুখি সংঘর্ষে উত্তপ্ত বারুইপুর আদালত চত্বর, মোতায়েন পুলিশ বাহিনী</news:title>
     </news:news>
   </url>
   <url>
