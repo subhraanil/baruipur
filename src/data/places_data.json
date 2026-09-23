@@ -745,10 +745,10 @@
       "পরিবার ও আইনজীবীদের সঙ্গে দেখা করার জন্য ই-মুলাকাত (e-Mulakat) অনলাইন বুকিং ও সুপরিকল্পিত সাক্ষাৎ কক্ষ",
       "সংশোধনাগারের নিজস্ব লাইব্রেরি ও সাক্ষরতা কর্মসূচি"
     ],
-    "address": "দক্ষিণ গোবিন্দপুর, বারুইপুর বাইপাস সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২",
+    "address": "ধোপাগাছি, চাকবেড়িয়া, বারুইপুর-আমতলা রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭০০১৪৪",
     "coordinates": {
-      "lat": 22.3812,
-      "lng": 88.4598
+      "lat": 22.3599,
+      "lng": 88.4325
     },
     "contact": {
       "phone": "033-2433-8550",
@@ -757,38 +757,43 @@
       "website": "https://wbcorrectionalservices.gov.in"
     },
     "timings": "প্রশাসনিক কার্যালয়: সকাল ১০:০০ - বিকাল ৫:০০ | বন্দি সাক্ষাৎ (ই-মুলাকাত নির্ধারিত সূচি অনুযায়ী)",
-    "howToReach": "বারুইপুর বাইপাস ধরে দক্ষিণ গোবিন্দপুর মোড়ে নামলেই সংশোধনাগার চত্বর দেখা যায়। বারুইপুর স্টেশন থেকে দূরত্ব প্রায় ৪ কিমি, অটো বা টোটোয় ১৫ মিনিট সময় লাগে।",
+    "howToReach": "বারুইপুর জংশন বা স্টেশন রোড থেকে বারুইপুর-আমতলা রোড ধরে অটো বা বাসে ধোপাগাছি/চাকবেড়িয়া মোড়ে নামলেই সংশোধনাগার কমপ্লেক্স। বারুইপুর রেলওয়ে স্টেশন থেকে দূরত্ব প্রায় ৫-৬ কিমি, অটো বা টোটোয় ১৫-২০ মিনিট সময় লাগে। গুগল ম্যাপে সরাসরি 'Baruipur Central Jail' সার্চ করে সহজেই নেভিগেট করা যায়।",
     "faqs": [
       {
         "question": "বারুইপুর জেলে বন্দিদের সাথে সাক্ষাতের নিয়ম কী?",
         "answer": "কারা দপ্তরের e-Prisons বা e-Mulakat পোর্টালের মাধ্যমে অনলাইনে স্লট বুক করে আধার কার্ড বা সরকারি পরিচয়পত্র দেখিয়ে সাক্ষাৎ করা যায়।"
       }
     ],
-    "coverImage": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1200&q=80",
+    "coverImage": "/images/places/baruipur-jail-gate.jpg",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
-        "captionBn": "বারুইপুর কেন্দ্রীয় সংশোধনাগারের প্রধান ফটক ও নিরাপত্তা তোরণ",
-        "captionEn": "Baruipur Central Correctional Home Main Security Gate"
+        "url": "/images/places/baruipur-jail-gate.jpg",
+        "captionBn": "বারুইপুর কেন্দ্রীয় সংশোধনাগারের মূল তোরণ ও ত্রিস্তরীয় নিরাপত্তা প্রাচীর (GMB ভিউ)",
+        "captionEn": "Baruipur Central Correctional Home Main Gate & Perimeter Wall (GMB View)"
       },
       {
-        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
-        "captionBn": "চাকবেড়িয়া-টোংতলায় ৫০০ বিঘা জমির উপর বিস্তৃত আধুনিক কারাগার চত্বর",
-        "captionEn": "Modern 500-Bigha Correctional Facility Campus in Chakberia"
+        "url": "/images/places/baruipur-jail-campus.jpg",
+        "captionBn": "বারুইপুর কেন্দ্রীয় সংশোধনাগার ক্যাম্পাস ও প্রবেশদ্বার চত্বর",
+        "captionEn": "Baruipur Central Jail Entrance & Surroundings (Google Maps Location)"
+      },
+      {
+        "url": "/images/places/baruipur-jail-road.jpg",
+        "captionBn": "বারুইপুর-আমতলা রোড সংলগ্ন ধোপাগাছিতে অবস্থিত আধুনিক জেল কমপ্লেক্স ও সংযোগকারী পথ",
+        "captionEn": "Approach Road to Modern Jail Complex at Dhopagachi, Baruipur-Amtala Road"
       }
     ],
-    "videoUrl": "https://www.youtube.com/watch?v=0kFqg15P_G0",
-    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/0kFqg15P_G0",
-    "videoTitleBn": "আলিপুর থেকে বারুইপুরে সেন্ট্রাল জেল স্থানান্তর ও আধুনিক পরিকাঠামো",
-    "gmbEmbedUrl": "https://maps.google.com/maps?q=22.3812,88.4598&hl=bn&z=16&output=embed",
-    "gmbMapUrl": "https://www.google.com/maps/search/?api=1&query=Baruipur+Central+Correctional+Home+Chakberia+Baruipur",
+    "videoUrl": "https://www.youtube.com/watch?v=Ku0UJu6rMMY",
+    "videoEmbedUrl": "https://www.youtube-nocookie.com/embed/Ku0UJu6rMMY",
+    "videoTitleBn": "বারুইপুর কেন্দ্রীয় সংশোধনাগার চত্বর ও ভিডিও ট্যুর",
+    "gmbEmbedUrl": "https://maps.google.com/maps?q=Baruipur+Central+Jail&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "gmbMapUrl": "https://share.google/3ORVRMh0LxE1a4bNg",
     "entryFee": "অনুমোদিত দর্শনার্থী ও আইনজীবীদের জন্য আইনানুযায়ী নির্ধারিত",
     "bestTimeToVisit": "অফিসিয়াল ভিজিটিং আওয়ার্স (সংশোধনাগার নিয়মাবলী অনুযায়ী)",
     "highlights": [
-      "ঐতিহাসিক আলিপুর সেন্ট্রাল জেল ২০১৯ সালের ফেব্রুয়ারিতে এখানে স্থায়ীভাবে স্থানান্তরিত",
-      "৫০০+ বিঘা সবুজে ঘেরা জমিতে পরিবেশবান্ধব ও আন্তর্জাতিক মানের নিরাপত্তা বলয়",
-      "আবাসিকদের পুনর্বাসনের জন্য হস্তশিল্প, বেকারি ও জৈব চাষাবাদ প্রকল্প",
-      "হাই-টেক ডিজিটাল নজরদারি ও অত্যাধুনিক সিসিটিভি নিয়ন্ত্রণ ব্যবস্থা"
+      "ঐতিহাসিক আলিপুর সেন্ট্রাল জেল ২০১৯ সালে স্থায়ীভাবে এখানে স্থানান্তরিত",
+      "গুগল বিজনেস প্রোফাইলে (GMB) 'Baruipur Central Jail' হিসেবে তালিকাভুক্ত ও সহজে ম্যাপে শনাক্তযোগ্য",
+      "ধোপাগাছি-চাকবেড়িয়ায় প্রায় ৫০০ বিঘা সুবিশাল জমিতে আধুনিক ইকো-ফ্রেন্ডলি পরিকাঠামো",
+      "আবাসিকদের পুনর্বাসন, আধুনিক ১০০ শয্যাবিশিষ্ট ইন-হাউস হাসপাতাল ও ই-মুলাকাত অনলাইন সাক্ষাৎকার ব্যবস্থা"
     ]
   },
   {
