@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%A7%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A6%9F-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%BF%E0%A6%AC-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T08:48:43.000Z</news:publication_date>
+      <news:title>বারুইপুর ১নম্বর প্ল্যাটফর্মের নিকট অবস্থিত শিব - দুর্গার মন্দির</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/for-promotions-do-contact-us-8013585309/</loc>
     <news:news>
       <news:publication>

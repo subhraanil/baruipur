@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "id": "art-1790272481184-alxn",
+      "title": "বারুইপুর ১নম্বর প্ল্যাটফর্মের নিকট অবস্থিত শিব - দুর্গার মন্দির",
+      "slug": "বারুইপুর-১নম্বর-প্ল্যাটফর্মের-নিকট-অবস্থিত-শিব-দুর্গার-মন্দির",
+      "summary": "🌺🙏 বারুইপুর ১নম্বর প্ল্যাটফর্মের নিকট অবস্থিত শিব - দুর্গার মন্দির 🌺🙏\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক...",
+      "content": "🌺🙏 বারুইপুর ১নম্বর প্ল্যাটফর্মের নিকট অবস্থিত শিব - দুর্গার মন্দির 🌺🙏\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্শনার্থীদের আকর্ষণ করে।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "sourceId": "src-fb-baruipur",
+      "sourceName": "Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1582069793962249",
+      "originalPostUrl": "https://www.facebook.com/1582069793962249",
+      "imageUrl": "/images/crawled/7e926366f12dcd8e5cef3feee35d4d1a.jpg",
+      "images": [
+        "/images/crawled/7e926366f12dcd8e5cef3feee35d4d1a.jpg"
+      ],
+      "publishedAt": "2026-09-24T08:48:43.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 57,
+      "crawlHash": "883906447cae05624d39c5c719a570d1"
+    },
+    {
       "id": "art-1790239024978-byw4",
       "title": "For Promotion's do Contact us : 8013585309",
       "slug": "for-promotions-do-contact-us-8013585309",
@@ -1429,7 +1453,8 @@
       "originalPostUrl": "https://www.facebook.com/1575408147961747",
       "imageUrl": "/images/crawled/4084f5c08e43973420f2d6da41887e24.jpg",
       "images": [
-        "/images/crawled/4084f5c08e43973420f2d6da41887e24.jpg"
+        "/images/crawled/4084f5c08e43973420f2d6da41887e24.jpg",
+        "/images/crawled/77f91ad9d8908038551a959f2123288f.jpg"
       ],
       "publishedAt": "2026-09-17T09:03:50.000Z",
       "isBreaking": false,
@@ -5501,7 +5526,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-09-24T08:36:36.627Z"
+      "lastCrawledAt": "2026-09-24T17:54:08.817Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -5514,7 +5539,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-09-24T08:36:38.363Z"
+      "lastCrawledAt": "2026-09-24T17:54:10.691Z"
     },
     {
       "id": "src-fb-police",
@@ -5527,7 +5552,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-09-24T08:36:40.309Z"
+      "lastCrawledAt": "2026-09-24T17:54:12.468Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -5540,7 +5565,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-09-24T08:36:42.072Z"
+      "lastCrawledAt": "2026-09-24T17:54:14.045Z"
     },
     {
       "id": "src-fb-uncover",
@@ -5553,7 +5578,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-09-24T08:36:45.129Z"
+      "lastCrawledAt": "2026-09-24T17:54:16.887Z"
     },
     {
       "id": "src-fb-update",
@@ -5566,7 +5591,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-09-24T08:36:48.100Z"
+      "lastCrawledAt": "2026-09-24T17:54:19.057Z"
     },
     {
       "id": "src-fb-barta",
@@ -5579,7 +5604,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-09-24T08:36:52.773Z"
+      "lastCrawledAt": "2026-09-24T17:54:23.405Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -5592,7 +5617,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-09-24T08:36:55.028Z"
+      "lastCrawledAt": "2026-09-24T17:54:25.883Z"
     },
     {
       "id": "src-fb-voice",
@@ -5605,7 +5630,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-09-24T08:36:57.816Z"
+      "lastCrawledAt": "2026-09-24T17:54:31.245Z"
     },
     {
       "id": "src-fb-24x7",
@@ -5618,7 +5643,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-09-24T08:37:01.014Z"
+      "lastCrawledAt": "2026-09-24T17:54:36.937Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -5631,10 +5656,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-09-24T08:37:03.748Z"
+      "lastCrawledAt": "2026-09-24T17:54:40.719Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1790272481185",
+      "timestamp": "2026-09-24T17:54:41.185Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 5, সমন্বয়ের পর: 5, নতুন প্রকাশিত সংবাদ: 1 টি।",
+      "itemsFetched": 5,
+      "itemsPublished": 1
+    },
     {
       "id": "log-1790239025160",
       "timestamp": "2026-09-24T08:37:05.160Z",
