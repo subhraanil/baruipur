@@ -59,7 +59,10 @@ const ALIASES: Record<string, string> = {
   'baruipur-junction': 'baruipur-junction-railway-station',
   'baruipur-bdo': 'baruipur-bdo-office',
   'baruipur-sdo': 'baruipur-sdo-office',
-  'baruipur-mahaprabhu-tala': 'baruipur-mahaprabhu-tala-sadabrata-ghat'
+  'baruipur-mahaprabhu-tala': 'baruipur-mahaprabhu-tala-sadabrata-ghat',
+  'baruipur-arto': 'baruipur-rto',
+  'arto-baruipur': 'baruipur-rto',
+  'rto-baruipur': 'baruipur-rto'
 };
 
 export const getPlaceBySlug = (slug: string): PlaceItem | undefined => {
