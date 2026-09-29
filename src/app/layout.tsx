@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import TrackingHead from '@/components/TrackingHead';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://baruipur.online'),
@@ -122,6 +123,8 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        {/* Common Tracking & Analytics Head */}
+        <TrackingHead />
       </head>
       <body className="min-h-screen flex flex-col bg-slate-50 font-bengali">
         <Header />
