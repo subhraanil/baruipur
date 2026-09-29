@@ -5,16 +5,22 @@ import TrainTimetableClient from './TrainTimetableClient';
 import trainData from '../../data/train_timetable.json';
 
 export const metadata: Metadata = {
-  title: 'বারুইপুর ট্রেন টাইম টেবিল ও পরিবহন গাইড: শিয়ালদহ ও ডায়মন্ড হারবার লোকাল ট্রেনের সময়সূচি | Baruipur Online',
-  description: 'বারুইপুর জংশন থেকে শিয়ালদহ ও ডায়মন্ড হারবার লোকাল ট্রেনের সম্পূর্ণ সময়সূচি (Baruipur to Sealdah, Diamond Harbour to Baruipur train timetable), বাস রুট, অটো-টোটো ও বাইপাস নির্দেশিকা।',
+  title: 'বারুইপুর ট্রেন টাইম টেবিল ও পরিবহন গাইড: শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা লোকাল ট্রেন সময়সূচি | Baruipur Online',
+  description: 'বারুইপুর জংশন লোকাল ট্রেনের সম্পূর্ণ সময়সূচি: শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা (Baruipur to Sealdah, Diamond Harbour, Lakshmikantapur, Namkhana Train Timetable), বাস রুট, অটো-টোটো ও বাইপাস নির্দেশিকা।',
   keywords: [
     'baruipur to sealdah train time table',
     'baruipur to diamond harbour train time table',
     'diamond harbour to baruipur train timetable',
+    'baruipur to namkhana train time table',
+    'namkhana to baruipur train timetable',
+    'baruipur to lakshmikantapur train time table',
+    'lakshmikantapur to baruipur train timetable',
     'sealdah to baruipur train time',
     'বারুইপুর ট্রেন টাইম টেবিল',
     'বারুইপুর থেকে শিয়ালদহ ট্রেন সময়সূচি',
-    'বারুইপুর থেকে ডায়মন্ড হারবার ট্রেন'
+    'বারুইপুর থেকে ডায়মন্ড হারবার ট্রেন',
+    'বারুইপুর থেকে লক্ষ্মীকান্তপুর ট্রেন',
+    'বারুইপুর থেকে নামখানা ট্রেন'
   ],
   alternates: {
     canonical: 'https://baruipur.online/transport/',
@@ -73,7 +79,7 @@ export default function TransportPage() {
           বারুইপুর পরিবহন ও সম্পূর্ণ ট্রেন সময়সূচি
         </h1>
         <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl">
-          বারুইপুর জংশন থেকে শিয়ালদহ ও ডায়মন্ড হারবার লাইনের সমস্ত আপ ও ডাউন ট্রেনের সঠিক সময়সূচি, ৪-লেন বাইপাস ও কলকাতা-দক্ষিণ ২৪ পরগনার প্রধান বাস রুট নির্দেশিকা।
+          বারুইপুর জংশন থেকে শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা লাইনের ২৮০+ আপ ও ডাউন ট্রেনের সঠিক সময়সূচি, ৪-লেন বাইপাস ও প্রধান বাস রুট নির্দেশিকা।
         </p>
       </div>
 
@@ -83,10 +89,10 @@ export default function TransportPage() {
           <div className="flex items-center justify-between mb-4">
             <div>
               <h2 className="text-2xl font-black text-slate-900">
-                লোকাল ট্রেনের সময়সূচি (Train Time Table)
+                লোকাল ট্রেনের সময়সূচি (Suburban Train Time Table)
               </h2>
               <p className="text-xs text-slate-500 mt-0.5">
-                বারুইপুর ⇄ ডায়মন্ড হারবার ও বারুইপুর ⇄ শিয়ালদহ রুটের পূর্ণাঙ্গ তালিকা
+                শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা রুটের পূর্ণাঙ্গ আপ ও ডাউন তালিকা
               </p>
             </div>
           </div>

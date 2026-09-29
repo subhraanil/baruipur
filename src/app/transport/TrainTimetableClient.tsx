@@ -11,7 +11,8 @@ import {
   ChevronRight, 
   Info,
   CheckCircle,
-  Filter
+  Filter,
+  Compass
 } from 'lucide-react';
 
 export interface TrainItem {
@@ -43,6 +44,8 @@ export interface RouteData {
   toEn: string;
   titleBn: string;
   titleEn: string;
+  corridor: string;
+  corridorBn: string;
   erailUrl: string;
   totalTrains: number;
   firstTrain: string;
@@ -55,7 +58,45 @@ interface Props {
   updatedAt: string;
 }
 
+interface CorridorConfig {
+  id: string;
+  titleBn: string;
+  titleEn: string;
+  routes: {
+    up: string;
+    down: string;
+  };
+}
+
+const CORRIDORS: CorridorConfig[] = [
+  {
+    id: 'sdah',
+    titleBn: 'শিয়ালদহ লাইন',
+    titleEn: 'Sealdah Line',
+    routes: { up: 'brp_sdah', down: 'sdah_brp' }
+  },
+  {
+    id: 'dh',
+    titleBn: 'ডায়মন্ড হারবার লাইন',
+    titleEn: 'Diamond Harbour Line',
+    routes: { up: 'brp_dh', down: 'dh_brp' }
+  },
+  {
+    id: 'lkpr',
+    titleBn: 'লক্ষ্মীকান্তপুর লাইন',
+    titleEn: 'Lakshmikantapur Line',
+    routes: { up: 'brp_lkpr', down: 'lkpr_brp' }
+  },
+  {
+    id: 'nmka',
+    titleBn: 'নামখানা লাইন (সরাসরি)',
+    titleEn: 'Namkhana Line (Direct)',
+    routes: { up: 'brp_nmka', down: 'nmka_brp' }
+  }
+];
+
 export default function TrainTimetableClient({ routes, updatedAt }: Props) {
+  const [activeCorridorId, setActiveCorridorId] = useState<string>('sdah');
   const [activeRouteId, setActiveRouteId] = useState<string>('brp_sdah');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [timeFilter, setTimeFilter] = useState<'all' | 'morning' | 'afternoon' | 'evening' | 'night'>('all');
@@ -63,18 +104,36 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
 
   const activeRoute = routes[activeRouteId] || routes['brp_sdah'];
 
+  // Handle corridor selection
+  const handleSelectCorridor = (corridorId: string) => {
+    setActiveCorridorId(corridorId);
+    const corr = CORRIDORS.find(c => c.id === corridorId);
+    if (corr) {
+      setActiveRouteId(corr.routes.up);
+    }
+  };
+
   // Switch to the opposite direction
   const handleSwapRoute = () => {
     const swapMap: Record<string, string> = {
       'brp_sdah': 'sdah_brp',
       'sdah_brp': 'brp_sdah',
       'brp_dh': 'dh_brp',
-      'dh_brp': 'brp_dh'
+      'dh_brp': 'brp_dh',
+      'brp_lkpr': 'lkpr_brp',
+      'lkpr_brp': 'brp_lkpr',
+      'brp_nmka': 'nmka_brp',
+      'nmka_brp': 'brp_nmka'
     };
     if (swapMap[activeRouteId]) {
       setActiveRouteId(swapMap[activeRouteId]);
     }
   };
+
+  // Current corridor definition
+  const currentCorridor = useMemo(() => {
+    return CORRIDORS.find(c => c.id === activeCorridorId) || CORRIDORS[0];
+  }, [activeCorridorId]);
 
   // Filter trains
   const filteredTrains = useMemo(() => {
@@ -110,74 +169,124 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
     });
   }, [activeRoute, searchQuery, timeFilter, dayFilter]);
 
-  const routeTabs = [
-    { id: 'brp_sdah', labelBn: 'বারুইপুর ➔ শিয়ালদহ', labelEn: 'BRP to SDAH', badge: `${routes['brp_sdah']?.totalTrains || 77}` },
-    { id: 'sdah_brp', labelBn: 'শিয়ালদহ ➔ বারুইপুর', labelEn: 'SDAH to BRP', badge: `${routes['sdah_brp']?.totalTrains || 75}` },
-    { id: 'brp_dh', labelBn: 'বারুইপুর ➔ ডায়মন্ড হারবার', labelEn: 'BRP to DH', badge: `${routes['brp_dh']?.totalTrains || 32}` },
-    { id: 'dh_brp', labelBn: 'ডায়মন্ড হারবার ➔ বারুইপুর', labelEn: 'DH to BRP', badge: `${routes['dh_brp']?.totalTrains || 32}` },
-  ];
-
   return (
     <div className="space-y-6">
-      {/* Route Switcher Tabs */}
-      <div className="bg-slate-100 p-1.5 rounded-2xl flex flex-wrap gap-1.5 border border-slate-200">
-        {routeTabs.map(tab => {
-          const isActive = tab.id === activeRouteId;
-          return (
-            <button
-              key={tab.id}
-              onClick={() => setActiveRouteId(tab.id)}
-              className={`flex-1 min-w-[200px] py-3 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition ${
-                isActive
-                  ? 'bg-red-600 text-white shadow-md'
-                  : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200/60'
-              }`}
-            >
-              <span>{tab.labelBn}</span>
-              <span
-                className={`text-[11px] px-2 py-0.5 rounded-full font-semibold ${
-                  isActive ? 'bg-red-800 text-red-100' : 'bg-slate-100 text-slate-600'
+      {/* 1. Main Line / Corridor Selection Tabs */}
+      <div>
+        <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+          <Compass className="w-3.5 h-3.5 text-red-600" />
+          রেলওয়ে লাইন বেছে নিন (Select Railway Line):
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
+          {CORRIDORS.map(corridor => {
+            const isCorridorActive = activeCorridorId === corridor.id;
+            const upCount = routes[corridor.routes.up]?.totalTrains || 0;
+            const downCount = routes[corridor.routes.down]?.totalTrains || 0;
+            const totalCorridorTrains = upCount + downCount;
+
+            return (
+              <button
+                key={corridor.id}
+                onClick={() => handleSelectCorridor(corridor.id)}
+                className={`py-3 px-4 rounded-2xl text-left border transition relative ${
+                  isCorridorActive
+                    ? 'bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-red-500/20'
+                    : 'bg-white text-slate-700 hover:bg-slate-50 border-slate-200'
                 }`}
               >
-                {tab.badge} টি ট্রেন
-              </span>
-            </button>
-          );
-        })}
+                <div className="flex items-center justify-between mb-1">
+                  <span className={`text-[10px] uppercase font-bold tracking-wider ${
+                    isCorridorActive ? 'text-red-400' : 'text-slate-400'
+                  }`}>
+                    {corridor.titleEn}
+                  </span>
+                  <span className={`text-[11px] px-2 py-0.5 rounded-full font-bold ${
+                    isCorridorActive ? 'bg-red-600 text-white' : 'bg-slate-100 text-slate-600'
+                  }`}>
+                    {totalCorridorTrains} ট্রেন
+                  </span>
+                </div>
+                <div className="font-black text-sm sm:text-base">
+                  {corridor.titleBn}
+                </div>
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      {/* Route Header Info Card */}
+      {/* 2. Direction Selection (Up / Down) */}
+      <div className="bg-slate-100 p-2 rounded-2xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          {/* UP Button */}
+          <button
+            onClick={() => setActiveRouteId(currentCorridor.routes.up)}
+            className={`flex-1 sm:flex-initial py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition ${
+              activeRouteId === currentCorridor.routes.up
+                ? 'bg-red-600 text-white shadow-sm'
+                : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+            }`}
+          >
+            <span>{routes[currentCorridor.routes.up]?.fromBn} ➔ {routes[currentCorridor.routes.up]?.toBn}</span>
+            <span className={`text-[11px] px-1.5 py-0.5 rounded font-semibold ${
+              activeRouteId === currentCorridor.routes.up ? 'bg-red-800 text-red-100' : 'bg-slate-100 text-slate-600'
+            }`}>
+              {routes[currentCorridor.routes.up]?.totalTrains} টি
+            </span>
+          </button>
+
+          {/* DOWN Button */}
+          <button
+            onClick={() => setActiveRouteId(currentCorridor.routes.down)}
+            className={`flex-1 sm:flex-initial py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition ${
+              activeRouteId === currentCorridor.routes.down
+                ? 'bg-red-600 text-white shadow-sm'
+                : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
+            }`}
+          >
+            <span>{routes[currentCorridor.routes.down]?.fromBn} ➔ {routes[currentCorridor.routes.down]?.toBn}</span>
+            <span className={`text-[11px] px-1.5 py-0.5 rounded font-semibold ${
+              activeRouteId === currentCorridor.routes.down ? 'bg-red-800 text-red-100' : 'bg-slate-100 text-slate-600'
+            }`}>
+              {routes[currentCorridor.routes.down]?.totalTrains} টি
+            </span>
+          </button>
+        </div>
+
+        <button
+          onClick={handleSwapRoute}
+          className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 text-xs font-bold text-slate-700 bg-white hover:bg-slate-50 px-3 py-2 rounded-xl transition border border-slate-200 shadow-sm"
+          title="বিপরীত দিকের ট্রেনের সময় দেখতে ক্লিক করুন"
+        >
+          <ArrowUpDown className="w-3.5 h-3.5 text-red-600" />
+          <span>দিক পরিবর্তন (Swap)</span>
+        </button>
+      </div>
+
+      {/* 3. Route Summary Header Card */}
       <div className="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-slate-100">
           <div>
             <div className="flex items-center gap-2 text-xs font-bold text-red-600 mb-1">
               <Train className="w-4 h-4" />
-              <span>ভারতীয় রেলওয়ে শিয়ালদহ দক্ষিণ শাখা সময়সূচি</span>
+              <span>পূর্ব রেলওয়ে শিয়ালদহ দক্ষিণ বিভাগ • {activeRoute.corridorBn}</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-slate-900">
               {activeRoute.titleBn}
             </h2>
             <p className="text-xs text-slate-500 mt-1">
-              মোট ট্রেনের সংখ্যা: <strong>{activeRoute.totalTrains} টি</strong> | উৎস ও গন্তব্য: <strong>{activeRoute.fromBn} ({activeRoute.from}) ➔ {activeRoute.toBn} ({activeRoute.to})</strong>
+              মোট ট্রেনের সংখ্যা: <strong>{activeRoute.totalTrains} টি</strong> | রুট: <strong>{activeRoute.fromBn} ({activeRoute.from}) ➔ {activeRoute.toBn} ({activeRoute.to})</strong>
             </p>
           </div>
 
           <div className="flex items-center gap-2 flex-wrap">
-            <button
-              onClick={handleSwapRoute}
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 px-3.5 py-2 rounded-xl transition border border-slate-200"
-              title="বিপরীত দিকের ট্রেনের সময় দেখতে ক্লিক করুন"
-            >
-              <ArrowUpDown className="w-3.5 h-3.5 text-red-600" />
-              <span>উল্টো রুট দেখুন</span>
-            </button>
             <a
               href={activeRoute.erailUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 px-3.5 py-2 rounded-xl transition border border-blue-200"
             >
-              <span>eRail লাইভ স্ট্যাটাস</span>
+              <span>eRail অফিসিয়াল পৃষ্ঠা</span>
               <ExternalLink className="w-3 h-3" />
             </a>
           </div>
@@ -198,21 +307,21 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
           <div className="bg-slate-50 p-3 rounded-xl border border-slate-100">
             <span className="text-[11px] text-slate-500 block mb-0.5">গড় সময়কাল</span>
             <span className="text-sm font-black text-slate-800">
-              {activeRoute.id.includes('dh') ? '৪৮-৫০ মিনিট' : '৪৫-৫০ মিনিট'}
+              {activeRoute.id.includes('nmka') ? '১ ঘণ্টা ৫০ মিনিট' : activeRoute.id.includes('lkpr') ? '৫৫-৬০ মিনিট' : activeRoute.id.includes('dh') ? '৪৮-৫০ মিনিট' : '৪৫-৫০ মিনিট'}
             </span>
             <span className="text-[10px] text-slate-400 block">দূরত্ব অনুযায়ী</span>
           </div>
           <div className="bg-slate-50 p-3 rounded-xl border border-slate-100">
             <span className="text-[11px] text-slate-500 block mb-0.5">ফ্রিকোয়েন্সি</span>
             <span className="text-sm font-black text-blue-700">
-              {activeRoute.id.includes('dh') ? '২০-২৫ মিনিট' : '১০-১৫ মিনিট'}
+              {activeRoute.id.includes('nmka') ? 'নির্দিষ্ট সময়' : activeRoute.id.includes('lkpr') ? 'প্রতি ২০-৩০ মিনিট' : activeRoute.id.includes('dh') ? 'প্রতি ২০-২৫ মিনিট' : 'প্রতি ১০-১৫ মিনিট'}
             </span>
-            <span className="text-[10px] text-slate-400 block">পিক আওয়ার্স</span>
+            <span className="text-[10px] text-slate-400 block">সার্ভিস ধরন</span>
           </div>
         </div>
       </div>
 
-      {/* Filter and Search Bar */}
+      {/* 4. Filter and Search Bar */}
       <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm space-y-3">
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           {/* Search Input */}
@@ -220,7 +329,7 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="ট্রেন নম্বর (যেমন: 34812) বা নাম দিয়ে খুঁজুন..."
+              placeholder="ট্রেন নম্বর (যেমন: 34712, 34792, 34812) বা নাম দিয়ে খুঁজুন..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-slate-50 border border-slate-200 rounded-xl pl-9 pr-3 py-2 text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500"
@@ -294,14 +403,14 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
         </div>
       </div>
 
-      {/* Trains List / Table */}
+      {/* 5. Trains Table / Mobile Cards */}
       <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
         <div className="px-5 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between text-xs text-slate-600">
           <div>
             প্রদর্শিত ট্রেন: <strong className="text-slate-900">{filteredTrains.length}</strong> / {activeRoute.totalTrains} টি
           </div>
           <div className="text-[11px] text-slate-400">
-            সময়ের ক্রমানুসারে সাজানো
+            ছাড়ার সময়ের ক্রমানুসারে সাজানো
           </div>
         </div>
 
@@ -432,17 +541,17 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
         )}
       </div>
 
-      {/* Helpful Passenger Information Notice */}
+      {/* 6. Passenger Guidance Notice */}
       <div className="bg-blue-50/70 border border-blue-200 rounded-2xl p-5 text-xs text-blue-950 space-y-2">
         <div className="flex items-center gap-2 font-bold text-sm text-blue-900">
           <Info className="w-4 h-4 text-blue-600" />
-          <span>নিত্যযাত্রী সহায়িকা ও নিয়মাবলী:</span>
+          <span>নিত্যযাত্রী ও বকখালি/গঙ্গাসাগর তীর্থযাত্রী সহায়িকা:</span>
         </div>
         <ul className="list-disc list-inside space-y-1 text-slate-700 leading-relaxed">
-          <li><strong>টিকিট বুকিং:</strong> সাধারণ মাসিক ও লোকাল টিকিট UTS মোবাইল অ্যাপের মাধ্যমে ইউটিএস কিউআর কোড স্ক্যান করে কাটা যায়। স্টেশন কাউন্টারেও সাধারণ টিকিট পাওয়া যায়।</li>
-          <li><strong>প্ল্যাটফর্ম নির্দেশিকা:</strong> বারুইপুর জংশনে ১ ও ২ নম্বর প্ল্যাটফর্ম থেকে মূলত শিয়ালদহমুখী ট্রেন এবং ৩ ও ৪ নম্বর প্ল্যাটফর্ম থেকে ডায়মন্ড হারবার, ক্যানিং ও নামখানামুখী ট্রেন চলাচল করে।</li>
-          <li><strong>সময় পরিবর্তন:</strong> বিশেষ উৎসব (যেমন গঙ্গাসাগর মেলা বা দুর্গাপূজা) এবং রেলওয়ে মেগা ব্লকের কারণে ট্রেনের সময়সূচিতে সাময়িক পরিবর্তন হতে পারে।</li>
-          <li><strong>রেলওয়ে জরুরি হেল্পলাইন:</strong> যেকোনো সমস্যায় ২৪ ঘণ্টা চালু রেলওয়ে হেল্পলাইন নম্বর <strong>139</strong>।</li>
+          <li><strong>নামখানা ও বকখালি সংযোগ:</strong> বারুইপুর থেকে সরাসরি নামখানা লোকাল (৩৪৭৯২, ৩৪৭৯৪ ইত্যাদি) রয়েছে। এছাড়াও ৩১টি লক্ষ্মীকান্তপুর ট্রেনের যেকোনোটিতে চড়ে লক্ষ্মীকান্তপুর জংশনে পৌঁছে সেখান থেকে নামখানাগামী কানেক্টিং ট্রেনে যাতায়াত করা যায়।</li>
+          <li><strong>টিকিট বুকিং:</strong> সাধারণ ও মাসিক টিকিট UTS মোবাইল অ্যাপের মাধ্যমে কিউআর কোড স্ক্যান করে দ্রুত বুক করা যায়।</li>
+          <li><strong>প্ল্যাটফর্ম তথ্য:</strong> বারুইপুর জংশনে ১ ও ২ নম্বর প্ল্যাটফর্ম থেকে মূলত শিয়ালদহমুখী ট্রেন এবং ৩ ও ৪ নম্বর প্ল্যাটফর্ম থেকে ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর, ক্যানিং ও নামখানামুখী ট্রেন চলাচল করে।</li>
+          <li><strong>জরুরি হেল্পলাইন:</strong> ২৪ ঘণ্টা রেলওয়ে সহায়তা ও নিরাপত্তা হেল্পলাইন নম্বর <strong>139</strong>।</li>
         </ul>
       </div>
     </div>

@@ -1,10 +1,10 @@
 /**
  * scripts/fetch-train-timetable.js
  * Fetches latest train timetables from eRail for:
- * 1. Baruipur to Diamond Harbour (BRP -> DH)
- * 2. Diamond Harbour to Baruipur (DH -> BRP)
- * 3. Baruipur to Sealdah (BRP -> SDAH)
- * 4. Sealdah to Baruipur (SDAH -> BRP)
+ * 1. Baruipur to Diamond Harbour (BRP -> DH) & DH -> BRP
+ * 2. Baruipur to Sealdah (BRP -> SDAH) & SDAH -> BRP
+ * 3. Baruipur to Lakshmikantapur (BRP -> LKPR) & LKPR -> BRP
+ * 4. Baruipur to Namkhana (BRP -> NMKA) & NMKA -> BRP
  */
 
 const fs = require('fs');
@@ -31,7 +31,9 @@ const stationNameBn = {
   'CG': 'ক্যানিং',
   'Canning': 'ক্যানিং',
   'MJT': 'মাঝেরহাট',
-  'Majerhat': 'মাঝেরহাট'
+  'Majerhat': 'মাঝেরহাট',
+  'DDJ': 'দমদম জংশন',
+  'Dum Dum': 'দমদম জংশন'
 };
 
 function getBnStation(codeOrName) {
@@ -45,7 +47,6 @@ function getBnTrainName(trainName, origin, dest) {
 }
 
 function parseDuration(durStr) {
-  // Format "00:48" or "01:05"
   const parts = durStr.split(':');
   const h = parseInt(parts[0], 10) || 0;
   const m = parseInt(parts[1], 10) || 0;
@@ -113,18 +114,6 @@ async function run() {
   
   const routeConfigs = [
     {
-      id: 'brp_dh',
-      from: 'BRP',
-      fromBn: 'বারুইপুর জংশন',
-      fromEn: 'Baruipur Jn',
-      to: 'DH',
-      toBn: 'ডায়মন্ড হারবার',
-      toEn: 'Diamond Harbour',
-      titleBn: 'বারুইপুর থেকে ডায়মন্ড হারবার ট্রেনের সময়সূচি',
-      titleEn: 'Baruipur to Diamond Harbour Train Time Table',
-      erailUrl: 'https://erail.in/trains-between-stations/BRP/DH'
-    },
-    {
       id: 'brp_sdah',
       from: 'BRP',
       fromBn: 'বারুইপুর জংশন',
@@ -134,19 +123,9 @@ async function run() {
       toEn: 'Sealdah',
       titleBn: 'বারুইপুর থেকে শিয়ালদহ ট্রেনের সময়সূচি',
       titleEn: 'Baruipur to Sealdah Train Time Table',
+      corridor: 'sdah',
+      corridorBn: 'শিয়ালদহ লাইন',
       erailUrl: 'https://erail.in/trains-between-stations/BRP/SDAH'
-    },
-    {
-      id: 'dh_brp',
-      from: 'DH',
-      fromBn: 'ডায়মন্ড হারবার',
-      fromEn: 'Diamond Harbour',
-      to: 'BRP',
-      toBn: 'বারুইপুর জংশন',
-      toEn: 'Baruipur Jn',
-      titleBn: 'ডায়মন্ড হারবার থেকে বারুইপুর ট্রেনের সময়সূচি',
-      titleEn: 'Diamond Harbour to Baruipur Train Time Table',
-      erailUrl: 'https://erail.in/trains-between-stations/DH/BRP'
     },
     {
       id: 'sdah_brp',
@@ -158,7 +137,93 @@ async function run() {
       toEn: 'Baruipur Jn',
       titleBn: 'শিয়ালদহ থেকে বারুইপুর ট্রেনের সময়সূচি',
       titleEn: 'Sealdah to Baruipur Train Time Table',
+      corridor: 'sdah',
+      corridorBn: 'শিয়ালদহ লাইন',
       erailUrl: 'https://erail.in/trains-between-stations/SDAH/BRP'
+    },
+    {
+      id: 'brp_dh',
+      from: 'BRP',
+      fromBn: 'বারুইপুর জংশন',
+      fromEn: 'Baruipur Jn',
+      to: 'DH',
+      toBn: 'ডায়মন্ড হারবার',
+      toEn: 'Diamond Harbour',
+      titleBn: 'বারুইপুর থেকে ডায়মন্ড হারবার ট্রেনের সময়সূচি',
+      titleEn: 'Baruipur to Diamond Harbour Train Time Table',
+      corridor: 'dh',
+      corridorBn: 'ডায়মন্ড হারবার লাইন',
+      erailUrl: 'https://erail.in/trains-between-stations/BRP/DH'
+    },
+    {
+      id: 'dh_brp',
+      from: 'DH',
+      fromBn: 'ডায়মন্ড হারবার',
+      fromEn: 'Diamond Harbour',
+      to: 'BRP',
+      toBn: 'বারুইপুর জংশন',
+      toEn: 'Baruipur Jn',
+      titleBn: 'ডায়মন্ড হারবার থেকে বারুইপুর ট্রেনের সময়সূচি',
+      titleEn: 'Diamond Harbour to Baruipur Train Time Table',
+      corridor: 'dh',
+      corridorBn: 'ডায়মন্ড হারবার লাইন',
+      erailUrl: 'https://erail.in/trains-between-stations/DH/BRP'
+    },
+    {
+      id: 'brp_lkpr',
+      from: 'BRP',
+      fromBn: 'বারুইপুর জংশন',
+      fromEn: 'Baruipur Jn',
+      to: 'LKPR',
+      toBn: 'লক্ষ্মীকান্তপুর',
+      toEn: 'Lakshmikantapur',
+      titleBn: 'বারুইপুর থেকে লক্ষ্মীকান্তপুর ট্রেনের সময়সূচি',
+      titleEn: 'Baruipur to Lakshmikantapur Train Time Table',
+      corridor: 'lkpr',
+      corridorBn: 'লক্ষ্মীকান্তপুর লাইন',
+      erailUrl: 'https://erail.in/trains-between-stations/BRP/LKPR'
+    },
+    {
+      id: 'lkpr_brp',
+      from: 'LKPR',
+      fromBn: 'লক্ষ্মীকান্তপুর',
+      fromEn: 'Lakshmikantapur',
+      to: 'BRP',
+      toBn: 'বারুইপুর জংশন',
+      toEn: 'Baruipur Jn',
+      titleBn: 'লক্ষ্মীকান্তপুর থেকে বারুইপুর ট্রেনের সময়সূচি',
+      titleEn: 'Lakshmikantapur to Baruipur Train Time Table',
+      corridor: 'lkpr',
+      corridorBn: 'লক্ষ্মীকান্তপুর লাইন',
+      erailUrl: 'https://erail.in/trains-between-stations/LKPR/BRP'
+    },
+    {
+      id: 'brp_nmka',
+      from: 'BRP',
+      fromBn: 'বারুইপুর জংশন',
+      fromEn: 'Baruipur Jn',
+      to: 'NMKA',
+      toBn: 'নামখানা',
+      toEn: 'Namkhana',
+      titleBn: 'বারুইপুর থেকে নামখানা ট্রেনের সময়সূচি',
+      titleEn: 'Baruipur to Namkhana Train Time Table',
+      corridor: 'nmka',
+      corridorBn: 'নামখানা লাইন',
+      erailUrl: 'https://erail.in/trains-between-stations/BRP/NMKA'
+    },
+    {
+      id: 'nmka_brp',
+      from: 'NMKA',
+      fromBn: 'নামখানা',
+      fromEn: 'Namkhana',
+      to: 'BRP',
+      toBn: 'বারুইপুর জংশন',
+      toEn: 'Baruipur Jn',
+      titleBn: 'নামখানা থেকে বারুইপুর ট্রেনের সময়সূচি',
+      titleEn: 'Namkhana to Baruipur Train Time Table',
+      corridor: 'nmka',
+      corridorBn: 'নামখানা লাইন',
+      erailUrl: 'https://erail.in/trains-between-stations/NMKA/BRP'
     }
   ];
 
