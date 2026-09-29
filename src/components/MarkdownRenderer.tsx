@@ -3,7 +3,7 @@
 import React from 'react';
 
 interface MarkdownRendererProps {
-  content: string;
+  content?: string | null;
 }
 
 // Inline formatting helper for links, bold, code, etc.
@@ -15,7 +15,7 @@ function formatInlineText(text: string): React.ReactNode[] {
   while (remaining.length > 0) {
     // 1. Link: [label](url)
     const linkMatch = remaining.match(/^([^\n[]*?)\[([^\]]+)\]\(([^)]+)\)/);
-    // 2. Bold: **text** - restricted to same line to avoid runaway bold across lines
+    // 2. Bold: **text** - strictly restricted to same line to prevent runaway bold across lines/paragraphs
     const boldMatch = remaining.match(/^([^\n*]*?)\*\*([^*\n]+)\*\*/);
     // 3. Inline Code: `code`
     const codeMatch = remaining.match(/^([^\n`]*?)`([^`\n]+)`/);
@@ -77,193 +77,270 @@ function formatInlineText(text: string): React.ReactNode[] {
   return parts;
 }
 
-// Single block renderer
-function renderBlock(blockText: string, keyPrefix: string | number): React.ReactNode {
-  const trimmed = blockText.trim();
-  if (!trimmed) return null;
+type MarkdownToken =
+  | { type: 'hr' }
+  | { type: 'h1'; text: string }
+  | { type: 'h2'; text: string }
+  | { type: 'h3'; text: string }
+  | { type: 'h4'; text: string }
+  | { type: 'blockquote'; lines: string[] }
+  | { type: 'table'; lines: string[] }
+  | { type: 'bulletList'; items: string[] }
+  | { type: 'numberedList'; items: string[] }
+  | { type: 'paragraph'; lines: string[] };
 
-  // 1. Horizontal Rule: --- or ***
-  if (trimmed === '---' || trimmed === '***') {
-    return <hr key={keyPrefix} className="my-8 border-t border-slate-200" />;
-  }
+function tokenizeMarkdown(content: string): MarkdownToken[] {
+  if (!content) return [];
+  const lines = content.replace(/\r\n/g, '\n').split('\n');
+  const tokens: MarkdownToken[] = [];
+  let currentGroup: MarkdownToken | null = null;
 
-  // 2. Heading 1: # Title (strictly single line; following lines rendered separately)
-  if (trimmed.startsWith('# ')) {
-    const lines = trimmed.split('\n');
-    const headingText = lines[0].slice(2).trim();
-    const remainingText = lines.slice(1).join('\n').trim();
-    return (
-      <React.Fragment key={keyPrefix}>
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-8 mb-4 border-b border-slate-200 pb-2">
-          {formatInlineText(headingText)}
-        </h1>
-        {remainingText && renderBlock(remainingText, `${keyPrefix}-rem`)}
-      </React.Fragment>
-    );
-  }
+  const flush = () => {
+    if (currentGroup) {
+      tokens.push(currentGroup);
+      currentGroup = null;
+    }
+  };
 
-  // 3. Heading 2: ## Subtitle (strictly single line)
-  if (trimmed.startsWith('## ')) {
-    const lines = trimmed.split('\n');
-    const headingText = lines[0].slice(3).trim();
-    const remainingText = lines.slice(1).join('\n').trim();
-    return (
-      <React.Fragment key={keyPrefix}>
-        <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mt-7 mb-3.5 border-b border-slate-100 pb-2 flex items-center gap-2">
-          <span className="w-2.5 h-2.5 rounded-full bg-red-600 shrink-0"></span>
-          <span>{formatInlineText(headingText)}</span>
-        </h2>
-        {remainingText && renderBlock(remainingText, `${keyPrefix}-rem`)}
-      </React.Fragment>
-    );
-  }
+  for (let i = 0; i < lines.length; i++) {
+    const rawLine = lines[i];
+    const trimmed = rawLine.trim();
 
-  // 4. Heading 3: ### Subheading (strictly single line)
-  if (trimmed.startsWith('### ')) {
-    const lines = trimmed.split('\n');
-    const headingText = lines[0].slice(4).trim();
-    const remainingText = lines.slice(1).join('\n').trim();
-    return (
-      <React.Fragment key={keyPrefix}>
-        <h3 className="text-lg sm:text-xl font-bold text-slate-900 mt-6 mb-2.5 flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0"></span>
-          <span>{formatInlineText(headingText)}</span>
-        </h3>
-        {remainingText && renderBlock(remainingText, `${keyPrefix}-rem`)}
-      </React.Fragment>
-    );
-  }
+    // Blank line terminates active grouping
+    if (!trimmed) {
+      flush();
+      continue;
+    }
 
-  // 5. Heading 4: #### Minor heading (strictly single line)
-  if (trimmed.startsWith('#### ')) {
-    const lines = trimmed.split('\n');
-    const headingText = lines[0].slice(5).trim();
-    const remainingText = lines.slice(1).join('\n').trim();
-    return (
-      <React.Fragment key={keyPrefix}>
-        <h4 className="text-base font-bold text-slate-900 mt-4 mb-2">
-          {formatInlineText(headingText)}
-        </h4>
-        {remainingText && renderBlock(remainingText, `${keyPrefix}-rem`)}
-      </React.Fragment>
-    );
-  }
+    // 1. Horizontal Rule: --- or ***
+    if (trimmed === '---' || trimmed === '***') {
+      flush();
+      tokens.push({ type: 'hr' });
+      continue;
+    }
 
-  // 6. Blockquote: lines starting with >
-  if (trimmed.startsWith('> ') || trimmed.startsWith('>')) {
-    const quoteLines = trimmed.split('\n').map(l => l.replace(/^>\s?/, ''));
-    return (
-      <blockquote key={keyPrefix} className="border-l-4 border-red-500 bg-red-50/50 p-4 rounded-r-xl my-4 text-slate-700 text-sm sm:text-base italic leading-relaxed">
-        {quoteLines.map((ql, qidx) => (
-          <p key={qidx} className="my-1">{formatInlineText(ql)}</p>
-        ))}
-      </blockquote>
-    );
-  }
+    // 2. Heading 1: # Title (isolated strictly to one line)
+    if (trimmed.startsWith('# ')) {
+      flush();
+      tokens.push({ type: 'h1', text: trimmed.slice(2).trim() });
+      continue;
+    }
 
-  // 7. Markdown Table: starts and ends with |
-  if (trimmed.startsWith('|') && trimmed.includes('\n|')) {
-    const lines = trimmed.split('\n').map(l => l.trim()).filter(l => l.startsWith('|'));
-    if (lines.length >= 2) {
-      const parseRow = (line: string) => {
-        const cells = line.split('|');
-        return cells.slice(1, cells.length - 1).map(c => c.trim());
-      };
+    // 3. Heading 2: ## Subtitle (isolated strictly to one line)
+    if (trimmed.startsWith('## ')) {
+      flush();
+      tokens.push({ type: 'h2', text: trimmed.slice(3).trim() });
+      continue;
+    }
 
-      const headerCells = parseRow(lines[0]);
-      const isSeparator = (line: string) => line.includes('---');
-      const dataRows = lines.slice(1).filter(l => !isSeparator(l)).map(parseRow);
+    // 4. Heading 3: ### Subheading (isolated strictly to one line)
+    if (trimmed.startsWith('### ')) {
+      flush();
+      tokens.push({ type: 'h3', text: trimmed.slice(4).trim() });
+      continue;
+    }
 
-      return (
-        <div key={keyPrefix} className="overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-xs bg-white">
-          <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-sm">
-            <thead className="bg-slate-100/90">
-              <tr>
-                {headerCells.map((header, hIdx) => (
-                  <th
-                    key={hIdx}
-                    scope="col"
-                    className="px-4 py-3 text-left font-bold text-slate-900 uppercase tracking-wider"
-                  >
-                    {formatInlineText(header)}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-150 bg-white">
-              {dataRows.map((row, rIdx) => (
-                <tr key={rIdx} className="hover:bg-slate-50/80 transition-colors odd:bg-slate-50/30">
-                  {row.map((cell, cIdx) => (
-                    <td key={cIdx} className="px-4 py-3 text-slate-700 whitespace-normal leading-relaxed">
-                      {formatInlineText(cell)}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      );
+    // 5. Heading 4: #### Minor heading (isolated strictly to one line)
+    if (trimmed.startsWith('#### ')) {
+      flush();
+      tokens.push({ type: 'h4', text: trimmed.slice(5).trim() });
+      continue;
+    }
+
+    // 6. Blockquote
+    if (trimmed.startsWith('> ') || trimmed === '>') {
+      const quoteText = trimmed.replace(/^>\s?/, '');
+      if (currentGroup && currentGroup.type === 'blockquote') {
+        currentGroup.lines.push(quoteText);
+      } else {
+        flush();
+        currentGroup = { type: 'blockquote', lines: [quoteText] };
+      }
+      continue;
+    }
+
+    // 7. Markdown Table line
+    if (trimmed.startsWith('|')) {
+      if (currentGroup && currentGroup.type === 'table') {
+        currentGroup.lines.push(trimmed);
+      } else {
+        flush();
+        currentGroup = { type: 'table', lines: [trimmed] };
+      }
+      continue;
+    }
+
+    // 8. Bullet list item
+    if (/^\s*[-*]\s+/.test(rawLine)) {
+      const itemText = rawLine.replace(/^\s*[-*]\s+/, '');
+      if (currentGroup && currentGroup.type === 'bulletList') {
+        currentGroup.items.push(itemText);
+      } else {
+        flush();
+        currentGroup = { type: 'bulletList', items: [itemText] };
+      }
+      continue;
+    }
+
+    // 9. Numbered list item
+    if (/^\s*\d+\.\s+/.test(rawLine)) {
+      const itemText = rawLine.replace(/^\s*\d+\.\s+/, '');
+      if (currentGroup && currentGroup.type === 'numberedList') {
+        currentGroup.items.push(itemText);
+      } else {
+        flush();
+        currentGroup = { type: 'numberedList', items: [itemText] };
+      }
+      continue;
+    }
+
+    // 10. Regular paragraph text
+    if (currentGroup && currentGroup.type === 'paragraph') {
+      currentGroup.lines.push(rawLine);
+    } else {
+      flush();
+      currentGroup = { type: 'paragraph', lines: [rawLine] };
     }
   }
 
-  // 8. Unordered List: lines starting with * or -
-  const listLines = trimmed.split('\n');
-  const isBulletList = listLines.every(l => /^\s*[-*]\s+/.test(l));
-  if (isBulletList) {
-    return (
-      <ul key={keyPrefix} className="space-y-1.5 my-3 pl-5 list-disc text-slate-700 text-sm sm:text-base font-normal">
-        {listLines.map((l, lIdx) => (
-          <li key={lIdx} className="leading-relaxed">
-            {formatInlineText(l.replace(/^\s*[-*]\s+/, ''))}
-          </li>
-        ))}
-      </ul>
-    );
-  }
-
-  // 9. Ordered List: lines starting with 1. 2. etc.
-  const isNumberedList = listLines.every(l => /^\s*\d+\.\s+/.test(l));
-  if (isNumberedList) {
-    return (
-      <ol key={keyPrefix} className="space-y-1.5 my-3 pl-5 list-decimal text-slate-700 text-sm sm:text-base font-normal">
-        {listLines.map((l, lIdx) => (
-          <li key={lIdx} className="leading-relaxed">
-            {formatInlineText(l.replace(/^\s*\d+\.\s+/, ''))}
-          </li>
-        ))}
-      </ol>
-    );
-  }
-
-  // 10. Normal Paragraph with uniform font size (never big, never bold by default)
-  return (
-    <p key={keyPrefix} className="text-justify leading-relaxed text-slate-700 text-sm sm:text-base font-normal my-3">
-      {trimmed.split('\n').map((line, lineIdx) => (
-        <React.Fragment key={lineIdx}>
-          {lineIdx > 0 && <br />}
-          {formatInlineText(line)}
-        </React.Fragment>
-      ))}
-    </p>
-  );
+  flush();
+  return tokens;
 }
 
 export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
   if (!content) return null;
 
-  // Normalize newlines and ensure headings have breathing space
-  const normalized = content
-    .replace(/\r\n/g, '\n')
-    .replace(/^([^\n#\s][^\n]*)\n(#{1,4}\s+[^\n]+)/gm, '$1\n\n$2')
-    .replace(/^(#{1,4}\s+[^\n]+)\n([^\n#\s])/gm, '$1\n\n$2');
-
-  // Split by double newlines into blocks
-  const rawBlocks = normalized.split(/\n\s*\n/);
+  const tokens = tokenizeMarkdown(content);
 
   return (
-    <div className="markdown-content text-slate-800 leading-relaxed space-y-4">
-      {rawBlocks.map((block, idx) => renderBlock(block, idx))}
+    <div className="markdown-content text-slate-700 leading-relaxed space-y-4 text-base font-normal">
+      {tokens.map((token, idx) => {
+        switch (token.type) {
+          case 'hr':
+            return <hr key={idx} className="my-8 border-t border-slate-200" />;
+
+          case 'h1':
+            return (
+              <h1 key={idx} className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-8 mb-4 border-b border-slate-200 pb-2">
+                {formatInlineText(token.text)}
+              </h1>
+            );
+
+          case 'h2':
+            return (
+              <h2 key={idx} className="text-xl sm:text-2xl font-bold text-slate-900 mt-7 mb-3.5 border-b border-slate-100 pb-2 flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-red-600 shrink-0"></span>
+                <span>{formatInlineText(token.text)}</span>
+              </h2>
+            );
+
+          case 'h3':
+            return (
+              <h3 key={idx} className="text-lg sm:text-xl font-bold text-slate-900 mt-6 mb-2.5 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0"></span>
+                <span>{formatInlineText(token.text)}</span>
+              </h3>
+            );
+
+          case 'h4':
+            return (
+              <h4 key={idx} className="text-base font-bold text-slate-900 mt-4 mb-2">
+                {formatInlineText(token.text)}
+              </h4>
+            );
+
+          case 'blockquote':
+            return (
+              <blockquote key={idx} className="border-l-4 border-red-500 bg-red-50/50 p-4 rounded-r-xl my-4 text-slate-700 text-base italic leading-relaxed">
+                {token.lines.map((ql, qidx) => (
+                  <p key={qidx} className="my-1">{formatInlineText(ql)}</p>
+                ))}
+              </blockquote>
+            );
+
+          case 'table': {
+            const tableLines = token.lines.filter(l => l.startsWith('|'));
+            if (tableLines.length < 2) return null;
+
+            const parseRow = (line: string) => {
+              const cells = line.split('|');
+              return cells.slice(1, cells.length - 1).map(c => c.trim());
+            };
+
+            const headerCells = parseRow(tableLines[0]);
+            const isSeparator = (line: string) => line.includes('---');
+            const dataRows = tableLines.slice(1).filter(l => !isSeparator(l)).map(parseRow);
+
+            return (
+              <div key={idx} className="overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-xs bg-white">
+                <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-sm">
+                  <thead className="bg-slate-100/90">
+                    <tr>
+                      {headerCells.map((header, hIdx) => (
+                        <th
+                          key={hIdx}
+                          scope="col"
+                          className="px-4 py-3 text-left font-bold text-slate-900 uppercase tracking-wider"
+                        >
+                          {formatInlineText(header)}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-150 bg-white">
+                    {dataRows.map((row, rIdx) => (
+                      <tr key={rIdx} className="hover:bg-slate-50/80 transition-colors odd:bg-slate-50/30">
+                        {row.map((cell, cIdx) => (
+                          <td key={cIdx} className="px-4 py-3 text-slate-700 whitespace-normal leading-relaxed">
+                            {formatInlineText(cell)}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          }
+
+          case 'bulletList':
+            return (
+              <ul key={idx} className="space-y-1.5 my-3.5 pl-5 list-disc text-slate-700 text-base font-normal">
+                {token.items.map((item, itemIdx) => (
+                  <li key={itemIdx} className="leading-relaxed">
+                    {formatInlineText(item)}
+                  </li>
+                ))}
+              </ul>
+            );
+
+          case 'numberedList':
+            return (
+              <ol key={idx} className="space-y-1.5 my-3.5 pl-5 list-decimal text-slate-700 text-base font-normal">
+                {token.items.map((item, itemIdx) => (
+                  <li key={itemIdx} className="leading-relaxed">
+                    {formatInlineText(item)}
+                  </li>
+                ))}
+              </ol>
+            );
+
+          case 'paragraph':
+            return (
+              <p key={idx} className="text-justify leading-relaxed text-slate-700 text-base font-normal my-3.5">
+                {token.lines.map((line, lineIdx) => (
+                  <React.Fragment key={lineIdx}>
+                    {lineIdx > 0 && <br />}
+                    {formatInlineText(line)}
+                  </React.Fragment>
+                ))}
+              </p>
+            );
+
+          default:
+            return null;
+        }
+      })}
     </div>
   );
 }

@@ -392,7 +392,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
           </div>
 
           {/* Full Article Content with Markdown Rendering */}
-          <div className="max-w-none text-slate-800 text-base sm:text-lg leading-relaxed">
+          <div className="max-w-none text-slate-700 text-base leading-relaxed font-normal">
             <MarkdownRenderer content={article.content} />
           </div>
 
