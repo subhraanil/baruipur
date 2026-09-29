@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://baruipur.online/%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%AF%E0%A6%A6%E0%A6%BF-%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C-%E0%A6%AA%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T14:59:46.000Z</news:publication_date>
+      <news:title>কেউ যদি খোঁজ পান যোগাযোগ করুন বারুইপুর থানায়</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%B9%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-is-in-baruipur-india/</loc>
     <news:news>
       <news:publication>
@@ -32,6 +43,17 @@
       </news:publication>
       <news:publication_date>2026-09-29T06:32:22.000Z</news:publication_date>
       <news:title>Eta kon Beach kara bolte parbe?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-29T06:16:23.000Z</news:publication_date>
+      <news:title>পুজোর আগে ব্যবসায়ীদের নিয়ে প্রশাসনিক বৈঠক বারুইপুরে!</news:title>
     </news:news>
   </url>
   <url>
@@ -101,6 +123,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://baruipur.online/%E0%A6%97%E0%A6%A4%E0%A6%95%E0%A6%BE%E0%A6%B2-rss-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%A7%E0%A7%A8-%E0%A6%A8%E0%A6%82-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A6%B0-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T06:07:37.000Z</news:publication_date>
+      <news:title>গতকাল RSS পক্ষ থেকে  বারুইপুর ১২ নং ওয়ার্ডে একটি অনুষ্ঠানর আয়োজন করা হয়েছিল। /</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%93-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%9C-%E0%A6%B8%E0%A6%B9-%E0%A6%A6%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%80-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%95-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0/</loc>
     <news:news>
       <news:publication>
@@ -112,6 +145,28 @@
     </news:news>
   </url>
   <url>
+    <loc>https://baruipur.online/shaheed-bhagat-singh-was-born-on-september-28-1907-and-his-birth-anniversary-bhagat-sin/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T02:59:29.000Z</news:publication_date>
+      <news:title>Shaheed Bhagat Singh was born on September 28, 1907, and his birth anniversary (Bhagat Sin</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%87-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE-%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%AC%E0%A7%87-%E0%A6%B0%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%87/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T02:30:12.000Z</news:publication_date>
+      <news:title>বারুইপুর বাইপাসের এই অবস্থা! কবে মিলবে রেহাই?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A5%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%82%E0%A6%AA-%E0%A6%9D%E0%A7%81%E0%A6%81%E0%A6%95%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2/</loc>
     <news:news>
       <news:publication>
@@ -120,6 +175,17 @@
       </news:publication>
       <news:publication_date>2026-09-28T02:30:12.000Z</news:publication_date>
       <news:title>রাস্তার মাঝে পাথরের স্তূপ ও দাঁড়িয়ে জেসিবি: বারুইপুর বাইপাসে জীবনের ঝুঁকি নিয়ে যাতায়াত</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%95-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%98%E0%A6%9F-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4-%E0%A6%AA%E0%A7%9C%E0%A7%81%E0%A6%A8-%E0%A6%8F%E0%A6%87-%E0%A6%B2%E0%A6%BF%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%83/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-27T20:13:11.000Z</news:publication_date>
+      <news:title>হচ্ছে না ব্যাঙ্ক ধর্মঘট, বিস্তারিত পড়ুন এই লিঙ্কেঃ</news:title>
     </news:news>
   </url>
   <url>
@@ -156,6 +222,28 @@
     </news:news>
   </url>
   <url>
+    <loc>https://baruipur.online/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%B0%E0%A7%87%E0%A6%B2-%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B0%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A7%81%E0%A6%9D%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-27T11:02:37.000Z</news:publication_date>
+      <news:title>ভারতীয় রেল না বাংলাদেশ রেল - বুঝতে পারবেন না!</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/keno-astrology-prediction-neoa-uchit/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-27T08:46:48.000Z</news:publication_date>
+      <news:title>Keno Astrology Prediction Neoa Uchit?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%B0-%E0%A7%A7%E0%A7%A7-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%9C%E0%A6%AE%E0%A6%BE-%E0%A6%9C%E0%A6%B2%E0%A7%87-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF/</loc>
     <news:news>
       <news:publication>
@@ -167,6 +255,28 @@
     </news:news>
   </url>
   <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%A4-%E0%A6%88%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B6%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%AC%E0%A6%A4%E0%A6%AE-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%89%E0%A6%A6%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%A8/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T17:59:52.000Z</news:publication_date>
+      <news:title>বারুইপুর হাই স্কুলে পন্ডিত ঈশ্বর চন্দ্র বিদ্যাসাগর মহাশয়ের ২০৬তম জন্মজয়ন্তী উদযাপন</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%AC%E0%A6%A8-%E0%A6%97%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A7%8B/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T15:23:13.000Z</news:publication_date>
+      <news:title>বর্ষায় সুন্দরবন গিয়েছো?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF/</loc>
     <news:news>
       <news:publication>
@@ -175,6 +285,17 @@
       </news:publication>
       <news:publication_date>2026-09-26T13:31:03.000Z</news:publication_date>
       <news:title>মাটি থেকে মর্যাদার বেদীতে পুনর্বহাল: বিদ্যাসাগর জন্মজয়ন্তীতে নতুন স্থানে প্রতিষ্ঠিত বিদ্যাসাগরের আবক্ষ মূর্তি</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE-%E0%A7%A8-%E0%A6%A8%E0%A6%82-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%B0%E0%A6%AB-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A6%93-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%86%E0%A6%B0%E0%A6%A4%E0%A6%BF/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-26T13:13:50.000Z</news:publication_date>
+      <news:title>বারুইপুর পশ্চিম ২ নং মন্ডলের তরফ থেকে সেবা সংকল্প ও সন্ধ্যা আরতি</news:title>
     </news:news>
   </url>
   <url>
@@ -208,6 +329,17 @@
       </news:publication>
       <news:publication_date>2026-09-26T02:02:40.000Z</news:publication_date>
       <news:title>পণ্ডিত ঈশ্বরচন্দ্র বিদ্যাসাগরের ২০৭তম জন্মজয়ন্তী: বারুইপুর মহকুমা জুড়ে মনীষী স্মরণে শ্রদ্ধার্ঘ্য</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/class-x-%E0%A6%8F%E0%A6%B0-english-grammar-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B0%E0%A6%93-smart-exam-focused/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25T12:18:56.000Z</news:publication_date>
+      <news:title>Class X-এর English Grammar প্রস্তুতি এবার আরও Smart &amp; Exam-Focused!</news:title>
     </news:news>
   </url>
   <url>
@@ -288,6 +420,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://baruipur.online/%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AB%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8B%E0%A6%B2%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%A5%E0%A7%87-cjp/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T20:44:45.000Z</news:publication_date>
+      <news:title>জ্ঞানেশ কুমারের ইস্তফা নিয়ে আন্দোলনের পথে CJP?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%B2%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%82-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%B2-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF/</loc>
     <news:news>
       <news:publication>
@@ -307,6 +450,17 @@
       </news:publication>
       <news:publication_date>2026-09-24T08:48:43.000Z</news:publication_date>
       <news:title>বারুইপুর জংশন ১ নম্বর প্ল্যাটফর্ম সংলগ্ন ঐতিহ্যবাহী শিব-দুর্গা মন্দির: শতাব্দীপ্রাচীন ভক্তিসাধনা ও পুজো</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/for-promotions-do-contact-us-8013585309/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-24T08:05:03.000Z</news:publication_date>
+      <news:title>For Promotion&apos;s do Contact us : 8013585309</news:title>
     </news:news>
   </url>
   <url>
