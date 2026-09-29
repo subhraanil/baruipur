@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { ChevronRight, TrainTrack, Bus, Navigation, MapPin } from 'lucide-react';
 import TrainTimetableClient from './TrainTimetableClient';
 import trainData from '../../data/train_timetable.json';
+import AdSenseSlot from '@/components/AdSenseSlot';
 
 export const metadata: Metadata = {
   title: 'বারুইপুর ট্রেন টাইম টেবিল ও পরিবহন গাইড: শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা লোকাল ট্রেন সময়সূচি | Baruipur Online',
@@ -83,6 +84,9 @@ export default function TransportPage() {
         </p>
       </div>
 
+      {/* Top Leaderboard Ad Space */}
+      <AdSenseSlot format="leaderboard" className="mb-8" />
+
       <div className="space-y-12">
         {/* Section 1: Interactive Train Timetable */}
         <section>
@@ -102,6 +106,9 @@ export default function TransportPage() {
             updatedAt={trainData.updatedAt} 
           />
         </section>
+
+        {/* Mid-Page Banner Ad Space */}
+        <AdSenseSlot format="responsive" className="my-8" />
 
         {/* Section 2: Bus Routes */}
         <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">

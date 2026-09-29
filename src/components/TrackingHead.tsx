@@ -8,8 +8,14 @@ import Script from 'next/script';
 export default function TrackingHead() {
   return (
     <>
-      {/* Google AdSense Account Verification */}
+      {/* Google AdSense Account Verification & Script */}
       <meta name="google-adsense-account" content="ca-pub-4871015401102715" />
+      <Script
+        async
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4871015401102715"
+        crossOrigin="anonymous"
+      />
 
       {/* Google tag (gtag.js) */}
       <Script

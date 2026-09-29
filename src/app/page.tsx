@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import NewsCard from '@/components/NewsCard';
 import FeaturedNewsSlider from '@/components/FeaturedNewsSlider';
 import BaruipurUtilities from '@/components/BaruipurUtilities';
+import AdSenseSlot from '@/components/AdSenseSlot';
 import { 
   Sparkles, 
   TrendingUp, 
@@ -121,6 +122,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Top Leaderboard Ad Space */}
+      <AdSenseSlot format="leaderboard" className="mb-8" />
+
       {/* Main Grid: News + Sidebar */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Left Column: News Content (8 cols) */}
@@ -160,6 +164,9 @@ export default function HomePage() {
               </div>
             </section>
           )}
+
+          {/* In-Feed Native Ad Space */}
+          <AdSenseSlot format="in-feed" className="my-6" />
 
           {/* Latest news list */}
           <section>
@@ -382,6 +389,9 @@ export default function HomePage() {
 
         {/* Right Column: Sidebar (4 cols) */}
         <aside className="lg:col-span-4 space-y-6">
+          {/* Sidebar Top Ad Space */}
+          <AdSenseSlot format="sidebar" className="my-0" />
+
           <BaruipurUtilities 
             recentPosts={newsArticles.slice(4, 11)} 
             showCategories={true}
@@ -391,6 +401,9 @@ export default function HomePage() {
           />
         </aside>
       </div>
+
+      {/* Bottom Leaderboard Ad Space */}
+      <AdSenseSlot format="leaderboard" className="mt-10" />
     </div>
   );
 }

@@ -30,6 +30,7 @@ import {
   Star
 } from 'lucide-react';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
+import AdSenseSlot from '@/components/AdSenseSlot';
 
 interface PlacePageProps {
   params: {
@@ -230,6 +231,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
         </div>
       </div>
 
+      {/* Top Leaderboard Ad Space */}
+      <AdSenseSlot format="leaderboard" className="mb-8" />
+
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Main Content (8 cols) */}
         <div className="lg:col-span-8 space-y-8">
@@ -262,6 +266,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               <MarkdownRenderer content={place.overview} />
             </div>
           </section>
+
+          {/* In-Content Mid Ad Space */}
+          <AdSenseSlot format="in-article" className="my-6" />
 
           {/* In-Depth Guide Content */}
           {place.content && (
@@ -602,6 +609,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
 
         {/* Sidebar (4 cols) */}
         <aside className="lg:col-span-4 space-y-6">
+          {/* Sidebar Top Ad Space */}
+          <AdSenseSlot format="sidebar" className="my-0" />
+
           {/* Quick Contact Card */}
           <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
             <h3 className="text-base font-black text-slate-900 border-b border-slate-150 pb-3 mb-4">

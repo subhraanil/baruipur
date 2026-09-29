@@ -19,6 +19,7 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
+import AdSenseSlot from '@/components/AdSenseSlot';
 
 interface PostPageProps {
   params: {
@@ -243,6 +244,9 @@ export default function PostSlugPage({ params }: PostPageProps) {
         <span className="text-slate-800 font-bold truncate max-w-xs">{article.title}</span>
       </nav>
 
+      {/* Top Leaderboard Ad Space */}
+      <AdSenseSlot format="leaderboard" className="mb-6" />
+
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Main Article Body (8 cols) */}
         <article className="lg:col-span-8 bg-white rounded-2xl border border-slate-200 p-5 sm:p-8 shadow-sm">
@@ -391,10 +395,16 @@ export default function PostSlugPage({ params }: PostPageProps) {
             </div>
           </div>
 
+          {/* In-Article Mid Content Ad Space */}
+          <AdSenseSlot format="in-article" className="my-6" />
+
           {/* Full Article Content with Markdown Rendering */}
           <div className="max-w-none text-slate-700 text-base leading-relaxed font-normal">
             <MarkdownRenderer content={article.content} />
           </div>
+
+          {/* In-Article Bottom Ad Space */}
+          <AdSenseSlot format="responsive" className="my-8" />
 
           {/* Multi-Image Photo Stream & Gallery */}
           {article.images && article.images.length > 1 && (
@@ -471,6 +481,9 @@ export default function PostSlugPage({ params }: PostPageProps) {
 
         {/* Right Sidebar (4 cols) */}
         <aside className="lg:col-span-4 space-y-6">
+          {/* Sidebar Top Ad Space */}
+          <AdSenseSlot format="sidebar" className="my-0" />
+
           {/* Related News */}
           {relatedArticles.length > 0 && (
             <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">

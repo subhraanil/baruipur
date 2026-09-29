@@ -5,6 +5,7 @@ import { db } from '@/lib/db';
 import { CATEGORIES } from '@/lib/constants';
 import NewsCard from '@/components/NewsCard';
 import BaruipurUtilities from '@/components/BaruipurUtilities';
+import AdSenseSlot from '@/components/AdSenseSlot';
 import { ChevronRight, Newspaper, ArrowLeft } from 'lucide-react';
 
 interface CategoryPageProps {
@@ -170,6 +171,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         </span>
       </div>
 
+      {/* Top Leaderboard Ad Space */}
+      <AdSenseSlot format="leaderboard" className="mb-8" />
+
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Main Article Stream (8 cols) */}
         <div className="lg:col-span-8 space-y-6">
@@ -186,8 +190,14 @@ export default function CategoryPage({ params }: CategoryPageProps) {
             </div>
           ) : (
             <div className="space-y-4">
-              {articles.map(art => (
-                <NewsCard key={art.id} article={art} variant="horizontal" />
+              {articles.map((art, index) => (
+                <React.Fragment key={art.id}>
+                  <NewsCard article={art} variant="horizontal" />
+                  {/* Insert In-Feed Ad after 3rd article */}
+                  {index === 2 && (
+                    <AdSenseSlot format="in-feed" className="my-6" />
+                  )}
+                </React.Fragment>
               ))}
             </div>
           )}
@@ -205,6 +215,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
         {/* Sidebar (4 cols) */}
         <aside className="lg:col-span-4 space-y-6">
+          {/* Sidebar Top Ad Space */}
+          <AdSenseSlot format="sidebar" className="my-0" />
+
           <BaruipurUtilities 
             recentPosts={sidebarArticles} 
             showCategories={true}
