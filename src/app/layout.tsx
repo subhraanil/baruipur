@@ -54,7 +54,8 @@ export const metadata: Metadata = {
     'geo.placename': 'Baruipur',
     'geo.position': '22.3654;88.4325',
     'ICBM': '22.3654, 88.4325',
-    'news_keywords': 'Baruipur, Baruipur news, Baruipur update, বারুইপুর, বারুইপুর খবর, দক্ষিণ ২৪ পরগনা'
+    'news_keywords': 'Baruipur, Baruipur news, Baruipur update, বারুইপুর, বারুইপুর খবর, দক্ষিণ ২৪ পরগনা',
+    'google-adsense-account': 'ca-pub-4871015401102715'
   }
 };
 

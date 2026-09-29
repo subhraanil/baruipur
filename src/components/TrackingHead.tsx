@@ -8,6 +8,9 @@ import Script from 'next/script';
 export default function TrackingHead() {
   return (
     <>
+      {/* Google AdSense Account Verification */}
+      <meta name="google-adsense-account" content="ca-pub-4871015401102715" />
+
       {/* Google tag (gtag.js) */}
       <Script
         strategy="afterInteractive"
