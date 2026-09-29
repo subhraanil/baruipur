@@ -257,9 +257,11 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               <Landmark className="w-5 h-5 text-red-600" />
               স্থানের সংক্ষিপ্ত পরিচয় ও গুরুত্ব
             </h2>
-            <p className="text-base text-slate-700 leading-relaxed text-justify">
-              {place.overview}
-            </p>
+            <div className="text-base text-slate-700 leading-relaxed text-justify space-y-4">
+              {place.overview.split('\n\n').map((paragraph, idx) => (
+                <p key={idx}>{paragraph}</p>
+              ))}
+            </div>
           </section>
 
           {/* Photo Gallery Section */}
@@ -404,9 +406,11 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                 <Clock className="w-5 h-5 text-red-600" />
                 ঐতিহাসিক প্রেক্ষাপট ও বিকাশ
               </h2>
-              <p className="text-base text-slate-700 leading-relaxed text-justify">
-                {place.history}
-              </p>
+              <div className="text-base text-slate-700 leading-relaxed text-justify space-y-4">
+                {place.history.split('\n\n').map((paragraph, idx) => (
+                  <p key={idx}>{paragraph}</p>
+                ))}
+              </div>
             </section>
           )}
 
@@ -515,7 +519,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 text-xs text-blue-950 flex items-center gap-3">
               <MapPin className="w-5 h-5 text-blue-600 shrink-0" />
               <span>
-                <strong>ঠিকানা:</strong> {place.address} (পিন কোড: ৭৪৩৩০২)
+                <strong>ঠিকানা:</strong> {place.address}
               </span>
             </div>
           </section>
@@ -538,6 +542,42 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                       <span className="text-emerald-700 font-bold mr-1">উ:</span>
                       {faq.answer}
                     </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Verified Editorial References & Sources */}
+          {place.references && place.references.length > 0 && (
+            <section className="bg-slate-50/90 rounded-2xl border border-slate-200 p-6 shadow-sm">
+              <h2 className="text-base font-black text-slate-900 border-b border-slate-200 pb-3 mb-4 flex items-center gap-2">
+                <Globe className="w-4 h-4 text-blue-600" />
+                তথ্যসূত্র ও সহায়ক সূত্র (References & Sources)
+              </h2>
+              <div className="space-y-3 text-xs text-slate-700">
+                {place.references.map((ref, idx) => (
+                  <div key={idx} className="flex items-start gap-2.5">
+                    <span className="text-slate-400 font-bold shrink-0 mt-0.5">[{idx + 1}]</span>
+                    <div className="space-y-0.5">
+                      {ref.url ? (
+                        <a 
+                          href={ref.url} 
+                          target="_blank" 
+                          rel="noreferrer" 
+                          className="text-blue-700 hover:text-blue-900 font-semibold hover:underline inline-flex items-center gap-1 leading-snug"
+                        >
+                          <span>{ref.title}</span>
+                          <ExternalLink className="w-3 h-3 text-slate-400 shrink-0" />
+                        </a>
+                      ) : (
+                        <span className="font-semibold text-slate-800 leading-snug">{ref.title}</span>
+                      )}
+                      <div className="text-[11px] text-slate-500 flex flex-wrap items-center gap-x-2">
+                        {ref.source && <span>সূত্র: {ref.source}</span>}
+                        {ref.date && <span>• প্রকাশকাল: {ref.date}</span>}
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>

@@ -15,6 +15,13 @@ export interface PlacePhoto {
   captionEn?: string;
 }
 
+export interface PlaceReference {
+  title: string;
+  source: string;
+  url?: string;
+  date?: string;
+}
+
 export interface PlaceItem {
   slug: string;
   nameBn: string;
@@ -48,6 +55,7 @@ export interface PlaceItem {
   bestTimeToVisit?: string;
   highlights?: string[];
   faqs: Array<{ question: string; answer: string }>;
+  references?: PlaceReference[];
 }
 
 export const getAllPlaces = (): PlaceItem[] => {
