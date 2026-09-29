@@ -1,0 +1,4 @@
+<Files "contact_submissions.jsonl">
+    Order Allow,Deny
+    Deny from all
+</Files>

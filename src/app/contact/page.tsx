@@ -1,10 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ChevronRight, Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2 } from 'lucide-react';
+import { ChevronRight, Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, Loader2, AlertCircle } from 'lucide-react';
 
 export default function ContactPage() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -13,10 +15,73 @@ export default function ContactPage() {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    const recipients = [
+      'subhranil.naskar@gmail.com',
+      'subhraanilnaskar@gmail.com',
+      'editor@baruipur.online'
+    ];
+
+    try {
+      // 1. Primary delivery via server-side PHP endpoint on cPanel
+      const res = await fetch('/api/contact.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (res.ok) {
+        const data = await res.json().catch(() => ({ success: true }));
+        if (data.success !== false) {
+          setSubmitted(true);
+          return;
+        }
+      }
+
+      // 2. Secondary fallback via FormSubmit if server PHP returns error or not found (e.g. dev mode)
+      const fallbackRes = await fetch('https://formsubmit.co/ajax/subhranil.naskar@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          ...formData,
+          _cc: 'subhraanilnaskar@gmail.com,editor@baruipur.online',
+          _subject: `[Baruipur Online] নতুন বার্তা: ${formData.subject} - ${formData.name}`,
+          _template: 'table',
+          _captcha: 'false'
+        })
+      });
+
+      if (fallbackRes.ok) {
+        setSubmitted(true);
+        return;
+      }
+
+      throw new Error('সার্ভার থেকে সঠিক প্রত্যুত্তর পাওয়া যায়নি।');
+    } catch (err: any) {
+      console.error('Contact submission error:', err);
+      setErrorMessage(
+        'বার্তা সরাসরি পাঠাতে সাময়িক সমস্যা হয়েছে। অনুগ্রহ করে সরাসরি আমাদের ইমেলে পাঠান অথবা নিচের বোতামে ক্লিক করুন।'
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
+  const mailtoLink = `mailto:subhranil.naskar@gmail.com,subhraanilnaskar@gmail.com,editor@baruipur.online?subject=${encodeURIComponent(
+    `[Baruipur Online] ${formData.subject || 'নতুন অনুসন্ধান'} - ${formData.name || 'বার্তা'}`
+  )}&body=${encodeURIComponent(
+    `নাম: ${formData.name}\nফোন: ${formData.phone}\nইমেল: ${formData.email}\nবিষয়: ${formData.subject}\n\nবার্তা:\n${formData.message}`
+  )}`;
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
@@ -58,12 +123,21 @@ export default function ContactPage() {
               <Mail className="w-5 h-5" />
               <h3 className="font-bold text-slate-900 text-sm">ইমেল যোগাযোগ</h3>
             </div>
-            <p className="text-xs text-slate-600">
-              খবর ও তথ্যের জন্য:<br />
-              <a href="mailto:editor@baruipur.online" className="text-red-600 font-semibold hover:underline">
+            <div className="text-xs text-slate-600 space-y-1.5">
+              <p>খবর, প্রেস বিজ্ঞপ্তি ও বিজ্ঞাপনের জন্য:</p>
+              <a href="mailto:editor@baruipur.online" className="text-red-600 font-semibold hover:underline block break-all">
                 editor@baruipur.online
               </a>
-            </p>
+              <div className="pt-2 border-t border-slate-100 text-[11px] text-slate-500 space-y-1">
+                <p className="font-medium text-slate-700">বিকল্প ইমেল:</p>
+                <a href="mailto:subhranil.naskar@gmail.com" className="hover:text-red-600 block break-all">
+                  subhranil.naskar@gmail.com
+                </a>
+                <a href="mailto:subhraanilnaskar@gmail.com" className="hover:text-red-600 block break-all">
+                  subhraanilnaskar@gmail.com
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
@@ -89,12 +163,43 @@ export default function ContactPage() {
             <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6 text-center text-emerald-800">
               <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto mb-3" />
               <h3 className="text-lg font-bold mb-1">আপনার বার্তা সফলভাবে গৃহীত হয়েছে!</h3>
-              <p className="text-xs text-emerald-700">
-                আমাদের সম্পাদকীয় টিম শীঘ্রই আপনার সাথে যোগাযোগ করবে। ধন্যবাদ।
+              <p className="text-xs text-emerald-700 mb-4 leading-relaxed">
+                আপনার বার্তাটি আমাদের সম্পাদকীয় দপ্তরের ইমেলে পৌঁছে গেছে। আমাদের টিম খুব শীঘ্রই আপনার সাথে যোগাযোগ করবে।
               </p>
+              <button
+                type="button"
+                onClick={() => {
+                  setSubmitted(false);
+                  setFormData({
+                    name: '',
+                    phone: '',
+                    email: '',
+                    subject: 'সাধারণ তথ্য বা অনুসন্ধান',
+                    message: ''
+                  });
+                }}
+                className="text-xs font-bold text-emerald-700 bg-emerald-100 hover:bg-emerald-200 px-4 py-2 rounded-lg transition"
+              >
+                আরেকটি বার্তা পাঠান
+              </button>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4 text-xs">
+              {errorMessage && (
+                <div className="bg-red-50 border border-red-200 rounded-xl p-4 text-red-700 flex flex-col gap-2">
+                  <div className="flex items-start gap-2">
+                    <AlertCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" />
+                    <span>{errorMessage}</span>
+                  </div>
+                  <a
+                    href={mailtoLink}
+                    className="self-start text-xs font-bold text-white bg-red-600 hover:bg-red-700 px-3 py-1.5 rounded-lg transition"
+                  >
+                    সরাসরি ইমেল খুলুন →
+                  </a>
+                </div>
+              )}
+
               <div>
                 <label className="block text-slate-700 font-semibold mb-1">আপনার নাম *</label>
                 <input
@@ -103,7 +208,8 @@ export default function ContactPage() {
                   placeholder="যেমন: রাহুল সরকার"
                   value={formData.name}
                   onChange={e => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  disabled={isSubmitting}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-60"
                 />
               </div>
 
@@ -116,7 +222,8 @@ export default function ContactPage() {
                     placeholder="১০ সংখ্যার মোবাইল নম্বর"
                     value={formData.phone}
                     onChange={e => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    disabled={isSubmitting}
+                    className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-60"
                   />
                 </div>
                 <div>
@@ -126,7 +233,8 @@ export default function ContactPage() {
                     placeholder="name@example.com"
                     value={formData.email}
                     onChange={e => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500"
+                    disabled={isSubmitting}
+                    className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-60"
                   />
                 </div>
               </div>
@@ -136,7 +244,8 @@ export default function ContactPage() {
                 <select
                   value={formData.subject}
                   onChange={e => setFormData({ ...formData, subject: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  disabled={isSubmitting}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-60"
                 >
                   <option>সাধারণ তথ্য বা অনুসন্ধান</option>
                   <option>তথ্য সংশোধন বা অভিযোগ</option>
@@ -154,16 +263,27 @@ export default function ContactPage() {
                   placeholder="বিস্তারিত বার্তা এখানে লিখুন..."
                   value={formData.message}
                   onChange={e => setFormData({ ...formData, message: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500"
+                  disabled={isSubmitting}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-red-500 disabled:opacity-60"
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 shadow transition"
+                disabled={isSubmitting}
+                className="w-full bg-red-600 hover:bg-red-700 disabled:bg-red-400 text-white font-bold py-3 rounded-lg flex items-center justify-center gap-2 shadow transition"
               >
-                <Send className="w-4 h-4" />
-                বার্তা পাঠান
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    বার্তা পাঠানো হচ্ছে...
+                  </>
+                ) : (
+                  <>
+                    <Send className="w-4 h-4" />
+                    বার্তা পাঠান
+                  </>
+                )}
               </button>
             </form>
           )}
