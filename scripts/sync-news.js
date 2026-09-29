@@ -50,7 +50,20 @@ function isJunkOrCommentOrPromo(text) {
   }
 
   // Social media conversation prompts, quiz questions & questionnaires
-  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন)/i.test(lower)) return true;
+  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন|গিয়েছো\?|গেছ\?|গেছো\?|তোমার\s*বাড়ি\s*.*?কোথায়|বেস্ট\s*চিকেন\s*রোল|কোথায়\s*পাওয়া\s*যায়\?|সবাই\s*["']?জয়\s*মা\s*কালী["']?\s*বলো|road\s*to\s*heaven|bday\s*celebration)/i.test(lower)) return true;
+
+  // SMS instructions or link-only clickbait
+  if (/(?:ecispace|epic\s*number\s*in\s*capital|এই\s*লিঙ্কেঃ\s*$|এই\s*লিঙ্কে\s*$)/i.test(lower)) return true;
+
+  // Astrology, Horoscope, Occult, Palmistry, Tantrik & Commercial Predictions
+  if (/(?:astrolog|horoscope|zodiac|tarot|palmistry|prediction|জ্যোতিষ|রাশিফল|কোষ্ঠী|হস্তরেখা|বশীকরণ|তান্ত্রিক|তাবিজ|কবচ|বাস্তু\s*দোষ|রত্ন\s*পাথর|ভাগ্য\s*গণনা|জ্যোতির্বিদ)/i.test(lower)) {
+    return true;
+  }
+
+  // Commercial promotion ads / agency solicitation / baking & goods sales
+  if (/(?:for\s*promotions?\s*do\s*contact|contact\s*us\s*for\s*(?:ads|promotions?)|বিজ্ঞাপন\s*দিতে\s*যোগাযোগ|বিজ্ঞাপন\s*বা\s*প্রচারের\s*জন্য|baking\s*materials|admission\s*now|admission\s*going\s*on)/i.test(lower)) {
+    return true;
+  }
 
   // Conversational train surveys
   if (/তোমরা\s*কারা\s*এই\s*ট্রেন/i.test(lower)) return true;
