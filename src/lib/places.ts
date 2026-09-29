@@ -26,6 +26,8 @@ export interface PlaceItem {
   slug: string;
   nameBn: string;
   nameEn: string;
+  metaTitle?: string;
+  metaDescription?: string;
   taglineBn: string;
   category: string;
   schemaType: string;
@@ -54,6 +56,7 @@ export interface PlaceItem {
   entryFee?: string;
   bestTimeToVisit?: string;
   highlights?: string[];
+  content?: string;
   faqs: Array<{ question: string; answer: string }>;
   references?: PlaceReference[];
 }

@@ -29,6 +29,7 @@ import {
   Calendar,
   Star
 } from 'lucide-react';
+import MarkdownRenderer from '@/components/MarkdownRenderer';
 
 interface PlacePageProps {
   params: {
@@ -53,8 +54,8 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
   }
 
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
-  const title = `${place.nameBn} (${place.nameEn}) - বারুইপুর Baruipur`;
-  const description = `${place.overview.slice(0, 160)}...`;
+  const title = place.metaTitle || `${place.nameBn} (${place.nameEn}) - বারুইপুর Baruipur`;
+  const description = place.metaDescription || `${place.overview.slice(0, 160)}...`;
   const image = place.coverImage || place.images?.[0]?.url || 'https://baruipur.online/images/baruipur-logo.png';
 
   return {
@@ -257,12 +258,17 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               <Landmark className="w-5 h-5 text-red-600" />
               স্থানের সংক্ষিপ্ত পরিচয় ও গুরুত্ব
             </h2>
-            <div className="text-base text-slate-700 leading-relaxed text-justify space-y-4">
-              {place.overview.split('\n\n').map((paragraph, idx) => (
-                <p key={idx}>{paragraph}</p>
-              ))}
+            <div className="text-base text-slate-700 leading-relaxed">
+              <MarkdownRenderer content={place.overview} />
             </div>
           </section>
+
+          {/* In-Depth Guide Content */}
+          {place.content && (
+            <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+              <MarkdownRenderer content={place.content} />
+            </section>
+          )}
 
           {/* Photo Gallery Section */}
           {place.images && place.images.length > 0 && (
@@ -406,10 +412,8 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                 <Clock className="w-5 h-5 text-red-600" />
                 ঐতিহাসিক প্রেক্ষাপট ও বিকাশ
               </h2>
-              <div className="text-base text-slate-700 leading-relaxed text-justify space-y-4">
-                {place.history.split('\n\n').map((paragraph, idx) => (
-                  <p key={idx}>{paragraph}</p>
-                ))}
+              <div className="text-base text-slate-700 leading-relaxed">
+                <MarkdownRenderer content={place.history} />
               </div>
             </section>
           )}
