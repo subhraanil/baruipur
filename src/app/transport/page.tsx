@@ -1,28 +1,58 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { ChevronRight, TrainTrack, Bus, Navigation } from 'lucide-react';
+import { ChevronRight, TrainTrack, Bus, Navigation, MapPin } from 'lucide-react';
+import TrainTimetableClient from './TrainTimetableClient';
+import trainData from '../../data/train_timetable.json';
 
 export const metadata: Metadata = {
-  title: 'বারুইপুর পরিবহন গাইড: লোকাল ট্রেন, বাস রুট ও বাইপাস নির্দেশিকা | Baruipur Online',
-  description: 'শিয়ালদহ দক্ষিণ রেলওয়ে বারুইপুর জংশন লোকাল ট্রেনের সময়সূচি ও রুট (ক্যানিং, ডায়মন্ড হারবার, নামখানা), কলকাতা-বারুইপুর বাস নেটওয়ার্ক এবং ৪-লেনের বাইপাস নির্দেশিকা।',
+  title: 'বারুইপুর ট্রেন টাইম টেবিল ও পরিবহন গাইড: শিয়ালদহ ও ডায়মন্ড হারবার লোকাল ট্রেনের সময়সূচি | Baruipur Online',
+  description: 'বারুইপুর জংশন থেকে শিয়ালদহ ও ডায়মন্ড হারবার লোকাল ট্রেনের সম্পূর্ণ সময়সূচি (Baruipur to Sealdah, Diamond Harbour to Baruipur train timetable), বাস রুট, অটো-টোটো ও বাইপাস নির্দেশিকা।',
+  keywords: [
+    'baruipur to sealdah train time table',
+    'baruipur to diamond harbour train time table',
+    'diamond harbour to baruipur train timetable',
+    'sealdah to baruipur train time',
+    'বারুইপুর ট্রেন টাইম টেবিল',
+    'বারুইপুর থেকে শিয়ালদহ ট্রেন সময়সূচি',
+    'বারুইপুর থেকে ডায়মন্ড হারবার ট্রেন'
+  ],
   alternates: {
     canonical: 'https://baruipur.online/transport/',
   }
 };
 
 export default function TransportPage() {
-  const trainRoutes = [
-    { destination: 'শিয়ালদহ (Sealdah)', frequency: 'প্রতি ১০-১৫ মিনিট অন্তর', duration: '৪৫-৫৫ মিনিট', firstTrain: '০৩:৫০ ভোর', lastTrain: '২৩:৩৫ রাত' },
-    { destination: 'ডায়মন্ড হারবার (Diamond Harbour)', frequency: 'প্রতি ২০-৩০ মিনিট অন্তর', duration: '৫০-৬০ মিনিট', firstTrain: '০৪:১৫ ভোর', lastTrain: '২৩:১০ রাত' },
-    { destination: 'ক্যানিং (Canning - Sundarbans)', frequency: 'প্রতি ২৫-৩৫ মিনিট অন্তর', duration: '৪০-৫০ মিনিট', firstTrain: '০৪:০০ ভোর', lastTrain: '২২:৪৫ রাত' },
-    { destination: 'লক্ষ্মীকান্তপুর ও নামখানা (Namkhana)', frequency: 'প্রতি ৩০-৪০ মিনিট অন্তর', duration: '১ ঘণ্টা ২৫ মিনিট', firstTrain: '০৪:৩০ ভোর', lastTrain: '২২:১৫ রাত' }
-  ];
-
   const busRoutes = [
-    { route: 'গড়িয়া - বারুইপুর (Baruipur Bypass)', type: 'সরকারি ও মিনিবাস', frequency: 'প্রতি ৫-১০ মিনিট', stops: 'গড়িয়া মোড়, রাজপুর, হরিনাভি, সুভাষগ্রাম, পদ্মপুকুর, বারুইপুর স্টেশন' },
-    { route: 'হাওড়া / ধর্মতলা - বারুইপুর (SD/C Series)', type: 'WBTC ও প্রাইভেট বাস', frequency: 'প্রতি ১৫-২০ মিনিট', stops: 'ধর্মতলা, এক্সাইড, গড়িয়াহাট, যাদবপুর, গড়িয়া, বারুইপুর কাছারি' },
-    { route: 'বারুইপুর - আমতলা (Amtala Connector)', type: 'রুট বাস ও অটো', frequency: 'প্রতি ১৫ মিনিট', stops: 'বারুইপুর পুরাতন বাজার, পোলঘাট, আমতলা ক্রসিং' },
-    { route: 'বারুইপুর - জয়নগর ও মন্দিরবাজার', type: 'বাস ও ট্রেকার', frequency: 'প্রতি ২০ মিনিট', stops: 'কুলপি রোড ধরে পদ্মপুকুর, দক্ষিণ বারুইপুর, জয়নগর বাজার' }
+    { 
+      route: 'গড়িয়া - বারুইপুর (Baruipur Bypass)', 
+      type: 'সরকারি ও মিনিবাস', 
+      frequency: 'প্রতি ৫-১০ মিনিট', 
+      stops: 'গড়িয়া মোড়, কামালগাজী, রাজপুর, হরিনাভি, সুভাষগ্রাম, পদ্মপুকুর, বারুইপুর স্টেশন' 
+    },
+    { 
+      route: 'হাওড়া / ধর্মতলা - বারুইপুর (SD/C Series)', 
+      type: 'WBTC ও প্রাইভেট বাস', 
+      frequency: 'প্রতি ১৫-২০ মিনিট', 
+      stops: 'ধর্মতলা, এক্সাইড, গড়িয়াহাট, যাদবপুর, গড়িয়া, বারুইপুর কাছারি' 
+    },
+    { 
+      route: 'বারুইপুর - আমতলা (Amtala Connector)', 
+      type: 'রুট বাস ও অটো', 
+      frequency: 'প্রতি ১৫ মিনিট', 
+      stops: 'বারুইপুর পুরাতন বাজার, শাসন, পোলঘাট, আমতলা ক্রসিং' 
+    },
+    { 
+      route: 'বারুইপুর - জয়নগর ও মন্দিরবাজার', 
+      type: 'বাস ও ট্রেকার', 
+      frequency: 'প্রতি ২০ মিনিট', 
+      stops: 'কুলপি রোড ধরে পদ্মপুকুর, দক্ষিণ বারুইপুর, বহরু, জয়নগর বাজার' 
+    },
+    { 
+      route: 'বারুইপুর - ক্যানিং ও বাসন্তী (Sundarbans Gateway)', 
+      type: 'বাস ও অটো সংযোগ', 
+      frequency: 'প্রতি ২০-৩০ মিনিট', 
+      stops: 'বারুইপুর স্টেশন, চম্পাহাটি, ঘটকপুকুর রোড ক্রসিং, ক্যানিং বাস স্ট্যান্ড' 
+    }
   ];
 
   return (
@@ -30,64 +60,44 @@ export default function TransportPage() {
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
         <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>
         <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-        <span className="text-slate-800 font-bold">পরিবহন ও যাতায়াত</span>
+        <span className="text-slate-800 font-bold">পরিবহন ও ট্রেন সময়সূচি</span>
       </nav>
 
+      {/* Hero Header */}
       <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-10 mb-10 shadow-lg border border-slate-800">
-        <div className="inline-flex items-center gap-2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
+        <div className="inline-flex items-center gap-2 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
           <TrainTrack className="w-3.5 h-3.5" />
-          যাতায়াত ও গণপরিবহন হাব
+          নিত্যযাত্রী ও পরিবহন নির্দেশিকা
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-4">
-          বারুইপুর পরিবহন ও ট্রেন নির্দেশিকা
+          বারুইপুর পরিবহন ও সম্পূর্ণ ট্রেন সময়সূচি
         </h1>
         <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl">
-          শিয়ালদহ দক্ষিণ রেলওয়ে জংশন, ৪-লেনের আধুনিক বাইপাস এবং কলকাতা-দক্ষিণ ২৪ পরগনার প্রধান বাস ও অটো রুটের পূর্ণাঙ্গ সময়সূচি ও গাইড।
+          বারুইপুর জংশন থেকে শিয়ালদহ ও ডায়মন্ড হারবার লাইনের সমস্ত আপ ও ডাউন ট্রেনের সঠিক সময়সূচি, ৪-লেন বাইপাস ও কলকাতা-দক্ষিণ ২৪ পরগনার প্রধান বাস রুট নির্দেশিকা।
         </p>
       </div>
 
-      <div className="space-y-10">
-        <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="p-3 rounded-xl bg-blue-50 text-blue-600">
-              <TrainTrack className="w-7 h-7" />
-            </div>
+      <div className="space-y-12">
+        {/* Section 1: Interactive Train Timetable */}
+        <section>
+          <div className="flex items-center justify-between mb-4">
             <div>
-              <h2 className="text-2xl font-bold text-slate-900">বারুইপুর জংশন রেলওয়ে (শিয়ালদহ দক্ষিণ শাখা)</h2>
-              <p className="text-xs sm:text-sm text-slate-500">৪টি প্ল্যাটফর্ম | প্রতিদিন আড়াই লক্ষাধিক নিত্যযাত্রী</p>
+              <h2 className="text-2xl font-black text-slate-900">
+                লোকাল ট্রেনের সময়সূচি (Train Time Table)
+              </h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                বারুইপুর ⇄ ডায়মন্ড হারবার ও বারুইপুর ⇄ শিয়ালদহ রুটের পূর্ণাঙ্গ তালিকা
+              </p>
             </div>
           </div>
 
-          <div className="overflow-x-auto mb-6">
-            <table className="w-full text-left text-xs border border-slate-200 rounded-xl overflow-hidden">
-              <thead className="bg-slate-100 text-slate-800 font-bold">
-                <tr>
-                  <th className="p-3 border-b">গন্তব্য ও লাইন</th>
-                  <th className="p-3 border-b">ফ্রিকোয়েন্সি</th>
-                  <th className="p-3 border-b">সময়কাল</th>
-                  <th className="p-3 border-b">প্রথম ট্রেন</th>
-                  <th className="p-3 border-b">শেষ ট্রেন</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-100">
-                {trainRoutes.map((r, i) => (
-                  <tr key={i} className="hover:bg-slate-50">
-                    <td className="p-3 font-bold text-slate-900">{r.destination}</td>
-                    <td className="p-3 text-slate-600">{r.frequency}</td>
-                    <td className="p-3 text-slate-600">{r.duration}</td>
-                    <td className="p-3 font-semibold text-emerald-700">{r.firstTrain}</td>
-                    <td className="p-3 font-semibold text-rose-700">{r.lastTrain}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <div className="bg-blue-50/50 p-4 rounded-xl border border-blue-100 text-xs text-blue-950">
-            <strong>যাত্রী সহায়িকা:</strong> প্ল্যাটফর্ম ১ ও ২ দিয়ে সাধারণত শিয়ালদহগামী ও প্ল্যাটফর্ম ৩ ও ৪ দিয়ে ক্যানিং, ডায়মন্ড হারবার ও নামখানাগামী ট্রেন চলাচল করে। রেলওয়ে হেল্পলাইন নম্বর: <strong>139</strong>।
-          </div>
+          <TrainTimetableClient 
+            routes={trainData.routes as any} 
+            updatedAt={trainData.updatedAt} 
+          />
         </section>
 
+        {/* Section 2: Bus Routes */}
         <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
           <div className="flex items-center gap-3 mb-6">
             <div className="p-3 rounded-xl bg-emerald-50 text-emerald-600">
@@ -114,6 +124,7 @@ export default function TransportPage() {
           </div>
         </section>
 
+        {/* Section 3: Bypass & Local Transit */}
         <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-3 rounded-xl bg-amber-50 text-amber-600">
@@ -128,14 +139,26 @@ export default function TransportPage() {
             ইস্টার্ন মেট্রোপলিটান বাইপাসের সম্প্রসারিত অংশ হিসেবে কমলগাজী থেকে শুরু হয়ে বারুইপুর বাইপাস সরাসরি দক্ষিণ ২৪ পরগনার প্রশাসনিক সদরকে কলকাতার সাথে যুক্ত করেছে। এই প্রশস্ত ৪-লেনের রাস্তা ধরে গড়িয়া থেকে বারুইপুর পৌঁছাতে সময় লাগে মাত্র ২০ থেকে ২৫ মিনিট।
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
-            <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-              <strong>অটো স্ট্যান্ড:</strong> ১ ও ৪ নম্বর প্ল্যাটফর্ম সংলগ্ন (পদ্মপুকুর, মাদারাত, চম্পাহাটি)
+            <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+              <div className="font-bold text-slate-900 mb-1 flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-red-600" />
+                অটো স্ট্যান্ড
+              </div>
+              <p className="text-slate-600">১ ও ৪ নম্বর প্ল্যাটফর্ম সংলগ্ন (পদ্মপুকুর, মাদারাত, চম্পাহাটি, মল্লিকপুর)</p>
             </div>
-            <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-              <strong>টোটো রুট:</strong> স্টেশন থেকে রাসমাঠ, কাছারি বাজার ও হাসপাতাল
+            <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+              <div className="font-bold text-slate-900 mb-1 flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-blue-600" />
+                টোটো রুট
+              </div>
+              <p className="text-slate-600">স্টেশন থেকে রাসমাঠ, কাছারি বাজার, মহকুমা আদালত ও হাসপাতাল মোড়</p>
             </div>
-            <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
-              <strong>ট্যাক্সি ও অ্যাপ ক্যাব:</strong> বাইপাস সংলগ্ন এলাকায় ওলা, উবার ও প্রি-পেইড অটো উপলব্ধ
+            <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+              <div className="font-bold text-slate-900 mb-1 flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-emerald-600" />
+                ট্যাক্সি ও অ্যাপ ক্যাব
+              </div>
+              <p className="text-slate-600">বাইপাস সংলগ্ন এলাকায় ওলা, উবার, স্ন্যাপ-ই ও প্রি-পেইড অটো উপলব্ধ</p>
             </div>
           </div>
         </section>
