@@ -7,8 +7,14 @@ const newsData = JSON.parse(fs.readFileSync(dataFilePath, 'utf8'));
 
 console.log('Total articles initially in news_data.json:', newsData.articles.length);
 
-// 1. Purge unwanted IDs: duplicates, social banter, commercial ads, surveys
+// 1. Purge unwanted IDs: duplicates, social banter, commercial ads, surveys, unrelated geographic news
 const purgeIds = new Set([
+  'art-1790649944741-mg3y', // Commercial astrology promo
+  'art-1790626243274-t5h4', // Nepal disaster / off-topic
+  'art-1790589668369-1zst', // Incomplete one-liner
+  'art-1790589666244-05zp', // English text Bhagat Singh quote
+  'art-1790589666217-znah', // Train reel banter
+  'art-1790589666187-4is3', // Bank strike external link
   'art-1790501103286-kssr', // Quiz: Q. Kon Station kara bolte parbe?
   'art-1790501102898-qnj6', // Commercial astrology promo
   'art-1790443114592-gwpo', // Social survey: বর্ষায় সুন্দরবন গিয়েছো?
@@ -33,6 +39,103 @@ console.log('Articles after purging junk/duplicates:', newsData.articles.length)
 
 // 2. High-quality editorial stories to insert / polish
 const curatedStories = [
+  {
+    id: "art-1790649948358-gljj",
+    title: "টানা বৃষ্টিতে জলমগ্ন বারুইপুরের প্রাণকেন্দ্র: প্রধান সড়কে জল-কাদায় একাকার, চরম ভোগান্তিতে নাগরিকরা",
+    slug: "টানা-বৃষ্টিতে-জলমগ্ন-বারুইপুরের-প্রাণকেন্দ্র-রাস্তায়-চরম-ভোগান্তি",
+    summary: "শরতের টানা বৃষ্টিতে বারুইপুর শহরের প্রাণকেন্দ্রের প্রধান সড়কগুলি জলমগ্ন। সামান্য বৃষ্টিতেই পিচের রাস্তা ডুবে গিয়ে জল-কাদায় একাকার। শিক্ষার্থী ও সাধারণ পথচারীদের চরম ভোগান্তি। দ্রুত নিকাশি সংস্কারের দাবি।",
+    content: `শরতের টানা বৃষ্টিতে বারুইপুর শহরের প্রাণকেন্দ্রের প্রধান সড়কগুলি ফের একবার জলমগ্ন হয়ে পড়েছে। সামান্য বৃষ্টিপাত হলেই মূল রাস্তার পিচ জলের তলায় চলে যাচ্ছে এবং গোটা চত্বর জল-কাদায় একাকার রূপ নিচ্ছে। নিকাশি নালা দিয়ে জল না নামায় রাস্তা যেন এক একটি ছোটখাটো খালে পরিণত হয়েছে।
+
+শহরের অন্যতম ব্যস্ত এই সংযোগস্থলে প্রতিদিন হাজার হাজার পথচারী, স্কুল-কলেজের শিক্ষার্থী ও স্থানীয় ব্যবসায়ী যাতায়াত করেন। জল জমে থাকার কারণে একাধিক দোকানপাটে জল ঢুকে যাওয়ার উপক্রম হয়েছে। খানাখন্দ না দেখতে পেয়ে উল্টে যাচ্ছে রিকশা ও বাইক। উৎসবের মরশুমে শহরের প্রাণকেন্দ্রে এই তীব্র জলজট ও নোংরা জল জমে থাকা নিয়ে ক্ষোভ উগরে দিয়েছেন সাধারণ নাগরিকরা।
+
+ক্ষুব্ধ ব্যবসায়ীদের বক্তব্য, দীর্ঘদিন ধরে পুরসভার নিকাশি নালা সংস্কার না করায় এই কৃত্রিম জলজটের সৃষ্টি হয়েছে। সামনেই শারদোৎসব, তার আগে যদি দ্রুত জল নিষ্কাশনের জন্য পাম্প না চালানো হয় এবং ড্রেনের পলি পরিষ্কার না করা হয়, তবে ব্যবসা-বাণিজ্য ও উৎসবের কেনাকাটায় চরম বিপর্যয় নেমে আসবে। পুর কর্তৃপক্ষের অবিলম্বে হস্তক্ষেপ দাবি করেছেন শহরবাসী।
+
+[পৌর ও নাগরিক পরিষেবা]: বারুইপুর মহকুমা ও পুরসভা এলাকার নাগরিকদের সুবিধার জন্য বিভিন্ন ওয়ার্ডে নিকাশি, আলো ও রাস্তাঘাট সংস্কারে নিয়মিত নজরদারি রাখা হচ্ছে বলে স্থানীয় পুর প্রশাসন সূত্রে জানা গেছে।`,
+    category: "municipality",
+    categoryNameBn: "পৌরসভা ও যোগাযোগ",
+    sourceId: "src-fb-amarshohor",
+    sourceName: "Amar Shohor Baruipur",
+    sourceType: "facebook",
+    sourceUrl: "https://www.facebook.com/1806306567065449",
+    originalPostUrl: "https://www.facebook.com/1806306567065449",
+    imageUrl: "/images/crawled/0392a96570bb16eb39e8d74c825b239e.jpg",
+    images: [
+      "/images/crawled/0392a96570bb16eb39e8d74c825b239e.jpg",
+      "/images/crawled/910c2d57f8cefcaee08c1207bff1e9fa.jpg"
+    ],
+    videoUrl: "https://www.facebook.com/watch/?v=3126733520995383",
+    videoEmbedUrl: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3126733520995383&show_text=0",
+    publishedAt: "2026-09-29T02:30:56.000Z",
+    isBreaking: true,
+    isFeatured: true,
+    status: "published",
+    views: 92,
+    crawlHash: "28e08d6c700147fc1fec69ef332ca70d"
+  },
+  {
+    id: "art-1790589668628-v2r3",
+    title: "রাস্তার মাঝে পাথরের স্তূপ ও দাঁড়িয়ে জেসিবি: বারুইপুর বাইপাসে জীবনের ঝুঁকি নিয়ে যাতায়াত",
+    slug: "বারুইপুর-বাইপাসে-পাথরের-স্তূপ-ঝুঁকি-নিয়ে-চলাচল",
+    summary: "বারুইপুর বাইপাসের রাস্তার মাঝখানেই পাথরের স্তূপ ও দাঁড়িয়ে রয়েছে জেসিবি মেশিন। নেই কোনো সতর্কতামূলক আলো বা নির্দেশিকা। রাতের অন্ধকারে জীবনের ঝুঁকি নিয়ে যাতায়াত করছেন চালক ও যাত্রীরা।",
+    content: `দক্ষিণ ২৪ পরগনার অত্যন্ত ব্যস্ত ও গুরুত্বপূর্ণ সংযোগকারী বারুইপুর বাইপাসের বিপজ্জনক পরিস্থিতি নিয়ে চালক ও নিত্যযাত্রীদের মধ্যে চরম ক্ষোভ ছড়িয়েছে। বাইপাসের মূল সড়কের ওপরই বেশ কিছুদিন ধরে ফেলে রাখা হয়েছে সুবিশাল পাথরের স্তূপ, আর তার পাশেই যত্রতত্র দাঁড়িয়ে রয়েছে একটি ভারী জেসিবি (JCB) মেশিন।
+
+কোনো রকমের সতর্কতামূলক সাইনবোর্ড, ব্যারিকেড কিংবা আলোর ব্যবস্থা না থাকায় রাতের অন্ধকারে দ্রুতগামী বাইক ও চারচাকা গাড়ি প্রায়শই দুর্ঘটনার মুখে পড়ছে। একটু অসাবধান হলেই পাথরের স্তূপে ধাক্কা লেগে মারাত্মক বিপর্যয় ঘটে যেতে পারে। বিশেষত বৃষ্টিভেজা রাতে এই রাস্তায় যাতায়াত করা কার্যত মৃত্যুর মুখে ঝাঁপ দেওয়ার শামিল হয়ে উঠেছে।
+
+নিত্যযাত্রীদের অভিযোগ, ধীরগতির মেরামতের অজুহাতে গুরুত্বপূর্ণ এই বাইপাসটিকে কার্যত অবহেলার পাত্র করে রাখা হয়েছে। দিনের ব্যস্ত সময়ে তৈরি হচ্ছে তীব্র যানজট। চালক সমাজের পক্ষ থেকে দাবি জানানো হয়েছে, অবিলম্বে রাস্তা থেকে অতিরিক্ত পাথর ও নির্মাণ সামগ্রী সরিয়ে রাস্তাটি মসৃণ ও ঝুঁকিমুক্ত করতে হবে।
+
+[পৌর ও নাগরিক পরিষেবা]: বারুইপুর মহকুমা ও পুরসভা এলাকার নাগরিকদের সুবিধার জন্য বিভিন্ন ওয়ার্ডে নিকাশি, আলো ও রাস্তাঘাট সংস্কারে নিয়মিত নজরদারি রাখা হচ্ছে বলে স্থানীয় পুর প্রশাসন সূত্রে জানা গেছে।`,
+    category: "municipality",
+    categoryNameBn: "পৌরসভা ও যোগাযোগ",
+    sourceId: "src-fb-amarshohor",
+    sourceName: "Amar Shohor Baruipur",
+    sourceType: "facebook",
+    sourceUrl: "https://www.facebook.com/1805370600492379",
+    originalPostUrl: "https://www.facebook.com/1805370600492379",
+    imageUrl: "/images/crawled/2d6ae3f1bd829147a5ddaff913ef56c8.jpg",
+    images: [
+      "/images/crawled/2d6ae3f1bd829147a5ddaff913ef56c8.jpg",
+      "/images/crawled/9a36dc01941e2fb13dc4f9d825551c11.jpg",
+      "/images/crawled/95736dc86cba6ba87d772960735f758e.jpg"
+    ],
+    videoUrl: "https://www.facebook.com/watch/?v=28355250930821771",
+    videoEmbedUrl: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28355250930821771&show_text=0",
+    publishedAt: "2026-09-28T02:30:12.000Z",
+    isBreaking: false,
+    isFeatured: true,
+    status: "published",
+    views: 79,
+    crawlHash: "3a6aa042531aa9670f5e7da7142478eb"
+  },
+  {
+    id: "art-1790626243898-au96",
+    title: "বারুইপুরে রাজনৈতিক প্রতিবাদ মিছিল ও পথসভা: মহকুমা শাসকের দপ্তরের সন্নিকটে বিক্ষোভ",
+    slug: "বারুইপুরে-প্রতিবাদ-মিছিল-ও-মহকুমা-শাসক-দপ্তরে-বিক্ষোভ",
+    summary: "বিভিন্ন প্রশাসনিক দাবিতে বারুইপুর স্টেশন থেকে শুরু হয়ে মহকুমা শাসক দপ্তরের সামনে পর্যন্ত বিশাল প্রতিবাদ মিছিল। দলীয় কর্মী-সমর্থকদের অংশগ্রহণ ও কড়া পুলিশি নিরাপত্তা।",
+    content: `জাতীয় ও রাজ্য রাজনীতির বিভিন্ন ইস্যুতে বারুইপুর শহরে অনুষ্ঠিত হলো রাজনৈতিক প্রতিবাদ মিছিল ও বিক্ষোভ পথসভা। কংগ্রেস ও বিভিন্ন গণসংগঠনের যৌথ উদ্যোগে বারুইপুর রেল জংশন চত্বর থেকে এই মিছিলের সূচনা হয়। মিছিলটি কুলপি রোড ও বারুইপুর ফ্লাইওভার ধরে শহরের প্রধান প্রধান রাস্তা পরিক্রমা করে মহকুমা শাসক (SDO) অফিসের সামনে এসে শেষ হয়।
+
+মিছিলে দলীয় কর্মী ও সমর্থকরা ব্যানার, পোস্টার ও দলীয় পতাকা হাতে অংশ নেন। নেতৃবৃন্দ অভিযোগ করেন, সাধারণ মানুষের গণতান্ত্রিক অধিকার ও প্রশাসনিক স্বচ্ছতা খর্ব করা হচ্ছে। মিছিল চলাকালীন শহরের ব্যস্ত রাস্তায় যাতে কোনো বিশৃঙ্খলা বা যানজট না তৈরি হয়, তার জন্য বারুইপুর থানা ও ট্রাফিক পুলিশের পক্ষ থেকে কড়া নিরাপত্তা বলয় গড়ে তোলা হয়েছিল।
+
+[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা অভিযোগ জানাতে স্থানীয় থানা বা ডিস্ট্রিক্ট কন্ট্রোল রুমে সরাসরি যোগাযোগ করা যাবে। এলাকায় শান্তি-শৃঙ্খলা বজায় রাখতে পুলিশি টহল অব্যাহত রয়েছে।`,
+    category: "general",
+    categoryNameBn: "প্রশাসন ও জনজীবন",
+    sourceId: "src-fb-update",
+    sourceName: "Baruipur Update, Baruipur Barta",
+    sourceType: "facebook",
+    sourceUrl: "https://www.facebook.com/1720235376771957",
+    originalPostUrl: "https://www.facebook.com/1720235376771957",
+    imageUrl: "/images/crawled/bc2cb035eba70f88c4b07d542be9f79a.jpg",
+    images: [
+      "/images/crawled/bc2cb035eba70f88c4b07d542be9f79a.jpg"
+    ],
+    videoUrl: "https://www.facebook.com/watch/?v=1127828083005305",
+    videoEmbedUrl: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1127828083005305&show_text=0",
+    publishedAt: "2026-09-28T11:52:04.000Z",
+    isBreaking: false,
+    isFeatured: false,
+    status: "published",
+    views: 65,
+    crawlHash: "c01824be76fc250b73c9f2868ff169ea"
+  },
   {
     id: "art-1790579492457-zcf3",
     title: "বারুইপুরে আগ্নেয়াস্ত্র ও তাজা কার্তুজ সহ দুষ্কৃতী যুবক গ্রেফতার: বকুলতলা থানা পুলিশের বড় সাফল্য",
@@ -298,22 +401,19 @@ const curatedStories = [
 
 // Merge curated stories: update existing by id, or prepend
 const articleMap = new Map();
-// Add all existing articles to map
 newsData.articles.forEach(a => articleMap.set(a.id, a));
 
-// Insert / update curated stories
 curatedStories.forEach(story => {
   articleMap.set(story.id, story);
 });
 
-// Convert back to array and sort descending by publishedAt
+// Sort descending by publishedAt
 newsData.articles = Array.from(articleMap.values()).sort((a, b) => {
   return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
 });
 
 console.log('Final total polished articles in news_data.json:', newsData.articles.length);
 
-// Write back to news_data.json
 fs.writeFileSync(dataFilePath, JSON.stringify(newsData, null, 2), 'utf8');
 console.log('Successfully written to src/data/news_data.json');
 
