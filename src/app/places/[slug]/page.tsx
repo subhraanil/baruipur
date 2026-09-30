@@ -27,10 +27,27 @@ import {
   ExternalLink,
   Coins,
   Calendar,
-  Star
+  Star,
+  Printer
 } from 'lucide-react';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import AdSenseSlot from '@/components/AdSenseSlot';
+
+const ADMIN_FIELD_LABELS: Record<string, string> = {
+  chairpersonOffice: 'চেয়ারম্যান',
+  viceChairmanOffice: 'ভাইস চেয়ারম্যান',
+  executiveOfficer: 'নির্বাহী আধিকারিক',
+  totalWards: 'মোট ওয়ার্ড সংখ্যা',
+  category: 'পৌরসভার শ্রেণি',
+  area: 'আয়তন',
+  population: 'জনসংখ্যা (২০১১)',
+  literacy: 'সাক্ষরতার হার',
+  sexRatio: 'লিঙ্গানুপাত',
+  subdivision: 'মহকুমা',
+  district: 'জেলা',
+  pincode: 'পিন কোড',
+  policeJurisdiction: 'থানা / পুলিশ এলাকা',
+};
 
 interface PlacePageProps {
   params: {
@@ -488,9 +505,19 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               
               <div className="mt-5 p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                 <div>
-                  <strong>পৌর প্রধান কার্যালয় হেল্পলাইন:</strong> 033-2433-8201 / 033-2433-8260
-                  <span className="mx-2 hidden sm:inline">|</span>
-                  <strong className="block sm:inline mt-1 sm:mt-0">জরুরি টোল-ফ্রি:</strong> 1800-345-5555
+                  <strong>পৌর প্রধান কার্যালয় ফোন:</strong> {place.contact.phone || '033-2433-8201'}
+                  {place.contact.fax && (
+                    <>
+                      <span className="mx-2 hidden sm:inline">|</span>
+                      <strong className="block sm:inline mt-1 sm:mt-0">ফ্যাক্স:</strong> {place.contact.fax}
+                    </>
+                  )}
+                  {place.contact.email && (
+                    <>
+                      <span className="mx-2 hidden sm:inline">|</span>
+                      <strong className="block sm:inline mt-1 sm:mt-0">ইমেইল:</strong> {place.contact.email}
+                    </>
+                  )}
                 </div>
                 <span className="text-[11px] text-slate-400">তথ্যসূত্র: বারুইপুর পৌরসভা অফিশিয়াল রেকর্ড</span>
               </div>
@@ -643,6 +670,18 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                 </div>
               )}
 
+              {place.contact.fax && (
+                <div className="flex items-start gap-3">
+                  <Printer className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="text-slate-500 block text-xs">ফ্যাক্স:</span>
+                    <span className="text-slate-800 font-medium">
+                      {place.contact.fax}
+                    </span>
+                  </div>
+                </div>
+              )}
+
               {place.timings && (
                 <div className="flex items-start gap-3">
                   <Clock className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
@@ -660,9 +699,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                   <Mail className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                   <div>
                     <span className="text-slate-500 block text-xs">ইমেইল:</span>
-                    <span className="text-slate-800">
+                    <a href={`mailto:${place.contact.email}`} className="text-slate-800 hover:text-blue-600 font-medium break-all">
                       {place.contact.email}
-                    </span>
+                    </a>
                   </div>
                 </div>
               )}
@@ -678,7 +717,24 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                       rel="noreferrer" 
                       className="text-red-600 font-semibold hover:underline break-all"
                     >
-                      {place.contact.website}
+                      {place.contact.website.replace(/^https?:\/\//, '')}
+                    </a>
+                  </div>
+                </div>
+              )}
+
+              {place.contact.facebook && (
+                <div className="flex items-start gap-3">
+                  <ExternalLink className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="text-slate-500 block text-xs">ফেসবুক পেজ:</span>
+                    <a 
+                      href={place.contact.facebook} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="text-blue-600 font-semibold hover:underline break-all"
+                    >
+                      Baruipur Municipality
                     </a>
                   </div>
                 </div>
@@ -695,7 +751,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
               <dl className="space-y-2.5 text-xs">
                 {Object.entries(place.administrativeDetails).map(([key, val]) => (
                   <div key={key} className="flex justify-between gap-2 border-b border-slate-200/60 pb-1.5">
-                    <dt className="text-slate-500 capitalize">{key}:</dt>
+                    <dt className="text-slate-500 capitalize">{ADMIN_FIELD_LABELS[key] || key}:</dt>
                     <dd className="font-semibold text-slate-800 text-right">{val}</dd>
                   </div>
                 ))}
