@@ -58,6 +58,9 @@ function isJunkOrCommentOrPromo(text) {
   // SMS instructions or link-only clickbait
   if (/(?:ecispace|epic\s*number\s*in\s*capital|এই\s*লিঙ্কেঃ|এই\s*লিঙ্কে|বিস্তারিত\s*পড়ুন\s*এই\s*লিঙ্কে|বিস্তারিত\s*পড়ুন\s*এই\s*লিঙ্কে)/i.test(lower)) return true;
 
+  // Non-local distant news without Baruipur or South 24 Parganas relevance
+  if (/(?:সিউড়ি|বীরভূম|আসানসোল|শিলিগুড়ি|দার্জিলিং|জলপাইগুড়ি|বাঁকুড়া|পুরুলিয়া)/i.test(lower) && !/(?:বারুইপুর|সোনারপুর|জয়নগর|ক্যানিং|ডায়মন্ড|কুলপী|ভাঙড়|মগরাহাট|দক্ষিণ\s*২৪\s*পরগনা)/i.test(lower)) return true;
+
   // Non-local foreign/national disaster or historical quotes
   if (/(?:বিপর্যয়\s*নেপালে|বিপর্যয়\s*নেপালে|নেপালে\s*(?:ভারী\s*বৃষ্টি|ভূমিধস|বন্যা|বিপর্যয়|বিপর্যয়)|was\s*born\s*on|birth\s*anniversary|shaheed\s*bhagat\s*singh)/i.test(lower)) return true;
 
@@ -77,10 +80,13 @@ function isJunkOrCommentOrPromo(text) {
   // Commercial repairs / servicing / electronics shop ads
   if (/(?:repair|repairing|service\s*centre|service\s*center|home\s*theatre|sound\s*system|সারানো\s*হয়|সারানো\s*হচ্ছে|স্পিকার\s*সারানো|মোবাইল\s*সারানো|we\s*service\s*and\s*repair|all\s*kinds\s*of\s*speakers)/i.test(lower)) return true;
 
-  // Facebook follower shoutouts, milestone celebrations & engagement lists
-  if (/(?:shout\s*out\s*to\s*my\s*newest\s*followers|excited\s*to\s*have\s*you\s*onboard|weekly\s*engagement\s*list)/i.test(lower)) return true;
+  // Facebook follower shoutouts, milestone celebrations, group member welcomes & engagement lists
+  if (/(?:shout\s*out\s*to\s*my\s*newest\s*followers|excited\s*to\s*have\s*you\s*onboard|weekly\s*engagement\s*list|নতুন\s*সদস্যকে\s*স্বাগতম|new\s*members?\s*welcome)/i.test(lower)) return true;
   if (/\b\d+(\.\d+)?k\s*(?:পরিবার|followers|ভালোবাসা)/i.test(lower)) return true;
   if (/(?:লাখ\s*মানুষের\s*কাছে\s*পৌঁছে\s*গেছে|পাশে\s*থাকার\s*জন্য\s*ধন্যবাদ|আপনাদের\s*ভালোবাসাই\s*আমার\s*শক্তি)/i.test(lower)) return true;
+
+  // Commercial boutique, kurti, saree, fashion showroom & product promo ads
+  if (/(?:মোনালিসা|চুড়িদার|কুর্তি|byob|বাইওবি)/i.test(lower) && /(?:কেনাকাটা|শপিং|কিনতে|পছন্দের|কালেকশন|যোগাযোগ|দাম|অর্ডার|ডেলিভারি|মাস্ট)/i.test(lower)) return true;
 
   // Commercial beauty parlour, salon, spa, cosmetics or hair treatment ads
   if (/(?:সালোন|স্যালোন|salon|পার্লার|parlour|parlor|বিউটি\s*পার্লার|কেরাটিন|বোটক্স|স্মুদনিং|স্ট্রেটনিং|বোটোপ্লাস্টিয়া|শ্যাম্পু\s*একদম\s*ফ্রি|পাবেন\s*একদম\s*ফ্রি|মাত্র\s*[\d০-৯,]+\s*টাকা|branch\s*locations|main\s*branch)/i.test(lower)) return true;
