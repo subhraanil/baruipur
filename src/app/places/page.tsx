@@ -25,21 +25,21 @@ import {
 
 export const metadata: Metadata = {
   title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও নাগরিক নির্দেশিকা | বারুইপুর Baruipur',
-  description: 'বারুইপুর পৌরসভা, বারুইপুর পুলিশ জেলা, বারুইপুর কলেজ, সংশোধনাগার (জেল), ফিল্ম সিটি, বিডিও ও এসডিও অফিস, টাউন লাইব্রেরি, মহাপ্রভুতলা ও সদাব্রত ঘাট, মহিলা থানা, আরণ্যক, রাজবাড়ি ও হ্যাপি ভ্যালি সহ শহরের গুরুত্বপূর্ণ সকল স্থান ও প্রতিষ্ঠানের পূর্ণাঙ্গ তথ্যকোষ।',
+  description: 'বারুইপুর পৌরসভা, আদালত, রবীন্দ্র ভবন ও নিউ ইন্ডিয়ান গ্রাউন্ড, মা শিবানী পীঠ, জোড়া শিব মন্দির, নেতাজির পৈতৃক ভিটে, ধপধপি কালীবাড়ি, ক্যাথিড্রাল চার্চ, পুরাতন বাজার, পুলিশ জেলা, হাসপাতাল, কলেজ ও পিকনিক স্পট সহ শহরের ২৮টি প্রধান স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
   keywords: [
-    'Baruipur Municipality', 'Baruipur Police District', 'Baruipur College', 'Baruipur Jail',
+    'Baruipur Municipality', 'Baruipur Police District', 'Baruipur College', 'Baruipur Court',
+    'Baruipur Rabindra Bhawan', 'Maa Shibani Pith', 'Baruipur Jora Shiva Mandir', 'Subhash Bhavan Kodalia',
+    'Dhapdhapi Kali Mandir', 'Baruipur Cathedral Church', 'Baruipur Puratan Bazar', 'Neeldeep Garden',
     'Baruipur Film City', 'Baruipur BDO', 'Baruipur SDO', 'Baruipur Town Library',
-    'Baruipur Mahaprabhu Tala and Sadabrata Ghat', 'Baruipur Women Police Station',
-    'Baruipur Aranyak', 'Baruipur Rajbari', 'Baruipur Happy Valley',
-    'Baruipur Swimming pool', 'Baruipur Rashmath', 'Baruipur bypass', 'বারুইপুর কলেজ',
-    'বারুইপুর জেল', 'বারুইপুর ফিল্ম সিটি', 'বারুইপুর রাজবাড়ি', 'মহাপ্রভুতলা ও সদাব্রত ঘাট', 'Baruipur guide'
+    'Baruipur Mahaprabhu Tala', 'Baruipur Women Police Station', 'Baruipur Aranyak', 'Baruipur Rajbari',
+    'Baruipur Happy Valley', 'Baruipur Swimming pool', 'Baruipur Rashmath', 'Baruipur bypass', 'Baruipur guide'
   ],
   alternates: {
     canonical: 'https://baruipur.online/places/',
   },
   openGraph: {
     title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও তথ্য | বারুইপুর Baruipur',
-    description: 'পৌরসভা, কলেজ, সংশোধনাগার, ফিল্ম সিটি, বিডিও, এসডিও, লাইব্রেরি, মহাপ্রভুতলা, মহিলা থানা, আরণ্যক, রাজবাড়ি ও হ্যাপি ভ্যালির পূর্ণাঙ্গ তথ্য ও নির্দেশিকা।',
+    description: 'আদালত, রবীন্দ্র ভবন, মা শিবানী পীঠ, জোড়া শিব মন্দির, নেতাজির পৈতৃক ভিটে, পৌরসভা, কলেজ, আরণ্যক ও রাজবাড়ির পূর্ণাঙ্গ তথ্য ও নির্দেশিকা।',
     url: 'https://baruipur.online/places/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও তথ্য | বারুইপুর Baruipur',
-    description: 'বারুইপুরের ঐতিহাসিক ও প্রশাসনিক সকল গুরুত্বপূর্ণ স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
+    description: 'বারুইপুরের ঐতিহাসিক, আধ্যাত্মিক ও প্রশাসনিক ২৮টি গুরুত্বপূর্ণ স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
   }
 };
 
