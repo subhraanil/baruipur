@@ -1,6 +1,33 @@
 {
   "articles": [
     {
+      "id": "art-1790881052599-il43",
+      "title": "বাড়ি সাজাবেন, কিন্তু খরচ নিয়ে চিন্তায়? এবার সমাধান এক ঠিকানায়!",
+      "slug": "বাড়ি-সাজাবেন-কিন্তু-খরচ-নিয়ে-চিন্তায়-এবার",
+      "summary": "🔥 বাড়ি সাজাবেন, কিন্তু খরচ নিয়ে চিন্তায়? এবার সমাধান এক ঠিকানায়! 🏠✨\n\nবারুইপুরে শুরু হলো “ইন্টেরিয়র ওয়ালা”—আপনার বাড়ি, ফ্ল্যাট কিংবা দোকানের স্বপ্নের ইন্টেরিয়র এবার স...",
+      "content": "🔥 বাড়ি সাজাবেন, কিন্তু খরচ নিয়ে চিন্তায়? এবার সমাধান এক ঠিকানায়! 🏠✨\n\nবারুইপুরে শুরু হলো “ইন্টেরিয়র ওয়ালা”—আপনার বাড়ি, ফ্ল্যাট কিংবা দোকানের স্বপ্নের ইন্টেরিয়র এবার সাশ্রয়ী খরচে, দক্ষ হাতে! ❤️\n\n💰 কম খরচে ইন্টেরিয়রের প্রয়োজনীয় প্রোডাক্ট\n👷‍♂️ দক্ষ ও পারদর্শী লেবার দ্বারা ইন্টেরিয়রের যাবতীয় কাজ\n🏠 Home Interior | Flat Interior | Shop Interior\n✨ সবকিছু এক ঠিকানায়!\n\n📲 যোগাযোগ: 6291550035\n\n[Interior Wala Baruipur, Baruipur Interior Design, Home Interior Baruipur, Shop Interior Baruipur, Flat Interior, Interior Work Baruipur, Interior Designing]",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "sourceId": "src-fb-baruipur",
+      "sourceName": "Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1590151929820702",
+      "originalPostUrl": "https://www.facebook.com/1590151929820702",
+      "imageUrl": "/images/crawled/aceffd8eb70230fd006c64daf6765144.jpg",
+      "images": [
+        "/images/crawled/aceffd8eb70230fd006c64daf6765144.jpg",
+        "/images/crawled/ef7b9ee093d9f4feff2ec59f43515db6.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=29127466906850412",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29127466906850412&show_text=0",
+      "publishedAt": "2026-10-01T16:50:27.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 40,
+      "crawlHash": "61b89f1d5453307059129b8dd0929b79"
+    },
+    {
       "id": "art-1790871364168-ajil",
       "title": "বারুইপুরের মাটিতেই লুকিয়ে আছে এত রঙ!",
       "slug": "বারুইপুরের-মাটিতেই-লুকিয়ে-আছে-এত-রঙ",
@@ -6753,7 +6780,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-01T16:15:19.369Z"
+      "lastCrawledAt": "2026-10-01T18:57:04.315Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -6766,7 +6793,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-01T16:15:23.143Z"
+      "lastCrawledAt": "2026-10-01T18:57:06.462Z"
     },
     {
       "id": "src-fb-police",
@@ -6779,7 +6806,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-01T16:15:26.983Z"
+      "lastCrawledAt": "2026-10-01T18:57:08.845Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -6792,7 +6819,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-01T16:15:30.545Z"
+      "lastCrawledAt": "2026-10-01T18:57:11.336Z"
     },
     {
       "id": "src-fb-uncover",
@@ -6805,7 +6832,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-01T16:15:34.301Z"
+      "lastCrawledAt": "2026-10-01T18:57:14.751Z"
     },
     {
       "id": "src-fb-update",
@@ -6818,7 +6845,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-01T16:15:37.929Z"
+      "lastCrawledAt": "2026-10-01T18:57:17.640Z"
     },
     {
       "id": "src-fb-barta",
@@ -6831,7 +6858,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-01T16:15:42.421Z"
+      "lastCrawledAt": "2026-10-01T18:57:21.192Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -6844,7 +6871,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-01T16:15:46.034Z"
+      "lastCrawledAt": "2026-10-01T18:57:23.939Z"
     },
     {
       "id": "src-fb-voice",
@@ -6857,7 +6884,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-01T16:15:51.561Z"
+      "lastCrawledAt": "2026-10-01T18:57:26.952Z"
     },
     {
       "id": "src-fb-24x7",
@@ -6870,7 +6897,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-01T16:15:55.813Z"
+      "lastCrawledAt": "2026-10-01T18:57:29.697Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -6883,10 +6910,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-01T16:15:59.678Z"
+      "lastCrawledAt": "2026-10-01T18:57:32.331Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1790881052600",
+      "timestamp": "2026-10-01T18:57:32.600Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 2, সমন্বয়ের পর: 2, নতুন প্রকাশিত সংবাদ: 1 টি।",
+      "itemsFetched": 2,
+      "itemsPublished": 1
+    },
     {
       "id": "log-1790871364388",
       "timestamp": "2026-10-01T16:16:04.388Z",
