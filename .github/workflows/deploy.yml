@@ -38,3 +38,4 @@ jobs:
           password: ${{ secrets.CPANEL_PASSWORD }}
           server-dir: public_html/baruipur/
           local-dir: out/
+          state-name: .ftp-deploy-sync-state-v2.json

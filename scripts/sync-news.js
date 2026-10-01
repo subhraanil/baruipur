@@ -272,13 +272,13 @@ function cleanBengaliContent(raw) {
 }
 
 function createSlug(title, id) {
-  const clean = title
+  let clean = title
     .trim()
     .toLowerCase()
     .replace(/[^\w\u0980-\u09FF\s-]/g, '')
     .replace(/[\s_]+/g, '-')
     .replace(/-+/g, '-')
-    .substring(0, 90)
+    .substring(0, 45)
     .replace(/^-+|-+$/g, '');
   if (clean && clean.length > 2) return clean;
   return 'baruipur-news-' + (id ? id.substring(0, 8) : Date.now());
