@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-02T02:18:14.289Z
+# Last Updated: 2026-10-02T02:55:56.865Z
 # Total Articles: 237
 # Total Key Landmarks: 28
 # Jurisdiction: Baruipur, South 24 Parganas, West Bengal, India
