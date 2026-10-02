@@ -50,7 +50,7 @@ function isJunkOrCommentOrPromo(text) {
   }
 
   // Social media conversation prompts, quiz questions & questionnaires
-  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন|গিয়েছো\?|গেছ\?|গেছো\?|তোমার\s*বাড়ি\s*.*?কোথায়|বেস্ট\s*চিকেন\s*রোল|কোথায়\s*পাওয়া\s*যায়\?|সবাই\s*["']?জয়\s*মা\s*কালী["']?\s*বলো|road\s*to\s*heaven|bday\s*celebration|kara\s*bolte\s*parbe|kon\s*beach|kon\s*station|kon\s*train)/i.test(lower)) return true;
+  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন|গিয়েছো\?|গেছ\?|গেছো\?|তোমার\s*বাড়ি\s*.*?কোথায়|বেস্ট\s*চিকেন\s*রোল|কোথায়\s*পাওয়া\s*যায়\?|সবাই\s*["']?জয়\s*মা\s*কালী["']?\s*বলো|road\s*to\s*heaven|bday\s*celebration|kara\s*bolte\s*parbe|kara\s*kara\s*cheno|kara\s*cheno|chinte\s*parcho|kon\s*beach|kon\s*station|kon\s*train|henry\s*island)/i.test(lower)) return true;
 
   // Multiple-choice questionnaire / quiz options like 1) ... 2) ... 3) ...
   if (/(?:1\)\s*.*?\b2\)\s*.*?\b3\)|1\.\s*.*?\b2\.\s*.*?\b3\.)/s.test(t)) return true;
@@ -889,25 +889,30 @@ async function runWorkflow() {
   if (!process.env.GITHUB_ACTIONS) {
     console.log('🌐 গিটহাবে পুশ ও লাইভ cPanel ডিপ্লয়মেন্ট শুরু হচ্ছে...');
     try {
-      try {
-        execSync('git pull --rebase origin main', { stdio: 'inherit' });
-      } catch (e) {}
       execSync('git add src/data/news_data.json public/ public/images/crawled/ src/ scripts/', { stdio: 'inherit' });
       const commitMsg = `Sync today's news from ${sources.length} Facebook sources (${newPublishedCount} new articles)`;
+      let hasChanges = false;
       try {
         execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
+        hasChanges = true;
       } catch (e) {
         console.log('ℹ️ No changes to commit.');
       }
-      try {
-        execSync('git pull --rebase origin main', { stdio: 'inherit' });
-      } catch (e) {}
-      const token = process.env.GITHUB_TOKEN;
-      const pushCmd = token 
-        ? `git -c credential.helper= push https://subhraanil:${token}@github.com/subhraanil/baruipur.git main`
-        : 'git push origin main';
-      execSync(pushCmd, { stdio: 'inherit' });
-      console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন! cPanel লাইভ সাইট স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে।');
+      if (hasChanges) {
+        const token = process.env.GITHUB_TOKEN;
+        const pushCmd = token 
+          ? `git -c credential.helper= push https://subhraanil:${token}@github.com/subhraanil/baruipur.git main`
+          : 'git push origin main';
+        try {
+          execSync(pushCmd, { stdio: 'inherit' });
+          console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন! cPanel লাইভ সাইট স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে।');
+        } catch (pushErr) {
+          console.warn('⚠️ Push rejected, fetching and retrying push...');
+          execSync('git pull --no-rebase -X ours origin main', { stdio: 'inherit' });
+          execSync(pushCmd, { stdio: 'inherit' });
+          console.log('✅ গিটহাবে সফলভাবে পুশ সম্পন্ন!');
+        }
+      }
     } catch (gitErr) {
       console.warn('⚠️ গিট অপারেশনের সময় সতর্কতা:', gitErr.message);
     }
