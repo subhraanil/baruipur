@@ -1,6 +1,61 @@
 {
   "articles": [
     {
+      "id": "art-1790966040311-tqxx",
+      "title": "বারুইপুর কলপুকুর প্রগতি সংঘে চলছে দুর্গাপুজোর প্রস্তুতি ।",
+      "slug": "বারুইপুর-কলপুকুর-প্রগতি-সংঘে-চলছে-দুর্গাপুজোর",
+      "summary": "বারুইপুর কলপুকুর প্রগতি সংঘে চলছে দুর্গাপুজোর প্রস্তুতি ।\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্শনার্থীদ...",
+      "content": "বারুইপুর কলপুকুর প্রগতি সংঘে চলছে দুর্গাপুজোর প্রস্তুতি ।\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্শনার্থীদের আকর্ষণ করে।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "sourceId": "src-fb-uncover",
+      "sourceName": "Baruipur Uncover",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122228680952792099",
+      "originalPostUrl": "https://www.facebook.com/122228680952792099",
+      "imageUrl": "/images/crawled/69123a5baeeae4fc9af17e518fbc9ef0.jpg",
+      "images": [
+        "/images/crawled/69123a5baeeae4fc9af17e518fbc9ef0.jpg",
+        "/images/crawled/d758455787592dec318a1d89f24f524e.jpg",
+        "/images/crawled/bc29582d8658d80d8c0adfff68cf2ede.jpg",
+        "/images/crawled/0483e1f26e733065228e3b503ec21b36.jpg",
+        "/images/crawled/3766506da0775d0ae4ee8365e242a817.jpg"
+      ],
+      "publishedAt": "2026-10-02T11:45:37.000Z",
+      "isBreaking": false,
+      "isFeatured": true,
+      "status": "published",
+      "views": 55,
+      "crawlHash": "a4f0f332ae92f1f21b79ed7aad70af48"
+    },
+    {
+      "id": "art-1790966038632-p6xd",
+      "title": "ফাইনালি অক্টোবর এসে গেছে মনে মা আসছে",
+      "slug": "ফাইনালি-অক্টোবর-এসে-গেছে-মনে-মা-আসছে",
+      "summary": "ফাইনালি অক্টোবর এসে গেছে মনে মা আসছে 😍\n\n[ durgapuja 2026, october, baruipur, baruipur uncovered ]\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ...",
+      "content": "ফাইনালি অক্টোবর এসে গেছে মনে মা আসছে 😍\n\n[ durgapuja 2026, october, baruipur, baruipur uncovered ]\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "sourceId": "src-fb-uncover",
+      "sourceName": "Baruipur Uncover",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122228734076792099",
+      "originalPostUrl": "https://www.facebook.com/122228734076792099",
+      "imageUrl": "/images/crawled/eccad7b7ab1dbe06881f8119892fc912.jpg",
+      "images": [
+        "/images/crawled/eccad7b7ab1dbe06881f8119892fc912.jpg",
+        "/images/crawled/376055be827baa107fb67de733d6f121.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1099822829115739",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1099822829115739&show_text=0",
+      "publishedAt": "2026-10-02T17:17:06.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 34,
+      "crawlHash": "300dee0ff5fa5321792b427753e5980f"
+    },
+    {
       "id": "art-1790960413031-x3ll",
       "title": "এই হলো বারুইপুর মহকুমা হাসপাতালের পানীয় জলের কলের হাল!",
       "slug": "এই-হলো-বারুইপুর-মহকুমা-হাসপাতালের-পানীয়-জলের",
@@ -67,7 +122,8 @@
       "imageUrl": "/images/crawled/d7fb6acea405f65b520ebf05708e61b1.jpg",
       "images": [
         "/images/crawled/d7fb6acea405f65b520ebf05708e61b1.jpg",
-        "/images/crawled/837083dbfa1a3fb605ed40de46b4f5cb.jpg"
+        "/images/crawled/837083dbfa1a3fb605ed40de46b4f5cb.jpg",
+        "/images/crawled/0d6c37ee250e93ee44db70fadd35ae08.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=3734824649998767",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3734824649998767&show_text=0",
@@ -6941,7 +6997,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-02T16:59:26.446Z"
+      "lastCrawledAt": "2026-10-02T18:33:30.280Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -6954,7 +7010,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-02T16:59:29.711Z"
+      "lastCrawledAt": "2026-10-02T18:33:31.998Z"
     },
     {
       "id": "src-fb-police",
@@ -6967,7 +7023,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-02T16:59:32.158Z"
+      "lastCrawledAt": "2026-10-02T18:33:33.986Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -6980,7 +7036,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-02T16:59:35.004Z"
+      "lastCrawledAt": "2026-10-02T18:33:36.287Z"
     },
     {
       "id": "src-fb-uncover",
@@ -6993,7 +7049,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-02T16:59:39.118Z"
+      "lastCrawledAt": "2026-10-02T18:33:39.737Z"
     },
     {
       "id": "src-fb-update",
@@ -7006,7 +7062,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-02T16:59:42.617Z"
+      "lastCrawledAt": "2026-10-02T18:33:42.838Z"
     },
     {
       "id": "src-fb-barta",
@@ -7019,7 +7075,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-02T16:59:46.321Z"
+      "lastCrawledAt": "2026-10-02T18:33:46.943Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -7032,7 +7088,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-02T16:59:49.587Z"
+      "lastCrawledAt": "2026-10-02T18:33:49.098Z"
     },
     {
       "id": "src-fb-voice",
@@ -7045,7 +7101,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-02T16:59:54.009Z"
+      "lastCrawledAt": "2026-10-02T18:33:52.919Z"
     },
     {
       "id": "src-fb-24x7",
@@ -7058,7 +7114,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-02T16:59:56.650Z"
+      "lastCrawledAt": "2026-10-02T18:33:55.059Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -7071,10 +7127,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-02T16:59:59.958Z"
+      "lastCrawledAt": "2026-10-02T18:33:58.039Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1790966040413",
+      "timestamp": "2026-10-02T18:34:00.413Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 5, সমন্বয়ের পর: 5, নতুন প্রকাশিত সংবাদ: 2 টি।",
+      "itemsFetched": 5,
+      "itemsPublished": 2
+    },
     {
       "id": "log-1790960413279",
       "timestamp": "2026-10-02T17:00:13.279Z",
