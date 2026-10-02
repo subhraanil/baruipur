@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://baruipur.online/henry-island-part-2/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-02T06:10:32.000Z</news:publication_date>
+      <news:title>Henry Island Part : 2</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/baruipur-er-modhe-ei-shopping-complex-ti-kara/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-02T06:02:13.000Z</news:publication_date>
+      <news:title>Baruipur er modhe ei Shopping Complex ti kara kara cheno?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A7%A8%E0%A6%B0%E0%A6%BE-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE-%E0%A6%93/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-02T03:50:49.000Z</news:publication_date>
+      <news:title>আজ, ২রা অক্টোবর, বিশিষ্ট ভারতীয় মুক্তিযোদ্ধা ও ভারতের দ্বিতীয় প্রধানমন্ত্রী লাল বাহাদুর</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%81-%E0%A6%96%E0%A6%B0%E0%A6%9A-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%9A%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0/</loc>
     <news:news>
       <news:publication>
@@ -2265,28 +2298,6 @@
       </news:publication>
       <news:publication_date>2026-09-02T13:04:38.000Z</news:publication_date>
       <news:title>লাগাতার বৃষ্টিতে বেহাল বারুইপুর রাস মাঠের রাস্তা, চরম ভোগান্তিতে স্কুল পড়ুয়ারা।</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%96%E0%A7%81%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%80%E0%A6%B0-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T09:10:40.000Z</news:publication_date>
-      <news:title>মর্মান্তিক খুনের দায়ে অপরাধীর যাবজ্জীবন কারাদণ্ড</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AE%E0%A6%BE-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%A0%E0%A6%BF-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A7%AA%E0%A7%AB-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A6%BF/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T07:44:43.000Z</news:publication_date>
-      <news:title>মা আসছে... ঢাকের কাঠি পড়তে আর মাত্র ৪৫ দিন বাকি।</news:title>
     </news:news>
   </url>
 </urlset>
