@@ -44,6 +44,16 @@ try {
   console.warn('Could not load places_data.json:', e.message);
 }
 
+const ORGANIZATIONS_FILE = path.join(__dirname, '../src/data/organizations_data.json');
+let organizations = [];
+try {
+  if (fs.existsSync(ORGANIZATIONS_FILE)) {
+    organizations = JSON.parse(fs.readFileSync(ORGANIZATIONS_FILE, 'utf8'));
+  }
+} catch (e) {
+  console.warn('Could not load organizations_data.json:', e.message);
+}
+
 const categories = [
   { slug: 'all', nameBn: 'সব খবর', nameEn: 'All News', desc: 'বারুইপুর অঞ্চলের সমস্ত তাজা খবর ও সংকলন।' },
   { slug: 'municipality', nameBn: 'পৌরসভা ও নাগরিক', nameEn: 'Municipality & Civic', desc: 'বারুইপুর পৌরসভা, রাস্তাঘাট, পানীয় জল ও নাগরিক সমস্যা।' },
@@ -149,6 +159,7 @@ for (const cat of categories) {
 
 const staticPages = [
   { path: '/places/', priority: '0.9', changefreq: 'weekly', title: 'Places Hub' },
+  { path: '/organizations/', priority: '0.9', changefreq: 'weekly', title: 'Organizations Hub' },
   { path: '/transport/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Transport Guide' },
   { path: '/citizen-services/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Citizen Services' },
   { path: '/events/', priority: '0.8', changefreq: 'weekly', title: 'Baruipur Annual Events 2026' },
@@ -175,6 +186,17 @@ for (const p of places) {
   sitemapXml += `  <!-- Place: ${p.slug} -->
   <url>
     <loc>${SITE_URL}/places/${p.slug}/</loc>
+    <lastmod>${nowIso}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+`;
+}
+
+for (const org of organizations) {
+  sitemapXml += `  <!-- Organization: ${org.slug} -->
+  <url>
+    <loc>${SITE_URL}/organizations/${org.slug}/</loc>
     <lastmod>${nowIso}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -327,9 +349,13 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [সংবাদ বা তথ্য জমা দিন (Submit News)](${SITE_URL}/submit-news/): স্থানীয় নাগরিক রিপোর্টিং ফর্ম।
 - [যোগাযোগ (Contact)](${SITE_URL}/contact/): সম্পাদকীয় ও সার্বিক যোগাযোগের ঠিকানা।
 
-## Important Places & Civic Landmark Guides (গুরুত্বপূর্ণ স্থান ও প্রতিষ্ঠান)
+## Important Places & Civic Landmark Guides (গুরুত্বপূর্ণ স্থান ও ল্যান্ডমার্ক)
 - [গুরুত্বপূর্ণ স্থান ডিরেক্টরি (Places Hub)](${SITE_URL}/places/): বারুইপুরের ঐতিহাসিক, প্রশাসনিক ও নাগরিক প্রতিষ্ঠানের পূর্ণাঙ্গ গাইড।
 ${places.map(p => `- [${p.nameBn} (${p.nameEn})](${SITE_URL}/places/${p.slug}/): ${p.taglineBn}. Established: ${p.established}. Address: ${p.address}`).join('\n')}
+
+## Organizations, Clubs & Associations (প্রতিষ্ঠান, ক্লাব ও সংগঠন)
+- [প্রতিষ্ঠান ও ক্লাব ডিরেক্টরি (Organizations Hub)](${SITE_URL}/organizations/): বারুইপুরের ক্রীড়া ক্লাব, এনজিও, চ্যারিটি ট্রাস্ট ও ব্যবসায়িক সমিতি।
+${organizations.map(o => `- [${o.nameBn} (${o.nameEn})](${SITE_URL}/organizations/${o.slug}/): ${o.taglineBn}. Established: ${o.established}. Category: ${o.categoryBn}. Address: ${o.address}`).join('\n')}
 
 ## Machine-Readable Feeds & Feeds for AI Systems
 - XML Sitemap: ${SITE_URL}/sitemap.xml
@@ -365,12 +391,13 @@ let llmsFullTxt = `# বারুইপুর Baruipur - Complete Regional News 
 # Last Updated: ${new Date().toISOString()}
 # Total Articles: ${articles.length}
 # Total Key Landmarks: ${places.length}
+# Total Organizations & Clubs: ${organizations.length}
 # Jurisdiction: Baruipur, South 24 Parganas, West Bengal, India
 
-This document contains the complete, unshortened text of all verified regional articles, civic updates, and permanent landmark guides published by Baruipur Online. It is designed for single-shot context ingestion, RAG pipelines, and AI research on Baruipur.
+This document contains the complete, unshortened text of all verified regional articles, civic updates, permanent landmark guides, and civic organization profiles published by Baruipur Online. It is designed for single-shot context ingestion, RAG pipelines, and AI research on Baruipur.
 
 ================================================================================
-PART 1: IMPORTANT CIVIC LANDMARKS & INSTITUTIONS OF BARUIPUR
+PART 1: IMPORTANT CIVIC LANDMARKS & HERITAGE SITES (${places.length} TOTAL)
 ================================================================================
 ${places.map((p, i) => `
 --------------------------------------------------------------------------------
@@ -397,7 +424,35 @@ ${p.howToReach}
 `).join('\n')}
 
 ================================================================================
-PART 2: REGIONAL NEWS ARTICLES & CIVIC UPDATES (${articles.length} TOTAL)
+PART 2: ORGANIZATIONS, CLUBS & ASSOCIATIONS (${organizations.length} TOTAL)
+================================================================================
+${organizations.map((o, i) => `
+--------------------------------------------------------------------------------
+ORGANIZATION #${i + 1}: ${o.nameBn} (${o.nameEn})
+--------------------------------------------------------------------------------
+- Category: ${o.categoryBn} (${o.category})
+- Established: ${o.established}
+- Canonical URL: ${SITE_URL}/organizations/${o.slug}/
+- Address: ${o.address}
+- Phone: ${o.contact.phone || o.contact.helpline || 'N/A'}
+- Timings: ${o.timings || 'N/A'}
+- Key People: ${o.keyPeople.map(kp => `${kp.name} (${kp.roleBn})`).join(', ')}
+
+OVERVIEW:
+${o.overview}
+
+HISTORY & CONTRIBUTION:
+${o.history}
+
+KEY ACTIVITIES:
+${o.keyActivities.map(a => `- ${a}`).join('\n')}
+
+HOW TO REACH:
+${o.howToReach}
+`).join('\n')}
+
+================================================================================
+PART 3: REGIONAL NEWS ARTICLES & CIVIC UPDATES (${articles.length} TOTAL)
 ================================================================================
 `;
 

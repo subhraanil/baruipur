@@ -145,7 +145,7 @@ export default function Header() {
       </div>
 
 
-      {/* 6 Pillars Primary Navigation Bar */}
+      {/* Primary Navigation Bar */}
       <nav className="border-t border-slate-100 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="hidden md:flex items-center space-x-1 overflow-x-auto py-1">
@@ -170,10 +170,20 @@ export default function Header() {
               className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
                 pathname.startsWith('/places') 
                   ? 'bg-red-600 text-white shadow-sm' 
-                  : 'text-amber-700 hover:bg-amber-50 hover:text-amber-800'
+                  : 'text-amber-800 hover:bg-amber-50 hover:text-amber-900'
               }`}
             >
-              🏛️ ডিরেক্টরি
+              🏛️ স্থান ও ল্যান্ডমার্ক
+            </a>
+            <a
+              href="/organizations"
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname.startsWith('/organizations') 
+                  ? 'bg-red-600 text-white shadow-sm' 
+                  : 'text-purple-800 hover:bg-purple-50 hover:text-purple-900'
+              }`}
+            >
+              🏢 প্রতিষ্ঠান ও ক্লাব
             </a>
             <a
               href="/#featured-guides"
@@ -215,91 +225,143 @@ export default function Header() {
 
           {/* Mobile Navigation Dropdown */}
           {mobileMenuOpen && (
-            <div className="md:hidden py-3 border-t border-slate-100 space-y-1">
-              <form onSubmit={handleSearch} className="mb-3 px-2">
+            <div className="md:hidden py-4 border-t border-slate-100 space-y-3">
+              <form onSubmit={handleSearch} className="px-2">
                 <div className="relative">
                   <input
                     type="text"
-                    placeholder="খবর খুঁজুন..."
+                    placeholder="বারুইপুরের খবর বা প্রতিষ্ঠান খুঁজুন..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full bg-slate-100 border border-slate-200 rounded-lg py-2 pl-3 pr-9 text-sm"
+                    className="w-full bg-slate-100 border border-slate-200 rounded-xl py-2.5 pl-3.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:bg-white transition"
                   />
-                  <button type="submit" className="absolute right-2 top-2 text-slate-500">
+                  <button type="submit" className="absolute right-3 top-3 text-slate-500">
                     <Search className="w-4 h-4" />
                   </button>
                 </div>
               </form>
 
-              <a
-                href="/"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-slate-800 hover:bg-red-50 hover:text-red-600"
-              >
-                🏠 প্রচ্ছদ (Home)
-              </a>
-              <a
-                href="/places"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-amber-700 hover:bg-amber-50"
-              >
-                🏛️ বারুইপুর ডিরেক্টরি (Directory)
-              </a>
-              <a
-                href="/#featured-guides"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-cyan-700 hover:bg-cyan-50"
-              >
-                🧭 স্পেশাল গাইড (Guides)
-              </a>
-              <a
-                href="/transport"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-blue-700 hover:bg-blue-50"
-              >
-                🚆 পরিবহন ও ট্রেন (Transport)
-              </a>
-              <a
-                href="/citizen-services"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-emerald-700 hover:bg-emerald-50"
-              >
-                📋 নাগরিক পরিষেবা (Citizen Services)
-              </a>
-              <a
-                href="/events"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-purple-700 hover:bg-purple-50"
-              >
-                🎡 উৎসব ও মেলা (Events)
-              </a>
-              <a
-                href="/emergency-contacts"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-bold text-rose-700 hover:bg-rose-50"
-              >
-                🚓 জরুরি নম্বর (Emergency Contacts)
-              </a>
-              <a
-                href="/submit-news"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-semibold text-slate-700 hover:bg-slate-50"
-              >
-                ✉️ সংবাদ পাঠান (Submit News)
-              </a>
-              <a
-                href="/about"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-3 py-2 rounded text-base font-semibold text-slate-700 hover:bg-slate-50"
-              >
-                ℹ️ আমাদের সম্পর্কে (About)
-              </a>
+              {/* Navigation Sections */}
+              <div className="space-y-1 px-1">
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 pt-1">
+                  প্রধান বিভাগ
+                </div>
+                <a
+                  href="/"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-red-50 hover:text-red-600 transition"
+                >
+                  <span className="text-base">🏠</span> প্রচ্ছদ (Home)
+                </a>
+                <a
+                  href="/#latest-news"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-700 hover:bg-slate-50 transition"
+                >
+                  <span className="text-base">📰</span> তাজা সংবাদ প্রবাহ
+                </a>
+              </div>
+
+              <div className="space-y-1 px-1 border-t border-slate-100 pt-2">
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 pt-1">
+                  ডিরেক্টরি ও তথ্যকোষ
+                </div>
+                <a
+                  href="/places"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-amber-800 bg-amber-50/50 hover:bg-amber-100/60 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🏛️</span> স্থান ও ল্যান্ডমার্ক ডিরেক্টরি
+                  </span>
+                  <span className="text-[10px] bg-amber-200 text-amber-800 px-1.5 py-0.5 rounded font-semibold">
+                    Places
+                  </span>
+                </a>
+                <a
+                  href="/organizations"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-purple-800 bg-purple-50/50 hover:bg-purple-100/60 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🏢</span> প্রতিষ্ঠান, ক্লাব ও সংগঠন
+                  </span>
+                  <span className="text-[10px] bg-purple-200 text-purple-800 px-1.5 py-0.5 rounded font-semibold">
+                    Orgs
+                  </span>
+                </a>
+                <a
+                  href="/#featured-guides"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-semibold text-cyan-800 hover:bg-cyan-50 transition"
+                >
+                  <span className="text-base">🧭</span> স্পেশাল গাইড (Guides)
+                </a>
+              </div>
+
+              <div className="space-y-1 px-1 border-t border-slate-100 pt-2">
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 pt-1">
+                  নাগরিক ও দৈনন্দিন সেবা
+                </div>
+                <a
+                  href="/transport"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-bold text-blue-800 hover:bg-blue-50 transition"
+                >
+                  <span className="text-base">🚆</span> লোকাল ট্রেন ও পরিবহন (Transport)
+                </a>
+                <a
+                  href="/citizen-services"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-bold text-emerald-800 hover:bg-emerald-50 transition"
+                >
+                  <span className="text-base">📋</span> পুরসভা ও নাগরিক পরিষেবা
+                </a>
+                <a
+                  href="/events"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm font-bold text-amber-800 hover:bg-amber-50 transition"
+                >
+                  <span className="text-base">🎡</span> বার্ষিক মেলা ও উৎসব ক্যালেন্ডার
+                </a>
+                <a
+                  href="/emergency-contacts"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-rose-700 bg-rose-50 hover:bg-rose-100/70 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🚓</span> ২৪/৭ জরুরি হেল্পলাইন নম্বর
+                  </span>
+                  <span className="text-[10px] bg-rose-200 text-rose-800 px-1.5 py-0.5 rounded font-bold">
+                    HOTLINE
+                  </span>
+                </a>
+              </div>
+
+              <div className="space-y-1 px-1 border-t border-slate-100 pt-2 text-xs text-slate-600">
+                <div className="grid grid-cols-2 gap-2 pt-1">
+                  <a
+                    href="/submit-news"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="p-2.5 rounded-lg bg-slate-100 text-center font-bold text-slate-800 hover:bg-slate-200"
+                  >
+                    ✉️ সংবাদ পাঠান
+                  </a>
+                  <a
+                    href="/about"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="p-2.5 rounded-lg bg-slate-100 text-center font-bold text-slate-800 hover:bg-slate-200"
+                  >
+                    ℹ️ আমাদের সম্পর্কে
+                  </a>
+                </div>
+              </div>
 
               {isLocal && (
                 <div className="pt-2 border-t border-slate-100">
                   <a 
                     href="/admin" 
-                    className="block px-3 py-2 rounded bg-red-600 text-white text-center font-bold"
+                    className="block px-3 py-2.5 rounded-lg bg-red-600 text-white text-center font-bold text-sm shadow"
                   >
                     অ্যাডমিন ড্যাশবোর্ড
                   </a>

@@ -26,7 +26,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1.5 font-medium text-amber-300">
-                  <span className="text-amber-500">›</span> বারুইপুর ডিরেক্টরি (Directory)
+                  <span className="text-amber-500">›</span> স্থান ও ল্যান্ডমার্ক (Places Hub)
+                </a>
+              </li>
+              <li>
+                <a href="/organizations" className="hover:text-purple-400 transition flex items-center gap-1.5 font-medium text-purple-300">
+                  <span className="text-purple-500">›</span> প্রতিষ্ঠান, ক্লাব ও সমিতি (Organizations)
                 </a>
               </li>
               <li>
@@ -47,11 +52,6 @@ export default function Footer() {
               <li>
                 <a href="/#featured-guides" className="hover:text-red-400 transition flex items-center gap-1.5 font-medium">
                   <span className="text-red-500">›</span> ৫টি বিশেষ লাইফস্টাইল গাইড
-                </a>
-              </li>
-              <li>
-                <a href="/places/baruipur-municipality/" className="hover:text-slate-200 transition flex items-center gap-1.5 text-xs text-slate-400">
-                  <span className="text-slate-600">›</span> ১৭ ওয়ার্ড কাউন্সিলর তালিকা
                 </a>
               </li>
             </ul>

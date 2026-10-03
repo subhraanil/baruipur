@@ -285,6 +285,57 @@ export default function BaruipurUtilities({
         </div>
       )}
 
+      {/* 3.5. Organizations, Clubs & Associations Widget */}
+      <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">
+        <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-3">
+          <div className="flex items-center gap-2">
+            <div className="p-2 rounded-lg bg-purple-50 text-purple-600">
+              <Building2 className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="font-bold text-slate-900 text-base">শীর্ষ ক্লাব ও প্রতিষ্ঠান</h3>
+              <p className="text-xs text-slate-500">ক্রীড়া ক্লাব, এনজিও ও নাগরিক সংগঠন</p>
+            </div>
+          </div>
+          <a href="/organizations" className="text-xs font-bold text-purple-600 hover:underline">
+            সব দেখুন →
+          </a>
+        </div>
+
+        <div className="space-y-2">
+          {[
+            { slug: 'real-star-club-baruipur', name: 'রিয়েল স্টার ক্লাব', tag: 'ফুটবল ও ক্লাব' },
+            { slug: 'summerset-club-baruipur', name: 'সামারসেট ক্লাব', tag: 'ক্রিকেট অ্যাকাডেমি' },
+            { slug: 'baruipur-blood-donors-forum-trust', name: 'ব্লাড ডোনার্স ফোরাম ট্রাস্ট', tag: 'রক্তদান ও সেবা' },
+            { slug: 'baruipur-bar-association', name: 'বারুইপুর বার অ্যাসোসিয়েশন', tag: 'আইনজীবী সমিতি' },
+            { slug: 'rotary-club-of-baruipur', name: 'রোটারি ক্লাব অফ বারুইপুর', tag: 'সমাজসেবা' },
+            { slug: 'baruipur-byabsayi-kalyan-samity', name: 'ব্যবসায়ী কল্যাণ সমিতি', tag: 'বাণিজ্য পরিষদ' }
+          ].map((org, idx) => (
+            <a
+              key={idx}
+              href={`/organizations/${org.slug}/`}
+              className="flex items-center justify-between p-2.5 rounded-lg border border-slate-150 hover:border-purple-300 hover:bg-purple-50/40 transition group"
+            >
+              <span className="text-xs font-bold text-slate-800 group-hover:text-purple-700 transition">
+                {org.name}
+              </span>
+              <span className="text-[10px] font-semibold text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded">
+                {org.tag}
+              </span>
+            </a>
+          ))}
+        </div>
+
+        <div className="mt-3 pt-2.5 border-t border-slate-100 text-center">
+          <a 
+            href="/organizations" 
+            className="text-xs text-purple-600 font-bold hover:underline inline-flex items-center gap-1"
+          >
+            ১৩+ যাচাইকৃত প্রতিষ্ঠান ও ক্লাব ডিরেক্টরি →
+          </a>
+        </div>
+      </div>
+
       {/* 4. Baruipur Essential Guides Widget */}
       <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">
         <div className="flex items-center gap-2 border-b border-slate-100 pb-3 mb-3">
