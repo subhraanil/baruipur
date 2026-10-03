@@ -1,0 +1,132 @@
+# ==============================================================================
+# Cloudflare & Apache Performance, Security and Caching Directives
+# Domain: baruipur.online
+# Hosting: cPanel / Apache with Cloudflare Free Proxy (CDN)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Enable Rewrite Engine & Canonical Directives
+# ------------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Enforce trailing slash for directory style URLs (ensures Clean URLs & uniform CDN cache keys)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !(.[a-zA-Z0-9]{1,5})$
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.*)$ https://baruipur.online/$1/ [L,R=301]
+
+  # Block sensitive directories and files from web access
+  RewriteRule (^|/)\.(git|github|env|bak|config) - [F,L]
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 2. Prevent Hotlinking of Static Assets (Save Server & Cloudflare Egress)
+# ------------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_REFERER} !^$
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?baruipur\.online [NC]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?google\. [NC]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?bing\. [NC]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?facebook\.com [NC]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?instagram\.com [NC]
+  RewriteRule \.(jpg|jpeg|png|gif|webp|svg|ico)$ - [F,NC]
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 3. Gzip & Brotli Deflate Compression (Reduces payload size up to 80%)
+# ------------------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/atom+xml
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE font/truetype
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/woff
+  AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 4. Browser & Cloudflare Edge Caching Directives (mod_expires)
+# ------------------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+
+  # HTML & Feeds: 10 minutes cache (fresh news delivery, low origin load)
+  ExpiresByType text/html "access plus 10 minutes"
+  ExpiresByType text/xml "access plus 10 minutes"
+  ExpiresByType application/xml "access plus 10 minutes"
+  ExpiresByType application/rss+xml "access plus 10 minutes"
+  ExpiresByType text/plain "access plus 15 minutes"
+
+  # JSON API Data: 5 minutes cache
+  ExpiresByType application/json "access plus 5 minutes"
+
+  # Static Assets (Images, Icons, WebP, SVG, AVIF): 1 Month cache
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+
+  # Web Fonts: 1 Year cache (immutable)
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+
+  # CSS and JavaScript: 1 Week cache
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType text/javascript "access plus 7 days"
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 5. Granular Cache-Control Headers for Cloudflare Edge & Browsers
+# ------------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  # Next.js Static immutable chunks (_next/static/...)
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=604800, stale-while-revalidate=86400"
+  </FilesMatch>
+
+  # Media Assets
+  <FilesMatch "\.(ico|jpe?g|png|gif|webp|svg|woff2?|ttf|otf)$">
+    Header set Cache-Control "public, max-age=2592000, immutable"
+  </FilesMatch>
+
+  # HTML Pages (Ensure rapid propagation of breaking news updates)
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "public, max-age=300, s-maxage=600, stale-while-revalidate=120"
+  </FilesMatch>
+
+  # RSS Feeds, Sitemaps and AI manifests
+  <FilesMatch "(feed\.xml|sitemap.*\.xml|robots\.txt|llms.*\.txt|ads\.txt)$">
+    Header set Cache-Control "public, max-age=600, s-maxage=1200, stale-while-revalidate=300"
+  </FilesMatch>
+
+  # Security Headers recommended by Cloudflare & Google
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 6. Custom 404 Error Page Handler
+# ------------------------------------------------------------------------------
+ErrorDocument 404 /404.html

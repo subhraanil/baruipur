@@ -6,6 +6,7 @@
     "dev": "next dev -p 3000",
     "prebuild": "node scripts/generate-seo-assets.js",
     "build": "next build",
+    "postbuild": "node scripts/postbuild-copy.js",
     "start": "next start",
     "worker": "node src/lib/worker.js",
     "crawl:initial": "node scripts/sync-news.js --days=30",
