@@ -50,7 +50,7 @@ function isJunkOrCommentOrPromo(text) {
   }
 
   // Social media conversation prompts, quiz questions & questionnaires
-  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো|ছিলে)|কারা\s*(?:ছিলে|পড়তে|পড়ছো|পড়েছ)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন|গিয়েছো\?|গেছ\?|গেছো\?|তোমার\s*বাড়ি\s*.*?কোথায়|বেস্ট\s*চিকেন\s*রোল|কোথায়\s*পাওয়া\s*যায়\?|সবাই\s*["']?জয়\s*মা\s*কালী["']?\s*বলো|road\s*to\s*heaven|bday\s*celebration|kara\s*bolte\s*parbe|kara\s*kara\s*cheno|kara\s*cheno|chinte\s*parcho|kon\s*beach|kon\s*station|kon\s*train|henry\s*island)/i.test(lower)) return true;
+  if (/(?:profession\s*উল্লেখ|তোমরা\s*কারা|কে\s*কে\s*যাবে|কে\s*কে\s*যাচ্ছ|কারা\s*যাচ্ছ|কারা\s*কারা\s*(?:গেছ|খেয়েছ|দেখেছ|আছো|ছিলে)|কারা\s*(?:ছিলে|পড়তে|পড়ছো|পড়েছ)|কেমন\s*লাগলো\s*জানাও|কমেন্ট\s*করে\s*জানাও|বলতে\s*পারব[েোনা]|কারা\s*বলতে\s*পারব[েোনা]|কারা\s*চেনো|চিনতে\s*পারছ[েোনা]|কোথায়\s*বলতে|কে\s*কে\s*গেছো|বলুন\s*তো\s*দেখি|চিনতে\s*পারলেন|গিয়েছো\?|গেছ\?|গেছো\?|তোমার\s*বাড়ি\s*.*?কোথায়|বেস্ট\s*চিকেন\s*রোল|কোথায়\s*পাওয়া\s*যায়\?|সবাই\s*["']?জয়\s*মা\s*কালী["']?\s*বলো|road\s*to\s*heaven|bday\s*celebration|kara\s*bolte\s*parbe|kara\s*kara\s*cheno|kara\s*cheno|chinte\s*parcho|kon\s*beach|kon\s*station|kon\s*train|henry\s*island|অক্টোবর\s*মানেই|যে\s*ব্যক্তি\s*কোনও\s*স্বার্থ|ঈশ্বর\s*তাঁর\s*সর্বদাই)/i.test(lower)) return true;
 
   // Multiple-choice questionnaire / quiz options like 1) ... 2) ... 3) ...
   if (/(?:1\)\s*.*?\b2\)\s*.*?\b3\)|1\.\s*.*?\b2\.\s*.*?\b3\.)/s.test(t)) return true;
