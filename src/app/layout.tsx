@@ -36,6 +36,19 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
+    ],
+    shortcut: '/favicon.ico',
+  },
   openGraph: {
     title: 'বারুইপুর Baruipur - ২৪x৭ তাজা আঞ্চলিক খবর ও আপডেট',
     description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার সামাজিক যোগাযোগ মাধ্যম ও সংবাদের নির্ভরযোগ্য সংকলন।',
@@ -43,11 +56,20 @@ export const metadata: Metadata = {
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুর অনলাইন - Baruipur Online'
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'বারুইপুর Baruipur - ২৪x৭ তাজা খবর',
     description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার নির্ভরযোগ্য আঞ্চলিক সংবাদ পোর্টাল।',
+    images: ['https://baruipur.online/images/og-image.png'],
   },
   other: {
     'geo.region': 'IN-WB',

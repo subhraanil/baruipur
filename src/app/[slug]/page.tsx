@@ -163,7 +163,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
       url: 'https://baruipur.online/',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://baruipur.online/images/og-image.png'
+        url: 'https://baruipur.online/images/logo.png'
       }
     },
     articleSection: article.categoryNameBn,

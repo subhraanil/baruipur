@@ -115,18 +115,13 @@ export default function Header() {
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
 
-            <a href="/" className="group flex flex-col">
-              <div className="flex items-baseline gap-2.5">
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight group-hover:text-red-600 transition">
-                  বারুইপুর
-                </h1>
-                <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-red-600 tracking-tight">
-                  Baruipur
-                </span>
-              </div>
-              <p className="text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide mt-0.5">
-                দক্ষিণ ২৪ পরগনার নির্ভরযোগ্য আঞ্চলিক ডিজিটাল সংবাদ পোর্টাল
-              </p>
+            <a href="/" className="group flex items-center gap-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
+                src="/images/logo.png" 
+                alt="বারুইপুর অনলাইন - Baruipur Online" 
+                className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
             </a>
           </div>
 

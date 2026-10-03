@@ -9,10 +9,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Info */}
           <div>
-            <div className="flex items-baseline gap-2 mb-4">
-              <h2 className="text-2xl font-black text-white">বারুইপুর</h2>
-              <span className="text-lg font-bold text-red-500">Baruipur</span>
-            </div>
+            <a href="/" className="inline-block mb-4 group">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <div className="bg-white rounded-xl p-2.5 shadow-sm inline-block group-hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/images/logo.png" 
+                  alt="বারুইপুর অনলাইন - Baruipur Online" 
+                  className="h-10 sm:h-12 w-auto object-contain"
+                />
+              </div>
+            </a>
             <p className="text-sm text-slate-400 leading-relaxed mb-4">
               বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে এবং দক্ষিণ ২৪ পরগনার প্রত্যন্ত অঞ্চলের প্রতি মুহূর্তের তাজা খবর ও প্রয়োজনীয় নাগরিক তথ্য।
             </p>
