@@ -165,11 +165,14 @@ export default function AboutPage() {
             আমাদের প্ল্যাটফর্মের প্রকাশিত প্রতিটি তথ্য যথাযথ যাচাইয়ের পর অন্তর্ভুক্ত করা হয়। পুলিশি বা প্রশাসনিক সংবাদে স্থানীয় মহকুমা প্রশাসন, বারুইপুর পুলিশ জেলা ও স্থানীয় প্রত্যক্ষদর্শীদের বিবরণ মিলিয়ে নেওয়া হয়।
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
+            <a href="/editorial-team" className="text-xs font-bold text-white bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg shadow transition">
+              আমাদের সাংবাদিক ও সম্পাদকীয় পরিষদ →
+            </a>
             <a href="/editorial-policy" className="text-xs font-bold text-red-600 hover:text-red-700 border border-red-200 bg-red-50 px-4 py-2 rounded-lg transition">
-              সম্পূর্ণ সম্পাদকীয় নীতি পড়ুন →
+              সম্পাদকীয় নীতি
             </a>
             <a href="/corrections-policy" className="text-xs font-bold text-slate-700 hover:text-slate-900 border border-slate-200 bg-slate-50 px-4 py-2 rounded-lg transition">
-              সংশোধনী নীতি ও রিপোর্ট →
+              সংশোধনী নীতি ও রিপোর্ট
             </a>
           </div>
         </section>

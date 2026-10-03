@@ -75,6 +75,13 @@ export default function Header() {
             </a>
             <span className="text-slate-700 hidden sm:inline">|</span>
             <a 
+              href="/editorial-team" 
+              className="text-slate-300 hover:text-white font-medium hidden sm:inline"
+            >
+              সম্পাদকীয় পরিষদ
+            </a>
+            <span className="text-slate-700 hidden sm:inline">|</span>
+            <a 
               href="/about" 
               className="text-slate-300 hover:text-white font-medium"
             >
@@ -339,20 +346,27 @@ export default function Header() {
               </div>
 
               <div className="space-y-1 px-1 border-t border-slate-100 pt-2 text-xs text-slate-600">
-                <div className="grid grid-cols-2 gap-2 pt-1">
+                <div className="grid grid-cols-3 gap-2 pt-1">
+                  <a
+                    href="/editorial-team"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="p-2 rounded-lg bg-red-50 text-center font-bold text-red-800 hover:bg-red-100"
+                  >
+                    👥 বার্তা পরিষদ
+                  </a>
                   <a
                     href="/submit-news"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="p-2.5 rounded-lg bg-slate-100 text-center font-bold text-slate-800 hover:bg-slate-200"
+                    className="p-2 rounded-lg bg-slate-100 text-center font-bold text-slate-800 hover:bg-slate-200"
                   >
                     ✉️ সংবাদ পাঠান
                   </a>
                   <a
                     href="/about"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="p-2.5 rounded-lg bg-slate-100 text-center font-bold text-slate-800 hover:bg-slate-200"
+                    className="p-2 rounded-lg bg-slate-100 text-center font-bold text-slate-800 hover:bg-slate-200"
                   >
-                    ℹ️ আমাদের সম্পর্কে
+                    ℹ️ পরিচিতি
                   </a>
                 </div>
               </div>

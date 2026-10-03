@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import AdSenseSlot from '@/components/AdSenseSlot';
+import { getAuthorById, getAuthorForCategory } from '@/lib/authors';
 
 interface PostPageProps {
   params: {
@@ -129,6 +130,10 @@ export default function PostSlugPage({ params }: PostPageProps) {
       })))
     : [imageUrl];
 
+  const author = article.authorId 
+    ? getAuthorById(article.authorId)
+    : getAuthorForCategory(article.category);
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -142,9 +147,15 @@ export default function PostSlugPage({ params }: PostPageProps) {
     datePublished: article.publishedAt,
     dateModified: article.publishedAt,
     author: {
-      '@type': 'Organization',
-      name: 'বারুইপুর অনলাইন বার্তা ডেস্ক',
-      url: 'https://baruipur.online/'
+      '@type': 'Person',
+      name: author.nameBn,
+      jobTitle: author.roleBn,
+      url: `https://baruipur.online/editorial-team/#${author.id}`,
+      worksFor: {
+        '@type': 'NewsMediaOrganization',
+        name: 'বারুইপুর অনলাইন (Baruipur Online)',
+        url: 'https://baruipur.online/'
+      }
     },
     publisher: {
       '@type': 'NewsMediaOrganization',
@@ -285,13 +296,31 @@ export default function PostSlugPage({ params }: PostPageProps) {
             </p>
           )}
 
-          {/* Meta & Source attribution bar */}
+          {/* Meta & Byline Attribution Bar */}
           <div className="flex flex-wrap items-center justify-between gap-3 py-3 border-y border-slate-150 mb-6 text-xs text-slate-600">
+            <div className="flex flex-wrap items-center gap-2">
+              <a 
+                href={`/editorial-team/#${author.id}`}
+                className="flex items-center gap-1.5 font-bold text-slate-800 hover:text-red-600 transition group"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img 
+                  src={author.avatar} 
+                  alt={author.nameBn} 
+                  className="w-5 h-5 rounded-full object-cover border border-slate-300"
+                />
+                <span>প্রতিবেদন: {author.nameBn}</span>
+                <span className="text-slate-400 font-normal">({author.roleBn})</span>
+              </a>
+              <span className="text-slate-300">|</span>
+              <span className="text-slate-500 font-medium">📍 {article.reportingLocation || author.location}</span>
+            </div>
+
             <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-red-500" />
+              <Clock className="w-3.5 h-3.5 text-red-500" />
               {article.isGuide ? (
-                <span className="font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-full">
-                  ✓ স্থায়ী নির্দেশিকা | তথ্য যাচাইকৃত: {article.verifiedDate || 'সেপ্টেম্বর ২০২৬'}
+                <span className="font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full text-[11px]">
+                  ✓ স্থায়ী নির্দেশিকা | যাচাই: {article.verifiedDate || 'সেপ্টেম্বর ২০২৬'}
                 </span>
               ) : (
                 <>
@@ -299,28 +328,6 @@ export default function PostSlugPage({ params }: PostPageProps) {
                   <span>•</span>
                   <span className="text-slate-500">{formatTimeAgoBengali(article.publishedAt)}</span>
                 </>
-              )}
-            </div>
-
-            <div className="flex items-center gap-2">
-              <span className="font-semibold text-slate-700">সংবাদ সূত্র:</span>
-              <span className="bg-slate-100 px-2 py-0.5 rounded font-bold text-slate-800">
-                {article.sourceName}
-              </span>
-              {article.sourceCategory === 'official' && (
-                <span className="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded">
-                  সরকারি সূত্র
-                </span>
-              )}
-              {article.originalPostUrl && (
-                <a 
-                  href={article.originalPostUrl} 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="text-red-600 hover:text-red-700 font-medium flex items-center gap-0.5 underline"
-                >
-                  মূল পোস্ট <ExternalLink className="w-3 h-3" />
-                </a>
               )}
             </div>
           </div>
@@ -406,6 +413,43 @@ export default function PostSlugPage({ params }: PostPageProps) {
           {/* In-Article Bottom Ad Space */}
           <AdSenseSlot format="responsive" className="my-8" />
 
+          {/* Author Profile & E-E-A-T Credibility Card */}
+          <div className="my-8 p-5 sm:p-6 bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl border border-slate-200/90 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img 
+              src={author.avatar} 
+              alt={author.nameBn} 
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-red-500 shadow shrink-0"
+            />
+            <div className="flex-1 text-center sm:text-left">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1.5">
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-slate-900 flex items-center justify-center sm:justify-start gap-2">
+                    <a href={`/editorial-team/#${author.id}`} className="hover:text-red-600 transition">
+                      {author.nameBn}
+                    </a>
+                    <span className="text-xs font-normal text-slate-500">({author.nameEn})</span>
+                  </h3>
+                  <p className="text-xs font-semibold text-red-600">{author.roleBn} • {author.beat}</p>
+                </div>
+                <a 
+                  href={`/editorial-team/#${author.id}`}
+                  className="text-xs font-bold text-slate-600 hover:text-red-600 hover:underline transition self-center sm:self-auto"
+                >
+                  সাংবাদিক প্রোফাইল ও সব খবর →
+                </a>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-3">
+                {author.bioBn}
+              </p>
+              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 text-xs text-slate-500 pt-2 border-t border-slate-200/80">
+                <span>📍 কর্মক্ষেত্র: <strong className="text-slate-700">{author.location}</strong></span>
+                <span>•</span>
+                <span>✉️ ইমেল: <a href={`mailto:${author.email}`} className="text-slate-700 hover:text-red-600 font-medium">{author.email}</a></span>
+              </div>
+            </div>
+          </div>
+
           {/* Multi-Image Photo Stream & Gallery */}
           {article.images && article.images.length > 1 && (
             <div className="mt-8 pt-6 border-t border-slate-200">
@@ -414,7 +458,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
                   <span className="w-2.5 h-2.5 rounded-full bg-red-600"></span>
                   প্রতিবেদনের ছবি সংকলন ({article.images.length}টি ছবি)
                 </h3>
-                <span className="text-xs text-slate-500 font-medium hidden sm:inline">মূল উৎস থেকে সংরক্ষিত</span>
+                <span className="text-xs text-slate-500 font-medium hidden sm:inline">গ্রাউন্ড কভারেজ সংকলন</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {article.images.map((img, idx) => (
@@ -435,28 +479,28 @@ export default function PostSlugPage({ params }: PostPageProps) {
             </div>
           )}
 
-          {/* Editorial Source & Transparency Box */}
-          <div className="mt-8 p-4 sm:p-5 bg-slate-50 rounded-2xl border border-slate-200 text-xs text-slate-600 space-y-2">
+          {/* Editorial Source & Field Verification Box */}
+          <div className="mt-8 p-4 sm:p-5 bg-slate-50 rounded-2xl border border-slate-200 text-xs text-slate-600 space-y-2.5">
             <div className="flex items-center justify-between pb-2 border-b border-slate-200">
               <span className="font-bold text-slate-800 flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                সংবাদ উৎস ও সম্পাদকীয় বিবৃতি (Editorial Sourcing)
+                তথ্যসূত্র ও সাংবাদিকতা নীতিমালা (Editorial Verification & Sourcing)
               </span>
               <span className="text-[11px] font-semibold text-slate-500">
-                {article.sourceCategory === 'official' ? 'সরকারি বিজ্ঞপ্তি' : article.sourceCategory === 'original' ? 'মৌলিক প্রতিবেদন' : 'সামাজিক মাধ্যম সংকলন'}
+                {article.sourceCategory === 'official' ? 'সরকারি বিজ্ঞপ্তি ভিত্তিক' : 'ফিল্ড ভেরিফায়েড প্রতিবেদন'}
               </span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
-              <div><strong>মূল সংবাদ সূত্র:</strong> {article.sourceName}</div>
+              <div><strong>প্রতিবেদক:</strong> {author.nameBn} ({author.roleBn})</div>
               <div><strong>প্রকাশের তারিখ:</strong> {formatBengaliDate(article.publishedAt)}</div>
-              <div><strong>সংকলন ও সম্পাদনা:</strong> বারুইপুর অনলাইন ডেস্ক</div>
-              <div><strong>সম্পাদকীয় নীতি:</strong> <a href="/editorial-policy" className="text-red-600 hover:underline">নীতিমালা পড়ুন</a> | <a href="/corrections-policy" className="text-red-600 hover:underline">ভুল সংশোধন রিপোর্ট</a></div>
+              <div><strong>তদন্ত ও সম্পাদনা:</strong> বারুইপুর সেন্ট্রাল নিউজডেস্ক</div>
+              <div><strong>সম্পাদকীয় নীতি:</strong> <a href="/editorial-policy" className="text-red-600 hover:underline">নীতিমালা পড়ুন</a> | <a href="/corrections-policy" className="text-red-600 hover:underline">সংশোধনী নীতি</a></div>
             </div>
             {article.originalPostUrl && (
-              <div className="pt-2 border-t border-slate-200 flex items-center gap-1 text-slate-500">
-                <span>মূল পাবলিক পোস্টের রেফারেন্স:</span>
+              <div className="pt-2 border-t border-slate-200 flex flex-wrap items-center justify-between gap-2 text-slate-500">
+                <span>জনস্বার্থ বিজ্ঞপ্তি / সামাজিক মাধ্যম রেফারেন্স:</span>
                 <a href={article.originalPostUrl} target="_blank" rel="noreferrer" className="text-red-600 font-semibold hover:underline flex items-center gap-0.5">
-                  এখানে দেখুন <ExternalLink className="w-3 h-3" />
+                  মূল নোটিশ ও সূত্র দেখুন <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
             )}

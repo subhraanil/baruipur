@@ -89,7 +89,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
                   {article.isGuide ? 'স্থায়ী গাইড • সেপ্টেম্বর ২০২৬' : formatTimeAgoBengali(article.publishedAt)}
                 </span>
                 <span>•</span>
-                <span>সূত্র: {article.sourceName}</span>
+                <span className="text-slate-200 font-medium">প্রতিবেদন: {article.authorName || 'বারুইপুর ব্যুরো'}</span>
               </div>
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-snug group-hover:text-red-300 transition">
                 {article.title}
@@ -177,8 +177,8 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
           </div>
 
           <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-            <span className="text-slate-500 truncate max-w-[150px]">
-              সূত্র: {article.sourceName}
+            <span className="text-slate-600 truncate max-w-[170px] font-medium">
+              প্রতিবেদন: {article.authorName || 'বারুইপুর ব্যুরো'}
             </span>
             <div className="flex items-center gap-3">
               <button
@@ -246,7 +246,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
               {article.isGuide ? 'স্থায়ী গাইড • সেপ্টেম্বর ২০২৬' : formatTimeAgoBengali(article.publishedAt)}
             </span>
             <span>•</span>
-            <span className="truncate">সূত্র: {article.sourceName}</span>
+            <span className="truncate text-slate-600 font-medium">প্রতিবেদন: {article.authorName || 'বারুইপুর ব্যুরো'}</span>
           </div>
 
           <a href={postUrl}>

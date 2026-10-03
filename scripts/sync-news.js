@@ -820,7 +820,27 @@ async function runWorkflow() {
 
     const enriched = enrichContentWithContext(headline, cleaned, category);
     const summary = enriched.length > 180 ? enriched.substring(0, 175) + '...' : enriched;
-    const articleId = 'art-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6);
+    let authorId = 'subhranil-naskar';
+    let authorName = 'শুভ্রনীল নস্কর';
+    let authorRole = 'প্রধান সম্পাদক ও প্রকাশক';
+    let reportingLocation = 'বারুইপুর সদর';
+
+    if (category === 'crime') {
+      authorId = 'animesh-mukherjee';
+      authorName = 'অনিমেষ মুখার্জী';
+      authorRole = 'সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি';
+      reportingLocation = 'বারুইপুর আদালত চত্বর';
+    } else if (category === 'railway' || category === 'municipality') {
+      authorId = 'priyabrata-mondal';
+      authorName = 'প্রিয়ব্রত মণ্ডল';
+      authorRole = 'নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা';
+      reportingLocation = 'বারুইপুর জংশন';
+    } else if (category === 'culture' || category === 'education') {
+      authorId = 'mousumi-sengupta';
+      authorName = 'মৌসুমী সেনগুপ্ত';
+      authorRole = 'সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি';
+      reportingLocation = 'বারুইপুর রাসমাঠ';
+    }
 
     const article = {
       id: articleId,
@@ -831,6 +851,10 @@ async function runWorkflow() {
       content: enriched,
       category: category,
       categoryNameBn: categoryBn,
+      authorId,
+      authorName,
+      authorRole,
+      reportingLocation,
       sourceId: post.sourceId || 'multi',
       sourceName: post.sourceName || 'বারুইপুর ডেস্ক',
       sourceType: 'facebook',

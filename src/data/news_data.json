@@ -25,7 +25,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 14,
-      "crawlHash": "029428583e2d213381814ead0ce97cf7"
+      "crawlHash": "029428583e2d213381814ead0ce97cf7",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন"
     },
     {
       "id": "art-1791019133639-q3xu",
@@ -52,7 +56,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 49,
-      "crawlHash": "8a312fe0357b8145798b9033c381f452"
+      "crawlHash": "8a312fe0357b8145798b9033c381f452",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1791012529640-tt5y",
@@ -79,7 +87,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 39,
-      "crawlHash": "daf6a0bb53b944957471412c1c2ab0ea"
+      "crawlHash": "daf6a0bb53b944957471412c1c2ab0ea",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1791012528597-gff7",
@@ -106,7 +118,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 34,
-      "crawlHash": "3d74f7e7559a87751032c02db422d079"
+      "crawlHash": "3d74f7e7559a87751032c02db422d079",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790966040311-tqxx",
@@ -134,7 +150,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 55,
-      "crawlHash": "a4f0f332ae92f1f21b79ed7aad70af48"
+      "crawlHash": "a4f0f332ae92f1f21b79ed7aad70af48",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790960413031-x3ll",
@@ -158,7 +178,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 12,
-      "crawlHash": "f61ff4f41f7133cd87fc98fd69860d4b"
+      "crawlHash": "f61ff4f41f7133cd87fc98fd69860d4b",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790960409649-lxvk",
@@ -186,7 +210,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 38,
-      "crawlHash": "666e94b7bb023c840762960694f6fce1"
+      "crawlHash": "666e94b7bb023c840762960694f6fce1",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790960409036-grnh",
@@ -216,7 +244,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 22,
-      "crawlHash": "ecf3b4df2cc0a6d4f2ec351186678293"
+      "crawlHash": "ecf3b4df2cc0a6d4f2ec351186678293",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790935017166-p3hj",
@@ -243,7 +275,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 25,
-      "crawlHash": "66a39d2917da0b84bbfc5e947912c177"
+      "crawlHash": "66a39d2917da0b84bbfc5e947912c177",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790935016318-z9ha",
@@ -267,7 +303,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 30,
-      "crawlHash": "50842c3a5cb722929252fef4140b47de"
+      "crawlHash": "50842c3a5cb722929252fef4140b47de",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790881052599-il43",
@@ -297,7 +337,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "61b89f1d5453307059129b8dd0929b79"
+      "crawlHash": "61b89f1d5453307059129b8dd0929b79",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790871364168-ajil",
@@ -322,7 +366,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "b3933037270ce7506ea613c7baa91f6e"
+      "crawlHash": "b3933037270ce7506ea613c7baa91f6e",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790849993374-au89",
@@ -346,7 +394,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 16,
-      "crawlHash": "a5bc3384e5d5d0a86b5fb2be1cbe7499"
+      "crawlHash": "a5bc3384e5d5d0a86b5fb2be1cbe7499",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790849993073-u1jh",
@@ -382,7 +434,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 48,
-      "crawlHash": "bdfa807f9882a80f591a4fbba6e4a82f"
+      "crawlHash": "bdfa807f9882a80f591a4fbba6e4a82f",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790840616086-pr9n",
@@ -413,7 +469,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "b13b39e4d9e9659bb79d5a9ef95091c0"
+      "crawlHash": "b13b39e4d9e9659bb79d5a9ef95091c0",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790792994328-1x4d",
@@ -447,7 +507,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 48,
-      "crawlHash": "cb21f941db3e4e7e63c0f1149be1e92f"
+      "crawlHash": "cb21f941db3e4e7e63c0f1149be1e92f",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790792995483-6nxa",
@@ -480,7 +544,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 54,
-      "crawlHash": "10800a62bd2ed0060fee6c7ebfc370e5"
+      "crawlHash": "10800a62bd2ed0060fee6c7ebfc370e5",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790849993218-box2",
@@ -507,7 +575,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 14,
-      "crawlHash": "5650b91e0356dec00943426cf8c1e65d"
+      "crawlHash": "5650b91e0356dec00943426cf8c1e65d",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790849993290-0cyb",
@@ -535,7 +607,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "aeb441db1f106320aae6b9c8a0690beb"
+      "crawlHash": "aeb441db1f106320aae6b9c8a0690beb",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790792994971-05tl",
@@ -560,7 +636,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 48,
-      "crawlHash": "4dff5bf02a831e040490c273c65bd6f5"
+      "crawlHash": "4dff5bf02a831e040490c273c65bd6f5",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790840617965-cxqz",
@@ -589,7 +669,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "cc34239e7a542bf9eb9ec79ee69cc051"
+      "crawlHash": "cc34239e7a542bf9eb9ec79ee69cc051",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790756407600-r2be",
@@ -623,7 +707,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 65,
-      "crawlHash": "b4e98a07b22149aa34e93770f024ecb3"
+      "crawlHash": "b4e98a07b22149aa34e93770f024ecb3",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790756405688-f83b",
@@ -647,7 +735,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "9326ad6c3db70e2d11fbcb76d72f1055"
+      "crawlHash": "9326ad6c3db70e2d11fbcb76d72f1055",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790756404045-x6d3",
@@ -672,7 +764,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "a97462791e38b5b88445f7e0b8dec77f"
+      "crawlHash": "a97462791e38b5b88445f7e0b8dec77f",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790756409099-7svv",
@@ -700,7 +796,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 45,
-      "crawlHash": "8a7f17c53e5e8694caa8760fe22b3973"
+      "crawlHash": "8a7f17c53e5e8694caa8760fe22b3973",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790707494601-j1g5",
@@ -731,7 +831,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "627c8e9b083fa2538ad74bb1fd7975ff"
+      "crawlHash": "627c8e9b083fa2538ad74bb1fd7975ff",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790707494259-etzo",
@@ -766,7 +870,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 24,
-      "crawlHash": "06a95bef61e57bf72063765e719023cd"
+      "crawlHash": "06a95bef61e57bf72063765e719023cd",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790695354952-bdar",
@@ -790,7 +898,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "9cb5a23016afbfc149a2f22849f5c2b3"
+      "crawlHash": "9cb5a23016afbfc149a2f22849f5c2b3",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790676027201-manv",
@@ -822,7 +934,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 14,
-      "crawlHash": "3e9e33e1d23f13f2a7c5403699fb5b69"
+      "crawlHash": "3e9e33e1d23f13f2a7c5403699fb5b69",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790695357237-dfai",
@@ -846,7 +962,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "9c290931601e3c1669cdf95d3bfc231a"
+      "crawlHash": "9c290931601e3c1669cdf95d3bfc231a",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-guide-things-to-do-bn",
@@ -873,7 +993,11 @@
       "crawlHash": "hash-guide-things-to-do-bn",
       "isGuide": true,
       "sourceCategory": "editorial",
-      "verifiedDate": "2026-09-29"
+      "verifiedDate": "2026-09-29",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790707494802-9fhx",
@@ -900,7 +1024,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 51,
-      "crawlHash": "b5c4674e3a395a7e79a95ea69e2823e7"
+      "crawlHash": "b5c4674e3a395a7e79a95ea69e2823e7",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790649948358-gljj",
@@ -927,7 +1055,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 92,
-      "crawlHash": "28e08d6c700147fc1fec69ef332ca70d"
+      "crawlHash": "28e08d6c700147fc1fec69ef332ca70d",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790676027232-viqo",
@@ -953,7 +1085,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 38,
-      "crawlHash": "8612e178c37bcb71df7cbd982d516b3d"
+      "crawlHash": "8612e178c37bcb71df7cbd982d516b3d",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790626243898-au96",
@@ -979,7 +1115,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 65,
-      "crawlHash": "c01824be76fc250b73c9f2868ff169ea"
+      "crawlHash": "c01824be76fc250b73c9f2868ff169ea",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790579481095-0paq",
@@ -1006,7 +1146,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 76,
-      "crawlHash": "f02c4707542bc19c83ee8ded6af5bd68"
+      "crawlHash": "f02c4707542bc19c83ee8ded6af5bd68",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790695355293-z4ak",
@@ -1035,7 +1179,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 54,
-      "crawlHash": "6cd08d9e2086f90426f7d3dcf8a710e1"
+      "crawlHash": "6cd08d9e2086f90426f7d3dcf8a710e1",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790579492457-zcf3",
@@ -1060,7 +1208,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 84,
-      "crawlHash": "ee260b5a764f12be132141f1205ea85b"
+      "crawlHash": "ee260b5a764f12be132141f1205ea85b",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790695357334-bjn3",
@@ -1087,7 +1239,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 31,
-      "crawlHash": "3ec8d1c4235e4d8fead37e92b9862f15"
+      "crawlHash": "3ec8d1c4235e4d8fead37e92b9862f15",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790589668628-v2r3",
@@ -1115,7 +1271,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 79,
-      "crawlHash": "3a6aa042531aa9670f5e7da7142478eb"
+      "crawlHash": "3a6aa042531aa9670f5e7da7142478eb",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790579482801-j8h3",
@@ -1143,7 +1303,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 59,
-      "crawlHash": "7b415a7749021665a5bebe83f80c5bb1"
+      "crawlHash": "7b415a7749021665a5bebe83f80c5bb1",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790531508395-zom4",
@@ -1171,7 +1335,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 95,
-      "crawlHash": "ad56b86909845bb863b5a63dd9ecfdc2"
+      "crawlHash": "ad56b86909845bb863b5a63dd9ecfdc2",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790579488635-r4qb",
@@ -1199,7 +1367,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 62,
-      "crawlHash": "e6f9bd6992d9f868ad93ae9097e870e5"
+      "crawlHash": "e6f9bd6992d9f868ad93ae9097e870e5",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790695352623-ldlf",
@@ -1223,7 +1395,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 35,
-      "crawlHash": "578b3714d2e5878dfda344eec4b4c030"
+      "crawlHash": "578b3714d2e5878dfda344eec4b4c030",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন"
     },
     {
       "id": "art-1790579489377-iadl",
@@ -1250,7 +1426,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 68,
-      "crawlHash": "3b290150d1872aa0cfd7d590e8a7553f"
+      "crawlHash": "3b290150d1872aa0cfd7d590e8a7553f",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790695352675-6xxk",
@@ -1278,7 +1458,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 29,
-      "crawlHash": "8d1f3557b0675d663b64966af5627e07"
+      "crawlHash": "8d1f3557b0675d663b64966af5627e07",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1790871359934-hpf0",
@@ -1306,7 +1490,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 14,
-      "crawlHash": "f96184c221d0da78a6a8a27f69da0a51"
+      "crawlHash": "f96184c221d0da78a6a8a27f69da0a51",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790579490480-wd4l",
@@ -1334,7 +1522,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 71,
-      "crawlHash": "1a2722a6b266354a2c6c2ed5ea6c4036"
+      "crawlHash": "1a2722a6b266354a2c6c2ed5ea6c4036",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790695355161-aa8t",
@@ -1363,7 +1555,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 37,
-      "crawlHash": "8b1c36c148885251909251688f75e2fd"
+      "crawlHash": "8b1c36c148885251909251688f75e2fd",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790579483302-t98v",
@@ -1390,7 +1586,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "2c79219f70bbbe2509176f1e84dfccaa"
+      "crawlHash": "2c79219f70bbbe2509176f1e84dfccaa",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790871360332-26vd",
@@ -1414,7 +1614,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "995bb5c0bf9fdd13da9d7eb247e54705"
+      "crawlHash": "995bb5c0bf9fdd13da9d7eb247e54705",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790871360124-xa66",
@@ -1442,7 +1646,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 23,
-      "crawlHash": "cd9cdc9a17b5248d6e3b625cacded90d"
+      "crawlHash": "cd9cdc9a17b5248d6e3b625cacded90d",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790426271313-jvo1",
@@ -1469,7 +1677,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "c985833c0992edd5bc0f7e67b6c744e4"
+      "crawlHash": "c985833c0992edd5bc0f7e67b6c744e4",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790412299478-xf1l",
@@ -1493,7 +1705,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 44,
-      "crawlHash": "38783a7a6487276ed625a41b4e213b16"
+      "crawlHash": "38783a7a6487276ed625a41b4e213b16",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790359244041-1y8h",
@@ -1521,7 +1737,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 40,
-      "crawlHash": "0ac5e70ff0aa5c04a420e1f1877da82e"
+      "crawlHash": "0ac5e70ff0aa5c04a420e1f1877da82e",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন"
     },
     {
       "id": "art-1790412299889-sugi",
@@ -1552,7 +1772,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 51,
-      "crawlHash": "c067a8de9ab82175299e551765061a94"
+      "crawlHash": "c067a8de9ab82175299e551765061a94",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1790359243722-kbcy",
@@ -1584,7 +1808,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 42,
-      "crawlHash": "b52bb4fffa94b300ea65bed2f05c4232"
+      "crawlHash": "b52bb4fffa94b300ea65bed2f05c4232",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790359243529-jv9y",
@@ -1608,7 +1836,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 22,
-      "crawlHash": "b0541c6210452ccbcfec757bdab0c672"
+      "crawlHash": "b0541c6210452ccbcfec757bdab0c672",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর মহকুমা হাসপাতাল চত্বর"
     },
     {
       "id": "art-1790326711102-k5t7",
@@ -1632,7 +1864,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 53,
-      "crawlHash": "1450053a224d346597eb81e38985316e"
+      "crawlHash": "1450053a224d346597eb81e38985316e",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790326711582-qrmm",
@@ -1662,7 +1898,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 27,
-      "crawlHash": "d66d1702a0c632d9f0b3b123b3a2a5c2"
+      "crawlHash": "d66d1702a0c632d9f0b3b123b3a2a5c2",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790308600147-bji2",
@@ -1692,7 +1932,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "3cd3cc96dd659f40d9d4ee55399454e1"
+      "crawlHash": "3cd3cc96dd659f40d9d4ee55399454e1",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790695355081-ff2o",
@@ -1720,7 +1964,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "cc921fcef48738e93ce65044e3948daa"
+      "crawlHash": "cc921fcef48738e93ce65044e3948daa",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790308601374-c50x",
@@ -1748,7 +1996,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "2fe2b732ee83ce604b51f87e58777c7a"
+      "crawlHash": "2fe2b732ee83ce604b51f87e58777c7a",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790272481184-alxn",
@@ -1772,7 +2024,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 57,
-      "crawlHash": "883906447cae05624d39c5c719a570d1"
+      "crawlHash": "883906447cae05624d39c5c719a570d1",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790308602463-c7uh",
@@ -1801,7 +2057,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 55,
-      "crawlHash": "836f954a2ed903295ef1a01cca8eff67"
+      "crawlHash": "836f954a2ed903295ef1a01cca8eff67",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790426269738-ik4h",
@@ -1829,7 +2089,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 24,
-      "crawlHash": "890dbacdbc1481c990bf9a02775febde"
+      "crawlHash": "890dbacdbc1481c990bf9a02775febde",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790239024005-sjy1",
@@ -1855,7 +2119,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 18,
-      "crawlHash": "a36e1677c10b7097e26c60d16a39853a"
+      "crawlHash": "a36e1677c10b7097e26c60d16a39853a",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790186040941-y6lo",
@@ -1886,7 +2154,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 26,
-      "crawlHash": "36bd828cf3da174586ff894d04ca96b5"
+      "crawlHash": "36bd828cf3da174586ff894d04ca96b5",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790239024286-mufx",
@@ -1914,7 +2186,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 10,
-      "crawlHash": "0cc7b8e1747186e38444cb99ebb87d1a"
+      "crawlHash": "0cc7b8e1747186e38444cb99ebb87d1a",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790153039781-bq0y",
@@ -1943,7 +2219,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 26,
-      "crawlHash": "7a23d6070c76e2bb85a9c5ed88fb5c5a"
+      "crawlHash": "7a23d6070c76e2bb85a9c5ed88fb5c5a",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790426269905-c9kd",
@@ -1971,7 +2251,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 39,
-      "crawlHash": "4271f8faabe6cde9bff332c9da0c839b"
+      "crawlHash": "4271f8faabe6cde9bff332c9da0c839b",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790153039209-y6dh",
@@ -1995,7 +2279,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 43,
-      "crawlHash": "5a3f875ce89803dd7793e962496aa837"
+      "crawlHash": "5a3f875ce89803dd7793e962496aa837",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161111822-xirv",
@@ -2019,7 +2307,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "d6bda80beb444eb50a2bce7144d7c5b9"
+      "crawlHash": "d6bda80beb444eb50a2bce7144d7c5b9",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790426271929-s2i8",
@@ -2047,7 +2339,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 36,
-      "crawlHash": "1510128c6976701279c1b0ad79ff867a"
+      "crawlHash": "1510128c6976701279c1b0ad79ff867a",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790426269387-ce6a",
@@ -2071,7 +2367,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 59,
-      "crawlHash": "c5d11f06dff962a79f503b599d4a7d9b"
+      "crawlHash": "c5d11f06dff962a79f503b599d4a7d9b",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790098878826-l0nj",
@@ -2097,7 +2397,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 12,
-      "crawlHash": "3aac243e1786051723e4e7cb7498882c"
+      "crawlHash": "3aac243e1786051723e4e7cb7498882c",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790098877022-de9v",
@@ -2122,7 +2426,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 21,
-      "crawlHash": "614073e9b5afd0a3262dbe1b6dbb8e09"
+      "crawlHash": "614073e9b5afd0a3262dbe1b6dbb8e09",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790098878535-gump",
@@ -2148,7 +2456,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "78b6ad0f02d54e5cf6d4d764368081d7"
+      "crawlHash": "78b6ad0f02d54e5cf6d4d764368081d7",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790098878361-gysf",
@@ -2176,7 +2488,11 @@
       "isFeatured": true,
       "status": "published",
       "views": 17,
-      "crawlHash": "803f59a533158c2d224f328d4ea98160"
+      "crawlHash": "803f59a533158c2d224f328d4ea98160",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161112983-lx1k",
@@ -2205,7 +2521,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 17,
-      "crawlHash": "edfdcf045951abe6499d76384a7f17c7"
+      "crawlHash": "edfdcf045951abe6499d76384a7f17c7",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790098879310-0oqn",
@@ -2236,7 +2556,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 25,
-      "crawlHash": "cdaa2616d6da14d85a272e3786e3180d"
+      "crawlHash": "cdaa2616d6da14d85a272e3786e3180d",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790153040216-tq5g",
@@ -2266,7 +2590,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "e316e822dc1206ac25f343bded997e35"
+      "crawlHash": "e316e822dc1206ac25f343bded997e35",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1790070341351-qzp6",
@@ -2293,7 +2621,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 51,
-      "crawlHash": "8db0c6a77165512854913a0e851e42e4"
+      "crawlHash": "8db0c6a77165512854913a0e851e42e4",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1790070342133-uode",
@@ -2324,7 +2656,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 36,
-      "crawlHash": "fe36d28c51ef762ab6a5f252762a4078"
+      "crawlHash": "fe36d28c51ef762ab6a5f252762a4078",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790016632237-sape",
@@ -2356,7 +2692,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 45,
-      "crawlHash": "bffe67fece390860662f26ed00f734f1"
+      "crawlHash": "bffe67fece390860662f26ed00f734f1",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1789986558886-a2q6",
@@ -2381,7 +2721,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "00876b6598fe5444bbb3ce6db8fca101"
+      "crawlHash": "00876b6598fe5444bbb3ce6db8fca101",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789986560836-coog",
@@ -2412,7 +2756,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 33,
-      "crawlHash": "474905a89598190a8a2c8bc4abfca6be"
+      "crawlHash": "474905a89598190a8a2c8bc4abfca6be",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789977848930-mys7",
@@ -2442,7 +2790,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 13,
-      "crawlHash": "ff684d877f2d8ebbab52487dcd7cd750"
+      "crawlHash": "ff684d877f2d8ebbab52487dcd7cd750",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789986562942-lvmo",
@@ -2471,7 +2823,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 39,
-      "crawlHash": "ecccd4ab5c01bed7c4d3c96c70348ade"
+      "crawlHash": "ecccd4ab5c01bed7c4d3c96c70348ade",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161114590-urc0",
@@ -2497,7 +2853,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 14,
-      "crawlHash": "910dc266c0da1c1e3ba4f76459537d4c"
+      "crawlHash": "910dc266c0da1c1e3ba4f76459537d4c",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1789893830446-92oc",
@@ -2530,7 +2890,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 19,
-      "crawlHash": "72b1bb626b650983d1aa6b200a4cbbde"
+      "crawlHash": "72b1bb626b650983d1aa6b200a4cbbde",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789893829917-zqfw",
@@ -2556,7 +2920,11 @@
       "views": 41,
       "crawlHash": "5012a6a08a13be7560bd72a4c9303276",
       "videoUrl": "https://www.facebook.com/watch/?v=1667543914989280",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1667543914989280&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1667543914989280&show_text=0",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1790308599191-4sp5",
@@ -2583,7 +2951,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "dcfa1e4c43c84a931426a84ed70f877f"
+      "crawlHash": "dcfa1e4c43c84a931426a84ed70f877f",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161117538-7rmb",
@@ -2611,7 +2983,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 50,
-      "crawlHash": "0c8ef6d3f1abcbdc30693a055d547499"
+      "crawlHash": "0c8ef6d3f1abcbdc30693a055d547499",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161116117-s37p",
@@ -2640,7 +3016,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 20,
-      "crawlHash": "73ad661437bc7e3aac1768f09db265f7"
+      "crawlHash": "73ad661437bc7e3aac1768f09db265f7",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789805484622-jec0",
@@ -2671,7 +3051,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 44,
-      "crawlHash": "df0b8921971c42ee9b4be74386fc370d"
+      "crawlHash": "df0b8921971c42ee9b4be74386fc370d",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789751313406-yg6u",
@@ -2705,7 +3089,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 59,
-      "crawlHash": "305c42360e46bfd80a4e2be4a06ea5c2"
+      "crawlHash": "305c42360e46bfd80a4e2be4a06ea5c2",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789751312741-fpmo",
@@ -2730,7 +3118,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 27,
-      "crawlHash": "3fd7cd5c63a3360030529f702f9fe5bb"
+      "crawlHash": "3fd7cd5c63a3360030529f702f9fe5bb",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789805483803-y5ze",
@@ -2755,7 +3147,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 58,
-      "crawlHash": "faa7b21089773c88fe44e3d65bc08417"
+      "crawlHash": "faa7b21089773c88fe44e3d65bc08417",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161108049-r2a9",
@@ -2782,7 +3178,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 35,
-      "crawlHash": "4eabd6426441b5b61b489bb647e7b4c2"
+      "crawlHash": "4eabd6426441b5b61b489bb647e7b4c2",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161109656-ye1a",
@@ -2806,7 +3206,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 24,
-      "crawlHash": "1609cfd28b686329c80d03890fb948ff"
+      "crawlHash": "1609cfd28b686329c80d03890fb948ff",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789719817919-lb0e",
@@ -2837,7 +3241,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 48,
-      "crawlHash": "32f6af4fb3ac83c8e3e1e16ba37f18a5"
+      "crawlHash": "32f6af4fb3ac83c8e3e1e16ba37f18a5",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1790161108513-o1up",
@@ -2861,7 +3269,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 52,
-      "crawlHash": "c5831ac5560eb0de25e033c29eed62aa"
+      "crawlHash": "c5831ac5560eb0de25e033c29eed62aa",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789719818185-188y",
@@ -2888,7 +3300,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 47,
-      "crawlHash": "2c0a547f35b68613201a3749a582fef1"
+      "crawlHash": "2c0a547f35b68613201a3749a582fef1",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789719817728-of2l",
@@ -2918,7 +3334,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 32,
-      "crawlHash": "18392b528671333fef171c4bf314c8cf"
+      "crawlHash": "18392b528671333fef171c4bf314c8cf",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789666871752-rzn3",
@@ -2947,7 +3367,11 @@
       "views": 14,
       "crawlHash": "bb3ab1c3dbbb595ca599740d9a1111bd",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789666871555-upjc",
@@ -2977,7 +3401,11 @@
       "views": 53,
       "crawlHash": "f363b205036fd3efa1ea5d4a7dab9193",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1790161109598-2zc1",
@@ -3004,7 +3432,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 56,
-      "crawlHash": "f460e2bc0a419fc92f1c6c80d8fb2485"
+      "crawlHash": "f460e2bc0a419fc92f1c6c80d8fb2485",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789662977434-cp0d",
@@ -3033,7 +3465,11 @@
       "views": 37,
       "crawlHash": "3c187bc9dbc80c36d95c20f8716fbf74",
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789662979251-gxci",
@@ -3063,7 +3499,11 @@
       "views": 53,
       "crawlHash": "bb51a13c357f8d65f644f470dcdf0ea6",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789662978785-emtt",
@@ -3089,7 +3529,11 @@
       "views": 40,
       "crawlHash": "d86e72fdebc228ded82d1483ef8110fb",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789666871979-1ius",
@@ -3119,7 +3563,11 @@
       "views": 19,
       "crawlHash": "8950e0d315a1c3bba8a40727e4dc6546",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789719818343-ovnn",
@@ -3146,7 +3594,11 @@
       "isFeatured": false,
       "status": "published",
       "views": 27,
-      "crawlHash": "106044acd19d8f04496fa8f487e01d26"
+      "crawlHash": "106044acd19d8f04496fa8f487e01d26",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর মহকুমা হাসপাতাল চত্বর"
     },
     {
       "id": "art-1789662973125-dgum",
@@ -3173,7 +3625,11 @@
       "views": 17,
       "crawlHash": "680eb6e1760a587e3fae2c75a732b9ba",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789634853761-izo9",
@@ -3211,7 +3667,11 @@
       "views": 18,
       "crawlHash": "2e0c4eebf1a81c7d698b92aa119cb4ff",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন"
     },
     {
       "id": "art-1789569609875-6r50",
@@ -3241,7 +3701,11 @@
       "views": 27,
       "crawlHash": "54e28b3b00b693efc705fd5696749709",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789569611637-eycm",
@@ -3267,7 +3731,11 @@
       "views": 57,
       "crawlHash": "f9222012afcf0c8857882b258bbec7cb",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789569612374-byyx",
@@ -3300,7 +3768,11 @@
       "views": 56,
       "crawlHash": "439ec2a119c553056dffe0405b9cda45",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789538541072-btje",
@@ -3329,7 +3801,11 @@
       "views": 47,
       "crawlHash": "2ba2fa33b1d6c213aef64b6e493e6ea8",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789662976089-c2fu",
@@ -3356,7 +3832,11 @@
       "views": 28,
       "crawlHash": "666926e6a94859640dd8bbaf132132f5",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789662971252-btw3",
@@ -3384,7 +3864,11 @@
       "views": 27,
       "crawlHash": "1e08c30b5785d8d51b3bc7d097c0ad37",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789538550306-bh17",
@@ -3414,7 +3898,11 @@
       "views": 33,
       "crawlHash": "2a06ae115a7e1212731ad2b26e5e3220",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789538541792-fdp1",
@@ -3442,7 +3930,11 @@
       "views": 23,
       "crawlHash": "fcb97040eda51af194f2ea4718d9a6b7",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789538551083-2pbe",
@@ -3471,7 +3963,11 @@
       "views": 57,
       "crawlHash": "60b6608f4838486c3525389b058b04f0",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর মহকুমা হাসপাতাল চত্বর"
     },
     {
       "id": "art-1789484277354-me87",
@@ -3499,7 +3995,11 @@
       "views": 24,
       "crawlHash": "447cb136a7943a6a43d7a938129695da",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789538548902-an27",
@@ -3529,7 +4029,11 @@
       "views": 35,
       "crawlHash": "e166f7ac5e0064157bfc53ec43b1d62f",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789484277893-pbt2",
@@ -3559,7 +4063,11 @@
       "views": 21,
       "crawlHash": "73e53f9c1ee0fd434fd921c344738d26",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1789484267618-moq8",
@@ -3587,7 +4095,11 @@
       "videoUrl": "https://www.facebook.com/watch/?v=1559963682597688",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1559963682597688&show_text=0",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789484276949-mbv2",
@@ -3620,7 +4132,11 @@
       "videoUrl": "https://www.facebook.com/watch/?v=1755343625680228",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1755343625680228&show_text=0",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789484269525-evun",
@@ -3646,7 +4162,11 @@
       "views": 50,
       "crawlHash": "0ec5b74df1dc408d59493eba8668515f",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789484277356-jttf",
@@ -3675,7 +4195,11 @@
       "views": 46,
       "crawlHash": "92edd2a30355dd5afefad09f41e66375",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর মহকুমা হাসপাতাল চত্বর"
     },
     {
       "id": "art-1789484265454-yo7y",
@@ -3704,7 +4228,11 @@
       "views": 46,
       "crawlHash": "54693812eb2cabeb99524a72bf1142ce",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789441889019-gv7u",
@@ -3731,7 +4259,11 @@
         "/images/crawled/d3fa392ff6c182ff0719ca1c57314891.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789484269526-ct5y",
@@ -3759,7 +4291,11 @@
       "videoUrl": "https://www.facebook.com/watch/?v=1432915012130966",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1432915012130966&show_text=0",
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444450893-7rl9",
@@ -3787,7 +4323,11 @@
       "views": 20,
       "crawlHash": "51c7699b0de319bc4147a0a70dd84c33",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789441891558-r164",
@@ -3813,7 +4353,11 @@
         "/images/crawled/6b932fbbb648277235628215167a238d.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450894-3q4i",
@@ -3844,7 +4388,11 @@
       "views": 26,
       "crawlHash": "f15c8ed7db4f96c7d71faef4b91923f9",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450895-s6zf",
@@ -3875,7 +4423,11 @@
       "views": 19,
       "crawlHash": "e7783393c20e7385d1596998219d8f29",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450895-q80u",
@@ -3902,7 +4454,11 @@
       "views": 51,
       "crawlHash": "aa09b85cd27667f2ed03a8efa3dbcf61",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450895-gwt5",
@@ -3929,7 +4485,11 @@
       "views": 22,
       "crawlHash": "859f38c7db39ac230965e3a13c182001",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450895-46yy",
@@ -3957,7 +4517,11 @@
       "views": 52,
       "crawlHash": "1272d9b46883f0783d7258b8ac48fa38",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450895-f4lz",
@@ -3984,7 +4548,11 @@
       "views": 63,
       "crawlHash": "57909dbea74eced514bfbac24e8a822b",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789441899168-jtjg",
@@ -4010,7 +4578,11 @@
         "/images/crawled/5631c8ff55a654e631d27942b995b7ee.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444519142-edpo",
@@ -4041,7 +4613,11 @@
       "views": 32,
       "crawlHash": "674b530e2c6bcf8eb6de56558ca68df8",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444450896-lwxp",
@@ -4072,7 +4648,11 @@
       "isGuide": false,
       "sourceCategory": "community",
       "videoUrl": "https://www.facebook.com/watch/?v=1457165596264771",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1457165596264771&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1457165596264771&show_text=0",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444478676-ei8c",
@@ -4100,7 +4680,11 @@
       "views": 34,
       "crawlHash": "b3402f936f2d10318e75b22034ab5c9e",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450896-3jo4",
@@ -4131,7 +4715,11 @@
       "views": 50,
       "crawlHash": "23d89dfff0878e82b24d5572f3d5b4c2",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444482736-wj50",
@@ -4160,7 +4748,11 @@
       "views": 52,
       "crawlHash": "9485fe863ca5f1241e4ea85e8890de94",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444490358-g7fg",
@@ -4191,7 +4783,11 @@
       "views": 29,
       "crawlHash": "1102769accd05d53a842e120e278f874",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789441893367-inry",
@@ -4217,7 +4813,11 @@
         "/images/crawled/f75743257f10658a18c9b5311b05078b.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444491111-1z51",
@@ -4247,7 +4847,11 @@
       "views": 61,
       "crawlHash": "0bff68bbdbfa6976160c53122214e999",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789388786133-gtpx",
@@ -4278,7 +4882,11 @@
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444450896-xdua",
@@ -4316,7 +4924,11 @@
       "videoUrl": "https://www.facebook.com/watch/?v=945124048656128",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D945124048656128&show_text=0",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789441900126-n1fe",
@@ -4344,7 +4956,11 @@
         "/images/crawled/97214687eef726249a731d963cd43ddd.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789441894879-9tpm",
@@ -4370,7 +4986,11 @@
         "/images/crawled/944ed18ac74a7f460a41d8da6c3b66c0.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444450896-eczn",
@@ -4397,7 +5017,11 @@
       "views": 33,
       "crawlHash": "e0c9c37a9eb393eba893fe4c7b4d7865",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444503265-n0ve",
@@ -4428,7 +5052,11 @@
       "views": 35,
       "crawlHash": "00b0a6f6cafe11aab2f66f1f278c8dbf",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789441899177-ok89",
@@ -4456,7 +5084,11 @@
         "/images/crawled/37d1bf0255750f7183bc526cf91d06ec.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444504640-suhp",
@@ -4483,7 +5115,11 @@
       "views": 33,
       "crawlHash": "a571c9beb965f955177fa3a253c57027",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388784053-43vb",
@@ -4512,7 +5148,11 @@
         "/images/crawled/14f1aa0d322f98dfb009340c1b875010.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789388810960-lmt7",
@@ -4543,7 +5183,11 @@
         "/images/crawled/19e04147c15819aca720e335fa987011.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444457649-exlx",
@@ -4570,7 +5214,11 @@
       "views": 39,
       "crawlHash": "adfec6c18994dea9864da33ae16bbbaa",
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন"
     },
     {
       "id": "art-1789444506558-lyo9",
@@ -4597,7 +5245,11 @@
       "views": 15,
       "crawlHash": "f88dd1bc108f1e2187389406160878fc",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444504669-bp0e",
@@ -4627,7 +5279,11 @@
       "views": 60,
       "crawlHash": "d740920d3a89e035386dcd5aec1ee011",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444506593-6df3",
@@ -4657,7 +5313,11 @@
       "views": 29,
       "crawlHash": "8a8dad3daea832a13d73113d6fafa646",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444507745-2u05",
@@ -4687,7 +5347,11 @@
       "views": 37,
       "crawlHash": "55f375e1ce4a8f4ae21c73372373d8e7",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388782408-45uz",
@@ -4718,7 +5382,11 @@
         "/images/crawled/43ddb60beccae7e7fdd30577f4ed5ace.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789444505195-7d4n",
@@ -4748,7 +5416,11 @@
       "views": 25,
       "crawlHash": "98f88cd8255706302fa4cb6006a55a30",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444508322-prf8",
@@ -4778,7 +5450,11 @@
       "views": 39,
       "crawlHash": "7085b2af08dded5f4e0dd6456e084147",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444458954-lmr5",
@@ -4806,7 +5482,11 @@
       "views": 55,
       "crawlHash": "5b1976fcc365b02e84807838bcfb4b0e",
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789388785598-n83v",
@@ -4835,7 +5515,11 @@
         "/images/crawled/c044f5ac1147a4daff0d38e35f006349.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789388785600-43dv",
@@ -4876,7 +5560,11 @@
         "/images/crawled/ed4a359081b5a4f70659701911c0ac94.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789388809604-nddm",
@@ -4907,7 +5595,11 @@
         "/images/crawled/66cd447ded0400e6cde27779b7247aef.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর মহকুমা হাসপাতাল চত্বর"
     },
     {
       "id": "art-1789444541117-708i",
@@ -4938,7 +5630,11 @@
       "views": 57,
       "crawlHash": "04cd623820522f317c6f513aa72ce633",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444495315-3hoj",
@@ -4972,7 +5668,11 @@
       "isGuide": false,
       "sourceCategory": "community",
       "videoUrl": "https://www.facebook.com/watch/?v=1625938558976334",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1625938558976334&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1625938558976334&show_text=0",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789388809604-6ra8",
@@ -5003,7 +5703,11 @@
         "/images/crawled/3d5ed09373d14451224eddb0d5bad03b.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789145469601-euqi",
@@ -5032,7 +5736,11 @@
         "/images/crawled/33606aa570880e82da06c26a016e307c.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789145469628-j2vh",
@@ -5062,7 +5770,11 @@
         "/images/crawled/c80212a95c6ae4bb6b934b6a187eb8b0.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789145469655-j7nt",
@@ -5091,7 +5803,11 @@
         "/images/crawled/717fb2d5f310904af34905208470f7a3.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444458954-03sr",
@@ -5118,7 +5834,11 @@
       "views": 29,
       "crawlHash": "9e8576b30a30af926cbcd488c1a287fe",
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789145469674-15d7",
@@ -5151,7 +5871,11 @@
         "/images/crawled/ea802c151754299c23142df8ff330819.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789388813327-bud3",
@@ -5182,7 +5906,11 @@
         "/images/crawled/189bbf6682ebf52119a5b90c86f16f5b.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444520253-v1m3",
@@ -5212,7 +5940,11 @@
       "views": 47,
       "crawlHash": "6845f7a4c26068981de8d033a12f4273",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444505254-fm1z",
@@ -5242,7 +5974,11 @@
       "views": 52,
       "crawlHash": "cd9201b608d93d8c84f3b2f590398601",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444505286-1e31",
@@ -5272,7 +6008,11 @@
       "views": 20,
       "crawlHash": "2ddc9c66f170c5ac35b4e6cc6230ba03",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388790158-otg5",
@@ -5303,7 +6043,11 @@
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789388809605-hys2",
@@ -5334,7 +6078,11 @@
         "/images/crawled/a50945ee1c07ac1a54b388d8e09b94ac.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789145469738-hp4g",
@@ -5363,7 +6111,11 @@
         "/images/crawled/daff7ddf3d19ff2c90907a1e8d7e9e7d.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444500138-7dc3",
@@ -5393,7 +6145,11 @@
       "views": 44,
       "crawlHash": "15bf85eef0a30faa776a14a7e83f0b4b",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444505539-kzfx",
@@ -5423,7 +6179,11 @@
       "views": 56,
       "crawlHash": "872eab18d25ec5c323bcb7a7abf7bc99",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789388809606-xds4",
@@ -5452,7 +6212,11 @@
         "/images/crawled/6578e02210958966089bfa16141f2233.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444508902-jdyi",
@@ -5482,7 +6246,11 @@
       "views": 60,
       "crawlHash": "99c1c0db9591c842657b9b99bc529a4e",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388814312-6pdc",
@@ -5513,7 +6281,11 @@
         "/images/crawled/b3ab9250d9267b5a0507c59bd8148b67.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444508932-qose",
@@ -5549,7 +6321,11 @@
       "views": 40,
       "crawlHash": "75a6cd31205c1fbedf3918185251d416",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444500176-cg4x",
@@ -5579,7 +6355,11 @@
       "views": 32,
       "crawlHash": "2327105bf19501a4fbb26cd561ad7195",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444508933-4086",
@@ -5606,7 +6386,11 @@
       "views": 52,
       "crawlHash": "a1856e510ef9eadda540f25ff5451fae",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444500255-ty5j",
@@ -5636,7 +6420,11 @@
       "views": 46,
       "crawlHash": "ed89bce77caa8ab3c1160af147fcf311",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444520286-c1bk",
@@ -5666,7 +6454,11 @@
       "views": 64,
       "crawlHash": "62b36383232af82f9ee8922b6adff100",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789444458955-2mes",
@@ -5693,7 +6485,11 @@
       "views": 33,
       "crawlHash": "c7bd34a1ce496cbff86d57ce8bd20a53",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388790158-7hne",
@@ -5724,7 +6520,11 @@
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444520855-sl21",
@@ -5754,7 +6554,11 @@
       "views": 23,
       "crawlHash": "6f7fec2d3dcc01f3678870299b3b9bff",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388825271-3pla",
@@ -5785,7 +6589,11 @@
         "/images/crawled/6b83eb37ed1cb01b33662983e482f82f.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444501692-sex2",
@@ -5813,7 +6621,11 @@
       "views": 51,
       "crawlHash": "e29b129735fe564dcc24e678c2cb3a30",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444521288-8thr",
@@ -5843,7 +6655,11 @@
       "views": 45,
       "crawlHash": "90207c3397530a26596063f60c227e87",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1789444545466-ugfa",
@@ -5870,7 +6686,11 @@
       "views": 55,
       "crawlHash": "13f97d351aa318743441ee50fb8d4259",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444502216-ltkx",
@@ -5900,7 +6720,11 @@
       "views": 32,
       "crawlHash": "ef03b18a1633a718243d9e6f4080db9a",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444521750-wrgj",
@@ -5930,7 +6754,11 @@
       "views": 26,
       "crawlHash": "279a23f5ccd9e27c7a0bfbd2121a0b08",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444549499-v00c",
@@ -5962,7 +6790,11 @@
       "views": 46,
       "crawlHash": "84e9de301c89b6b24cd2e81672438427",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444508933-3coi",
@@ -5989,7 +6821,11 @@
       "views": 28,
       "crawlHash": "212014e1d20a510693c92593df463941",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789444458954-b6li",
@@ -6016,7 +6852,11 @@
       "views": 34,
       "crawlHash": "80a4e73004f52d0d4f0614a7189eeaea",
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন"
     },
     {
       "id": "art-1789388791585-8z3f",
@@ -6045,7 +6885,11 @@
         "/images/crawled/785699acf8c2bf10cd79063144187838.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789388792833-35v6",
@@ -6076,7 +6920,11 @@
         "/images/crawled/9e99b26c6ade86a29150fa4efaa13139.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444522717-c49k",
@@ -6106,7 +6954,11 @@
       "views": 50,
       "crawlHash": "0e96fb3bedfa28c7788d9907e6347464",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789444523129-sibf",
@@ -6136,7 +6988,11 @@
       "views": 33,
       "crawlHash": "be07f049f1d6d59517ee21c991843065",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789388794046-amz1",
@@ -6165,7 +7021,11 @@
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444527250-qjk3",
@@ -6195,7 +7055,11 @@
       "views": 23,
       "crawlHash": "ce35e5b7f9a37b97e2c69bb3a3bcdf54",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1789388794046-hlkv",
@@ -6224,7 +7088,11 @@
         "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "official"
+      "sourceCategory": "official",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444527677-yi9e",
@@ -6254,7 +7122,11 @@
       "views": 19,
       "crawlHash": "9f95aa334e10340222e6b0ce83d708a3",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444502850-0ks6",
@@ -6284,7 +7156,11 @@
       "views": 42,
       "crawlHash": "33e8f8f7cbda7da7e54db4982e879793",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-guide-baruipur-politics",
@@ -6311,7 +7187,11 @@
       "crawlHash": "7a3cb7f48b7e727e2e94e3040d504a8b",
       "isGuide": true,
       "sourceCategory": "original",
-      "verifiedDate": "September 2026"
+      "verifiedDate": "September 2026",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-guide-things-to-do",
@@ -6338,7 +7218,11 @@
       "crawlHash": "35c659c8d34b913e9a975a1d281c65ed",
       "isGuide": true,
       "sourceCategory": "original",
-      "verifiedDate": "September 2026"
+      "verifiedDate": "September 2026",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-guide-places-to-visit",
@@ -6365,7 +7249,11 @@
       "crawlHash": "e9d2527d464884e8fa28015bf97741b0",
       "isGuide": true,
       "sourceCategory": "original",
-      "verifiedDate": "September 2026"
+      "verifiedDate": "September 2026",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-guide-shopping-malls-brands",
@@ -6392,7 +7280,11 @@
       "crawlHash": "8d74b41d1da08ce0267a208b7a39597a",
       "isGuide": true,
       "sourceCategory": "original",
-      "verifiedDate": "September 2026"
+      "verifiedDate": "September 2026",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-guide-top-schools",
@@ -6419,7 +7311,11 @@
       "crawlHash": "4eaf5fbbb5b04463b23c0c3c172675e3",
       "isGuide": true,
       "sourceCategory": "original",
-      "verifiedDate": "September 2026"
+      "verifiedDate": "September 2026",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-guide-best-restaurants",
@@ -6446,7 +7342,11 @@
       "crawlHash": "63cfef9ccf2edb366fffc1fbff6a6327",
       "isGuide": true,
       "sourceCategory": "original",
-      "verifiedDate": "September 2026"
+      "verifiedDate": "September 2026",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444528098-b3ur",
@@ -6476,7 +7376,11 @@
       "views": 24,
       "crawlHash": "7a766607b8c157aa3bec17953dd32440",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444556990-46tc",
@@ -6503,7 +7407,11 @@
       "views": 42,
       "crawlHash": "2331a3e844c5ad4af65fbc1821e57473",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789388831008-se49",
@@ -6534,7 +7442,11 @@
         "/images/crawled/17f49b51a0075d25e609ace6e55331e4.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444528529-lny1",
@@ -6564,7 +7476,11 @@
       "views": 15,
       "crawlHash": "9153ae88f5b6ee9aac8ef3b04c031946",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789388796803-ldcn",
@@ -6593,7 +7509,11 @@
         "/images/crawled/7738fc9ba6d08def0df3d7a9f260b7e5.jpg"
       ],
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444529032-9urm",
@@ -6623,7 +7543,11 @@
       "views": 17,
       "crawlHash": "3520a0c03f103a3e98acefc122dcdc30",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444530959-etsk",
@@ -6653,7 +7577,11 @@
       "views": 64,
       "crawlHash": "57b9184dcbdca0dffe45723d62e2fcfa",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444458955-klqk",
@@ -6680,7 +7608,11 @@
       "views": 43,
       "crawlHash": "83d809f7d451573c811402311bd21068",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444458955-unc4",
@@ -6707,7 +7639,11 @@
       "views": 45,
       "crawlHash": "b05cd3a98c6a9de8c2b42ef42da37e18",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444458955-rr9v",
@@ -6734,7 +7670,11 @@
       "views": 48,
       "crawlHash": "f7d72d33db5dfa5a91bcf545e9c54f92",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444459431-sll5",
@@ -6764,7 +7704,11 @@
       "views": 58,
       "crawlHash": "f5a685fbfb976bc4ba3ef3dc3e55b858",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444459432-1e0v",
@@ -6791,7 +7735,11 @@
       "views": 30,
       "crawlHash": "338c8771a56081d1451fe000bd55364f",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444516917-37ma",
@@ -6822,7 +7770,11 @@
       "views": 24,
       "crawlHash": "7db8aeffbe7d92dd04e69395b775f005",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444518333-cm1u",
@@ -6849,7 +7801,11 @@
       "views": 49,
       "crawlHash": "ab3636db5f79d14786817b4bd6eb92df",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444464856-r3eh",
@@ -6878,7 +7834,11 @@
       "views": 46,
       "crawlHash": "2298f7482051952400eda2596d4fe70f",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর শিক্ষা বলয়"
     },
     {
       "id": "art-1789444466151-q7fk",
@@ -6905,7 +7865,11 @@
       "views": 36,
       "crawlHash": "7e13a24c5e63485b1046b03b54eec3c3",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444466784-b1z1",
@@ -6935,7 +7899,11 @@
       "views": 25,
       "crawlHash": "f78042bcad486c41abbf2a77e462833c",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444468064-h1h3",
@@ -6962,7 +7930,11 @@
       "views": 22,
       "crawlHash": "f16957d5040e83cbdff893d7b9ccf83b",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ"
     },
     {
       "id": "art-1789444469397-ajmj",
@@ -6989,7 +7961,11 @@
       "views": 29,
       "crawlHash": "c5f3a622eba52f5f8a441408bd461a8c",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     },
     {
       "id": "art-1789444470809-du1z",
@@ -7016,7 +7992,11 @@
       "views": 54,
       "crawlHash": "3ab19a96b241945f942bc374cdd5fd0d",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর পৌর এলাকা"
     },
     {
       "id": "art-1789444450983-v9p0",
@@ -7043,7 +8023,11 @@
       "views": 27,
       "crawlHash": "4a87f43e11d07f3acd732eebb66019ca",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর"
     },
     {
       "id": "art-1789444457649-lwlj",
@@ -7074,7 +8058,11 @@
       "views": 17,
       "crawlHash": "93c0e2a78fe8210acecda5195eb977e4",
       "isGuide": false,
-      "sourceCategory": "community"
+      "sourceCategory": "community",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর"
     }
   ],
   "sources": [

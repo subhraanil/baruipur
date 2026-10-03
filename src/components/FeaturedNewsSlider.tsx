@@ -198,8 +198,8 @@ export default function FeaturedNewsSlider({
               {formatTimeAgoBengali(currentArticle.publishedAt)}
             </span>
             <span>•</span>
-            <span className="text-slate-300 font-medium">
-              সূত্র: {currentArticle.sourceName}
+            <span className="text-slate-200 font-medium">
+              প্রতিবেদন: {currentArticle.authorName || 'বারুইপুর ব্যুরো'}
             </span>
           </div>
 

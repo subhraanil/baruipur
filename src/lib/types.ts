@@ -36,6 +36,10 @@ export interface Article {
   views: number;
   crawlHash?: string;
   sources?: string[];
+  authorId?: string;
+  authorName?: string;
+  authorRole?: string;
+  reportingLocation?: string;
 }
 
 export interface Source {

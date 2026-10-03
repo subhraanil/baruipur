@@ -70,6 +70,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/editorial-team" className="hover:text-red-400 transition flex items-center gap-1.5 font-medium text-white">
+                  <span className="text-red-500 text-xs">›</span> সম্পাদকীয় পরিষদ (Editorial Team)
+                </a>
+              </li>
+              <li>
                 <a href="/editorial-policy" className="hover:text-red-400 transition flex items-center gap-1.5">
                   <span className="text-red-500 text-xs">›</span> সম্পাদকীয় নীতি (Editorial Policy)
                 </a>

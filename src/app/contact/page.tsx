@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ChevronRight, Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, Loader2, AlertCircle } from 'lucide-react';
+import { ChevronRight, Mail, Phone, MapPin, Send, MessageSquare, CheckCircle2, Loader2, AlertCircle, ShieldCheck } from 'lucide-react';
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -109,32 +109,47 @@ export default function ContactPage() {
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
             <div className="flex items-center gap-3 mb-2 text-red-600">
               <MapPin className="w-5 h-5" />
-              <h3 className="font-bold text-slate-900 text-sm">ঠিকানা</h3>
+              <h3 className="font-bold text-slate-900 text-sm">শারীরিক সংবাদকক্ষ ও প্রধান কার্যালয়</h3>
             </div>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              বারুইপুর অনলাইন সম্পাদকীয় দপ্তর<br />
-              বারুইপুর সদর, দক্ষিণ ২৪ পরগনা<br />
-              পশ্চিমবঙ্গ - ৭০০১৪৪
+            <p className="text-xs text-slate-600 leading-relaxed mb-2">
+              <strong>বারুইপুর অনলাইন সম্পাদকীয় দপ্তর</strong><br />
+              রেল স্টেশন রোড, বারুইপুর বাজার সংলগ্ন<br />
+              পোস্ট ও থানা: বারুইপুর, মহকুমা: বারুইপুর সদর<br />
+              জেলা: দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭০০১৪৪
+            </p>
+            <p className="text-[11px] text-slate-500">
+              🕒 অফিস সময়: সোম - শনি (সকাল ১০:০০ - সন্ধ্যা ৭:০০)
+            </p>
+          </div>
+
+          <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+            <div className="flex items-center gap-3 mb-2 text-purple-600">
+              <ShieldCheck className="w-5 h-5" />
+              <h3 className="font-bold text-slate-900 text-sm">অভিযোগ প্রতিকার কর্মকর্তা (Grievance Officer)</h3>
+            </div>
+            <p className="text-xs text-slate-600 leading-relaxed mb-1.5">
+              <strong>নাম:</strong> শুভ্রনীল নস্কর (প্রধান সম্পাদক)<br />
+              <strong>পদবী:</strong> গ্রিভেন্স ও নোডাল অফিসার<br />
+              <strong>ইমেল:</strong> <a href="mailto:editor@baruipur.online" className="text-red-600 hover:underline">editor@baruipur.online</a>
+            </p>
+            <p className="text-[11px] text-slate-500">
+              তথ্য প্রযুক্তি (ডিজিটাল মিডিয়া নীতি) বিধি অনুযায়ী যেকোনো কনটেন্ট সংক্রান্ত অভিযোগ ৪৮ ঘণ্টার মধ্যে নিষ্পত্তি করা হয়।
             </p>
           </div>
 
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
             <div className="flex items-center gap-3 mb-2 text-emerald-600">
               <Mail className="w-5 h-5" />
-              <h3 className="font-bold text-slate-900 text-sm">ইমেল যোগাযোগ</h3>
+              <h3 className="font-bold text-slate-900 text-sm">সম্পাদকীয় পরিষদ ও ইমেল</h3>
             </div>
             <div className="text-xs text-slate-600 space-y-1.5">
-              <p>খবর, প্রেস বিজ্ঞপ্তি ও বিজ্ঞাপনের জন্য:</p>
-              <a href="mailto:editor@baruipur.online" className="text-red-600 font-semibold hover:underline block break-all">
+              <p>সংবাদ, প্রেস রিলিজ ও বিজ্ঞাপনের জন্য:</p>
+              <a href="mailto:editor@baruipur.online" className="text-red-600 font-bold hover:underline block break-all">
                 editor@baruipur.online
               </a>
-              <div className="pt-2 border-t border-slate-100 text-[11px] text-slate-500 space-y-1">
-                <p className="font-medium text-slate-700">বিকল্প ইমেল:</p>
-                <a href="mailto:subhranil.naskar@gmail.com" className="hover:text-red-600 block break-all">
-                  subhranil.naskar@gmail.com
-                </a>
-                <a href="mailto:subhraanilnaskar@gmail.com" className="hover:text-red-600 block break-all">
-                  subhraanilnaskar@gmail.com
+              <div className="pt-2 border-t border-slate-100">
+                <a href="/editorial-team" className="text-xs font-bold text-slate-800 hover:text-red-600 flex items-center gap-1">
+                  সাংবাদিকদের তালিকা ও বায়ো দেখুন →
                 </a>
               </div>
             </div>
@@ -143,7 +158,7 @@ export default function ContactPage() {
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
             <div className="flex items-center gap-3 mb-2 text-blue-600">
               <Phone className="w-5 h-5" />
-              <h3 className="font-bold text-slate-900 text-sm">জরুরি হেল্পলাইন</h3>
+              <h3 className="font-bold text-slate-900 text-sm">জরুরি হেল্পলাইন ডিরেক্টরি</h3>
             </div>
             <p className="text-xs text-slate-600 leading-relaxed mb-3">
               জরুরি নাগরিক সহায়তা ও পুলিশ/হাসপাতাল ফোন ডিরেক্টরি দেখতে ভিজিট করুন:
