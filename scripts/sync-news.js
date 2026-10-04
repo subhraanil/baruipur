@@ -820,6 +820,8 @@ async function runWorkflow() {
 
     const enriched = enrichContentWithContext(headline, cleaned, category);
     const summary = enriched.length > 180 ? enriched.substring(0, 175) + '...' : enriched;
+    const articleId = 'art-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6);
+
     let authorId = 'subhranil-naskar';
     let authorName = 'শুভ্রনীল নস্কর';
     let authorRole = 'প্রধান সম্পাদক ও প্রকাশক';
