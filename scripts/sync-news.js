@@ -69,8 +69,8 @@ function isJunkOrCommentOrPromo(text) {
     return true;
   }
 
-  // Commercial promotion ads / agency solicitation / baking & goods sales
-  if (/(?:for\s*promotions?\s*do\s*contact|contact\s*us\s*for\s*(?:ads|promotions?)|বিজ্ঞাপন\s*দিতে\s*যোগাযোগ|বিজ্ঞাপন\s*বা\s*প্রচারের\s*জন্য|baking\s*materials|admission\s*now|admission\s*going\s*on)/i.test(lower)) {
+  // Commercial promotion ads / agency solicitation / mock tests / baking & goods sales
+  if (/(?:for\s*promotions?\s*do\s*contact|contact\s*us\s*for\s*(?:ads|promotions?)|do\s*contact.*?mock\s*test|mock\s*test|বিজ্ঞাপন\s*দিতে\s*যোগাযোগ|বিজ্ঞাপন\s*বা\s*প্রচারের\s*জন্য|baking\s*materials|admission\s*now|admission\s*going\s*on)/i.test(lower)) {
     return true;
   }
 
