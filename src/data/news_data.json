@@ -1,6 +1,67 @@
 {
   "articles": [
     {
+      "id": "art-1791298255348-bbyo",
+      "title": "এটাই কি উন্নয়ন - পিচের রাস্তায় ইটের টুকরো ফেলে মেরামত",
+      "slug": "এটাই-কি-উন্নয়ন-পিচের-রাস্তায়-ইটের-টুকরো-ফেল",
+      "summary": "এটাই কি উন্নয়ন। পিচের রাস্তায় ইটের টুকরো ফেলে মেরামত। জয়নগর রোডের এই হলো আসল চিত্র। বড় বড় লরি, বাইক, সাইকেল এই ইটের উপর দিয়েই জীবনের ঝুঁকি নিয়ে যাতায়াত করছে। ৩ মাস ধরে ...",
+      "content": "এটাই কি উন্নয়ন। পিচের রাস্তায় ইটের টুকরো ফেলে মেরামত। জয়নগর রোডের এই হলো আসল চিত্র। বড় বড় লরি, বাইক, সাইকেল এই ইটের উপর দিয়েই জীবনের ঝুঁকি নিয়ে যাতায়াত করছে। ৩ মাস ধরে ধুলোয় ঢাকা পুরো এলাকা। বৃষ্টি হলেই এই ইট সরে গিয়ে আবার যেই কে সেই। আপনার এলাকার রাস্তার অবস্থা কেমন।\n\n[পৌর ও নাগরিক পরিষেবা]: বারুইপুর মহকুমা ও পুরসভা এলাকার নাগরিকদের সুবিধার জন্য বিভিন্ন ওয়ার্ডে নিকাশি, আলো ও রাস্তাঘাট সংস্কারে নিয়মিত নজরদারি রাখা হচ্ছে বলে স্থানীয় পুর প্রশাসন সূত্রে জানা গেছে।",
+      "category": "municipality",
+      "categoryNameBn": "পৌরসভা ও নাগরিক",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন",
+      "sourceId": "src-fb-amarshohor",
+      "sourceName": "Amar Shohor Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1813304243032348",
+      "originalPostUrl": "https://www.facebook.com/1813304243032348",
+      "imageUrl": "/images/crawled/0753093961f721ffab0e8d428cbf8c30.jpg",
+      "images": [
+        "/images/crawled/0753093961f721ffab0e8d428cbf8c30.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=2119541198646712",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2119541198646712&show_text=0",
+      "publishedAt": "2026-10-06T13:58:14.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 23,
+      "crawlHash": "356ae3b150664ac582be4708f83f85d9"
+    },
+    {
+      "id": "art-1791298252111-f0j5",
+      "title": "হুমায়ুন কবির কে পুলিশে তুলে নিয়ে গেলো! সরাসরি  দেখুন কি ঘটনা ঘটলো",
+      "slug": "হুমায়ুন-কবির-কে-পুলিশে-তুলে-নিয়ে-গেলো-সরাসর",
+      "summary": "হুমায়ুন কবির কে পুলিশে তুলে নিয়ে গেলো! সরাসরি  দেখুন কি ঘটনা ঘটলো\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা অ...",
+      "content": "হুমায়ুন কবির কে পুলিশে তুলে নিয়ে গেলো! সরাসরি  দেখুন কি ঘটনা ঘটলো\n\n[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশাসনের পক্ষ থেকে জানানো হয়েছে, যেকোনো জরুরি সহায়তা বা অভিযোগ জানাতে স্থানীয় থানা বা ডিস্ট্রিক্ট কন্ট্রোল রুমে সরাসরি যোগাযোগ করা যাবে। এলাকায় শান্তি-শৃঙ্খলা বজায় রাখতে পুলিশি টহল অব্যাহত রয়েছে।",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1728956375899857",
+      "originalPostUrl": "https://www.facebook.com/1728956375899857",
+      "imageUrl": "/images/crawled/0ff7c83e9f99fc659a8c30992616aa51.jpg",
+      "images": [
+        "/images/crawled/0ff7c83e9f99fc659a8c30992616aa51.jpg",
+        "/images/crawled/654764954edc453fdef2d939f8a950c8.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=2025708595483813",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2025708595483813&show_text=0",
+      "publishedAt": "2026-10-06T06:13:30.000Z",
+      "isBreaking": true,
+      "isFeatured": false,
+      "status": "published",
+      "views": 40,
+      "crawlHash": "d4926b3cfe12b8d0aa6bfcedf63674de"
+    },
+    {
       "id": "art-1791266110882-ziei",
       "title": "বারুইপুর বাইপাসের বেহাল দশা, যন্ত্রণা আর কতদিন",
       "slug": "বারুইপুর-বাইপাসের-বেহাল-দশা-যন্ত্রণা-আর-কতদিন",
@@ -50,7 +111,8 @@
       "imageUrl": "/images/crawled/a7cef65161b7bef343b3a47fc57407df.jpg",
       "images": [
         "/images/crawled/a7cef65161b7bef343b3a47fc57407df.jpg",
-        "/images/crawled/b551498b966bf69132449fc7d83b1e18.jpg"
+        "/images/crawled/b551498b966bf69132449fc7d83b1e18.jpg",
+        "/images/crawled/a1c91733494cad3cc5783fec929f83c8.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1076710128313010",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1076710128313010&show_text=0",
@@ -112,7 +174,8 @@
       "images": [
         "/images/crawled/f8d453d3b4855316179831fc7e08c793.jpg",
         "/images/crawled/8cf4044e67f938f2d11d14fc15a1fb92.jpg",
-        "/images/crawled/1d82ecb19cc99cbfc483b6375d9ec385.jpg"
+        "/images/crawled/1d82ecb19cc99cbfc483b6375d9ec385.jpg",
+        "/images/crawled/601668643970e63e1e58e33d47b956d3.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1629204235601425",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1629204235601425&show_text=0",
@@ -173,7 +236,8 @@
         "/images/crawled/edce2278fe77838451677dac541c719f.jpg",
         "/images/crawled/6bfed8c841a8a01cb0320e67ae9dc495.jpg",
         "/images/crawled/422952c6ac394e1f1e9c52b4ecf3d6df.jpg",
-        "/images/crawled/68240594ef6c97e6b28343d0d9bef3ca.jpg"
+        "/images/crawled/68240594ef6c97e6b28343d0d9bef3ca.jpg",
+        "/images/crawled/912e3aff7554ec1f708276f6f19c9362.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1660506555745062",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1660506555745062&show_text=0",
@@ -235,7 +299,8 @@
         "/images/crawled/946911ad4353f9d13c1e31e6432e41ab.jpg",
         "/images/crawled/8fe9565b152e8683c1413c17b6918384.jpg",
         "/images/crawled/c8a7f2ff274df496468824eb8a7f0b05.jpg",
-        "/images/crawled/8a378a224d4b79f30238097c54f1e6f5.jpg"
+        "/images/crawled/8a378a224d4b79f30238097c54f1e6f5.jpg",
+        "/images/crawled/76c32c9db9ab9812c23140685fb19750.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1513709287184261",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1513709287184261&show_text=0",
@@ -295,7 +360,8 @@
         "/images/crawled/4ca778144df2cb94071f24737f00bfc2.jpg",
         "/images/crawled/b68098cfa3fc2046d0e33a5e190d830a.jpg",
         "/images/crawled/845e02859f7457c7b06ff47a70d2b961.jpg",
-        "/images/crawled/e9ba2e85910951c0b37223b383bc4a95.jpg"
+        "/images/crawled/e9ba2e85910951c0b37223b383bc4a95.jpg",
+        "/images/crawled/8c845a0354938070ff85f123d78dda50.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1124439223360883",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1124439223360883&show_text=0",
@@ -326,7 +392,8 @@
       "imageUrl": "/images/crawled/032cb10e38d2ea4b5dfa9f0206760af2.jpg",
       "images": [
         "/images/crawled/032cb10e38d2ea4b5dfa9f0206760af2.jpg",
-        "/images/crawled/9f98cae0aae5db5a556c1f4cd677bf9b.jpg"
+        "/images/crawled/9f98cae0aae5db5a556c1f4cd677bf9b.jpg",
+        "/images/crawled/9bcb7788faae9d78a744679a1863b171.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1413125390257220",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1413125390257220&show_text=0",
@@ -425,7 +492,8 @@
         "/images/crawled/d758455787592dec318a1d89f24f524e.jpg",
         "/images/crawled/bc29582d8658d80d8c0adfff68cf2ede.jpg",
         "/images/crawled/0483e1f26e733065228e3b503ec21b36.jpg",
-        "/images/crawled/3766506da0775d0ae4ee8365e242a817.jpg"
+        "/images/crawled/3766506da0775d0ae4ee8365e242a817.jpg",
+        "/images/crawled/7a7de14b66665abb10da3a56a9846069.jpg"
       ],
       "publishedAt": "2026-10-02T11:45:37.000Z",
       "isBreaking": false,
@@ -487,7 +555,8 @@
         "/images/crawled/faf23724cf932712eedbd090dd4574b1.jpg",
         "/images/crawled/8d29e53476edb18f5868003e96cc08fe.jpg",
         "/images/crawled/6b210762b865503ce4e29f9cbcacb2a3.jpg",
-        "/images/crawled/57fe4759a6e18172c77f84f62301d330.jpg"
+        "/images/crawled/57fe4759a6e18172c77f84f62301d330.jpg",
+        "/images/crawled/264a663237bd2be96dcf9af3df381ec8.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1400363288360531",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1400363288360531&show_text=0",
@@ -525,7 +594,8 @@
         "/images/crawled/c00f147e588937e5cde1f79b5f340c7b.jpg",
         "/images/crawled/92295fdeb8bfc84c4c91b89187715ecf.jpg",
         "/images/crawled/2319e6a2cd7ac20310f6a627045b784a.jpg",
-        "/images/crawled/8fc421723292e69e4c3def19d08c5df3.jpg"
+        "/images/crawled/8fc421723292e69e4c3def19d08c5df3.jpg",
+        "/images/crawled/6ffc29e0be86d4072c1316a8fee9c73d.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=3734824649998767",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3734824649998767&show_text=0",
@@ -624,7 +694,8 @@
         "/images/crawled/86f52a05ffe540760838115beb5948dd.jpg",
         "/images/crawled/5694e323cff9fbc7bd3e410543995101.jpg",
         "/images/crawled/ae5d57e7dbcd4097ae4c064935fa2bf3.jpg",
-        "/images/crawled/4a566afaa6ff817c7ee6aac9793d2260.jpg"
+        "/images/crawled/4a566afaa6ff817c7ee6aac9793d2260.jpg",
+        "/images/crawled/ca34038d7d73a01159097d2202a64775.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=29127466906850412",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29127466906850412&show_text=0",
@@ -726,7 +797,8 @@
         "/images/crawled/fa340bf18673c47b379b27687a5a3a5f.jpg",
         "/images/crawled/aa95406d8037342fd20f6f3a574e0c3f.jpg",
         "/images/crawled/9124b9d4529b1d99c965e354b2aae285.jpg",
-        "/images/crawled/2d07e3311e0dfcc648b1c71b2659d5b3.jpg"
+        "/images/crawled/2d07e3311e0dfcc648b1c71b2659d5b3.jpg",
+        "/images/crawled/9888c0b1ae0e8dad4589998b8a326624.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1491505592803240",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1491505592803240&show_text=0",
@@ -765,7 +837,8 @@
         "/images/crawled/69f6366fefcf1a91d6ef3acf63c3d566.jpg",
         "/images/crawled/59665a1a67466ac1c3bfc31e4628ffd9.jpg",
         "/images/crawled/82b691d7a6075b6b5cb06a4b48413ed4.jpg",
-        "/images/crawled/706180379877cf74edd34376fed8672f.jpg"
+        "/images/crawled/706180379877cf74edd34376fed8672f.jpg",
+        "/images/crawled/781410a06b9d7846646497e01997e152.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1817351106242728",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1817351106242728&show_text=0",
@@ -808,7 +881,8 @@
         "/images/crawled/618476f4bdc787e3736e117a70bda895.jpg",
         "/images/crawled/425108c2c365a481a98dd90462e1f2e8.jpg",
         "/images/crawled/9a16351030c3b747fcb99e0c50b30db9.jpg",
-        "/images/crawled/4da377f80b1d9bfa811ba9540ce78146.jpg"
+        "/images/crawled/4da377f80b1d9bfa811ba9540ce78146.jpg",
+        "/images/crawled/097b65769f5952cd7ab65f19c2f6cf55.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1561115628648936",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1561115628648936&show_text=0",
@@ -880,7 +954,8 @@
         "/images/crawled/ac3cf5359a9d8cac626adb4abaf9b1ec.jpg",
         "/images/crawled/3779790d652230580da17c2508a919fd.jpg",
         "/images/crawled/3e64f288f6db4b37923ef7fa46e72659.jpg",
-        "/images/crawled/85a28c9197757d69974e8a587884f708.jpg"
+        "/images/crawled/85a28c9197757d69974e8a587884f708.jpg",
+        "/images/crawled/a0f7ed7a5e2fbe66a24203b92cf8d427.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=4568144226836456",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4568144226836456&show_text=0",
@@ -1019,7 +1094,8 @@
         "/images/crawled/8ca71c78cfb1251d7c182342b6bcc2ef.jpg",
         "/images/crawled/5db9bf1958b33d4df75a45c60c97978b.jpg",
         "/images/crawled/2c329566aabe08ecfea0fef44888607c.jpg",
-        "/images/crawled/bc594e940c1a187f60844d6a13c631b0.jpg"
+        "/images/crawled/bc594e940c1a187f60844d6a13c631b0.jpg",
+        "/images/crawled/8389e6c57a0eff0e47bbe3a19c515764.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2679932609127600",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2679932609127600&show_text=0",
@@ -1108,7 +1184,8 @@
       "images": [
         "/images/crawled/ac5dfe301f935614f28fa1757530bf0f.jpg",
         "/images/crawled/612c438df707ec54e529aa31d12ab1f3.jpg",
-        "/images/crawled/7d931c988fb7bf0aee4e4acaa7f252c1.jpg"
+        "/images/crawled/7d931c988fb7bf0aee4e4acaa7f252c1.jpg",
+        "/images/crawled/e416196b5ba8959339c00d581f84af23.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=4605363883032128",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4605363883032128&show_text=0",
@@ -1147,7 +1224,8 @@
         "/images/crawled/93de7b49009b321311d421e3b82fabd6.jpg",
         "/images/crawled/be90d71ecee3707641c4ee970238be85.jpg",
         "/images/crawled/7a5d2cbab6fe7cc1c0ddc7f1ea4f505f.jpg",
-        "/images/crawled/8fef05bad3cca5dcea71d07b25ddd455.jpg"
+        "/images/crawled/8fef05bad3cca5dcea71d07b25ddd455.jpg",
+        "/images/crawled/3d7c1ba679258b301382e59cb37b7169.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1152953120723272",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1152953120723272&show_text=0",
@@ -3993,7 +4071,8 @@
         "/images/crawled/4a66df4c4e83754aa0893e293d9b5bcd.jpg",
         "/images/crawled/db79a6fa98cf2a5da5ea619e25b68b24.jpg",
         "/images/crawled/73a17bf1933d5eb36edabbd432becf12.jpg",
-        "/images/crawled/5a82cc52bc7529cf28d6341a59a4d6e4.jpg"
+        "/images/crawled/5a82cc52bc7529cf28d6341a59a4d6e4.jpg",
+        "/images/crawled/0681902a4712f2d2162f6af3da4bc80c.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2022460585069132",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2022460585069132&show_text=0",
@@ -5379,7 +5458,8 @@
         "/images/crawled/5196226cd23e4321aeaa71dde772a460.jpg",
         "/images/crawled/3a6f5d506591d5fb969a42c248947c40.jpg",
         "/images/crawled/5a5afbf7bdb62f5c1a931289d1299efb.jpg",
-        "/images/crawled/1f49eb6115b93a9687378f09fef6b3a3.jpg"
+        "/images/crawled/1f49eb6115b93a9687378f09fef6b3a3.jpg",
+        "/images/crawled/b42312e0a29dba30f0718b12eb68b84f.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1432915012130966",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1432915012130966&show_text=0",
@@ -8415,7 +8495,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-06T05:54:30.794Z"
+      "lastCrawledAt": "2026-10-06T14:50:08.912Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -8428,7 +8508,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-06T05:54:33.189Z"
+      "lastCrawledAt": "2026-10-06T14:50:12.374Z"
     },
     {
       "id": "src-fb-police",
@@ -8441,7 +8521,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-06T05:54:36.521Z"
+      "lastCrawledAt": "2026-10-06T14:50:18.973Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -8454,7 +8534,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-06T05:54:39.073Z"
+      "lastCrawledAt": "2026-10-06T14:50:21.928Z"
     },
     {
       "id": "src-fb-uncover",
@@ -8467,7 +8547,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-06T05:54:42.673Z"
+      "lastCrawledAt": "2026-10-06T14:50:25.959Z"
     },
     {
       "id": "src-fb-update",
@@ -8480,7 +8560,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-06T05:54:46.473Z"
+      "lastCrawledAt": "2026-10-06T14:50:29.102Z"
     },
     {
       "id": "src-fb-barta",
@@ -8493,7 +8573,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-06T05:54:50.683Z"
+      "lastCrawledAt": "2026-10-06T14:50:32.898Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -8506,7 +8586,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-06T05:54:54.778Z"
+      "lastCrawledAt": "2026-10-06T14:50:36.439Z"
     },
     {
       "id": "src-fb-voice",
@@ -8519,7 +8599,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-06T05:54:58.747Z"
+      "lastCrawledAt": "2026-10-06T14:50:41.084Z"
     },
     {
       "id": "src-fb-24x7",
@@ -8532,7 +8612,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-06T05:55:02.670Z"
+      "lastCrawledAt": "2026-10-06T14:50:45.331Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -8545,10 +8625,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-06T05:55:06.441Z"
+      "lastCrawledAt": "2026-10-06T14:50:48.916Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1791298255502",
+      "timestamp": "2026-10-06T14:50:55.502Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 7 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 45, সমন্বয়ের পর: 36, নতুন প্রকাশিত সংবাদ: 2 টি।",
+      "itemsFetched": 45,
+      "itemsPublished": 2
+    },
     {
       "id": "log-1791266110995",
       "timestamp": "2026-10-06T05:55:10.995Z",
