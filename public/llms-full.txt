@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-07T07:58:31.811Z
+# Last Updated: 2026-10-07T08:03:02.888Z
 # Total Articles: 261
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -1267,7 +1267,7 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (12 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (13 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -2552,6 +2552,234 @@ DOCTORS OPD ROSTER (48 DOCTORS):
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
   - Serial Booking Phone: 9831980442
   
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #13: হাই মেডিকেল সেন্টার (Hai Medical Centre) (Hai Medical Centre)
+--------------------------------------------------------------------------------
+- Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও হোম হেলথকেয়ার হাব (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/hai-medical-centre-baruipur/
+- Address: বারুইপুর (রেলগেট সংলগ্ন), বারুইপুর, দক্ষিণ ২৪ পরগনা (কলকাতা - ৭০০১৪৪) (Baruipur Railgate, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Landmark: বারুইপুর রেলগেটের ঠিক সন্নিকটে
+- Phone: 9830029256
+- Emergency Phone: 9830015598
+- Timings: সকাল ৮:৩০ - রাত ১০:০০ (প্রতিদিন খোলা)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর রেলগেট সংলগ্ন সুপরিচিত পলিক্লিনিক, ২৮+ বিশেষজ্ঞ ডাক্তারের ওপিডি, বাড়িতে ব্লাড কালেকশন ও অক্সিজেন সিলিন্ডার পরিষেবা
+বারুইপুর রেলগেটে (রেলগেট সংলগ্ন, কলকাতা - ৭০০১৪৪) অবস্থিত 'হাই মেডিকেল সেন্টার' (Hai Medical Centre, www.haimedicalcentre.com) একটি সুপ্রতিষ্ঠিত আধুনিক পলিক্লিনিক ও সার্বিক স্বাস্থ্য পরামর্শ কেন্দ্র। এখানে প্রতিদিন সকাল ৮:৩০ থেকে রাত ১০:০০ পর্যন্ত অভিজ্ঞ চিকিৎসকদের তত্ত্বাবধানে রোগ নির্ণয় ও চিকিৎসা প্রদান করা হয়। কেন্দ্রটিতে রয়েছে বাড়িতে গিয়ে রক্ত পরীক্ষার স্যাম্পল সংগ্রহ, জরুরি ভিত্তিতে অক্সিজেন সিলিন্ডার সরবরাহ, হোম নার্সিং কেয়ার, আলসার ও বেডসোর ড্রেসিং এবং ফিজিওথেরাপিস্টদের মাধ্যমে হোম ফিজিওথেরাপি পরিষেবা। কলকাতা, পিজি (SSKM), আর.জি কর, নীলরতন (NRS), ন্যাশনাল, আর.এন. টেগোর ও বি.সি. রায় হাসপাতালের ২৮ জনেরও বেশি স্বনামধন্য সুপার স্পেশালিস্ট চিকিৎসক (চর্মরোগ, বক্ষব্যাধি, ইএনটি, ইউরোলজি, সুগার ও হরমোন, ডেন্টাল, হৃদরোগ, শিশু, স্ত্রী ও প্রসূতি, নিউরোমেডিসিন, নিউরোসার্জারি, সাইকিয়াট্রি, অর্থোপেডিক ও ডায়েট বিশেষজ্ঞ) এখানে নিয়মিত রোগী দেখেন।
+
+SERVICES & DIAGNOSTICS:
+- বাড়িতে গিয়ে রক্ত পরীক্ষার স্যাম্পল কালেকশন (অভিজ্ঞ নার্সিং স্টাফ দ্বারা)
+- জরুরি অক্সিজেন সিলিন্ডার সরবরাহ ও ভাড়ায় প্রদান
+- হোম নার্সিং কেয়ার, ইনজেকশন ও স্যালাইন পুশ সুবিধা
+- সার্জিক্যাল ক্ষত, ডায়াবেটিক ফুট আলসার ও বেডসোর বিশেষজ্ঞ নার্স দ্বারা ড্রেসিং
+- অভিজ্ঞ ফিজিওথেরাপিস্টদের মাধ্যমে আধুনিক যন্ত্রে হোম ও ক্লিনিক ফিজিওথেরাপি
+- ২৮+ জন কলকাতা ও সরকারি মেডিকেল কলেজের বিশেষজ্ঞ ডাক্তারের ওপিডি চেম্বার
+- [Diagnostic] কম্পিউটারাইজড প্যাথলজি ও হরমোন টেস্ট
+- [Diagnostic] ১২-লিড ইসিজি (ECG)
+- [Diagnostic] ব্লাড সুগার ও রুটিন বায়োকেমিক্যাল স্ক্রিনিং
+
+DOCTORS OPD ROSTER (28 DOCTORS):
+* ডাঃ অর্ক নাগ (Dr. Arka Nag) [MBBS, MD Dermatology, FAAD (USA), Tropical Hospital]
+  - Specialty: চর্ম, যৌন, এলার্জি ও চুলের রোগ বিশেষজ্ঞ (Dermatologist, Venereologist & Hair Specialist)
+  - Visiting Days: সোম ও শনিবার সন্ধ্যা ৬:০০ - ৮:০০ ও বুধবার সকাল ৮:০০
+  - Visiting Hours: সন্ধ্যা ৬:০০ - ৮:০০ / সকাল ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: ত্বক, চুল, নখ ও নানাবিধ অ্যালার্জি চিকিৎসা
+* ডাঃ অপ্সিতা অধিকারী (ব্যানার্জী) (Dr. Apsita Adhikary (Banerjee)) [MBBS Hons. (Cal), MD (Cal), Consultant Pulmonologist]
+  - Specialty: বক্ষব্যাধি ও অ্যাজমা বিশেষজ্ঞ (Pulmonologist) (Consultant Pulmonologist / Chest Specialist)
+  - Visiting Days: বুধবার দুপুর ৪:০০ ও রবিবার সকাল ১০:০০
+  - Visiting Hours: দুপুর ৪:০০ / সকাল ১০:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: ফুসফুস, হাঁপানি, দীর্ঘস্থায়ী কাশি ও শ্বাসকষ্ট
+* ডাঃ মৌসু রায়চৌধুরী (Dr. Mousu Roychowdhury) [M.B.B.S. (WBUHS), MS (ENT), Calcutta National Medical College & Hospital]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT সার্জন) (Consultant ENT Specialist)
+  - Visiting Days: বৃহস্পতিবার ও শনিবার সকাল ১০:৩০
+  - Visiting Hours: সকাল ১০:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: এন্ডোস্কোপিক, মাইক্রোস্কোপিক ও হেড-নেক সার্জারি
+* ডাঃ ইন্দ্রনীল ব্যানার্জী (Dr. Indranil Banerjee) [M.B.B.S. (Kol), MS (ENT), NRS Medical College & Hospital]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT সার্জন) (Consultant ENT Specialist)
+  - Visiting Days: মঙ্গল, বুধ ও বৃহস্পতিবার সকাল ৯:৩০
+  - Visiting Hours: সকাল ৯:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ মাধবী ঘোষ (Dr. Madhabi Ghosh) [M.B.B.S., DLO (Gold Medallist Medical College Kolkata), WBMC 84311]
+  - Specialty: নাক, কান ও কণ্ঠনালী বিশেষজ্ঞ (ENT Specialist & Laryngeal Microsurgeon)
+  - Visiting Days: রবিবার সকাল ১০:০০
+  - Visiting Hours: সকাল ১০:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: কানের মাইক্রো-সার্জারি ও ল্যারিঞ্জিয়াল মাইক্রোসার্জারি
+* ডাঃ সাথী মণ্ডল (Dr. Sathi Mondal) [M.B.B.S. (WBUHS), MS (ENT), R.G. Kar Medical College & Hospital]
+  - Specialty: ইএনটি ও হেড-নেক সার্জন (Consultant ENT Specialist)
+  - Visiting Days: সোম ও শুক্রবার বিকাল ৫:০০
+  - Visiting Hours: বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ বিক্রম হালদার (Dr. Bikram Haldar) [MBBS (Gold Medallist), MS General Surgery (Gold Medallist), DNB General Surgery, MCh Urology (Gold Medallist) SSKM, DNB Urology, MRCS (London)]
+  - Specialty: ইউরোলজিস্ট ও কিডনি বিশেষজ্ঞ সার্জন (Urologist & Uro-Surgeon)
+  - Visiting Days: মঙ্গলবার সন্ধ্যা ৬:৩০
+  - Visiting Hours: সন্ধ্যা ৬:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: কিডনি স্টোন, প্রস্টেট ও এন্ডো-ইউরোলজি
+* ডাঃ দেবাঞ্জন চট্টোপাধ্যায় (Dr. Debanjan Chattopadhyay) [MBBS, MS General Surgery, MCh Genito-Urinary Surgery, Dual Fellow in Robotic Surgery (Vattikuti Foundation)]
+  - Specialty: ইউরোলজি ও রোবোটিক সার্জন (Urologist & Robotic Surgeon)
+  - Visiting Days: প্রতি সোমবার সন্ধ্যা ৭:০০
+  - Visiting Hours: সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ বাপ্পাদিত্য পাঁজা (Dr. Bappaditya Panja) [MBBS (Cal), MD (Medicine), DM (Endocrinology) Gold Medallist]
+  - Specialty: হরমোন, ডায়াবেটিস ও সুগার বিশেষজ্ঞ (Consultant Endocrinologist & Diabetologist)
+  - Visiting Days: প্রতি বৃহস্পতিবার বিকাল ৪:০০
+  - Visiting Hours: বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: ডায়াবেটিস, থাইরয়েড, PCOD, খর্বাকৃতি ও পিটুইটারি গ্রন্থির রোগ
+* ডাঃ তনজিম আহমেদ (Dr. Tanjim Ahmed) [BDS (WBUHS, Kol), Diamond Harbour Medical College]
+  - Specialty: দন্ত চিকিৎসক ও ডেন্টাল সার্জন (Dental Surgeon)
+  - Visiting Days: প্রতিদিন সকাল ১০:৩০ - ১:৩০ ও শনি ও রবিবার বিকাল ৫:০০ - ৮:০০
+  - Visiting Hours: সকাল ১০:৩০ - ১:৩০ / বিকাল ৫:০০ - ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ আফরোজ ইয়াসমিন (Dr. Afroz Yasmin) [BDS (WBUHS, Kol), Dental Surgeon]
+  - Specialty: দন্ত বিশেষজ্ঞ (Dental Surgeon)
+  - Visiting Days: বাই অ্যাপয়েন্টমেন্ট (By Appointment)
+  - Visiting Hours: কল করে বুক করুন 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ পার্থিব খাঁ (Dr. Parthib Khan) [MBBS, FCCS (USA), PG Diploma Cardiology]
+  - Specialty: হৃদরোগ, সুগার ও মেডিসিন বিশেষজ্ঞ (Consultant Cardiologist & Physician)
+  - Visiting Days: বুধ ও শনিবার বিকাল ৫:০০
+  - Visiting Hours: বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: আমেরিকান কার্ডিওলোজি কনসালট্যান্ট সদস্য
+* ডাঃ অভিষেক পাল (Dr. Abhishek Paul) [MBBS (Hons), MD, DM Cardiology (IPGMER), Consultant Interventional Cardiologist]
+  - Specialty: ইন্টারভেনশনাল কার্ডিওলজিস্ট (হৃদরোগ বিশেষজ্ঞ) (Consultant Interventional Cardiologist)
+  - Visiting Days: প্রতি মঙ্গলবার বিকাল ৪:৩০ - ৬:৩০
+  - Visiting Hours: বিকাল ৪:৩০ - ৬:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: ইকো, এনজিওগ্রাফি ও হার্টের জটিল রোগ
+* ডাঃ সৈয়দ ওমর ফারুক (Dr. Syed Omar Farooq) [MBBS (WBUHS), Ex-House Physician Chest Medicine, Diamond Harbour Medical College]
+  - Specialty: জেনারেল মেডিসিন ও বক্ষরোগ ফিজিশিয়ান (General Physician)
+  - Visiting Days: বুধ, বৃহস্পতি ও রবিবার সকাল ৯:৩০ - ১:৩০ এবং সন্ধ্যা ৬:০০ - ৮:০০
+  - Visiting Hours: সকাল ৯:৩০ / সন্ধ্যা ৬:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ এ. আর. রায় (Dr. A. R. Roy) [MBBS (Cal), Senior Physician, Formerly Medical College & Antara Hospital]
+  - Specialty: সিনিয়র মেডিসিন বিশেষজ্ঞ (Senior Physician)
+  - Visiting Days: মঙ্গন, বৃহস্পতি ও শুক্রবার সন্ধ্যা ৪:০০
+  - Visiting Hours: সন্ধ্যা ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ রিমা সুলতানা (Dr. Rima Sultana) [MBBS, MS, FMAS, FIAGES, Laparoscopic & General Surgeon]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (General & Laparoscopic Surgeon)
+  - Visiting Days: প্রতি সোমবার সকাল ১১:৩০ ও বুধবার বিকাল ৫:০০
+  - Visiting Hours: সকাল ১১:৩০ / বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ দেবাশিস সরকার (Dr. Debasish Sarkar) [MBBS (Cal), ECFMG (USA) Certified, Gastro Enterology & Hepatology]
+  - Specialty: গ্যাস্ট্রোএন্টারোলজি ও লিভার বিশেষজ্ঞ (Gastroenterologist & Hepatologist)
+  - Visiting Days: রবিবার সকাল ১০:০০ থেকে
+  - Visiting Hours: সকাল ১০:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: পেটের রোগ, ফ্যাটি লিভার ও হজমজনিত সমস্যা
+* ডাঃ সামির হোসেন সানফাদার (Dr. Samir Hossain Sanfadar) [MBBS, MD (Paediatric), Child Specialist, Dr. B.C. Roy Paediatric Hospital]
+  - Specialty: শিশু রোগ বিশেষজ্ঞ (Child Specialist) (Child Specialist / Paediatrician)
+  - Visiting Days: মঙ্গলবার ও বৃহস্পতিবার সকাল ৪:০০
+  - Visiting Hours: বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ সন্দীপ নন্দী (Dr. Sandip Nandi) [MBBS (Cal), DCH (Cal), PGPN (Boston Univ), Diamond Harbour Govt. Medical College]
+  - Specialty: শিশু ও নবজাতক বিশেষজ্ঞ (Child Specialist & Neonatologist)
+  - Visiting Days: সোম, বুধ ও রবিবার সন্ধ্যা ৭:০০
+  - Visiting Hours: সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* প্রফেসর ডাঃ গৌতম রায় (Prof. Dr. Goutam Ray) [MD Paediatrics (Gold Medallist KGMC), FRCPCH (UK), CCT in Paediatrics (London), Ex Neonatal Consultant Chelsea & Westminster Hospital London]
+  - Specialty: সিনিয়র পেডিয়াট্রিক ও নবজাতক রোগ কনসালট্যান্ট (Senior Consultant Paediatrician & Neonatologist)
+  - Visiting Days: প্রতি সোমবার ও বৃহস্পতিবার বিকাল ৩:৩০
+  - Visiting Hours: বিকাল ৩:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: লন্ডন ও যুক্তরাজ্যের আন্তর্জাতিক পেডিয়াট্রিক অভিজ্ঞতাসম্পন্ন
+* ডাঃ জাবেদ মিয়াঁদাদ (Dr. Javed Miyandad) [MBBS, MS (Cal) Surgeon, Consultant Obstetrician & Gynaecologist]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ সার্জন (Consultant Obstetrician & Gynaecologist)
+  - Visiting Days: বুধ ও রবিবার সকাল ৯:০০
+  - Visiting Hours: সকাল ৯:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ কোয়েল সরকার (হালদার) (Dr. Koyel Sarkar (Haldar)) [MBBS, MS (Obst. & Gynae) SSKM PG Hospital, Diamond Harbour Medical College]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Obstetrician & Gynaecologist)
+  - Visiting Days: প্রতি বৃহস্পতি ও রবিবার বিকাল ৫:০০
+  - Visiting Hours: বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ ফারহিন নাসরিন (Dr. Farhin Nasrin) [MBBS (Hons), MS (Obstetrics & Gynaecology), Diamond Harbour Govt. Medical College]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist & Obstetrician)
+  - Visiting Days: প্রতি সোম ও মঙ্গলবার বিকাল ৫:০০
+  - Visiting Hours: বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ মাসিদাঁ খাঁতুন (Dr. Masida Khatun) [MBBS, MS (Obst. & Gynae), NRS Medical College & Hospital]
+  - Specialty: স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: শুক্রবার সন্ধ্যা ৫:০০
+  - Visiting Hours: সন্ধ্যা ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ সুব্রত কুমার দাস (Dr. Subrata Kumar Das) [MBBS, MD (Medicine), DM (Neurology), Bangur Institute of Neurosciences]
+  - Specialty: স্নায়ুরোগ ও নিউরোমেডিসিন বিশেষজ্ঞ (Consultant Neurologist)
+  - Visiting Days: প্রতি বৃহস্পতিবার বিকাল ৫:০০
+  - Visiting Hours: বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: মাথাব্যথা, মৃগীরোগ, স্ট্রোক ও প্যারালাইসিস
+* ডাঃ শ্রীকান্ত হালদার (Dr. Srikanta Haldar) [MBBS, MS General Surgery, DNB (Neurosurgery), Brain & Spine Surgery]
+  - Specialty: ব্রেন ও স্পাইন সার্জন (নিউরোসার্জারি) (Consultant Neurosurgeon)
+  - Visiting Days: প্রতি সোমবার সন্ধ্যা ৫:০০
+  - Visiting Hours: সন্ধ্যা ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  
+* ডাঃ সঞ্জয় বোস (Dr. Sanjay Bose) [M.B.B.S, DPM Psychiatry (Ranchi), M.B.B.S, DPM Psychiatry, Consultant Neuro Psychiatrist]
+  - Specialty: মানসিক স্বাস্থ্য ও নিউরো-সাইকিয়াট্রিস্ট (Consultant Neuro Psychiatrist)
+  - Visiting Days: প্রতি শুক্রবার সন্ধ্যা ৫:০০
+  - Visiting Hours: সন্ধ্যা ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা ও মানসিক কাউন্সেলিং
+* ডাঃ কুণাল মণ্ডল (Dr. Kunal Mondal) [MBBS, MS ORTHO SSKM PG Hospital (Gold Medallist), DNB Orthopaedic, Fellowship in Arthroscopy (WBOA)]
+  - Specialty: অর্থোপেডিক, আর্থ্রোস্কোপি ও স্পোর্টস ইনজুরি সার্জন (Orthopaedic & Arthroscopy Surgeon)
+  - Visiting Days: প্রতি রবি ও বুধবার বিকাল ৫:০০ - ৭:০০
+  - Visiting Hours: বিকাল ৫:০০ - ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9830029256
+  - Note: হাড়ভাঙা, লিগামেন্ট টিয়ার ও জয়েন্ট রিপ্লেসমেন্ট
 
 
 ================================================================================

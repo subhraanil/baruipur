@@ -261,10 +261,10 @@ export default function BaruipurUtilities({
 
         <div className="space-y-2">
           {[
+            { slug: 'hai-medical-centre-baruipur', name: 'হাই মেডিকেল সেন্টার (রেলগেট)', tag: '২৮+ ডাক্তার • হোম সার্ভিস' },
             { slug: 'namita-sebayatan-baruipur', name: 'নমিতা সেবায়তন (রেলগেট)', tag: '৪৮+ ডাক্তার • ফিজিওথেরাপি' },
             { slug: 'mangaldeep-puratan-bazar-baruipur', name: 'মঙ্গলদীপ (পুরাতন বাজার)', tag: '৩৩+ ডাক্তার • ২০% ছাড়' },
             { slug: 'welkin-medicare-hospital', name: 'ওয়েলকিন মেডিকেয়ার হাসপাতাল', tag: '২৪x৭ ICU ও OPD' },
-            { slug: 'apex-polyclinic-and-diagnostic-baruipur', name: 'অ্যাপেক্স পলিক্লিনিক', tag: 'স্পেশালিস্ট চেম্বার' },
             { slug: 'baruipur-subdivisional-hospital-opd', name: 'মহকুমা হাসপাতাল (সরকারি OPD)', tag: '₹২ টিকিট / ফ্রি' },
           ].map((fac, idx) => (
             <a
