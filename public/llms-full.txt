@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-07T07:53:38.561Z
+# Last Updated: 2026-10-07T07:58:31.811Z
 # Total Articles: 261
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -1267,7 +1267,7 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (11 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (12 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -2183,6 +2183,374 @@ DOCTORS OPD ROSTER (33 DOCTORS):
   - Visiting Hours: সকাল ৯:০০ 
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
   - Serial Booking Phone: 8444071937
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #12: নমিতা সেবায়তন (ডক্টরস চেম্বার ও পলিক্লিনিক) (Namita Sebayatan (Doctors Chamber & Polyclinic))
+--------------------------------------------------------------------------------
+- Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও ফিজিওথেরাপি হাব (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/namita-sebayatan-baruipur/
+- Address: বারুইপুর রেলগেট (বারুইপুর মহকুমা হাসপাতালের বিপরীতে), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur Railgate, Opposite Baruipur Subdivisional Hospital, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর রেলগেট ও বারুইপুর মহকুমা হাসপাতালের ঠিক বিপরীতে
+- Phone: 9831980442
+- Emergency Phone: 9830016819
+- Timings: সোম থেকে শনি: সকাল ৮:০০ - রাত ৯:০০ | রবিবার: সকাল ৮:০০ - দুপুর ২:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর রেলগেট ও মহকুমা হাসপাতালের বিপরীতে অবস্থিত দক্ষিণ ২৪ পরগনার অন্যতম বৃহত্তম পলিক্লিনিক ও অভিজ্ঞ ডাক্তার চেম্বার
+বারুইপুর রেলগেট (রেলওয়ে লেভেল ক্রসিং) এবং বারুইপুর মহকুমা হাসপাতালের ঠিক বিপরীতে অবস্থিত 'নমিতা সেবায়তন' (Namita Sebayatan) এলাকার অত্যন্ত জনপ্রিয় ও বহুল প্রচলিত পলিক্লিনিক। এখানে আধুনিক যন্ত্রের সাহায্যে অভিজ্ঞ ফিজিওথেরাপিস্টদের দ্বারা ফিজিওথেরাপি, লেজার থেরাপি, শর্টওয়েভ ডায়াথার্মি ও রিহ্যাবিলিটেশন করানো হয়। এছাড়া এখানে ই.সি.জি, ই.এন.টি টেস্ট ও প্যাথলজিক্যাল রক্ত-মূত্র পরীক্ষার নির্ভরযোগ্য ব্যবস্থা রয়েছে। কলকাতা ও মেডিকেল কলেজ, এসএসকেএম (PG), আর.জি কর, নীলরতন (NRS), ন্যাশনাল, পিয়ারলেস, রুবি, ফোর্টিস ও বি.এম. বিড়লার খ্যাতনামা ৪৮ জনেরও বেশি বিশেষজ্ঞ চিকিৎসক (অর্থোপেডিক, স্ত্রীরোগ, স্নায়ুরোগ/নিউরোসার্জারি, মানসিক রোগ, নাক-কান-গলা, মেডিসিন, শিশু, বক্ষব্যাধি, নেফ্রোলজি/কিডনি, গ্যাস্ট্রো, ইউরোলজি ও দন্ত বিভাগ) নিয়মিত চেম্বার করেন।
+
+SERVICES & DIAGNOSTICS:
+- আধুনিক যন্ত্রে অভিজ্ঞ ফিজিওথেরাপিস্টদের দ্বারা উন্নত ফিজিওথেরাপি ও রিহ্যাবিলিটেশন
+- ই.সি.জি (ECG), রক্ত ও প্রস্রাব পরীক্ষা এবং ই.এন.টি মাইক্রোস্কোপিক স্ক্রিনিং
+- দক্ষিণ ২৪ পরগনা ও কলকাতার শীর্ষ হাসপাতালের ৪৮+ জন বিশিষ্ট বিশেষজ্ঞ ডাক্তারের চেম্বার
+- বাড়িতে গিয়ে রক্ত পরীক্ষার স্যাম্পল কালেকশন ও অভিজ্ঞ নার্সিং সহায়তা
+- টেলিফোন ও হোয়াটসঅ্যাপে তাৎক্ষণিক সিরিয়াল বুকিং (7439680442 / 9748033091)
+- [Diagnostic] ১২-লিড কম্পিউটারাইজড ইসিজি (ECG)
+- [Diagnostic] প্যাথলজিক্যাল বায়োকেমিস্ট্রি ও হরমোন টেস্ট
+- [Diagnostic] ইএনটি অডিওমেট্রি ও এন্ডোস্কোপি স্ক্রিনিং
+- [Diagnostic] লেজার ও আল্ট্রাসাউন্ড ফিজিওথেরাপি ইউনিট
+
+DOCTORS OPD ROSTER (48 DOCTORS):
+* ডাঃ প্রবীর গুহরায় (Dr. Prabir Guharay) [MS (Ortho), Gold Medallist (Cal)]
+  - Specialty: অর্থোপেডিক সার্জন (হাড় বিশেষজ্ঞ) (Orthopaedic Surgeon)
+  - Visiting Days: সোমবার বিকাল ৫:৩০ - রাত ৮:৩০
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ গৌতম দাস (Dr. Goutam Das) [MBBS (Hons), MS (Ortho)]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: সোম ও শনিবার সকাল ১১:৩০ - ১:৩০
+  - Visiting Hours: সকাল ১১:৩০ - ১:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অসীম কুমার দাস (Dr. Asim Kumar Das) [FRCS (Ireland), FRCS (Edin), M.Ch (Ortho) Liverpool]
+  - Specialty: সিনিয়র অর্থোপেডিক ও ট্রমা সার্জন (Senior Orthopaedic Surgeon)
+  - Visiting Days: শুক্রবার দুপুর ১:১৫ - ২:১৫
+  - Visiting Hours: দুপুর ১:১৫ - ২:১৫ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ তৌসিফ চন্দ্র (Dr. Tousif Chandra) [MBBS, MS (Ortho), Gold Medallist]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: বুধবার সন্ধ্যা ৫:৩০ - ৭:৩০ ও রবিবার দুপুর ৩:০০টে
+  - Visiting Hours: সন্ধ্যা ৫:৩০ / দুপুর ৩:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সত্যব্রত মুখার্জী (Dr. Satyabrata Mukherjee) [MBBS, M.S (Ortho)]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: মঙ্গলবার ৫:৩০ - ৭:৩০ ও শনিবার ২টা - ৪টে
+  - Visiting Hours: বিকাল ৫:৩০ / দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অনুপম সাহেন (Dr. Anupam Sahen) [MS (Ortho), DNB (Ortho)]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: রবিবার দুপুর ২:৩০ - ৪:৩০
+  - Visiting Hours: দুপুর ২:৩০ - ৪:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অনুজ চট্টোপাধ্যায় (Dr. Anuj Chattopadhyay) [MS (Ortho)]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: বৃহস্পতিবার ও শনিবার সকাল ১১:৩০ - ১:৩০
+  - Visiting Hours: সকাল ১১:৩০ - ১:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ প্রীতম ব্যানার্জী (Dr. Pritam Banerjee) [MS (Ortho)]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: সোমবার সন্ধ্যা ৬:৩০ - ৮:৩০
+  - Visiting Hours: সন্ধ্যা ৬:৩০ - ৮:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ ইন্দ্রেন্দু গুহ (Dr. Indrendu Guha) [MS (Ortho), Gold Medallist]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: মঙ্গলবার সকাল ১০:৩০ - ১টা
+  - Visiting Hours: সকাল ১০:৩০ - দুপুর ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ প্রসেনজিৎ মাঝি (Dr. Prosenjit Majhi) [MBBS, MS (Ortho), DNB (Ortho)]
+  - Specialty: অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: সোমবার সকাল ১১টা ও বৃহস্পতিবার বিকাল ৪টা
+  - Visiting Hours: সকাল ১১:০০ / বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অর্পিতা রায় সেনগুপ্ত (Dr. Arpita Roy Sengupta) [MBBS, DGO, PGDS]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist & Obstetrician)
+  - Visiting Days: বুধবার ও বৃহস্পতিবার বিকাল ৩:৩০ - ৭:৩০
+  - Visiting Hours: বিকাল ৩:৩০ - ৭:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অনুষী আইচ সেনগুপ্ত (Dr. Anushi Aich Sengupta) [MBBS (Hons), MS Gynaecology & Obs]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist & Obstetrician)
+  - Visiting Days: মঙ্গলবার সকাল ১০:৩০টা
+  - Visiting Hours: সকাল ১০:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ ছন্দা মুখার্জী (Dr. Chhanda Mukherjee) [MBBS, DGO (Cal)]
+  - Specialty: স্ত্রীরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গলবার বিকাল ৪টা - ৬টা
+  - Visiting Hours: বিকাল ৪:০০ - ৬:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ কে. কে. মজুমদার (Dr. K. K. Majumder) [MBBS (Cal), DGO (Cal), C.ART, RCOG (London)]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গলবার ও রবিবার বিকাল ৪টা - ৭টা
+  - Visiting Hours: বিকাল ৪:০০ - ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সুস্মিতা প্রামাণিক (Dr. Susmita Pramanik) [MBBS, DGO (Cal), MRCOG (London), MS (G&O) Cal]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Consultant Gynaecologist & Obstetrician)
+  - Visiting Days: বৃহস্পতিবার সকাল ১১:৩০ - ১:৩০
+  - Visiting Hours: সকাল ১১:৩০ - ১:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ মধুরিমা মণ্ডল (Dr. Madhurima Mondal) [MBBS, MS (G&O) Gynaecologist]
+  - Specialty: স্ত্রীরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: বুধবার ও রবিবার সকাল ১০:০০ - ১:০০
+  - Visiting Hours: সকাল ১০:০০ - ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সুতপা মুখার্জী (Dr. Sutapa Mukherjee) [MBBS, MS (Gynae & Gynae), DNB (OBS & Gynae)]
+  - Specialty: ল্যাপারোস্কোপিক সার্জন ও বন্ধ্যাত্ব বিশেষজ্ঞ (Consultant Gynaecologist)
+  - Visiting Days: বুধবার সন্ধ্যা ৪:৩০ - ৬টা ও রবিবার বিকাল ৪টা - ৫টা
+  - Visiting Hours: বিকাল ৪:৩০ / বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অলোকরঞ্জন দাস (Dr. Alok Ranjan Das) [MBBS, DPM (Cal)]
+  - Specialty: মানসিক রোগ বিশেষজ্ঞ (Psychiatrist)
+  - Visiting Days: বুধবার ও রবিবার দুপুর ২টা - ৪টে
+  - Visiting Hours: দুপুর ২:০০ - ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ মিনাক্ষী মুখার্জী (Dr. Minakshi Mukherjee) [MBBS, DNB (Neuro-Psychiatry), Ruby]
+  - Specialty: নিউরো-সাইকিয়াট্রিস্ট (মানসিক রোগ) (Neuro-Psychiatrist)
+  - Visiting Days: শনিবার বিকাল ৪টা
+  - Visiting Hours: বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ শুভ্রাংশু মুখার্জী (Dr. Subhrangshu Mukherjee) [MD (Medicine), MRCP (UK), DM Nephrologist]
+  - Specialty: কিডনি ও নেফ্রোলজি বিশেষজ্ঞ (Consultant Nephrologist)
+  - Visiting Days: ২য় ও ৪র্থ রবিবার বিকাল ৪টা - ৫টা
+  - Visiting Hours: বিকাল ৪:০০ - ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* সোহা পাল (Soha Paul) [M.A (C.U), PGDM (C.U), Certificate in Play Therapy]
+  - Specialty: চাইল্ড সাইকোলজিস্ট ও কাউন্সেলর (Child Psychologist & Play Therapist)
+  - Visiting Days: বুধবার বিকাল ৪টা - ৫টা
+  - Visiting Hours: বিকাল ৪:০০ - ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* প্রিয়া সিনহা (Priya Sinha) [M.Sc in Clinical Psychology, PG Diploma in Psychological Counselling]
+  - Specialty: ক্লিনিক্যাল সাইকোলজিস্ট (Clinical Psychologist)
+  - Visiting Days: বৃহস্পতিবার সকাল ১০:৩০ - ১২টা ও রবিবার বিকাল ৪টা থেকে
+  - Visiting Hours: সকাল ১০:৩০ / বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ কে. রায়চৌধুরী (Dr. K. Roychowdhury) [MBBS, DLO, MS (Cal), FRSTM & H (Lond)]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT সার্জন) (ENT Surgeon)
+  - Visiting Days: বুধবার ও শুক্রবার সকাল ১১:৩০ - ১টা, শনিবার ও সোমবার বিকাল ২টা - ৪টে
+  - Visiting Hours: সকাল ১১:৩০ / দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সুরজিৎ খাঁ (Dr. Surajit Khan) [MBBS, MS (ENT)]
+  - Specialty: ইএনটি ও হেড-নেক সার্জন (ENT Surgeon)
+  - Visiting Days: রবিবার সকাল ১১:৩০টা - ১টা
+  - Visiting Hours: সকাল ১১:৩০ - ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ ইন্দ্রেন্দু গুহ (Dr. Indrendu Guha) [MBBS, DLO, MS (Cal)]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT Specialist)
+  - Visiting Days: মঙ্গলবার ও শনিবার সকাল ১১:৩০ - ১টা
+  - Visiting Hours: সকাল ১১:৩০ - ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ কে. কুণ্ডু (Dr. K. Kundu) [MBBS, DLO, MS (Cal)]
+  - Specialty: ইএনটি স্পেশালিস্ট (ENT Specialist)
+  - Visiting Days: সোম ও শুক্রবার দুপুর ৩টা - ৪টে, মঙ্গল বিকাল ৪টা
+  - Visiting Hours: দুপুর ৩:০০ / বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অনিন্দ্য ব্যানার্জী (Dr. Anindya Banerjee) [MD (Pediatrics), DNB (Neurology), Bangur Institute]
+  - Specialty: নিউরোমেডিসিন ও পেডিয়াট্রিক নিউরোলজি (Consultant Neurologist)
+  - Visiting Days: প্রতি রবিবার
+  - Visiting Hours: সকাল ১০:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সপ্তর্ষি পাল (Dr. Saptarshi Pal) [MBBS, MD (Pediatrics), Fellowship Neuro, Bangur Institute]
+  - Specialty: নিউরোমেডিসিন বিশেষজ্ঞ (Neurologist)
+  - Visiting Days: বৃহস্পতিবার সন্ধ্যা ৬টা - ৮টা
+  - Visiting Hours: সন্ধ্যা ৬:০০ - ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ প্রতীক দাস (Dr. Pratik Das) [MBBS, MD, DM (Neuro), Bangur Institute of Neurosciences]
+  - Specialty: নিউরোমেডিসিন কনসালট্যান্ট (Consultant Neurologist)
+  - Visiting Days: বুধবার সন্ধ্যা ৬টা - ৮টা
+  - Visiting Hours: সন্ধ্যা ৬:০০ - ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সুরজিৎ মুখার্জি (Dr. Surajit Mukherjee) [MBBS (AMC), MS (GEN Surgery), M.CH (Neurosurgery) (CNMC)]
+  - Specialty: নিউরোসার্জন (ব্রেন ও স্পাইন সার্জন) (Consultant Neurosurgeon)
+  - Visiting Days: বৃহস্পতিবার সন্ধ্যা ৫টা - ৭টা
+  - Visiting Hours: সন্ধ্যা ৫:০০ - ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ প্রবীর বসু (Dr. Prabir Basu) [MRCS, MS, DNB (Urology)]
+  - Specialty: ইউরোলজিস্ট ও কিডনি সার্জন (Consultant Urologist)
+  - Visiting Days: শনিবার দুপুর ৩:৩০ - ৪:৩০
+  - Visiting Hours: দুপুর ৩:৩০ - ৪:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ কুনাল কাপুর (Dr. Kunal Kapoor) [MS, M.Ch (Urology)]
+  - Specialty: ইউরোলজিস্ট (Consultant Urologist)
+  - Visiting Days: বুধবার বিকাল ৫টা - ৬টা ও শুক্রবার সকাল ৯:৩০
+  - Visiting Hours: বিকাল ৫:০০ / সকাল ৯:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অভিষেক দত্ত (Dr. Abhishek Dutta) [MS, M.Ch (Urology)]
+  - Specialty: ইউরোলজিস্ট ও রোবোটিক সার্জন (Consultant Urologist)
+  - Visiting Days: শনিবার বিকাল ৫:৩০টা
+  - Visiting Hours: বিকাল ৫:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ এস. ব্যানার্জী (Dr. S. Banerjee) [MBBS, MD (Medicine)]
+  - Specialty: জেনারেল মেডিসিন বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: শুক্রবার ও রবিবার ১০টা - ২টো
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সোমাদ্রি দাস (Dr. Somadri Das) [MBBS, MD (Medicine)]
+  - Specialty: জেনারেল মেডিসিন কনসালট্যান্ট (Consultant Physician)
+  - Visiting Days: সোম, বুধ, বৃহস্পতি ও শনি সকাল ৯টা - ৩টে
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ৩:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অর্থন কর্মকার (Dr. Arthan Karmakar) [MBBS (Hons), MD (Medicine), MRCP (UK)]
+  - Specialty: মেডিসিন ও ডায়াবেটিস কনসালট্যান্ট (Consultant Physician)
+  - Visiting Days: মঙ্গলবার ও বৃহস্পতিবার সকাল ৫টা - ৭টা
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ পি. মজুমদার (Dr. P. Majumder) [MBBS, MD (Medicine)]
+  - Specialty: জেনারেল মেডিসিন বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম, মঙ্গল, বৃহস্পতি ও শুক্র সকাল ১১টা - ১টা
+  - Visiting Hours: সকাল ১১:০০ - ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ ডি. এস. মহাপাত্র (Dr. D. S. Mahapatra) [MBBS, MD (General Medicine)]
+  - Specialty: জেনারেল মেডিসিন বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: রবিবার বিকাল ৪টা - ৫টা
+  - Visiting Hours: বিকাল ৪:০০ - ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ এস. চৌধুরী (Dr. S. Chowdhury) [MBBS, MD, DM (Infectious Diseases)]
+  - Specialty: সংক্রামক রোগ ও মেডিসিন বিশেষজ্ঞ (Consultant in Infectious Diseases)
+  - Visiting Days: মঙ্গল বিকাল ৫:৩০ ও শনিবার সকাল ১১:৩০
+  - Visiting Hours: বিকাল ৫:৩০ / সকাল ১১:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অনিন্দ্য চৌধুরী (Dr. Anindya Chowdhury) [MBBS, MD (Medicine)]
+  - Specialty: মেডিসিন কনসালট্যান্ট (Consultant Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার সকাল ১১:৩০ - ১টা, রবিবার বিকাল ৪:৩০ - ৬:৩০
+  - Visiting Hours: সকাল ১১:৩০ / বিকাল ৪:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ জয়দীপ গঙ্গোপাধ্যায় (Dr. Joydeep Gangopadhyay) [MBBS, MD (General Medicine)]
+  - Specialty: জেনারেল মেডিসিন (Consultant Physician)
+  - Visiting Days: রবিবার সকাল ১১টা
+  - Visiting Hours: সকাল ১১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ প্রভাত দে (Dr. Prabhat Dey) [MBBS, MD]
+  - Specialty: শিশু রোগ বিশেষজ্ঞ (Pediatrician)
+  - Visiting Days: সোম, বুধ ও শনি সন্ধ্যা ৬টা - ৮টা, মঙ্গল ও বৃহস্পতি দুপুর ২টা ও রবি বিকাল ৪টা
+  - Visiting Hours: সন্ধ্যা ৬:০০ / দুপুর ২:০০ / বিকাল ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অভিষেক দাস (Dr. Abhishek Das) [MBBS, MS, FMAS, FAIS]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (General & Laparoscopic Surgeon)
+  - Visiting Days: রবিবার সকাল ১০:৩০
+  - Visiting Hours: সকাল ১০:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ জিৎ রায় (Dr. Jit Roy) [MBBS, MS (Patiala), MRCS (UK), Asst. Prof KPC Medical College]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (General & Laparoscopic Surgeon)
+  - Visiting Days: বুধবার বিকাল ৪:৩০ - ৫:৩০
+  - Visiting Hours: বিকাল ৪:৩০ - ৫:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ কনক দাসগুপ্ত (Dr. Kanak Dasgupta) [BDS (WBUHS), Oral and Dental Surgeon]
+  - Specialty: দন্ত বিশেষজ্ঞ ও ওরাল সার্জন (Oral and Dental Surgeon)
+  - Visiting Days: সোম থেকে শুক্রবার দুপুর ২টা - ৪টে
+  - Visiting Hours: দুপুর ২:০০ - ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ অর্পিতা ঘোষ ব্যানার্জী (Dr. Arpita Ghosh Banerjee) [MD (Chest), Baruipur S.D. Hospital]
+  - Specialty: বক্ষব্যাধি ও অ্যাজমা বিশেষজ্ঞ (Chest Specialist / Pulmonologist)
+  - Visiting Days: বুধবার ও শনিবার বিকাল ৪টা - ৫টা
+  - Visiting Hours: বিকাল ৪:০০ - ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ রূপক হালদার (Dr. Rupak Haldar) [MBBS, MD (Medicine), DM (Cardiology), R.G. KAR]
+  - Specialty: হৃদরোগ বিশেষজ্ঞ (Cardiologist) (Cardiologist)
+  - Visiting Days: রবিবার বিকাল ৪টা - ৫টা
+  - Visiting Hours: বিকাল ৪:০০ - ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
+  
+* ডাঃ সৌভিক কুমার রায় (Dr. Souvik Kumar Roy) [MBBS, MD (Dermatology)]
+  - Specialty: চর্মরোগ ও লেজার বিশেষজ্ঞ (Dermatologist & Cosmetologist)
+  - Visiting Days: রবিবার সকাল ১০:৩০ - ১২টা
+  - Visiting Hours: সকাল ১০:৩০ - ১২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9831980442
   
 
 
