@@ -172,7 +172,7 @@ export default function HealthcareDirectoryPage() {
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
                 <h3 className="font-bold text-slate-900 mb-1 flex items-center gap-1.5">
-                  <span className="text-red-600 font-black">৪.</span> ডাক্তারদের ভিজিটিং ফি বা দক্ষিণা কেমন?
+                  <span className="text-red-600 font-black">৪.</span> ডাক্তারদের ভিজিটিং ফি কেমন?
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600">
                   বারুইপুর এলাকায় জেনারেল ফিজিশিয়ানদের পরামর্শ ফি সাধারণত ₹ ৪০০ থেকে ₹ ৬০০ এবং সুপার স্পেশালিস্ট (কার্ডিওলজি, নিউরোলজি, ইউরোলজি) চিকিৎসকদের ফি ₹ ৭০০ থেকে ₹ ৯০০-এর মধ্যে থাকে। সরকারি মহকুমা হাসপাতালে টিকিট ফি মাত্র ₹২।

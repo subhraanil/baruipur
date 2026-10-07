@@ -15,6 +15,7 @@ import {
   Compass, 
   ShieldAlert, 
   Hospital, 
+  Stethoscope,
   TrainTrack, 
   Bus, 
   GraduationCap, 
@@ -62,6 +63,7 @@ export default function HomePage() {
   const crimeArticles = db.getArticles({ category: 'crime', limit: 3, excludeGuides: true });
 
   const quickAccessItems = [
+    { label: 'স্বাস্থ্য ও ডাক্তার চেম্বার', icon: <Stethoscope className="w-5 h-5 text-red-600" />, href: '/health-directory', bg: 'hover:bg-red-50' },
     { label: 'জরুরি ডিরেক্টরি', icon: <ShieldAlert className="w-5 h-5 text-rose-600" />, href: '/emergency-contacts', bg: 'hover:bg-rose-50' },
     { label: 'স্থান ও ল্যান্ডমার্ক', icon: <Landmark className="w-5 h-5 text-amber-600" />, href: '/places', bg: 'hover:bg-amber-50' },
     { label: 'প্রতিষ্ঠান ও ক্লাব', icon: <Building2 className="w-5 h-5 text-purple-600" />, href: '/organizations', bg: 'hover:bg-purple-50' },
@@ -69,7 +71,6 @@ export default function HomePage() {
     { label: 'নাগরিক পরিষেবা', icon: <CheckCircle2 className="w-5 h-5 text-emerald-600" />, href: '/citizen-services', bg: 'hover:bg-emerald-50' },
     { label: 'মেলা ও উৎসব', icon: <Sparkles className="w-5 h-5 text-amber-500" />, href: '/events', bg: 'hover:bg-amber-50' },
     { label: 'বারুইপুর পৌরসভা', icon: <Building2 className="w-5 h-5 text-teal-600" />, href: '/places/baruipur-municipality/', bg: 'hover:bg-teal-50' },
-    { label: 'হাসপাতাল সেবা', icon: <Hospital className="w-5 h-5 text-red-600" />, href: '/emergency-contacts', bg: 'hover:bg-red-50' },
     { label: 'স্কুল নির্দেশিকা', icon: <GraduationCap className="w-5 h-5 text-indigo-600" />, href: '/top-schools-in-baruipur-education-admission-guide/', bg: 'hover:bg-indigo-50' },
     { label: 'শপিং মল ও বাজার', icon: <ShoppingBag className="w-5 h-5 text-pink-600" />, href: '/shopping-malls-and-top-brands-in-baruipur-market-guide/', bg: 'hover:bg-pink-50' },
     { label: 'খাবার ও রেস্তোরাঁ', icon: <Utensils className="w-5 h-5 text-orange-600" />, href: '/best-restaurants-cafes-and-sweets-in-baruipur-food-guide/', bg: 'hover:bg-orange-50' },
