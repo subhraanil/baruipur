@@ -80,6 +80,12 @@ export const SPECIALTY_OPTIONS: SpecialtyOption[] = [
   { key: 'pulmonology', nameBn: 'বক্ষব্যাধি (Chest & Respiratory)', nameEn: 'Pulmonology / Chest' },
   { key: 'psychiatry', nameBn: 'মানসিক রোগ (Psychiatry)', nameEn: 'Psychiatry' },
   { key: 'general_surgery', nameBn: 'সার্জারি (General & Laparoscopic)', nameEn: 'General Surgery' },
+  { key: 'endocrinology', nameBn: 'এন্ডোক্রিনোলজি ও সুগার (Diabetes & Hormones)', nameEn: 'Endocrinology' },
+  { key: 'nephrology', nameBn: 'নেফ্রোলজি ও কিডনি (Nephrology)', nameEn: 'Nephrology' },
+  { key: 'neurosurgery', nameBn: 'নিউরোসার্জারি (Brain & Spine)', nameEn: 'Neurosurgery' },
+  { key: 'oncology', nameBn: 'ক্যান্সার ও অনকোলজি (Oncology)', nameEn: 'Oncology' },
+  { key: 'dietetics', nameBn: 'ডায়েট ও পুষ্টি বিশেষজ্ঞ (Dietitian)', nameEn: 'Clinical Nutrition & Dietetics' },
+  { key: 'counselling', nameBn: 'কাউন্সেলিং ও মনস্তত্ত্ব (Psychologist)', nameEn: 'Psychology & Counselling' },
   { key: 'physiotherapy', nameBn: 'ফিজিওথেরাপি (Physiotherapy)', nameEn: 'Physiotherapy' }
 ];
 
