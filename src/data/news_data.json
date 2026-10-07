@@ -49,7 +49,8 @@
       "originalPostUrl": "https://www.facebook.com/122229335450792099",
       "imageUrl": "/images/crawled/ea0c95bf48a9a606a57f476a32f8d69c.jpg",
       "images": [
-        "/images/crawled/ea0c95bf48a9a606a57f476a32f8d69c.jpg"
+        "/images/crawled/ea0c95bf48a9a606a57f476a32f8d69c.jpg",
+        "/images/crawled/b9e78b31b818142475d3f53b77ab7cd6.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2525844597904446",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2525844597904446&show_text=0",
@@ -853,7 +854,8 @@
       "images": [
         "/images/crawled/171abb1826f6e5009c0d72f26905a583.jpg",
         "/images/crawled/cfe353be04b03f135cf7030ed100c156.jpg",
-        "/images/crawled/8c8c6e7fa98adc606a65a1687e4ba0a8.jpg"
+        "/images/crawled/8c8c6e7fa98adc606a65a1687e4ba0a8.jpg",
+        "/images/crawled/1bbe2b198ef1397fa8a520c76f06cc35.jpg"
       ],
       "publishedAt": "2026-10-01T10:19:52.883Z",
       "isBreaking": false,
@@ -8600,7 +8602,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-07T04:37:35.470Z"
+      "lastCrawledAt": "2026-10-07T10:26:17.036Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -8613,7 +8615,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-07T04:37:37.995Z"
+      "lastCrawledAt": "2026-10-07T10:26:18.921Z"
     },
     {
       "id": "src-fb-police",
@@ -8626,7 +8628,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-07T04:37:40.527Z"
+      "lastCrawledAt": "2026-10-07T10:26:20.820Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -8639,7 +8641,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-07T04:37:42.555Z"
+      "lastCrawledAt": "2026-10-07T10:26:22.593Z"
     },
     {
       "id": "src-fb-uncover",
@@ -8652,7 +8654,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-07T04:37:46.267Z"
+      "lastCrawledAt": "2026-10-07T10:26:25.835Z"
     },
     {
       "id": "src-fb-update",
@@ -8665,7 +8667,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-07T04:37:48.644Z"
+      "lastCrawledAt": "2026-10-07T10:26:28.440Z"
     },
     {
       "id": "src-fb-barta",
@@ -8678,7 +8680,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-07T04:37:52.493Z"
+      "lastCrawledAt": "2026-10-07T10:26:31.574Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -8691,7 +8693,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-07T04:37:55.438Z"
+      "lastCrawledAt": "2026-10-07T10:26:33.878Z"
     },
     {
       "id": "src-fb-voice",
@@ -8704,7 +8706,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-07T04:37:59.567Z"
+      "lastCrawledAt": "2026-10-07T10:26:39.490Z"
     },
     {
       "id": "src-fb-24x7",
@@ -8717,7 +8719,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-07T04:38:03.180Z"
+      "lastCrawledAt": "2026-10-07T10:26:42.291Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -8730,10 +8732,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-07T04:38:06.877Z"
+      "lastCrawledAt": "2026-10-07T10:26:52.679Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1791368812844",
+      "timestamp": "2026-10-07T10:26:52.844Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 6, সমন্বয়ের পর: 5, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 6,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1791347888899",
       "timestamp": "2026-10-07T04:38:08.899Z",
