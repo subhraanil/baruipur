@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-07T08:07:00.171Z
+# Last Updated: 2026-10-07T08:10:34.200Z
 # Total Articles: 261
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -1267,7 +1267,7 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (14 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (15 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -2889,6 +2889,134 @@ DOCTORS OPD ROSTER (11 DOCTORS):
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
   - Serial Booking Phone: 6291551186
   - Note: স্পন্ডিলাইটিস, ফ্র্যাকচার পরবর্তী রিহ্যাব, কোমর-হাঁটুর ব্যথা ও প্যারালাইসিস থেরাপি
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #15: জিতো হেলথ (JITO Health - Powered by SastaSundar) (JITO Health (Powered by SastaSundar))
+--------------------------------------------------------------------------------
+- Facility Type: ডক্টরস ওপিডি চেম্বার, মেডিসিন ও ডায়াগনস্টিক হাব (pharmacy_opd)
+- Canonical URL: https://baruipur.online/health-directory/jito-health-sastasundar-baruipur/
+- Address: বারুইপুর ২০ নং রেলগেট, সালেপুর (সাস্তাসুন্দর ওয়্যারহাউসের কাছে), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur 20 No. Railgate, Salepur (Near SastaSundar Warehouse), Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর ২০ নং রেলগেট ও সাস্তাসুন্দর ওয়্যারহাউস সংলগ্ন, সালেপুর
+- Phone: 6289080000
+- Emergency Phone: N/A
+- Timings: সকাল ১০:০০ - সন্ধ্যা ৬:০০ (বুকিং ও পরিষেবা হেল্পলাইন) | ওপিডি: সকাল ৯:০০ - ১১:টা ও সন্ধে ৬:টা - ৭:৩০টা
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর ২০ নং রেলগেট, সাস্তাসুন্দর ওয়ারহাউসের কাছে—প্রতিটি পরিষেবাতেই সাশ্রয় করুন ৬০% পর্যন্ত
+বারুইপুর ২০ নং রেলগেট সংলগ্ন সালেপুর এবং সাস্তাসুন্দর অ্যাপ ওয়্যারহাউসের সন্নিকটে অবস্থিত 'জিতো হেলথ' (JITO Health - Powered by SastaSundar app) একটি আধুনিক সমন্বিত চিকিৎসাকেন্দ্র। এখানে ডক্টরস ওপিডি, মেডিসিন এবং প্যাথলজিক্যাল ডায়াগনস্টিকসের সমস্ত পরিষেবাতেই ৬০% পর্যন্ত সাশ্রয় (Save up to 60%) করার সুযোগ রয়েছে। ক্লিনিকে প্রতিদিন সকাল ও সন্ধ্যায় ফিজিক্যাল ওপিডি চেম্বারের পাশাপাশি শীর্ষ বিশেষজ্ঞ ও জেনারেল চিকিৎসকদের অনলাইন ভিডিও কনসালটেশনের বিশেষ সুবিধা রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- প্রতিটি চিকিৎসাসেবায় ৬০% পর্যন্ত সাশ্রয় (Save up to 60% on Doctors, Medicines & Diagnostics)
+- সাস্তাসুন্দর অ্যাপ পরিচালিত নির্ভরযোগ্য ফার্মেসী ও জেনুইন ওষুধ সরবরাহ
+- ইন-পার্সন ওপিডি ডাক্তার চেম্বার ও ডিজিটাল প্রেসক্রিপশন
+- শীর্ষ মেডিকেল কলেজের স্পেশালিস্ট ও জেনারেল চিকিৎসকদের অনলাইন কনসালটেশন সুবিধা
+- রক্ত ও ল্যাবরেটরি ডায়াগনস্টিক টেস্টে বিপুল সাশ্রয়
+- [Diagnostic] কম্পিউটারাইজড প্যাথলজি টেস্ট
+- [Diagnostic] সুগার, লিপিড ও বায়োকেমিক্যাল স্ক্রিনিং
+
+DOCTORS OPD ROSTER (14 DOCTORS):
+* ডাঃ তমশ্রী দাস (Dr. Tomashree Das) [MBBS, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল মেডিসিন ও ওপিডি ফিজিশিয়ান (General Physician (Physical OPD))
+  - Visiting Days: সোমবার থেকে শনিবার
+  - Visiting Hours: সকাল ৯:০০ - ১১:০০ 
+  - Consultation Fee: সাশ্রয়ী রেটে (৬০% পর্যন্ত ছাড়)
+  - Serial Booking Phone: 6289080000
+  - Note: ক্লিনিক ওপিডি চেম্বার (Physical OPD)
+* ডাঃ সুবীর দত্ত (Dr. Subir Dutta) [MBBS, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান ও ওপিডি কনসালট্যান্ট (General Physician (Physical OPD))
+  - Visiting Days: সোমবার থেকে শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - ৭:৩০ 
+  - Consultation Fee: সাশ্রয়ী রেটে (৬০% পর্যন্ত ছাড়)
+  - Serial Booking Phone: 6289080000
+  - Note: ক্লিনিক ওপিডি চেম্বার (Physical OPD)
+* ডাঃ দেবলীনা চৌধুরী (Dr. Debolina Chowdhury) [MBBS, DNB (Obstetrics & Gynaecology)]
+  - Specialty: অবস্টেট্রিকস ও গাইনোকোলজি স্পেশালিস্ট (Gynaecologist & Obstetrician)
+  - Visiting Days: অনলাইন ও শিডিউল কনসালটেশন
+  - Visiting Hours: বুকিং করে নির্দিষ্ট করুন 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ সৌম্য ব্যানার্জি (Dr. Soumya Banerjee) [MBBS, MS, ল্যাপারোস্কোপিক সার্জন]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (Laparoscopic Surgeon)
+  - Visiting Days: অনলাইন ও নির্ধারিত কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ প্রেক্ষা দুগার (Dr. Preksha Dugar) [MBBS, MD (Dermatology, Venereology & Leprosy)]
+  - Specialty: চর্ম, যৌনরোগ ও কুষ্ঠ বিশেষজ্ঞ (Dermatologist & Venereologist)
+  - Visiting Days: অনলাইন ও নির্ধারিত দিনে
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ কুণাল সোম (Dr. Kunal Som) [MBBS, MD, এন্ডোক্রিনোলজি ও ডায়াবেটিস]
+  - Specialty: এন্ডোক্রিনোলজি, সুগার ও হরমোন বিশেষজ্ঞ (Endocrinologist & Diabetologist)
+  - Visiting Days: অনলাইন ও নির্ধারিত দিনে
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ হর্ষ বর্ধন বিনায়কিয়া (Dr. Harsh Vardhan Binaykia) [MBBS, MS, DNB (Orthopaedics)]
+  - Specialty: হাড় ও অর্থোপেডিক সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: অনলাইন ও নির্ধারিত দিনে
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ শুভজিৎ সরকার (Dr. Suvajit Sarkar) [MBBS, FCGP (Apollo Medvarsity), জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন ও টেলি-মেডিসিন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ দেবজ্যোতি হালদার (Dr. Debajyoti Haldar) [MBBS, MD, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ দেবজ্যোতি মণ্ডল (Dr. Debajyoti Mondal) [MBBS, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ মহম্মদ আবিদ (Dr. Mohammad Abid) [MBBS, MD, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ ধ্রুব ব্যানার্জী (Dr. Dhruba Banerjee) [MBBS, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ প্রমিত দাস (Dr. Pramit Das) [MBBS, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
+* ডাঃ কুণাল কুমার খাঁড়া (Dr. Kunal Kumar Khara) [MBBS (Hons), WMT, D.Int.S, জেনারেল ফিজিশিয়ান]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: অনলাইন কনসালটেশন
+  - Visiting Hours: বুকিং অনুযায়ী 
+  - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
+  - Serial Booking Phone: 6289080000
+  
 
 
 ================================================================================
