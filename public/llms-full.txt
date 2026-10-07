@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-07T17:03:20.494Z
+# Last Updated: 2026-10-07T17:34:49.611Z
 # Total Articles: 264
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -1267,7 +1267,7 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (15 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (24 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -1627,28 +1627,30 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #6: অ্যাপোলো ফার্মেসি ও ক্লিনিক (Apollo Pharmacy & Clinic)
+HEALTHCARE FACILITY #6: অ্যাপোলো ক্লিনিক বারুইপুর (Apollo Clinic Baruipur) (Apollo Clinic Baruipur)
 --------------------------------------------------------------------------------
-- Facility Type: মেডিসিন শপ ও বহির্বিভাগ চেম্বার (pharmacy_opd)
-- Canonical URL: https://baruipur.online/health-directory/apollo-pharmacy-clinic-baruipur/
-- Address: কুলপী রোড, কাছারি বাজারের কাছে, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Kulpi Road, Near Kachari Bazar, Baruipur, South 24 Parganas - 700144)
-- Landmark: বারুইপুর কাছারি বাজার মোড়
-- Phone: 033-2433-5454
+- Facility Type: মাল্টিস্পেশালিটি ক্লিনিক ও ডায়াগনস্টিক (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/apollo-clinic-baruipur/
+- Address: কুলপী রোড, বারুইপুর ফ্লাইওভার সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা, কলকাতা - ৭০০১৪৪ (Kulpi Road, Near Baruipur Flyover, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Landmark: বারুইপুর ফ্লাইওভার সংলগ্ন
+- Phone: 040-69063398
 - Emergency Phone: N/A
-- Timings: ফার্মেসি: সকাল ৭:৩০ - রাত ১০:৩০ | চেম্বার: সকাল ১০:৩০ - রাত ৮:০০
+- Timings: সকাল ৮:০০ - রাত ৮:৩০ (প্রতিদিন)
 - 24 Hours Open: No
 - Swasthya Sathi Accepted: No
 - Bed Capacity: N/A
 
 TAGLINE & OVERVIEW:
-অ্যাপোলোর নির্ভরযোগ্য ওষুধ ও বিশেষজ্ঞ চিকিৎসকদের বহির্বিভাগ ক্লিনিক
-বারুইপুর কাছারি বাজার ও কুলপী রোডে অবস্থিত অ্যাপোলো ফার্মেসি ব্র্যান্ডেড ওষুধ, বেবি কেয়ার সামগ্রী এবং প্রবীণ নাগরিকদের নিয়মিত স্বাস্থ্য পরীক্ষার সুযোগ দেয়। তাদের ইন-স্টোর চেম্বারে অভিজ্ঞ জেনারেল ফিজিশিয়ান, স্ত্রীরোগ ও অর্থোপেডিক চিকিৎসকরা বসেন।
+অ্যাপোলো হেলথকেয়ারের আন্তর্জাতিক মানের মাল্টিস্পেশালিটি ওপিডি ক্লিনিক ও আধুনিক ডায়াগনস্টিক সেন্টার
+বারুইপুরে আন্তর্জাতিক স্বাস্থ্যসেবা ব্র্যান্ড অ্যাপোলো হেলথ অ্যান্ড লাইফস্টাইলের অনুমোদিত শাখা 'অ্যাপোলো ক্লিনিক বারুইপুর' (Apollo Clinic Baruipur)। এখানে এক ছাদের তলায় অ্যাপোলোর অভিজ্ঞ বিশেষজ্ঞ চিকিৎসকদের ওপিডি কনসালটেশন, সুনির্দিষ্ট প্যাথলজি টেস্ট, ডিজিটাল এক্স-রে, আল্ট্রাসনোগ্রাফি, ইসিজি, হোল বডি হেলথ চেকআপ এবং ২৪ ঘণ্টা মেডিসিন সরবরাহ সুবিধা উপলব্ধ।
 
 SERVICES & DIAGNOSTICS:
-- ব্র্যান্ডেড ওষুধ ও ভেষজ পণ্য সরবরাহ
-- বিশেষজ্ঞ ডাক্তারের বহির্বিভাগ কনসালটেশন
-- রক্তচাপ, সুগার ও বডি মাস ইনডেক্স (BMI) টেস্ট
-- হোম ডেলিভারি ও ডিজিটাল প্রেসক্রিপশন স্টোরেজ
+- অ্যাপোলোর অভিজ্ঞ সুপার স্পেশালিস্ট ডাক্তারদের ওপিডি কনসালটেশন
+- উন্নত NABL স্বীকৃত প্যাথলজি ও রক্ত পরীক্ষা
+- ডিজিটাল এক্স-রে, আল্ট্রাসনোগ্রাফি (USG) ও ইসিজি
+- অ্যাপোলো কমপ্রিহেনসিভ মাস্টার হেলথ চেকআপ প্যাকেজ
+- হোম স্যাম্পল কালেকশন ও অনলাইনে টেস্ট রিপোর্ট ডাউনলোড
+- ২৪ ঘণ্টা জেনুইন ওষুধ সরবরাহ ফার্মেসি
 
 
 DOCTORS OPD ROSTER (4 DOCTORS):
@@ -1926,15 +1928,15 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #11: মঙ্গলদীপ (কেমিষ্ট এন্ড ড্ৰাগিষ্ট ও ডক্টরস চেম্বার) (Mangaldeep Chemist & Druggist / Doctors Chamber)
+HEALTHCARE FACILITY #11: মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার (MANGAL DEEP PHARMACY) (Mangal Deep Pharmacy & Doctors Chamber)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ, কেমিষ্ট & ডক্টরস চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/mangaldeep-puratan-bazar-baruipur/
-- Address: বারুইপুর পুরাতন বাজার, বারুইপুর, দক্ষিণ ২৪ পরগনা (কলকাতা - ৭০০১৪৪) (Baruipur Puratan Bazar, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Address: বারুইপুর - কুলপী রোড, পুরাতন বাজার মোড় (মহাপ্রভুতলা সংলগ্ন), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur - Kulpi Rd, Puratan Bazar, Maha Prabhu Tala, Baruipur, West Bengal 700144)
 - Landmark: বারুইপুর পুরাতন বাজার মোড়
 - Phone: 8444071937
 - Emergency Phone: N/A
-- Timings: দোকান: সকাল ৮:০০ - রাত ১০:০০ (প্রতিদিন) | চেম্বার: সকাল ৯:০০ - রাত ৯:০০ (ডাক্তারদের শিডিউল অনুযায়ী)
+- Timings: ফার্মেসি: সকাল ৭:০০ - রাত ১১:০০ (প্রতিদিন) | চেম্বার: সকাল ৮:৩০ - রাত ৯:৩০ (ডাক্তারদের সময়সূচি অনুযায়ী)
 - 24 Hours Open: No
 - Swasthya Sathi Accepted: No
 - Bed Capacity: N/A
@@ -2187,15 +2189,15 @@ DOCTORS OPD ROSTER (33 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #12: নমিতা সেবায়তন (ডক্টরস চেম্বার ও পলিক্লিনিক) (Namita Sebayatan (Doctors Chamber & Polyclinic))
+HEALTHCARE FACILITY #12: নমিতা সেবায়তন (Namita Sebayatan - ডক্টরস চেম্বার ও পলিক্লিনিক) (Namita Sebayatan Doctors Chamber & Polyclinic)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও ফিজিওথেরাপি হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/namita-sebayatan-baruipur/
-- Address: বারুইপুর রেলগেট (বারুইপুর মহকুমা হাসপাতালের বিপরীতে), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur Railgate, Opposite Baruipur Subdivisional Hospital, Baruipur, South 24 Parganas - 700144)
+- Address: বারুইপুর রেলগেট সংলগ্ন ও মহকুমা হাসপাতালের বিপরীতে, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Near Baruipur Railgate, Opposite Subdivisional Hospital, Baruipur, West Bengal 700144)
 - Landmark: বারুইপুর রেলগেট ও বারুইপুর মহকুমা হাসপাতালের ঠিক বিপরীতে
 - Phone: 9831980442
 - Emergency Phone: 9830016819
-- Timings: সোম থেকে শনি: সকাল ৮:০০ - রাত ৯:০০ | রবিবার: সকাল ৮:০০ - দুপুর ২:০০
+- Timings: সকাল ৮:০০ - রাত ১০:০০ (প্রতিদিন)
 - 24 Hours Open: No
 - Swasthya Sathi Accepted: No
 - Bed Capacity: N/A
@@ -2555,15 +2557,15 @@ DOCTORS OPD ROSTER (48 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #13: হাই মেডিকেল সেন্টার (Hai Medical Centre) (Hai Medical Centre)
+HEALTHCARE FACILITY #13: হাই মেডিকেল সেন্টার (Hai Medical Centre | Polyclinic & Pharmacy) (Hai Medical Centre - Polyclinic & Medicine Delivery)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও হোম হেলথকেয়ার হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/hai-medical-centre-baruipur/
-- Address: বারুইপুর (রেলগেট সংলগ্ন), বারুইপুর, দক্ষিণ ২৪ পরগনা (কলকাতা - ৭০০১৪৪) (Baruipur Railgate, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Address: বারুইপুর - কুলপী রোড, রেলগেট সংলগ্ন (খোশলা ইলেকট্রনিক্সের বিপরীতে), খোদার বাজার উত্তরপাড়া, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur - Kulpi Rd, near Railgate, Opposite Khosla Electronics, Khodar Bazar Uttarpara, Baruipur, West Bengal 700144)
 - Landmark: বারুইপুর রেলগেটের ঠিক সন্নিকটে
 - Phone: 9830029256
 - Emergency Phone: 9830015598
-- Timings: সকাল ৮:৩০ - রাত ১০:০০ (প্রতিদিন খোলা)
+- Timings: সকাল ৯:০০ - রাত ৯:৩০ (প্রতিদিন)
 - 24 Hours Open: No
 - Swasthya Sathi Accepted: No
 - Bed Capacity: N/A
@@ -3016,6 +3018,542 @@ DOCTORS OPD ROSTER (14 DOCTORS):
   - Visiting Hours: বুকিং অনুযায়ী 
   - Consultation Fee: সাশ্রয়ী কনসালটেশন ফি
   - Serial Booking Phone: 6289080000
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #16: শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড (Shatabdi Diagnostic Pvt. Ltd.) (Shatabdi Diagnostic Pvt. Ltd. Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: ডায়াগনস্টিক ও প্যাথলজি রিসার্চ সেন্টার (diagnostic)
+- Canonical URL: https://baruipur.online/health-directory/shatabdi-diagnostic-pvt-ltd-baruipur/
+- Address: ৭০, উকিলপাড়া রোড, বারুইপুর পুরসভা সংলগ্ন, সুবুদ্ধিপুর, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (70, Ukil Para Road, Near Baruipur Municipality, Subuddhipur, Baruipur, West Bengal 700144)
+- Landmark: বারুইপুর পুরসভা ও স্টেশন রোড সংলগ্ন
+- Phone: 033-2433-7050
+- Emergency Phone: N/A
+- Timings: সকাল ৭:৩০ - সন্ধ্যা ৭:৩০ (সোম - শনি) | রবিবার: সকাল ৮:০০ - দুপুর ২:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর পুরসভা সংলগ্ন সুপ্রতিষ্ঠিত প্যাথলজি ল্যাব, আল্ট্রাসনোগ্রাফি ও ডক্টরস কনসালটেশন সেন্টার
+বারুইপুর সুবুদ্ধিপুর উকিলপাড়া রোডে (বারুইপুর পুরসভার সন্নিকটে) অবস্থিত 'শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড' (Shatabdi Diagnostic Pvt. Ltd.) দক্ষিণ ২৪ পরগনার অন্যতম নির্ভরযোগ্য ও প্রবীণ চিকিৎসা প্রতিষ্ঠান। এখানে আধুনিক অ্যানালাইজার যন্ত্রের মাধ্যমে নিখুঁত রক্ত পরীক্ষা, বায়োকেমিস্ট্রি, হেমাটোলজি, ডিজিটাল এক্স-রে, আল্ট্রাসনোগ্রাফি (USG), ইসিজি ও বিভিন্ন স্পেশালিটির খ্যাতনামা চিকিৎসকদের চেম্বার পরিচালিত হয়।
+
+SERVICES & DIAGNOSTICS:
+- কম্পিউটারাইজড ফুল বায়োকেমিস্ট্রি ও ক্লিনিক্যাল প্যাথলজি
+- হাই-রেজোলিউশন আল্ট্রাসনোগ্রাফি (USG) ও কালার ডপলার
+- ডিজিটাল এক্স-রে ও ১২-লিড ইসিজি (ECG)
+- হরমোন প্রোফাইল, থাইরয়েড ও ক্যানসার মার্কার পরীক্ষা
+- সিনিয়র মেডিসিন, গাইনি ও অর্থোপেডিক চিকিৎসকদের ওপিডি চেম্বার
+- দ্রুত ও নির্ভুল টেস্ট রিপোর্ট ডেলিভারি
+- [Diagnostic] Fully Automated Biochemistry Analyzer
+- [Diagnostic] Digital X-Ray & USG (Abdomen/Pelvis/Obstetric)
+- [Diagnostic] Computerized ECG & Routine Pathology
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ পি. কে. ব্যানার্জি (Dr. P. K. Banerjee) [MBBS, MD (Pathology)]
+  - Specialty: হেড প্যাথলজিস্ট ও ল্যাব ডিরেক্টর (Consultant Pathologist)
+  - Visiting Days: প্রতিদিন (রবিবার বাদে)
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-7050
+  
+* ডাঃ সুব্রত মুখার্জি (Dr. Subrata Mukherjee) [MBBS, MD (General Medicine)]
+  - Specialty: মেডিসিন ও ডায়াবেটিস বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৫:০০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-7050
+  
+* ডাঃ অসীম কুমার নাথ (Dr. Asim Kumar Nath) [MBBS, MS (Ortho)]
+  - Specialty: হাড় ও বাত রোগ বিশেষজ্ঞ (Orthopaedic Surgeon)
+  - Visiting Days: মঙ্গলবার ও শনিবার
+  - Visiting Hours: বিকাল ৪:৩০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-7050
+  
+* ডাঃ তপন কুমার রায় (Dr. Tapan Kumar Roy) [MBBS, DMRD (Radiology)]
+  - Specialty: রেডিওলজিস্ট ও সোনোলজিস্ট (Consultant Radiologist)
+  - Visiting Days: সোম, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-7050
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #17: মেট্রোপলিস ডায়াগনস্টিক বারুইপুর (Metropolis Labs Blood Test & Diagnostic Centre) (Metropolis Labs Diagnostic Centre Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: NABL ও CAP আন্তর্জাতিক মানের ডায়াগনস্টিক ল্যাব (diagnostic)
+- Canonical URL: https://baruipur.online/health-directory/metropolis-diagnostic-baruipur/
+- Address: শপ নং ১৬/বি, কুলপী রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, কলকাতা - ৭০০১৪৪ (Shop No. 16/B, Kulpi Road, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Landmark: কুলপী রোড, বারুইপুর বাজার সংলগ্ন
+- Phone: 8422801801
+- Emergency Phone: N/A
+- Timings: সকাল ৭:০০ - রাত ৮:০০ (সোম - শনি) | রবিবার: সকাল ৭:০০ - দুপুর ২:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+ভারতের শীর্ষস্থানীয় NABL স্বীকৃত ডায়াগনস্টিক চেন - ৪০০০+ উন্নত প্যাথলজি টেস্ট ও হোম কালেকশন
+ভারতের অগ্রগণ্য ও আন্তর্জাতিকভাবে স্বীকৃত ল্যাবরেটরি নেটওয়ার্ক 'মেট্রোপলিস হেলথকেয়ার'-এর বারুইপুর শাখা (Metropolis Labs, Baruipur)। বারুইপুর কুলপী রোডে অবস্থিত এই ল্যাব থেকে আন্তর্জাতিক মানদণ্ড (NABL & CAP accredited) বজায় রেখে রক্ত পরীক্ষা, থাইরয়েড, ডায়াবেটিস, বায়োপসি, হিস্টোপ্যাথলজি, অ্যালার্জি ও জেনেটিক স্ক্রিনিং সেবা প্রদান করা হয়। রোগীরা ঘরে বসেই হোম স্যাম্পল কালেকশনের সুবিধা নিতে পারেন।
+
+SERVICES & DIAGNOSTICS:
+- ৪০০০+ উন্নত ও সুপার-স্পেশালাইজড প্যাথলজি টেস্ট
+- NABL ও CAP স্ট্যান্ডার্ডে ১০০% নির্ভুল রিপোর্ট
+- হোম স্যাম্পল কালেকশন (Home Blood Sample Collection)
+- ট্রুহেলথ মাস্টার ফুল বডি চেকআপ প্যাকেজ
+- ক্যান্সার স্ক্রিনিং, মলিকিউলার ডায়াগনস্টিকস ও বায়োপসি
+- হোয়াটসঅ্যাপ ও ওয়েবসাইটে তাৎক্ষণিক ডিজিটাল রিপোর্ট ডাউনলোড
+- [Diagnostic] Automated High-Throughput Immunoassay & Hematology
+- [Diagnostic] Specialized Molecular Biology & Genetics Testing
+- [Diagnostic] Clinical Biochemistry, Serology & Microbiology
+
+DOCTORS OPD ROSTER (2 DOCTORS):
+* ডাঃ অনিন্দিতা চক্রবর্তী (Dr. Anindita Chakraborty) [MBBS, MD (Biochemistry)]
+  - Specialty: কনসালট্যান্ট বায়োকেমিস্ট ও ল্যাব হেড (Clinical Biochemist)
+  - Visiting Days: সোম থেকে শনি
+  - Visiting Hours: সকাল ১০:০০ - বিকাল ৫:০০ 
+  - Consultation Fee: ল্যাব টেস্ট ভিত্তিক
+  - Serial Booking Phone: 8422801801
+  
+* ডাঃ রাহুল চ্যাটার্জি (Dr. Rahul Chatterjee) [MBBS, DCP, MD (Pathology)]
+  - Specialty: সিনিয়র হিস্টোপ্যাথলজিস্ট (Consultant Pathologist)
+  - Visiting Days: সোম থেকে শনি
+  - Visiting Hours: সকাল ১১:০০ - বিকাল ৪:০০ 
+  - Consultation Fee: ল্যাব টেস্ট ভিত্তিক
+  - Serial Booking Phone: 8422801801
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #18: লাইফ জোন নার্সিং হোম, ডায়াগনস্টিক ও ক্লিনিক (Life Zone Nursing Home) (Life Zone Nursing Home, Diagnostic & Clinic Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: মাল্টিস্পেশালিটি নার্সিং হোম ও ডায়াগনস্টিক ক্লিনিক (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/life-zone-nursing-home-baruipur/
+- Address: বারুইপুর নতুন ফ্লাইওভার সংলগ্ন, খোদার বাজার উত্তরপাড়া, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur New Flyover, Khodar Bazar Uttarpara, Baruipur, West Bengal 700144)
+- Landmark: বারুইপুর নতুন ফ্লাইওভারের গোড়ায়
+- Phone: 9123818292
+- Emergency Phone: N/A
+- Timings: ইনডোর ও এমার্জেন্সি: ২৪ ঘণ্টা খোলা (24x7 Open) | বহির্বিভাগ (OPD): সকাল ৯:০০ - রাত ৯:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: Yes
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর নতুন ফ্লাইওভার সংলগ্ন আধুনিক ইনডোর চিকিৎসা, মডার্ন ওটি, গাইনি, সার্জারি ও ওপিডি সেন্টার
+বারুইপুর নতুন ফ্লাইওভার সংলগ্ন খোদার বাজার উত্তরপাড়ায় অবস্থিত 'লাইফ জোন নার্সিং হোম' (Life Zone Nursing Home, Diagnostic & Clinic) এলাকার এক বিশ্বস্ত ও আধুনিক স্বাস্থ্যসেবা কেন্দ্র। এখানে ২৪ ঘণ্টা জরুরি চিকিৎসা, ইনডোর বেড, আধুনিক মডিউলার অপারেশন থিয়েটার (OT), সিজারিয়ান ও নরমাল ডেলিভারি, ল্যাপারোস্কোপিক জেনারেল সার্জারি, অর্থোপেডিক ও ইউরোসার্জারি সম্পন্ন হয়। এছাড়াও এখানে নিয়মিত অভিজ্ঞ বিশেষজ্ঞ ডাক্তারদের ওপিডি ক্লিনিক ও ল্যাবরেটরি টেস্ট সেবা চালু রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- ২৪ ঘণ্টা ইমার্জেন্সি ভর্তি ও মেডিকেল কেয়ার
+- প্রসূতি ও স্ত্রীরোগ বিভাগ: সিজারিয়ান ও নিরাপদ প্রসব সেবা
+- জেনারেল ও আধুনিক ল্যাপারোস্কোপিক সার্জারি (গলব্লাডার, অ্যাপেন্ডিক্স, হার্নিয়া)
+- অর্থোপেডিক ট্রমা ও জয়েন্ট রিপ্লেসমেন্ট সার্জারি
+- ইউরোসার্জারি, কিডনি স্টোন ও প্রোস্টেট চিকিৎসা
+- অনকোলজি, পেডিয়াট্রিক ও জেনারেল মেডিসিন ওপিডি
+- ডিজিটাল প্যাথলজি, ইউএসজি ও ইসিজি ডায়াগনস্টিক সুবিধা
+- [Diagnostic] Modular Operation Theatres with Laminar Air Flow
+- [Diagnostic] High-Resolution Ultrasound & Color Doppler
+- [Diagnostic] Computerized Pathology & 24/7 Pharmacy
+
+DOCTORS OPD ROSTER (6 DOCTORS):
+* ডাঃ এস. মুখার্জি (Dr. S. Mukherjee) [MBBS, DGO, MS (Gynaecology & Obstetrics)]
+  - Specialty: স্ত্রী ও প্রসূতিরোগ বিশেষজ্ঞ সার্জন (Gynaecologist & Obstetrician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9123818292
+  
+* ডাঃ আর. কে. দাস (Dr. R. K. Das) [MBBS, MS (General & Laparoscopic Surgery)]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (Laparoscopic Surgeon)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: বিকাল ৫:০০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9123818292
+  
+* ডাঃ পি. কে. রায় (Dr. P. K. Roy) [MBBS, MS (Orthopaedics)]
+  - Specialty: হাড় ও ট্রমা সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: বুধবার ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9123818292
+  
+* ডাঃ অরূপ সেনগুপ্ত (Dr. Arup Sengupta) [MBBS, MD (General Medicine)]
+  - Specialty: জেনারেল মেডিসিন কনসালট্যান্ট (Consultant Physician)
+  - Visiting Days: সোম থেকে শনি
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9123818292
+  
+* ডাঃ সুব্রত চক্রবর্তী (Dr. Subrata Chakraborty) [MBBS, DCH, MD (Paediatrics)]
+  - Specialty: নবজাতক ও শিশুরোগ বিশেষজ্ঞ (Paediatrician)
+  - Visiting Days: প্রতিদিন
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৬:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9123818292
+  
+* ডাঃ বিশ্বজিৎ নন্দী (Dr. Biswajit Nandi) [MBBS, MS (ENT)]
+  - Specialty: নাক, কান ও গলা রোগ বিশেষজ্ঞ (ENT Specialist)
+  - Visiting Days: মঙ্গলবার ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:৩০ - রাত ৮:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9123818292
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #19: কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center) (Kalyan Medical Center Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: মাল্টিস্পেশালিটি ক্লিনিক ও অ্যাডভান্সড ডায়াগনস্টিক (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/kalyan-medical-center-baruipur/
+- Address: গ্রাম ও পোঃ কুন্দরালি, কল্যাণপুর স্টেশন সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৬১০ (Vill & PO - Kundarali, Near Kalyanpur Railway Station, Baruipur, South 24 Parganas - 743610)
+- Landmark: কল্যাণপুর রেলওয়ে স্টেশন ও বৈদ্যনাথ মন্দির সংলগ্ন
+- Phone: 8981807116
+- Emergency Phone: N/A
+- Timings: সকাল ৮:০০ - রাত ৮:৩০ (প্রতিদিন)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+কল্যাণপুর স্টেশন সংলগ্ন প্রখ্যাত নিউরোলজি, কার্ডিওলজি ও আধুনিক প্যাথলজি হাব
+বারুইপুর মহকুমার কল্যাণপুর রেলওয়ে স্টেশন ও বৈদ্যনাথ মন্দির সংলগ্ন কুন্দরালিতে অবস্থিত 'কল্যাণ মেডিকেল সেন্টার' (Kalyan Medical Center)। বিশেষ করে নিউরোমেডিসিন ও উন্নত স্নায়ুরোগ পরীক্ষার জন্য এই কেন্দ্রটি দক্ষিণ ২৪ পরগনায় বিশেষভাবে সুপরিচিত। এখানে নিয়মিত অভিজ্ঞ নিউরোলজিস্টদের ওপিডি চেম্বার ছাড়াও NCV, EEG, EMG, VEP, BAER, ইকোকার্ডিওগ্রাফি, কালার ডপলার, ডিজিটাল এক্স-রে ও সম্পূর্ণ প্যাথলজি টেস্ট সুবিধা রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- উন্নত নিউরোলজি টেস্ট সুবিধা: NCV, EEG, EMG, VEP, BAER, RNST
+- কলকাতার নামী নিউরোলজিস্ট ও নিউরো-স্পেশালিস্টদের ওপিডি চেম্বার
+- কার্ডিয়াক ডায়াগনস্টিক: ইকোকার্ডিওগ্রাফি (ECHO) ও ১২-লিড ইসিজি
+- ডিজিটাল এক্স-রে ও আল্ট্রাসনোগ্রাফি (USG & Color Doppler)
+- সম্পূর্ণ প্যাথলজি ল্যাব ও হোম স্যাম্পল কালেকশন
+- মেডিসিন, অর্থোপেডিক ও স্ত্রীরোগ বিশেষজ্ঞদের নিয়মিত পরামর্শ
+- [Diagnostic] Advanced Neurodiagnostic Setup (NCV, EEG, EMG, VEP)
+- [Diagnostic] Digital 2D Echocardiography & Color Doppler Ultrasound
+- [Diagnostic] Fully Automated Biochemistry & Pathology Lab
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ সিতাংশু শেখর নন্দী (Dr. Sitansu Sekhar Nandi) [MBBS, MD, DM (Neurology)]
+  - Specialty: সিনিয়র নিউরোলজি বিশেষজ্ঞ (Consultant Neurologist)
+  - Visiting Days: নির্দিষ্ট দিনে (বুকিং সাপেক্ষ)
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 8981807116
+  - Note: মাথাব্যথা, মৃগীরোগ, হাত-পা অবশ ও প্যারালাইসিস
+* ডাঃ বি. কে. সরকার (Dr. B. K. Sarkar) [MBBS, MD (Medicine), PGDCC (Cardiology)]
+  - Specialty: মেডিসিন ও হৃদরোগ বিশেষজ্ঞ (Cardiologist & Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: বিকাল ৫:০০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 8981807116
+  
+* ডাঃ এস. কে. মণ্ডল (Dr. S. K. Mondal) [MBBS, MS (Orthopaedics)]
+  - Specialty: হাড় ও জয়েন্ট বিশেষজ্ঞ (Orthopaedic Surgeon)
+  - Visiting Days: মঙ্গলবার ও শনিবার
+  - Visiting Hours: বিকাল ৪:৩০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 8981807116
+  
+* ডাঃ এ. কে. বিশ্বাস (Dr. A. K. Biswas) [MBBS, DGO]
+  - Specialty: স্ত্রী ও প্রসূতিরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: বৃহস্পতিবার ও রবিবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 8981807116
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #20: দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics [NABL Accredited]) (The Panacea Diagnostics Centre Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: NABL স্বীকৃত ডায়াগনস্টিক ল্যাব ও স্পেশালিটি ক্লিনিক (diagnostic)
+- Canonical URL: https://baruipur.online/health-directory/the-panacea-diagnostics-centre-baruipur/
+- Address: কুলপী রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, কলকাতা - ৭০০১৪৪ (Kulpi Road, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Landmark: কুলপী রোড, বারুইপুর
+- Phone: 7439667663
+- Emergency Phone: N/A
+- Timings: সকাল ৭:০০ - রাত ৯:০০ (প্রতিদিন)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুরের শীর্ষ NABL অ্যাক্রিডিটেড প্যাথলজি, কার্ডিওলজি, পালমোনোলজি ও হেলথ প্যাকেজ হাব
+বারুইপুর কুলপী রোডে অবস্থিত 'দ্য প্যানাসিয়া ডায়াগনস্টিকস' (The Panacea Diagnostics) একটি NABL অ্যাক্রিডিটেড সর্বাধুনিক ডায়াগনস্টিক সেন্টার। স্বাস্থ্য পরীক্ষার নির্ভুলতায় এই ল্যাবরেটরি অত্যন্ত বিশ্বস্ত। এখানে আধুনিক প্যাথলজি, ডিজিটাল রেডিওলজি, আল্ট্রাসনোগ্রাফি, ইকোকার্ডিওগ্রাফি, টিএমটি (TMT), স্পাইরোমেট্রি (PFT), ইউরোলজি টেস্ট এবং বিশেষায়িত হেলথ প্যাকেজ সুবিধা রয়েছে। রোগীরা বাড়ি থেকে ফ্রি হোম কালেকশন বুক করতে পারেন।
+
+SERVICES & DIAGNOSTICS:
+- NABL স্বীকৃত উচ্চমানের প্যাথলজি ও বায়োকেমিস্ট্রি পরীক্ষা
+- কার্ডিওলজি সেবা: ইসিজি, ইকোকার্ডিওগ্রাফি ও টিএমটি (TMT)
+- পালমোনোলজি: পালমোনারি ফাংশন টেস্ট (PFT / Spirometry)
+- উচ্চমানের ৪ডি আল্ট্রাসনোগ্রাফি ও কালার ডপলার
+- হোম স্যাম্পল কালেকশন (Home Collection)
+- হ্যান্ডপিকড স্পেশাল ও অর্গান-স্পেসিফিক হেলথ প্যাকেজ
+- [Diagnostic] NABL Accredited Fully Automated Testing Platform
+- [Diagnostic] Echocardiography, TMT & Computerized ECG
+- [Diagnostic] Ultrasound, PFT & Executive Wellness Checkups
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ কে. রায়চৌধুরী (Dr. K. Roy Chowdhury) [MBBS, MD (Pathology)]
+  - Specialty: চিফ প্যাথলজিস্ট ও ল্যাব ডিরেক্টর (Consultant Pathologist)
+  - Visiting Days: সোম থেকে শনি
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ২:০০ 
+  - Consultation Fee: ল্যাব টেস্ট ভিত্তিক
+  - Serial Booking Phone: 7439667663
+  
+* ডাঃ টি. কে. মাইতি (Dr. T. K. Maiti) [MBBS, MD, DM (Cardiology)]
+  - Specialty: সিনিয়র কার্ডিওলজিস্ট (Consultant Cardiologist)
+  - Visiting Days: মঙ্গল ও শুক্রবার
+  - Visiting Hours: বিকাল ৫:০০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 7439667663
+  
+* ডাঃ প্রীতম নস্কর (Dr. Pritam Naskar) [MBBS, MD (Chest Medicine)]
+  - Specialty: বক্ষ ও ফুসফুস রোগ বিশেষজ্ঞ (Pulmonologist & Chest Physician)
+  - Visiting Days: সোম ও বৃহস্পতিবার
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 7439667663
+  
+* ডাঃ এস. সেন (Dr. S. Sen) [MBBS, MS, MCh (Urology)]
+  - Specialty: ইউরোলজি বিশেষজ্ঞ সার্জন (Urologist)
+  - Visiting Days: শনিবার
+  - Visiting Hours: বিকাল ৩:০০ - সন্ধ্যা ৬:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 7439667663
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #21: অ্যাকিউহেলথ ডায়াগনস্টিকস বারুইপুর (AccuHealth Diagnostics - 24/7 Pathology) (AccuHealth Diagnostics Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: ২৪/৭ প্যাথলজি ও আধুনিক ডায়াগনস্টিক সেন্টার (diagnostic)
+- Canonical URL: https://baruipur.online/health-directory/accuhealth-diagnostics-baruipur/
+- Address: ১০৪, কুলপী রোড, পদ্মপুকুর মোড়, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (104, Kulpi Road, Padmapukur, Baruipur, South 24 Parganas, West Bengal 700144)
+- Landmark: পদ্মপুকুর মোড় সংলগ্ন
+- Phone: 033-2423-0000
+- Emergency Phone: N/A
+- Timings: প্যাথলজি ও ল্যাব: ২৪ ঘণ্টা খোলা (24/7 Open) | ওপিডি ক্লিনিক: সকাল ৮:০০ - রাত ৯:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+পদ্মপুকুর মোড় সংলগ্ন ২৪ ঘণ্টা প্যাথলজি, ডিজিটাল এক্স-রে, ইউএসজি ও অভিজ্ঞ চিকিৎসকদের চেম্বার
+বারুইপুর পদ্মপুকুর মোড়ে (১০৪, কুলপী রোড) অবস্থিত 'অ্যাকিউহেলথ ডায়াগনস্টিকস' (AccuHealth Diagnostics Baruipur) মহকুমার অন্যতম নেতৃস্থানীয় স্বাস্থ্যপরীক্ষা কেন্দ্র। এই শাখার অন্যতম বৈশিষ্ট্য হলো এখানে ২৪ ঘণ্টা (24/7) জরুরি প্যাথলজি পরীক্ষা ও ব্লাড টেস্ট সুবিধা চালু থাকে। এছাড়াও ডিজিটাল এক্স-রে, কালার ডপলার আল্ট্রাসনোগ্রাফি, ইসিজি, ইকো এবং বিভিন্ন বিভাগের প্রখ্যাত কনসালট্যান্ট চিকিৎসকদের ওপিডি সেবা নিয়মিত পাওয়া যায়।
+
+SERVICES & DIAGNOSTICS:
+- ২৪/৭ নিরবচ্ছিন্ন প্যাথলজি ও ইমার্জেন্সি ব্লাড টেস্ট
+- হাই-ডেফিনিশন ডিজিটাল এক্স-রে (Digital X-Ray)
+- কালার ডপলার ও আল্ট্রাসনোগ্রাফি (USG - 4D)
+- ১২-লিড ইসিজি ও ইকোকার্ডিওগ্রাফি
+- হোম স্যাম্পল কালেকশন ও অনলাইন রিপোর্ট ডাউনলোড
+- মেডিসিন, অর্থোপেডিক, গাইনি ও শিশু বিশেষজ্ঞদের ওপিডি চেম্বার
+- [Diagnostic] 24/7 Fully Automated Clinical Pathology Laboratory
+- [Diagnostic] Advanced High-Frequency Digital X-Ray System
+- [Diagnostic] Color Doppler Ultrasound & 2D Echocardiography
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ এস. কে. বোস (Dr. S. K. Bose) [MBBS, MD (Pathology)]
+  - Specialty: হেড প্যাথলজিস্ট (Consultant Pathologist)
+  - Visiting Days: সোম থেকে শনি
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ৩:০০ 
+  - Consultation Fee: ল্যাব টেস্ট ভিত্তিক
+  - Serial Booking Phone: 9836920022
+  
+* ডাঃ অরূপ মজুমদার (Dr. Arup Majumdar) [MBBS, MD (General Medicine)]
+  - Specialty: মেডিসিন ও লাইফস্টাইল রোগ বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৫:০০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9836920022
+  
+* ডাঃ সুমনা দাস (Dr. Sumana Das) [MBBS, DMRD (Radiology)]
+  - Specialty: কনসালট্যান্ট রেডিওলজিস্ট ও সনোলজিস্ট (Radiologist)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9836920022
+  
+* ডাঃ আর. কে. মণ্ডল (Dr. R. K. Mondal) [MBBS, MS (Orthopaedics)]
+  - Specialty: হাড় ও ট্রমা সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: বুধবার ও শনিবার
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9836920022
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #22: স্টার মেডিকেল সেন্টার ও ডক্টরস চেম্বার (Star Medical Centre) (Star Medical Centre Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: ফার্মেসি ও স্পেশালিস্ট ডক্টরস চেম্বার (pharmacy_opd)
+- Canonical URL: https://baruipur.online/health-directory/star-medical-centre-baruipur/
+- Address: কুলপী রোড, খোদার বাজার উত্তরপাড়া, সুবুদ্ধিপুর, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Kulpi Road, Khodar Bazar Uttarpara, Subuddhipur, Baruipur, West Bengal 700144)
+- Landmark: খোদার বাজার উত্তরপাড়া, কুলপী রোড
+- Phone: 033-2433-0868
+- Emergency Phone: N/A
+- Timings: সকাল ৮:০০ - রাত ১০:০০ (প্রতিদিন)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+কুলপী রোড খোদার বাজার সংলগ্ন নির্ভরযোগ্য ওষুধের দোকান ও অভিজ্ঞ চিকিৎসকদের চেম্বার
+বারুইপুর কুলপী রোডে খোদার বাজার উত্তরপাড়া এলাকায় অবস্থিত 'স্টার মেডিকেল সেন্টার' (Star Medical Centre) একটি বিশ্বস্ত ও সুপরিচিত ফার্মেসি ও চিকিৎসকদের চেম্বার। এখানে জেনুইন প্রেসক্রিপশন ওষুধ, শিশু খাদ্য, সার্জিক্যাল সামগ্রী সরবরাহের পাশাপাশি প্রতিদিন সকালে ও সন্ধ্যায় মেডিসিন, শিশু ও স্ত্রীরোগের সিনিয়র চিকিৎসকরা রোগী দেখেন।
+
+SERVICES & DIAGNOSTICS:
+- জেনুইন অ্যালোপ্যাথিক ও প্রেসক্রিপশন ড্রাগস সরবরাহ
+- মেডিসিন, শিশু ও প্রসূতিরোগ বিশেষজ্ঞ চিকিৎসকদের ওপিডি ভিজিট
+- তাৎক্ষণিক রক্তচাপ (BP) ও ব্লাড সুগার পরীক্ষা
+- নেবুলাইজেশন ও প্রাথমিক ড্রেসিং সেবা
+- স্থানীয় অঞ্চলে ওষুধ পৌঁছে দেওয়ার সহায়তা
+- [Diagnostic] BP Monitoring & Glucometer Sugar Test
+
+DOCTORS OPD ROSTER (3 DOCTORS):
+* ডাঃ এস. কে. মণ্ডল (Dr. S. K. Mondal) [MBBS (Cal), General Physician]
+  - Specialty: জেনারেল ফিজিশিয়ান ও ডায়াবেটিস পরামর্শদাতা (General Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-0868
+  
+* ডাঃ এ. কে. সাহা (Dr. A. K. Saha) [MBBS, DCH (Paediatrics)]
+  - Specialty: শিশুরোগ বিশেষজ্ঞ (Child Specialist)
+  - Visiting Days: মঙ্গল ও শনিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-0868
+  
+* ডাঃ মৌসুমী রায় (Dr. Mousumi Roy) [MBBS, DGO]
+  - Specialty: স্ত্রী ও প্রসূতিরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: বৃহস্পতিবার ও রবিবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১২:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 033-2433-0868
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #23: ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services) (Oval Healthcare Services Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: ডায়াগনস্টিক, পলিক্লিনিক ও হেলথকেয়ার সেন্টার (diagnostic)
+- Canonical URL: https://baruipur.online/health-directory/oval-healthcare-services-baruipur/
+- Address: দত্তপাড়া রোড, সুবুদ্ধিপুর, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Duttapara Rd, Subuddhipur, Baruipur, West Bengal 700144)
+- Landmark: সুবুদ্ধিপুর দত্তপাড়া মোড়
+- Phone: 9051384123
+- Emergency Phone: N/A
+- Timings: সকাল ১০:০০ - রাত ৮:০০ (প্রতিদিন)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+সুবুদ্ধিপুর দত্তপাড়া রোডের আধুনিক ডায়াগনস্টিক, ইএনটি, আই কেয়ার ও ওপিডি সেন্টার
+বারুইপুর সুবুদ্ধিপুর দত্তপাড়া রোডে অবস্থিত 'ওভাল হেলথকেয়ার সার্ভিসেস' (Oval Healthcare Services) একটি সুপরিচিত চিকিৎসাকেন্দ্র। এখানে আধুনিক প্যাথলজি টেস্ট, আল্ট্রাসনোগ্রাফি, ইসিজি, চক্ষু পরীক্ষা, ইএনটি কনসালটেশন এবং সাধারণ মেডিসিনের প্রবীণ চিকিৎসকদের নিয়মিত ওপিডি চেম্বার অনুষ্ঠিত হয়। দ্রুত ও সঠিক রিপোর্ট প্রদানের জন্য কেন্দ্রটি স্থানীয়দের মধ্যে আস্থা অর্জন করেছে।
+
+SERVICES & DIAGNOSTICS:
+- ক্লিনিক্যাল প্যাথলজি ও রক্ত পরীক্ষা সেবা
+- আল্ট্রাসনোগ্রাফি (USG) ও ইসিজি (ECG) মনিটরিং
+- চক্ষু ও দৃষ্টিশক্তি পরীক্ষা (Eye Checkup)
+- নাক, কান ও গলা (ENT) বিশেষজ্ঞ কনসালটেশন
+- জেনারেল মেডিসিন ও জেরিয়াট্রিক স্বাস্থ্যসেবা চেম্বার
+- হোম স্যাম্পল কালেকশন সুবিধা
+- [Diagnostic] Computerized Pathology Lab
+- [Diagnostic] Ultrasound & 12-Lead ECG Machine
+- [Diagnostic] Ophthalmic & ENT Examination Setup
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ এস. কে. দাস (Dr. S. K. Das) [MBBS, MD (General Medicine)]
+  - Specialty: মেডিসিন ও জেরিয়াট্রিক কেয়ার বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9051384123
+  
+* ডাঃ প্রীতম ব্যানার্জি (Dr. Pritam Banerjee) [MBBS, MS (ENT)]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT Specialist)
+  - Visiting Days: মঙ্গলবার ও শনিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9051384123
+  
+* ডাঃ অঞ্জন রায় (Dr. Anjan Roy) [MBBS, DO (Ophthalmology)]
+  - Specialty: চক্ষুরোগ বিশেষজ্ঞ (Eye Specialist)
+  - Visiting Days: বৃহস্পতিবার ও রবিবার
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9051384123
+  
+* ডাঃ সুব্রত হালদার (Dr. Subrata Halder) [MBBS, DCH]
+  - Specialty: শিশুরোগ কনসালট্যান্ট (Paediatrician)
+  - Visiting Days: বুধবার ও শনিবার
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9051384123
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #24: টিউলিপ পলিক্লিনিক (Tulip Polyclinic) (Tulip Polyclinic Baruipur)
+--------------------------------------------------------------------------------
+- Facility Type: মাল্টিস্পেশালিটি পলিক্লিনিক ও ডক্টরস চেম্বার (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/tulip-polyclinic-baruipur/
+- Address: ১ম তল, সাবিতা শপিং কমপ্লেক্স, বারুইপুর - কুলপী রোড, খোদার বাজার উত্তরপাড়া, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (1st Floor, Shabita Shopping Complex, Baruipur - Kulpi Rd, Khodar Bazar Uttarpara, Baruipur, West Bengal 700144)
+- Landmark: সাবিতা শপিং কমপ্লেক্স, খোদার বাজার উত্তরপাড়া
+- Phone: 9007734034
+- Emergency Phone: N/A
+- Timings: সকাল ১০:০০ - রাত ৮:৩০ (প্রতিদিন)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+সাবিতা শপিং কমপ্লেক্সের প্রখ্যাত ডক্টরস চেম্বার, শিশু, স্ত্রী, অর্থোপেডিক ও চর্মরোগের বিশেষায়িত ক্লিনিক
+বারুইপুর - কুলপী রোডে খোদার বাজার উত্তরপাড়ায় অবস্থিত সাবিতা শপিং কমপ্লেক্সের ১ম তলে 'টিউলিপ পলিক্লিনিক' (Tulip Polyclinic) এলাকার অন্যতম ব্যস্ত ও জনপ্রিয় পলিক্লিনিক। এখানে কলকাতার স্বনামধন্য বিভিন্ন সরকারি ও বেসরকারি হাসপাতালের অভিজ্ঞ কনসালট্যান্ট চিকিৎসকরা (জেনারেল মেডিসিন, শিশু, স্ত্রীরোগ, অর্থোপেডিক, চর্মরোগ ও ডেন্টাল) নির্ধারিত দিনে রোগী দেখেন। চেম্বারে সিরিয়াল বুকিং ও টেস্টের সমন্বিত সুবিধা রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- মেডিসিন, শিশু, স্ত্রী, অর্থোপেডিক ও চর্মরোগের বিশেষজ্ঞ ডাক্তারদের চেম্বার
+- চেম্বারে তাৎক্ষণিক সিরিয়াল ও প্রি-বুকিং সুবিধা (9007734034)
+- ডিজিটাল ইসিজি ও রুটিন রক্ত পরীক্ষা স্যাম্পল কালেকশন
+- চর্মরোগের বিশেষ চিকিৎসা ও লেজার/ক্লিনিক্যাল পরামর্শ
+- প্রেসক্রিপশন অনুযায়ী জরুরি ওষুধ সরবরাহ সহায়তা
+- [Diagnostic] 12-Lead Computerized ECG
+- [Diagnostic] Pathology Blood Sample Collection Point
+
+DOCTORS OPD ROSTER (5 DOCTORS):
+* ডাঃ অসীম কুমার রায় (Dr. Asim Kumar Roy) [MBBS, MD (Medicine)]
+  - Specialty: মেডিসিন ও ডায়াবেটিস বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৫:০০ - রাত ৮:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9007734034
+  
+* ডাঃ সঞ্চিতা চ্যাটার্জি (Dr. Sanchita Chatterjee) [MBBS, DGO, MS (Gynae)]
+  - Specialty: স্ত্রী ও প্রসূতিরোগ বিশেষজ্ঞ (Gynaecologist & Obstetrician)
+  - Visiting Days: মঙ্গলবার ও শনিবার
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9007734034
+  
+* ডাঃ মলয় কান্তি ঘোষ (Dr. Malay Kanti Ghosh) [MBBS, DCH (Paediatrics)]
+  - Specialty: নবজাতক ও শিশুরোগ বিশেষজ্ঞ (Child Specialist)
+  - Visiting Days: প্রতিদিন (রবিবার বাদে)
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ২:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9007734034
+  
+* ডাঃ দেবাশীষ মুখার্জি (Dr. Debasish Mukherjee) [MBBS, MS (Ortho)]
+  - Specialty: হাড় ও বাতরোগ সার্জন (Orthopaedic Surgeon)
+  - Visiting Days: বৃহস্পতিবার ও রবিবার
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9007734034
+  
+* ডাঃ প্রিয়তোষ দত্ত (Dr. Priyotosh Dutta) [MBBS, DVD (Dermatology)]
+  - Specialty: চর্ম, চুল ও যৌনরোগ বিশেষজ্ঞ (Dermatologist)
+  - Visiting Days: সোম ও শনিবার
+  - Visiting Hours: বিকাল ৩:০০ - সন্ধ্যা ৬:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9007734034
   
 
 
