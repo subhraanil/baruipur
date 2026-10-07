@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-07T08:03:02.888Z
+# Last Updated: 2026-10-07T08:07:00.171Z
 # Total Articles: 261
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -1267,7 +1267,7 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (13 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (14 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -2780,6 +2780,115 @@ DOCTORS OPD ROSTER (28 DOCTORS):
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
   - Serial Booking Phone: 9830029256
   - Note: হাড়ভাঙা, লিগামেন্ট টিয়ার ও জয়েন্ট রিপ্লেসমেন্ট
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #14: ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic) (Easycure Clinic & Pharmacy)
+--------------------------------------------------------------------------------
+- Facility Type: মেডিসিন শপ, পলিক্লিনিক ও ওপিডি চেম্বার (pharmacy_opd)
+- Canonical URL: https://baruipur.online/health-directory/easycure-clinic-and-pharmacy-baruipur/
+- Address: ডাঃ নরম্যান বেথুন সরণী, পদ্মপুকুর (বারুইপুর-বারাসাত বাসস্ট্যান্ডের নিকটে), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Dr. Norman Bethune Sarani, Padmapukur (Near Baruipur-Barasat Bus Stand), Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর পদ্মপুকুর মোড় ও বারুইপুর-বারাসাত বাসস্ট্যান্ড সংলগ্ন
+- Phone: 6291551186
+- Emergency Phone: N/A
+- Timings: ক্লিনিক ও ফার্মেসী: সকাল ৮:০০ - রাত ১০:০০ (প্রতিদিন খোলা)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর পদ্মপুকুর ও বারাসাত বাসস্ট্যান্ডের নিকটে আধুনিক পলিক্লিনিক, ওষুধে ২০% পর্যন্ত ছাড় ও ডক্টর হোম ভিজিট সুবিধা
+বারুইপুর পদ্মপুকুর মোড় সংলগ্ন এবং বারুইপুর-বারাসাত বাসস্ট্যান্ডের নিকটে (ডাঃ নরম্যান বেথুন সরণী, বারুইপুর, দক্ষিণ ২৪ পরগনা, কোল- ৭০০১৪৪) অবস্থিত 'ইজিকিওর ক্লিনিক ও ফার্মেসী' (Easycure Clinic & Pharmacy) এলাকার অত্যন্ত সুপরিচিত চিকিৎসাকেন্দ্র। এখানে ওষুধ কেনায় ২০% পর্যন্ত ছাড় (Up to 20% Discount) এবং বিনামূল্যে সমস্ত প্রকারের ওষুধ হোম ডেলিভারি দেওয়া হয়। কেন্দ্রটিতে রয়েছে অ্যাম্বুলেন্স সার্ভিস, অক্সিজেন সিলিন্ডার ও নেবুলাইজার মেশিন ভাড়া, বাড়িতে গিয়ে প্যাথলজিক্যাল স্যাম্পল (রক্ত, মল, মূত্র) সংগ্রহ, বাড়িতে গিয়ে ফিজিওথেরাপি এবং আপৎকালীন সময়ে বাড়িতে ডাক্তার পাঠানোর বিশেষ সুবিধা। এখানে শিশুরোগ, স্ত্রীরোগ, সুগার ও কিডনি, ইউরোলজি, জেনারেল মেডিসিন ও সার্জারি, কার্ডিওলজি, চর্মরোগ, ডায়েট কাউন্সেলিং ও ফিজিওথেরাপির স্বনামধন্য চিকিৎসকরা নিয়মিত রোগী দেখেন।
+
+SERVICES & DIAGNOSTICS:
+- ইজিকিওর ফার্মেসী: সমস্ত ওষুধের উপর ২০% পর্যন্ত নিশ্চিত ছাড়
+- ফ্রি মেডিসিন হোম ডেলিভারি (Medicine Free Home Delivery)
+- আপৎকালীন সময়ে বাড়িতে গিয়ে ডাক্তার দ্বারা রোগী দেখানোর সুব্যবস্থা
+- বাড়িতে গিয়ে প্যাথলজিক্যাল নমুনা (রক্ত, মল, মূত্র) সংগ্রহ সহ সব রকমের পরীক্ষা
+- অক্সিজেন সিলিন্ডার ও নেবুলাইজার মেশিন ভাড়ার সুবিধা
+- ২৪ ঘণ্টা অ্যাম্বুলেন্স সার্ভিস (Ambulance Service)
+- বাড়িতে গিয়ে অভিজ্ঞ ফিজিওথেরাপিস্ট দ্বারা ফিজিওথেরাপি করানোর ব্যবস্থা
+- [Diagnostic] রক্ত, মল, মূত্র প্যাথলজিক্যাল নমুনা পরীক্ষা (হোম কালেকশন উপলব্ধ)
+- [Diagnostic] ইসিজি ও নেবুলাইজার পরিষেবা
+
+DOCTORS OPD ROSTER (11 DOCTORS):
+* প্রফেসর ডাঃ কল্যাণব্রত মণ্ডল (Prof. Dr. Kalyanbrata Mondal) [MBBS, MD (Paediatrics), Professor of Paediatrics]
+  - Specialty: শিশুরোগ বিশেষজ্ঞ (Professor of Paediatrics) (Professor of Paediatrics / Child Specialist)
+  - Visiting Days: সোম, বুধ ও শুক্রবার (এবং বৃহস্পতি ও রবি বার)
+  - Visiting Hours: বাই অ্যাপয়েন্টমেন্ট (Appointment) 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: শিশুদের জটিল রোগ, টিকাদান ও নবজাতকের যত্ন
+* ডাঃ শিঞ্জিনী চক্রবর্তী (Dr. Sinjinee Chakraborty) [M.B.B.S (Honours), MD (Paediatrics), PGPN Boston University (USA)]
+  - Specialty: শিশু ও নবজাতক রোগ বিশেষজ্ঞ (Consultant Paediatrician)
+  - Visiting Days: নির্দিষ্ট দিনে (By Appointment)
+  - Visiting Hours: বাই অ্যাপয়েন্টমেন্ট 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: বোস্টন ইউনিভার্সিটি (USA) সার্টিফাইড পেডিয়াট্রিক নিউট্রিশন ও শিশু স্বাস্থ্য
+* ডাঃ সুমিতা মুখার্জী (Dr. Sumita Mukherjee) [MBBS, MS (G&O), DNB (G&O), Consultant Gynaecologist at Fortis Hospital]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Consultant Gynaecologist)
+  - Visiting Days: প্রতি রবিবার
+  - Visiting Hours: সকাল ১০:৩০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: মহিলাদের জটিল রোগ, বন্ধ্যাত্ব ও প্রসূতি পরিষেবা
+* ডাঃ অম্লান কান্তি বিশ্বাস (Dr. Amlan Kanti Biswas) [MBBS, MD (General Medicine), DM (Nephrology) NRSMCH Kolkata]
+  - Specialty: সুগার ও কিডনি রোগ বিশেষজ্ঞ (Nephrologist) (Consultant Nephrologist & Kidney Specialist)
+  - Visiting Days: প্রতি সোমবার
+  - Visiting Hours: বিকাল ৫:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: ডায়াবেটিস নেফ্রোপ্যাথি, কিডনি ফেইলিওর ও ডায়ালিসিস পরামর্শ
+* ডাঃ আশিস রং (Dr. Asis Rong) [MBBS, General Physician, Medical Officer Dept of General Surgery, Calcutta National Medical College & Hospital]
+  - Specialty: সার্জিক্যাল ও জেনারেল ফিজিশিয়ান (General Physician & Surgeon)
+  - Visiting Days: সোম, বুধ ও শনিবার বিকাল ৪:০০ এবং মঙ্গল, বৃহস্পতি ও রবিবার রাত ৮:০০
+  - Visiting Hours: বিকাল ৪:০০ / রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: সার্জিক্যাল ক্ষত, ফোঁড়া, হার্নিয়া ও সাধারণ রোগ
+* ডাঃ কুমার রাজীব রঞ্জন (Dr. Kumar Rajeev Ranjan) [M.B.B.S., M.S. (General Surgery), M.Ch Urology, IPGMER & SSKM Hospital]
+  - Specialty: ইউরোলজিস্ট ও কিডনি বিশেষজ্ঞ সার্জন (Urologist & Andrologist)
+  - Visiting Days: প্রতি মাসের ২য় ও ৪র্থ রবিবার
+  - Visiting Hours: নির্দিষ্ট সময়ে (কল করে জানুন) 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: এন্ডোস্কোপিক, ল্যাপারোস্কোপিক ও রোবোটিক ইউরো-সার্জারি
+* ডাঃ অনিরুদ্ধ দত্ত (Dr. Aniruddha Dutta) [M.B.B.S., D.N.B (General Medicine), D.M. (Nephrology) SSKM Hospital]
+  - Specialty: জেনারেল মেডিসিন ও কিডনি রোগ বিশেষজ্ঞ (General Physician & Nephrologist)
+  - Visiting Days: প্রতি মাসের ১ম ও ৩য় রবিবার
+  - Visiting Hours: বাই অ্যাপয়েন্টমেন্ট 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  
+* ডাঃ আবির পাল (Dr. Abir Paul) [M.B.B.S (AGMC), FCCS-SCCM-USA, PG Diploma Cardiology, M.Sc Diabetes, Member of American College of Cardiology]
+  - Specialty: কার্ডিওলজিস্ট ও ডায়াবেটিস বিশেষজ্ঞ (Consultant Cardiologist)
+  - Visiting Days: প্রতি শনিবার
+  - Visiting Hours: রাত ৮:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: হার্ট অ্যাটাক পরবর্তী পর্যবেক্ষণ, উচ্চ রক্তচাপ ও ডায়াবেটিস
+* ডাঃ রবীন্দ্রনাথ চট্টোপাধ্যায় (Dr. Rabindranath Chatterjee) [MBBS, DGO, MD (Dermatology) (Cal), Baruipur S.S.H. Hospital]
+  - Specialty: চর্ম, যৌন, এলার্জি ও কসমেটোলজি বিশেষজ্ঞ (Consultant Dermatologist & Cosmetologist)
+  - Visiting Days: সোম থেকে শুক্রবার
+  - Visiting Hours: দুপুর ৩:৩০ (অ্যাপয়েন্টমেন্ট দ্বারা) 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: ত্বক, চুল, নখ ও নানাবিধ জটিল চর্মরোগ
+* তানিয়া বিশ্বাস (Tania Biswas) [B.Sc, M.Sc in Food Nutrition & Dietetics (Gold Medalist), PG Diploma in Psychology Counselling]
+  - Specialty: ডায়েট ও পুষ্টি বিশেষজ্ঞ এবং সাইকোলজি কাউন্সেলর (Consultant Dietitian & Psychology Counsellor)
+  - Visiting Days: সোম, বুধ ও শনিবার বিকাল ৪:০০ এবং মঙ্গল, বৃহস্পতি ও রবিবার রাত ৪:০০
+  - Visiting Hours: বিকাল ৪:০০ / রাত ৪:০০ 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: ডায়াবেটিক ডায়েট, ওবেসিটি হ্রাস ও মানসিক কাউন্সেলিং
+* সুভাষ মণ্ডল ও বিপ্লব বিশ্বাস (DPT) (Subhas Mondal & Biplab Biswas (DPT)) [রামকৃষ্ণ মিশন সেবা প্রতিষ্ঠান থেকে ট্রেনিং প্রাপ্ত / Regd. Physiotherapist (DPT)]
+  - Specialty: অভিজ্ঞ ফিজিওথেরাপিস্ট টিম (হোম ও ইন-ক্লিনিক) (Registered Physiotherapists)
+  - Visiting Days: প্রতিদিন (চেম্বারে ও বাড়িতে)
+  - Visiting Hours: বাই অ্যাপয়েন্টমেন্ট (কল করুন) 
+  - Consultation Fee: চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 6291551186
+  - Note: স্পন্ডিলাইটিস, ফ্র্যাকচার পরবর্তী রিহ্যাব, কোমর-হাঁটুর ব্যথা ও প্যারালাইসিস থেরাপি
 
 
 ================================================================================
