@@ -155,7 +155,11 @@ function isJunkOrCommentOrPromo(text) {
     if (lower.includes(w)) newsScore++;
   }
 
-  if (/(?:call|whatsapp|অর্ডার|বুকিং|যোগাযোগ).*?\b\d{10}\b/i.test(lower)) promoScore += 3;
+  if (/(?:call|whatsapp|অর্ডার|বুকিং|যোগাযোগ|ph|phone).*?\b\d{10}\b/i.test(lower)) promoScore += 3;
+  if (/\b[6-9]\d{9}[\s/,-]+[6-9]\d{9}\b/.test(t)) promoScore += 4;
+  if (/(?:moto\s*zone|bike\s*servicing|car\s*service|motorcycle\s*repair)/i.test(lower)) promoScore += 4;
+  if (/(?:রেস্টুরেন্ট|রেস্তোরাঁ|restaurant).*?(?:ph|phone|যোগাযোগ).*?\d{8,10}/i.test(lower)) promoScore += 4;
+  if (/(?:কোথায়|কোথায়)\s*ঘুরতে\s*(?:যাবেন|যাচ্ছেন)/i.test(lower)) return true;
   if (/(?:₹\s*\d+|\d+\s*\/-|\d+%\s*(?:off|ছাড়))/i.test(lower)) promoScore += 2;
   if (/(?:cctv|we install|camera's|gift & enterprise)/i.test(lower)) promoScore += 3;
 
