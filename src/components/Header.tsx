@@ -168,6 +168,16 @@ export default function Header() {
               📰 তাজা সংবাদ
             </a>
             <a
+              href="/health-directory"
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname.startsWith('/health-directory') 
+                  ? 'bg-red-600 text-white shadow-sm' 
+                  : 'text-rose-800 hover:bg-rose-50 hover:text-rose-900'
+              }`}
+            >
+              🏥 স্বাস্থ্য ও ডাক্তার চেম্বার
+            </a>
+            <a
               href="/places"
               className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
                 pathname.startsWith('/places') 
@@ -268,6 +278,18 @@ export default function Header() {
                 <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 pt-1">
                   ডিরেক্টরি ও তথ্যকোষ
                 </div>
+                <a
+                  href="/health-directory"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-rose-800 bg-rose-50/70 hover:bg-rose-100/80 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🏥</span> স্বাস্থ্য ও ডাক্তার চেম্বার (Health & OPD)
+                  </span>
+                  <span className="text-[10px] bg-rose-200 text-rose-800 px-1.5 py-0.5 rounded font-semibold">
+                    OPD
+                  </span>
+                </a>
                 <a
                   href="/places"
                   onClick={() => setMobileMenuOpen(false)}

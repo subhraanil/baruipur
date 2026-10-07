@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-07T04:41:08.801Z
+# Last Updated: 2026-10-07T07:40:52.738Z
 # Total Articles: 261
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -1267,7 +1267,666 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: REGIONAL NEWS ARTICLES & CIVIC UPDATES (261 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (10 TOTAL)
+================================================================================
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #1: ওয়েলকিন মেডিকেয়ার হাসপাতাল (Welkin Medicare Hospital)
+--------------------------------------------------------------------------------
+- Facility Type: মাল্টি-স্পেশালিটি হাসপাতাল ও নার্সিং হোম (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/welkin-medicare-hospital/
+- Address: মাদেবপুর, কুলপী রোড (বারুইপুর বাইপাস সংযোগস্থল), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Madhabpur, Kulpi Road, near Baruipur Bypass Crossing, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর বাইপাস ও কুলপী রোড ক্রসিং সংলগ্ন
+- Phone: 033-2433-1111
+- Emergency Phone: 9830500112
+- Timings: জরুরি বিভাগ ও ইনডোর: ২৪ ঘণ্টা খোলা | বহির্বিভাগ (OPD): সকাল ৯:০০ - রাত ৮:৩০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: Yes
+- Bed Capacity: ৮০+ শয্যা
+
+TAGLINE & OVERVIEW:
+বারুইপুরের সর্বাধুনিক মাল্টি-স্পেশালিটি প্রাইভেট হাসপাতাল, ২৪x৭ আইসিইউ ও জরুরি পরিষেবা
+ওয়েলকিন মেডিকেয়ার হাসপাতাল বারুইপুর ও সমগ্র দক্ষিণ ২৪ পরগনার অন্যতম উন্নত ও নির্ভরযোগ্য প্রাইভেট মাল্টি-স্পেশালিটি হাসপাতাল। এখানে রয়েছে সর্বাধুনিক আইসিইউ (ICU), এনআইসিইউ (NICU), মডুলার অপারেশন থিয়েটার, ডায়ালিসিস ইউনিট, ২৪ ঘণ্টার জরুরি বিভাগ এবং বিভিন্ন বিভাগের অগ্রগণ্য বিশেষজ্ঞ চিকিৎসকদের নিয়মিত বহির্বিভাগ (OPD) ক্লিনিক। স্বাস্থ্যসাথী ও সমস্ত প্রধান ক্যাশলেস মেডিকেলেম এখানে গ্রহণযোগ্য।
+
+SERVICES & DIAGNOSTICS:
+- ২৪ ঘণ্টা আইসিইউ (ICU), আইসিসিইউ (ICCU) ও ট্রমা কেয়ার
+- মডুলার অপারেশন থিয়েটার ও ল্যাপারোস্কোপিক সার্জারি
+- ২৪ ঘণ্টা ইন-হাউস ফার্মেসি ও জরুরি রক্ত সংগ্রহ সহায়তা
+- স্বাস্থ্যসাথী কার্ড ও সমস্ত টিপিএ (TPA) ক্যাশলেস ইনস্যুরেন্স সুবিধা
+- ২৪ ঘণ্টা এসি ও ভেন্টিলেটর অ্যাম্বুলেন্স পরিষেবা
+- [Diagnostic] ডিজিটাল এক্স-রে (Digital X-Ray)
+- [Diagnostic] ১২৮ স্লাইস সিটি স্ক্যান (CT Scan)
+- [Diagnostic] কালার ডপলার ও আল্ট্রাসনোগ্রাফি (USG 4D)
+- [Diagnostic] ইকোকার্ডিওগ্রাফি (2D Echo) ও টিএমটি (TMT)
+- [Diagnostic] সম্পূর্ণ অটোমেটেড প্যাথলজি ও বায়োকেমিস্ট্রি ল্যাব
+
+DOCTORS OPD ROSTER (8 DOCTORS):
+* ডাঃ অর্পিতা রায় সেনগুপ্ত (Dr. Arpita Roy Sengupta) [MBBS, MS (Gynae & Obs), DGO]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist & Obstetrician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:৩০ (চেম্বার নং ১০২)
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: হাই-রিস্ক প্রেগন্যান্সি ও বন্ধ্যাত্ব চিকিৎসা
+* ডাঃ শুভাশিস চ্যাটার্জী (Dr. Subhasish Chatterjee) [MBBS, MD (Medicine), DM (Cardiology)]
+  - Specialty: হৃদরোগ বিশেষজ্ঞ (Cardiologist) (Cardiologist)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ (চেম্বার নং ১০৫)
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: ইকো, পেসমেকার ফলো-আপ ও হৃদরোগ ব্যবস্থাপনা
+* ডাঃ দেবাশিস নস্কর (Dr. Debasish Naskar) [MBBS, MD (Pediatrics), DCH]
+  - Specialty: শিশু ও নবজাতক রোগ বিশেষজ্ঞ (Pediatrician & Neonatologist)
+  - Visiting Days: সোম থেকে শনিবার (প্রতিদিন)
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ (চেম্বার নং ১০৩)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: শিশুদের টিকাদান ও জটিল ইনফেকশন চিকিৎসা
+* ডাঃ প্রসেনজিৎ ভট্টাচার্য (Dr. Prosenjit Bhattacharya) [MBBS, MS (Ortho), DNB (Orthopaedics)]
+  - Specialty: হাড় ও জয়েন্ট বিশেষজ্ঞ (অর্থোপেডিক সার্জন) (Orthopaedic Surgeon)
+  - Visiting Days: সোম, বুধ ও শনিবার
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:০০ (চেম্বার নং ১০৪)
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: হাড়ভাঙা, আর্থ্রাইটিস ও স্পাইন সমস্যা
+* ডাঃ অনিন্দিতা ঘোষ (Dr. Anindita Ghosh) [MBBS, MD (Dermatology, Venereology & Leprosy)]
+  - Specialty: চর্মরোগ ও অ্যালার্জি বিশেষজ্ঞ (Dermatologist & Cosmetologist)
+  - Visiting Days: মঙ্গলবার ও শুক্রবার
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৬:৩০ (চেম্বার নং ১০৬)
+  - Consultation Fee: ₹ ৬৫০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: ত্বক, চুল ও চর্মরোগের লেজার চিকিৎসা
+* ডাঃ সৌম্য বন্দ্যোপাধ্যায় (Dr. Soumya Banerjee) [MBBS, MD (General Medicine)]
+  - Specialty: মেডিসিন ও ডায়াবেটিস বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম, মঙ্গল, বৃহস্পতি ও শুক্রবার
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ২:০০ (চেম্বার নং ১০১)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: ডায়াবেটিস, হাইপারটেনশন ও দীর্ঘমেয়াদি জ্বর
+* ডাঃ রাজীব মজুমদার (Dr. Rajib Majumder) [MBBS, MS (ENT), DLO]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT সার্জন) (ENT Surgeon)
+  - Visiting Days: বুধ ও রবিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ (রবিবার সকাল ১০:০০) (চেম্বার নং ১০৭)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: কানের মাইক্রো-সার্জারি ও সাইনাস চিকিৎসা
+* ডাঃ চিরঞ্জিত মণ্ডল (Dr. Chiranjit Mondal) [MBBS, MS (General Surgery), FMAS]
+  - Specialty: ল্যাপারোস্কোপিক ও জেনারেল সার্জন (General & Laparoscopic Surgeon)
+  - Visiting Days: মঙ্গল ও শনিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:৩০ (চেম্বার নং ১০৮)
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-1111
+  - Note: গলব্লাডার স্টোন, হার্নিয়া ও অ্যাপেন্ডিক্স ল্যাপারোস্কোপিক সার্জারি
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #2: প্যারামাউন্ট নার্সিং হোম (Paramount Nursing Home)
+--------------------------------------------------------------------------------
+- Facility Type: প্রাইভেট নার্সিং হোম ও মেটারনিটি কেয়ার (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/paramount-nursing-home-baruipur/
+- Address: কুলপী রোড, কাছারি বাজার সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Kulpi Road, Near Kachari Bazar, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর কাছারি বাজার ও পুরনো পোস্ট অফিসের সন্নিকটে
+- Phone: 033-2433-8472
+- Emergency Phone: 9831123450
+- Timings: জরুরি ইনডোর: ২৪ ঘণ্টা | বহির্বিভাগ (OPD): সকাল ৯:৩০ - রাত ৮:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: Yes
+- Bed Capacity: ৫০ শয্যা
+
+TAGLINE & OVERVIEW:
+বারুইপুরের অন্যতম ঐতিহ্যবাহী নার্সিং হোম ও নির্ভরযোগ্য প্রসূতি ও শিশু স্বাস্থ্য সেবা
+প্যারামাউন্ট নার্সিং হোম বারুইপুর টাউন এলাকার অন্যতম পরিচিত ও দীর্ঘস্থায়ী প্রাইভেট চিকিৎসাকেন্দ্র। বিশেষ করে মাতৃত্বকালীন যত্ন (Maternity Care), নরমাল ও সিজারিয়ান ডেলিভারি, জেনারেল সার্জারি এবং অভিজ্ঞ চিকিৎসকদের বহির্বিভাগের জন্য দক্ষিণ ২৪ পরগনার রোগীরা এখানে নিয়মিত আসেন।
+
+SERVICES & DIAGNOSTICS:
+- মেটারনিটি কেয়ার, নিরাপদ প্রসব ও সিজারিয়ান সেকশন
+- নবজাতক যত্ন ইউনিট (SNCU/Nursery)
+- জেনারেল সার্জারি ও পোস্ট-অপারেটিভ নিবিড় পর্যবেক্ষণ
+- ইন-হাউস ফার্মেসি ও প্যাথলজি কালেকশন সেন্টার
+- [Diagnostic] আল্ট্রাসনোগ্রাফি (USG Obstetrics)
+- [Diagnostic] এক্স-রে ও প্যাথলজি ল্যাব
+- [Diagnostic] ইসিজি (ECG)
+
+DOCTORS OPD ROSTER (5 DOCTORS):
+* ডাঃ সুনন্দা সরকার (Dr. Sunanda Sarkar) [MBBS, DGO, MD (Gynae)]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Consultant Gynaecologist)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ১:৩০ (চেম্বার ২)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-8472
+  - Note: প্রসূতি সেবা ও জটিল গর্ভধারণ পর্যবেক্ষণ
+* ডাঃ অমিতাভ চক্রবর্তী (Dr. Amitava Chakraborty) [MBBS, MS (General Surgery)]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (General Surgeon)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ (চেম্বার ১)
+  - Consultation Fee: ₹ ৬৫০
+  - Serial Booking Phone: 033-2433-8472
+  
+* ডাঃ পঙ্কজ নস্কর (Dr. Pankaj Naskar) [MBBS, MD (Pediatrics)]
+  - Specialty: শিশু রোগ বিশেষজ্ঞ (Pediatrician)
+  - Visiting Days: সোম থেকে শনিবার
+  - Visiting Hours: বিকাল ৪:৩০ - সন্ধ্যা ৬:৩০ (চেম্বার ৩)
+  - Consultation Fee: ₹ ৫৫০
+  - Serial Booking Phone: 033-2433-8472
+  
+* ডাঃ পার্থপ্রতিম দাস (Dr. Parthapratim Das) [MBBS, MD (Medicine)]
+  - Specialty: জেনারেল ফিজিশিয়ান ও মেডিসিন বিশেষজ্ঞ (General Physician)
+  - Visiting Days: সোম, বুধ, বৃহস্পতি ও শুক্রবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১২:৩০ (চেম্বার ৪)
+  - Consultation Fee: ₹ ৫৫০
+  - Serial Booking Phone: 033-2433-8472
+  
+* ডাঃ মানস কান্তি দাস (Dr. Manas Kanti Das) [MBBS, MS (Ortho)]
+  - Specialty: হাড় ও অস্থিসন্ধি বিশেষজ্ঞ (Orthopaedic Surgeon)
+  - Visiting Days: রবিবার ও বুধবার
+  - Visiting Hours: রবিবার সকাল ১০:৩০, বুধবার বিকাল ৫:০০ (চেম্বার ৫)
+  - Consultation Fee: ₹ ৬৫০
+  - Serial Booking Phone: 033-2433-8472
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #3: অ্যাপেক্স পলিক্লিনিক ও ডায়াগনস্টিক সেন্টার (Apex Polyclinic & Diagnostic Centre)
+--------------------------------------------------------------------------------
+- Facility Type: স্পেশালিস্ট ডক্টরস চেম্বার ও ডায়াগনস্টিক হাব (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/apex-polyclinic-and-diagnostic-baruipur/
+- Address: স্টেশন রোড (পদ্মপুকুর মোড় সংলগ্ন), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Station Road, Near Padmapukur More, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর রেল স্টেশন থেকে মাত্র ৩ মিনিট হাঁটা পথ, পদ্মপুকুর মোড়
+- Phone: 033-2433-7766
+- Emergency Phone: N/A
+- Timings: সোম থেকে শনি: সকাল ৭:৩০ - রাত ৯:০০ | রবিবার: সকাল ৭:৩০ - দুপুর ২:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর রেলওয়ে জংশন সংলগ্ন শীর্ষস্থানীয় মাল্টি-স্পেশালিটি ডক্টরস চেম্বার ও ডিজিটাল প্যাথলজি
+বারুইপুর রেলওয়ে স্টেশন রোড ও পুরাতন বাজার এলাকায় অবস্থিত অ্যাপেক্স পলিক্লিনিক এলাকার অন্যতম জনপ্রিয় বিশেষজ্ঞ ওপিডি হাব। কলকাতা ও এসএসকেএম, এনআরএস, পিজি হাসপাতালের প্রখ্যাত বিশেষজ্ঞ চিকিৎসকরা এখানে নিয়মিত চেম্বার করেন। উন্নত প্যাথলজিক্যাল রক্ত পরীক্ষা, ইসিজি, ইউএসজি ও ডিজিটাল এক্স-রে সহ ডায়াগনস্টিক রিপোর্ট দ্রুত সরবরাহের জন্য এটি সুপরিচিত।
+
+SERVICES & DIAGNOSTICS:
+- কলকাতা ও মেডিকেল কলেজের শীর্ষস্থানীয় বিশেষজ্ঞ চিকিৎসকদের নিয়মিত ওপিডি চেম্বার
+- সম্পূর্ণ কম্পিউটারাইজড প্যাথলজিক্যাল টেস্ট ও হোম কালেকশন সুবিধা
+- ডিজিটাল এক্স-রে ও অত্যাধুনিক ৪ডি ইউএসজি
+- সহজ অগ্রিম সিরিয়াল ও হোয়াটসঅ্যাপের মাধ্যমে অ্যাপয়েন্টমেন্ট বুকিং
+- [Diagnostic] রক্ত ও বায়োকেমিক্যাল এনালাইসিস
+- [Diagnostic] হরমোন ও থাইরয়েড প্রোফাইল (CLIA)
+- [Diagnostic] ডিজিটাল এক্স-রে ও ওপিজি ডেন্টাল এক্স-রে
+- [Diagnostic] আল্ট্রাসনোগ্রাফি (USG)
+- [Diagnostic] ১২-লিড ইসিজি ও হোল্টার মনিটরিং
+
+DOCTORS OPD ROSTER (7 DOCTORS):
+* ডাঃ সৌমিক সেন (Dr. Soumik Sen) [MBBS, MD (Medicine), DM (Neurology - Kolkata)]
+  - Specialty: স্নায়ুরোগ ও নিউরোমেডিসিন বিশেষজ্ঞ (Consultant Neurologist)
+  - Visiting Days: বুধবার ও শনিবার
+  - Visiting Hours: বিকাল ৪:৩০ - সন্ধ্যা ৭:৩০ (রুম ১)
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 033-2433-7766
+  - Note: মাথাব্যথা, মৃগীরোগ, স্ট্রোক ও স্নায়ু অবশতা বিশেষজ্ঞ
+* ডাঃ অর্ঘ্যদীপ মণ্ডল (Dr. Arghyadip Mondal) [MBBS, MD (Medicine), DM (Cardiology)]
+  - Specialty: হৃদরোগ বিশেষজ্ঞ (Cardiologist) (Cardiologist)
+  - Visiting Days: সোম ও বৃহস্পতিবার
+  - Visiting Hours: সন্ধ্যা ৫:০০ - রাত ৮:০০ (রুম ২)
+  - Consultation Fee: ₹ ৮৫০
+  - Serial Booking Phone: 033-2433-7766
+  
+* ডাঃ রুম্পা দত্ত ব্যানার্জী (Dr. Rumpa Dutta Banerjee) [MBBS, MS (Gynae & Obs)]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গলবার ও শুক্রবার
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৬:৩০ (রুম ৩)
+  - Consultation Fee: ₹ ৬৫০
+  - Serial Booking Phone: 033-2433-7766
+  
+* ডাঃ ইন্দ্রনীল বসু (Dr. Indranil Basu) [MBBS, MD (Pediatrics), FIAP]
+  - Specialty: শিশু ও কিশোর বিশেষজ্ঞ (Pediatrician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ (রুম ৪)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-7766
+  
+* ডাঃ সুজয় দে (Dr. Sujoy Dey) [MBBS, MD (Dermatology)]
+  - Specialty: চর্মরোগ ও যৌনরোগ বিশেষজ্ঞ (Dermatologist)
+  - Visiting Days: বৃহস্পতিবার ও রবিবার
+  - Visiting Hours: বৃহস্পতিবার বিকাল ৫:০০, রবিবার সকাল ১০:০০ (রুম ৫)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-7766
+  
+* ডাঃ কল্লোল রায়চৌধুরী (Dr. Kallol Roychowdhury) [MBBS, MS (Ortho)]
+  - Specialty: হাড়ভাঙা ও বাত রোগ বিশেষজ্ঞ (Orthopaedic Surgeon)
+  - Visiting Days: মঙ্গলবার ও শনিবার
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:০০ (রুম ৬)
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-7766
+  
+* ডাঃ শুভম পাল (Dr. Subham Pal) [MBBS, MD (General Medicine)]
+  - Specialty: জেনারেল মেডিসিন ও ক্রিটিক্যাল কেয়ার (Consultant Physician)
+  - Visiting Days: প্রতিদিন (সোম থেকে শনি)
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ১২:০০ (রুম ১)
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-7766
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #4: সান ডায়াগনস্টিক ও ডক্টরস চেম্বার (Sun Diagnostic & Doctor Chamber)
+--------------------------------------------------------------------------------
+- Facility Type: ডক্টরস চেম্বার ও পলিক্লিনিক (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/sun-diagnostic-and-doctor-chamber/
+- Address: কুলপী রোড, মহকুমা আদালত মোড়ের বিপরীতে, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Kulpi Road, Opposite Sub-Divisional Court Crossing, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর কোর্ট মোড়ের ঠিক বিপরীতে
+- Phone: 033-2433-6555
+- Emergency Phone: N/A
+- Timings: সোম থেকে শনি: সকাল ৮:০০ - রাত ৯:০০ | রবিবার: সকাল ৮:০০ - দুপুর ১:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+কুলপী রোডে বিশ্বস্ত রক্ত পরীক্ষা, ইকো-ইউএসজি ও অভিজ্ঞ চিকিৎসকদের চেম্বার
+বারুইপুর কুলপী রোড ও কাছারি মোড় সংলগ্ন সান ডায়াগনস্টিক বহু বছর ধরে স্থানীয় নাগরিকদের প্যাথলজি ও বহির্বিভাগ চিকিৎসা সেবা দিয়ে আসছে। এখানে নিয়মিত গ্যাস্ট্রোএন্টারোলজি, ইউরোলজি, মেডিসিন ও স্ত্রীরোগের শীর্ষ বিশেষজ্ঞ ডাক্তাররা রোগী দেখেন।
+
+SERVICES & DIAGNOSTICS:
+- গ্যাস্ট্রো, লিভার ও ইউরোলজি সুপার-স্পেশালিটি চেম্বার
+- ডিজিটাল প্যাথলজি ও হরমোন টেস্ট
+- ইউএসজি (USG Whole Abdomen & Pelvis)
+- ইসিজি ও প্রি-অপারেটিভ হেলথ চেকআপ প্যাকেজ
+- [Diagnostic] কম্পিউটারাইজড প্যাথলজি
+- [Diagnostic] ৪ডি ইউএসজি ও কালার ডপলার
+- [Diagnostic] ইসিজি ও সুগার মনিটরিং
+
+DOCTORS OPD ROSTER (5 DOCTORS):
+* ডাঃ সৌভিক পাত্র (Dr. Souvik Patra) [MBBS, MD (Medicine), DM (Gastroenterology)]
+  - Specialty: গ্যাস্ট্রোএন্টারোলজি ও লিভার বিশেষজ্ঞ (Gastroenterologist & Hepatologist)
+  - Visiting Days: বৃহস্পতিবার ও রবিবার
+  - Visiting Hours: বৃহস্পতিবার বিকাল ৫:০০, রবিবার সকাল ১১:০০ (চেম্বার ১)
+  - Consultation Fee: ₹ ৮৫০
+  - Serial Booking Phone: 033-2433-6555
+  - Note: পেটের সমস্যা, আইবিএস, ফ্যাটি লিভার ও জন্ডিস
+* ডাঃ অতনু মুখার্জী (Dr. Atanu Mukherjee) [MBBS, MS (Surgery), MCh (Urology)]
+  - Specialty: কিডনি ও মূত্ররোগ বিশেষজ্ঞ (ইউরোলজিস্ট) (Urologist & Andrologist)
+  - Visiting Days: শনিবার ও মঙ্গলবার
+  - Visiting Hours: বিকাল ৫:৩০ - রাত ৮:০০ (চেম্বার ২)
+  - Consultation Fee: ₹ ৯০০
+  - Serial Booking Phone: 033-2433-6555
+  - Note: কিডনি স্টোন, প্রস্টেট সমস্যা ও প্রস্রাবের সংক্রমণ
+* ডাঃ মিতালী চক্রবর্তী (Dr. Mitali Chakraborty) [MBBS, DGO]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: সোম ও শুক্রবার
+  - Visiting Hours: বিকাল ৪:৩০ - সন্ধ্যা ৭:০০ (চেম্বার ৩)
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-6555
+  
+* ডাঃ পার্থিব সরকার (Dr. Parthib Sarkar) [MBBS, MD (Medicine)]
+  - Specialty: জেনারেল মেডিসিন ও সুগার স্পেশালিস্ট (Physician & Diabetologist)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ (চেম্বার ৪)
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-6555
+  
+* ডাঃ ভাস্কর চৌধুরী (Dr. Bhaskar Chowdhury) [MBBS, DTCD, MD (Pulmonology)]
+  - Specialty: বক্ষব্যাধি ও অ্যাজমা বিশেষজ্ঞ (Pulmonologist / Chest Specialist)
+  - Visiting Days: বুধবার ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ (চেম্বার ৫)
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-6555
+  - Note: হাঁপানি, দীর্ঘস্থায়ী কাশি, সিওপিডি ও অ্যালার্জি
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #5: ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক (Frank Ross Pharmacy & Doctors Clinic)
+--------------------------------------------------------------------------------
+- Facility Type: মেডিসিন শপ ও বহির্বিভাগ চেম্বার (pharmacy_opd)
+- Canonical URL: https://baruipur.online/health-directory/frank-ross-pharmacy-opd-baruipur/
+- Address: রেলওয়ে স্টেশন রোড, পদ্মপুকুর মোড়, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Station Road, Padmapukur More, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর স্টেশনের ৪ নম্বর প্ল্যাটফর্ম ওভারব্রিজ গেটের বিপরীতে
+- Phone: 033-2433-9090
+- Emergency Phone: N/A
+- Timings: ফার্মেসি: সকাল ৮:০০ - রাত ১০:০০ (প্রতিদিন) | চেম্বার: সকাল ১০:০০ - রাত ৮:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+১০০% আসল ওষুধ, শীতাতপ নিয়ন্ত্রিত চেম্বারে নিয়মিত ডাক্তার ও স্বাস্থ্য পরীক্ষা
+বারুইপুর রেলওয়ে স্টেশন সংলগ্ন ফ্রাঙ্ক রস একটি আধুনিক ফার্মেসি আউটলেট যেখানে জেনুইন প্রেসক্রিপশন ওষুধের পাশাপাশি একটি সুসজ্জিত ডক্টরস ক্লিনিক পরিচালিত হয়। এখানে প্রতিদিন সাধারণ মেডিসিন, শিশু রোগ ও ত্বকের বিশেষজ্ঞ চিকিৎসকরা বসেন। রক্তচাপ ও সুগার পরীক্ষার তাৎক্ষণিক ব্যবস্থাও রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- ১০০% জেনুইন ওষুধ ও হেলথকেয়ার পণ্য
+- শীতাতপ নিয়ন্ত্রিত ডক্টরস চেম্বারে কনসালটেশন
+- তাৎক্ষণিক রক্তচাপ (BP), র‍্যান্ডম ব্লাড সুগার ও পালস অক্সিমেট্রি পরীক্ষা
+- প্রেসক্রিপশন অনুযায়ী ফ্রি হোম ডেলিভারি (লোকাল এরিয়া)
+
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ রাজর্ষি দাস (Dr. Rajarshi Das) [MBBS, MD (General Medicine)]
+  - Specialty: জেনারেল মেডিসিন ও ফ্যামিলি ফিজিশিয়ান (General Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-9090
+  - Note: জ্বর, সর্দি-কাশি, রক্তচাপ ও ডায়াবেটিস মনিটরিং
+* ডাঃ শ্রীপর্ণা সেনগুপ্ত (Dr. Sriparna Sengupta) [MBBS, DCH]
+  - Specialty: শিশু বিশেষজ্ঞ (Child Specialist) (Pediatrician)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-9090
+  
+* ডাঃ অভিজিৎ সরকার (Dr. Abhijit Sarkar) [MBBS, DVD (Dermatology)]
+  - Specialty: চর্মরোগ বিশেষজ্ঞ (Dermatologist)
+  - Visiting Days: শনিবার ও রবিবার
+  - Visiting Hours: শনিবার বিকাল ৫:৩০, রবিবার সকাল ১১:০০ 
+  - Consultation Fee: ₹ ৫৫০
+  - Serial Booking Phone: 033-2433-9090
+  
+* ডাঃ তন্ময় হালদার (Dr. Tanmoy Haldar) [BDS, MDS (Oral & Dental Surgery)]
+  - Specialty: দন্ত বিশেষজ্ঞ ও ওরাল সার্জন (Dental Surgeon)
+  - Visiting Days: সোম, বুধ ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৪০০
+  - Serial Booking Phone: 033-2433-9090
+  - Note: দাঁত তোলা, রুট ক্যানাল ও স্কেলিং পরামর্শ
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #6: অ্যাপোলো ফার্মেসি ও ক্লিনিক (Apollo Pharmacy & Clinic)
+--------------------------------------------------------------------------------
+- Facility Type: মেডিসিন শপ ও বহির্বিভাগ চেম্বার (pharmacy_opd)
+- Canonical URL: https://baruipur.online/health-directory/apollo-pharmacy-clinic-baruipur/
+- Address: কুলপী রোড, কাছারি বাজারের কাছে, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Kulpi Road, Near Kachari Bazar, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর কাছারি বাজার মোড়
+- Phone: 033-2433-5454
+- Emergency Phone: N/A
+- Timings: ফার্মেসি: সকাল ৭:৩০ - রাত ১০:৩০ | চেম্বার: সকাল ১০:৩০ - রাত ৮:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+অ্যাপোলোর নির্ভরযোগ্য ওষুধ ও বিশেষজ্ঞ চিকিৎসকদের বহির্বিভাগ ক্লিনিক
+বারুইপুর কাছারি বাজার ও কুলপী রোডে অবস্থিত অ্যাপোলো ফার্মেসি ব্র্যান্ডেড ওষুধ, বেবি কেয়ার সামগ্রী এবং প্রবীণ নাগরিকদের নিয়মিত স্বাস্থ্য পরীক্ষার সুযোগ দেয়। তাদের ইন-স্টোর চেম্বারে অভিজ্ঞ জেনারেল ফিজিশিয়ান, স্ত্রীরোগ ও অর্থোপেডিক চিকিৎসকরা বসেন।
+
+SERVICES & DIAGNOSTICS:
+- ব্র্যান্ডেড ওষুধ ও ভেষজ পণ্য সরবরাহ
+- বিশেষজ্ঞ ডাক্তারের বহির্বিভাগ কনসালটেশন
+- রক্তচাপ, সুগার ও বডি মাস ইনডেক্স (BMI) টেস্ট
+- হোম ডেলিভারি ও ডিজিটাল প্রেসক্রিপশন স্টোরেজ
+
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ সুমিত চট্টোপাধ্যায় (Dr. Sumit Chatterjee) [MBBS, MD (Medicine)]
+  - Specialty: মেডিসিন ও লাইফস্টাইল রোগ বিশেষজ্ঞ (Consultant Physician)
+  - Visiting Days: সোম থেকে শুক্রবার
+  - Visiting Hours: সকাল ১০:৩০ - দুপুর ১২:৩০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-5454
+  
+* ডাঃ মধুরিমা বিশ্বাস (Dr. Madhurima Biswas) [MBBS, MS (Gynae & Obs)]
+  - Specialty: স্ত্রীরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: বিকাল ৪:৩০ - সন্ধ্যা ৬:৩০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-5454
+  
+* ডাঃ সৌগত ঘোষ (Dr. Saugata Ghosh) [MBBS, MS (Ortho)]
+  - Specialty: হাড় ও অস্থিসন্ধি বিশেষজ্ঞ (Orthopaedic Consultant)
+  - Visiting Days: সোম ও বুধবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:০০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-5454
+  
+* ডাঃ ঋতুপর্ণা পাল (Dr. Rituparna Paul) [MBBS, MD (Psychiatry)]
+  - Specialty: মানসিক স্বাস্থ্য ও নিউরো-সাইকিয়াট্রি বিশেষজ্ঞ (Psychiatrist & Counsellor)
+  - Visiting Days: শুক্রবার ও রবিবার
+  - Visiting Hours: শুক্রবার বিকাল ৫:০০, রবিবার সকাল ১১:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-5454
+  - Note: উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা ও মানসিক কাউন্সেলিং
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #7: বারুইপুর আরোগ্য নিকেতন ও পলিক্লিনিক (Baruipur Arogya Niketan & Polyclinic)
+--------------------------------------------------------------------------------
+- Facility Type: স্পেশালিস্ট ডক্টরস চেম্বার ও পলিক্লিনিক (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/baruipur-arogya-niketan-chamber/
+- Address: মাদেবপুর মেন রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Madhabpur Main Road, Baruipur, South 24 Parganas - 700144)
+- Landmark: মাদেবপুর হাই স্কুল মোড় সংলগ্ন
+- Phone: 033-2433-4321
+- Emergency Phone: N/A
+- Timings: সোম থেকে শনি: সকাল ৮:০০ - রাত ৮:৩০ | রবিবার: সকাল ৮:৩০ - দুপুর ১:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+মাদেবপুর মোড়ে অভিজ্ঞ চিকিৎসকদের নির্ভরযোগ্য চেম্বার ও সুলভ স্বাস্থ্য পরিষেবা
+বারুইপুর মাদেবপুর ও বাইপাস ক্রসিং অঞ্চলে অবস্থিত আরোগ্য নিকেতন বহু বছর ধরে স্থানীয় মধ্যবিত্ত পরিবারের ভরসার কেন্দ্র। এখানে শহরের সিনিয়র চিকিৎসকরা স্বল্প খরচে রোগী দেখেন এবং প্রবীণ রোগীদের জন্য বিশেষ সিরিয়ালের ব্যবস্থা রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- সিনিয়র বিশেষজ্ঞ ডাক্তারদের নিয়মিত চেম্বার
+- সুলভ মূল্যে প্যাথলজিক্যাল টেস্ট ও ইসিজি
+- ডায়াবেটিস ও হাইপারটেনশন ফলো-আপ ক্লিনিক
+- [Diagnostic] রুটিন ব্লাড ও ইউরিন টেস্ট
+- [Diagnostic] ইসিজি (ECG)
+- [Diagnostic] ব্লাড সুগার মনিটরিং
+
+DOCTORS OPD ROSTER (4 DOCTORS):
+* ডাঃ অসিতবরণ দাস (Dr. Asit Baran Das) [MBBS, MD (Medicine)]
+  - Specialty: সিনিয়র মেডিসিন স্পেশালিস্ট (Senior Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ১২:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-4321
+  
+* ডাঃ পল্লবী রায় (Dr. Pallabi Roy) [MBBS, DGO]
+  - Specialty: মহিলা ও স্ত্রীরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গল ও বৃহস্পতিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:৩০ 
+  - Consultation Fee: ₹ ৫৫০
+  - Serial Booking Phone: 033-2433-4321
+  
+* ডাঃ গৌতম নস্কর (Dr. Goutam Naskar) [MBBS, DCH]
+  - Specialty: শিশু রোগ বিশেষজ্ঞ (Pediatrician)
+  - Visiting Days: সোম থেকে শনি
+  - Visiting Hours: বিকাল ৫:৩০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-4321
+  
+* ডাঃ সুব্রত সাহা (Dr. Subrata Saha) [MBBS, MS (Ophthalmology)]
+  - Specialty: চক্ষুরোগ বিশেষজ্ঞ (Eye Specialist) (Eye Specialist / Ophthalmologist)
+  - Visiting Days: শনিবার ও রবিবার
+  - Visiting Hours: শনিবার বিকাল ৫:০০, রবিবার সকাল ১০:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-4321
+  - Note: চোখের পাওয়ার পরীক্ষা, ছানি ও গ্লুকোমা প্রাথমিক স্ক্রিনিং
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #8: মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার (Mondal Medical Stores & Doctor Chamber)
+--------------------------------------------------------------------------------
+- Facility Type: মেডিসিন শপ ও বহির্বিভাগ চেম্বার (pharmacy_opd)
+- Canonical URL: https://baruipur.online/health-directory/mandal-medical-stores-and-opd/
+- Address: পুরাতন বাজার মেন রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Puratan Bazar Main Road, Baruipur, South 24 Parganas - 700144)
+- Landmark: পুরাতন বাজার মনসাতলা মন্দিরের নিকট
+- Phone: 033-2433-3388
+- Emergency Phone: N/A
+- Timings: দোকান: সকাল ৮:০০ - রাত ১০:০০ | চেম্বার: বিকাল ৫:০০ - রাত ৯:০০
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর পুরাতন বাজারের বিশ্বস্ত প্রাচীন ওষুধের দোকান ও সান্ধ্যকালীন ডাক্তার চেম্বার
+বারুইপুর পুরাতন বাজারে অবস্থিত মণ্ডল মেডিকেল স্টোরস স্থানীয় এলাকার অন্যতম প্রাচীন ও নির্ভরযোগ্য ফার্মেসি। দোকানের পেছনের শীতাতপ নিয়ন্ত্রিত চেম্বারে প্রতি সন্ধ্যায় শহরের পরিচিত চিকিৎসকরা নিয়মিত রোগী দেখেন। জরুরি ওষুধ ও প্রেসক্রিপশন তাৎক্ষণিক সরবরাহের জন্য এটি পরিচিত।
+
+SERVICES & DIAGNOSTICS:
+- স্থানীয় ঐতিহ্যবাহী ওষুধের দোকান ও আসল ওষুধ
+- সন্ধ্যায় অভিজ্ঞ ডাক্তারদের চেম্বার
+- রক্তচাপ ও সুগার পরীক্ষার সুবিধা
+
+
+DOCTORS OPD ROSTER (3 DOCTORS):
+* ডাঃ সুজিত কুমার মণ্ডল (Dr. Sujit Kumar Mondal) [MBBS, MD (General Medicine)]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৪০০
+  - Serial Booking Phone: 033-2433-3388
+  
+* ডাঃ পায়েল দাস ঘোষ (Dr. Payel Das Ghosh) [MBBS, DGO]
+  - Specialty: মহিলা ও স্ত্রীরোগ বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গল ও শনিবার
+  - Visiting Hours: বিকাল ৫:৩০ - সন্ধ্যা ৭:৩০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 033-2433-3388
+  
+* ডাঃ সৌভিক বোস (Dr. Souvik Bose) [BPT, MPT (Orthopaedics)]
+  - Specialty: ফিজিওথেরাপিস্ট ও রিহ্যাব বিশেষজ্ঞ (Physiotherapist)
+  - Visiting Days: বৃহস্পতি ও রবিবার
+  - Visiting Hours: বৃহস্পতি সন্ধ্যা ৬:০০, রবিবার সকাল ১০:০০ 
+  - Consultation Fee: ₹ ৪০০
+  - Serial Booking Phone: 033-2433-3388
+  - Note: কোমর ও পিঠের ব্যথা, ফ্র্যাকচার-পরবর্তী থেরাপি ও প্যারালাইসিস রিহ্যাব
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #9: বারুইপুর হসপিটাল অ্যান্ড রিসার্চ ইনস্টিটিউট (Baruipur Hospital & Research Institute)
+--------------------------------------------------------------------------------
+- Facility Type: মাল্টি-স্পেশালিটি হাসপাতাল ও নার্সিং হোম (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/baruipur-hospital-research-institute/
+- Address: বারুইপুর-আমতলা রোড, পদ্মপুকুর মোড় সংলগ্ন, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (Baruipur-Amtala Road, Near Padmapukur, Baruipur, South 24 Parganas - 700144)
+- Landmark: পদ্মপুকুর ফ্লাইওভার ও আমতলা রোড সংযোগস্থল
+- Phone: 033-2433-7000
+- Emergency Phone: 9831778899
+- Timings: জরুরি ইনডোর: ২৪ ঘণ্টা | বহির্বিভাগ (OPD): সকাল ৯:০০ - রাত ৮:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: Yes
+- Bed Capacity: ৭০ শয্যা
+
+TAGLINE & OVERVIEW:
+উন্নত শল্যচিকিৎসা, মেটারনিটি ও ডায়াগনস্টিক সুবিধাযুক্ত মাল্টি-স্পেশালিটি হাসপাতাল
+বারুইপুর-আমতলা রোড সংলগ্ন এই হাসপাতালটি দক্ষিণ ২৪ পরগনার অন্যতম সুপ্রতিষ্ঠিত বেসরকারি হাসপাতাল। এখানে রয়েছে সুসজ্জিত আইসিইউ, মডার্ন ল্যাপারোস্কোপিক ও জেনারেল সার্জারি ওটি, শিশু ও প্রসূতি বিভাগ এবং বিভিন্ন বিভাগের বিশেষজ্ঞ চিকিৎসকদের দৈনিক ওপিডি পরিষেবা।
+
+SERVICES & DIAGNOSTICS:
+- ২৪ ঘণ্টা জরুরি বিভাগ ও আইসিইউ সুবিধা
+- ল্যাপারোস্কোপিক ও জেনারেল সার্জারি
+- স্বল্প খরচে ও স্বাস্থ্যসাথী কার্ডে ক্যাশলেস অপারেশন
+- ২৪ ঘণ্টা ফার্মেসি ও প্যাথলজি ল্যাব
+- [Diagnostic] ডিজিটাল এক্স-রে
+- [Diagnostic] আল্ট্রাসনোগ্রাফি (USG)
+- [Diagnostic] প্যাথলজিক্যাল বায়োকেমিস্ট্রি ল্যাব
+- [Diagnostic] ইসিজি ও কার্ডিয়াক মনিটরিং
+
+DOCTORS OPD ROSTER (5 DOCTORS):
+* ডাঃ রঞ্জিত সেনগুপ্ত (Dr. Ranjit Sengupta) [MBBS, MS (Gen Surgery), DNB]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (Consultant Surgeon)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 033-2433-7000
+  
+* ডাঃ অনামিকা রায় (Dr. Anamika Roy) [MBBS, MS (Gynae & Obs)]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ১:৩০ 
+  - Consultation Fee: ₹ ৬৫০
+  - Serial Booking Phone: 033-2433-7000
+  
+* ডাঃ সিদ্ধার্থ মুখার্জী (Dr. Siddhartha Mukherjee) [MBBS, MD (Medicine)]
+  - Specialty: মেডিসিন ও ডায়াবেটিস কনসালট্যান্ট (Physician)
+  - Visiting Days: সোম, মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 033-2433-7000
+  
+* ডাঃ সুমিত সরকার (Dr. Sumit Sarkar) [MBBS, MD (Pediatrics)]
+  - Specialty: শিশু রোগ বিশেষজ্ঞ (Pediatrician)
+  - Visiting Days: সোম, বুধ ও শনিবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১২:৩০ 
+  - Consultation Fee: ₹ ৫৫০
+  - Serial Booking Phone: 033-2433-7000
+  
+* ডাঃ দীপক মণ্ডল (Dr. Dipak Mondal) [MBBS, MS (Ortho)]
+  - Specialty: হাড় ও অস্থিসন্ধি বিশেষজ্ঞ (Orthopaedic Surgeon)
+  - Visiting Days: শুক্রবার ও রবিবার
+  - Visiting Hours: শুক্রবার বিকাল ৫:০০, রবিবার সকাল ১০:৩০ 
+  - Consultation Fee: ₹ ৬৫০
+  - Serial Booking Phone: 033-2433-7000
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #10: বারুইপুর মহকুমা হাসপাতাল (সরকারি বহির্বিভাগ / OPD) (Baruipur Subdivisional Hospital (Govt OPD))
+--------------------------------------------------------------------------------
+- Facility Type: সরকারি মহকুমা হাসপাতাল ও সুপার স্পেশালিটি ওপিডি (hospital)
+- Canonical URL: https://baruipur.online/health-directory/baruipur-subdivisional-hospital-opd/
+- Address: হাসপাতাল রোড, মাদারাত মোড়, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২ (Hospital Road, Madarat More, Baruipur, South 24 Parganas - 743302)
+- Landmark: বারুইপুর মাদারাত রোড ও কোর্ট চত্বরের কাছে
+- Phone: 033-2433-8244
+- Emergency Phone: 112
+- Timings: জরুরি বিভাগ: ২৪ ঘণ্টা খোলা | বহির্বিভাগ (OPD টিকিট কাউন্টার): সকাল ৮:৩০ - দুপুর ১:০০ (রবিবার ও ছুটির দিন বাদে)
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: Yes
+- Bed Capacity: ৩০০+ শয্যা
+
+TAGLINE & OVERVIEW:
+মহকুমার প্রধান সরকারি চিকিৎসাকেন্দ্র, মাত্র ₹২ টিকিটে বিশেষজ্ঞ ওপিডি পরামর্শ ও বিনামূল্যে ওষুধ
+বারুইপুর মহকুমা হাসপাতাল দক্ষিণ ২৪ পরগনার প্রধান সরকারি রেফারাল কেন্দ্র। ৩০০+ শয্যাবিশিষ্ট এই হাসপাতালের বহির্বিভাগে প্রতিদিন শত শত রোগী জেনারেল মেডিসিন, সার্জারি, স্ত্রীরোগ, শিশুরোগ, চক্ষু, ইএনটি ও অস্থি বিভাগে বিনামূল্যে বা নামমাত্র মূল্যে চিকিৎসা নিতে আসেন। হাসপাতালে রয়েছে ২৪ ঘণ্টার জরুরি বিভাগ, ব্লাড ব্যাংক ও ন্যায্য মূল্যের ওষুধের দোকান।
+
+SERVICES & DIAGNOSTICS:
+- মাত্র ₹২ সরকারি রেজিস্ট্রেশন টিকিটে অভিজ্ঞ ডাক্তারদের পরামর্শ
+- বিনামূল্যে অত্যাবশ্যকীয় ওষুধ সরবরাহ ও ফেয়ার প্রাইস মেডিসিন শপ
+- ২৪ ঘণ্টা ট্রমা কেয়ার, ব্লাড ব্যাংক ও ডায়ালিসিস সুবিধা
+- স্বাস্থ্যসাথী কার্ডে বিনামূল্যে জটিল অস্ত্রোপচার
+- [Diagnostic] ডিজিটাল এক্স-রে ও ইউএসজি (USG)
+- [Diagnostic] সম্পূর্ণ বিনামূল্যে সরকারি প্যাথলজি ল্যাবরেটরি
+- [Diagnostic] ইসিজি ও ডায়ালিসিস ইউনিট
+
+DOCTORS OPD ROSTER (6 DOCTORS):
+* জেনারেল মেডিসিন ওপিডি (সরকারি মেডিকেল অফিসার ও স্পেশালিস্ট) (General Medicine Govt OPD) [MBBS, MD (Medicine)]
+  - Specialty: জেনারেল মেডিসিন বিভাগ (General Medicine Dept)
+  - Visiting Days: সোম থেকে শনিবার (ছুটির দিন ব্যতিরেকে)
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ২:০০ (ওপিডি রুম ১ ও ২)
+  - Consultation Fee: বিনামূল্যে (টিকিট ফি ₹২)
+  - Serial Booking Phone: 033-2433-8244
+  - Note: সকাল ৮:৩০ থেকে কাউন্টারে লাইন দিয়ে টিকিট কাটতে হয়
+* স্ত্রীরোগ ও প্রসূতি ওপিডি (Gynae & Obs) (Gynecology & Obstetrics Govt OPD) [MBBS, MS / DGO]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিভাগ (Gynecology & Obstetrics Dept)
+  - Visiting Days: সোম থেকে শনিবার
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ২:০০ (ওপিডি রুম ৫)
+  - Consultation Fee: বিনামূল্যে (টিকিট ফি ₹২)
+  - Serial Booking Phone: 033-2433-8244
+  - Note: গর্ভবতী মায়েদের অ্যান্টিনেটাল চেকআপ ও ওষুধ বিতরণ
+* শিশু স্বাস্থ্য বহির্বিভাগ (Pediatrics OPD) (Pediatrics Govt OPD) [MBBS, MD / DCH]
+  - Specialty: শিশু স্বাস্থ্য বিভাগ (Pediatrics Dept)
+  - Visiting Days: সোম থেকে শনিবার
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ২:০০ (ওপিডি রুম ৮)
+  - Consultation Fee: বিনামূল্যে (টিকিট ফি ₹২)
+  - Serial Booking Phone: 033-2433-8244
+  - Note: শিশুদের টিকাদান ও পুষ্টি পর্যবেক্ষণ
+* অর্থোপেডিক ও অস্থি বিভাগ (Orthopedics OPD) (Orthopedics Govt OPD) [MBBS, MS (Ortho)]
+  - Specialty: অর্থোপেডিক বিভাগ (Orthopedics Dept)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ১:৩০ (ওপিডি রুম ১০)
+  - Consultation Fee: বিনামূল্যে (টিকিট ফি ₹২)
+  - Serial Booking Phone: 033-2433-8244
+  - Note: হাড়ের ফ্র্যাকচার, প্লাস্টার ও বাতের সমস্যা
+* চক্ষু বহির্বিভাগ (Ophthalmology OPD) (Ophthalmology Govt OPD) [MBBS, MS (Eye)]
+  - Specialty: চক্ষু বিভাগ (Ophthalmology Dept)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ১:০০ (ওপিডি রুম ১২)
+  - Consultation Fee: বিনামূল্যে (টিকিট ফি ₹২)
+  - Serial Booking Phone: 033-2433-8244
+  - Note: দৃষ্টিশক্তি পরীক্ষা ও ছানি অপারেশনের পরামর্শ
+* দন্ত চিকিৎসা বিভাগ (Dental OPD) (Dental Govt OPD) [BDS / MDS]
+  - Specialty: দন্ত চিকিৎসা বিভাগ (Dental Dept)
+  - Visiting Days: সোম থেকে শুক্রবার
+  - Visiting Hours: সকাল ৯:০০ - দুপুর ১:০০ (ওপিডি রুম ১৪)
+  - Consultation Fee: বিনামূল্যে (টিকিট ফি ₹২)
+  - Serial Booking Phone: 033-2433-8244
+  
+
+
+================================================================================
+PART 4: REGIONAL NEWS ARTICLES & CIVIC UPDATES (261 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------

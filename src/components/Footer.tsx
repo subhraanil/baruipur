@@ -31,6 +31,11 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
+                <a href="/health-directory" className="hover:text-rose-400 transition flex items-center gap-1.5 font-bold text-rose-300">
+                  <span className="text-rose-500">›</span> স্বাস্থ্য ও ডাক্তার চেম্বার (Health & OPD)
+                </a>
+              </li>
+              <li>
                 <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1.5 font-medium text-amber-300">
                   <span className="text-amber-500">›</span> স্থান ও ল্যান্ডমার্ক (Places Hub)
                 </a>

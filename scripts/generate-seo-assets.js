@@ -54,6 +54,16 @@ try {
   console.warn('Could not load organizations_data.json:', e.message);
 }
 
+const HEALTHCARE_FILE = path.join(__dirname, '../src/data/healthcare_data.json');
+let healthcareFacilities = [];
+try {
+  if (fs.existsSync(HEALTHCARE_FILE)) {
+    healthcareFacilities = JSON.parse(fs.readFileSync(HEALTHCARE_FILE, 'utf8'));
+  }
+} catch (e) {
+  console.warn('Could not load healthcare_data.json:', e.message);
+}
+
 const categories = [
   { slug: 'all', nameBn: 'সব খবর', nameEn: 'All News', desc: 'বারুইপুর অঞ্চলের সমস্ত তাজা খবর ও সংকলন।' },
   { slug: 'municipality', nameBn: 'পৌরসভা ও নাগরিক', nameEn: 'Municipality & Civic', desc: 'বারুইপুর পৌরসভা, রাস্তাঘাট, পানীয় জল ও নাগরিক সমস্যা।' },
@@ -158,6 +168,7 @@ for (const cat of categories) {
 }
 
 const staticPages = [
+  { path: '/health-directory/', priority: '0.95', changefreq: 'daily', title: 'Healthcare & Doctor OPD Directory' },
   { path: '/places/', priority: '0.9', changefreq: 'weekly', title: 'Places Hub' },
   { path: '/organizations/', priority: '0.9', changefreq: 'weekly', title: 'Organizations Hub' },
   { path: '/transport/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Transport Guide' },
@@ -178,6 +189,17 @@ for (const sp of staticPages) {
     <lastmod>${nowIso}</lastmod>
     <changefreq>${sp.changefreq}</changefreq>
     <priority>${sp.priority}</priority>
+  </url>
+`;
+}
+
+for (const fac of healthcareFacilities) {
+  sitemapXml += `  <!-- Healthcare Facility: ${fac.slug} -->
+  <url>
+    <loc>${SITE_URL}/health-directory/${fac.slug}/</loc>
+    <lastmod>${nowIso}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 `;
 }
@@ -353,6 +375,10 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [গুরুত্বপূর্ণ স্থান ডিরেক্টরি (Places Hub)](${SITE_URL}/places/): বারুইপুরের ঐতিহাসিক, প্রশাসনিক ও নাগরিক প্রতিষ্ঠানের পূর্ণাঙ্গ গাইড।
 ${places.map(p => `- [${p.nameBn} (${p.nameEn})](${SITE_URL}/places/${p.slug}/): ${p.taglineBn}. Established: ${p.established}. Address: ${p.address}`).join('\n')}
 
+## Healthcare, Nursing Homes & Doctor OPD Directory (স্বাস্থ্য ও ডাক্তার চেম্বার ডিরেক্টরি)
+- [স্বাস্থ্য ও ডাক্তার চেম্বার ডিরেক্টরি (Health & OPD Directory)](${SITE_URL}/health-directory/): বারুইপুরের সমস্ত নার্সিং হোম, পলিক্লিনিক, মেডিসিন শপ ওপিডি এবং বিশেষজ্ঞ ডাক্তারদের রোস্টার।
+${healthcareFacilities.map(h => `- [${h.nameBn} (${h.nameEn})](${SITE_URL}/health-directory/${h.slug}/): ${h.taglineBn}. Type: ${h.typeBn}. Address: ${h.addressBn}. Phone: ${h.phone}. Doctors: ${h.doctors.length} specialists.`).join('\n')}
+
 ## Organizations, Clubs & Associations (প্রতিষ্ঠান, ক্লাব ও সংগঠন)
 - [প্রতিষ্ঠান ও ক্লাব ডিরেক্টরি (Organizations Hub)](${SITE_URL}/organizations/): বারুইপুরের ক্রীড়া ক্লাব, এনজিও, চ্যারিটি ট্রাস্ট ও ব্যবসায়িক সমিতি।
 ${organizations.map(o => `- [${o.nameBn} (${o.nameEn})](${SITE_URL}/organizations/${o.slug}/): ${o.taglineBn}. Established: ${o.established}. Category: ${o.categoryBn}. Address: ${o.address}`).join('\n')}
@@ -452,7 +478,43 @@ ${o.howToReach}
 `).join('\n')}
 
 ================================================================================
-PART 3: REGIONAL NEWS ARTICLES & CIVIC UPDATES (${articles.length} TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (${healthcareFacilities.length} TOTAL)
+================================================================================
+${healthcareFacilities.map((h, i) => `
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #${i + 1}: ${h.nameBn} (${h.nameEn})
+--------------------------------------------------------------------------------
+- Facility Type: ${h.typeBn} (${h.type})
+- Canonical URL: ${SITE_URL}/health-directory/${h.slug}/
+- Address: ${h.addressBn} (${h.addressEn})
+- Landmark: ${h.landmarkBn}
+- Phone: ${h.phone}
+- Emergency Phone: ${h.emergencyPhone || 'N/A'}
+- Timings: ${h.openingHoursBn}
+- 24 Hours Open: ${h.isOpen24Hours ? 'Yes' : 'No'}
+- Swasthya Sathi Accepted: ${h.swasthyaSathiAccepted ? 'Yes' : 'No'}
+- Bed Capacity: ${h.bedCapacity || 'N/A'}
+
+TAGLINE & OVERVIEW:
+${h.taglineBn}
+${h.overviewBn}
+
+SERVICES & DIAGNOSTICS:
+${h.keyServicesBn.map(s => `- ${s}`).join('\n')}
+${(h.diagnosticFacilitiesBn || []).map(d => `- [Diagnostic] ${d}`).join('\n')}
+
+DOCTORS OPD ROSTER (${h.doctors.length} DOCTORS):
+${h.doctors.map(d => `* ${d.nameBn} (${d.nameEn}) [${d.degrees}]
+  - Specialty: ${d.specialtyBn} (${d.specialtyEn})
+  - Visiting Days: ${d.daysBn}
+  - Visiting Hours: ${d.timingBn} ${d.roomNo ? `(${d.roomNo})` : ''}
+  - Consultation Fee: ${d.visitingFeeBn}
+  - Serial Booking Phone: ${d.appointmentPhone}
+  ${d.notesBn ? `- Note: ${d.notesBn}` : ''}`).join('\n')}
+`).join('\n')}
+
+================================================================================
+PART 4: REGIONAL NEWS ARTICLES & CIVIC UPDATES (${articles.length} TOTAL)
 ================================================================================
 `;
 

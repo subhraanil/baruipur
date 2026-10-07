@@ -231,7 +231,6 @@ export default function BaruipurUtilities({
               );
             })}
           </div>
-
           <div className="mt-4 pt-3 border-t border-slate-100 text-center">
             <a 
               href="/category/all" 
@@ -242,6 +241,56 @@ export default function BaruipurUtilities({
           </div>
         </div>
       )}
+
+      {/* 2.5. Health, Nursing Homes & Doctor OPD Directory Widget */}
+      <div className="bg-gradient-to-br from-rose-50 to-red-50 border border-red-200 rounded-xl p-5 shadow-sm">
+        <div className="flex items-center justify-between border-b border-red-150 pb-3 mb-3">
+          <div className="flex items-center gap-2">
+            <div className="p-2 rounded-lg bg-red-600 text-white">
+              <HeartPulse className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="font-bold text-slate-900 text-base">স্বাস্থ্য ও ডাক্তার চেম্বার</h3>
+              <p className="text-xs text-slate-600">নার্সিং হোম, ওপিডি ও ডাক্তার তালিকা</p>
+            </div>
+          </div>
+          <a href="/health-directory" className="text-xs font-bold text-red-600 hover:underline">
+            সব দেখুন →
+          </a>
+        </div>
+
+        <div className="space-y-2">
+          {[
+            { slug: 'welkin-medicare-hospital', name: 'ওয়েলকিন মেডিকেয়ার হাসপাতাল', tag: '২৪x৭ ICU ও OPD' },
+            { slug: 'apex-polyclinic-and-diagnostic-baruipur', name: 'অ্যাপেক্স পলিক্লিনিক', tag: 'স্পেশালিস্ট চেম্বার' },
+            { slug: 'paramount-nursing-home-baruipur', name: 'প্যারামাউন্ট নার্সিং হোম', tag: 'মেটারনিটি কেয়ার' },
+            { slug: 'frank-ross-pharmacy-opd-baruipur', name: 'ফ্রাঙ্ক রস ফার্মেসি ও ক্লিনিক', tag: 'মেডিসিন শপ OPD' },
+            { slug: 'baruipur-subdivisional-hospital-opd', name: 'মহকুমা হাসপাতাল (সরকারি OPD)', tag: '₹২ টিকিট / ফ্রি' },
+          ].map((fac, idx) => (
+            <a
+              key={idx}
+              href={`/health-directory/${fac.slug}/`}
+              className="flex items-center justify-between p-2.5 rounded-lg border border-red-150 bg-white hover:border-red-400 hover:bg-red-50/50 transition group"
+            >
+              <span className="text-xs font-bold text-slate-800 group-hover:text-red-700 transition">
+                {fac.name}
+              </span>
+              <span className="text-[10px] font-semibold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
+                {fac.tag}
+              </span>
+            </a>
+          ))}
+        </div>
+
+        <div className="mt-3 pt-2.5 border-t border-red-200/60 text-center">
+          <a 
+            href="/health-directory" 
+            className="text-xs text-red-700 font-bold hover:underline inline-flex items-center gap-1"
+          >
+            ১০+ স্বাস্থ্যকেন্দ্র ও ৫০+ ডাক্তারের ওপিডি শিডিউল →
+          </a>
+        </div>
+      </div>
 
       {/* 3. Important Places Guide Widget */}
       {showPlaces && (
