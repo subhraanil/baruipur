@@ -1,6 +1,372 @@
 {
   "articles": [
     {
+      "id": "art-1791473367574-k3wk",
+      "title": "বারুইপুর কাঁপছে শ্রমজীবীদের ডাকে!",
+      "slug": "বারুইপুর-কাঁপছে-শ্রমজীবীদের-ডাকে",
+      "summary": "বারুইপুর কাঁপছে শ্রমজীবীদের ডাকে! ✊\nশত শত লাল পতাকা নিয়ে শ্রম দপ্তরের দিকে মিছিল।\n\nআপনি কি এই মিছিল দেখেছেন? \n\n   \nシ\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও ...",
+      "content": "বারুইপুর কাঁপছে শ্রমজীবীদের ডাকে! ✊\nশত শত লাল পতাকা নিয়ে শ্রম দপ্তরের দিকে মিছিল।\n\nআপনি কি এই মিছিল দেখেছেন? \n\n   \nシ\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-amarshohor",
+      "sourceName": "Amar Shohor Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1814883869541052",
+      "originalPostUrl": "https://www.facebook.com/1814883869541052",
+      "imageUrl": "/images/crawled/6756b6781a3052164a400bba2e393dce.jpg",
+      "images": [
+        "/images/crawled/6756b6781a3052164a400bba2e393dce.jpg",
+        "/images/crawled/fc2d284d0a7aec2d35ab8dbea67859ad.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=953343414026979",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D953343414026979&show_text=0",
+      "publishedAt": "2026-10-08T10:10:37.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 57,
+      "crawlHash": "3c95f93477896356cbdcc476212e1c90"
+    },
+    {
+      "id": "art-1791473366645-xbtk",
+      "title": "আজ ৮ অক্টোবর হওয়ায়, মহালয়া হতে আর মাত্র ২ দিন বাকি",
+      "slug": "আজ-৮-অক্টোবর-হওয়ায়-মহালয়া-হতে-আর-মাত্র-২-দ",
+      "summary": "আজ ৮ অক্টোবর হওয়ায়, মহালয়া হতে আর মাত্র ২ দিন বাকি \nগুরুত্বপূর্ণ তথ্য:\n• তর্পণ ও শ্রাদ্ধ: ১০ অক্টোবর শনিবার ভোরে এবং দিনভর তর্পণ করা হবে।\n• মহিষাসুরমর্দিনী: ভোরে আকাশবাণীতে...",
+      "content": "আজ ৮ অক্টোবর হওয়ায়, মহালয়া হতে আর মাত্র ২ দিন বাকি \nগুরুত্বপূর্ণ তথ্য:\n• তর্পণ ও শ্রাদ্ধ: ১০ অক্টোবর শনিবার ভোরে এবং দিনভর তর্পণ করা হবে।\n• মহিষাসুরমর্দিনী: ভোরে আকাশবাণীতে বীরেন্দ্র কৃষ্ণ ভদ্রের কণ্ঠে চিরাচরিত 'মহিষাসুরমর্দিনী' শোনার প্রস্তুতি চলছে।\n• দেবীপক্ষ শুরু: এই দিনের মাধ্যমেই পিতৃপক্ষের অবসান এবং শুভ দেবীপক্ষের সূচনা হয়।\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্শনার্থীদের আকর্ষণ করে।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-24x7",
+      "sourceName": "Baruipur 24x7",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122354238824020343",
+      "originalPostUrl": "https://www.facebook.com/122354238824020343",
+      "imageUrl": "/images/crawled/e7012a51d0e356e6757c873ef17ae46d.jpg",
+      "images": [
+        "/images/crawled/e7012a51d0e356e6757c873ef17ae46d.jpg",
+        "/images/crawled/efc0e8712bbecee53309e25fe31fe404.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1649166446911592",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1649166446911592&show_text=0",
+      "publishedAt": "2026-10-08T06:36:57.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 18,
+      "crawlHash": "a8e0f74fd86cbe30701bba80e3c25c31"
+    },
+    {
+      "id": "art-1791473365850-oh8l",
+      "title": "বারুইপুর প্রথমবার আলপনা প্রতিযোগিতা।",
+      "slug": "বারুইপুর-প্রথমবার-আলপনা-প্রতিযোগিতা",
+      "summary": "বারুইপুর প্রথমবার আলপনা প্রতিযোগিতা।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "content": "বারুইপুর প্রথমবার আলপনা প্রতিযোগিতা।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-voice",
+      "sourceName": "Voice of Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/2592196001226258",
+      "originalPostUrl": "https://www.facebook.com/2592196001226258",
+      "imageUrl": "/images/crawled/98dae0a8cd6f6104a023b9b7dfb1aefa.jpg",
+      "images": [
+        "/images/crawled/98dae0a8cd6f6104a023b9b7dfb1aefa.jpg",
+        "/images/crawled/1a11276bd8be0df7f224d04fee6db7af.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=2592196001226258",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2592196001226258&show_text=0",
+      "publishedAt": "2026-10-08T11:32:56.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 58,
+      "crawlHash": "c782ef58e80bcc8e217498ca669f410f"
+    },
+    {
+      "id": "art-1791473365382-qkgw",
+      "title": "ভট্টাচার্য পাড়া  সর্বজনীন দূর্গোৎসব সমিতি",
+      "slug": "ভট্টাচার্য-পাড়া-সর্বজনীন-দূর্গোৎসব-সমিতি",
+      "summary": "ভট্টাচার্য পাড়া  সর্বজনীন দূর্গোৎসব সমিতি\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "content": "ভট্টাচার্য পাড়া  সর্বজনীন দূর্গোৎসব সমিতি\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-voice",
+      "sourceName": "Voice of Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122120220783332585",
+      "originalPostUrl": "https://www.facebook.com/122120220783332585",
+      "imageUrl": "/images/crawled/c78e7a392f08bbcb45b5d3f16bebc0f8.jpg",
+      "images": [
+        "/images/crawled/c78e7a392f08bbcb45b5d3f16bebc0f8.jpg",
+        "/images/crawled/bddd53ef80a5952899d8627732885b1b.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1114204687820638",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114204687820638&show_text=0",
+      "publishedAt": "2026-10-08T13:32:31.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 25,
+      "crawlHash": "e2082da2da03dec4ab5f151161afca30"
+    },
+    {
+      "id": "art-1791473364599-5ezf",
+      "title": "গভীর শোক ও শ্রদ্ধাঞ্জলি",
+      "slug": "গভীর-শোক-ও-শ্রদ্ধাঞ্জলি",
+      "summary": "গভীর শোক ও শ্রদ্ধাঞ্জলি 🙏\n\nবিশিষ্ট সাংবাদিক পাপিয়া সিংহের আকস্মিক প্রয়াণে\nবারুইপুর প্রেস ক্লাব গভীরভাবে শোকাহত।\nসাংবাদিকতার জগতে তাঁর অবদান, নিষ্ঠা ও কর্মময় স্মৃতি\nচিরকাল ...",
+      "content": "গভীর শোক ও শ্রদ্ধাঞ্জলি 🙏\n\nবিশিষ্ট সাংবাদিক পাপিয়া সিংহের আকস্মিক প্রয়াণে\nবারুইপুর প্রেস ক্লাব গভীরভাবে শোকাহত।\nসাংবাদিকতার জগতে তাঁর অবদান, নিষ্ঠা ও কর্মময় স্মৃতি\nচিরকাল আমাদের মনে অমলিন হয়ে থাকবে।\nতাঁর বিদেহী আত্মার শান্তি কামনা করি\nএবং শোকসন্তপ্ত পরিবার ও পরিজনদের প্রতি জানাই\nআমাদের আন্তরিক সমবেদনা।\n\nবারুইপুর প্রেস ক্লাবের পক্ষ থেকে\nবিনম্র শ্রদ্ধাঞ্জলি 🕯️🙏\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-pressclub",
+      "sourceName": "Baruipur Press Club",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1597927132348505",
+      "originalPostUrl": "https://www.facebook.com/1597927132348505",
+      "imageUrl": "/images/crawled/7baf6448ba496561186f714d78459677.jpg",
+      "images": [
+        "/images/crawled/7baf6448ba496561186f714d78459677.jpg"
+      ],
+      "publishedAt": "2026-10-08T09:34:57.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 56,
+      "crawlHash": "0c3d9fe28c3c5d7c02d7715d5b6016b7"
+    },
+    {
+      "id": "art-1791473363106-kxq8",
+      "title": "PADMAPUKUR BYPASS, BARUIPUR",
+      "slug": "padmapukur-bypass-baruipur",
+      "summary": "PADMAPUKUR BYPASS, BARUIPUR\n📞 9477576145\n\n✨ দীর্ঘদিনের প্রতিষ্ঠিত ঠিকানা—Paramount!\nসুস্বাদু খাবার • পরিষ্কার-পরিচ্ছন্ন পরিবেশ • সুন্দর Ambience ❤️\n\nএই পুজোয় একবার ঘুরে আসুন...",
+      "content": "PADMAPUKUR BYPASS, BARUIPUR\n📞 9477576145\n\n✨ দীর্ঘদিনের প্রতিষ্ঠিত ঠিকানা—Paramount!\nসুস্বাদু খাবার • পরিষ্কার-পরিচ্ছন্ন পরিবেশ • সুন্দর Ambience ❤️\n\nএই পুজোয় একবার ঘুরে আসুন!\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্শনার্থীদের আকর্ষণ করে।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-barta",
+      "sourceName": "Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1486595800184083",
+      "originalPostUrl": "https://www.facebook.com/1486595800184083",
+      "imageUrl": "/images/crawled/2d46c8ff19b572d72c45f564c7c236ac.jpg",
+      "images": [
+        "/images/crawled/2d46c8ff19b572d72c45f564c7c236ac.jpg",
+        "/images/crawled/4adb02b3f87519db7d5caa447a359a60.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1641579730642719",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1641579730642719&show_text=0",
+      "publishedAt": "2026-10-08T04:59:15.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 52,
+      "crawlHash": "89af504e4b4d0b030801e75ad788250c"
+    },
+    {
+      "id": "art-1791473362660-fjj9",
+      "title": "ভুয়ো ডাক্তারদের বিরুদ্ধে বারুইপুর থানার কড়া পদক্ষেপ",
+      "slug": "ভুয়ো-ডাক্তারদের-বিরুদ্ধে-বারুইপুর-থানার-কড়া-প",
+      "summary": "ভুয়ো ডাক্তারদের বিরুদ্ধে বারুইপুর থানার কড়া পদক্ষেপ। গ্রেফতার তিন অভিযুক্ত। বিস্তারিত জানতে সম্পূর্ণ ভিডিওটি দেখুন।\n\n[স্বাস্থ্য তথ্য]: স্থানীয় জনসাধারণের চিকিৎসা সেবায় বারুই...",
+      "content": "ভুয়ো ডাক্তারদের বিরুদ্ধে বারুইপুর থানার কড়া পদক্ষেপ। গ্রেফতার তিন অভিযুক্ত। বিস্তারিত জানতে সম্পূর্ণ ভিডিওটি দেখুন।\n\n[স্বাস্থ্য তথ্য]: স্থানীয় জনসাধারণের চিকিৎসা সেবায় বারুইপুর মহকুমা হাসপাতাল ও সংশ্লিষ্ট স্বাস্থ্যকেন্দ্রগুলি সার্বক্ষণিক জরুরি পরিষেবা প্রদানে তৎপর রয়েছে।",
+      "category": "health",
+      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-barta",
+      "sourceName": "Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1486755056834824",
+      "originalPostUrl": "https://www.facebook.com/1486755056834824",
+      "imageUrl": "/images/crawled/272651539fb0eaaa48224b0f13f84747.jpg",
+      "images": [
+        "/images/crawled/272651539fb0eaaa48224b0f13f84747.jpg",
+        "/images/crawled/09a253207004d7fa4878884fa1b9e750.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1086276117589661",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1086276117589661&show_text=0",
+      "publishedAt": "2026-10-08T09:24:48.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 51,
+      "crawlHash": "ae51d8b51ab8e09bac4b8a49cfaa81cb"
+    },
+    {
+      "id": "art-1791473362104-dpyh",
+      "title": "যাদবপুর সাংগঠনিক জেলার বিজেপি পার্টি অফিসে উপস্থিত হলেন কেন্দ্রীয় প্রতিমন্ত্রী ডক্টর সুকা",
+      "slug": "যাদবপুর-সাংগঠনিক-জেলার-বিজেপি-পার্টি-অফিসে-উপ",
+      "summary": "যাদবপুর সাংগঠনিক জেলার বিজেপি পার্টি অফিসে উপস্থিত হলেন কেন্দ্রীয় প্রতিমন্ত্রী ডক্টর সুকান্ত মজুমদার।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নে...",
+      "content": "যাদবপুর সাংগঠনিক জেলার বিজেপি পার্টি অফিসে উপস্থিত হলেন কেন্দ্রীয় প্রতিমন্ত্রী ডক্টর সুকান্ত মজুমদার।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-barta",
+      "sourceName": "Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1486777673499229",
+      "originalPostUrl": "https://www.facebook.com/1486777673499229",
+      "imageUrl": "/images/crawled/b4f22dac89b29da90630fcd9f7a3aee3.jpg",
+      "images": [
+        "/images/crawled/b4f22dac89b29da90630fcd9f7a3aee3.jpg",
+        "/images/crawled/86d3cf839ccec25f7c99c3971f4ce13e.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1447023900658784",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1447023900658784&show_text=0",
+      "publishedAt": "2026-10-08T10:00:44.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 21,
+      "crawlHash": "4f47f0f6a7768f3ebeb43b269c068219"
+    },
+    {
+      "id": "art-1791473361493-0y8l",
+      "title": "আইন ভেঙে হাসপাতালের সামনে মাইক বাজানোর অভিযোগ CPIM এর বিরুদ্ধে",
+      "slug": "আইন-ভেঙে-হাসপাতালের-সামনে-মাইক-বাজানোর-অভিযোগ",
+      "summary": "আইন ভেঙে হাসপাতালের সামনে মাইক বাজানোর অভিযোগ CPIM এর বিরুদ্ধে ! বারুইপুর BJP র তরফ থেকে থানায় লিখিত অভিযোগ দায়ের ।\n\n[স্বাস্থ্য তথ্য]: স্থানীয় জনসাধারণের চিকিৎসা সেবায় বারুই...",
+      "content": "আইন ভেঙে হাসপাতালের সামনে মাইক বাজানোর অভিযোগ CPIM এর বিরুদ্ধে ! বারুইপুর BJP র তরফ থেকে থানায় লিখিত অভিযোগ দায়ের ।\n\n[স্বাস্থ্য তথ্য]: স্থানীয় জনসাধারণের চিকিৎসা সেবায় বারুইপুর মহকুমা হাসপাতাল ও সংশ্লিষ্ট স্বাস্থ্যকেন্দ্রগুলি সার্বক্ষণিক জরুরি পরিষেবা প্রদানে তৎপর রয়েছে।",
+      "category": "health",
+      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-barta",
+      "sourceName": "Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1486821163494880",
+      "originalPostUrl": "https://www.facebook.com/1486821163494880",
+      "imageUrl": "/images/crawled/072188b308c55f4c5d8166eb87eee722.jpg",
+      "images": [
+        "/images/crawled/072188b308c55f4c5d8166eb87eee722.jpg",
+        "/images/crawled/5abcecb3b0cea2612f2dc7974b3bbd40.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1364436539222613",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1364436539222613&show_text=0",
+      "publishedAt": "2026-10-08T11:08:52.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 50,
+      "crawlHash": "98001c7e7dc08d0921bad2dd0bb8ad21"
+    },
+    {
+      "id": "art-1791473360870-0o9h",
+      "title": "Live সেন্টার অফ ইন্ডিয়ান ট্রেড ইউনিয়নের ডাকে মহা মিছিল বারুইপুরে",
+      "slug": "live-সেন্টার-অফ-ইন্ডিয়ান-ট্রেড-ইউনিয়নের-ডাক",
+      "summary": "Live সেন্টার অফ ইন্ডিয়ান ট্রেড ইউনিয়নের ডাকে মহা মিছিল বারুইপুরে\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর স...",
+      "content": "Live সেন্টার অফ ইন্ডিয়ান ট্রেড ইউনিয়নের ডাকে মহা মিছিল বারুইপুরে\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1805722234186220",
+      "originalPostUrl": "https://www.facebook.com/1805722234186220",
+      "imageUrl": "/images/crawled/c2e45748a2abe9f0804ed82e40647636.jpg",
+      "images": [
+        "/images/crawled/c2e45748a2abe9f0804ed82e40647636.jpg",
+        "/images/crawled/078efcbd2789ccb2d934ce257c985735.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1805722234186220",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1805722234186220&show_text=0",
+      "publishedAt": "2026-10-08T08:54:39.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 35,
+      "crawlHash": "066c73dff6532f1b9eae9dee3b4794d3"
+    },
+    {
+      "id": "art-1791473360363-byjj",
+      "title": "বারুইপুরে গ্রেফতার তিন ভুয়ো ডাক্তার,দিয়েছেন ডেথ সার্টিফিকেট।কি জানালেন তারা শুনুন.....",
+      "slug": "বারুইপুরে-গ্রেফতার-তিন-ভুয়ো-ডাক্তারদিয়েছেন",
+      "summary": "বারুইপুরে গ্রেফতার তিন ভুয়ো ডাক্তার,দিয়েছেন ডেথ সার্টিফিকেট।কি জানালেন তারা শুনুন.....\n\n[স্বাস্থ্য তথ্য]: স্থানীয় জনসাধারণের চিকিৎসা সেবায় বারুইপুর মহকুমা হাসপাতাল ও সংশ্ল...",
+      "content": "বারুইপুরে গ্রেফতার তিন ভুয়ো ডাক্তার,দিয়েছেন ডেথ সার্টিফিকেট।কি জানালেন তারা শুনুন.....\n\n[স্বাস্থ্য তথ্য]: স্থানীয় জনসাধারণের চিকিৎসা সেবায় বারুইপুর মহকুমা হাসপাতাল ও সংশ্লিষ্ট স্বাস্থ্যকেন্দ্রগুলি সার্বক্ষণিক জরুরি পরিষেবা প্রদানে তৎপর রয়েছে।",
+      "category": "health",
+      "categoryNameBn": "স্বাস্থ্য ও হাসপাতাল",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1731404812321680",
+      "originalPostUrl": "https://www.facebook.com/1731404812321680",
+      "imageUrl": "/images/crawled/35c809fe06d2c0d2f35ff26796ed2362.jpg",
+      "images": [
+        "/images/crawled/35c809fe06d2c0d2f35ff26796ed2362.jpg",
+        "/images/crawled/912ad9a5ec6c193b2503b50776803e14.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1144762404568207",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1144762404568207&show_text=0",
+      "publishedAt": "2026-10-08T11:22:37.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 32,
+      "crawlHash": "4f96034109a0698da226b83e2672bf16"
+    },
+    {
+      "id": "art-1791473359550-9wx6",
+      "title": "বারুইপুরে সদাব্রত ঘাটে আজ দুপুর ৩ টের সময় হতে চলেছে আলপনা উৎসব ।",
+      "slug": "বারুইপুরে-সদাব্রত-ঘাটে-আজ-দুপুর-৩-টের-সময়-হত",
+      "summary": "বারুইপুরে সদাব্রত ঘাটে আজ দুপুর ৩ টের সময় হতে চলেছে আলপনা উৎসব ।\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্...",
+      "content": "বারুইপুরে সদাব্রত ঘাটে আজ দুপুর ৩ টের সময় হতে চলেছে আলপনা উৎসব ।\n\n[ঐতিহ্য ও সংস্কৃতি]: বারুইপুরের ঐতিহাসিক রাসমেলা ও বিভিন্ন ঐতিহ্যবাহী উৎসব প্রতি বছর বিপুল সংখ্যক ভক্ত ও দর্শনার্থীদের আকর্ষণ করে।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-uncover",
+      "sourceName": "Baruipur Uncover",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122229615722792099",
+      "originalPostUrl": "https://www.facebook.com/122229615722792099",
+      "imageUrl": "/images/crawled/3de805b2c383e67fd332d627863251d7.jpg",
+      "images": [
+        "/images/crawled/3de805b2c383e67fd332d627863251d7.jpg"
+      ],
+      "publishedAt": "2026-10-08T08:18:57.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 12,
+      "crawlHash": "3a10ccba086a0cd0a3297ca5691e5635"
+    },
+    {
       "id": "art-1791433641438-k5kw",
       "title": "ফুটপাত দখল করে বেআইনি অটো পার্কিং: বারুইপুর কাছারি বাজারে পথচারীদের চরম ভোগান্তি",
       "slug": "encroached-footpath-auto-parking-baruipur-kachhari-bazar",
@@ -78,7 +444,8 @@
       "images": [
         "/images/crawled/34bb6959b9e7b70ee25cd004b594f568.jpg",
         "/images/crawled/50a45db6c45f92926e12f7c16625f640.jpg",
-        "/images/crawled/f5df8b94bbea6883d4498b091c4b9992.jpg"
+        "/images/crawled/f5df8b94bbea6883d4498b091c4b9992.jpg",
+        "/images/crawled/d751329f0512c9ef47163023c8120791.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1150845503944509",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1150845503944509&show_text=0",
@@ -110,7 +477,8 @@
       "imageUrl": "/images/crawled/d64b6f1eb13fe4294c000fd11b587373.jpg",
       "images": [
         "/images/crawled/d64b6f1eb13fe4294c000fd11b587373.jpg",
-        "/images/crawled/bf87192774bf84853dd2f9ecfff0791e.jpg"
+        "/images/crawled/bf87192774bf84853dd2f9ecfff0791e.jpg",
+        "/images/crawled/a1224f5659823f69b59c9e3afaf24ffc.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1128784693164729",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1128784693164729&show_text=0",
@@ -296,7 +664,8 @@
         "/images/crawled/654764954edc453fdef2d939f8a950c8.jpg",
         "/images/crawled/c7fb208ec63d93180db68e6c814da80e.jpg",
         "/images/crawled/1a2448e7f66a35881c8b10ae4bc9b13b.jpg",
-        "/images/crawled/047647da7fa606510a491ac5a5746a7b.jpg"
+        "/images/crawled/047647da7fa606510a491ac5a5746a7b.jpg",
+        "/images/crawled/3f9ddbf269fda27374fe53f82ba701fc.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2025708595483813",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2025708595483813&show_text=0",
@@ -327,7 +696,8 @@
       "imageUrl": "/images/crawled/c1c96dbecf5791b6d182f4cf20d51131.jpg",
       "images": [
         "/images/crawled/c1c96dbecf5791b6d182f4cf20d51131.jpg",
-        "/images/crawled/a215c8e8db8d2c62c4e85af9f341f8f8.jpg"
+        "/images/crawled/a215c8e8db8d2c62c4e85af9f341f8f8.jpg",
+        "/images/crawled/7dc06ef3a5ff8cbc2c823050ec310133.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2775251906225552",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2775251906225552&show_text=0",
@@ -361,7 +731,8 @@
         "/images/crawled/b551498b966bf69132449fc7d83b1e18.jpg",
         "/images/crawled/a1c91733494cad3cc5783fec929f83c8.jpg",
         "/images/crawled/53dd6474c22c22ab3167423e215cd33a.jpg",
-        "/images/crawled/53aeaa54020b03f332317d27591341ab.jpg"
+        "/images/crawled/53aeaa54020b03f332317d27591341ab.jpg",
+        "/images/crawled/c76a9e95a34f5fc32b4283345622f040.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1076710128313010",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1076710128313010&show_text=0",
@@ -4341,7 +4712,8 @@
         "/images/crawled/0681902a4712f2d2162f6af3da4bc80c.jpg",
         "/images/crawled/7dae5d224a188e80ee3fee0bd46aeb9b.jpg",
         "/images/crawled/6b847b6f01711398224a40b0ffc21123.jpg",
-        "/images/crawled/212a9770a01c3afa433f3c5b3fba078a.jpg"
+        "/images/crawled/212a9770a01c3afa433f3c5b3fba078a.jpg",
+        "/images/crawled/77d0b3821429e6c22ff9c600526f4631.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2022460585069132",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2022460585069132&show_text=0",
@@ -8764,7 +9136,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-08T04:26:44.647Z"
+      "lastCrawledAt": "2026-10-08T15:28:45.446Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -8777,7 +9149,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-08T04:26:47.655Z"
+      "lastCrawledAt": "2026-10-08T15:28:48.206Z"
     },
     {
       "id": "src-fb-police",
@@ -8790,7 +9162,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-08T04:26:50.051Z"
+      "lastCrawledAt": "2026-10-08T15:28:50.761Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -8803,7 +9175,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-08T04:26:53.362Z"
+      "lastCrawledAt": "2026-10-08T15:28:53.136Z"
     },
     {
       "id": "src-fb-uncover",
@@ -8816,7 +9188,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-08T04:26:56.717Z"
+      "lastCrawledAt": "2026-10-08T15:28:56.834Z"
     },
     {
       "id": "src-fb-update",
@@ -8829,7 +9201,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-08T04:26:59.817Z"
+      "lastCrawledAt": "2026-10-08T15:28:59.800Z"
     },
     {
       "id": "src-fb-barta",
@@ -8842,7 +9214,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-08T04:27:03.116Z"
+      "lastCrawledAt": "2026-10-08T15:29:04.884Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -8855,7 +9227,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-08T04:27:05.663Z"
+      "lastCrawledAt": "2026-10-08T15:29:07.574Z"
     },
     {
       "id": "src-fb-voice",
@@ -8868,7 +9240,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-08T04:27:09.549Z"
+      "lastCrawledAt": "2026-10-08T15:29:11.413Z"
     },
     {
       "id": "src-fb-24x7",
@@ -8881,7 +9253,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-08T04:27:12.278Z"
+      "lastCrawledAt": "2026-10-08T15:29:14.647Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -8894,10 +9266,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-08T04:27:15.370Z"
+      "lastCrawledAt": "2026-10-08T15:29:17.417Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1791473367641",
+      "timestamp": "2026-10-08T15:29:27.641Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 3 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 27, সমন্বয়ের পর: 23, নতুন প্রকাশিত সংবাদ: 12 টি।",
+      "itemsFetched": 27,
+      "itemsPublished": 12
+    },
     {
       "id": "log-1791433945875",
       "timestamp": "2026-10-08T04:32:25.876Z",
