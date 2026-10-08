@@ -2355,15 +2355,4 @@
       <news:title>এইবছর থেকে আর হবে না দুর্গাপুজোর কার্নিভাল!</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%A4%E0%A7%8B-%E0%A6%85%E0%A6%A8%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%A8/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-08T05:46:53.000Z</news:publication_date>
-      <news:title>পুজো তো অনেকেই করেন…</news:title>
-    </news:news>
-  </url>
 </urlset>

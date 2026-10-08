@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { 
   HealthcareFacility, 
@@ -31,6 +31,7 @@ interface Props {
 const TYPE_TABS: { key: 'all' | FacilityType; labelBn: string }[] = [
   { key: 'all', labelBn: 'সব স্বাস্থ্যকেন্দ্র ও চেম্বার' },
   { key: 'nursing_home', labelBn: 'হাসপাতাল ও নার্সিং হোম' },
+  { key: 'diagnostic', labelBn: 'ডায়াগনস্টিক ও ল্যাব' },
   { key: 'polyclinic', labelBn: 'পলিক্লিনিক ও চেম্বার' },
   { key: 'pharmacy_opd', labelBn: 'মেডিসিন শপ ও OPD' },
   { key: 'hospital', labelBn: 'সরকারি মহকুমা হাসপাতাল' },
@@ -42,6 +43,21 @@ export default function HealthcareListClient({ facilities }: Props) {
   const [selectedSpecialty, setSelectedSpecialty] = useState('all');
   const [onlyOpen24Hours, setOnlyOpen24Hours] = useState(false);
   const [onlySwasthyaSathi, setOnlySwasthyaSathi] = useState(false);
+
+  // Read URL query params on mount
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('search') || params.get('q');
+      const t = params.get('type') as FacilityType;
+      const s = params.get('specialty');
+      if (q) setSearchQuery(q);
+      if (t && ['nursing_home', 'polyclinic', 'pharmacy_opd', 'hospital', 'diagnostic'].includes(t)) {
+        setSelectedType(t);
+      }
+      if (s) setSelectedSpecialty(s);
+    }
+  }, []);
 
   // Compute total doctors count
   const totalDoctors = useMemo(() => {
@@ -74,20 +90,30 @@ export default function HealthcareListClient({ facilities }: Props) {
         if (!hasSpec) return false;
       }
 
-      // Search Query matching facility or available specialties/doctors
+      // Search Query matching facility or available specialties/doctors/services
       if (q) {
         const matchFacility = 
           fac.nameBn.toLowerCase().includes(q) ||
           fac.nameEn.toLowerCase().includes(q) ||
+          fac.typeBn.toLowerCase().includes(q) ||
           fac.addressBn.toLowerCase().includes(q) ||
+          fac.addressEn.toLowerCase().includes(q) ||
           fac.landmarkBn.toLowerCase().includes(q) ||
-          fac.taglineBn.toLowerCase().includes(q);
+          fac.taglineBn.toLowerCase().includes(q) ||
+          (fac.overviewBn && fac.overviewBn.toLowerCase().includes(q)) ||
+          (fac.phone && fac.phone.includes(q)) ||
+          (fac.altPhone && fac.altPhone.includes(q)) ||
+          (fac.keyServicesBn && fac.keyServicesBn.some(s => s.toLowerCase().includes(q))) ||
+          (fac.diagnosticFacilitiesBn && fac.diagnosticFacilitiesBn.some(d => d.toLowerCase().includes(q)));
 
         const matchDoctor = fac.doctors.some(d => 
           d.nameBn.toLowerCase().includes(q) ||
           d.nameEn.toLowerCase().includes(q) ||
           d.specialtyBn.toLowerCase().includes(q) ||
-          d.specialtyEn.toLowerCase().includes(q)
+          d.specialtyEn.toLowerCase().includes(q) ||
+          d.degrees.toLowerCase().includes(q) ||
+          (d.experienceBn && d.experienceBn.toLowerCase().includes(q)) ||
+          (d.notesBn && d.notesBn.toLowerCase().includes(q))
         );
 
         if (!matchFacility && !matchDoctor) return false;
@@ -106,7 +132,7 @@ export default function HealthcareListClient({ facilities }: Props) {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
             <input
               type="text"
-              placeholder="স্বাস্থ্যকেন্দ্র, নার্সিং হোম, এলাকা বা বিশেষজ্ঞ বিভাগ খুঁজুন..."
+              placeholder="স্বাস্থ্যকেন্দ্র, ডাক্তার, টেস্ট বা বিশেষজ্ঞ বিভাগ খুঁজুন (যেমন: USG, মেডিসিন, ইসিজি)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:bg-white transition text-sm sm:text-base font-medium"

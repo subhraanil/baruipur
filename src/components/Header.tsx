@@ -32,6 +32,11 @@ export default function Header() {
       if (host === 'localhost' || host === '127.0.0.1' || host.startsWith('192.168.')) {
         setIsLocal(true);
       }
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('search') || params.get('q');
+      if (q) {
+        setSearchQuery(q);
+      }
     }
   }, []);
 

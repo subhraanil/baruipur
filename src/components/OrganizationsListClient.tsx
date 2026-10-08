@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { OrganizationItem } from '@/lib/organizations';
 import { 
   Building2, 
@@ -16,7 +16,8 @@ import {
   ShieldCheck, 
   MessageCircle, 
   Users2, 
-  Calendar 
+  Calendar,
+  X
 } from 'lucide-react';
 
 interface OrganizationsListClientProps {
@@ -47,6 +48,19 @@ export default function OrganizationsListClient({ initialOrgs }: OrganizationsLi
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
+  // Read URL query params on mount
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('search') || params.get('q');
+      const cat = params.get('category');
+      if (q) setSearchQuery(q);
+      if (cat && ['club', 'charity', 'association', 'business'].includes(cat)) {
+        setSelectedCategory(cat);
+      }
+    }
+  }, []);
+
   const categories = [
     { id: 'all', label: 'সকল প্রতিষ্ঠান', count: initialOrgs.length },
     { id: 'club', label: '🏆 ক্লাব ও স্পোর্টস', count: initialOrgs.filter(o => o.category === 'club').length },
@@ -62,9 +76,14 @@ export default function OrganizationsListClient({ initialOrgs }: OrganizationsLi
       const matchesSearch = !q || 
         org.nameBn.toLowerCase().includes(q) || 
         org.nameEn.toLowerCase().includes(q) ||
+        org.categoryBn.toLowerCase().includes(q) ||
         org.taglineBn.toLowerCase().includes(q) ||
         org.overview.toLowerCase().includes(q) ||
-        org.address.toLowerCase().includes(q);
+        org.address.toLowerCase().includes(q) ||
+        (org.keyActivities && org.keyActivities.some(a => a.toLowerCase().includes(q))) ||
+        (org.servicesOffered && org.servicesOffered.some(s => s.toLowerCase().includes(q))) ||
+        (org.contact?.phone && org.contact.phone.includes(q)) ||
+        (org.keyPeople && org.keyPeople.some(p => p.name.toLowerCase().includes(q) || p.roleBn.toLowerCase().includes(q)));
 
       return matchesCategory && matchesSearch;
     });
@@ -79,10 +98,19 @@ export default function OrganizationsListClient({ initialOrgs }: OrganizationsLi
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="ক্লাব, ট্রাস্ট, সমিতি বা ব্যবসার নাম দিয়ে খুঁজুন..."
-            className="w-full pl-10 pr-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-red-500 shadow-sm transition"
+            placeholder="ক্লাব, ট্রাস্ট, সমিতি, খেলার মাঠ বা সেবার নাম দিয়ে খুঁজুন..."
+            className="w-full pl-10 pr-20 py-3 rounded-xl bg-white border border-slate-200 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-red-500 shadow-sm transition"
           />
           <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          {searchQuery && (
+            <button 
+              onClick={() => setSearchQuery('')}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-2.5 py-1 rounded-full font-bold flex items-center gap-1 transition"
+            >
+              <X className="w-3 h-3" />
+              <span>রিসেট</span>
+            </button>
+          )}
         </div>
       </div>
 

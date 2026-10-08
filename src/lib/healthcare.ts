@@ -1,4 +1,4 @@
-export type FacilityType = 'nursing_home' | 'polyclinic' | 'pharmacy_opd' | 'hospital';
+export type FacilityType = 'nursing_home' | 'polyclinic' | 'pharmacy_opd' | 'hospital' | 'diagnostic';
 
 export interface DoctorOPD {
   id: string;

@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-08T04:36:07.137Z
+# Last Updated: 2026-10-08T05:55:39.044Z
 # Total Articles: 266
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 15
@@ -314,7 +314,7 @@ HOW TO REACH:
 --------------------------------------------------------------------------------
 LANDMARK #11: বারুইপুর বিডিও অফিস (সমষ্টি উন্নয়ন আধিকারিকের করণ) (Baruipur BDO Office & Block Administration)
 --------------------------------------------------------------------------------
-- Category: Government & Civic Administration
+- Category: civic
 - Established: বারুইপুর সমষ্টি উন্নয়ন ব্লক (১৯টি গ্রাম পঞ্চায়েত)
 - Canonical URL: https://baruipur.online/places/baruipur-bdo-office/
 - Address: বিডিও রোড, ফুলতলা, পিয়ালী টাউন (পিয়ালীনতুন), বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩৮৭

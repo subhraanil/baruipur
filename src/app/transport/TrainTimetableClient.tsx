@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Train, 
   Clock, 
@@ -9,10 +9,10 @@ import {
   ArrowUpDown, 
   ExternalLink, 
   ChevronRight, 
-  Info,
-  CheckCircle,
-  Filter,
-  Compass
+  Info, 
+  CheckCircle, 
+  Filter, 
+  Compass 
 } from 'lucide-react';
 
 export interface TrainItem {
@@ -101,6 +101,25 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [timeFilter, setTimeFilter] = useState<'all' | 'morning' | 'afternoon' | 'evening' | 'night'>('all');
   const [dayFilter, setDayFilter] = useState<'all' | 'daily' | 'weekdays'>('all');
+
+  // Read URL query params on mount
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('search') || params.get('q');
+      const corridor = params.get('corridor');
+      const route = params.get('route');
+      if (q) setSearchQuery(q);
+      if (corridor && CORRIDORS.some(c => c.id === corridor)) {
+        setActiveCorridorId(corridor);
+        const corr = CORRIDORS.find(c => c.id === corridor);
+        if (corr) setActiveRouteId(corr.routes.up);
+      }
+      if (route && routes[route]) {
+        setActiveRouteId(route);
+      }
+    }
+  }, [routes]);
 
   const activeRoute = routes[activeRouteId] || routes['brp_sdah'];
 
