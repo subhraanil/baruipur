@@ -61,8 +61,9 @@ function isJunkOrCommentOrPromo(text) {
   // Non-local distant news without Baruipur or South 24 Parganas relevance
   if (/(?:সিউড়ি|বীরভূম|আসানসোল|শিলিগুড়ি|দার্জিলিং|জলপাইগুড়ি|বাঁকুড়া|পুরুলিয়া)/i.test(lower) && !/(?:বারুইপুর|সোনারপুর|জয়নগর|ক্যানিং|ডায়মন্ড|কুলপী|ভাঙড়|মগরাহাট|দক্ষিণ\s*২৪\s*পরগনা)/i.test(lower)) return true;
 
-  // Non-local foreign/national disaster or historical quotes
+  // Non-local foreign/national disaster or historical quotes / celebrity death hoaxes
   if (/(?:বিপর্যয়\s*নেপালে|বিপর্যয়\s*নেপালে|নেপালে\s*(?:ভারী\s*বৃষ্টি|ভূমিধস|বন্যা|বিপর্যয়|বিপর্যয়)|was\s*born\s*on|birth\s*anniversary|shaheed\s*bhagat\s*singh)/i.test(lower)) return true;
+  if (/(?:bollywood|nana\s*patekar|passed\s*away|cardiac\s*arrest)/i.test(lower) && !/(?:বারুইপুর|সোনারপুর|দক্ষিণ\s*২৪\s*পরগনা)/i.test(lower)) return true;
 
   // Astrology, Horoscope, Occult, Palmistry, Tantrik & Commercial Predictions
   if (/(?:astrolog|horoscope|zodiac|tarot|palmistry|prediction|জ্যোতিষ|রাশিফল|কোষ্ঠী|হস্তরেখা|বশীকরণ|তান্ত্রিক|তাবিজ|কবচ|বাস্তু\s*দোষ|রত্ন\s*পাথর|ভাগ্য\s*গণনা|জ্যোতির্বিদ)/i.test(lower)) {
