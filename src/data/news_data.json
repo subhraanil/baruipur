@@ -1,6 +1,63 @@
 {
   "articles": [
     {
+      "id": "art-1791433641438-k5kw",
+      "title": "ফুটপাত কার?",
+      "slug": "ফুটপাত-কার",
+      "summary": "ফুটপাত কার?\nমানুষ হাঁটবে কোথায়?\n\nদেখুন বারুইপুর কাছারি বাজারের ঠিক উল্টোদিকের চিত্র! 😡\n\nফুটপাত পুরো দখল করে অটো পার্কিং! সাধারণ মানুষ হাঁটবে কোথায়?\n\nছবিতে দেখা যাচ্ছে, বয়স...",
+      "content": "ফুটপাত কার?\nমানুষ হাঁটবে কোথায়?\n\nদেখুন বারুইপুর কাছারি বাজারের ঠিক উল্টোদিকের চিত্র! 😡\n\nফুটপাত পুরো দখল করে অটো পার্কিং! সাধারণ মানুষ হাঁটবে কোথায়?\n\nছবিতে দেখা যাচ্ছে, বয়স্ক মানুষ থেকে শুরু করে সবাইকে জীবনের ঝুঁকি নিয়ে মাঝ রাস্তা দিয়ে হাঁটতে হচ্ছে। পাশেই থানা, তার পরেও এই অবস্থা!\n\nএটা কি নতুন অটো স্ট্যান্ড? প্রশাসনের নজরে কি পড়ছে না?\n\nআপনারা কি এই রাস্তা দিয়ে যাতায়াত করেন? আপনাদের অভিজ্ঞতা \n\nশেয়ার করে সবার কাছে পৌঁছে দিন।\n\n[পৌর ও নাগরিক পরিষেবা]: বারুইপুর মহকুমা ও পুরসভা এলাকার নাগরিকদের সুবিধার জন্য বিভিন্ন ওয়ার্ডে নিকাশি, আলো ও রাস্তাঘাট সংস্কারে নিয়মিত নজরদারি রাখা হচ্ছে বলে স্থানীয় পুর প্রশাসন সূত্রে জানা গেছে।",
+      "category": "municipality",
+      "categoryNameBn": "পৌরসভা ও নাগরিক",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন",
+      "sourceId": "src-fb-amarshohor",
+      "sourceName": "Amar Shohor Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1814642569565182",
+      "originalPostUrl": "https://www.facebook.com/1814642569565182",
+      "imageUrl": "/images/crawled/ddda2dc478a01881fe19add9b9d29f5f.jpg",
+      "images": [
+        "/images/crawled/ddda2dc478a01881fe19add9b9d29f5f.jpg",
+        "/images/crawled/79006faeb204835e5109b0ff879dbcdc.jpg"
+      ],
+      "publishedAt": "2026-10-08T03:20:56.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 54,
+      "crawlHash": "27f86d3bdef2acae01ddb7d3fd38f1e3"
+    },
+    {
+      "id": "art-1791433636988-2245",
+      "title": "Bollywood actor Nana Patekar has passed away at the age of 75 after suffering a severe car",
+      "slug": "bollywood-actor-nana-patekar-has-passed-away",
+      "summary": "Bollywood actor Nana Patekar has passed away at the age of 75 after suffering a severe cardiac arrest. The National Award-winning actor was among the most respected and distin...",
+      "content": "Bollywood actor Nana Patekar has passed away at the age of 75 after suffering a severe cardiac arrest. The National Award-winning actor was among the most respected and distinctive performers in Hindi and Marathi cinema. \nRiP 🙏\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-allbaruipur",
+      "sourceName": "All Baruipur News",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1522279696597049",
+      "originalPostUrl": "https://www.facebook.com/1522279696597049",
+      "imageUrl": "/images/crawled/e147401cd2c5c545d649a74569069033.jpg",
+      "images": [
+        "/images/crawled/e147401cd2c5c545d649a74569069033.jpg"
+      ],
+      "publishedAt": "2026-10-08T03:13:44.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 39,
+      "crawlHash": "b66570cb461bc1d52f5ee742fd130407"
+    },
+    {
       "id": "art-1791401139978-bare",
       "title": "এই পূজোতে আপনারা কোথায় ঘুরতে যাবেন ??",
       "slug": "এই-পূজোতে-আপনারা-কোথায়-ঘুরতে-যাবেন",
@@ -48,7 +105,8 @@
       "imageUrl": "/images/crawled/34bb6959b9e7b70ee25cd004b594f568.jpg",
       "images": [
         "/images/crawled/34bb6959b9e7b70ee25cd004b594f568.jpg",
-        "/images/crawled/50a45db6c45f92926e12f7c16625f640.jpg"
+        "/images/crawled/50a45db6c45f92926e12f7c16625f640.jpg",
+        "/images/crawled/f5df8b94bbea6883d4498b091c4b9992.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1150845503944509",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1150845503944509&show_text=0",
@@ -265,7 +323,8 @@
         "/images/crawled/0ff7c83e9f99fc659a8c30992616aa51.jpg",
         "/images/crawled/654764954edc453fdef2d939f8a950c8.jpg",
         "/images/crawled/c7fb208ec63d93180db68e6c814da80e.jpg",
-        "/images/crawled/1a2448e7f66a35881c8b10ae4bc9b13b.jpg"
+        "/images/crawled/1a2448e7f66a35881c8b10ae4bc9b13b.jpg",
+        "/images/crawled/047647da7fa606510a491ac5a5746a7b.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2025708595483813",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2025708595483813&show_text=0",
@@ -4309,7 +4368,8 @@
         "/images/crawled/5a82cc52bc7529cf28d6341a59a4d6e4.jpg",
         "/images/crawled/0681902a4712f2d2162f6af3da4bc80c.jpg",
         "/images/crawled/7dae5d224a188e80ee3fee0bd46aeb9b.jpg",
-        "/images/crawled/6b847b6f01711398224a40b0ffc21123.jpg"
+        "/images/crawled/6b847b6f01711398224a40b0ffc21123.jpg",
+        "/images/crawled/212a9770a01c3afa433f3c5b3fba078a.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2022460585069132",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2022460585069132&show_text=0",
@@ -8732,7 +8792,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-07T19:25:11.328Z"
+      "lastCrawledAt": "2026-10-08T04:26:44.647Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -8745,7 +8805,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-07T19:25:12.880Z"
+      "lastCrawledAt": "2026-10-08T04:26:47.655Z"
     },
     {
       "id": "src-fb-police",
@@ -8758,7 +8818,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-07T19:25:15.019Z"
+      "lastCrawledAt": "2026-10-08T04:26:50.051Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -8771,7 +8831,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-07T19:25:17.072Z"
+      "lastCrawledAt": "2026-10-08T04:26:53.362Z"
     },
     {
       "id": "src-fb-uncover",
@@ -8784,7 +8844,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-07T19:25:20.117Z"
+      "lastCrawledAt": "2026-10-08T04:26:56.717Z"
     },
     {
       "id": "src-fb-update",
@@ -8797,7 +8857,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-07T19:25:22.430Z"
+      "lastCrawledAt": "2026-10-08T04:26:59.817Z"
     },
     {
       "id": "src-fb-barta",
@@ -8810,7 +8870,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-07T19:25:26.171Z"
+      "lastCrawledAt": "2026-10-08T04:27:03.116Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -8823,7 +8883,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-07T19:25:28.097Z"
+      "lastCrawledAt": "2026-10-08T04:27:05.663Z"
     },
     {
       "id": "src-fb-voice",
@@ -8836,7 +8896,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-07T19:25:32.239Z"
+      "lastCrawledAt": "2026-10-08T04:27:09.549Z"
     },
     {
       "id": "src-fb-24x7",
@@ -8849,7 +8909,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-07T19:25:34.924Z"
+      "lastCrawledAt": "2026-10-08T04:27:12.278Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -8862,10 +8922,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-07T19:25:39.936Z"
+      "lastCrawledAt": "2026-10-08T04:27:15.370Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1791433641549",
+      "timestamp": "2026-10-08T04:27:21.549Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 2 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 12, সমন্বয়ের পর: 9, নতুন প্রকাশিত সংবাদ: 2 টি।",
+      "itemsFetched": 12,
+      "itemsPublished": 2
+    },
     {
       "id": "log-1791401140225",
       "timestamp": "2026-10-07T19:25:40.225Z",
