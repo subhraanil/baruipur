@@ -107,6 +107,9 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [বারুইপুর নতুন ভোর সোশ্যাল ওয়েলফেয়ার সোসাইটি (Baruipur Natun Bhor Social Welfare Society)](https://baruipur.online/organizations/baruipur-natun-bhor-social-welfare-society/): আলোর দিশায় সেবার স্পর্শ — মানবকল্যাণে অঙ্গীকারবদ্ধ সামাজিক সংস্থা. Established: ২০১৮ সালে প্রতিষ্ঠিত ও নিবন্ধিত. Category: সমাজকল্যাণ ও জনসেবামূলক সংস্থা (NGO). Address: নতুনপাড়া, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২
 - [বারুইপুর ভাই ভাই সংঘ (Baruipur Bhai Bhai Sangha)](https://baruipur.online/organizations/baruipur-bhai-bhai-sangha/): ঐক্য, ক্রীড়া ও সংস্কৃতির প্রতীক — ১৯৬৪ সাল থেকে সেবায় নিয়োজিত. Established: ১৯৬৪ সালে স্থাপিত. Category: ঐতিহ্যবাহী ক্রীড়া ও সাংস্কৃতিক ক্লাব. Address: উত্তর উকিলপাড়া, বারুইপুর, কলকাতা, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২
 - [বারুইপুর ড্রিমজ ব্যাডমিন্টন একাডেমি (Baruipur Dreamz Badminton Academy)](https://baruipur.online/organizations/baruipur-dreamz-badminton-academy/): বিশ্বমানের সিন্থেটিক কোর্ট ও অভিজ্ঞ কোচেদের সাথে আধুনিক ইনডোর ব্যাডমিন্টন প্রশিক্ষণ. Established: ২০২৩ সালে প্রতিষ্ঠিত. Category: ইনডোর স্পোর্টস একাডেমি ও প্রশিক্ষণ কেন্দ্র. Address: পিয়ালী টাউন, ফুলতলা (WBTC বাস টার্মিনাসের বিপরীতে, বিডিও অফিসের পাশে), দক্ষিণ ২৪ পরগনা - ৭৪৩৩৮৭
+- [জাগরণী সংঘ (Jagarani Sangha Baruipur)](https://baruipur.online/organizations/baruipur-jagarani-sangha/): ক্রীড়া, সংস্কৃতি ও যুবকল্যাণে নিয়োজিত বারুইপুরের ঐতিহ্যবাহী ক্লাব. Established: ১৯৭৮ সালে প্রতিষ্ঠিত. Category: ঐতিহ্যবাহী ক্রীড়া ও সাংস্কৃতিক ক্লাব. Address: বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২
+- [সোনালী সংঘ (Sonali Sangha Baruipur)](https://baruipur.online/organizations/baruipur-sonali-sangha/): ঐতিহ্যবাহী শারদোৎসব, ক্রীড়া ও সমাজকল্যাণমূলক অগ্রণী ক্লাব. Established: ১৯৮২ সালে প্রতিষ্ঠিত. Category: ক্রীড়া ও সাংস্কৃতিক ক্লাব. Address: সুবুদ্ধিপুর, বারুইপুর, দক্ষিণ ২৪ পরগনা, পশ্চিমবঙ্গ - ৭৪৩৩০২
+- [বারুইপুর পুলকিত সমাজ (Baruipur Pulakito Samaj)](https://baruipur.online/organizations/baruipur-pulakito-samaj/): অসহায় শিশু, পরিবেশ সংরক্ষণ ও মানবসেবায় নিবেদিত নিবন্ধিত অলাভজনক সংস্থা. Established: ২০১৯ সালে প্রতিষ্ঠিত ও নিবন্ধিত. Category: অলাভজনক সমাজসেবী সংস্থা (NGO). Address: রয়্যাল আর্কেড (১ম তল), অরূপ ভদ্র সরণি, কালপুকুর, বারুইপুর, কলকাতা, পশ্চিমবঙ্গ - ৭০০১৪৪
 
 ## Machine-Readable Feeds & Feeds for AI Systems
 - XML Sitemap: https://baruipur.online/sitemap.xml
@@ -115,10 +118,6 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - Full Text LLM Document: https://baruipur.online/llms-full.txt
 
 ## Curated Recent Articles
-- [আমরা বারুইপুরবাসী ❤️🇮🇳 🙏 অন্ধভক্ত নই](https://baruipur.online/%E0%A6%86%E0%A6%AE%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%AD%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%A8%E0%A6%87/) (সব খবর, 2026-10-08): আমরা বারুইপুরবাসী ❤️🇮🇳 🙏 অন্ধভক্ত নই 👍
-যারা অন্ধভক্ত 😡🐒 তারা দেশদ্রোহী 😡😡
-
-[স্থানীয় আপডেট]: বারুইপুর মহকুমার নি...
 - [ভট্টাচার্য পাড়া  সর্বজনীন দূর্গোৎসব সমিতি](https://baruipur.online/%E0%A6%AD%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%B8%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF/) (সব খবর, 2026-10-08): ভট্টাচার্য পাড়া  সর্বজনীন দূর্গোৎসব সমিতি
 
 [স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্...
@@ -179,6 +178,9 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [মল্লিকপুরে টাকা দিয়ে বাচ্চা চুরির চাঞ্চল্যকর অভিযোগ](https://baruipur.online/%E0%A6%AE%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BE-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0/) (অপরাধ ও প্রশাসন, 2026-10-06): মল্লিকপুরে টাকা দিয়ে বাচ্চা চুরির চাঞ্চল্যকর অভিযোগ। পুরো বিষয়টি জানতে সম্পূর্ণ ভিডিওটি দেখুন।   । মল্লিকপুরে শিশু চুরির...
 - [বারুইপুরে সবার দুর্গাপূজার শপিং হয়েছে তো](https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%AA%E0%A6%BF%E0%A6%82-%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A7%8B/) (উৎসব, সংস্কৃতি ও খেলাধুলা, 2026-10-06): বারুইপুরে সবার দুর্গাপূজার শপিং হয়েছে তো। [ durgapuja shopping, baruipur, durgapuja 2026, baruipur, baruipur uncovered ...
 - [এটাই কি উন্নয়ন - পিচের রাস্তায় ইটের টুকরো ফেলে মেরামত](https://baruipur.online/%E0%A6%8F%E0%A6%9F%E0%A6%BE%E0%A6%87-%E0%A6%95%E0%A6%BF-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AA%E0%A6%BF%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A7%81%E0%A6%95%E0%A6%B0%E0%A7%8B-%E0%A6%AB%E0%A7%87%E0%A6%B2/) (পৌরসভা ও নাগরিক, 2026-10-06): এটাই কি উন্নয়ন। পিচের রাস্তায় ইটের টুকরো ফেলে মেরামত। জয়নগর রোডের এই হলো আসল চিত্র। বড় বড় লরি, বাইক, সাইকেল এই ইটের ...
+- [হুমায়ুন কবির কে পুলিশে তুলে নিয়ে গেলো! সরাসরি  দেখুন কি ঘটনা ঘটলো](https://baruipur.online/%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%81%E0%A6%A8-%E0%A6%95%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%B0/) (অপরাধ ও প্রশাসন, 2026-10-06): হুমায়ুন কবির কে পুলিশে তুলে নিয়ে গেলো! সরাসরি  দেখুন কি ঘটনা ঘটলো
+
+[আইনশৃঙ্খলা ও নিরাপত্তা]: বারুইপুর পুলিশ জেলা প্রশা...
 
 ## Geographic & Administrative Context
 - **Town / City**: Baruipur (বারুইপুর)
