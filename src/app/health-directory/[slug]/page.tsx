@@ -22,7 +22,8 @@ import {
   ShieldCheck,
   Share2,
   AlertTriangle,
-  UserCheck
+  UserCheck,
+  Camera
 } from 'lucide-react';
 
 interface Props {
@@ -57,6 +58,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: `${facility.taglineBn}. ঠিকানা: ${facility.addressBn}`,
       url: `https://baruipur.online/health-directory/${facility.slug}/`,
       type: 'website',
+      ...(facility.coverImage ? {
+        images: [
+          {
+            url: facility.coverImage.startsWith('http') ? facility.coverImage : `https://baruipur.online${facility.coverImage}`,
+            width: 1200,
+            height: 630,
+            alt: facility.nameBn,
+          }
+        ]
+      } : {})
     }
   };
 }
@@ -81,6 +92,7 @@ export default function FacilityDetailPage({ params }: Props) {
     alternateName: facility.nameEn,
     description: facility.overviewBn,
     url: `https://baruipur.online/health-directory/${facility.slug}/`,
+    ...(facility.coverImage ? { image: facility.coverImage.startsWith('http') ? facility.coverImage : `https://baruipur.online${facility.coverImage}` } : {}),
     telephone: facility.phone,
     address: {
       '@type': 'PostalAddress',
@@ -251,6 +263,35 @@ export default function FacilityDetailPage({ params }: Props) {
               </div>
             </div>
           </div>
+
+          {/* Facility Authentic Photos & Signboard */}
+          {facility.images && facility.images.length > 0 && (
+            <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-10 mb-8">
+              <div className="mb-6 pb-4 border-b border-slate-100 flex items-center justify-between">
+                <div>
+                  <h2 className="text-xl sm:text-2xl font-black text-slate-900 flex items-center gap-2.5">
+                    <Camera className="w-6 h-6 text-red-600" />
+                    <span>ক্লিনিক ও নোটিশ বোর্ড (প্রামাণ্য ছবি)</span>
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-500 mt-1">
+                    চেম্বারের অবস্থান, চিকিৎসকদের তালিকা ও সময়সূচি এবং জরুরি নির্দেশিকা সংক্রান্ত বোর্ড।
+                  </p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {facility.images.map((imgUrl, idx) => (
+                  <div key={idx} className="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-sm group">
+                    <img
+                      src={imgUrl}
+                      alt={`${facility.nameBn} - সাইনবোর্ড ও সময়সূচি ছবি ${idx + 1}`}
+                      className="w-full h-72 sm:h-96 object-cover object-center group-hover:scale-[1.02] transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Doctors OPD Schedule Roster Section */}
           <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-10 mb-8">

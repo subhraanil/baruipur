@@ -50,6 +50,10 @@ export interface HealthcareFacility {
   doctors: DoctorOPD[];
   establishedYear?: string;
   bedCapacity?: string;
+  coverImage?: string;
+  images?: string[];
+  websiteUrl?: string;
+  facebookUrl?: string;
 }
 
 export interface SpecialtyOption {
