@@ -13,6 +13,7 @@
     "crawl:sync": "node scripts/sync-news.js --days=7",
     "sync:today": "node scripts/sync-news.js --days=1",
     "submit:indexing": "node scripts/submit-indexing.js",
+    "submit:pages": "node scripts/submit-non-news-indexing.js",
     "fetch:trains": "node scripts/fetch-train-timetable.js"
   },
   "dependencies": {
