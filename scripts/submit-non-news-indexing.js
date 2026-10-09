@@ -208,51 +208,41 @@ async function main() {
 
   for (let i = 0; i < targetUrls.length; i++) {
     const url = targetUrls[i];
-    let currentAccount = accounts[accountIndex % accounts.length];
+    let submitted = false;
+    while (!submitted && accountIndex < accounts.length) {
+      const currentAccount = accounts[accountIndex];
+      process.stdout.write(`[${i + 1}/${targetUrls.length}] Submitting: ${url} (via ${currentAccount.client_email.split('@')[0]}) ... `);
+      const res = await submitUrlNotification(url, currentAccount);
 
-    process.stdout.write(`[${i + 1}/${targetUrls.length}] Submitting: ${url} ... `);
-    let res = await submitUrlNotification(url, currentAccount);
-
-    if (res.success) {
-      console.log(`✓ 200 OK (${currentAccount.client_email.split('@')[0]})`);
-      results.successful++;
-      results.details.push({
-        url,
-        status: 'SUCCESS',
-        account: currentAccount.client_email,
-        timestamp: new Date().toISOString()
-      });
-    } else {
-      console.log(`✗ FAILED (${res.statusCode}): ${JSON.stringify(res.error?.error?.message || res.error)}`);
-
-      // If quota exceeded or permission denied, try other accounts if available
-      if ((res.error?.error?.code === 429 || res.error?.error?.code === 403) && accounts.length > 1) {
-        accountIndex++;
-        currentAccount = accounts[accountIndex % accounts.length];
-        console.log(`Retrying with next account: ${currentAccount.client_email}...`);
-        res = await submitUrlNotification(url, currentAccount);
-        if (res.success) {
-          console.log(`✓ 200 OK (${currentAccount.client_email.split('@')[0]})`);
-          results.successful++;
+      if (res.success) {
+        console.log(`✓ 200 OK`);
+        results.successful++;
+        results.details.push({
+          url,
+          status: 'SUCCESS',
+          account: currentAccount.client_email,
+          timestamp: new Date().toISOString()
+        });
+        submitted = true;
+      } else {
+        console.log(`✗ (${res.statusCode}): ${JSON.stringify(res.error?.error?.message || res.error)}`);
+        if (res.error?.error?.code === 429 || res.statusCode === 429) {
+          console.log(`Account ${currentAccount.client_email} reached daily quota. Switching to next account...`);
+          accountIndex++;
+        } else {
+          // If other error, record failure and break to next URL
+          results.failed++;
           results.details.push({
             url,
-            status: 'SUCCESS',
+            status: 'FAILED',
+            statusCode: res.statusCode,
+            error: res.error,
             account: currentAccount.client_email,
             timestamp: new Date().toISOString()
           });
-          continue;
+          break;
         }
       }
-
-      results.failed++;
-      results.details.push({
-        url,
-        status: 'FAILED',
-        statusCode: res.statusCode,
-        error: res.error,
-        account: currentAccount.client_email,
-        timestamp: new Date().toISOString()
-      });
     }
 
     await sleep(150);
