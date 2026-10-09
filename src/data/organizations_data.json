@@ -58,12 +58,12 @@
     },
     "timings": "প্রতিদিন বিকাল ৫:০০ - রাত ৯:০০ (রবিবার সকাল ৮:০০ - ১১:০০ এবং বিকাল ৫:০০ - ৯:০০)",
     "howToReach": "বারুইপুর রেল জংশন থেকে অটো, টোটো বা রিকশায় রাসমাঠ মোড়ে নামলে মাত্র ২ মিনিটের হাঁটা দূরত্বে ক্লাবের মূল ভবন অবস্থিত।",
-    "coverImage": "/images/places/baruipur-charak-rashmath.jpg",
+    "coverImage": "/images/organizations/real-star-club.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-charak-rashmath.jpg",
-        "captionBn": "বারুইপুর রাসমাঠে রিয়েল স্টার ক্লাবের ফুটবল টুর্নামেন্ট প্রাঙ্গণ",
-        "captionEn": "Rashmath ground tournament venue"
+        "url": "/images/organizations/real-star-club.jpg",
+        "captionBn": "বারুইপুর রিয়েল স্টার ক্লাবের বার্ষিক ফুটবল উৎসব ও ক্লাব কর্মসূচি",
+        "captionEn": "Real Star Club Baruipur football tournament and club activities"
       }
     ],
     "schemaType": "SportsClub",
@@ -137,12 +137,12 @@
     },
     "timings": "মঙ্গলবার থেকে রবিবার: সকাল ৬:৩০ - ৯:৩০ এবং বিকাল ৩:৩০ - সন্ধ্যা ৬:৩০",
     "howToReach": "বারুইপুর স্টেশন থেকে রিকশা বা টোটোয় রাসমাঠ পশ্চিম প্রান্তে সামারসেট ক্লাব গ্রাউন্ডে সহজেই পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-charak-rashmath.jpg",
+    "coverImage": "/images/organizations/summerset-club.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-charak-rashmath.jpg",
-        "captionBn": "সামারসেট ক্লাবের ক্রিকেট অনুশীলন ময়দান চত্বর",
-        "captionEn": "Cricket practice area at Rashmath"
+        "url": "/images/organizations/summerset-club.jpg",
+        "captionBn": "বারুইপুর রাসমাঠে সামারসেট ক্লাবের ক্রিকেট কোচিং ও টুর্নামেন্ট",
+        "captionEn": "Summerset Club cricket coaching and tournament at Rashmath"
       }
     ],
     "schemaType": "SportsClub",
@@ -217,12 +217,12 @@
     },
     "timings": "প্রতিদিন সকাল ৯:০০ - দুপুর ১:০০ এবং বিকাল ৫:০০ - রাত ১০:০০",
     "howToReach": "বারুইপুর স্টেশন থেকে কুলপী রোড ধরে অটো বা বাসে ফুলতলা স্টপেজে নামলে হাতের কাছেই ক্লাব ভবন অবস্থিত।",
-    "coverImage": "/images/places/baruipur-bypass.jpg",
+    "coverImage": "/images/organizations/fultala-bidhan-smriti.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-bypass.jpg",
-        "captionBn": "ফুলতলা বিধান স্মৃতি সংঘ উৎসব ও ক্লাব প্রাঙ্গণ সংলগ্ন এলাকা",
-        "captionEn": "Fultala Bidhan Smriti Sangha grounds"
+        "url": "/images/organizations/fultala-bidhan-smriti.jpg",
+        "captionBn": "ফুলতলা বিধান স্মৃতি সংঘের ঐতিহ্যবাহী দুর্গাপূজা ও ক্লাব প্রাঙ্গণ",
+        "captionEn": "Fultala Bidhan Smriti Sangha Durga Puja and club grounds"
       }
     ],
     "schemaType": "SportsClub",
@@ -290,12 +290,12 @@
     },
     "timings": "প্রতিদিন বিকাল ৫:৩০ - রাত ৯:৩০",
     "howToReach": "বারুইপুর রেল স্টেশন থেকে মাত্র ১ কিমি দূরে পদ্মপুকুর মোড়ে টোটো বা অটোতে সরাসরি পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-swimming-pool.jpg",
+    "coverImage": "/images/organizations/padmapukur-youth-club.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-swimming-pool.jpg",
-        "captionBn": "পদ্মপুকুর এলাকা ও স্টেডিয়াম সংলগ্ন ইয়ুথ ক্লাবের সাংস্কৃতিক প্রাঙ্গণ",
-        "captionEn": "Padmapukur area and youth club sports surroundings"
+        "url": "/images/organizations/padmapukur-youth-club.jpg",
+        "captionBn": "পদ্মপুকুর ইয়ুথ ক্লাবের সুবিখ্যাত দুর্গাপূজা মহোৎসব ও সামাজিক কর্মকাণ্ড",
+        "captionEn": "Padmapukur Youth Club Durga Puja and social activities"
       }
     ],
     "schemaType": "SportsClub",
@@ -353,12 +353,12 @@
     },
     "timings": "প্রতিদিন সন্ধ্যা ৬:০০ - রাত ৯:০০",
     "howToReach": "বারুইপুর স্টেশন ওভারব্রিজের কাছাকাছি কুলপী রোড ধরে কলপুকুর মোড়ে নামলেই ক্লাব দেখতে পাওয়া যায়।",
-    "coverImage": "/images/places/baruipur-rabindra-bhawan.jpg",
+    "coverImage": "/images/organizations/baruipur-pragati-sangha.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-rabindra-bhawan.jpg",
-        "captionBn": "বারুইপুর কলপুকুর প্রগতি সংঘ সংলগ্ন সাংস্কৃতিক চত্বর",
-        "captionEn": "Pragati Sangha neighbourhood"
+        "url": "/images/organizations/baruipur-pragati-sangha.jpg",
+        "captionBn": "বারুইপুর কালপুকুর প্রগতি সংঘের শারদোৎসব ও যুব ক্রীড়া কেন্দ্র",
+        "captionEn": "Baruipur Pragati Sangha Durga Puja and youth sports centre"
       }
     ],
     "schemaType": "SportsClub",
@@ -416,12 +416,12 @@
     },
     "timings": "প্রতিদিন বিকাল ৪:৩০ - রাত ৮:৩০",
     "howToReach": "শিয়ালদহ-বারুইপুর শাখায় শাসন রোড স্টেশনে নেমে হেঁটে মাত্র ৩ মিনিটে শাসন বালক সংঘ প্রাঙ্গণে পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-bypass.jpg",
+    "coverImage": "/images/organizations/sasan-balak-sangha.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-bypass.jpg",
-        "captionBn": "শাসন রোড ও বালক সংঘ ক্রীড়া ময়দান চত্বর",
-        "captionEn": "Sasan area and playground"
+        "url": "/images/organizations/sasan-balak-sangha.jpg",
+        "captionBn": "বারুইপুর শাসন বালক সংঘের ৭০তম বর্ষের দুর্গাপূজা ও সাংস্কৃতিক উৎসব",
+        "captionEn": "Sasan Balak Sangha 70th Durga Puja celebration"
       }
     ],
     "schemaType": "SportsClub",
@@ -491,12 +491,12 @@
     },
     "timings": "সোম থেকে শুক্রবার: সকাল ১০:০০ - বিকাল ৫:০০ (শনিবার: সকাল ১০:০০ - দুপুর ২:০০)",
     "howToReach": "বারুইপুর জংশন থেকে কুলপী রোড ও কাচারি মোড় হয়ে এসডিও/আদালত চত্বরে পৌঁছানো যায় (দূরত্ব মাত্র ৮০০ মিটার)।",
-    "coverImage": "/images/places/baruipur-court.jpg",
+    "coverImage": "/images/organizations/baruipur-bar-association.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-court.jpg",
-        "captionBn": "বারুইপুর মহকুমা আদালত ও বার অ্যাসোসিয়েশন ভবন চত্বর",
-        "captionEn": "Baruipur Subdivisional Court and Bar Association building"
+        "url": "/images/organizations/baruipur-bar-association.jpg",
+        "captionBn": "বারুইপুর মহকুমা আদালতে বার অ্যাসোসিয়েশনের আইনজীবী সমাবেশ ও কার্যক্রম",
+        "captionEn": "Baruipur Bar Association advocates at subdivisional court"
       }
     ],
     "schemaType": "Organization",
@@ -570,12 +570,12 @@
     },
     "timings": "সকাল ১০:০০ - রাত ৮:৩০ (বৃহস্পতিবার বাজার অর্ধদিবস)",
     "howToReach": "বারুইপুর স্টেশন থেকে পায়ে হেঁটে ৫ মিনিটে অথবা অটো/রিকশায় পুরাতন বাজার মোড়ে সহজেই পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
+    "coverImage": "/images/organizations/baruipur-byabsayi-kalyan.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
-        "captionBn": "বারুইপুর পুরাতন বাজার ও ব্যবসায়ী সমিতি চত্বর",
-        "captionEn": "Baruipur Puratan Bazar wholesale area"
+        "url": "/images/organizations/baruipur-byabsayi-kalyan.jpg",
+        "captionBn": "বারুইপুর ব্যবসায়ী কল্যাণ সমিতির সাধারণ সভা ও বাণিজ্য কর্মশালা",
+        "captionEn": "Baruipur Byabsayi Kalyan Samity trade conference"
       }
     ],
     "schemaType": "Organization",
@@ -646,12 +646,12 @@
     },
     "timings": "জরুরি রক্তের হেল্পলাইন: ২৪ ঘণ্টা | ট্রাস্ট অফিস: প্রতিদিন সকাল ১০:০০ - রাত ৮:০০",
     "howToReach": "বারুইপুর মহকুমা সুপার স্পেশালিটি হাসপাতালের বিপরীতে খুব সহজেই ট্রাস্টের হেল্পডেস্কে যাওয়া যায়।",
-    "coverImage": "/images/places/baruipur-subdivisional-hospital.jpg",
+    "coverImage": "/images/organizations/baruipur-blood-donors-forum.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-subdivisional-hospital.jpg",
-        "captionBn": "বারুইপুর মহকুমা হাসপাতাল সংলগ্ন ব্লাড ডোনার্স ফোরাম সহায়তা কেন্দ্র",
-        "captionEn": "Hospital surroundings for blood donation support"
+        "url": "/images/organizations/baruipur-blood-donors-forum.jpg",
+        "captionBn": "বারুইপুরে আয়োজিত বৃহৎ স্বেচ্ছায় রক্তদান শিবির ও স্বাস্থ্য পরীক্ষা ক্যাম্প",
+        "captionEn": "Voluntary blood donation and healthcare camp in Baruipur"
       }
     ],
     "schemaType": "NGO",
@@ -717,12 +717,12 @@
     },
     "timings": "সোম থেকে শনিবার: বিকাল ৫:০০ - রাত ৮:০০",
     "howToReach": "বারুইপুর স্টেশন ১ নম্বর প্ল্যাটফর্ম থেকে মাত্র ২ মিনিট পায়ে হেঁটেই রোটারি সেবা ভবনে পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-junction-railway-station.jpg",
+    "coverImage": "/images/organizations/rotary-club-baruipur.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-junction-railway-station.jpg",
-        "captionBn": "বারুইপুর স্টেশন চত্বর ও সংলগ্ন রোটারি সেবা ভবন এলাকা",
-        "captionEn": "Station surroundings near Rotary building"
+        "url": "/images/organizations/rotary-club-baruipur.jpg",
+        "captionBn": "রোটারি ক্লাব অফ বারুইপুরের জনকল্যাণমূলক প্রকল্প ও প্রশিক্ষণ কর্মসূচি",
+        "captionEn": "Rotary Club of Baruipur community development project"
       }
     ],
     "schemaType": "NGO",
@@ -780,12 +780,12 @@
     },
     "timings": "প্রতিদিন বিকাল ৫:৩০ - রাত ৮:৩০",
     "howToReach": "রবীন্দ্র ভবনের বিপরীতে কুলপী রোডের ওপর সহজেই পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-rabindra-bhawan.jpg",
+    "coverImage": "/images/organizations/lions-club-baruipur.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-rabindra-bhawan.jpg",
-        "captionBn": "রবীন্দ্র ভবন সংলগ্ন লায়ন্স সেবা কেন্দ্র প্রাঙ্গণ",
-        "captionEn": "Rabindra Bhawan area"
+        "url": "/images/organizations/lions-club-baruipur.jpg",
+        "captionBn": "লায়ন্স ক্লাব অফ বারুইপুর গ্রেটার চক্ষু চিকিৎসা ও সেবামূলক মিশন",
+        "captionEn": "Lions Club of Baruipur eye care and medical mission"
       }
     ],
     "schemaType": "NGO",
@@ -847,12 +847,12 @@
     },
     "timings": "মন্দির দর্শন: সকাল ৬:০০ - দুপুর ১২:০০ এবং বিকাল ৪:০০ - রাত ৮:০০",
     "howToReach": "বারুইপুর স্টেশন থেকে মাদারাতগামী অটো বা টোটোয় রামকৃষ্ণ সেবাশ্রম স্টপেজে নামা যায়।",
-    "coverImage": "/images/places/baruipur-maa-shibani-pith.jpg",
+    "coverImage": "/images/organizations/baruipur-ramakrishna-sevashram.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-maa-shibani-pith.jpg",
-        "captionBn": "বারুইপুর রামকৃষ্ণ সেবাশ্রমের শান্ত ও আধ্যাত্মিক পরিবেশ",
-        "captionEn": "Peaceful atmosphere of Ramakrishna Sevashram"
+        "url": "/images/organizations/baruipur-ramakrishna-sevashram.jpg",
+        "captionBn": "বারুইপুর রামকৃষ্ণ সেবাশ্রম ট্রাস্টের মন্দির ও আধ্যাত্মিক সেবা প্রাঙ্গণ",
+        "captionEn": "Baruipur Ramakrishna Sevashram temple and spiritual premises"
       }
     ],
     "schemaType": "NGO",
@@ -910,12 +910,12 @@
     },
     "timings": "প্রতিদিন দুপুর ১২:০০ - রাত ৮:০০",
     "howToReach": "কাচারি ময়দানে এসডিও অফিস সংলগ্ন প্রেস ক্লাব ভবনে সহজেই পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-sdo-office.jpg",
+    "coverImage": "/images/organizations/baruipur-press-club.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-sdo-office.jpg",
-        "captionBn": "বারুইপুর প্রশাসনিক কমপ্লেক্স সংলগ্ন প্রেস ক্লাব চত্বর",
-        "captionEn": "Baruipur Press Club surroundings"
+        "url": "/images/organizations/baruipur-press-club.jpg",
+        "captionBn": "বারুইপুর প্রেস ক্লাবের সাংবাদিক সম্মেলন ও তথ্য সমন্বয় ভবন",
+        "captionEn": "Baruipur Press Club media conference and facility"
       }
     ],
     "schemaType": "Organization",
@@ -978,12 +978,12 @@
     },
     "timings": "ভোর ৫:০০ - সকাল ১১:০০ এবং বিকাল ৩:০০ - সন্ধ্যা ৭:০০ (সিজন চলাকালীন সার্বক্ষণিক)",
     "howToReach": "বারুইপুর স্টেশন থেকে হেঁটে ৫ মিনিটে পুরাতন বাজার পেয়ারা আড়তে পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
+    "coverImage": "/images/organizations/baruipur-payara-byabsayi.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
-        "captionBn": "পুরাতন বাজারে বারুইপুরের সুমিষ্ট পেয়ারা পাইকারি আড়ত চত্বর",
-        "captionEn": "Baruipur GI guava wholesale trading"
+        "url": "/images/organizations/baruipur-payara-byabsayi.jpg",
+        "captionBn": "বারুইপুরের ঐতিহ্যবাহী জিআই-ট্যাগপ্রাপ্ত পেয়ারা বাজার ও কৃষক সমিতি",
+        "captionEn": "Baruipur GI-tagged guava wholesale trading market"
       }
     ],
     "schemaType": "LocalBusiness",
@@ -1041,12 +1041,12 @@
     },
     "timings": "সোম থেকে শনিবার: সকাল ১০:৩০ - সন্ধ্যা ৬:৩০",
     "howToReach": "বারুইপুর বাইপাস ধরে যে কোনো অটো বা ক্যাবে সরাসরি চেম্বার অফিসে পৌঁছানো যায়।",
-    "coverImage": "/images/places/baruipur-bypass.jpg",
+    "coverImage": "/images/organizations/baruipur-chamber-of-trade.jpg",
     "images": [
       {
-        "url": "/images/places/baruipur-bypass.jpg",
-        "captionBn": "বারুইপুর বাইপাস করিডোর ও বাণিজ্যিক শিল্প কেন্দ্র এলাকা",
-        "captionEn": "Baruipur bypass commercial corridor"
+        "url": "/images/organizations/baruipur-chamber-of-trade.jpg",
+        "captionBn": "বারুইপুর সার্জিক্যাল যন্ত্রপাতি শিল্প ক্লাস্টার ও বাণিজ্যিক করিডোর",
+        "captionEn": "Baruipur surgical instruments MSME manufacturing cluster"
       }
     ],
     "schemaType": "LocalBusiness",
