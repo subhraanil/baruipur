@@ -144,7 +144,10 @@ function searchOrganizations(query, category = 'all') {
   });
 }
 
-const orgQueries = ['রিয়েল স্টার', 'Real Star', 'ক্লাব', 'Club', 'রোটারি', 'Rotary', 'ব্যবসায়ী', 'রক্তদান', 'সাঁতার', 'সভাপতি'];
+const orgQueries = [
+  'রিয়েল স্টার', 'Real Star', 'ক্লাব', 'Club', 'রোটারি', 'Rotary', 'ব্যবসায়ী', 'রক্তদান', 'সাঁতার', 'সভাপতি',
+  'স্নেহ', 'Sneha', 'বঙ্গীয়', 'Bangiya', 'নতুন ভোর', 'Natun Bhor', 'ভাই ভাই', 'Bhai Bhai', 'ড্রিমজ', 'Dreamz', 'ব্যাডমিন্টন'
+];
 orgQueries.forEach(q => {
   const results = searchOrganizations(q);
   console.log(`Organization query: "${q}" -> ${results.length} matches.`);
