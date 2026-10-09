@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-09T08:13:22.587Z
+# Last Updated: 2026-10-09T08:17:54.503Z
 # Total Articles: 278
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 24
@@ -3760,8 +3760,8 @@ HEALTHCARE FACILITY #24: টিউলিপ পলিক্লিনিক (Tuli
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি পলিক্লিনিক ও ডক্টরস চেম্বার (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/tulip-polyclinic-baruipur/
-- Address: ১ম তল, সাবিতা শপিং কমপ্লেক্স, বারুইপুর - কুলপী রোড, খোদার বাজার উত্তরপাড়া, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (1st Floor, Shabita Shopping Complex, Baruipur - Kulpi Rd, Khodar Bazar Uttarpara, Baruipur, West Bengal 700144)
-- Landmark: সাবিতা শপিং কমপ্লেক্স, খোদার বাজার উত্তরপাড়া
+- Address: ১ম তল, সাবিতা শপিং কমপ্লেক্স, কাছারি বাজার, বারুইপুর - কুলপী রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (1st Floor, Sabita Shopping Complex, Kachari Bazar, Baruipur Kulpi Road, Kolkata - 700144)
+- Landmark: সাবিতা শপিং কমপ্লেক্স, কাছারি বাজার, কুলপী রোড
 - Phone: 9007734034
 - Emergency Phone: N/A
 - Timings: সকাল ১০:০০ - রাত ৮:৩০ (প্রতিদিন)
@@ -3775,14 +3775,22 @@ TAGLINE & OVERVIEW:
 
 SERVICES & DIAGNOSTICS:
 - মেডিসিন, শিশু, স্ত্রী, অর্থোপেডিক ও চর্মরোগের বিশেষজ্ঞ ডাক্তারদের চেম্বার
-- চেম্বারে তাৎক্ষণিক সিরিয়াল ও প্রি-বুকিং সুবিধা (9007734034)
+- আর.এন. টেগোর হাসপাতালের প্রাক্তন ফেলো শিশুরোগ বিশেষজ্ঞ ডাঃ এ. হাবিবের ওপিডি কেয়ার
+- চেম্বারে তাৎক্ষণিক সিরিয়াল ও প্রি-বুকিং সুবিধা (9007734034 / 9163294141)
 - ডিজিটাল ইসিজি ও রুটিন রক্ত পরীক্ষা স্যাম্পল কালেকশন
 - চর্মরোগের বিশেষ চিকিৎসা ও লেজার/ক্লিনিক্যাল পরামর্শ
 - প্রেসক্রিপশন অনুযায়ী জরুরি ওষুধ সরবরাহ সহায়তা
 - [Diagnostic] 12-Lead Computerized ECG
 - [Diagnostic] Pathology Blood Sample Collection Point
 
-DOCTORS OPD ROSTER (5 DOCTORS):
+DOCTORS OPD ROSTER (6 DOCTORS):
+* ডাঃ এ. হাবিব (Dr. A. Habib) (Dr. A. Habib) [MBBS (Cal), DCH (Cal), PGPN (Boston, America), Reg. No. 56577 (WBMC)]
+  - Specialty: নবজাতক ও শিশুরোগ বিশেষজ্ঞ (Child Specialist & Neonatologist) (Child Specialist & Neonatologist)
+  - Visiting Days: সোম, বুধ ও শুক্রবার (অথবা চেম্বারে যোগাযোগ সাপেক্ষে)
+  - Visiting Hours: সন্ধ্যা ৬:০০ টা থেকে (অথবা চেম্বারে যোগাযোগ করুন) 
+  - Consultation Fee: ₹৫০০ / চেম্বারে যোগাযোগ করুন
+  - Serial Booking Phone: 9007734034 / 9163294141
+  - Note: প্রাক্তন ফেলো (R.N. Tagore Hospital)। নবজাতক ও শিশুদের জটিল ও সাধারণ রোগের উন্নত চিকিৎসা। ব্যক্তিগত ফোন: 9433390729; সিরিয়াল বুকিং: 9007734034 / 9163294141।
 * ডাঃ অসীম কুমার রায় (Dr. Asim Kumar Roy) [MBBS, MD (Medicine)]
   - Specialty: মেডিসিন ও ডায়াবেটিস বিশেষজ্ঞ (Consultant Physician)
   - Visiting Days: সোম, বুধ ও শুক্রবার
