@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-09T08:17:54.503Z
+# Last Updated: 2026-10-09T08:36:28.186Z
 # Total Articles: 278
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 24
@@ -3020,7 +3020,7 @@ DOCTORS OPD ROSTER (28 DOCTORS):
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
   - Serial Booking Phone: 9830029256
   
-* ডাঃ সঞ্জয় বোস (Dr. Sanjay Bose) [M.B.B.S, DPM Psychiatry (Ranchi), M.B.B.S, DPM Psychiatry, Consultant Neuro Psychiatrist]
+* ডাঃ সঞ্জয় বোস (Dr. Sanjay Bose) [MBBS, DPM Psychiatry (Ranchi), Consultant Neuro-Psychiatrist]
   - Specialty: মানসিক স্বাস্থ্য ও নিউরো-সাইকিয়াট্রিস্ট (Consultant Neuro Psychiatrist)
   - Visiting Days: প্রতি শুক্রবার সন্ধ্যা ৫:০০
   - Visiting Hours: সন্ধ্যা ৫:০০ 
@@ -3680,7 +3680,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
   - Serial Booking Phone: 033-24330868
   - Note: ট্রমা, আর্থ্রোস্কোপি, স্পাইন ও হাড়-জোড় সার্জন। চেম্বারে হাড় ভাঙ্গার প্লাস্টার করার বিশেষ সুবিধা রয়েছে।
 * ডাঃ কৌশিক পান (Dr. Koushik Pan) [M.B.B.S. (Hons.), MD (Cal.) (Gen. Medicine, SSKM), DM (Cal.) NEURO]
-  - Specialty: স্নায়ুরোগ বিশেষজ্ঞ (নার্ভ / Neurologist) (Consultant Neurologist & Physician)
+  - Specialty: স্নায়ুরোগ ও নার্ভ বিশেষজ্ঞ (Consultant Neurologist & Physician)
   - Visiting Days: মঙ্গলবার ও বৃহস্পতিবার
   - Visiting Hours: বিকাল ৩:০০ টা থেকে 
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
@@ -3784,8 +3784,8 @@ SERVICES & DIAGNOSTICS:
 - [Diagnostic] Pathology Blood Sample Collection Point
 
 DOCTORS OPD ROSTER (6 DOCTORS):
-* ডাঃ এ. হাবিব (Dr. A. Habib) (Dr. A. Habib) [MBBS (Cal), DCH (Cal), PGPN (Boston, America), Reg. No. 56577 (WBMC)]
-  - Specialty: নবজাতক ও শিশুরোগ বিশেষজ্ঞ (Child Specialist & Neonatologist) (Child Specialist & Neonatologist)
+* ডাঃ এ. হাবিব (Dr. A. Habib) [MBBS (Cal), DCH (Cal), PGPN (Boston, USA), Reg. No. 56577 (WBMC)]
+  - Specialty: নবজাতক ও শিশুরোগ বিশেষজ্ঞ (Child Specialist & Neonatologist)
   - Visiting Days: সোম, বুধ ও শুক্রবার (অথবা চেম্বারে যোগাযোগ সাপেক্ষে)
   - Visiting Hours: সন্ধ্যা ৬:০০ টা থেকে (অথবা চেম্বারে যোগাযোগ করুন) 
   - Consultation Fee: ₹৫০০ / চেম্বারে যোগাযোগ করুন
@@ -3858,7 +3858,7 @@ SERVICES & DIAGNOSTICS:
 
 DOCTORS OPD ROSTER (1 DOCTORS):
 * ডাঃ বি. রায়চৌধুরী (Dr. B. Raychaudhuri) [M.B.B.S. (Cal), D.DERM (London), D.R.C.O.G. (London), M.R.C.G.P. (U.K.)]
-  - Specialty: চর্মরোগ বিশেষজ্ঞ (Dermatologist) ও জেনারেল ফিজিশিয়ান (Dermatologist & General Physician)
+  - Specialty: চর্মরোগ ও মেডিসিন বিশেষজ্ঞ (Dermatologist & General Physician)
   - Visiting Days: মঙ্গলবার ও শুক্রবার (Tuesday & Friday)
   - Visiting Hours: সকাল ৯:৩০ - বিকাল ৩:০০ (9.30 a.m. - 3.00 p.m.) 
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
