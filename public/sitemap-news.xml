@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%87%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%B9/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10T17:26:18.000Z</news:publication_date>
+      <news:title>আজ ইডেনে মহালয়ায় মহাসমারোহ</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%B8-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%87/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10T15:50:51.000Z</news:publication_date>
+      <news:title>বারুইপুর পূর্বের তৃণমূল বিধায়ক বিভাস সর্দারের গাড়িতে হামলার অভিযোগ</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%B8-%E0%A6%B8%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%87/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10T15:42:05.000Z</news:publication_date>
+      <news:title>বারুইপুর পূর্ব বিধানসভার বিধায়ক বিভাস সরদারের উপরে প্রাণঘাতী হামলা কি জানাচ্ছেন বিধায়ক শ</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/breaking-news-%E0%A6%AE%E0%A6%A8%E0%A6%B8%E0%A6%BE%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE/</loc>
     <news:news>
       <news:publication>
@@ -10,6 +43,28 @@
       </news:publication>
       <news:publication_date>2026-10-10T15:00:26.000Z</news:publication_date>
       <news:title>বারুইপুর পূর্বের বিধায়ক বিভাস সরদারের গাড়িতে হামলা ও ভাঙচুরের অভিযোগ, মনসাতলায় উত্তেজনা</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%95%E0%A7%8B%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0%E0%A7%80%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AD-%E0%A6%AD%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%A8/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10T11:29:20.000Z</news:publication_date>
+      <news:title>কোলকাতায় প্রথমবার জয়া কিশোরীজির লাইভ ভজন কনসার্ট</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9F%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%A8-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%AE%E0%A6%AE%E0%A6%A4/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10T09:20:57.000Z</news:publication_date>
+      <news:title>দিল্লিতে আটক বাংলার প্রাক্তন মুখ্যমন্ত্রী মমতা বন্দ্যোপাধ্যায়</news:title>
     </news:news>
   </url>
   <url>
@@ -32,6 +87,17 @@
       </news:publication>
       <news:publication_date>2026-10-10T03:39:34.000Z</news:publication_date>
       <news:title>মহালয়ার সকালে বারুইপুর সদাব্রত ঘাটে আদি গঙ্গার তীরে তর্পণ।</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://baruipur.online/%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10T03:35:10.000Z</news:publication_date>
+      <news:title>শুভ মহালয়া</news:title>
     </news:news>
   </url>
   <url>
