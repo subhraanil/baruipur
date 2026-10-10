@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-10T16:27:33.758Z
+# Last Updated: 2026-10-10T16:45:40.426Z
 # Total Articles: 285
 # Total Key Landmarks: 28
 # Total Organizations & Clubs: 24
@@ -1519,7 +1519,7 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (25 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (28 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -3864,6 +3864,265 @@ DOCTORS OPD ROSTER (1 DOCTORS):
   - Consultation Fee: চেম্বারে যোগাযোগ করুন
   - Serial Booking Phone: 9831771336 / 033-2433-9507
   - Note: লন্ডন থেকে চর্মরোগ ও প্রসূতিরোগে উচ্চতর ডিগ্রিধারী (D.DERM London, D.R.C.O.G London, M.R.C.G.P U.K.)। রুবি জেনারেল হাসপাতালের সিনিয়র কনসালট্যান্ট। সিরিয়াল বুকিং সময়: সকাল ১০:০০ - সন্ধ্যা ৬:০০ টা।
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #26: সেবাতীর্থম নার্সিং হোম ও ডায়াগনস্টিক (Sevatirtham Nursing Home & Diagnostic)
+--------------------------------------------------------------------------------
+- Facility Type: নার্সিং হোম ও ডায়াগনস্টিক সেন্টার (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/sevatirtham-nursing-home-baruipur/
+- Address: শাহজাহান রোড, বারুইপুর (রেলওয়ে স্টেশন সংলগ্ন), দক্ষিণ ২৪ পরগনা, কলকাতা - ৭০০১৪৪ (Sajahan Road, Near Baruipur Railway Station, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Landmark: বারুইপুর রেলওয়ে স্টেশন সংলগ্ন, শাহজাহান রোড
+- Phone: 9831324595
+- Emergency Phone: 033-2433-8156
+- Timings: জরুরি বিভাগ ও ইনডোর: ২৪ ঘণ্টা খোলা | বহির্বিভাগ (OPD): সকাল ১০:০০ - রাত ৯:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: Yes
+- Bed Capacity: ২৫ শয্যা
+
+TAGLINE & OVERVIEW:
+বারুইপুর রেল স্টেশনের সন্নিকটে সুলভ মূল্যে আধুনিক চিকিৎসা, সার্জারি ও ২৪ ঘণ্টার জরুরি পরিষেবা
+সেবাতীর্থম নার্সিং হোম বারুইপুর রেলওয়ে স্টেশনের কাছে শাহজাহান রোডে অবস্থিত একটি বিশ্বস্ত চিকিৎসাকেন্দ্র। ২০০৪ সালে প্রয়াত ডাঃ সুধীর চন্দ্র দত্তের পরিকল্পনায় এটি প্রতিষ্ঠিত হয় এবং বর্তমানে ডাঃ বনানী দত্তের তত্ত্বাবধানে পরিচালিত হচ্ছে। এখানে সুলভ খরচে সাধারণ ও ল্যাপারোস্কোপিক সার্জারি, স্ত্রীরোগ ও প্রসূতি সেবা, শিশু বিভাগ, আধুনিক প্যাথলজি ও ডিজিটাল ডায়াগনস্টিক সুবিধা রয়েছে। নার্সিং হোমটি পশ্চিমবঙ্গ সরকারের স্বাস্থ্যসাথী প্রকল্পের আওতাভুক্ত এবং স্টার হেলথ সহ বিভিন্ন মেডিক্লেইম ক্যাশলেস বীমা সুবিধা প্রদান করে।
+
+SERVICES & DIAGNOSTICS:
+- ২৪ ঘণ্টা জরুরি পরিষেবা ও ইনডোর ভর্তি
+- জেনারেল সার্জারি ও অ্যাডভান্সড ল্যাপারোস্কোপিক অপারেশন
+- নরমাল ও সিজারিয়ান ডেলিভারি এবং মাতৃত্বকালীন পরিচর্যা
+- স্বাস্থ্যসাথী কার্ডে বিনামূল্যে চিকিৎসার সরকারি সুবিধা
+- স্টার হেলথ ও টিপিএ মেডিক্লেইম ক্যাশলেস হসপিটালাইজেশন
+- নবজাতক ও শিশু বিশেষজ্ঞ পরামর্শ ও চিকিৎসা
+- [Diagnostic] ডিজিটাল এক্স-রে (Digital X-Ray)
+- [Diagnostic] আল্ট্রাসনোগ্রাফি (USG)
+- [Diagnostic] ইসিজি (ECG)
+- [Diagnostic] সম্পূর্ণ অটোমেটেড প্যাথলজি ও বায়োকেমিস্ট্রি ল্যাব টেস্ট
+
+DOCTORS OPD ROSTER (5 DOCTORS):
+* ডাঃ বনানী দত্ত (Dr. Banani Dutta) [MBBS, General Physician]
+  - Specialty: জেনারেল ফিজিশিয়ান ও আরএমও (প্রোপ্রাইটর) (General Physician & R.M.O.)
+  - Visiting Days: প্রতিদিন (রবিবার ব্যতীত)
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১২:০০ এবং সন্ধ্যা ৭:০০ - রাত ৯:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 9088377220
+  
+* ডাঃ সুবীর পাল (Dr. Subir Pal) [MBBS, DCH, MD, PGPN (Boston, USA)]
+  - Specialty: শিশু ও নবজাতক রোগ বিশেষজ্ঞ (Child Specialist & Neonatologist)
+  - Visiting Days: প্রতিদিন
+  - Visiting Hours: সন্ধ্যা ৭:০০ - রাত ৯:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9088377220
+  
+* ডাঃ শুভাশিস নস্কর (Dr. Subhasis Naskar) [MBBS, MS (General Surgery), DA]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (General & Laparoscopic Surgeon)
+  - Visiting Days: সোমবার ও শুক্রবার
+  - Visiting Hours: সোমবার সকাল ১০:৩০, শুক্রবার দুপুর ১:৩০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9088377220
+  
+* ডাঃ সন্দীপ সরদার (Dr. Sandip Sardar) [MBBS (Cal), MD (Dermatology, Venereology & Leprosy)]
+  - Specialty: চর্ম, যৌন ও কুষ্ঠ রোগ বিশেষজ্ঞ (Consultant Dermatologist)
+  - Visiting Days: সোমবার ও বৃহস্পতিবার
+  - Visiting Hours: সকাল ১১:০০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 9088377220
+  
+* ডাঃ সুবীর দত্ত (Dr. Subir Dutta) [MBBS, General Physician]
+  - Specialty: জেনারেল ফিজিশিয়ান (অন কল) (General Physician)
+  - Visiting Days: অন কল (জরুরি ও প্রয়োজনমাফিক)
+  - Visiting Hours: জরুরি কল মারফত নির্ধারিত 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 9088377220
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #27: শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি (Santiniketan Nursing Home & Society)
+--------------------------------------------------------------------------------
+- Facility Type: নার্সিং হোম ও মেটারনিটি কেয়ার (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/santiniketan-nursing-home-baruipur/
+- Address: মাদাবত রোড, মাস্টারপাড়া / নতুনপাড়া, বারুইপুর, দক্ষিণ ২৪ পরগনা, কলকাতা - ৭০০১৪৪ (Madarat Road, Masterpara, Near Platform No. 4, Baruipur, South 24 Parganas, Kolkata - 700144)
+- Landmark: বারুইপুর রেলওয়ে স্টেশন ৪ নম্বর প্ল্যাটফর্ম ও নিকন স্টুডিও সংলগ্ন
+- Phone: 7044410441
+- Emergency Phone: 8282822462
+- Timings: জরুরি বিভাগ ও ইনডোর: ২৪ ঘণ্টা খোলা | বহির্বিভাগ (OPD): সকাল ৯:০০ - রাত ৮:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: No
+- Bed Capacity: ৩০ শয্যা
+
+TAGLINE & OVERVIEW:
+বারুইপুর মাদাবত রোডে ৩০ শয্যাবিশিষ্ট রেজিস্টার্ড নার্সিং হোম, সার্জারি ও ২৪ ঘণ্টার জরুরি সেবা
+শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি (Shantiniketan Nursing Society) বারুইপুর মহকুমার একটি সুপরিচিত অনুমোদিত ক্লিনিক্যাল এস্টাব্লিশমেন্ট। এটি বারুইপুর রেলওয়ে ৪ নম্বর প্ল্যাটফর্মের কাছে মাদাবত রোড, মাস্টারপাড়া এলাকায় অবস্থিত। প্রয়াত ডাঃ আতিকুর রহমানের উদ্যোগে প্রতিষ্ঠিত এই নার্সিং হোমে ৩০টি অনুমোদিত শয্যা, সাধারণ ও ল্যাপারোস্কোপিক সার্জারি, প্রসূতি ও স্ত্রীরোগ বিভাগ এবং বহির্বিভাগীয় চিকিৎসা সুবিধা রয়েছে।
+
+SERVICES & DIAGNOSTICS:
+- ২৪ ঘণ্টা ইনপেশেন্ট ভর্তি ও জরুরি পর্যবেক্ষণ
+- জেনারেল সার্জারি ও ল্যাপারোস্কোপিক অপারেশন
+- ম্যাটারনিটি ইউনিট, নরমাল ও সিজারিয়ান ডেলিভারি
+- মেডিক্লেইম ও হেলথ ইনস্যুরেন্স সহায়তা
+- ইন-হাউস ফার্মেসি ও প্যাথলজি কালেকশন
+- [Diagnostic] ডিজিটাল এক্স-রে
+- [Diagnostic] ইউএসজি (USG)
+- [Diagnostic] ইসিজি (ECG)
+- [Diagnostic] রুটিন প্যাথলজিক্যাল রক্ত ও মূত্র পরীক্ষা
+
+DOCTORS OPD ROSTER (2 DOCTORS):
+* ডাঃ রিমা সুলতানা (Dr. Rima Sultana) [MBBS, MS (General Surgery), FMAS, FIAGES]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (Consultant General & Laparoscopic Surgeon)
+  - Visiting Days: কল মারফত নির্ধারিত দিন ও সময়
+  - Visiting Hours: পূর্ব বুকিং অনুযায়ী 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 7044410441
+  
+* ডাঃ নিলোফার আনজুম (Dr. Nilofar Anjum) [MBBS, General Physician]
+  - Specialty: জেনারেল ফিজিশিয়ান ও পারিবারিক চিকিৎসক (General Physician)
+  - Visiting Days: সোম থেকে শনিবার
+  - Visiting Hours: সকাল ১০:০০ - দুপুর ১:০০ 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 7044410441
+  
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #28: ওয়েল কেয়ার নার্সিং হোম (Well Care Nursing Home)
+--------------------------------------------------------------------------------
+- Facility Type: মাল্টি-স্পেশালিটি নার্সিং হোম ও আইসিইউ ডায়ালিসিস সেন্টার (nursing_home)
+- Canonical URL: https://baruipur.online/health-directory/well-care-nursing-home-baruipur/
+- Address: জুগিবাতলা, মল্লিকপুর রোড (পি.সি. সরকার বাড়ির নিকট), বারুইপুর, দক্ষিণ ২৪ পরগনা, কলকাতা - ৭০০১৪৫ (Dehimedan Malla, Jugibattala, towards Mallickpur Road, near P.C. Sorcar's House, Baruipur, South 24 Parganas, Kolkata - 700145)
+- Landmark: জুগিবাতলা, মল্লিকপুর রোড, পি.সি. সরকারের বাড়ির সন্নিকটে
+- Phone: 9475332013
+- Emergency Phone: 9475332013
+- Timings: জরুরি বিভাগ, আইসিইউ ও ইনডোর: ২৪ ঘণ্টা খোলা | ওপিডি: সকাল ৮:০০ - রাত ৮:০০
+- 24 Hours Open: Yes
+- Swasthya Sathi Accepted: No
+- Bed Capacity: ৫০+ শয্যা
+
+TAGLINE & OVERVIEW:
+বারুইপুরে ডায়ালিসিসযুক্ত সর্বাধুনিক আইসিইউ, ৫০+ শয্যা ও ২৪x৭ জরুরি সুপারস্পেশালিটি কেয়ার
+ওয়েল কেয়ার নার্সিং হোম (Well Care Nursing Home Baruipur) বারুইপুর-মল্লিকপুর রোডে জুগিবাতলায় অবস্থিত দক্ষিণ ২৪ পরগনার অন্যতম প্রধান ও সর্বাধুনিক পরিকাঠামোযুক্ত প্রাইভেট হাসপাতাল। এখানে রয়েছে বারুইপুর অঞ্চলের প্রথম পূর্ণাঙ্গ ডায়ালিসিস সুবিধাযুক্ত আইসিইউ (ICU with Dialysis), ৫০টিরও বেশি শয্যা, শীতাতপ নিয়ন্ত্রিত কেবিন, আধুনিক অপারেশন থিয়েটার এবং ১৬ জনেরও বেশি প্রখ্যাত বিশেষজ্ঞ ও সুপার-স্পেশালিস্ট চিকিৎসকদের ওপিডি প্যানেল। এখানে ২৪ ঘণ্টা জরুরি পরিষেবা, ক্যাশলেস মেডিক্লেইম এবং সার্বক্ষণিক ফার্মেসি সেবা প্রদান করা হয়।
+
+SERVICES & DIAGNOSTICS:
+- ডায়ালিসিস সুবিধাযুক্ত অত্যাধুনিক ক্রিটিক্যাল কেয়ার আইসিইউ (ICU with Dialysis)
+- ৫০+ শয্যাবিশিষ্ট সুসজ্জিত সাধারণ ওয়ার্ড ও ডিলাক্স এসি কেবিন
+- মডুলার অপারেশন থিয়েটার ও ল্যাপারোস্কোপিক, অর্থোপেডিক এবং অনকো-সার্জারি
+- ২৪ ঘণ্টা জরুরি ট্রমা কেয়ার, অ্যাম্বুলেন্স ও সার্বক্ষণিক ফার্মেসি
+- ক্যাশলেস মেডিক্লেইম ও সমস্ত প্রধান ইনস্যুরেন্স টিপিএ (TPA) সুবিধা
+- সুপারস্পেশালিটি ওপিডি কনসাল্টেশন (কার্ডিওলজি, নিউরো, গ্যাস্ট্রো, অনকোলজি, নেফ্রোলজি)
+- [Diagnostic] ডিজিটাল এক্স-রে (Digital X-Ray)
+- [Diagnostic] কালার ডপলার ও আল্ট্রাসনোগ্রাফি (USG)
+- [Diagnostic] ১২-লিড ইসিজি ও কার্ডিয়াক মনিটরিং
+- [Diagnostic] সম্পূর্ণ স্বয়ংক্রিয় বায়োকেমিস্ট্রি, হেমাটোলজি ও হরমোন প্যাথলজি ল্যাব
+
+DOCTORS OPD ROSTER (16 DOCTORS):
+* ডাঃ বিক্রম মণ্ডল (Dr. Bikram Mondal) [MBBS, MD (Pediatrics)]
+  - Specialty: শিশু ও নবজাতক রোগ বিশেষজ্ঞ (Pediatrician & Neonatologist)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ চিরন্তন মণ্ডল (Dr. Chirantan Mondal) [MBBS, MS (OBS & Gynae), Ex-Senior House Surgeon NRS Medical College & National Hospital]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ সার্জন (Gynaecologist & Obstetrician)
+  - Visiting Days: সোম ও বৃহস্পতিবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ দেবাশিস নস্কর (Dr. Debasis Naskar) [MBBS, MS (Ortho), AO (Trauma Adv.), Observership NUH Singapore, Associate Professor JIMSH]
+  - Specialty: অর্থোপেডিক ও ট্রমা বিশেষজ্ঞ সার্জন (Consultant Orthopaedic Surgeon)
+  - Visiting Days: মঙ্গলবার ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ কোয়েল হালদার (Dr. Koyel Halder) [MBBS (Cal), MS (OBS & Gynae, Kol), WBMC Reg. 67408]
+  - Specialty: স্ত্রীরোগ ও প্রসূতি বিশেষজ্ঞ (Consultant Gynaecologist)
+  - Visiting Days: বুধবার ও রবিবার
+  - Visiting Hours: সকাল ১১:০০ - দুপুর ১:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ কুণাল মণ্ডল (Dr. Kunal Mondal) [MBBS (CNMC), MS (Orthopedics, IPGMER & SSKM), DNB (Ortho), Fellowship in Arthroscopy (WBOA)]
+  - Specialty: অর্থোপেডিক, জয়েন্ট রিপ্লেসমেন্ট ও আর্থ্রোস্কোপি সার্জন (Orthopaedic & Arthroscopy Surgeon)
+  - Visiting Days: বুধবার ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:৩০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ মেহেরাজ সেখ (Dr. Meheraj Sk) [MBBS, MS (General Surgery), MCh (Plastic & Reconstructive Surgery), DrNB (Urology)]
+  - Specialty: ইউরোলজি, জেনারেল ও প্লাস্টিক সার্জারি বিশেষজ্ঞ (Consultant Urologist & Plastic Surgeon)
+  - Visiting Days: বৃহস্পতিবার
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৬:০০ 
+  - Consultation Fee: ₹ ৯০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ শুভাশিস নস্কর (Dr. Subhasis Naskar) [MBBS, MS (General Surgery), DA]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (Consultant General Surgeon)
+  - Visiting Days: মঙ্গলবার ও শুক্রবার
+  - Visiting Hours: দুপুর ১২:০০ - দুপুর ২:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ সুবীর পাল (Dr. Subir Pal) [MBBS, DCH, MD, PGPN (Boston, USA)]
+  - Specialty: শিশু ও নবজাতক বিশেষজ্ঞ (Child Specialist & Neonatologist)
+  - Visiting Days: সোম থেকে শনিবার
+  - Visiting Hours: সন্ধ্যা ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ রাহুল নস্কর (Dr. Rahul Naskar) [MBBS, MS (General Surgery), MRCS (Eng.)]
+  - Specialty: ল্যাপারোস্কোপিক, জিআই ও জেনারেল সার্জন (Consultant Laparoscopic & GI Surgeon)
+  - Visiting Days: সোমবার ও বুধবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:০০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ রাহুল ভঞ্জ চৌধুরী (Dr. Rahul Bhanj Chowdhury) [MBBS, MS (General Surgery), MRCS (Edinburgh), FMAS (AMASI)]
+  - Specialty: জেনারেল, ল্যাপারোস্কোপিক ও জিআই সার্জন (Consultant Laparoscopic Surgeon)
+  - Visiting Days: মঙ্গলবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ রাহুল ধর (Dr. Rahul Dhar) [MBBS (WBUHS), MS (General Surgery, IPGMER), MRCS (Edinburgh)]
+  - Specialty: সার্জিক্যাল গ্যাস্ট্রোএন্টারোলজি বিশেষজ্ঞ (Consultant Surgical Gastroenterologist)
+  - Visiting Days: বৃহস্পতিবার ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:০০ 
+  - Consultation Fee: ₹ ৯০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ ইন্দ্রজিৎ মল্লিক (Dr. Indrajit Malik) [MBBS (Cal), MS (General Surgery, NRSMCH), DrNB (Surgical Oncology)]
+  - Specialty: ক্যান্সার সার্জারি বিশেষজ্ঞ (সার্জিক্যাল অনকোলজিস্ট) (Consultant Surgical Oncologist)
+  - Visiting Days: শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:০০ 
+  - Consultation Fee: ₹ ১,০০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ অরিজিৎ বিষ্ণু (Dr. Arijit Bishnu) [MBBS, MD, DM (Clinical Hematology)]
+  - Specialty: হেমাটোলজি, ব্লাড ক্যান্সার ও বিএমটি বিশেষজ্ঞ (Consultant Haematology-Oncologist & BMT Physician)
+  - Visiting Days: শনিবার
+  - Visiting Hours: বিকাল ৪:০০ - সন্ধ্যা ৬:০০ 
+  - Consultation Fee: ₹ ১,০০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ রাজন কুমার (Dr. Rajan Kumar) [MBBS, MS (General Surgery), MCh (Neurosurgery)]
+  - Specialty: নিউরোসার্জন (মস্তিষ্ক ও স্পাইন সার্জারি বিশেষজ্ঞ) (Consultant Neurosurgeon)
+  - Visiting Days: বুধবার
+  - Visiting Hours: বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ১,০০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ সাব্বির আহমেদ (Dr. Sabbir Ahamed) [MBBS (Kol), DNB (Internal Medicine), DFM (WBUHS), CCEBDM, Eular Fellow in Rheumatology (UK), Ex-SR AIIMS]
+  - Specialty: মেডিসিন, ডায়াবেটিস ও বাত রোগ বিশেষজ্ঞ (রিউমাটোলজিস্ট) (Consultant Physician & Rheumatologist)
+  - Visiting Days: সোম, বুধ ও শুক্রবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9475332013
+  
+* ডাঃ সৌম্য ভট্টাচার্য (Dr. Soumya Bhattacharya) [MBBS, MD, CCEBDM, Ex-Senior Resident AIIMS Delhi & R.N. Tagore Hospital]
+  - Specialty: জেনারেল মেডিসিন, ক্রিটিক্যাল কেয়ার ও ডায়াবেটিস বিশেষজ্ঞ (Consultant Physician & Intensivist)
+  - Visiting Days: মঙ্গল, বৃহস্পতি ও শনিবার
+  - Visiting Hours: সন্ধ্যা ৬:০০ - রাত ৮:৩০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9475332013
+  
 
 
 ================================================================================
