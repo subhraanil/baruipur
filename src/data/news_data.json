@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "id": "art-1791742374214-2evx",
+      "title": "Live ভারত পেট্রোলিয়াম ও ফ্ললেস ফাউন্ডেশনের উদ্যোগে সুন্দরবনে ১৯০টি সোলার স্ট্রিট লাইট স্থ",
+      "slug": "live-ভারত-পেট্রোলিয়াম-ও-ফ্ললেস-ফাউন্ডেশনের-উ",
+      "summary": "Live ভারত পেট্রোলিয়াম ও ফ্ললেস ফাউন্ডেশনের উদ্যোগে সুন্দরবনে ১৯০টি সোলার স্ট্রিট লাইট স্থাপন। প্রকল্পের উদ্বোধন করেন পশ্চিমবঙ্গ সরকারের বন ও পরিবেশ বিষয়ক মন্ত্রী শ্রী মনোজ ক...",
+      "content": "Live ভারত পেট্রোলিয়াম ও ফ্ললেস ফাউন্ডেশনের উদ্যোগে সুন্দরবনে ১৯০টি সোলার স্ট্রিট লাইট স্থাপন। প্রকল্পের উদ্বোধন করেন পশ্চিমবঙ্গ সরকারের বন ও পরিবেশ বিষয়ক মন্ত্রী শ্রী মনোজ কুমার ওরাঁও। এই উদ্যোগের ফলে সুন্দরবনের প্রত্যন্ত এলাকায় রাতের অন্ধকার দূর হবে এবং স্থানীয় বাসিন্দাদের নিরাপত্তা ও যাতায়াতের সুবিধা বাড়বে বলে আশা করা হচ্ছে। প্রজেক্ট প্রকাশ, flawless ফাউন্ডেশন ও রাজ্যে সরকারের উদ্যোগে, সুন্দরবনে সোলার লাইট উদ্বোধন।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update, Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1584677236227799",
+      "originalPostUrl": "https://www.facebook.com/1584677236227799",
+      "imageUrl": "/images/crawled/6b60b04f7b061171e589bd71c9c12e2c.jpg",
+      "images": [
+        "/images/crawled/6b60b04f7b061171e589bd71c9c12e2c.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1584677236227799",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1584677236227799&show_text=0",
+      "publishedAt": "2026-10-11T07:41:50.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 37,
+      "crawlHash": "eaabae415064757ea4be563e62d169b0"
+    },
+    {
       "id": "art-1791713486362-l34w",
       "title": "বারুইপুর ফুলতলা দুর্গোৎসব পূজা কমিটি (৩নং গেট || ৭৬তম বর্ষ)",
       "slug": "বারুইপুর-ফুলতলা-দুর্গোৎসব-পূজা-কমিটি-৩নং-গেট",
@@ -360,7 +390,8 @@
       "images": [
         "/images/crawled/058ce2327c044064ef90d3055584f8e4.jpg",
         "/images/crawled/1b4eda5711bace9cea7746d34b0d2ce6.jpg",
-        "/images/crawled/91356a61ef811ead657ed44cde826f49.jpg"
+        "/images/crawled/91356a61ef811ead657ed44cde826f49.jpg",
+        "/images/crawled/b68eed7b92b7a8961790582572404f0e.jpg"
       ],
       "publishedAt": "2026-10-10T08:53:31.000Z",
       "isBreaking": false,
@@ -9712,7 +9743,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-11T10:10:55.873Z"
+      "lastCrawledAt": "2026-10-11T18:12:23.103Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -9725,7 +9756,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-11T10:10:57.570Z"
+      "lastCrawledAt": "2026-10-11T18:12:25.377Z"
     },
     {
       "id": "src-fb-police",
@@ -9738,7 +9769,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-11T10:10:59.333Z"
+      "lastCrawledAt": "2026-10-11T18:12:28.404Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -9751,7 +9782,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-11T10:11:02.688Z"
+      "lastCrawledAt": "2026-10-11T18:12:30.217Z"
     },
     {
       "id": "src-fb-uncover",
@@ -9764,7 +9795,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-11T10:11:05.230Z"
+      "lastCrawledAt": "2026-10-11T18:12:33.155Z"
     },
     {
       "id": "src-fb-update",
@@ -9777,7 +9808,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-11T10:11:08.788Z"
+      "lastCrawledAt": "2026-10-11T18:12:35.860Z"
     },
     {
       "id": "src-fb-barta",
@@ -9790,7 +9821,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-11T10:11:13.492Z"
+      "lastCrawledAt": "2026-10-11T18:12:41.082Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -9803,7 +9834,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-11T10:11:17.519Z"
+      "lastCrawledAt": "2026-10-11T18:12:43.336Z"
     },
     {
       "id": "src-fb-voice",
@@ -9816,7 +9847,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-11T10:11:20.362Z"
+      "lastCrawledAt": "2026-10-11T18:12:46.533Z"
     },
     {
       "id": "src-fb-24x7",
@@ -9829,7 +9860,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-11T10:11:23.553Z"
+      "lastCrawledAt": "2026-10-11T18:12:49.805Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -9842,10 +9873,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-11T10:11:26.076Z"
+      "lastCrawledAt": "2026-10-11T18:12:53.568Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1791742374214",
+      "timestamp": "2026-10-11T18:12:54.214Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 12, সমন্বয়ের পর: 5, নতুন প্রকাশিত সংবাদ: 1 টি।",
+      "itemsFetched": 12,
+      "itemsPublished": 1
+    },
     {
       "id": "log-1791713486625",
       "timestamp": "2026-10-11T10:11:26.625Z",
