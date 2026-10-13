@@ -1,6 +1,68 @@
 {
   "articles": [
     {
+      "id": "art-1791888647454-muox",
+      "title": "রাজপুর এমএন রায় রোড নবারুন সংঘ",
+      "slug": "রাজপুর-এমএন-রায়-রোড-নবারুন-সংঘ",
+      "summary": "রাজপুর এমএন রায় রোড নবারুন সংঘ\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "content": "রাজপুর এমএন রায় রোড নবারুন সংঘ\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-pressclub",
+      "sourceName": "Baruipur Press Club",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1602628145211737",
+      "originalPostUrl": "https://www.facebook.com/1602628145211737",
+      "imageUrl": "/images/crawled/79d9fe755d3a40ec1cdadf85b0fce647.jpg",
+      "images": [
+        "/images/crawled/79d9fe755d3a40ec1cdadf85b0fce647.jpg",
+        "/images/crawled/b6c364d86a446076f690c0f04aa8a1ab.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1098625489701176",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1098625489701176&show_text=0",
+      "publishedAt": "2026-10-12T18:47:28.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 23,
+      "crawlHash": "2bc9d282a06822d99a8c2ac6093b6b20"
+    },
+    {
+      "id": "art-1791888647168-b8go",
+      "title": "অক্টোবর থেকে ১৭ই অক্টোবর পর্যন্ত ৫০ গ্রাম সোনা কিনলে একটি সোনার কয়েন ও ১০০ গ্রাম সোনা কিন",
+      "slug": "অক্টোবর-থেকে-১৭ই-অক্টোবর-পর্যন্ত-৫০-গ্রাম-সোন",
+      "summary": "অক্টোবর থেকে ১৭ই অক্টোবর পর্যন্ত ৫০ গ্রাম সোনা কিনলে একটি সোনার কয়েন ও ১০০ গ্রাম সোনা কিনলে দুটি সোনার কয়েন সম্পূর্ণ ফ্রি.   গ্রাম সোনা কিনবেন ততোগ্রাম রুপো ফ্রি.\n সোনার গহন...",
+      "content": "অক্টোবর থেকে ১৭ই অক্টোবর পর্যন্ত ৫০ গ্রাম সোনা কিনলে একটি সোনার কয়েন ও ১০০ গ্রাম সোনা কিনলে দুটি সোনার কয়েন সম্পূর্ণ ফ্রি.   গ্রাম সোনা কিনবেন ততোগ্রাম রুপো ফ্রি.\n সোনার গহনায় ৩% মজুরি ও জিএসটি.\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1736826628446165",
+      "originalPostUrl": "https://www.facebook.com/1736826628446165",
+      "imageUrl": "/images/crawled/67a4306a008da58106352b672a48877e.jpg",
+      "images": [
+        "/images/crawled/67a4306a008da58106352b672a48877e.jpg",
+        "/images/crawled/43ea09f8076b57fe9340da1e73f4b5ea.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=2733856187059289",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2733856187059289&show_text=0",
+      "publishedAt": "2026-10-13T09:52:40.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 20,
+      "crawlHash": "dd4677f812ad5d0bab1851cddd73aa80"
+    },
+    {
       "id": "art-1791867958327-taat",
       "title": "বারুইপুরে উমা আসছে!",
       "slug": "বারুইপুরে-উমা-আসছে",
@@ -19,7 +81,8 @@
       "originalPostUrl": "https://www.facebook.com/1819173079112131",
       "imageUrl": "/images/crawled/eb42f6524229f0b461461579b23ce3a0.jpg",
       "images": [
-        "/images/crawled/eb42f6524229f0b461461579b23ce3a0.jpg"
+        "/images/crawled/eb42f6524229f0b461461579b23ce3a0.jpg",
+        "/images/crawled/973e7dc819212b4526caf83cbb7b7a3b.jpg"
       ],
       "publishedAt": "2026-10-13T01:50:02.000Z",
       "isBreaking": false,
@@ -207,7 +270,8 @@
         "/images/crawled/716d1966680e531a94999d62ec71b5e9.jpg",
         "/images/crawled/310bd1eb06936e576346d8aa7f460a1f.jpg",
         "/images/crawled/bb80279bc3ae87f9ba736a35caa8701f.jpg",
-        "/images/crawled/411da2b5880619eac8e096572c97dcac.jpg"
+        "/images/crawled/411da2b5880619eac8e096572c97dcac.jpg",
+        "/images/crawled/e42840ebb9725678b4c0e78ce82bd835.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=979505991149749",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D979505991149749&show_text=0",
@@ -10167,7 +10231,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-13T05:05:25.390Z"
+      "lastCrawledAt": "2026-10-13T10:50:00.749Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -10180,7 +10244,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-13T05:05:27.486Z"
+      "lastCrawledAt": "2026-10-13T10:50:03.408Z"
     },
     {
       "id": "src-fb-police",
@@ -10193,7 +10257,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-13T05:05:29.842Z"
+      "lastCrawledAt": "2026-10-13T10:50:06.046Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -10206,7 +10270,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-13T05:05:31.863Z"
+      "lastCrawledAt": "2026-10-13T10:50:09.259Z"
     },
     {
       "id": "src-fb-uncover",
@@ -10219,7 +10283,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-13T05:05:35.003Z"
+      "lastCrawledAt": "2026-10-13T10:50:14.508Z"
     },
     {
       "id": "src-fb-update",
@@ -10232,7 +10296,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-13T05:05:38.187Z"
+      "lastCrawledAt": "2026-10-13T10:50:20.126Z"
     },
     {
       "id": "src-fb-barta",
@@ -10245,7 +10309,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-13T05:05:41.672Z"
+      "lastCrawledAt": "2026-10-13T10:50:25.123Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -10258,7 +10322,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-13T05:05:44.109Z"
+      "lastCrawledAt": "2026-10-13T10:50:28.154Z"
     },
     {
       "id": "src-fb-voice",
@@ -10271,7 +10335,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-13T05:05:48.335Z"
+      "lastCrawledAt": "2026-10-13T10:50:35.492Z"
     },
     {
       "id": "src-fb-24x7",
@@ -10284,7 +10348,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-13T05:05:51.383Z"
+      "lastCrawledAt": "2026-10-13T10:50:40.647Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -10297,10 +10361,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-13T05:05:54.149Z"
+      "lastCrawledAt": "2026-10-13T10:50:46.737Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1791888647497",
+      "timestamp": "2026-10-13T10:50:47.497Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 12, সমন্বয়ের পর: 8, নতুন প্রকাশিত সংবাদ: 2 টি।",
+      "itemsFetched": 12,
+      "itemsPublished": 2
+    },
     {
       "id": "log-1791867958541",
       "timestamp": "2026-10-13T05:05:58.541Z",
