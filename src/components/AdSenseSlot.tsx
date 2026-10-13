@@ -84,45 +84,30 @@ export default function AdSenseSlot({
 
   const config = formatConfigs[format] || formatConfigs.responsive;
 
+  if (!slotId) {
+    // During review or before ad slots are configured, render nothing to keep the layout clean and policy compliant
+    return null;
+  }
+
   return (
     <div className={`my-6 w-full overflow-hidden ${className}`}>
       {/* Discreet Ad label header */}
       <div className="flex items-center justify-between text-[10px] text-slate-400 font-semibold uppercase tracking-wider mb-1.5 px-1">
         <span>{label}</span>
-        <span className="text-[9px] opacity-75">Google AdSense Space</span>
       </div>
 
-      {slotId ? (
-        /* Live AdSense Ins Element */
-        <div className={`w-full bg-white text-center flex items-center justify-center ${config.containerHeight}`}>
-          <ins
-            ref={adRef}
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-4871015401102715"
-            data-ad-slot={slotId}
-            data-ad-format={config.dataAdFormat}
-            data-full-width-responsive="true"
-            {...(config.layoutKey ? { 'data-ad-layout-key': config.layoutKey } : {})}
-          />
-        </div>
-      ) : (
-        /* Reserved Ad Placement Placeholder (Ready for future ad code) */
-        <div 
-          className={`w-full bg-gradient-to-b from-slate-50 to-slate-100/60 border border-dashed border-slate-300 rounded-2xl p-4 flex flex-col items-center justify-center text-center transition hover:border-slate-400 ${config.containerHeight}`}
-        >
-          <div className="inline-flex items-center gap-1.5 bg-white border border-slate-200/80 shadow-2xs px-3 py-1 rounded-full text-slate-600 text-[11px] font-bold mb-2">
-            <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
-            <span>বিজ্ঞাপন স্লট সংরক্ষিত (Ad Space Reserved)</span>
-          </div>
-          <p className="text-xs text-slate-500 font-medium">
-            {config.badge}
-          </p>
-          <p className="text-[10px] text-slate-400 mt-1 max-w-sm">
-            Google AdSense অ্যাকাউন্ট: <code className="bg-slate-200/60 px-1 py-0.5 rounded font-mono text-[9px]">ca-pub-4871015401102715</code>
-          </p>
-        </div>
-      )}
+      <div className={`w-full bg-white text-center flex items-center justify-center ${config.containerHeight}`}>
+        <ins
+          ref={adRef}
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-4871015401102715"
+          data-ad-slot={slotId}
+          data-ad-format={config.dataAdFormat}
+          data-full-width-responsive="true"
+          {...(config.layoutKey ? { 'data-ad-layout-key': config.layoutKey } : {})}
+        />
+      </div>
     </div>
   );
 }

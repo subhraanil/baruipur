@@ -176,8 +176,12 @@ const staticPages = [
   { path: '/events/', priority: '0.8', changefreq: 'weekly', title: 'Baruipur Annual Events 2026' },
   { path: '/emergency-contacts/', priority: '0.9', changefreq: 'weekly', title: 'Baruipur Emergency Contacts' },
   { path: '/about/', priority: '0.7', changefreq: 'monthly', title: 'About Baruipur Online' },
+  { path: '/editorial-team/', priority: '0.8', changefreq: 'monthly', title: 'Editorial Team' },
   { path: '/editorial-policy/', priority: '0.7', changefreq: 'monthly', title: 'Editorial Policy' },
   { path: '/corrections-policy/', priority: '0.7', changefreq: 'monthly', title: 'Corrections Policy' },
+  { path: '/privacy-policy/', priority: '0.7', changefreq: 'monthly', title: 'Privacy Policy' },
+  { path: '/terms-of-service/', priority: '0.7', changefreq: 'monthly', title: 'Terms of Service' },
+  { path: '/disclaimer/', priority: '0.7', changefreq: 'monthly', title: 'Disclaimer' },
   { path: '/contact/', priority: '0.7', changefreq: 'monthly', title: 'Contact Us' },
   { path: '/submit-news/', priority: '0.8', changefreq: 'monthly', title: 'Submit Local News' },
 ];

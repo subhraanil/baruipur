@@ -106,6 +106,21 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/privacy-policy" className="hover:text-red-400 transition flex items-center gap-1.5 font-medium text-emerald-300">
+                  <span className="text-emerald-500 text-xs">›</span> গোপনীয়তা নীতি (Privacy Policy)
+                </a>
+              </li>
+              <li>
+                <a href="/terms-of-service" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> ব্যবহারের শর্তাবলী (Terms of Service)
+                </a>
+              </li>
+              <li>
+                <a href="/disclaimer" className="hover:text-red-400 transition flex items-center gap-1.5">
+                  <span className="text-red-500 text-xs">›</span> আইনি দাবিত্যাগ (Disclaimer)
+                </a>
+              </li>
+              <li>
                 <a href="/emergency-contacts" className="hover:text-red-400 transition flex items-center gap-1.5 font-bold text-rose-400">
                   <span className="text-rose-500 text-xs">›</span> জরুরি হেল্পলাইন ডিরেক্টরি
                 </a>
@@ -163,6 +178,13 @@ export default function Footer() {
 
         <div className="pt-6 border-t border-slate-800 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p>© {new Date().getFullYear()} বারুইপুর অনলাইন (Baruipur Online). সর্বস্বত্ব সংরক্ষিত।</p>
+          <div className="flex flex-wrap items-center gap-3 text-[11px] text-slate-400">
+            <a href="/privacy-policy" className="hover:text-white transition">Privacy Policy</a>
+            <span>•</span>
+            <a href="/terms-of-service" className="hover:text-white transition">Terms of Service</a>
+            <span>•</span>
+            <a href="/disclaimer" className="hover:text-white transition">Disclaimer</a>
+          </div>
           <p className="flex items-center gap-1">
             বারুইপুরের নাগরিকদের জন্য নিষ্ঠার সাথে নির্মিত <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500 inline" />
           </p>
