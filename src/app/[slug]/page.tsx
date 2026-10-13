@@ -227,7 +227,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
   } : null;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -258,9 +258,9 @@ export default function PostSlugPage({ params }: PostPageProps) {
       {/* Top Leaderboard Ad Space */}
       <AdSenseSlot format="leaderboard" className="mb-6" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-        {/* Main Article Body (8 cols) */}
-        <article className="lg:col-span-8 bg-white rounded-2xl border border-slate-200 p-5 sm:p-8 shadow-sm">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+        {/* Main Article Body (9 cols) */}
+        <article className="lg:col-span-9 bg-white rounded-2xl border border-slate-200 p-5 sm:p-7 lg:p-8 shadow-sm min-w-0">
           {/* Badges & Category */}
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -523,8 +523,8 @@ export default function PostSlugPage({ params }: PostPageProps) {
           </div>
         </article>
 
-        {/* Right Sidebar (4 cols) */}
-        <aside className="lg:col-span-4 space-y-6">
+        {/* Right Sidebar (3 cols) */}
+        <aside className="lg:col-span-3 space-y-6 min-w-0">
           {/* Sidebar Top Ad Space */}
           <AdSenseSlot format="sidebar" className="my-0" />
 

@@ -272,15 +272,15 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
             const dataRows = tableLines.slice(1).filter(l => !isSeparator(l)).map(parseRow);
 
             return (
-              <div key={idx} className="overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-xs bg-white">
-                <table className="min-w-full divide-y divide-slate-200 text-xs sm:text-sm">
+              <div key={idx} className="w-full overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-xs bg-white">
+                <table className="w-full divide-y divide-slate-200 text-[11px] sm:text-xs">
                   <thead className="bg-slate-100/90">
                     <tr>
                       {headerCells.map((header, hIdx) => (
                         <th
                           key={hIdx}
                           scope="col"
-                          className="px-4 py-3 text-left font-bold text-slate-900 uppercase tracking-wider"
+                          className="px-2.5 sm:px-3 py-2 sm:py-2.5 text-left font-bold text-slate-900 tracking-tight whitespace-nowrap"
                         >
                           {formatInlineText(header)}
                         </th>
@@ -291,7 +291,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
                     {dataRows.map((row, rIdx) => (
                       <tr key={rIdx} className="hover:bg-slate-50/80 transition-colors odd:bg-slate-50/30">
                         {row.map((cell, cIdx) => (
-                          <td key={cIdx} className="px-4 py-3 text-slate-700 whitespace-normal leading-relaxed">
+                          <td key={cIdx} className="px-2.5 sm:px-3 py-2 sm:py-2.5 text-slate-700 whitespace-normal leading-snug break-words">
                             {formatInlineText(cell)}
                           </td>
                         ))}
