@@ -130,7 +130,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -174,9 +174,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       {/* Top Leaderboard Ad Space */}
       <AdSenseSlot format="leaderboard" className="mb-8" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-        {/* Main Article Stream (8 cols) */}
-        <div className="lg:col-span-8 space-y-6">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+        {/* Main Article Stream (9 cols) */}
+        <div className="lg:col-span-9 space-y-6 min-w-0">
           {articles.length === 0 ? (
             <div className="text-center py-12 bg-white rounded-xl border border-slate-200 p-8">
               <Newspaper className="w-12 h-12 text-slate-300 mx-auto mb-3" />
@@ -213,8 +213,8 @@ export default function CategoryPage({ params }: CategoryPageProps) {
           </div>
         </div>
 
-        {/* Sidebar (4 cols) */}
-        <aside className="lg:col-span-4 space-y-6">
+        {/* Sidebar (3 cols) */}
+        <aside className="lg:col-span-3 space-y-6 min-w-0">
           {/* Sidebar Top Ad Space */}
           <AdSenseSlot format="sidebar" className="my-0" />
 

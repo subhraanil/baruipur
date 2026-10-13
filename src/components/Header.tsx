@@ -51,7 +51,7 @@ export default function Header() {
     <header className="w-full bg-white border-b border-slate-200 shadow-sm sticky top-0 z-50">
       {/* Top utility bar */}
       <div className="bg-slate-900 text-slate-300 text-xs py-1.5 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+        <div className="max-w-[1440px] mx-auto flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center space-x-4">
             <span className="flex items-center gap-1.5 text-slate-200">
               <Calendar className="w-3.5 h-3.5 text-red-400" />
@@ -109,7 +109,7 @@ export default function Header() {
       </div>
 
       {/* Main Brand & Search Banner */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-4">
         <div className="flex items-center justify-between gap-4">
           <div className="flex items-center space-x-3">
             <button 
@@ -154,7 +154,7 @@ export default function Header() {
 
       {/* Primary Navigation Bar */}
       <nav className="border-t border-slate-100 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
           <div className="hidden md:flex items-center space-x-1 overflow-x-auto py-1">
             <a
               href="/"

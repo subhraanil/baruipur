@@ -54,7 +54,7 @@ export default function OrganizationsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(directorySchema) }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-xs text-slate-500 mb-6">
           <a href="/" className="hover:text-red-600 transition">প্রচ্ছদ</a>

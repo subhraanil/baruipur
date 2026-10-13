@@ -183,7 +183,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -252,8 +252,8 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
       <AdSenseSlot format="leaderboard" className="mb-8" />
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-        {/* Main Content (8 cols) */}
-        <div className="lg:col-span-8 space-y-8">
+        {/* Main Content (9 cols) */}
+        <div className="lg:col-span-9 min-w-0 space-y-8">
           
           {/* Key Highlights Grid */}
           {place.highlights && place.highlights.length > 0 && (
@@ -634,8 +634,8 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
           </div>
         </div>
 
-        {/* Sidebar (4 cols) */}
-        <aside className="lg:col-span-4 space-y-6">
+        {/* Sidebar (3 cols) */}
+        <aside className="lg:col-span-3 min-w-0 space-y-6">
           {/* Sidebar Top Ad Space */}
           <AdSenseSlot format="sidebar" className="my-0" />
 

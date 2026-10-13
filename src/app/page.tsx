@@ -105,7 +105,7 @@ export default function HomePage() {
       {/* 1. Breaking News Live Ticker */}
       <BreakingNewsTicker articles={sliderArticles} />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         {/* 2. QUICK ACCESS GRID (12 Interactive Civic & Lifestyle Tiles) */}
         <section className="mb-8">
           <div className="flex items-center justify-between mb-3">
@@ -138,9 +138,9 @@ export default function HomePage() {
         <AdSenseSlot format="leaderboard" className="mb-8" />
 
         {/* Main Grid: News + Sidebar */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          {/* Left Column: News Content (8 cols) */}
-          <div className="lg:col-span-8 space-y-8" id="latest-news">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+          {/* Left Column: News Content (9 cols) */}
+          <div className="lg:col-span-9 space-y-8 min-w-0" id="latest-news">
             {/* Top Hero Section: Interactive Slider of Latest News */}
             {sliderArticles.length > 0 && (
               <section>
@@ -466,8 +466,8 @@ export default function HomePage() {
             </section>
           </div>
 
-          {/* Right Column: Sidebar (4 cols) */}
-          <aside className="lg:col-span-4 space-y-6">
+          {/* Right Column: Sidebar (3 cols) */}
+          <aside className="lg:col-span-3 space-y-6 min-w-0">
             {/* Sidebar Top Ad Space */}
             <AdSenseSlot format="sidebar" className="my-0" />
 

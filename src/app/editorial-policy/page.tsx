@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function EditorialPolicyPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
         <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>
         <ChevronRight className="w-3.5 h-3.5 text-slate-400" />

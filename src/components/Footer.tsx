@@ -5,7 +5,7 @@ import { Phone, Shield, ExternalLink, Heart } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300 pt-12 pb-8 mt-16 border-t-4 border-red-600">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Info */}
           <div>

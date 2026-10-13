@@ -60,7 +60,7 @@ export default function HealthcareDirectoryPage() {
       />
 
       <div className="bg-slate-50 min-h-screen py-8 sm:py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
           {/* Breadcrumbs */}
           <nav className="flex items-center space-x-2 text-xs font-semibold text-slate-500 mb-6 overflow-x-auto whitespace-nowrap">
             <Link href="/" className="hover:text-red-600 transition">প্রচ্ছদ</Link>

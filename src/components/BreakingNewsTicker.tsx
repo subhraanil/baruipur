@@ -26,7 +26,7 @@ export default function BreakingNewsTicker({ articles }: BreakingNewsTickerProps
 
   return (
     <div className="bg-slate-900 border-y border-slate-800 text-white shadow-inner">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center gap-3">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-2 flex items-center gap-3">
         {/* Badge */}
         <div className="flex items-center gap-1.5 bg-red-600 text-white text-[11px] sm:text-xs font-black px-2.5 py-1 rounded shadow-sm tracking-wide shrink-0">
           <Flame className="w-3.5 h-3.5 animate-pulse text-amber-300" />

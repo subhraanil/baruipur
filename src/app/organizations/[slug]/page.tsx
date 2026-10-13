@@ -123,7 +123,7 @@ export default function OrganizationDetailPage({ params }: Props) {
         />
       )}
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         {/* Breadcrumb Navigation */}
         <nav className="flex items-center space-x-2 text-xs text-slate-500 mb-6">
           <a href="/" className="hover:text-red-600 transition">প্রচ্ছদ</a>
@@ -218,8 +218,8 @@ export default function OrganizationDetailPage({ params }: Props) {
         <AdSenseSlot format="leaderboard" className="mb-8" />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
-          {/* Main Content Area (8 Cols) */}
-          <div className="lg:col-span-8 space-y-8">
+          {/* Main Content Area (9 Cols) */}
+          <div className="lg:col-span-9 min-w-0 space-y-8">
             {/* Overview Section */}
             <section className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
               <h2 className="text-xl font-black text-slate-900 mb-4 flex items-center gap-2">
@@ -307,8 +307,8 @@ export default function OrganizationDetailPage({ params }: Props) {
             )}
           </div>
 
-          {/* Right Sidebar Area (4 Cols) */}
-          <aside className="lg:col-span-4 space-y-6">
+          {/* Right Sidebar Area (3 Cols) */}
+          <aside className="lg:col-span-3 min-w-0 space-y-6">
             {/* Leadership & Key People Card */}
             {org.keyPeople && org.keyPeople.length > 0 && (
               <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
