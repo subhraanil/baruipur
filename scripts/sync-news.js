@@ -89,6 +89,9 @@ function isJunkOrCommentOrPromo(text) {
   // Commercial boutique, kurti, saree, fashion showroom & product promo ads
   if (/(?:মোনালিসা|চুড়িদার|কুর্তি|byob|বাইওবি)/i.test(lower) && /(?:কেনাকাটা|শপিং|কিনতে|পছন্দের|কালেকশন|যোগাযোগ|দাম|অর্ডার|ডেলিভারি|মাস্ট)/i.test(lower)) return true;
 
+  // Commercial jewellery, gold, silver shopping offers & festive discounts
+  if (/(?:সোনা\s*কিনলে|রুপো\s*ফ্রি|সোনার\s*কয়েন|সোনার\s*গহনা|মজুরি\s*ও\s*জিএসটি|গহনায়\s*[\d০-৯]+%\s*মজুরি|জুয়েলার্স|jewellers?)/i.test(lower)) return true;
+
   // Commercial beauty parlour, salon, spa, cosmetics or hair treatment ads
   if (/(?:সালোন|স্যালোন|salon|পার্লার|parlour|parlor|বিউটি\s*পার্লার|কেরাটিন|বোটক্স|স্মুদনিং|স্ট্রেটনিং|বোটোপ্লাস্টিয়া|শ্যাম্পু\s*একদম\s*ফ্রি|পাবেন\s*একদম\s*ফ্রি|মাত্র\s*[\d০-৯,]+\s*টাকা|branch\s*locations|main\s*branch)/i.test(lower)) return true;
 
