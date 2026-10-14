@@ -291,24 +291,25 @@ export default function HomePage() {
                   </h3>
                 </div>
                 <span className="text-xs text-emerald-400 bg-slate-800/90 border border-emerald-500/30 px-3 py-1 rounded-full font-semibold">
-                  ✓ যাচাইকৃত তথ্য ২০২৬
+                  ✓ ৮টি যাচাইকৃত বিশেষ গাইড
                 </span>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {/* Guide 1: Durga Puja 2026 */}
                 <a 
-                  href="/top-things-to-do-in-baruipur-complete-experience-guide/"
-                  className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
+                  href="/baruipur-durga-puja-parikrama-pandal-guide-2026/"
+                  className="bg-gradient-to-br from-red-950/70 via-slate-800/90 to-slate-800 p-5 rounded-xl border border-red-500/40 hover:border-red-400 transition group flex flex-col justify-between"
                 >
                   <div>
-                    <span className="text-[10px] font-bold bg-cyan-900/60 text-cyan-300 border border-cyan-700 px-2 py-0.5 rounded-full inline-block mb-2">
-                      অভিজ্ঞতা ও ভ্রমণ
+                    <span className="text-[10px] font-bold bg-red-600 text-white px-2 py-0.5 rounded-full inline-block mb-2 shadow-xs">
+                      শারদ পরিক্রমা ২০২৬
                     </span>
-                    <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
-                      বারুইপুরে কী কী করবেন: ভ্রমণ ও স্থানীয় অভিজ্ঞতা
+                    <h4 className="font-bold text-white group-hover:text-red-300 transition text-sm sm:text-base leading-snug mb-1">
+                      বারুইপুর দুর্গোৎসব পরিক্রমা: সেরা ১৫টি মণ্ডপ, রুট ও পার্কিং
                     </h4>
-                    <p className="text-xs text-slate-400 line-clamp-2 mb-3">
-                      রাসমেলা, রাজবাড়ির ঐতিহ্যবাহী পদচারণা, সদাব্রত ঘাট, পেয়ারা বাগান ও এক দিনের ভ্রমণ পরিকল্পনা।
+                    <p className="text-xs text-slate-300 line-clamp-2 mb-3">
+                      পদ্মপুকুর, ফুলতলা ৩ নম্বর গেট, সাহাপাড়া, রাসমাঠ ও সাবর্ণ রাজবাড়ি পূজার রুট ও নো-এন্ট্রি গাইড।
                     </p>
                   </div>
                   <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
@@ -317,19 +318,20 @@ export default function HomePage() {
                   </div>
                 </a>
 
+                {/* Guide 2: Food & Restaurants */}
                 <a 
-                  href="/best-places-to-visit-in-baruipur-travel-guide/"
+                  href="/best-restaurants-cafes-and-food-guide-in-baruipur/"
                   className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
                 >
                   <div>
-                    <span className="text-[10px] font-bold bg-amber-900/60 text-amber-300 border border-amber-700 px-2 py-0.5 rounded-full inline-block mb-2">
-                      দর্শনীয় স্থান
+                    <span className="text-[10px] font-bold bg-orange-900/60 text-orange-300 border border-orange-700 px-2 py-0.5 rounded-full inline-block mb-2">
+                      খাবার ও ক্যাফে
                     </span>
                     <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
-                      বারুইপুরের দর্শনীয় স্থান: ঐতিহ্য, প্রকৃতি ও ভ্রমণ গাইড
+                      বারুইপুরের সেরা রেস্তোরাঁ, ক্যাফে ও ফুড গাইড
                     </h4>
                     <p className="text-xs text-slate-400 line-clamp-2 mb-3">
-                      রায়চৌধুরী রাজবাড়ি, আরণ্যক ইকো পার্ক, শিবানীপীঠ, মহাপ্রভুতলা ও পর্যটন নির্দেশিকা।
+                      আমিনিয়া, খাঁটি বিরিয়ানি, ক্যাফে ব্লিস, সুবীর সুইটসের ছানার জিলিপি ও ঐতিহ্যবাহী মিষ্টি।
                     </p>
                   </div>
                   <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
@@ -338,19 +340,20 @@ export default function HomePage() {
                   </div>
                 </a>
 
+                {/* Guide 3: Banquet & Marriage Halls */}
                 <a 
-                  href="/shopping-malls-and-top-brands-in-baruipur-market-guide/"
+                  href="/best-banquet-halls-and-marriage-venues-in-baruipur/"
                   className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
                 >
                   <div>
-                    <span className="text-[10px] font-bold bg-pink-900/60 text-pink-300 border border-pink-700 px-2 py-0.5 rounded-full inline-block mb-2">
-                      কেনাকাটা ও বাজার
+                    <span className="text-[10px] font-bold bg-purple-900/60 text-purple-300 border border-purple-700 px-2 py-0.5 rounded-full inline-block mb-2">
+                      বিবাহ ভবন ও ভেন্যু
                     </span>
                     <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
-                      বারুইপুরের শপিং মল, ব্র্যান্ড ও বাজার গাইড
+                      বারুইপুরের সেরা বিবাহ ভবন ও ব্যাঙ্কুয়েট হল ডিরেক্টরি
                     </h4>
                     <p className="text-xs text-slate-400 line-clamp-2 mb-3">
-                      প্যান্টালুনস, রিলায়েন্স ট্রেন্ডস, পুরাতন বাজার, স্বর্ণালঙ্কার প্রতিষ্ঠান ও পাইকারি বাজার।
+                      পৌরসভা উৎসব ভবন, শুভম ব্যাঙ্কুয়েট, আনন্দ লোক, রবীন্দ্র ভবন ও ধারণক্ষমতা তালিকা।
                     </p>
                   </div>
                   <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
@@ -359,6 +362,29 @@ export default function HomePage() {
                   </div>
                 </a>
 
+                {/* Guide 4: Real Estate & Flat Buying */}
+                <a 
+                  href="/baruipur-real-estate-property-and-flat-buying-guide/"
+                  className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
+                >
+                  <div>
+                    <span className="text-[10px] font-bold bg-emerald-900/60 text-emerald-300 border border-emerald-700 px-2 py-0.5 rounded-full inline-block mb-2">
+                      রিয়েল এস্টেট ও আবাসন
+                    </span>
+                    <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
+                      বারুইপুরে ফ্ল্যাট ও জমি কেনার বিশেষজ্ঞ গাইড
+                    </h4>
+                    <p className="text-xs text-slate-400 line-clamp-2 mb-3">
+                      বাইপাস কানেক্টিভিটি, প্রতি স্কয়ার ফুট বাজারদর, পৌরসভা স্যাংশন প্ল্যান ও আইনি চেকলিস্ট।
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
+                    <span>সম্পূর্ণ গাইড পড়ুন</span>
+                    <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition" />
+                  </div>
+                </a>
+
+                {/* Guide 5: Top Schools */}
                 <a 
                   href="/top-schools-in-baruipur-education-admission-guide/"
                   className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
@@ -380,23 +406,68 @@ export default function HomePage() {
                   </div>
                 </a>
 
+                {/* Guide 6: Shopping Malls */}
                 <a 
-                  href="/best-restaurants-cafes-and-sweets-in-baruipur-food-guide/"
-                  className="sm:col-span-2 bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
+                  href="/shopping-malls-and-top-brands-in-baruipur-market-guide/"
+                  className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
                 >
                   <div>
-                    <span className="text-[10px] font-bold bg-orange-900/60 text-orange-300 border border-orange-700 px-2 py-0.5 rounded-full inline-block mb-2">
-                      খাবার ও মিষ্টি
+                    <span className="text-[10px] font-bold bg-pink-900/60 text-pink-300 border border-pink-700 px-2 py-0.5 rounded-full inline-block mb-2">
+                      কেনাকাটা ও বাজার
                     </span>
                     <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
-                      বারুইপুরের রেস্তোরাঁ, ক্যাফে ও মিষ্টির গাইড
+                      বারুইপুরের শপিং মল, ব্র্যান্ড ও বাজার গাইড
                     </h4>
                     <p className="text-xs text-slate-400 line-clamp-2 mb-3">
-                      দ্যা ওয়ান বারুইপুর, সিলভার স্পুন, আসমা হোটেলের বিরিয়ানি, কামধেনু ও ঐতিহ্যবাহী পেয়ারা মাখা।
+                      প্যান্টালুনস, রিলায়েন্স ট্রেন্ডস, পুরাতন বাজার, স্বর্ণালঙ্কার প্রতিষ্ঠান ও পাইকারি বাজার।
                     </p>
                   </div>
                   <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
-                    <span>সম্পূর্ণ খাদ্য নির্দেশিকা পড়ুন</span>
+                    <span>সম্পূর্ণ গাইড পড়ুন</span>
+                    <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition" />
+                  </div>
+                </a>
+
+                {/* Guide 7: Places to Visit */}
+                <a 
+                  href="/best-places-to-visit-in-baruipur-travel-guide/"
+                  className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
+                >
+                  <div>
+                    <span className="text-[10px] font-bold bg-amber-900/60 text-amber-300 border border-amber-700 px-2 py-0.5 rounded-full inline-block mb-2">
+                      দর্শনীয় স্থান
+                    </span>
+                    <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
+                      বারুইপুরের দর্শনীয় স্থান: ঐতিহ্য, প্রকৃতি ও ভ্রমণ গাইড
+                    </h4>
+                    <p className="text-xs text-slate-400 line-clamp-2 mb-3">
+                      রায়চৌধুরী রাজবাড়ি, আরণ্যক ইকো পার্ক, শিবানীপীঠ, মহাপ্রভুতলা ও পর্যটন নির্দেশিকা।
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
+                    <span>সম্পূর্ণ গাইড পড়ুন</span>
+                    <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition" />
+                  </div>
+                </a>
+
+                {/* Guide 8: Things to do */}
+                <a 
+                  href="/top-things-to-do-in-baruipur-complete-experience-guide/"
+                  className="bg-slate-800/80 hover:bg-slate-800 p-5 rounded-xl border border-slate-700/60 transition group flex flex-col justify-between"
+                >
+                  <div>
+                    <span className="text-[10px] font-bold bg-cyan-900/60 text-cyan-300 border border-cyan-700 px-2 py-0.5 rounded-full inline-block mb-2">
+                      অভিজ্ঞতা ও ভ্রমণ
+                    </span>
+                    <h4 className="font-bold text-white group-hover:text-red-400 transition text-sm sm:text-base leading-snug mb-1">
+                      বারুইপুরে কী কী করবেন: ভ্রমণ ও স্থানীয় অভিজ্ঞতা
+                    </h4>
+                    <p className="text-xs text-slate-400 line-clamp-2 mb-3">
+                      রাসমেলা, রাজবাড়ির ঐতিহ্যবাহী পদচারণা, সদাব্রত ঘাট, পেয়ারা বাগান ও এক দিনের ভ্রমণ পরিকল্পনা।
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-between text-xs font-semibold text-red-400 pt-2 border-t border-slate-700/50">
+                    <span>সম্পূর্ণ গাইড পড়ুন</span>
                     <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition" />
                   </div>
                 </a>
