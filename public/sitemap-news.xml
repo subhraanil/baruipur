@@ -2,58 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://baruipur.online/%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%AC%E0%A6%A8%E0%A7%87%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC/</loc>
+    <loc>https://baruipur.online/%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A7%A9%E0%A7%AB%E0%A7%A6-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-10-16T03:24:20.000Z</news:publication_date>
-      <news:title>রাসমাঠের রায়চৌধুরী বাড়ির পুজো মানেই বনেদিয়ানা, পুরনো দিনের রীতি আর অগণিত মানুষের আবেগ</news:title>
+      <news:title>রাসমাঠের সাবর্ণ রায়চৌধুরী রাজবাড়ির পুজো: ৩৫০ বছরের বনেদিয়ানা, ঐতিহ্যবাহী নীলকণ্ঠ পাখি ওড়ানোর রীতি ও ইতিহাস</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%B0/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-15T20:56:15.000Z</news:publication_date>
-      <news:title>বারুইপুর মিডিয়া গ্রুপের পক্ষ থেকে পাড়ার সেরা মন্ডপের জেলা সেরা শিব শংকর বস্ত্রালয় আগমনী</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%B6%E0%A6%BE%E0%A6%B0%E0%A6%A6%E0%A7%8B%E0%A7%8E%E0%A6%B8%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A6%B9%E0%A7%87-%E0%A6%8F%E0%A6%95-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-10-15T20:02:05.000Z</news:publication_date>
-      <news:title>শারদোৎসবের আবহে এক নতুন অধ্যায়ের সূচনা বারুইপুর পুলিশ জেলায়</news:title>
+      <news:title>শারদোৎসবের আবহে এক নতুন অধ্যায়ের সূচনা: বারুইপুর পুলিশ লাইনে প্রথমবার দুর্গাপূজার শুভ উদ্বোধন</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/inauguration-of-durga-puja-2026-organized-for/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-15T17:42:58.000Z</news:publication_date>
-      <news:title>Inauguration of Durga Puja 2026 organized for the first time by the Police Family in Barui</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%8F%E0%A6%A4-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%A8-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AB%E0%A7%87/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%A8-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AB%E0%A7%87-%E0%A6%86%E0%A6%A1%E0%A7%8D%E0%A6%A1%E0%A6%BE-%E0%A6%93-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A0%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A6%BE/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-10-15T15:17:21.000Z</news:publication_date>
-      <news:title>বারুইপুরে প্রথমবার এত সুন্দর গার্ডেন ক্যাফে</news:title>
+      <news:title>বারুইপুরে শহরের কোলাহল পেরিয়ে প্রকৃতির কোলে প্রথম গার্ডen ক্যাফে: আড্ডা ও রসনাতৃপ্তির নতুন ঠিকানা</news:title>
     </news:news>
   </url>
   <url>
@@ -68,14 +46,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%97%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AE%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A7%87-%E0%A6%89%E0%A6%A0%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0/</loc>
+    <loc>https://baruipur.online/%E0%A6%97%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AE%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-10-15T12:32:39.000Z</news:publication_date>
-      <news:title>‘গাঁয়ের উমা’ ভাবনায় সেজে উঠেছে সপ্তপল্লী, চতুর্থীতেই দর্শনার্থীদের জন্য খুলল ৫২তম বর্ষের</news:title>
+      <news:title>&quot;গাঁয়ের উমা&quot; ভাবনায় সেজে উঠল বারুইপুর সপ্তপল্লী: ৫২তম বর্ষের দৃষ্টিনন্দন মণ্ডপ শুভ উদ্বোধন</news:title>
     </news:news>
   </url>
   <url>
@@ -90,14 +68,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%8F%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B/</loc>
+    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%89-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%A0/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-10-15T10:53:18.000Z</news:publication_date>
-      <news:title>বারুইপুর ভট্টাচার্য পাড়ার ২০২৬ এর দুর্গাপুজো</news:title>
+      <news:title>নিউ ইন্ডিয়ান মাঠের বিপরীতে বারুইপুর ভট্টাচার্য পাড়ার শারদোৎসব: সাবেকি ঐতিহ্যে জমজমাট প্রস্তুতি</news:title>
     </news:news>
   </url>
   <url>
@@ -112,14 +90,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%8F%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%8F/</loc>
+    <loc>https://baruipur.online/%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%A5%E0%A6%BF%E0%A6%AE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A6%B0%E0%A6%AE/</loc>
     <news:news>
       <news:publication>
         <news:name>বারুইপুর অনলাইন</news:name>
         <news:language>bn</news:language>
       </news:publication>
       <news:publication_date>2026-10-15T07:37:16.000Z</news:publication_date>
-      <news:title>বারুইপুর শাসন বালক সংঘের ২০২৬ এর দুর্গাপুজো । এবছর তাদের থিম বন্দেমাতরম!</news:title>
+      <news:title>বারুইপুর শাসন বালক সংঘের ২০২৬ শারদ ভাবনা &quot;বন্দে মাতরম&quot;: মণ্ডপজুড়ে দেশাত্মবোধ ও ঐতিহ্যের রূপায়ণ</news:title>
     </news:news>
   </url>
   <url>
@@ -131,17 +109,6 @@
       </news:publication>
       <news:publication_date>2026-10-14T19:09:49.000Z</news:publication_date>
       <news:title>শারদীয়ার আনন্দ ভাগ করে নিতে বারুইপুর ৩ নম্বর ওয়ার্ডের হোমলেস হোমে বস্ত্র বিতরণ উদ্যোগ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8B%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T17:52:37.000Z</news:publication_date>
-      <news:title>বারুইপুর ঋষি বঙ্কিমনগর আদি সার্বজনীন দুর্গোৎসব পূজা কমিটির এ বছরের ভাবনা আহ্বান আর তারই জো</news:title>
     </news:news>
   </url>
   <url>
@@ -200,17 +167,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%93-%E0%A6%86%E0%A6%9C-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A6%AB%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%B0/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T15:08:15.000Z</news:publication_date>
-      <news:title>বারুইপুর কাছারী বাজারে আবারও আজ ট্রান্সফরমার বার্স্ট করে বিধ্বংসী আগুন</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A6%AB%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A7%8D%E0%A6%AC%E0%A6%82%E0%A6%B8%E0%A7%80-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8/</loc>
     <news:news>
       <news:publication>
@@ -219,28 +175,6 @@
       </news:publication>
       <news:publication_date>2026-10-14T14:41:35.000Z</news:publication_date>
       <news:title>বারুইপুর কোর্ট ও কাচারি বাজার চত্বরে ট্রান্সফরমারে বিধ্বংসী আগুন, ভস্মীভূত বেশ কয়েকটি দোকান</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%AB%E0%A7%87%E0%A6%9F%E0%A7%87/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T14:18:03.000Z</news:publication_date>
-      <news:title>কাছারি বাজার মসজিদের কাছে ট্রান্সফর্মার ফেটে ছড়ালো আতঙ্ক</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/live-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80-%E0%A6%B8%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%AC/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T14:12:53.000Z</news:publication_date>
-      <news:title>Live বারইপুর কাচারি বাজারে ব্যবসায়ী সমিতির বিল্ডিং এর সামনে ইলেকট্রিক ট্রান্সফর্মায় বিধ্</news:title>
     </news:news>
   </url>
   <url>
