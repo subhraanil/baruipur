@@ -2981,7 +2981,8 @@
         "/images/crawled/bc29582d8658d80d8c0adfff68cf2ede.jpg",
         "/images/crawled/0483e1f26e733065228e3b503ec21b36.jpg",
         "/images/crawled/3766506da0775d0ae4ee8365e242a817.jpg",
-        "/images/crawled/7a7de14b66665abb10da3a56a9846069.jpg"
+        "/images/crawled/7a7de14b66665abb10da3a56a9846069.jpg",
+        "/images/crawled/99d0588224392f7daf5801a1431ca378.jpg"
       ],
       "publishedAt": "2026-10-02T11:45:37.000Z",
       "isBreaking": false,
@@ -2992,7 +2993,9 @@
       "authorId": "mousumi-sengupta",
       "authorName": "মৌসুমী সেনগুপ্ত",
       "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
-      "reportingLocation": "বারুইপুর রাসমাঠ"
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "videoUrl": "https://www.facebook.com/watch/?v=5151746501718403",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D5151746501718403&show_text=0"
     },
     {
       "id": "art-1790960413031-x3ll",
@@ -10157,7 +10160,10 @@
       "originalPostUrl": "https://baruipur.online/places",
       "imageUrl": "/images/places/baruipur-rajbari-facade.jpg",
       "images": [
-        "/images/places/baruipur-rajbari-facade.jpg"
+        "/images/places/baruipur-rajbari-facade.jpg",
+        "/images/crawled/9e4200c73051c55e8dda30d255c16d22.jpg",
+        "/images/crawled/abf98411dcbaf37321bd10cacf540ecd.jpg",
+        "/images/crawled/4d95e217f1288adc0667a805f902561b.jpg"
       ],
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,
@@ -10171,7 +10177,9 @@
       "authorId": "subhranil-naskar",
       "authorName": "শুভ্রনীল নস্কর",
       "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
-      "reportingLocation": "বারুইপুর সদর"
+      "reportingLocation": "বারুইপুর সদর",
+      "videoUrl": "https://www.facebook.com/watch/?v=2025241358160805",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2025241358160805&show_text=0"
     },
     {
       "id": "art-guide-places-to-visit",
