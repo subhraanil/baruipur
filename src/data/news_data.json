@@ -1,6 +1,67 @@
 {
   "articles": [
     {
+      "id": "art-1792254774655-rn17",
+      "title": "বারুইপুরে ইসরোর চন্দ্রযান-৩, উদ্বোধন করলে আই .জি দক্ষিণবঙ্গ",
+      "slug": "বারুইপুরে-ইসরোর-চন্দ্রযান-৩-উদ্বোধন-করলে-আই-জ",
+      "summary": "বারুইপুরে ইসরোর চন্দ্রযান-৩, উদ্বোধন করলে আই .জি দক্ষিণবঙ্গ\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পো...",
+      "content": "বারুইপুরে ইসরোর চন্দ্রযান-৩, উদ্বোধন করলে আই .জি দক্ষিণবঙ্গ\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1741348614660633",
+      "originalPostUrl": "https://www.facebook.com/1741348614660633",
+      "imageUrl": "/images/crawled/e9307a092cb16aca368a774a43c4dfe6.jpg",
+      "images": [
+        "/images/crawled/e9307a092cb16aca368a774a43c4dfe6.jpg",
+        "/images/crawled/bb12d7c115b3a2a2f3bf6e176affac0c.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1821421112343879",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1821421112343879&show_text=0",
+      "publishedAt": "2026-10-17T10:52:11.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 19,
+      "crawlHash": "a0d8af86a5454068704751f5e8ad6ae8"
+    },
+    {
+      "id": "art-1792254773732-u15m",
+      "title": "সকলকে জানাই শুভ সপ্তমীর প্রীতি শুভেচ্ছা ও আন্তরিক অভিনন্দন",
+      "slug": "সকলকে-জানাই-শুভ-সপ্তমীর-প্রীতি-শুভেচ্ছা-ও-আন্",
+      "summary": "সকলকে জানাই শুভ সপ্তমীর প্রীতি শুভেচ্ছা ও আন্তরিক অভিনন্দন। Baruipur-বারুইপুর। শুভ শারদীয়ার প্রীতি শুভেচ্ছা ও আন্তরিক অভিনন্দন 🙏।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিন...",
+      "content": "সকলকে জানাই শুভ সপ্তমীর প্রীতি শুভেচ্ছা ও আন্তরিক অভিনন্দন। Baruipur-বারুইপুর। শুভ শারদীয়ার প্রীতি শুভেচ্ছা ও আন্তরিক অভিনন্দন 🙏।\n\n[স্থানীয় আপডেট]: বারুইপুর মহকুমার নিত্যদিনের খবরাখবর ও নাগরিক উন্নয়নের তথ্যে নিয়মিত চোখ রাখুন বারুইপুর সংবাদ পোর্টালে।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-24x7",
+      "sourceName": "Baruipur 24x7, All Baruipur News",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122355564200020343",
+      "originalPostUrl": "https://www.facebook.com/122355564200020343",
+      "imageUrl": "/images/crawled/b1107c917dbd33eaccb57e270463b0e4.jpg",
+      "images": [
+        "/images/crawled/b1107c917dbd33eaccb57e270463b0e4.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=29852472021006894",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29852472021006894&show_text=0",
+      "publishedAt": "2026-10-17T14:18:56.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "published",
+      "views": 12,
+      "crawlHash": "3eb11a57d87e621b72cca8fabc99f4cd"
+    },
+    {
       "id": "art-1792223840657-zc6g",
       "title": "Baruipur Fultala More",
       "slug": "baruipur-fultala-more",
@@ -80,7 +141,8 @@
       "imageUrl": "/images/crawled/9d7f595229dc6beea0705cd155dfcc7c.jpg",
       "images": [
         "/images/crawled/9d7f595229dc6beea0705cd155dfcc7c.jpg",
-        "/images/crawled/71422c4c9b7060b0b8420b60ef666c0d.jpg"
+        "/images/crawled/71422c4c9b7060b0b8420b60ef666c0d.jpg",
+        "/images/crawled/22607d542f704cd6cc0ee1a37ec4e6c7.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=2232035924035186",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2232035924035186&show_text=0",
@@ -3887,7 +3949,9 @@
         "/images/crawled/c30267f5efe020220ae0345fccdc3c0e.jpg",
         "/images/crawled/4139604341ff958b9bf127df00241aa9.jpg",
         "/images/crawled/cf1cde67c081190c52fc1b681cd74007.jpg",
-        "/images/crawled/9da265c56777efb9c2fe68d7a0d594c8.jpg"
+        "/images/crawled/9da265c56777efb9c2fe68d7a0d594c8.jpg",
+        "/images/crawled/898fbfcaf6f046e9fc43d18a3eddec8d.jpg",
+        "/images/crawled/2bb33798a92b256fb86ad44041d4510e.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1625938558976334",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1625938558976334&show_text=0",
@@ -5284,7 +5348,8 @@
         "/images/crawled/74af9ff98ebc35004d37345e8b79e152.jpg",
         "/images/crawled/3c4ee374d889991560338f00141a98e4.jpg",
         "/images/crawled/900eccfcd48c1f0cece45ca3152852fc.jpg",
-        "/images/crawled/6757e2d9d8ba8b56fe3a6b638cfd593b.jpg"
+        "/images/crawled/6757e2d9d8ba8b56fe3a6b638cfd593b.jpg",
+        "/images/crawled/5e1bfe513f59eb50e49f2c55d73832a4.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1110986978154813",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1110986978154813&show_text=0",
@@ -7666,7 +7731,9 @@
         "/images/crawled/77ee911e1a51328d2c80f18f14613f4d.jpg",
         "/images/crawled/968d18c0ad5b9960c051476ea3445d1a.jpg",
         "/images/crawled/6bdc4fe96b4bc0294064b548a95cccdd.jpg",
-        "/images/crawled/24821b31e36c0feee10c84c5f3ebac79.jpg"
+        "/images/crawled/24821b31e36c0feee10c84c5f3ebac79.jpg",
+        "/images/crawled/90012bcf507ebee568e566fa45598b63.jpg",
+        "/images/crawled/3e6d3c79dda7463b4cdbaffd3984a2c2.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1413999654033439",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1413999654033439&show_text=0",
@@ -11150,7 +11217,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-17T07:56:42.872Z"
+      "lastCrawledAt": "2026-10-17T16:32:13.738Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -11163,7 +11230,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-17T07:56:44.587Z"
+      "lastCrawledAt": "2026-10-17T16:32:15.815Z"
     },
     {
       "id": "src-fb-police",
@@ -11176,7 +11243,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-17T07:56:50.274Z"
+      "lastCrawledAt": "2026-10-17T16:32:19.140Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -11189,7 +11256,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-17T07:56:51.874Z"
+      "lastCrawledAt": "2026-10-17T16:32:21.240Z"
     },
     {
       "id": "src-fb-uncover",
@@ -11202,7 +11269,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-17T07:56:54.820Z"
+      "lastCrawledAt": "2026-10-17T16:32:25.312Z"
     },
     {
       "id": "src-fb-update",
@@ -11215,7 +11282,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-17T07:56:57.970Z"
+      "lastCrawledAt": "2026-10-17T16:32:30.263Z"
     },
     {
       "id": "src-fb-barta",
@@ -11228,7 +11295,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-17T07:57:00.992Z"
+      "lastCrawledAt": "2026-10-17T16:32:34.704Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -11241,7 +11308,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-17T07:57:03.400Z"
+      "lastCrawledAt": "2026-10-17T16:32:37.656Z"
     },
     {
       "id": "src-fb-voice",
@@ -11254,7 +11321,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-17T07:57:10.244Z"
+      "lastCrawledAt": "2026-10-17T16:32:43.186Z"
     },
     {
       "id": "src-fb-24x7",
@@ -11267,7 +11334,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-17T07:57:13.287Z"
+      "lastCrawledAt": "2026-10-17T16:32:48.292Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -11280,10 +11347,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-17T07:57:18.419Z"
+      "lastCrawledAt": "2026-10-17T16:32:52.549Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1792254775654",
+      "timestamp": "2026-10-17T16:32:55.654Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 39, সমন্বয়ের পর: 10, নতুন প্রকাশিত সংবাদ: 2 টি।",
+      "itemsFetched": 39,
+      "itemsPublished": 2
+    },
     {
       "id": "log-1792223840875",
       "timestamp": "2026-10-17T07:57:20.875Z",
