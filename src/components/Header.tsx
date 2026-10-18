@@ -125,6 +125,8 @@ export default function Header() {
               <img 
                 src="/images/logo.png" 
                 alt="বারুইপুর অনলাইন - Baruipur Online" 
+                width={200}
+                height={48}
                 className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </a>

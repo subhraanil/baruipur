@@ -3,18 +3,26 @@ import type { Metadata } from 'next';
 import { ChevronRight, FileText, CheckCircle2, AlertTriangle, ShieldCheck, Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'ব্যবহারের শর্তাবলী (Terms of Service) - বারুইপুর অনলাইন | Baruipur Online',
+  title: 'ব্যবহারের শর্তাবলী (Terms of Service) - বারুইপুর অনলাইন',
   description: 'বারুইপুর অনলাইন ওয়েবসাইট ব্যবহারের সাধারণ শর্তাবলী, কপিরাইট, বৌদ্ধিক সম্পত্তি ও দায়মুক্তি সংক্রান্ত নীতিমালা।',
   alternates: {
     canonical: 'https://baruipur.online/terms-of-service/',
   },
   openGraph: {
-    title: 'ব্যবহারের শর্তাবলী - বারুইপুর অনলাইন Baruipur Online',
+    title: 'ব্যবহারের শর্তাবলী - বারুইপুর অনলাইন',
     description: 'ওয়েবসাইট ব্যবহারের সাধারণ নীতিমালা, স্বত্বাধিকার ও দায়বদ্ধতা।',
     url: 'https://baruipur.online/terms-of-service/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'article',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ব্যবহারের শর্তাবলী - বারুইপুর অনলাইন',
+      }
+    ]
   }
 };
 

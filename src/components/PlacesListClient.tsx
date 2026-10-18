@@ -244,7 +244,9 @@ export default function PlacesListClient({ places }: PlacesListClientProps) {
                   <div className="relative h-44 w-full overflow-hidden bg-slate-900">
                     <img 
                       src={coverImg} 
-                      alt={place.nameBn}
+                      alt={place.nameBn.length > 90 ? (place.nameBn.slice(0, 87) + '...') : place.nameBn}
+                      width={600}
+                      height={350}
                       className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                       loading="lazy"
                     />

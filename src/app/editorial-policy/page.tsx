@@ -3,18 +3,26 @@ import type { Metadata } from 'next';
 import { ChevronRight, CheckCircle2, Eye, FileText, Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'সম্পাদকীয় নীতি (Editorial Policy) - বারুইপুর অনলাইন | Baruipur Online',
+  title: 'সম্পাদকীয় নীতি (Editorial Policy) - বারুইপুর অনলাইন',
   description: 'বারুইপুর অনলাইনের সংবাদ সংগ্রহ, ফ্যাক্ট-চেকিং, সামাজিক মাধ্যমের তথ্য যাচাই, উৎস স্বীকৃতি এবং বিজ্ঞাপনী নীতি সম্পর্কে জানুন।',
   alternates: {
     canonical: 'https://baruipur.online/editorial-policy/',
   },
   openGraph: {
-    title: 'সম্পাদকীয় নীতি - বারুইপুর অনলাইন Baruipur Online',
+    title: 'সম্পাদকীয় নীতি - বারুইপুর অনলাইন',
     description: 'সংবাদ সংগ্রহ, তথ্য যাচাই ও প্রকাশের স্বচ্ছ নীতি নির্দেশিকা।',
     url: 'https://baruipur.online/editorial-policy/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'article',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'সম্পাদকীয় নীতি - বারুইপুর অনলাইন',
+      }
+    ]
   }
 };
 

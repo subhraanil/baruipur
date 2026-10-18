@@ -72,8 +72,9 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
   }
 
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
-  const title = place.metaTitle || `${place.nameBn} (${place.nameEn}) - বারুইপুর Baruipur`;
-  const description = place.metaDescription || `${place.overview.slice(0, 160)}...`;
+  const title = place.metaTitle || `${place.nameBn} (${place.nameEn}) - বারুইপুর`;
+  const rawDesc = place.metaDescription || place.overview;
+  const description = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc;
   const image = place.coverImage || place.images?.[0]?.url || 'https://baruipur.online/images/baruipur-logo.png';
 
   return {
@@ -103,7 +104,7 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
           url: image,
           width: 1200,
           height: 630,
-          alt: place.nameBn
+          alt: place.nameBn.length > 95 ? place.nameBn.slice(0, 92) + '...' : place.nameBn
         }
       ]
     },
@@ -239,9 +240,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-2 leading-tight">
             {place.nameBn}
           </h1>
-          <h2 className="text-lg sm:text-xl font-medium text-red-300 mb-4">
+          <p className="text-lg sm:text-xl font-medium text-red-300 mb-4">
             {place.nameEn}
-          </h2>
+          </p>
           <p className="text-sm sm:text-base text-slate-200 max-w-3xl leading-relaxed">
             {place.taglineBn}
           </p>
@@ -315,7 +316,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                     <div className="relative h-48 sm:h-52 w-full overflow-hidden bg-slate-900">
                       <img 
                         src={img.url} 
-                        alt={img.captionBn}
+                        alt={img.captionBn?.length > 90 ? (img.captionBn.slice(0, 87) + '...') : (img.captionBn || place.nameBn)}
+                        width={600}
+                        height={400}
                         className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                         loading="lazy"
                       />
@@ -762,9 +765,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
           {/* Other Places Recommendations */}
           {otherPlaces.length > 0 && (
             <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-              <h3 className="text-base font-black text-slate-900 border-b border-slate-150 pb-3 mb-4">
+              <h2 className="text-base font-black text-slate-900 border-b border-slate-150 pb-3 mb-4">
                 বারুইপুরের অন্যান্য স্থান
-              </h3>
+              </h2>
               <div className="space-y-3">
                 {otherPlaces.map(other => (
                   <a
@@ -776,7 +779,9 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
                       <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-slate-100">
                         <img 
                           src={other.coverImage} 
-                          alt={other.nameBn} 
+                          alt={other.nameBn.length > 80 ? (other.nameBn.slice(0, 77) + '...') : other.nameBn} 
+                          width={48}
+                          height={48}
                           className="w-full h-full object-cover group-hover:scale-105 transition"
                           loading="lazy"
                         />

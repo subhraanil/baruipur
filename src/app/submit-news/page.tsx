@@ -58,7 +58,11 @@ export default function SubmitNewsPage() {
             </a>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-5 text-xs">
+          <div>
+            <h2 className="text-xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-200">
+              সংবাদের বিবরণ ও প্রেরকের তথ্য
+            </h2>
+            <form onSubmit={handleSubmit} className="space-y-5 text-xs">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-slate-700 font-bold mb-1">আপনার নাম *</label>
@@ -170,6 +174,7 @@ export default function SubmitNewsPage() {
               খবর জমা দিন
             </button>
           </form>
+        </div>
         )}
       </div>
     </div>

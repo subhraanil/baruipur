@@ -47,27 +47,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const rawDesc = `${facility.nameBn} (${facility.nameEn}): ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি এবং যোগাযোগের নম্বর।`;
+  const cleanDesc = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc;
+
   return {
-    title: `${facility.nameBn} বারুইপুর | ডাক্তার তালিকা, ওপিডি সময়সূচি ও অ্যাপয়েন্টমেন্ট ফোন`,
-    description: `${facility.nameBn} (${facility.nameEn}): ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি, প্যাথলজিক্যাল টেস্ট এবং যোগাযোগের নম্বর।`,
+    title: `${facility.nameBn} বারুইপুর | ডাক্তার তালিকা ও সময়সূচি`,
+    description: cleanDesc,
     alternates: {
       canonical: `https://baruipur.online/health-directory/${facility.slug}/`,
     },
     openGraph: {
       title: `${facility.nameBn} - ওপিডি ডাক্তার তালিকা ও বুকিং`,
-      description: `${facility.taglineBn}. ঠিকানা: ${facility.addressBn}`,
+      description: cleanDesc,
       url: `https://baruipur.online/health-directory/${facility.slug}/`,
       type: 'website',
-      ...(facility.coverImage ? {
-        images: [
-          {
-            url: facility.coverImage.startsWith('http') ? facility.coverImage : `https://baruipur.online${facility.coverImage}`,
-            width: 1200,
-            height: 630,
-            alt: facility.nameBn,
-          }
-        ]
-      } : {})
+      images: [
+        {
+          url: facility.coverImage ? (facility.coverImage.startsWith('http') ? facility.coverImage : `https://baruipur.online${facility.coverImage}`) : 'https://baruipur.online/images/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: facility.nameBn.length > 90 ? facility.nameBn.slice(0, 87) + '...' : facility.nameBn,
+        }
+      ]
     }
   };
 }
@@ -283,7 +284,9 @@ export default function FacilityDetailPage({ params }: Props) {
                   <div key={idx} className="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-sm group">
                     <img
                       src={imgUrl}
-                      alt={`${facility.nameBn} - সাইনবোর্ড ও সময়সূচি ছবি ${idx + 1}`}
+                      alt={`${facility.nameBn.length > 60 ? facility.nameBn.slice(0, 57) + '...' : facility.nameBn} - ছবি ${idx + 1}`}
+                      width={800}
+                      height={600}
                       className="w-full h-72 sm:h-96 object-cover object-center group-hover:scale-[1.02] transition-transform duration-300"
                       loading="lazy"
                     />

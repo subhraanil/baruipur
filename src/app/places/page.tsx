@@ -8,8 +8,8 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও নাগরিক নির্দেশিকা | বারুইপুর Baruipur',
-  description: 'বারুইপুর পৌরসভা, আদালত, রবীন্দ্র ভবন ও নিউ ইন্ডিয়ান গ্রাউন্ড, মা শিবানী পীঠ, জোড়া শিব মন্দির, নেতাজির পৈতৃক ভিটে, ধপধপি কালীবাড়ি, ক্যাথিড্রাল চার্চ, পুরাতন বাজার, পুলিশ জেলা, হাসপাতাল, কলেজ ও পিকনিক স্পট সহ শহরের ২৮টি প্রধান স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
+  title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও নাগরিক নির্দেশিকা',
+  description: 'বারুইপুর পৌরসভা, আদালত, রবীন্দ্র ভবন, মা শিবানী পীঠ, নেতাজির পৈতৃক ভিটে, ধপধপি কালীবাড়ি, হাসপাতাল ও পিকনিক স্পট সহ প্রধান স্থানের পূর্ণাঙ্গ নির্দেশিকা।',
   keywords: [
     'Baruipur Municipality', 'Baruipur Police District', 'Baruipur College', 'Baruipur Court',
     'Baruipur Rabindra Bhawan', 'Maa Shibani Pith', 'Baruipur Jora Shiva Mandir', 'Subhash Bhavan Kodalia',
@@ -22,12 +22,20 @@ export const metadata: Metadata = {
     canonical: 'https://baruipur.online/places/',
   },
   openGraph: {
-    title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও তথ্য | বারুইপুর Baruipur',
-    description: 'আদালত, রবীন্দ্র ভবন, মা শিবানী পীঠ, জোড়া শিব মন্দির, নেতাজির পৈতৃক ভিটে, পৌরসভা, কলেজ, আরণ্যক ও রাজবাড়ির পূর্ণাঙ্গ তথ্য ও নির্দেশিকা।',
+    title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও তথ্য - বারুইপুর অনলাইন',
+    description: 'আদালত, রবীন্দ্র ভবন, মা শিবানী পীঠ, নেতাজির ভিটে, পৌরসভা, আরণ্যক ও রাজবাড়ির পূর্ণাঙ্গ তথ্য ও নির্দেশিকা।',
     url: 'https://baruipur.online/places/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও নির্দেশিকা',
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',

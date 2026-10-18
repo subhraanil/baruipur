@@ -3,18 +3,26 @@ import type { Metadata } from 'next';
 import { ChevronRight, ShieldCheck, Cookie, Lock, Eye, AlertCircle, HelpCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'গোপনীয়তা নীতি (Privacy Policy) - বারুইপুর অনলাইন | Baruipur Online',
+  title: 'গোপনীয়তা নীতি (Privacy Policy) - বারুইপুর অনলাইন',
   description: 'বারুইপুর অনলাইনের গোপনীয়তা নীতি। কুকি নীতি, গুগল অ্যাডসেন্স (Google AdSense), ব্যক্তিগত তথ্য সুরক্ষা ও ডেটা সংগ্রহ সংক্রান্ত স্বচ্ছ নীতিমালা।',
   alternates: {
     canonical: 'https://baruipur.online/privacy-policy/',
   },
   openGraph: {
-    title: 'গোপনীয়তা নীতি - বারুইপুর অনলাইন Baruipur Online',
+    title: 'গোপনীয়তা নীতি - বারুইপুর অনলাইন',
     description: 'ব্যক্তিগত তথ্য সুরক্ষা, কুকি এবং বিজ্ঞাপন নীতি সংক্রান্ত নির্দেশিকা।',
     url: 'https://baruipur.online/privacy-policy/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'article',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'গোপনীয়তা নীতি - বারুইপুর অনলাইন',
+      }
+    ]
   }
 };
 

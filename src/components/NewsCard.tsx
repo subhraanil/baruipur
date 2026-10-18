@@ -39,6 +39,12 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
   const safeImgUrl = getSafeImageUrl(article.imageUrl);
   const fallbackImg = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80';
 
+  const safeAlt = (text: string, max = 78) => {
+    if (!text) return 'বারুইপুর সংবাদ';
+    const clean = text.replace(/["']/g, '');
+    return clean.length > max ? clean.slice(0, max - 3) + '...' : clean;
+  };
+
   if (variant === 'featured') {
     return (
       <div className="relative group overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all border border-slate-200">
@@ -47,7 +53,9 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src={safeImgUrl} 
-              alt={article.title}
+              alt={safeAlt(article.title)}
+              width={800}
+              height={450}
               onError={(e) => { (e.target as HTMLImageElement).src = fallbackImg; }}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -134,7 +142,9 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src={safeImgUrl} 
-            alt={article.title}
+            alt={safeAlt(article.title)}
+            width={320}
+            height={240}
             onError={(e) => { (e.target as HTMLImageElement).src = fallbackImg; }}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -206,7 +216,9 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 
           src={safeImgUrl} 
-          alt={article.title}
+          alt={safeAlt(article.title)}
+          width={600}
+          height={375}
           onError={(e) => { (e.target as HTMLImageElement).src = fallbackImg; }}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />

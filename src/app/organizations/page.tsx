@@ -10,8 +10,8 @@ import {
 import AdSenseSlot from '@/components/AdSenseSlot';
 
 export const metadata: Metadata = {
-  title: 'বারুইপুরের শীর্ষস্থানীয় ক্লাব, সমাজসেবা ট্রাস্ট, সংগঠন ও ব্যবসা নির্দেশিকা | বারুইপুর Baruipur',
-  description: 'রিয়েল স্টার ক্লাব, সামারসেট ক্লাব, ফুলতলা বিধান স্মৃতি সংঘ, বারুইপুর বার অ্যাসোসিয়েশন, ব্যবসায়ী সমিতি, ব্লাড ডোনার্স ফোরাম, রোটারি ও লায়ন্স ক্লাব সহ মহকুমার নিবন্ধিত ক্লাব, এনজিও, চ্যারিটি ট্রাস্ট ও ব্যবসায়িক প্রতিষ্ঠানের পূর্ণাঙ্গ তালিকা।',
+  title: 'বারুইপুরের শীর্ষস্থানীয় ক্লাব, সমাজসেবা ট্রাস্ট ও প্রতিষ্ঠান',
+  description: 'রিয়েল স্টার ক্লাব, সামারসেট ক্লাব, ফুলতলা বিধান স্মৃতি সংঘ, বার অ্যাসোসিয়েশন, রোটারি ও লায়ন্স ক্লাব সহ মহকুমার নিবন্ধিত প্রতিষ্ঠান সমূহের তালিকা।',
   keywords: [
     'Baruipur Clubs', 'Real Star Club Baruipur', 'Summerset Club', 'Bidhan Smriti Sangha Fultala',
     'Baruipur Bar Association', 'Baruipur Byabsayi Samity', 'Baruipur Blood Donors Forum',
@@ -22,12 +22,20 @@ export const metadata: Metadata = {
     canonical: 'https://baruipur.online/organizations/',
   },
   openGraph: {
-    title: 'বারুইপুরের শীর্ষস্থানীয় ক্লাব, প্রতিষ্ঠান ও সমাজসেবা ট্রাস্ট ডিরেক্টরি',
+    title: 'বারুইপুরের শীর্ষস্থানীয় ক্লাব ও প্রতিষ্ঠান ডিরেক্টরি - বারুইপুর অনলাইন',
     description: 'ঐতিহ্যবাহী ক্লাব, সমাজসেবী ট্রাস্ট, আইনজীবী সমিতি, বণিক সভা ও ব্যবসার নির্ভরযোগ্য যোগাযোগ ও তথ্যকোষ।',
     url: 'https://baruipur.online/organizations/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুরের প্রতিষ্ঠান ও সংগঠন ডিরেক্টরি',
+      }
+    ]
   }
 };
 

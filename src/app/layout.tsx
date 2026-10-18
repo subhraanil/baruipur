@@ -7,8 +7,8 @@ import TrackingHead from '@/components/TrackingHead';
 export const metadata: Metadata = {
   metadataBase: new URL('https://baruipur.online'),
   title: {
-    default: 'বারুইপুর Baruipur - দক্ষিণ ২৪ পরগনার শীর্ষস্থানীয় আঞ্চলিক সংবাদ ও আপডেট',
-    template: '%s | বারুইপুর Baruipur'
+    default: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
+    template: '%s | বারুইপুর অনলাইন'
   },
   description: 'বারুইপুর মহকুমা, পৌরসভা, হাসপাতাল, শিয়ালদহ দক্ষিণ রেলওয়ে, পুলিশ প্রশাসন ও স্থানীয় সমস্ত খবরের নির্ভরযোগ্য ডিজিটাল ঠিকানা।',
   keywords: [

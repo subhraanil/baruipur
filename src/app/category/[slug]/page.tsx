@@ -30,8 +30,8 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
   }
 
   const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
-  const title = `${category.nameBn} - বারুইপুর Baruipur`;
-  const description = `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও সামাজিক মাধ্যমে প্রকাশিত নির্ভরযোগ্য প্রতিবেদন।`;
+  const title = `${category.nameBn} - বারুইপুর`;
+  const description = `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও নির্ভরযোগ্য স্থানীয় প্রতিবেদন।`;
 
   return {
     title,
@@ -54,6 +54,14 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
       type: 'website',
       siteName: 'বারুইপুর Baruipur',
       locale: 'bn_IN',
+      images: [
+        {
+          url: 'https://baruipur.online/images/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: `${category.nameBn} - বারুইপুর অনলাইন`,
+        }
+      ]
     },
     twitter: {
       card: 'summary_large_image',
@@ -189,8 +197,13 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               </a>
             </div>
           ) : (
-            <div className="space-y-4">
-              {articles.map((art, index) => (
+            <div>
+              <h2 className="text-xl font-bold text-slate-900 border-b border-slate-200 pb-3 mb-4 flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-red-600"></span>
+                {category.nameBn} সংবাদ সংকলন
+              </h2>
+              <div className="space-y-4">
+                {articles.map((art, index) => (
                 <React.Fragment key={art.id}>
                   <NewsCard article={art} variant="horizontal" />
                   {/* Insert In-Feed Ad after 3rd article */}
@@ -198,7 +211,8 @@ export default function CategoryPage({ params }: CategoryPageProps) {
                     <AdSenseSlot format="in-feed" className="my-6" />
                   )}
                 </React.Fragment>
-              ))}
+                ))}
+              </div>
             </div>
           )}
 

@@ -48,13 +48,27 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
 
   const postSlug = article.slug || article.id;
   const canonicalUrl = `https://baruipur.online/${encodeURI(postSlug)}/`;
-  const summary = article.summary || article.content.slice(0, 160).replace(/\n/g, ' ');
+  
+  let cleanDesc = (article.summary || article.content.slice(0, 180)).replace(/[\r\n]+/g, ' ').replace(/["']/g, '').trim();
+  if (cleanDesc.length > 152) {
+    const trimmed = cleanDesc.slice(0, 148);
+    const lastSpace = trimmed.lastIndexOf(' ');
+    cleanDesc = (lastSpace > 100 ? trimmed.slice(0, lastSpace) : trimmed) + '...';
+  }
+
   const safeImage = getSafeImageUrl(article.imageUrl);
   const imageUrl = safeImage.startsWith('http') ? safeImage : `https://baruipur.online${safeImage}`;
+  const cleanTitle = article.title.replace(/["']/g, '').trim();
+  const safeAltText = cleanTitle.length > 78 ? (cleanTitle.slice(0, 75) + '...') : cleanTitle;
+
+  const pageTitle = article.title.replace(/["']/g, '').trim();
+  const titleDisplay = pageTitle.length > 50 
+    ? `${pageTitle.slice(0, 47)}... | বারুইপুর` 
+    : `${pageTitle} | বারুইপুর`;
 
   return {
-    title: article.title,
-    description: summary,
+    title: { absolute: titleDisplay },
+    description: cleanDesc,
     keywords: [
       article.categoryNameBn,
       'Baruipur news',
@@ -67,8 +81,8 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${article.title} - বারুইপুর Baruipur`,
-      description: summary,
+      title: article.title,
+      description: cleanDesc,
       url: canonicalUrl,
       type: 'article',
       publishedTime: article.publishedAt,
@@ -79,7 +93,7 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: article.title,
+          alt: safeAltText,
         },
       ],
       siteName: 'বারুইপুর Baruipur',
@@ -88,7 +102,7 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
     twitter: {
       card: 'summary_large_image',
       title: article.title,
-      description: summary,
+      description: cleanDesc,
       images: [imageUrl],
     },
     other: {
@@ -307,6 +321,8 @@ export default function PostSlugPage({ params }: PostPageProps) {
                 <img 
                   src={author.avatar} 
                   alt={author.nameBn} 
+                  width={20}
+                  height={20}
                   className="w-5 h-5 rounded-full object-cover border border-slate-300"
                 />
                 <span>প্রতিবেদন: {author.nameBn}</span>
@@ -362,7 +378,9 @@ export default function PostSlugPage({ params }: PostPageProps) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src={getSafeImageUrl(article.imageUrl)} 
-                alt={article.title}
+                alt={article.title.replace(/["']/g, '').length > 78 ? (article.title.replace(/["']/g, '').slice(0, 75) + '...') : article.title.replace(/["']/g, '')}
+                width={1200}
+                height={675}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -407,6 +425,9 @@ export default function PostSlugPage({ params }: PostPageProps) {
 
           {/* Full Article Content with Markdown Rendering */}
           <div className="max-w-none text-slate-700 text-base leading-relaxed font-normal">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+              বিস্তারিত সংবাদ প্রতিবেদন
+            </h2>
             <MarkdownRenderer content={article.content} />
           </div>
 
@@ -419,6 +440,8 @@ export default function PostSlugPage({ params }: PostPageProps) {
             <img 
               src={author.avatar} 
               alt={author.nameBn} 
+              width={80}
+              height={80}
               className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-red-500 shadow shrink-0"
             />
             <div className="flex-1 text-center sm:text-left">
@@ -454,10 +477,10 @@ export default function PostSlugPage({ params }: PostPageProps) {
           {article.images && article.images.length > 1 && (
             <div className="mt-8 pt-6 border-t border-slate-200">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-red-600"></span>
                   প্রতিবেদনের ছবি সংকলন ({article.images.length}টি ছবি)
-                </h3>
+                </h2>
                 <span className="text-xs text-slate-500 font-medium hidden sm:inline">গ্রাউন্ড কভারেজ সংকলন</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -466,7 +489,9 @@ export default function PostSlugPage({ params }: PostPageProps) {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img 
                       src={getSafeImageUrl(img)} 
-                      alt={`${article.title} - ছবি ${idx + 1}`}
+                      alt={`${article.title.replace(/["']/g, '').length > 60 ? article.title.replace(/["']/g, '').slice(0, 57) + '...' : article.title.replace(/["']/g, '')} - ছবি ${idx + 1}`}
+                      width={800}
+                      height={600}
                       className="w-full h-full object-cover transition duration-300 group-hover:scale-105"
                       loading="lazy"
                     />
@@ -500,7 +525,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
               <div className="pt-2 border-t border-slate-200 flex flex-wrap items-center justify-between gap-2 text-slate-500">
                 <span>জনস্বার্থ বিজ্ঞপ্তি / সামাজিক মাধ্যম রেফারেন্স:</span>
                 <a href={article.originalPostUrl} target="_blank" rel="noreferrer" className="text-red-600 font-semibold hover:underline flex items-center gap-0.5">
-                  মূল নোটিশ ও সূত্র দেখুন <ExternalLink className="w-3 h-3" />
+                  मूल নোটিশ ও সূত্র দেখুন <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
             )}
@@ -531,10 +556,10 @@ export default function PostSlugPage({ params }: PostPageProps) {
           {/* Related News */}
           {relatedArticles.length > 0 && (
             <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">
-              <h3 className="font-bold text-base text-slate-900 border-b border-slate-150 pb-2 mb-4 flex items-center gap-2">
+              <h2 className="font-bold text-base text-slate-900 border-b border-slate-150 pb-2 mb-4 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-red-600"></span>
                 একই বিভাগের আরও খবর
-              </h3>
+              </h2>
               <div className="space-y-3">
                 {relatedArticles.map(rel => (
                   <a 

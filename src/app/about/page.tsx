@@ -3,18 +3,26 @@ import type { Metadata } from 'next';
 import { ChevronRight, ShieldCheck, MapPin, Users, Newspaper, Landmark, Compass, HeartHandshake } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'আমাদের সম্পর্কে (About Us) - বারুইপুর অনলাইন | Baruipur Online',
-  description: 'বারুইপুর অনলাইন (Baruipur Online) দক্ষিণ ২৪ পরগনার বারুইপুর মহকুমার সামগ্রিক ডিজিটাল তথ্যকোষ, সংবাদ পোর্টাল ও নাগরিক নির্দেশিকা প্ল্যাটফর্ম। জানুন আমাদের লক্ষ্য, কভারেজ এবং সম্পাদকীয় নীতি।',
+  title: 'আমাদের সম্পর্কে (About Us) - বারুইপুর অনলাইন',
+  description: 'বারুইপুর অনলাইন (Baruipur Online) দক্ষিণ ২৪ পরগনার বারুইপুর মহকুমার সামগ্রিক ডিজিটাল তথ্যকোষ, সংবাদ পোর্টাল ও নাগরিক নির্দেশিকা প্ল্যাটফর্ম।',
   alternates: {
     canonical: 'https://baruipur.online/about/',
   },
   openGraph: {
-    title: 'আমাদের সম্পর্কে - বারুইপুর অনলাইন Baruipur Online',
+    title: 'আমাদের সম্পর্কে - বারুইপুর অনলাইন',
     description: 'দক্ষিণ ২৪ পরগনার বারুইপুর মহকুমার নির্ভরযোগ্য ডিজিটাল তথ্যকোষ ও নাগরিক পোর্টাল।',
     url: 'https://baruipur.online/about/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'আমাদের সম্পর্কে - বারুইপুর অনলাইন',
+      }
+    ]
   }
 };
 

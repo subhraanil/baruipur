@@ -135,7 +135,7 @@ export default function BaruipurUtilities({
                 <Layers className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 text-base">সংবাদ বিভাগ সমূহ</h3>
+                <h2 className="font-bold text-slate-900 text-base">সংবাদ বিভাগ সমূহ</h2>
                 <p className="text-xs text-slate-500">বিষয়ভিত্তিক আঞ্চলিক খবর</p>
               </div>
             </div>
@@ -178,7 +178,7 @@ export default function BaruipurUtilities({
                 <TrendingUp className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 text-base">আরও তাজা সংবাদ</h3>
+                <h2 className="font-bold text-slate-900 text-base">আরও তাজা সংবাদ</h2>
                 <p className="text-xs text-slate-500">সর্বশেষ আঞ্চলিক আপডেট</p>
               </div>
             </div>
@@ -199,7 +199,9 @@ export default function BaruipurUtilities({
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={displayImg}
-                        alt={art.title}
+                        alt={art.title ? (art.title.length > 90 ? art.title.slice(0, 87) + '...' : art.title) : 'সংবাদ চিত্র'}
+                        width={64}
+                        height={64}
                         className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                         loading="lazy"
                       />
@@ -250,7 +252,7 @@ export default function BaruipurUtilities({
               <HeartPulse className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-slate-900 text-base">স্বাস্থ্য ও ডাক্তার চেম্বার</h3>
+              <h2 className="font-bold text-slate-900 text-base">স্বাস্থ্য ও ডাক্তার চেম্বার</h2>
               <p className="text-xs text-slate-600">নার্সিং হোম, ওপিডি ও ডাক্তার তালিকা</p>
             </div>
           </div>
@@ -300,7 +302,7 @@ export default function BaruipurUtilities({
               <MapPin className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-white text-base">বারুইপুর দর্শনীয় স্থান ও গাইড</h3>
+              <h2 className="font-bold text-white text-base">বারুইপুর দর্শনীয় স্থান ও গাইড</h2>
               <p className="text-xs text-slate-300">গুরুত্বপূর্ণ প্রতিষ্ঠান ও ল্যান্ডমার্ক</p>
             </div>
           </div>
@@ -342,7 +344,7 @@ export default function BaruipurUtilities({
               <Building2 className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-slate-900 text-base">শীর্ষ ক্লাব ও প্রতিষ্ঠান</h3>
+              <h2 className="font-bold text-slate-900 text-base">শীর্ষ ক্লাব ও প্রতিষ্ঠান</h2>
               <p className="text-xs text-slate-500">ক্রীড়া ক্লাব, এনজিও ও নাগরিক সংগঠন</p>
             </div>
           </div>
@@ -392,7 +394,7 @@ export default function BaruipurUtilities({
             <Compass className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="font-bold text-slate-900 text-base">বারুইপুর স্পেশাল গাইড</h3>
+            <h2 className="font-bold text-slate-900 text-base">বারুইপুর স্পেশাল গাইড</h2>
             <p className="text-xs text-slate-500">জীবনযাত্রা, বিনোদন ও প্রয়োজনীয় তথ্যকোষ</p>
           </div>
         </div>
@@ -426,7 +428,7 @@ export default function BaruipurUtilities({
               <Phone className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-slate-900 text-base">বারুইপুর জরুরি হেল্পলাইন</h3>
+              <h2 className="font-bold text-slate-900 text-base">বারুইপুর জরুরি হেল্পলাইন</h2>
               <p className="text-xs text-slate-500">প্রয়োজনে সরাসরি ডায়াল করুন</p>
             </div>
           </div>

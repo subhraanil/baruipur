@@ -143,7 +143,9 @@ export default function FeaturedNewsSlider({
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={imgUrl}
-                alt={art.title}
+                alt={art.title ? (art.title.replace(/["']/g, '').length > 78 ? art.title.replace(/["']/g, '').slice(0, 75) + '...' : art.title.replace(/["']/g, '')) : 'বারুইপুর সংবাদ'}
+                width={1200}
+                height={675}
                 onError={(e) => { (e.target as HTMLImageElement).src = fallbackImg; }}
                 className="w-full h-full object-cover object-center transform scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"
               />

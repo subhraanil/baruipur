@@ -3,10 +3,26 @@ import type { Metadata } from 'next';
 import { ChevronRight, RefreshCw, CheckCircle2, AlertCircle, Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'সংশোধনী নীতি (Corrections Policy) - বারুইপুর অনলাইন | Baruipur Online',
+  title: 'সংশোধনী নীতি (Corrections Policy) - বারুইপুর অনলাইন',
   description: 'বারুইপুর অনলাইনের তথ্য ত্রুটি সংশোধন প্রক্রিয়া, যোগাযোগের পদ্ধতি এবং স্বচ্ছতা নীতি।',
   alternates: {
     canonical: 'https://baruipur.online/corrections-policy/',
+  },
+  openGraph: {
+    title: 'সংশোধনী নীতি - বারুইপুর অনলাইন',
+    description: 'তথ্য ত্রুটি সংশোধন প্রক্রিয়া, যোগাযোগের পদ্ধতি এবং স্বচ্ছতা নীতি।',
+    url: 'https://baruipur.online/corrections-policy/',
+    siteName: 'বারুইপুর Baruipur',
+    locale: 'bn_IN',
+    type: 'article',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'সংশোধনী নীতি - বারুইপুর অনলাইন',
+      }
+    ]
   }
 };
 

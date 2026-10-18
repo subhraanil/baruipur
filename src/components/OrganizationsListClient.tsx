@@ -163,7 +163,9 @@ export default function OrganizationsListClient({ initialOrgs }: OrganizationsLi
               <div className="relative h-44 w-full bg-slate-100 overflow-hidden">
                 <img
                   src={org.coverImage || '/images/places/baruipur-bypass.jpg'}
-                  alt={org.nameBn}
+                  alt={org.nameBn.length > 90 ? (org.nameBn.slice(0, 87) + '...') : org.nameBn}
+                  width={600}
+                  height={350}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />

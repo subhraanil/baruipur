@@ -221,9 +221,10 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
 
           case 'h1':
             return (
-              <h1 key={idx} className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-8 mb-4 border-b border-slate-200 pb-2">
-                {formatInlineText(token.text)}
-              </h1>
+              <h2 key={idx} className="text-xl sm:text-2xl font-bold text-slate-900 mt-7 mb-3.5 border-b border-slate-100 pb-2 flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-red-600 shrink-0"></span>
+                <span>{formatInlineText(token.text)}</span>
+              </h2>
             );
 
           case 'h2':

@@ -3,18 +3,26 @@ import type { Metadata } from 'next';
 import { ChevronRight, AlertCircle, Info, Stethoscope, Train, Building2, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'দাবিত্যাগ (Disclaimer) - বারুইপুর অনলাইন | Baruipur Online',
+  title: 'দাবিত্যাগ (Disclaimer) - বারুইপুর অনলাইন',
   description: 'বারুইপুর অনলাইনের সাধারণ তথ্য, স্বাস্থ্য ডিরেক্টরি, ট্রেন সময়সূচি ও নাগরিক সেবার আইনি দাবিত্যাগ এবং স্বচ্ছতা বার্তা।',
   alternates: {
     canonical: 'https://baruipur.online/disclaimer/',
   },
   openGraph: {
-    title: 'দাবিত্যাগ (Disclaimer) - বারুইপুর অনলাইন Baruipur Online',
+    title: 'দাবিত্যাগ (Disclaimer) - বারুইপুর অনলাইন',
     description: 'সংবাদ ও তথ্য সংকলন সংক্রান্ত সাধারণ দায়মুক্তি ও সচেতনতা বার্তা।',
     url: 'https://baruipur.online/disclaimer/',
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'article',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'দাবিত্যাগ - বারুইপুর অনলাইন',
+      }
+    ]
   }
 };
 

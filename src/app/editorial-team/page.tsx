@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     siteName: 'বারুইপুর Baruipur',
     locale: 'bn_IN',
     type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুর অনলাইন সম্পাদকীয় পরিষদ',
+      }
+    ]
   }
 };
 
@@ -77,40 +85,46 @@ export default function EditorialTeamPage() {
       </div>
 
       {/* Journalistic Credibility Pillars */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4">
-          <div className="p-3 bg-red-50 text-red-600 rounded-xl shrink-0">
-            <Newspaper className="w-6 h-6" />
+      <div className="mb-12">
+        <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+          <span className="w-2.5 h-2.5 rounded-full bg-red-600"></span>
+          সাংবাদিকতার মূল স্তম্ভ ও নীতি
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4">
+            <div className="p-3 bg-red-50 text-red-600 rounded-xl shrink-0">
+              <Newspaper className="w-6 h-6" />
+            </div>
+            <div>
+              <h3 className="font-bold text-slate-900 text-base mb-1">স্বতন্ত্র ফিল্ড রিপোর্টিং</h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                পৌরসভা, আদালত ও রেলস্টেশন চত্বরে উপস্থিত থেকে সরাসরি স্থানীয় প্রত্যক্ষদর্শী ও সরকারি কর্মকর্তাদের মতামতের ভিত্তিতে সত্য সংবাদ পরিবেশন।
+              </p>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold text-slate-900 text-base mb-1">স্বতন্ত্র ফিল্ড রিপোর্টিং</h3>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              পৌরসভা, আদালত ও রেলস্টেশন চত্বরে উপস্থিত থেকে সরাসরি স্থানীয় প্রত্যক্ষদর্শী ও সরকারি কর্মকর্তাদের মতামতের ভিত্তিতে সত্য সংবাদ পরিবেশন।
-            </p>
-          </div>
-        </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4">
-          <div className="p-3 bg-emerald-50 text-emerald-600 rounded-xl shrink-0">
-            <ShieldCheck className="w-6 h-6" />
+          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4">
+            <div className="p-3 bg-emerald-50 text-emerald-600 rounded-xl shrink-0">
+              <ShieldCheck className="w-6 h-6" />
+            </div>
+            <div>
+              <h3 className="font-bold text-slate-900 text-base mb-1">কঠোর ফ্যাক্ট-চেকিং</h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                যেকোনো সামাজিক মাধ্যমের দাবি প্রকাশের পূর্বে সরকারি সার্কুলার, পুলিশি প্রেস রিলিজ ও মহকুমা প্রশাসনের মাধ্যমে তথ্য ক্রুশ-ভেরিফাই করা হয়।
+              </p>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold text-slate-900 text-base mb-1">কঠোর ফ্যাক্ট-চেকিং</h3>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              যেকোনো সামাজিক মাধ্যমের দাবি প্রকাশের পূর্বে সরকারি সার্কুলার, পুলিশি প্রেস রিলিজ ও মহকুমা প্রশাসনের মাধ্যমে তথ্য ক্রুশ-ভেরিফাই করা হয়।
-            </p>
-          </div>
-        </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4">
-          <div className="p-3 bg-blue-50 text-blue-600 rounded-xl shrink-0">
-            <Award className="w-6 h-6" />
-          </div>
-          <div>
-            <h3 className="font-bold text-slate-900 text-base mb-1">স্বচ্ছ লেখক পরিচয় ও যোগাযোগ</h3>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              প্রতিটি সংবাদের নিচে প্রতিবেদকের নাম, বিট এবং সরাসরি যোগাযোগের ঠিকানা উল্লেখ থাকে, যাতে পাঠকরা নির্ভয়ে মতামত ও সংশোধনী জানাতে পারেন।
-            </p>
+          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-4">
+            <div className="p-3 bg-blue-50 text-blue-600 rounded-xl shrink-0">
+              <Award className="w-6 h-6" />
+            </div>
+            <div>
+              <h3 className="font-bold text-slate-900 text-base mb-1">স্বচ্ছ লেখক পরিচয় ও যোগাযোগ</h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                প্রতিটি সংবাদের নিচে প্রতিবেদকের নাম, বিট এবং সরাসরি যোগাযোগের ঠিকানা উল্লেখ থাকে, যাতে পাঠকরা নির্ভয়ে মতামত ও সংশোধনী জানাতে পারেন।
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -135,6 +149,8 @@ export default function EditorialTeamPage() {
                   <img 
                     src={author.avatar} 
                     alt={author.nameBn} 
+                    width={80}
+                    height={80}
                     className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover border-2 border-red-500 shadow-sm shrink-0"
                   />
                   <div>

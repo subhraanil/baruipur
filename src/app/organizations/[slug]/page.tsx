@@ -44,15 +44,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const org = getOrganizationBySlug(params.slug);
   if (!org) return { title: 'প্রতিষ্ঠান পাওয়া যায়নি | বারুইপুর' };
 
+  const rawDesc = org.metaDescription || org.taglineBn || org.overview;
+  const cleanDesc = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc;
+
   return {
     title: `${org.nameBn} - ${org.nameEn} | বারুইপুর ডিরেক্টরি`,
-    description: org.metaDescription || org.taglineBn,
+    description: cleanDesc,
     alternates: {
       canonical: `https://baruipur.online/organizations/${org.slug}/`,
     },
     openGraph: {
       title: `${org.nameBn} | বারুইপুর ডিরেক্টরি`,
-      description: org.metaDescription || org.taglineBn,
+      description: cleanDesc,
       url: `https://baruipur.online/organizations/${org.slug}/`,
       siteName: 'বারুইপুর Baruipur',
       locale: 'bn_IN',
@@ -60,7 +63,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [
         {
           url: org.coverImage.startsWith('http') ? org.coverImage : `https://baruipur.online${org.coverImage}`,
-          alt: org.nameBn,
+          width: 1200,
+          height: 630,
+          alt: org.nameBn.length > 95 ? org.nameBn.slice(0, 92) + '...' : org.nameBn,
         }
       ],
     }
@@ -138,7 +143,9 @@ export default function OrganizationDetailPage({ params }: Props) {
           <div className="relative h-64 sm:h-80 w-full bg-slate-900">
             <img
               src={org.coverImage}
-              alt={org.nameBn}
+              alt={org.nameBn.length > 90 ? org.nameBn.slice(0, 87) + '...' : org.nameBn}
+              width={1200}
+              height={675}
               className="w-full h-full object-cover opacity-90"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
