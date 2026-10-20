@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-20T04:37:02.801Z
+# Last Updated: 2026-10-20T04:51:53.860Z
 # Total Articles: 361
 # Total Key Landmarks: 31
 # Total Organizations & Clubs: 24
@@ -1597,11 +1597,149 @@ HOW TO REACH:
 
 
 ================================================================================
-PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (30 TOTAL)
+PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (31 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #1: ওয়েলকিন মেডিকেয়ার হাসপাতাল (Welkin Medicare Hospital)
+HEALTHCARE FACILITY #1: কবিতা সেবায়তন (Kabita Sebayatan - ডক্টরস চেম্বার ও ডায়াগনস্টিক) (Kabita Sebayatan Doctors Chamber & Diagnostic Centre)
+--------------------------------------------------------------------------------
+- Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও প্যাথলজি সেন্টার (polyclinic)
+- Canonical URL: https://baruipur.online/health-directory/kabita-sebayatan-baruipur/
+- Address: ডি. ডি. অধিকারী রোড, নতুনপাড়া (মঞ্জুশ্রী মেডিকেলের ভিতরে, বারুইপুর মহকুমা হাসপাতালের বিপরীতে), বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭০০১৪৪ (D. D. Adhikari Road, Notunpara, Inside Manjushree Medical, Opposite Baruipur Hospital, Baruipur, South 24 Parganas - 700144)
+- Landmark: বারুইপুর মহকুমা হাসপাতালের ঠিক বিপরীতে, নতুনপাড়া মঞ্জুশ্রী মেডিকেলের ভিতরে
+- Phone: 9062524649
+- Emergency Phone: 9062524649
+- Timings: সোম থেকে রবি: সকাল ৮:০০ - রাত ৯:০০ (বিশেষজ্ঞ ডাক্তারদের সময়সূচি তালিকা অনুযায়ী)
+- 24 Hours Open: No
+- Swasthya Sathi Accepted: No
+- Bed Capacity: N/A
+
+TAGLINE & OVERVIEW:
+বারুইপুর মহকুমা হাসপাতালের বিপরীতে অভিজ্ঞ ১৫ জন বিশেষজ্ঞ ডাক্তারের ওপিডি চেম্বার, আল্ট্রাসনোগ্রাফি ও ডিজিটাল প্যাথলজি
+বারুইপুর ডি. ডি. অধিকারী রোড, নতুনপাড়ায় বারুইপুর মহকুমা হাসপাতালের ঠিক বিপরীতে (মঞ্জুশ্রী মেডিকেলের ভিতরে) অবস্থিত 'কবিতা সেবায়তন' (Kabita Sebayatan) এলাকার একটি সুপরিচিত ও নির্ভরযোগ্য পলিক্লিনিক ও ডায়াগনস্টিক হাব। এখানে কলকাতা ও বিভিন্ন শীর্ষস্থানীয় সরকারি মেডিক্যাল কলেজের ১৫ জন অভিজ্ঞ বিশেষজ্ঞ চিকিৎসক নিয়মিত বহির্বিভাগ (OPD) চেম্বার পরিচালনা করেন। এছাড়া এখানে ২০% বিশেষ ছাড়ে আল্ট্রাসনোগ্রাফি (USG), ডিজিটাল এক্স-রে, ২ডি ইকো ও ইসিজি এবং ৩০% বিশেষ ছাড়ে রক্ত, মল ও মূত্রের নির্ভুল বায়োকেমিক্যাল পরীক্ষা করা হয়।
+
+SERVICES & DIAGNOSTICS:
+- কলকাতা, পিজি (SSKM), বি.সি. রায় ও বারুইপুর হাসপাতালের অভিজ্ঞ ১৫ জন বিশেষজ্ঞ ডাক্তারের নিয়মিত ওপিডি চেম্বার
+- ৩০% বিশেষ ছাড়ে রক্ত, মল ও মূত্রের সম্পূর্ণ প্যাথলজিক্যাল ও বায়োকেমিক্যাল পরীক্ষা
+- ২০% বিশেষ ছাড়ে আল্ট্রাসনোগ্রাফি (USG), ডিজিটাল এক্স-রে, ২ডি ইকো (Echo) ও ইসিজি (ECG)
+- ইন-হাউস মঞ্জুশ্রী মেডিকেল স্টোর থেকে প্রেসক্রিপশনের ওষুধ সংগ্রহের সুবিধা
+- ফোনের মাধ্যমে সহজ সিরিয়াল বুকিং ও হোয়াটসঅ্যাপ হেল্পলাইন (9062524649 / 8927786790)
+- [Diagnostic] আল্ট্রাসনোগ্রাফি (USG - 20% Discount)
+- [Diagnostic] ডিজিটাল এক্স-রে (Digital X-Ray - 20% Discount)
+- [Diagnostic] ইকোকার্ডিওগ্রাফি (2D Echo) ও ১২-লিড ইসিজি (ECG)
+- [Diagnostic] রক্তের বায়োকেমিক্যাল, সিবিসি ও সুগার টেস্ট (30% Discount)
+- [Diagnostic] মল ও মূত্র পরীক্ষা (Stool & Urine Routine Examination)
+
+DOCTORS OPD ROSTER (15 DOCTORS):
+* ডাঃ ঝিলিক বসু (Dr. Jhilik Basu) [M.B.B.S. (WBUHS), M.S. (Obst & Gynae), DNB (Obst & Gynae), MRCOG-1 (London)]
+  - Specialty: স্ত্রী রোগ ও প্রসূতি বিশেষজ্ঞ (Gynaecologist & Obstetrician)
+  - Visiting Days: মঙ্গলবার ও শুক্রবার
+  - Visiting Hours: মঙ্গলবার ৩:০০ - ৪:০০, শুক্রবার ১:০০ - ২:০০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 9062524649
+  - Note: হাই-রিস্ক প্রেগন্যান্সি, বন্ধ্যাত্ব ও নরমাল ডেলিভারি পরামর্শ
+* ডাঃ সিদ্ধার্থ মণ্ডল (Dr. Siddhartha Mondal) [MBBS, MS - Medical Officer (বারুইপুর ও এস.এস.কে.এম হাসপাতালের সাথে যুক্ত)]
+  - Specialty: জেনারেল সার্জন ও মাইক্রো সার্জন (General & Micro Surgeon)
+  - Visiting Days: প্রতিদিন (বাই অ্যাপয়েন্টমেন্ট)
+  - Visiting Hours: অগ্রিম ফোনে সময় নির্ধারিত 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 9062524649
+  - Note: পেটের যে কোন সমস্যা, হার্নিয়া, অ্যাপেন্ডিক্স ও মাইক্রো সার্জারি
+* ডাঃ রতন নস্কর (Dr. Ratan Naskar) [MBBS, MS - Medical Officer]
+  - Specialty: জেনারেল ও ল্যাপারোস্কোপিক সার্জন (General & Laparoscopic Surgeon)
+  - Visiting Days: প্রতিদিন (বাই অ্যাপয়েন্টমেন্ট)
+  - Visiting Hours: অগ্রিম অ্যাপয়েন্টমেন্ট অনুযায়ী 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 9062524649
+  - Note: সাধারণ সার্জারি ও পেটের সমস্যা চিকিৎসা
+* ডাঃ সাওন হালদার (Dr. Saon Haldar) [MBBS (Hons) WBUHS - Medical Officer]
+  - Specialty: জেনারেল ফিজিশিয়ান (General Physician)
+  - Visiting Days: প্রতিদিন (বাই অ্যাপয়েন্টমেন্ট)
+  - Visiting Hours: সকাল ও সন্ধ্যা (ফোন করে আসুন) 
+  - Consultation Fee: ₹ ৪০০
+  - Serial Booking Phone: 9062524649
+  - Note: সাধারণ রোগ, জ্বর, পেটের গোলযোগ ও নিয়মিত চিকিৎসা
+* ডাঃ জি. এস মহাপাত্র (Dr. G. S. Mahapatra) [MBBS, MD (Medicine) - বারুইপুর ও এস.এস.কে.এম হাসপাতালের সাথে যুক্ত]
+  - Specialty: মেডিসিন বিশেষজ্ঞ (Consultant Physician & Medicine Specialist)
+  - Visiting Days: মঙ্গলবার, বুধবার, শুক্রবার ও শনিবার
+  - Visiting Hours: মঙ্গলবার সন্ধ্যা ৭:০০, বুধবার বিকাল ৫:০০ - ৭:০০, শুক্রবার দুপুর ৩:০০ - ৪:০০ এবং শুক্র ও শনিবার বিকাল ৫:০০ - সন্ধ্যা ৭:০০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 9062524649
+  - Note: সুগার, কিডনি ও হার্টের চিকিৎসার বিশেষ অভিজ্ঞ
+* ডাঃ পুতুল চন্দ্র নস্কর (Dr. Putul Chandra Naskar) [MBBS, MD (Medicine)]
+  - Specialty: মেডিসিন বিশেষজ্ঞ (General Medicine Specialist)
+  - Visiting Days: প্রতিদিন (বাই অ্যাপয়েন্টমেন্ট)
+  - Visiting Hours: কল করে সময় জেনে নিন 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 9062524649
+  - Note: জটিল অভ্যন্তরীণ রোগ, ডায়াবেটিস ও রক্তচাপ নিয়ন্ত্রণ
+* ডাঃ অরজিৎ রায় চৌধুরী (Dr. Arijit Roy Chowdhury) [MBBS, MD (Medicine)]
+  - Specialty: মেডিসিন বিশেষজ্ঞ (General Medicine Specialist)
+  - Visiting Days: প্রতিদিন (বাই অ্যাপয়েন্টমেন্ট)
+  - Visiting Hours: অগ্রিম অ্যাপয়েন্টমেন্ট অনুযায়ী 
+  - Consultation Fee: ₹ ৫০০
+  - Serial Booking Phone: 9062524649
+  - Note: মেডিসিন ও দীর্ঘমেয়াদী রোগের বিশেষজ্ঞ পরামর্শ
+* ডাঃ বিক্রম মণ্ডল (Dr. Bikram Mondal) [MBBS (Kol), DCH (Kol), PGPN (Boston) - ডাঃ বি.সি.রায় ও এস.এস.কে.এম হাসপাতালের সাথে যুক্ত]
+  - Specialty: শিশুরোগ বিশেষজ্ঞ (Pediatrician) (Consultant Pediatrician & Neonatologist)
+  - Visiting Days: সোম থেকে রবিবার (সপ্তাহে ৭ দিন)
+  - Visiting Hours: সোমবার বিকাল ৫:০০ - ৬:০০; মঙ্গল, বুধ, বৃহস্পতি, শুক্র, শনি ও রবি বৈকাল ৫:০০ - ৬:০০ 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 9062524649
+  - Note: নবজাতক ও শিশুদের রোগ, ওজন ও পুষ্টি পরামর্শ এবং টিকাকরণ
+* ডাঃ পার্থপ্রতিম সিংহ রায় (Dr. Parthapratim Singha Roy) [MBBS, MS, MCh (Urology) - ইউরেটেরিক এবং ল্যাপারোস্কোপিক সার্জন]
+  - Specialty: কিডনি ও প্রস্টেট বিশেষজ্ঞ (ইউরোলজিস্ট) (Urologist, Ureteric & Laparoscopic Surgeon)
+  - Visiting Days: বুধবার
+  - Visiting Hours: বুধবার বিকাল ৪:০০ - ৫:০০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9062524649
+  - Note: ইউরেটেরিক স্টোন, প্রস্টেট সমস্যা ও মূত্রনালীর ল্যাপারোস্কোপিক সার্জারি
+* ডাঃ কুণাল মণ্ডল (Dr. Kunal Mondal) [MBBS, MS (Ortho) - পি.জি. (IPGMER) হাসপাতালের সাথে যুক্ত]
+  - Specialty: অর্থোপেডিক সার্জন ও বিশিষ্ট হাড়ের চিকিৎসক (Orthopedic Surgeon)
+  - Visiting Days: সোম, মঙ্গল, বুধ ও শনিবার
+  - Visiting Hours: সোম ও বুধবার বিকাল ৫:০০ - ৬:০০, মঙ্গল ও শনিবার দুপুর ১২:০০ - ১:০০ 
+  - Consultation Fee: ₹ ৭০০
+  - Serial Booking Phone: 9062524649
+  - Note: হাড়ভাঙা, বাতের ব্যথা, হাঁটু ও কোমর ব্যথা, স্পন্ডিলাইটিস ও ফ্র্যাকচার চিকিৎসা
+* ডাঃ অভিষেক নস্কর (Dr. Abhishek Naskar) [MBBS, MD, DM (Cardiology)]
+  - Specialty: হৃদরোগ বিশেষজ্ঞ (Cardiologist) (Consultant Cardiologist)
+  - Visiting Days: বুধবার (অন্য দিনে ফোন করে আসুন)
+  - Visiting Hours: বুধবার সন্ধ্যা ৬:০০ - ৬:৩০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9062524649
+  - Note: হার্টের সমস্যা, বুকে ব্যথা, উচ্চ রক্তচাপ ও ইসিজি/ইকো মূল্যায়ন
+* ডাঃ অম্লান কান্তি বিশ্বাস (Dr. Amlan Kanti Biswas) [MBBS, MD, DM (Nephrology)]
+  - Specialty: কিডনি বিশেষজ্ঞ (Nephrologist) (Consultant Nephrologist)
+  - Visiting Days: মঙ্গলবার
+  - Visiting Hours: মঙ্গলবার দুপুর ২:০০ - ৩:০০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9062524649
+  - Note: কিডনি রোগ, ইউরিন প্রোটিন লিক ও ক্রিয়েটিনিন বৃদ্ধি চিকিৎসা
+* ডাঃ শান্ত্বারী রায় (Dr. Santwari Roy) [MBBS (Cal), MD (Psychiatry, IPGMER, Kolkata)]
+  - Specialty: নার্ভ ও সাইকো বিশেষজ্ঞ (Neuropsychiatrist) (Associate Professor & Consultant Neuropsychiatrist)
+  - Visiting Days: শনিবার
+  - Visiting Hours: শনিবার বিকাল ৩:০০ - ৪:০০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9062524649
+  - Note: মানসিক উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা, নার্ভের দুর্বলতা ও কাউন্সেলিং
+* ডাঃ অয়ন ঘড়ুই (Dr. Ayan Gharui) [MBBS, MD, DM (Neurologist)]
+  - Specialty: নিউরোলজি ও স্নায়ুরোগ বিশেষজ্ঞ (Consultant Neurologist)
+  - Visiting Days: বুধবার
+  - Visiting Hours: বুধবার বৈকাল ৫:০০ - ৬:০০ 
+  - Consultation Fee: ₹ ৮০০
+  - Serial Booking Phone: 9062524649
+  - Note: মাথাব্যথা, প্যারালাইসিস, ব্রেন স্ট্রোক ও স্নায়ুর সমস্যা
+* ডাঃ সাথী হালদার (Dr. Sathi Haldar) [MBBS, MS (ENT)]
+  - Specialty: নাক, কান ও গলা বিশেষজ্ঞ (ENT Surgeon) (ENT Head & Neck Specialist)
+  - Visiting Days: প্রতিদিন (বাই অ্যাপয়েন্টমেন্ট)
+  - Visiting Hours: অগ্রিম ফোনে বুকিং অনুযায়ী 
+  - Consultation Fee: ₹ ৬০০
+  - Serial Booking Phone: 9062524649
+  - Note: কানের ব্যথা ও পুঁজ, টনসিল, সাইনাস, গলার সমস্যা ও মাইক্রো স্ক্রিনিং
+
+
+--------------------------------------------------------------------------------
+HEALTHCARE FACILITY #2: ওয়েলকিন মেডিকেয়ার হাসপাতাল (Welkin Medicare Hospital)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টি-স্পেশালিটি হাসপাতাল ও নার্সিং হোম (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/welkin-medicare-hospital/
@@ -1690,7 +1828,7 @@ DOCTORS OPD ROSTER (8 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #2: প্যারামাউন্ট নার্সিং হোম (Paramount Nursing Home)
+HEALTHCARE FACILITY #3: প্যারামাউন্ট নার্সিং হোম (Paramount Nursing Home)
 --------------------------------------------------------------------------------
 - Facility Type: প্রাইভেট নার্সিং হোম ও মেটারনিটি কেয়ার (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/paramount-nursing-home-baruipur/
@@ -1755,7 +1893,7 @@ DOCTORS OPD ROSTER (5 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #3: অ্যাপেক্স পলিক্লিনিক ও ডায়াগনস্টিক সেন্টার (Apex Polyclinic & Diagnostic Centre)
+HEALTHCARE FACILITY #4: অ্যাপেক্স পলিক্লিনিক ও ডায়াগনস্টিক সেন্টার (Apex Polyclinic & Diagnostic Centre)
 --------------------------------------------------------------------------------
 - Facility Type: স্পেশালিস্ট ডক্টরস চেম্বার ও ডায়াগনস্টিক হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/apex-polyclinic-and-diagnostic-baruipur/
@@ -1836,7 +1974,7 @@ DOCTORS OPD ROSTER (7 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #4: সান ডায়াগনস্টিক ও ডক্টরস চেম্বার (Sun Diagnostic & Doctor Chamber)
+HEALTHCARE FACILITY #5: সান ডায়াগনস্টিক ও ডক্টরস চেম্বার (Sun Diagnostic & Doctor Chamber)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার ও পলিক্লিনিক (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/sun-diagnostic-and-doctor-chamber/
@@ -1901,7 +2039,7 @@ DOCTORS OPD ROSTER (5 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #5: ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক (Frank Ross Pharmacy & Doctors Clinic)
+HEALTHCARE FACILITY #6: ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক (Frank Ross Pharmacy & Doctors Clinic)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ ও বহির্বিভাগ চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/frank-ross-pharmacy-opd-baruipur/
@@ -1957,7 +2095,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #6: অ্যাপোলো ক্লিনিক বারুইপুর (Apollo Clinic Baruipur) (Apollo Clinic Baruipur)
+HEALTHCARE FACILITY #7: অ্যাপোলো ক্লিনিক বারুইপুর (Apollo Clinic Baruipur) (Apollo Clinic Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি ক্লিনিক ও ডায়াগনস্টিক (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/apollo-clinic-baruipur/
@@ -2015,7 +2153,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #7: বারুইপুর আরোগ্য নিকেতন ও পলিক্লিনিক (Baruipur Arogya Niketan & Polyclinic)
+HEALTHCARE FACILITY #8: বারুইপুর আরোগ্য নিকেতন ও পলিক্লিনিক (Baruipur Arogya Niketan & Polyclinic)
 --------------------------------------------------------------------------------
 - Facility Type: স্পেশালিস্ট ডক্টরস চেম্বার ও পলিক্লিনিক (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/baruipur-arogya-niketan-chamber/
@@ -2072,7 +2210,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #8: মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার (Mondal Medical Stores & Doctor Chamber)
+HEALTHCARE FACILITY #9: মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার (Mondal Medical Stores & Doctor Chamber)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ ও বহির্বিভাগ চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/mandal-medical-stores-and-opd/
@@ -2120,7 +2258,7 @@ DOCTORS OPD ROSTER (3 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #9: বারুইপুর হসপিটাল অ্যান্ড রিসার্চ ইনস্টিটিউট (Baruipur Hospital & Research Institute)
+HEALTHCARE FACILITY #10: বারুইপুর হসপিটাল অ্যান্ড রিসার্চ ইনস্টিটিউট (Baruipur Hospital & Research Institute)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টি-স্পেশালিটি হাসপাতাল ও নার্সিং হোম (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/baruipur-hospital-research-institute/
@@ -2186,7 +2324,7 @@ DOCTORS OPD ROSTER (5 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #10: বারুইপুর মহকুমা হাসপাতাল (সরকারি বহির্বিভাগ / OPD) (Baruipur Subdivisional Hospital (Govt OPD))
+HEALTHCARE FACILITY #11: বারুইপুর মহকুমা হাসপাতাল (সরকারি বহির্বিভাগ / OPD) (Baruipur Subdivisional Hospital (Govt OPD))
 --------------------------------------------------------------------------------
 - Facility Type: সরকারি মহকুমা হাসপাতাল ও সুপার স্পেশালিটি ওপিডি (hospital)
 - Canonical URL: https://baruipur.online/health-directory/baruipur-subdivisional-hospital-opd/
@@ -2258,7 +2396,7 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #11: মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার (MANGAL DEEP PHARMACY) (Mangal Deep Pharmacy & Doctors Chamber)
+HEALTHCARE FACILITY #12: মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার (MANGAL DEEP PHARMACY) (Mangal Deep Pharmacy & Doctors Chamber)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ, কেমিষ্ট & ডক্টরস চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/mangaldeep-puratan-bazar-baruipur/
@@ -2519,7 +2657,7 @@ DOCTORS OPD ROSTER (33 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #12: নমিতা সেবায়তন (Namita Sebayatan - ডক্টরস চেম্বার ও পলিক্লিনিক) (Namita Sebayatan Doctors Chamber & Polyclinic)
+HEALTHCARE FACILITY #13: নমিতা সেবায়তন (Namita Sebayatan - ডক্টরস চেম্বার ও পলিক্লিনিক) (Namita Sebayatan Doctors Chamber & Polyclinic)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও ফিজিওথেরাপি হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/namita-sebayatan-baruipur/
@@ -2887,7 +3025,7 @@ DOCTORS OPD ROSTER (48 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #13: হাই মেডিকেল সেন্টার (Hai Medical Centre | Polyclinic & Pharmacy) (Hai Medical Centre - Polyclinic & Medicine Delivery)
+HEALTHCARE FACILITY #14: হাই মেডিকেল সেন্টার (Hai Medical Centre | Polyclinic & Pharmacy) (Hai Medical Centre - Polyclinic & Medicine Delivery)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও হোম হেলথকেয়ার হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/hai-medical-centre-baruipur/
@@ -3115,7 +3253,7 @@ DOCTORS OPD ROSTER (28 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #14: ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic) (Easycure Clinic & Pharmacy)
+HEALTHCARE FACILITY #15: ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic) (Easycure Clinic & Pharmacy)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ, পলিক্লিনিক ও ওপিডি চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/easycure-clinic-and-pharmacy-baruipur/
@@ -3224,7 +3362,7 @@ DOCTORS OPD ROSTER (11 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #15: জিতো হেলথ (JITO Health - Powered by SastaSundar) (JITO Health (Powered by SastaSundar))
+HEALTHCARE FACILITY #16: জিতো হেলথ (JITO Health - Powered by SastaSundar) (JITO Health (Powered by SastaSundar))
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস ওপিডি চেম্বার, মেডিসিন ও ডায়াগনস্টিক হাব (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/jito-health-sastasundar-baruipur/
@@ -3352,7 +3490,7 @@ DOCTORS OPD ROSTER (14 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #16: শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড (Shatabdi Diagnostic Pvt. Ltd.) (Shatabdi Diagnostic Pvt. Ltd. Baruipur)
+HEALTHCARE FACILITY #17: শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড (Shatabdi Diagnostic Pvt. Ltd.) (Shatabdi Diagnostic Pvt. Ltd. Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: ডায়াগনস্টিক ও প্যাথলজি রিসার্চ সেন্টার (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/shatabdi-diagnostic-pvt-ltd-baruipur/
@@ -3412,7 +3550,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #17: মেট্রোপলিস ডায়াগনস্টিক বারুইপুর (Metropolis Labs Blood Test & Diagnostic Centre) (Metropolis Labs Diagnostic Centre Baruipur)
+HEALTHCARE FACILITY #18: মেট্রোপলিস ডায়াগনস্টিক বারুইপুর (Metropolis Labs Blood Test & Diagnostic Centre) (Metropolis Labs Diagnostic Centre Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: NABL ও CAP আন্তর্জাতিক মানের ডায়াগনস্টিক ল্যাব (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/metropolis-diagnostic-baruipur/
@@ -3458,7 +3596,7 @@ DOCTORS OPD ROSTER (2 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #18: লাইফ জোন নার্সিং হোম, ডায়াগনস্টিক ও ক্লিনিক (Life Zone Nursing Home) (Life Zone Nursing Home, Diagnostic & Clinic Baruipur)
+HEALTHCARE FACILITY #19: লাইফ জোন নার্সিং হোম, ডায়াগনস্টিক ও ক্লিনিক (Life Zone Nursing Home) (Life Zone Nursing Home, Diagnostic & Clinic Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি নার্সিং হোম ও ডায়াগনস্টিক ক্লিনিক (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/life-zone-nursing-home-baruipur/
@@ -3533,7 +3671,7 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #19: কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center) (Kalyan Medical Center Baruipur)
+HEALTHCARE FACILITY #20: কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center) (Kalyan Medical Center Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি ক্লিনিক ও অ্যাডভান্সড ডায়াগনস্টিক (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/kalyan-medical-center-baruipur/
@@ -3593,7 +3731,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #20: দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics [NABL Accredited]) (The Panacea Diagnostics Centre Baruipur)
+HEALTHCARE FACILITY #21: দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics [NABL Accredited]) (The Panacea Diagnostics Centre Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: NABL স্বীকৃত ডায়াগনস্টিক ল্যাব ও স্পেশালিটি ক্লিনিক (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/the-panacea-diagnostics-centre-baruipur/
@@ -3653,7 +3791,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #21: অ্যাকিউহেলথ ডায়াগনস্টিকস বারুইপুর (AccuHealth Diagnostics - 24/7 Pathology) (AccuHealth Diagnostics Baruipur)
+HEALTHCARE FACILITY #22: অ্যাকিউহেলথ ডায়াগনস্টিকস বারুইপুর (AccuHealth Diagnostics - 24/7 Pathology) (AccuHealth Diagnostics Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: ২৪/৭ প্যাথলজি ও আধুনিক ডায়াগনস্টিক সেন্টার (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/accuhealth-diagnostics-baruipur/
@@ -3713,7 +3851,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #22: স্টার মেডিক্যাল ক্লিনিক ও চেম্বার (Star Medical Clinic) (Star Medical Clinic Baruipur)
+HEALTHCARE FACILITY #23: স্টার মেডিক্যাল ক্লিনিক ও চেম্বার (Star Medical Clinic) (Star Medical Clinic Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: ফার্মেসি ও স্পেশালিস্ট ওপিডি ক্লিনিক (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/star-medical-centre-baruipur/
@@ -3774,7 +3912,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #23: ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services) (Oval Healthcare Services Baruipur)
+HEALTHCARE FACILITY #24: ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services) (Oval Healthcare Services Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: ডায়াগনস্টিক, পলিক্লিনিক ও হেলথকেয়ার সেন্টার (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/oval-healthcare-services-baruipur/
@@ -3834,7 +3972,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #24: টিউলিপ পলিক্লিনিক (Tulip Polyclinic) (Tulip Polyclinic Baruipur)
+HEALTHCARE FACILITY #25: টিউলিপ পলিক্লিনিক (Tulip Polyclinic) (Tulip Polyclinic Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি পলিক্লিনিক ও ডক্টরস চেম্বার (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/tulip-polyclinic-baruipur/
@@ -3907,7 +4045,7 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #25: মহেন্দ্র ক্লিনিক (Mahendra Clinic) (Mahendra Clinic Baruipur)
+HEALTHCARE FACILITY #26: মহেন্দ্র ক্লিনিক (Mahendra Clinic) (Mahendra Clinic Baruipur)
 --------------------------------------------------------------------------------
 - Facility Type: স্পেশালিস্ট ডক্টরস চেম্বার ও ক্লিনিক (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/mahendra-clinic-baruipur/
@@ -3945,7 +4083,7 @@ DOCTORS OPD ROSTER (1 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #26: সেবাতীর্থম নার্সিং হোম ও ডায়াগনস্টিক (Sevatirtham Nursing Home & Diagnostic)
+HEALTHCARE FACILITY #27: সেবাতীর্থম নার্সিং হোম ও ডায়াগনস্টিক (Sevatirtham Nursing Home & Diagnostic)
 --------------------------------------------------------------------------------
 - Facility Type: নার্সিং হোম ও ডায়াগনস্টিক সেন্টার (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/sevatirtham-nursing-home-baruipur/
@@ -4013,7 +4151,7 @@ DOCTORS OPD ROSTER (5 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #27: শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি (Santiniketan Nursing Home & Society)
+HEALTHCARE FACILITY #28: শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি (Santiniketan Nursing Home & Society)
 --------------------------------------------------------------------------------
 - Facility Type: নার্সিং হোম ও মেটারনিটি কেয়ার (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/santiniketan-nursing-home-baruipur/
@@ -4059,7 +4197,7 @@ DOCTORS OPD ROSTER (2 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #28: ওয়েল কেয়ার নার্সিং হোম (Well Care Nursing Home)
+HEALTHCARE FACILITY #29: ওয়েল কেয়ার নার্সিং হোম (Well Care Nursing Home)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টি-স্পেশালিটি নার্সিং হোম ও আইসিইউ ডায়ালিসিস সেন্টার (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/well-care-nursing-home-baruipur/
@@ -4204,7 +4342,7 @@ DOCTORS OPD ROSTER (16 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #29: দেবাশীষ নার্সিং হোম (Debasish Nursing Home)
+HEALTHCARE FACILITY #30: দেবাশীষ নার্সিং হোম (Debasish Nursing Home)
 --------------------------------------------------------------------------------
 - Facility Type: নার্সিং হোম (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/debasish-nursing-home-baruipur/
@@ -4235,7 +4373,7 @@ DOCTORS OPD ROSTER (0 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #30: কেয়ারিং হেভেন নার্সিং হোম (Caring Heaven Nursing Home)
+HEALTHCARE FACILITY #31: কেয়ারিং হেভেন নার্সিং হোম (Caring Heaven Nursing Home)
 --------------------------------------------------------------------------------
 - Facility Type: নার্সিং হোম ও আইসিইউ (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/caring-heaven-nursing-home-baruipur/
