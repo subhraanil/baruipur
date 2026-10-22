@@ -31,7 +31,7 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
 
   const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
   const title = `${category.nameBn} - বারুইপুর`;
-  const description = `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও নির্ভরযোগ্য স্থানীয় প্রতিবেদন।`;
+  const description = category.descriptionBn || `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও নির্ভরযোগ্য স্থানীয় প্রতিবেদন।`;
 
   return {
     title,
@@ -170,12 +170,12 @@ export default function CategoryPage({ params }: CategoryPageProps) {
             {category.nameBn}
           </h1>
           <p className="text-sm text-white/90 mt-1 max-w-xl">
-            বারুইপুর মহকুমার {category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, আপডেট ও সামাজিক মাধ্যমে প্রকাশিত তথ্যের নির্ভরযোগ্য সংকলন।
+            {category.descriptionBn || `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, আপডেট ও সামাজিক মাধ্যমে প্রকাশিত তথ্যের নির্ভরযোগ্য সংকলন।`}
           </p>
         </div>
 
         <span className="bg-white/20 px-3.5 py-2 rounded-xl text-xs font-bold shrink-0">
-          মোট {articles.length} টি খবর
+          মোট {articles.length} {category.slug === 'food' || category.slug === 'travel' || category.slug === 'lifestyle' ? 'টি প্রতিবেদন ও গাইড' : 'টি খবর'}
         </span>
       </div>
 

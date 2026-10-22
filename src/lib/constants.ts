@@ -1,13 +1,105 @@
 import { CategoryInfo, Source } from './types';
 
 export const CATEGORIES: CategoryInfo[] = [
-  { id: 'all', nameBn: 'সব খবর', nameEn: 'All News', slug: 'all', color: 'bg-red-600', iconName: 'Newspaper' },
-  { id: 'municipality', nameBn: 'পৌরসভা ও নাগরিক', nameEn: 'Municipality', slug: 'municipality', color: 'bg-emerald-600', iconName: 'Building2' },
-  { id: 'railway', nameBn: 'ট্রেন ও যাতায়াত', nameEn: 'Rail & Traffic', slug: 'railway', color: 'bg-blue-600', iconName: 'TrainTrack' },
-  { id: 'crime', nameBn: 'অপরাধ ও প্রশাসন', nameEn: 'Police & Crime', slug: 'crime', color: 'bg-rose-700', iconName: 'ShieldAlert' },
-  { id: 'health', nameBn: 'স্বাস্থ্য ও হাসপাতাল', nameEn: 'Health & Hospital', slug: 'health', color: 'bg-teal-600', iconName: 'Hospital' },
-  { id: 'education', nameBn: 'শিক্ষা ও স্কুল', nameEn: 'Education', slug: 'education', color: 'bg-indigo-600', iconName: 'GraduationCap' },
-  { id: 'culture', nameBn: 'উৎসব ও খেলাধুলা', nameEn: 'Culture & Sports', slug: 'culture', color: 'bg-amber-600', iconName: 'Sparkles' },
+  { 
+    id: 'all', 
+    nameBn: 'সব খবর', 
+    nameEn: 'All News', 
+    slug: 'all', 
+    color: 'bg-red-600', 
+    iconName: 'Newspaper',
+    descriptionBn: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার সমস্ত স্থানীয় খবর, ডিরেক্টরি ও স্পেশাল গাইডের সম্পূর্ণ সংকলন।'
+  },
+  { 
+    id: 'food', 
+    nameBn: 'খাবার ও রেস্তোরাঁ', 
+    nameEn: 'Food & Dining', 
+    slug: 'food', 
+    color: 'bg-amber-600', 
+    iconName: 'Utensils',
+    descriptionBn: 'বারুইপুরের শীর্ষ রেস্তোরাঁ, বিরিয়ানি, ক্যাফে, ঐতিহ্যবাহী মিষ্টির দোকান এবং রসনাতৃপ্তির সেরা খাদ্য নির্দেশিকা।'
+  },
+  { 
+    id: 'municipality', 
+    nameBn: 'পৌরসভা ও নাগরিক', 
+    nameEn: 'Municipality', 
+    slug: 'municipality', 
+    color: 'bg-emerald-600', 
+    iconName: 'Building2',
+    descriptionBn: 'বারুইপুর পৌরসভা, ১৭টি ওয়ার্ডের নাগরিক পরিষেবা, রাস্তাঘাট, নিকাশি, পানীয় জল ও প্রশাসনিক খবর।'
+  },
+  { 
+    id: 'railway', 
+    nameBn: 'ট্রেন ও যাতায়াত', 
+    nameEn: 'Rail & Traffic', 
+    slug: 'railway', 
+    color: 'bg-blue-600', 
+    iconName: 'TrainTrack',
+    descriptionBn: 'শিয়ালদহ দক্ষিণ শাখা, বারুইপুর জংশন, লোকাল ট্রেনের সময়সূচি ও রেল পরিকাঠামোর নিয়মিত আপডেট।'
+  },
+  { 
+    id: 'crime', 
+    nameBn: 'অপরাধ ও প্রশাসন', 
+    nameEn: 'Police & Crime', 
+    slug: 'crime', 
+    color: 'bg-rose-700', 
+    iconName: 'ShieldAlert',
+    descriptionBn: 'বারুইপুর পুলিশ জেলা, মহকুমা আদালত, আইন-শৃঙ্খলা ও নাগরিক সুরক্ষার তথ্য।'
+  },
+  { 
+    id: 'health', 
+    nameBn: 'স্বাস্থ্য ও হাসপাতাল', 
+    nameEn: 'Health & Hospital', 
+    slug: 'health', 
+    color: 'bg-teal-600', 
+    iconName: 'Hospital',
+    descriptionBn: 'বারুইপুর মহকুমা হাসপাতাল, বিশেষজ্ঞ ডাক্তার চেম্বার, নার্সিংহোম ও স্বাস্থ্য পরিষেবা।'
+  },
+  { 
+    id: 'education', 
+    nameBn: 'শিক্ষা ও বিদ্যায়তন', 
+    nameEn: 'Education', 
+    slug: 'education', 
+    color: 'bg-indigo-600', 
+    iconName: 'GraduationCap',
+    descriptionBn: 'বারুইপুরের ঐতিহ্যবাহী স্কুল, কলেজ, উচ্চশিক্ষা ও ছাত্রছাত্রীদের সাফল্য ও প্রদর্শনী।'
+  },
+  { 
+    id: 'culture', 
+    nameBn: 'উৎসব ও সংস্কৃতি', 
+    nameEn: 'Culture & Sports', 
+    slug: 'culture', 
+    color: 'bg-purple-600', 
+    iconName: 'Sparkles',
+    descriptionBn: 'বারুইপুরের ঐতিহাসিক রাসমেলা, রাস উৎসব, শারদোৎসব, নাটক, খেলাধুলা ও আঞ্চলিক সংস্কৃতির সমাহার।'
+  },
+  { 
+    id: 'travel', 
+    nameBn: 'ভ্রমণ ও দর্শনীয় স্থান', 
+    nameEn: 'Travel & Tourism', 
+    slug: 'travel', 
+    color: 'bg-cyan-600', 
+    iconName: 'MapPin',
+    descriptionBn: 'বারুইপুর ও দক্ষিণ ২৪ পরগনার সেরা ঐতিহাসিক স্থান, স্থাপত্য, পিকনিক স্পট ও দর্শনীয় স্থান গাইড।'
+  },
+  { 
+    id: 'lifestyle', 
+    nameBn: 'লাইফস্টাইল ও জীবনযাত্রা', 
+    nameEn: 'Lifestyle', 
+    slug: 'lifestyle', 
+    color: 'bg-fuchsia-600', 
+    iconName: 'Compass',
+    descriptionBn: 'বারুইপুরের শপিং মল, রিয়েল এস্টেট, আবাসন ও বিবাহ ব্যাঙ্কুয়েট হল সংক্রান্ত নাগরিক জীবনযাত্রার গাইড।'
+  },
+  { 
+    id: 'general', 
+    nameBn: 'সাধারণ সংবাদ', 
+    nameEn: 'General News', 
+    slug: 'general', 
+    color: 'bg-slate-700', 
+    iconName: 'Newspaper',
+    descriptionBn: 'বারুইপুর মহকুমার সাধারণ নাগরিক খবর, আবহাওয়া, বাজারদর ও দৈনন্দিন জনজীবনের সংবাদ প্রবাহ।'
+  },
 ];
 
 export const INITIAL_SOURCES: Source[] = [

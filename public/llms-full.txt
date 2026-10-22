@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-22T14:45:16.083Z
+# Last Updated: 2026-10-22T15:02:09.226Z
 # Total Articles: 247
 # Total Key Landmarks: 33
 # Total Organizations & Clubs: 24
@@ -4464,7 +4464,7 @@ PART 4: REGIONAL NEWS ARTICLES & CIVIC UPDATES (247 TOTAL)
 --------------------------------------------------------------------------------
 ARTICLE #1: বারুইপুরের শীর্ষ ২০টি সেরা রেস্তোরাঁ ও ফ্যামিলি ডাইনিং গাইড: বিরিয়ানি, মোগলাই, জঙ্গল থিম, বিজলি গ্রিল ও মাল্টি-কুইজিন
 --------------------------------------------------------------------------------
-- Category: খাবার ও রেস্তোরাঁ (lifestyle)
+- Category: খাবার ও রেস্তোরাঁ (food)
 - Published At: 2026-10-22T14:45:00.000Z
 - Canonical URL: https://baruipur.online/best-restaurants-in-baruipur-family-dining-biryani-guide/
 - Source: বারুইপুর অনলাইন ফুড ডেস্ক
@@ -4745,7 +4745,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #2: বারুইপুরের সেরা ও ঐতিহ্যবাহী মিষ্টির দোকান গাইড: খাঁটি ছানার মিষ্টি, রসগোল্লা, কমলাভোগ ও সকালের কচুরি
 --------------------------------------------------------------------------------
-- Category: খাবার ও রেস্তোরাঁ (lifestyle)
+- Category: খাবার ও রেস্তোরাঁ (food)
 - Published At: 2026-10-22T14:35:00.000Z
 - Canonical URL: https://baruipur.online/famous-sweet-shops-in-baruipur-traditional-mishti-guide/
 - Source: বারুইপুর অনলাইন ফুড ডেস্ক
@@ -4925,7 +4925,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #3: বারুইপুর সম্পূর্ণ ফুড গাইড: সেরা রেস্তোরাঁ, বিরিয়ানি, ক্যাফে, ফাস্ট ফুড ও মিষ্টির ক্যাটাগরিভিত্তিক তালিকা
 --------------------------------------------------------------------------------
-- Category: জীবনযাত্রা ও সংস্কৃতি (lifestyle)
+- Category: খাবার ও রেস্তোরাঁ (food)
 - Published At: 2026-10-22T14:25:00.000Z
 - Canonical URL: https://baruipur.online/best-restaurants-cafes-and-food-guide-in-baruipur/
 - Source: বারুইপুর অনলাইন ফুড অ্যান্ড লাইফস্টাইল ডেস্ক
@@ -5134,7 +5134,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #4: বারুইপুর সম্পূর্ণ ফুড গাইড: সেরা রেস্তোরাঁ, বিরিয়ানি, ক্যাফে, ফাস্ট ফুড ও মিষ্টির ক্যাটাগরিভিত্তিক তালিকা
 --------------------------------------------------------------------------------
-- Category: খাবার ও রেস্তোরাঁ (lifestyle)
+- Category: খাবার ও রেস্তোরাঁ (food)
 - Published At: 2026-10-22T14:25:00.000Z
 - Canonical URL: https://baruipur.online/best-restaurants-cafes-and-sweets-in-baruipur-food-guide/
 - Source: বারুইপুর অনলাইন ডেক্স
@@ -5343,7 +5343,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #5: আদি গঙ্গা ও আটঘরা প্রত্নতাত্ত্বিক ক্ষেত্র: বারুইপুরের লুপ্ত প্রাচীন ইতিহাস
 --------------------------------------------------------------------------------
-- Category: ঐতিহ্য ও ইতিহাস (culture)
+- Category: ভ্রমণ ও দর্শনীয় স্থান (travel)
 - Published At: 2026-10-22T14:15:00.000Z
 - Canonical URL: https://baruipur.online/adi-ganga-and-atghara-archaeological-heritage-baruipur-guide/
 - Source: বারুইপুর বার্তা ডেস্ক
@@ -5394,7 +5394,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #6: বারুইপুরের বিখ্যাত পেয়ারা ও লিচু: চাষের ইতিহাস, বাগান ও পাইকারি ফলের বাজার গাইড
 --------------------------------------------------------------------------------
-- Category: উৎসব, ঐতিহ্য ও কৃষি (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-22T14:00:00.000Z
 - Canonical URL: https://baruipur.online/famous-baruipur-guava-and-litchi-orchards-market-guide/
 - Source: বারুইপুর বার্তা ডেস্ক
@@ -5448,7 +5448,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #7: বারুইপুরের সেরা ক্যাফে ও আড্ডার ঠিকানা: আধুনিক কফি শপ, রুফটপ ক্যাফে ও ফাস্ট ফুড
 --------------------------------------------------------------------------------
-- Category: খাবার ও রেস্তোরাঁ (lifestyle)
+- Category: খাবার ও রেস্তোরাঁ (food)
 - Published At: 2026-10-22T06:15:00.000Z
 - Canonical URL: https://baruipur.online/best-cafes-in-baruipur-hangout-coffee-food-guide/
 - Source: বারুইপুর অনলাইন ফুড ডেস্ক
@@ -5509,7 +5509,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #8: বারুইপুরের ইতিহাস - রায়চৌধুরী বাড়ির সাড়ে ৩০০ বছরের দুর্গা পুজো
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-21T10:52:46.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A7%87-%E0%A7%A9%E0%A7%A6%E0%A7%A6/
 - Source: Amar Shohor Baruipur, Baruipur 24x7, Baruipur Uncover, Baruipur Update, Baruipur
@@ -5582,7 +5582,7 @@ The solemn occasion served as a heartfelt tribute to the brave martyrs who made 
 --------------------------------------------------------------------------------
 ARTICLE #10: বারুইপুর মিডিয়া গ্রূপের তরফ থেকে জেলার সেরা আগমনী সম্মান ২০২৬ পেলো ধপধোপি সার্বজনীন দূর্গা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-20T21:58:14.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%82%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%B0%E0%A6%AB-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%86/
 - Source: Baruipur Update, Baruipur Barta
@@ -5614,7 +5614,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #11: নবমীর রাতে বারুইপুর পদ্মপুকুরে মানুষের ঢল!
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-20T15:56:26.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A8%E0%A6%AC%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%A2%E0%A6%B2/
 - Source: Amar Shohor Baruipur
@@ -5654,7 +5654,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #12: বারুইপুর মিডিয়া গ্রুপের বিচারে জেলার সেরা আগমনী সম্মান ২০২৬পেল শাসন বালক সংঘ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-19T09:33:23.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%97/
 - Source: Baruipur Update, Baruipur Barta, Baruipur Press Club
@@ -5686,7 +5686,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #13: আবারও বারুইপুরে অগ্নিকাণ্ড
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-19T04:01:14.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%A3%E0%A7%8D%E0%A6%A1/
 - Source: Baruipur, Baruipur Barta, Baruipur Uncover, Baruipur 24x7, Ramnagar Baruipur
@@ -5713,7 +5713,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #14: চোরাবাগানের পর বারুইপুরে কড়া পুলিশ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-18T08:14:03.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9A%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6/
 - Source: Amar Shohor Baruipur, Baruipur Update
@@ -5743,7 +5743,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #15: মহা অষ্টমীর পুণ্যলগ্নে ভক্তিপ্লুত বারুইপুর: মণ্ডপে মণ্ডপে কুমারী পূজা, ১০৮ পদ্মে সন্ধিপূজার অঞ্জলি
 --------------------------------------------------------------------------------
-- Category: culture (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-18T04:00:00.000Z
 - Canonical URL: https://baruipur.online/maha-ashtami-sandhi-puja-anjali-baruipur-2026/
 - Source: বারুইপুর স্থানীয় সূত্র
@@ -5776,7 +5776,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #16: বারুইপুর পদ্মপুকুর ইয়ুথ ক্লাবের শারদোৎসব ২০২৬: নজরকাড়া আলোকসজ্জা ও দৃষ্টিনন্দন প্রতিমায় দর্শনার্থীদের ঢল
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-17T18:39:23.000Z
 - Canonical URL: https://baruipur.online/baruipur-padmapukur-youth-club-durga-puja-2026/
 - Source: Baruipur Uncover
@@ -5809,7 +5809,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #17: বারুইপুরে মণ্ডপজুড়ে ইসরোর চন্দ্রযান-৩: উদ্বোধনে আইজি দক্ষিণবঙ্গ, জনসমুদ্র মণ্ডপ প্রাঙ্গণে
 --------------------------------------------------------------------------------
-- Category: সব খবর (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-17T10:52:11.000Z
 - Canonical URL: https://baruipur.online/isro-chandrayaan-3-theme-durga-puja-inauguration-baruipur/
 - Source: Baruipur Update
@@ -5842,7 +5842,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #18: এক টাকায় পেট ভরে ভাত! শারদোৎসবে বারুইপুরে 'নতুন ভোর'-এর অনন্য মানবিক উদ্যোগ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (social)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-17T07:31:14.000Z
 - Canonical URL: https://baruipur.online/ek-takay-ahar-notun-bhor-social-welfare-baruipur-durga-puja/
 - Source: Baruipur Update
@@ -5875,7 +5875,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #19: মহা সপ্তমীর সকালে নবপত্রিকা স্নান ও দেবীবন্দনা: উৎসবের আলোয় ভাসছে বারুইপুর, মণ্ডপে মণ্ডপে দর্শনার্থীদের ঢল
 --------------------------------------------------------------------------------
-- Category: culture (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-17T03:30:00.000Z
 - Canonical URL: https://baruipur.online/maha-saptami-durga-puja-celebrations-baruipur-2026/
 - Source: বারুইপুর স্থানীয় সূত্র
@@ -5908,7 +5908,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #20: শারদোৎসবে বারুইপুরে দুঃস্থদের মাঝে নতুন বস্ত্র বিতরণ: সামাজিক সংগঠন 'প্রগতি'-র মানবিক কর্মসূচি
 --------------------------------------------------------------------------------
-- Category: সব খবর (social)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-16T15:38:45.000Z
 - Canonical URL: https://baruipur.online/pragati-social-organization-cloth-distribution-baruipur-puja/
 - Source: Voice of Baruipur
@@ -5968,7 +5968,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #22: বারুইপুর মিডিয়া গ্রুপ ও শিব শংকর বস্ত্রালয় শারদ সম্মান ২০২৬: সেরা পাড়ার মণ্ডপ ঋষি বঙ্কিমনগর ও দৌলতাবাদ নিউ মিতালী সংঘ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-16T12:36:03.000Z
 - Canonical URL: https://baruipur.online/baruipur-media-group-sharad-samman-2026-winners-announced/
 - Source: Baruipur Barta, Baruipur Update, Baruipur Press Club
@@ -6001,7 +6001,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #23: বারুইপুর ঋষি বঙ্কিমনগর আদি সার্বজনীন দুর্গোৎসবের ৪৫তম বর্ষ: ভাবনা 'আহ্বান', নজর কাড়ছে দৃষ্টিনন্দন মণ্ডপ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-16T12:33:58.000Z
 - Canonical URL: https://baruipur.online/rishi-bankimnagar-durga-puja-45th-year-aahwan-theme-baruipur/
 - Source: Voice of Baruipur
@@ -6034,7 +6034,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #24: বারুইপুর আদর্শ নবপল্লী সার্বজনীন দুর্গাপূজা: সাবেকিয়ানার মেলবন্ধনে জমজমাট শারদোৎসব
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-16T11:22:46.000Z
 - Canonical URL: https://baruipur.online/adarsha-nabapalli-sarbojanin-durga-puja-baruipur/
 - Source: Baruipur Press Club
@@ -6067,7 +6067,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #25: বারুইপুর ভট্টাচার্য পাড়ায় এবছরের অন্যতম সেরা দুর্গাপুজো পান্ডেল ও প্রতিমা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-16T08:56:52.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%8F%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%AE-%E0%A6%B8%E0%A7%87%E0%A6%B0/
 - Source: Baruipur Uncover, Baruipur Press Club
@@ -6132,7 +6132,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #27: রাসমাঠের সাবর্ণ রায়চৌধুরী রাজবাড়ির পুজো: ৩৫০ বছরের বনেদিয়ানা, ঐতিহ্যবাহী নীলকণ্ঠ পাখি ওড়ানোর রীতি ও ইতিহাস
 --------------------------------------------------------------------------------
-- Category: ঐতিহ্য ও সংস্কৃতি (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-16T03:24:20.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A7%A9%E0%A7%AB%E0%A7%A6-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8/
 - Source: Baruipur, Baruipur Uncover, Baruipur 24x7
@@ -6165,7 +6165,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #28: শারদোৎসবের আবহে এক নতুন অধ্যায়ের সূচনা: বারুইপুর পুলিশ লাইনে প্রথমবার দুর্গাপূজার শুভ উদ্বোধন
 --------------------------------------------------------------------------------
-- Category: উৎসব ও প্রশাসন (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-15T20:02:05.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8/
 - Source: Baruipur, Baruipur Uncover, Ramnagar Baruipur
@@ -6198,7 +6198,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #29: Inauguration of Durga Puja 2026 organized for the first time by the Police Family in Barui
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-15T17:42:58.000Z
 - Canonical URL: https://baruipur.online/inauguration-of-durga-puja-2026-organized-for/
 - Source: Baruipur Police District, Voice of Baruipur
@@ -6225,7 +6225,7 @@ Inauguration of Durga Puja 2026 organized for the first time by the Police Famil
 --------------------------------------------------------------------------------
 ARTICLE #30: বারুইপুরে শহরের কোলাহল পেরিয়ে প্রকৃতির কোলে প্রথম গার্ডen ক্যাফে: আড্ডা ও রসনাতৃপ্তির নতুন ঠিকানা
 --------------------------------------------------------------------------------
-- Category: জীবনযাত্রা ও খাবার (lifestyle)
+- Category: খাবার ও রেস্তোরাঁ (food)
 - Published At: 2026-10-15T15:17:21.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%A8-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AB%E0%A7%87-%E0%A6%86%E0%A6%A1%E0%A7%8D%E0%A6%A1%E0%A6%BE-%E0%A6%93-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A0%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A6%BE/
 - Source: Baruipur Uncover
@@ -6256,7 +6256,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #31: "গাঁয়ের উমা" ভাবনায় সেজে উঠল বারুইপুর সপ্তপল্লী: ৫২তম বর্ষের দৃষ্টিনন্দন মণ্ডপ শুভ উদ্বোধন
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-15T12:32:39.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%97%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AE%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/
 - Source: Baruipur Update
@@ -6287,7 +6287,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #32: নিউ ইন্ডিয়ান মাঠের বিপরীতে বারুইপুর ভট্টাচার্য পাড়ার শারদোৎসব: সাবেকি ঐতিহ্যে জমজমাট প্রস্তুতি
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-15T10:53:18.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%89-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%A0/
 - Source: Baruipur Uncover
@@ -6318,7 +6318,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #33: বারুইপুর শাসন বালক সংঘের ২০২৬ শারদ ভাবনা "বন্দে মাতরম": মণ্ডপজুড়ে দেশাত্মবোধ ও ঐতিহ্যের রূপায়ণ
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-15T07:37:16.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%A5%E0%A6%BF%E0%A6%AE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A6%B0%E0%A6%AE/
 - Source: Baruipur Uncover
@@ -6351,7 +6351,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #34: বারুইপুর কাছারি বাজারের প্রাচীন বিশালাক্ষী মাতা মন্দির: শারদোৎসবে ভক্ত ও ব্যবসায়ীদের ভক্তিপূর্ণ শ্রদ্ধার্ঘ্য
 --------------------------------------------------------------------------------
-- Category: সব খবর (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-15T04:51:18.000Z
 - Canonical URL: https://baruipur.online/baruipur-kachari-bazar-ancient-bishalakshi-mata-mandir/
 - Source: Baruipur
@@ -6384,7 +6384,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #35: শারদীয়ার আনন্দ ভাগ করে নিতে বারুইপুর ৩ নম্বর ওয়ার্ডের হোমলেস হোমে বস্ত্র বিতরণ উদ্যোগ
 --------------------------------------------------------------------------------
-- Category: উৎসব ও সমাজকল্যাণ (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-14T19:09:49.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%A9-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1-%E0%A6%B9%E0%A7%8B%E0%A6%AE%E0%A6%B2%E0%A7%87%E0%A6%B8-%E0%A6%B9%E0%A7%8B%E0%A6%AE%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A6%A3/
 - Source: Baruipur Barta
@@ -6417,7 +6417,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #36: বারুইপুর ঋষি বঙ্কিমনগর আদি সার্বজনীন দুর্গোৎসব পূজা কমিটির এ বছরের ভাবনা আহ্বান আর তারই জো
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-14T17:52:37.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8B%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%AE%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8/
 - Source: Baruipur Barta, Voice of Baruipur
@@ -6447,7 +6447,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #37: পুজোর মুখে শিয়ালদহ দক্ষিণ শাখায় উপচে পড়া ভিড়: চতুর্থীতে বারুইপুর জংশনে চরম যাত্রী চাপ
 --------------------------------------------------------------------------------
-- Category: রেলওয়ে ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-10-14T16:36:42.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%A6%E0%A6%B9-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%B2-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A6%82%E0%A6%B6%E0%A6%A8/
 - Source: Baruipur 24x7
@@ -6480,7 +6480,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #38: বারুইপুর দুর্গোৎসব পরিক্রমা ২০২৬: সেরা ১৫টি মণ্ডপ, রুট ও পার্কিং নির্দেশিকা
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-14T15:19:45.751Z
 - Canonical URL: https://baruipur.online/baruipur-durga-puja-parikrama-pandal-guide-2026/
 - Source: বারুইপুর অনলাইন বিশেষ পরিক্রমা ডেস্ক
@@ -6574,7 +6574,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #39: বারুইপুরের সেরা বিবাহ ভবন, লজ ও ব্যাঙ্কুয়েট হল ডিরেক্টরি: ভাড়া, ধারণক্ষমতা ও সুবিধা
 --------------------------------------------------------------------------------
-- Category: জীবনযাত্রা ও সেবা (lifestyle)
+- Category: লাইফস্টাইল ও জীবনযাত্রা (lifestyle)
 - Published At: 2026-10-14T15:19:45.751Z
 - Canonical URL: https://baruipur.online/best-banquet-halls-and-marriage-venues-in-baruipur/
 - Source: বারুইপুর অনলাইন সিটিজেন সার্ভিস ডেস্ক
@@ -6628,7 +6628,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #40: বারুইপুরে ফ্ল্যাট ও জমি কেনার পূর্ণাঙ্গ গাইড: রিয়েল এস্টেট ট্রেন্ড, রেট ও সেরা আবাসন এলাকা
 --------------------------------------------------------------------------------
-- Category: নগর উন্নয়ন ও রিয়েল এস্টেট (lifestyle)
+- Category: লাইফস্টাইল ও জীবনযাত্রা (lifestyle)
 - Published At: 2026-10-14T15:19:45.751Z
 - Canonical URL: https://baruipur.online/baruipur-real-estate-property-and-flat-buying-guide/
 - Source: বারুইপুর অনলাইন প্রোপার্টি ও অর্থনীতি ডেস্ক
@@ -6728,7 +6728,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #42: বারুইপুর কাছারি বাজারে ট্রান্সফরমারে বিস্ফোরণ ও তীব্র আতঙ্ক: পুজো মরশুমে বিদ্যুৎ বিপর্যয় রোধে সক্রিয় দমকল ও প্রশাসন
 --------------------------------------------------------------------------------
-- Category: অপরাধ ও প্রশাসন (local)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-10-14T14:18:03.000Z
 - Canonical URL: https://baruipur.online/baruipur-kachari-bazar-transformer-blast-fire-incident/
 - Source: Baruipur Barta
@@ -6761,7 +6761,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #43: বারুইপুর প্রেসক্লাবের সপ্তম বর্ষের বার্ষিক মুখপত্র "জাগরী" আনুষ্ঠানিকভাবে প্রকাশ করলেন জেলা পুলিশ সুপার
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-14T14:06:20.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%95-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6/
 - Source: Amar Shohor Baruipur, Voice of Baruipur, Baruipur
@@ -6794,7 +6794,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #44: সন্তোষ মিত্র স্কয়ারের এবারের আকর্ষণ "বন্দে মাতরম": বারুইপুর থেকে শিয়ালদহ রুটে যাওয়ার সম্পূর্ণ পুজো গাইড
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-14T05:25:38.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B7-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A6%B0%E0%A6%AE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%87%E0%A6%A1/
 - Source: Baruipur 24x7
@@ -6831,7 +6831,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #45: "সুতোয় বোনা স্বপ্ন": ৭৬তম বর্ষে বারুইপুর ফুলতলা ৩ নম্বর গেট সার্বজনীন দুর্গোৎসবের বর্ণাঢ্য শুভ উদ্বোধন
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-14T04:38:05.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%B2%E0%A6%BE-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%B8%E0%A7%81%E0%A6%A4%E0%A7%8B%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A7%8B%E0%A6%A8%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8/
 - Source: Baruipur Update
@@ -6864,7 +6864,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #46: ঋষি বঙ্কিম নগরে এবছরের শারদ ভাবনা "আহ্বান": ৪৫তম বর্ষের মণ্ডপে শেষ মুহূর্তের জোর প্রস্তুতি
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-13T14:18:15.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%8B%E0%A6%B7%E0%A6%BF-%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%AE-%E0%A6%A8%E0%A6%97%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE-%E0%A6%86%E0%A6%B9%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A8-%E0%A7%AA%E0%A7%AB%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7/
 - Source: Voice of Baruipur
@@ -6897,7 +6897,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #47: দিলীপ ঘোষের উপস্থিতিতে শুভ উদ্বোধন! ৬৩তম বর্ষে পদার্পণ করল সাহাপাড়া ৭ ও ৮ নম্বর পল্লীর দুর্গাপূজা
 --------------------------------------------------------------------------------
-- Category: উৎসব ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-13T10:40:12.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%80%E0%A6%AA-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AA%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8-%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/
 - Source: Voice of Baruipur
@@ -6930,7 +6930,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #48: বারুইপুরে উমা আসছে!
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-13T01:50:02.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%89%E0%A6%AE%E0%A6%BE-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87/
 - Source: Amar Shohor Baruipur
@@ -6968,7 +6968,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #49: মঙ্গলবার ফুলতলা সার্বজনীন দুর্গোৎসবের শুভ উদ্বোধন করবেন মন্ত্রী দিলীপ ঘোষ
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-12T15:07:36.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%A7%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%B2%E0%A6%BE-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8/
 - Source: Baruipur Update
@@ -6998,7 +6998,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #50: পদ্মপুকুর অঙ্কুর ক্লাবের ঐতিহাসিক সাদা কালী মায়ের পুজো উপলক্ষে অনুষ্ঠিত হলো খুঁটিপুজো
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-12T11:11:46.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%85%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BE-%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC/
 - Source: Baruipur Uncover
@@ -7028,7 +7028,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #51: সুতোয় বোনা স্বপ্ন: বারুইপুর ফুলতলা দুর্গোৎসবে হস্তশিল্প ও পরিবেশবান্ধব মণ্ডপসজ্জা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-12T10:01:13.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B8%E0%A7%81%E0%A6%A4%E0%A7%8B%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A7%8B%E0%A6%A8%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8-%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%AA/
 - Source: Baruipur Barta
@@ -7058,7 +7058,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #52: হারিয়ে যেতে বসা বাংলার স্মৃতি ফেরাতে প্রগতি সংঘের থিম 'ফেরার ডাক'
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-12T09:52:14.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9C%E0%A6%BF-%E0%A6%AC%E0%A7%8B%E0%A6%B8-%E0%A6%B8%E0%A6%B0%E0%A6%A3%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%97%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%A7%E0%A7%AB%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%B6%E0%A7%8D%E0%A6%B0/
 - Source: Baruipur
@@ -7088,7 +7088,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #53: ৩০ লক্ষ টাকা দাবির অভিযোগে শোরগোল বারুইপুরে: বিজেপির মণ্ডল সভাপতি গৌতম চক্রবর্তীর বিরুদ্ধে পাল্টা রাজনৈতিক চক্রান্তের দাবি
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-12T09:07:43.000Z
 - Canonical URL: https://baruipur.online/%E0%A7%A9%E0%A7%A6-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97/
 - Source: Baruipur Update
@@ -7120,7 +7120,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #54: শারদোৎসবের আনন্দে প্রস্তুত এলাচি রামচন্দ্রপুর মিলন সংঘ ও তরুণ সংঘ
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-12T08:22:01.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%BF-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%98-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A4%E0%A6%B0%E0%A7%81/
 - Source: Baruipur Press Club
@@ -7150,7 +7150,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #55: সন্তোষ মিত্র স্কোয়ারের এবছরের দুর্গাপূজার বিশেষ আকর্ষণ দেশাত্মবোধক থিম 'বন্দেমাতরম'
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-12T05:01:46.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B7-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%A5%E0%A6%BF%E0%A6%AE/
 - Source: Baruipur Uncover
@@ -7209,7 +7209,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #57: শারদোৎসবের সূচনা: বারুইপুরের মণ্ডপে মণ্ডপে প্রতিমা আগমন, উৎসবের প্রস্তুতি তুঙ্গে
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-12T02:11:19.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%AE%E0%A6%BE/
 - Source: Amar Shohor Baruipur
@@ -7239,7 +7239,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #58: সুন্দরবনের প্রত্যন্ত অঞ্চলে ১৯০টি সোলার স্ট্রিট লাইট প্রকল্পের উদ্বোধন করলেন মন্ত্রী মনোজ কুমার ওরাঁও
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-11T07:41:50.000Z
 - Canonical URL: https://baruipur.online/live-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%AA%E0%A7%87%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B2%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE-%E0%A6%93-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%B2%E0%A7%87%E0%A6%B8-%E0%A6%AB%E0%A6%BE%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%89/
 - Source: Baruipur Update, Baruipur Barta
@@ -7271,7 +7271,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #59: বারুইপুর ফুলতলা ও দুধনই সর্বজনীনের দুর্গাপূজার থিম উন্মোচন: উৎসবের আলোয় প্রস্তুত মহকুমা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-11T07:12:42.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%B2%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A7%A9%E0%A6%A8%E0%A6%82-%E0%A6%97%E0%A7%87%E0%A6%9F/
 - Source: Baruipur
@@ -7301,7 +7301,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #60: ভোররাতে দেবীর প্রাণ প্রতিষ্ঠা: বারুইপুর নতুন পাড়ায় সম্পন্ন হলো মায়ের চক্ষুদান
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-11T01:52:38.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AD%E0%A7%8B%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%AC%E0%A7%80%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE/
 - Source: Amar Shohor Baruipur
@@ -7331,7 +7331,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #61: বারুইপুর পূর্বের তৃণমূল বিধায়ক বিভাস সর্দারের গাড়িতে হামলার অভিযোগ
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-10T15:50:51.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%B8-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%87/
 - Source: Baruipur Update, Voice of Baruipur, Baruipur Barta
@@ -7363,7 +7363,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #62: মনসাতলায় গাড়িতে হামলার ঘটনায় মুখ খুললেন বারুইপুর পূর্বের বিধায়ক বিভাস সর্দার
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-10T15:42:05.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%B8-%E0%A6%B8%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%87/
 - Source: Baruipur Barta
@@ -7424,7 +7424,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #64: বারুইপুরের সাদা কালী মায়ের ১১ ই অক্টোবর অর্থাৎ আগামীকাল সকাল ১১ টায় খুঁটিপুজো।
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-10T08:53:31.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BE-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A7%A7%E0%A7%A7-%E0%A6%87-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5/
 - Source: Baruipur Uncover
@@ -7460,7 +7460,7 @@ Location: Baruipur Ankur Club
 --------------------------------------------------------------------------------
 ARTICLE #65: মহালয়ার সকালে বারুইপুর সদাব্রত ঘাটে আদি গঙ্গার তীরে তর্পণ।
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-10T03:39:34.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A4-%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A7%87-%E0%A6%86%E0%A6%A6%E0%A6%BF-%E0%A6%97%E0%A6%99%E0%A7%8D%E0%A6%97/
 - Source: Baruipur
@@ -7500,7 +7500,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #66: মহালয়ার পুণ্যলগ্নে দেবীপক্ষের সূচনা 🙏 বারুইপুর সদাব্রত ঘাটে ভোর থেকে চলছে পিতৃতর্পণ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-10T01:31:10.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%A3%E0%A7%8D%E0%A6%AF%E0%A6%B2%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%AC%E0%A7%80%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0/
 - Source: Amar Shohor Baruipur
@@ -7542,7 +7542,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #67: মহালয়ায় বারুইপুর সদাব্রত ঘাটে আদি গঙ্গায় তর্পণ করলেন অগণিত পুণ্যার্থী
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-09T23:42:41.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%A6%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A4-%E0%A6%97%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%A4%E0%A6%AA%E0%A6%A8/
 - Source: Voice of Baruipur
@@ -7572,7 +7572,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #68: উত্তরভাগ সর্বজনীন দুর্গোৎসবে কেদারনাথ মন্দিরের আদলে দৃষ্টিনন্দন মণ্ডপ
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-09T09:22:05.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%89%E0%A6%93%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%95%E0%A7%87%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/
 - Source: Voice of Baruipur
@@ -7647,7 +7647,7 @@ Further investigation is underway to trace the source of the firearms and identi
 --------------------------------------------------------------------------------
 ARTICLE #70: শারদোৎসব উপলক্ষে বর্ণাঢ্য আলপনায় সেজে উঠেছে বারুইপুরের সদাব্রত ঘাট
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-09T06:36:44.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%A4-%E0%A6%98%E0%A6%BE%E0%A6%9F-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%B8%E0%A7%87%E0%A6%9C/
 - Source: Baruipur Uncover
@@ -7745,7 +7745,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #73: বারুইপুর কাঁপছে শ্রমজীবীদের ডাকে!
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-08T10:10:37.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%81%E0%A6%AA%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%BE%E0%A6%95%E0%A7%87/
 - Source: Amar Shohor Baruipur
@@ -7856,7 +7856,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #76: বারুইপুরের মাদারাট পাল বাড়ির প্রায় ৩০০ বছরের দুর্গাপূজা: সাবেকি একচালা ও বনেদি ঐতিহ্যের জীবন্ত নিদর্শন
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-07T15:58:54.000Z
 - Canonical URL: https://baruipur.online/madarat-pal-bari-300-year-durga-puja-baruipur/
 - Source: Baruipur Uncover
@@ -7887,7 +7887,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #77: কালীপূজা ও দীপাবলিতে আলোর প্রস্তুতি: চম্পাহাটি হারালে পরিবেশবান্ধব বাজি তৈরিতে ব্যস্ত কারিগররা
 --------------------------------------------------------------------------------
-- Category: সব খবর (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-07T14:02:24.000Z
 - Canonical URL: https://baruipur.online/champahati-haral-green-fireworks-kali-puja-preparation/
 - Source: Amar Shohor Baruipur
@@ -8122,7 +8122,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #84: গত কাল জাতীয়তাবাদী নাগরিক কমিটির পক্ষ থেকে ভারতীয় পাইলটের ক্যাপ্টেন স্মিত মাচার নিজের জী
 --------------------------------------------------------------------------------
-- Category: রেল ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-10-05T12:24:38.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%97%E0%A6%A4-%E0%A6%95%E0%A6%BE%E0%A6%B2-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%80-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AD/
 - Source: Voice of Baruipur
@@ -8194,7 +8194,7 @@ Investigation is underway to gather information regarding the source of the reco
 --------------------------------------------------------------------------------
 ARTICLE #86: জীবন সংগ্রামের ইতিহাস
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-05T02:06:49.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8/
 - Source: Amar Shohor Baruipur
@@ -8266,7 +8266,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #88: নয় বছরের ছেলেকে বাঁচাতে গিয়ে মা নিখোঁজ, উদ্বিগ্ন বারুইপুর
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-04T07:23:40.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A8%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%97%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AE%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC/
 - Source: Amar Shohor Baruipur
@@ -8342,7 +8342,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #90: সেবা সেতু ক্যাম্পকে কেন্দ্র করে ব্যাপক উত্তেজনা দক্ষিণ ২৪ পরগনার ক্যানিংয়ে
 --------------------------------------------------------------------------------
-- Category: রেল ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-10-03T08:00:39.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%B8%E0%A7%87%E0%A6%A4%E0%A7%81-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%87%E0%A6%9C/
 - Source: Baruipur Update
@@ -8554,7 +8554,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #96: আজ, ২রা অক্টোবর, বিশিষ্ট ভারতীয় মুক্তিযোদ্ধা ও ভারতের দ্বিতীয় প্রধানমন্ত্রী লাল বাহাদুর
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-10-02T03:50:49.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A7%A8%E0%A6%B0%E0%A6%BE-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE-%E0%A6%93/
 - Source: Baruipur
@@ -8587,7 +8587,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #97: বারুইপুরের মাটিতেই লুকিয়ে আছে এত রঙ!
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-10-01T14:29:59.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87%E0%A6%87-%E0%A6%B2%E0%A7%81%E0%A6%95%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A6%8F%E0%A6%A4-%E0%A6%B0%E0%A6%99/
 - Source: Amar Shohor Baruipur
@@ -8668,7 +8668,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #99: বারুইপুর মা শিবানী পীঠের দুর্গোৎসব: ঐতিহ্যবাহী শক্তিপীঠে দেবীবন্দনার প্রস্তুতি তুঙ্গে
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-30T16:30:35.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BE-%E0%A6%B6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%AA%E0%A7%80%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%80%E0%A6%A0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%AC%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF-%E0%A6%A4%E0%A7%81%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87/
 - Source: Baruipur
@@ -8702,7 +8702,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #100: শরতের আগমনী বার্তা: বারুইপুর-জুলপিয়া রোডের কোম্পানিপুকুরে বিস্তীর্ণ কাশফুলের মোহময় দৃশ্য
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-30T15:40:31.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B6%E0%A6%B0%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A6%A8%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%AA%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%B0%E0%A7%8B%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%AA%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%AE%E0%A6%AF%E0%A6%BC-%E0%A6%A6%E0%A7%83%E0%A6%B6%E0%A7%8D%E0%A6%AF/
 - Source: Baruipur Uncover
@@ -8804,7 +8804,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #103: বারুইপুরের নাইট কুইন রেস্টুরেন্টে পচা মাংস পরিবেশনের গুরুতর অভিযোগ: সরব খাদ্য রসিক ও স্থানীয়রা
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও যোগাযোগ (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-30T08:15:07.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%95%E0%A7%81%E0%A6%87%E0%A6%A8-%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%AA%E0%A6%9A%E0%A6%BE-%E0%A6%AE%E0%A6%BE%E0%A6%82%E0%A6%B8-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97/
 - Source: Baruipur Barta
@@ -8837,7 +8837,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #104: দেশজুড়ে ব্যাঙ্ক ধর্মঘট স্থগিত: বারুইপুর মহকুমার সমস্ত রাষ্ট্রায়ত্ত ও বেসরকারি ব্যাঙ্কে স্বাভাবিক কাজকর্ম চালু
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-30T06:40:18.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%9C%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%95-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%98%E0%A6%9F-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%97%E0%A6%BF%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A7%81/
 - Source: Baruipur Update
@@ -8868,7 +8868,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #105: বারুইপুর ফুলতলা বিধানস্মৃতি সংঘের দুর্গাপুজোর প্রস্তুতি: মণ্ডপ সজ্জায় জোরকদমে কাজ শুরু
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-30T06:31:32.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF/
 - Source: Baruipur Uncover
@@ -8900,7 +8900,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #106: হাতের ছোঁয়ায় প্রাণ পাচ্ছে মৃন্ময়ী রূপ: বারুইপুরের কুমোরপাড়ায় চলছে দুর্গা প্রতিমা নির্মাণের চরম ব্যস্ততা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-30T02:30:15.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A7%8B%E0%A6%B0%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%A4%E0%A6%BE/
 - Source: Amar Shohor Baruipur
@@ -8929,7 +8929,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #107: জয়নগরে দলবদলের জেরে রাজনৈতিক তরজা: সাংবাদিকদের মুখোমুখি দলীয় নেতৃত্ব
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-29T15:42:21.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A6%97%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%B2%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%A4%E0%A6%B0%E0%A6%9C%E0%A6%BE-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8B%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A6%BF/
 - Source: Baruipur Update
@@ -8961,7 +8961,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #108: বারুইপুর শিবানী পীঠের দুর্গা প্রতিমার অপূর্ব রূপ: চলছে শেষ মুহূর্তের পুজো প্রস্তুতি
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-29T15:32:02.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%AA%E0%A7%80%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A6%B0%E0%A7%82%E0%A6%AA-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF/
 - Source: Baruipur
@@ -9027,7 +9027,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #110: ডিজে নিয়ে কড়া বারুইপুর পুলিশ জেলা, পুজো কমিটি ও ভাড়া দেওয়া সংস্থা—উভয়ের বিরুদ্ধেই কড়া ব্যব
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-29T08:42:08.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%93-%E0%A6%AD%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%89%E0%A6%AD%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC/
 - Source: Baruipur Update
@@ -9059,7 +9059,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #111: বারুইপুর ভ্রমণ গাইড: কলকাতা সংলগ্ন সেরা ডে-ট্রিপ, দর্শনীয় স্থান ও খাঁটি অভিজ্ঞতা
 --------------------------------------------------------------------------------
-- Category: লাইফস্টাইল ও ভ্রমণ (lifestyle)
+- Category: ভ্রমণ ও দর্শনীয় স্থান (travel)
 - Published At: 2026-09-29T04:34:22.383Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A3-%E0%A6%97%E0%A6%BE%E0%A6%87%E0%A6%A1-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8-%E0%A6%93-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE/
 - Source: বারুইপুর ডট অনলাইন এডিটোরিয়াল
@@ -9240,7 +9240,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #112: টানা বৃষ্টিতে জলমগ্ন বারুইপুরের প্রাণকেন্দ্র: প্রধান সড়ক ও মোড়ে জলজটের ভিডিও রিপোর্ট
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও যোগাযোগ (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-29T02:30:56.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%B2%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93-%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F/
 - Source: Amar Shohor Baruipur
@@ -9271,7 +9271,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #113: টানা বৃষ্টিতে জলমগ্ন বারুইপুরের প্রাণকেন্দ্র: প্রধান সড়কে জল-কাদায় একাকার, চরম ভোগান্তিতে নাগরিকরা
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও যোগাযোগ (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-29T02:30:56.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%B2%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF/
 - Source: Amar Shohor Baruipur
@@ -9338,7 +9338,7 @@ Live জ্ঞানেশ কুমার এর পদত্যাগ ও গ�
 --------------------------------------------------------------------------------
 ARTICLE #115: বারুইপুরে রাজনৈতিক প্রতিবাদ মিছিল ও পথসভা: মহকুমা শাসকের দপ্তরের সন্নিকটে বিক্ষোভ
 --------------------------------------------------------------------------------
-- Category: প্রশাসন ও জনজীবন (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-28T11:52:04.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AE%E0%A6%BF%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%93-%E0%A6%AE%E0%A6%B9%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%95-%E0%A6%A6%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD/
 - Source: Baruipur Update, Baruipur Barta
@@ -9369,7 +9369,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #116: বেহাল বারুইপুর-আমতলা রোডে বড় গর্তে উল্টে গেল যাত্রীবোঝাই টোটো: পথচারী ও যাত্রীদের ক্ষোভ
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও যোগাযোগ (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-28T06:48:49.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%A4%E0%A6%B2%E0%A6%BE-%E0%A6%B0%E0%A7%8B%E0%A6%A1%E0%A7%87-%E0%A6%97%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%87-%E0%A6%89%E0%A6%B2%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%AC%E0%A7%8B%E0%A6%9D%E0%A6%BE%E0%A6%87-%E0%A6%9F%E0%A7%8B%E0%A6%9F%E0%A7%8B/
 - Source: Baruipur Update
@@ -9480,7 +9480,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #119: রাস্তার মাঝে পাথরের স্তূপ ও দাঁড়িয়ে জেসিবি: বারুইপুর বাইপাসে জীবনের ঝুঁকি নিয়ে যাতায়াত
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও যোগাযোগ (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-28T02:30:12.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%AA%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A5%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%82%E0%A6%AA-%E0%A6%9D%E0%A7%81%E0%A6%81%E0%A6%95%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2/
 - Source: Amar Shohor Baruipur
@@ -9546,7 +9546,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #121: শারদোৎসবের আবহ: বারুইপুর পদ্মপুকুর ইয়ুথ ক্লাবের দুর্গাপুজোয় এবছরের ভাবনা 'দুর্গং শরণং'
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও ঐতিহ্য (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-27T13:43:08.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%87%E0%A7%9F%E0%A7%81%E0%A6%A5-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%82-%E0%A6%B6%E0%A6%B0%E0%A6%A3%E0%A6%82/
 - Source: Baruipur Uncover
@@ -9610,7 +9610,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #123: ভারতীয় রেল না বাংলাদেশ রেল - বুঝতে পারবেন না!
 --------------------------------------------------------------------------------
-- Category: রেল ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-09-27T11:02:37.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%B0%E0%A7%87%E0%A6%B2-%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B0%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A7%81%E0%A6%9D%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE/
 - Source: Baruipur
@@ -9712,7 +9712,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #126: মাটি থেকে মর্যাদার বেদীতে পুনর্বহাল: বিদ্যাসাগর জন্মজয়ন্তীতে নতুন স্থানে প্রতিষ্ঠিত বিদ্যাসাগরের আবক্ষ মূর্তি
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও ঐতিহ্য (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-26T13:31:03.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF/
 - Source: Amar Shohor Baruipur
@@ -9743,7 +9743,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #127: সমাজকল্যাণ ও প্রদীপ প্রজ্বলন: বারুইপুর পশ্চিম ২ নম্বর মণ্ডলে সেবা সংকল্প ও সান্ধ্য প্রার্থনা কর্মসূচি
 --------------------------------------------------------------------------------
-- Category: সমাজ ও জনজীবন (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-26T13:13:50.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE-%E0%A7%A8-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%AE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%BF/
 - Source: Baruipur Barta
@@ -9842,7 +9842,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #130: পুজোর মুখে নাসিক থেকে বারুইপুর বাজারে এল গাড়ি বোঝাই টাটকা মৌসম্বি লেবু: জমে উঠেছে পাইকারি ফল ব্যবসা
 --------------------------------------------------------------------------------
-- Category: বাণিজ্য ও বাজারদর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-26T02:45:53.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A8%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%95-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A7%9C%E0%A6%BF-%E0%A6%AC%E0%A7%8B%E0%A6%9D%E0%A6%BE%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%9F%E0%A6%95%E0%A6%BE-%E0%A6%AE%E0%A7%8C%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%BF-%E0%A6%B2%E0%A7%87%E0%A6%AC%E0%A7%81/
 - Source: Amar Shohor Baruipur
@@ -9873,7 +9873,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #131: পণ্ডিত ঈশ্বরচন্দ্র বিদ্যাসাগরের ২০৭তম জন্মজয়ন্তী: বারুইপুর মহকুমা জুড়ে মনীষী স্মরণে শ্রদ্ধার্ঘ্য
 --------------------------------------------------------------------------------
-- Category: সংস্কৃতি ও মনীষী স্মরণ (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-26T02:02:40.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AA%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%A4-%E0%A6%88%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%AD%E0%A6%A4%E0%A6%AE-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A7%8D%E0%A6%AF/
 - Source: Baruipur
@@ -9904,7 +9904,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #132: শিয়ালদহ দক্ষিণ শাখায় প্ল্যাটফর্ম সম্প্রসারণ ও আধুনিকীকরণ: বারুইপুরগামী ট্রেনের যাত্রীদের সুবিধার্থে নয়া রূপরেখা
 --------------------------------------------------------------------------------
-- Category: রেল ও যোগাযোগ (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-09-25T11:19:25.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A6%A6%E0%A6%B9-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2/
 - Source: Baruipur 24x7
@@ -9966,7 +9966,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #134: আদালত চত্বরে নিরাপত্তার দাবিতে বারুইপুর মহকুমা আদালতে আইনজীবীদের অবস্থান বিক্ষোভ ও কর্মবিরতি
 --------------------------------------------------------------------------------
-- Category: আইন ও বিচার প্রশাসন (crime)
+- Category: অপরাধ ও প্রশাসন (crime)
 - Published At: 2026-09-25T10:16:56.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD/
 - Source: Baruipur Update
@@ -9997,7 +9997,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #135: অঙ্কুর ক্লাবের উদ্যোগে পঞ্চম বর্ষের রক্তদান শিবির ও বিনামূল্যে চক্ষু পরীক্ষা ক্যাম্প বারুইপুরে
 --------------------------------------------------------------------------------
-- Category: স্বাস্থ্য ও সমাজসেবা (health)
+- Category: স্বাস্থ্য ও হাসপাতাল (health)
 - Published At: 2026-09-25T10:10:02.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%85%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AA%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%81-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA/
 - Source: Baruipur
@@ -10028,7 +10028,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #136: কালো মেঘে ঢাকা আকাশ ও বৃষ্টির পূর্বাভাস: বারুইপুর জংশন স্টেশনের অপরূপ রূপ
 --------------------------------------------------------------------------------
-- Category: প্রকৃতি ও রেল চত্বর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-25T06:49:20.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AE%E0%A7%87%E0%A6%98%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0/
 - Source: Baruipur
@@ -10062,7 +10062,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #137: বারুইপুর রেলগেটে হেলে পড়া ইলেকট্রিক পোস্ট ভেঙে পড়ে গুরুতর আহত মহিলা, দীর্ঘক্ষণ স্তব্ধ যান চলাচল
 --------------------------------------------------------------------------------
-- Category: দুর্ঘটনা ও নাগরিক নিরাপত্তা (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-25T06:48:53.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87-%E0%A6%86%E0%A6%B9%E0%A6%A4-%E0%A6%AE%E0%A6%B9%E0%A6%BF%E0%A6%B2%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%A7-%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2/
 - Source: Baruipur Barta
@@ -10093,7 +10093,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #138: ২৫ বছরের লড়াই আজ থমকে গেছে: নিত্যপ্রয়োজনীয় জিনিসের অস্বাভাবিক মূল্যবৃদ্ধিতে চোখে জল বারুইপুরের অন্নপূর্ণা দিদির
 --------------------------------------------------------------------------------
-- Category: সমাজ ও জনজীবন (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-25T02:31:31.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A7%A8%E0%A7%AB-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%A5%E0%A6%AE%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87-%E0%A6%9C%E0%A6%B2/
 - Source: Amar Shohor Baruipur
@@ -10124,7 +10124,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #139: বারুইপুর লেভেল ক্রসিং রেলগেটের বেহাল রাস্তা: বড় বড় গর্ত ও জমা জলে নিত্যযাত্রীদের চরম দুর্ভোগ
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও যোগাযোগ (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-24T13:25:23.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%B2%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%82-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%B2-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF/
 - Source: Amar Shohor Baruipur
@@ -10155,7 +10155,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #140: বারুইপুর জংশন ১ নম্বর প্ল্যাটফর্ম সংলগ্ন ঐতিহ্যবাহী শিব-দুর্গা মন্দির: শতাব্দীপ্রাচীন ভক্তিসাধনা ও পুজো
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও ঐতিহ্য (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-24T08:48:43.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B8%E0%A6%82%E0%A6%B2%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%AC-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/
 - Source: Baruipur
@@ -10186,7 +10186,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #141: পানীয় জলের তীব্র সংকট: বারুইপুরে বেহাল জলের ট্যাংক ও পাইপলাইন, ক্ষোভে ফুঁসছেন নাগরিকরা
 --------------------------------------------------------------------------------
-- Category: পৌর পরিষেবা ও নাগরিক (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-24T02:13:09.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%9C%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%AC%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%B2-%E0%A6%9C%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%81%E0%A6%AC%E0%A7%8D%E0%A6%A7-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B0%E0%A6%BE/
 - Source: Amar Shohor Baruipur
@@ -10217,7 +10217,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #142: বারুইপুর কাছারি বাজারে রাধেশ্যাম বস্ত্রালয়ের সামনে ইলেকট্রিক পোস্টে ভয়াবহ আগুন, নিয়ন্ত্রণে দমকল
 --------------------------------------------------------------------------------
-- Category: দুর্ঘটনা ও প্রশাসন (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-23T15:57:08.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE-%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8/
 - Source: Baruipur Update, Baruipur Barta
@@ -10248,7 +10248,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #143: বঙ্গোপসাগরে নিম্নচাপের জেরে বারুইপুর মহকুমা জুড়ে দফায় দফায় ভারী বর্ষণ, জলমগ্ন একাধিক এলাকা
 --------------------------------------------------------------------------------
-- Category: আবহাওয়া ও জনজীবন (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-23T12:10:15.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3-%E0%A6%9C%E0%A6%B2%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE/
 - Source: Baruipur 24x7
@@ -10279,7 +10279,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #144: আইনজীবী সায়ন ব্যানার্জিকে হেনস্থার প্রতিবাদ: বারুইপুর মহকুমা আদালতে আইনজীবীদের কর্মবিরতি পালন
 --------------------------------------------------------------------------------
-- Category: আইন ও প্রশাসন (crime)
+- Category: অপরাধ ও প্রশাসন (crime)
 - Published At: 2026-09-23T11:00:09.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF-%E0%A6%B9%E0%A7%87%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A6%A4%E0%A6%BF/
 - Source: Baruipur Update
@@ -10310,7 +10310,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #145: এবিভিপি কার্যকর্তাদের ওপর হামলার প্রতিবাদ: বারুইপুর পুলিশ জেলা এসপি অফিস অভিযান ও ডেপুটেশন
 --------------------------------------------------------------------------------
-- Category: আইন ও রাজনীতি (crime)
+- Category: অপরাধ ও প্রশাসন (crime)
 - Published At: 2026-09-23T07:47:44.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%8F%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F%E0%A6%B8%E0%A6%AA%E0%A6%BF-%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8/
 - Source: Baruipur Barta
@@ -10341,7 +10341,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #146: বারুইপুর আটিসারা মহাপ্রভুতলার ঐতিহ্যবাহী অষ্টসখী মন্দির ও দর্শনীয় শ্রীপাট
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও ঐতিহ্য (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-23T06:35:43.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%9F%E0%A6%BF%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A7%81%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%85%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%B8%E0%A6%96%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/
 - Source: Baruipur
@@ -10408,7 +10408,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #148: বারুইপুর আদালতের ঘটনায় মুখ খুললেন আইনজীবী সায়ন ব্যানার্জি ও বিজেপি নেতৃত্ব
 --------------------------------------------------------------------------------
-- Category: আইন ও প্রশাসন (crime)
+- Category: অপরাধ ও প্রশাসন (crime)
 - Published At: 2026-09-22T17:34:07.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF-%E0%A6%93-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AC/
 - Source: Baruipur Barta
@@ -10472,7 +10472,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #150: আইনজীবী সায়ন ব্যানার্জিকে লক্ষ্য করে ডিম ছোঁড়ার অভিযোগ বারুইপুর আদালত চত্বরে, এবিভিপির বিক্ষোভ
 --------------------------------------------------------------------------------
-- Category: আইন ও প্রশাসন (crime)
+- Category: অপরাধ ও প্রশাসন (crime)
 - Published At: 2026-09-22T15:00:25.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AE-%E0%A6%9B%E0%A7%8B%E0%A6%81%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD/
 - Source: Baruipur Update
@@ -10503,7 +10503,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #151: বারুইপুর চৌধুরী জমিদার বাড়ির ৩০০ বছরের প্রাচীন দুর্গাপুজো: ঐতিহ্য ও রীতিনীতি
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও ঐতিহ্য (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-22T14:25:38.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%9C%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A7%A9%E0%A7%A6%E0%A7%A6-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B/
 - Source: Baruipur Uncover
@@ -10565,7 +10565,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #153: বারুইপুর আদালতের ঘটনার প্রতিবাদে কুলপি রোড অবরোধ এবিভিপির, যান চলাচল ব্যাহত
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও প্রশাসন (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-22T13:02:43.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%AA%E0%A6%BF-%E0%A6%B0%E0%A7%8B%E0%A6%A1-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%8F%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0/
 - Source: Baruipur Barta
@@ -10596,7 +10596,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #154: এসএফআই ও এবিভিপি মুখোমুখি সংঘর্ষে উত্তপ্ত বারুইপুর আদালত চত্বর, মোতায়েন পুলিশ বাহিনী
 --------------------------------------------------------------------------------
-- Category: আইন ও প্রশাসন (crime)
+- Category: অপরাধ ও প্রশাসন (crime)
 - Published At: 2026-09-22T11:45:42.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%8F%E0%A6%B8%E0%A6%8F%E0%A6%AB%E0%A6%86%E0%A6%87-%E0%A6%93-%E0%A6%8F%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0/
 - Source: Baruipur Barta
@@ -10806,7 +10806,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #160: বারুইপুর জোড়া মন্দিরে বিশ্বকর্মা ঠাকুর বিসর্জন
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-20T15:51:45.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE-%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8/
 - Source: Amar Shohor Baruipur
@@ -10915,7 +10915,7 @@ The main objective of the programme was to make the students aware about their r
 --------------------------------------------------------------------------------
 ARTICLE #163: দুর্গাপুজোর আগে বারুইপুরে পুলিশ-প্রশাসনের সমন্বয় সভা!
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-19T07:33:44.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%AC%E0%A6%AF%E0%A6%BC-%E0%A6%B8%E0%A6%AD%E0%A6%BE/
 - Source: Voice of Baruipur
@@ -10947,7 +10947,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #164: বারুইপুরের বুকে ৩৫০ বছরের এক অজানা ইতিহাস
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-19T02:46:14.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A7%A9%E0%A7%AB%E0%A7%A6-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%95-%E0%A6%85%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8/
 - Source: Amar Shohor Baruipur
@@ -10974,7 +10974,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #165: পূর্ব রেলওয়ের বারুইপুর শাখার পি. ওয়ে স্টাফদের পরিচালনায় শ্রীশ্রী বিশ্বকর্মা পূজা - ২০
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-18T14:52:09.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BF-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%AB%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6/
 - Source: Baruipur
@@ -11004,7 +11004,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #166: জয় বাবা বিশ্বকর্মার জয়
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-18T05:44:10.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9C%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%AF%E0%A6%BC/
 - Source: All Baruipur News
@@ -11036,7 +11036,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #167: বারুইপুরে ৯৫ ও ৯৫এ রুটের অটোচালকদের সভা, স্টেশন পর্যন্ত অটো চলাচলের দাবিতে প্রশাসনের দৃষ্
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-18T03:25:14.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A7%AF%E0%A7%AB-%E0%A6%93-%E0%A7%AF%E0%A7%AB%E0%A6%8F-%E0%A6%B0%E0%A7%81%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%9F%E0%A7%8B%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AD%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%85%E0%A6%9F%E0%A7%8B-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%83%E0%A6%B7%E0%A7%8D/
 - Source: Voice of Baruipur
@@ -11068,7 +11068,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #168: বারুইপুরের ৪টি ঐতিহ্যবাহী বনেদি বাড়ির দুর্গাপূজা: ইতিহাস ও এক নজরে ঐতিহ্য
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-18T02:18:26.000Z
 - Canonical URL: https://baruipur.online/four-historic-bonedi-bari-durga-puja-in-baruipur/
 - Source: Baruipur Uncover
@@ -11110,7 +11110,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #169: বারুইপুর ৪ নম্বর প্ল্যাটফর্ম সংলগ্ন রিকশা ও অটো স্ট্যান্ডে বিশ্বকর্মা পূজার শুভ উদ্বোধন
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-17T17:38:27.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A7%AA-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B8%E0%A6%82%E0%A6%B2%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BE-%E0%A6%93-%E0%A6%85%E0%A6%9F%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8/
 - Source: Baruipur Barta, Baruipur
@@ -11183,7 +11183,7 @@ In this connection, a specific case has been registered in the Arms Act  at Jiba
 --------------------------------------------------------------------------------
 ARTICLE #171: প্রধানমন্ত্রী নরেন্দ্র মোদীর জন্মদিন উপলক্ষে আশীর্বাদি দিয়া ও আরতির আয়োজন করা হয় বারুইপু
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-17T13:30:40.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%A8%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%86%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81/
 - Source: Baruipur Barta, Voice of Baruipur
@@ -11281,7 +11281,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #174: নামখানা লোকালে নিত্যযাত্রীদের দুর্ভোগ চরমে, ঝুঁকি নিয়ে যাতায়াত সাধারণ মা
 --------------------------------------------------------------------------------
-- Category: রেল ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-09-17T05:33:33.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%8B%E0%A6%97-%E0%A6%9A%E0%A6%B0%E0%A6%AE%E0%A7%87-%E0%A6%9D%E0%A7%81%E0%A6%81%E0%A6%95%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A4-%E0%A6%B8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%AE%E0%A6%BE/
 - Source: Baruipur 24x7
@@ -11315,7 +11315,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #175: বারুইপুরের ভাঁড়ু রামকৃষ্ণপুরে ভাঁড়ু ও মহেশপুর গ্রামবাসীদের উদ্যোগে শ্রীশ্রী গনেশ পূজা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-16T13:05:05.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%81%E0%A6%A1%E0%A6%BC%E0%A7%81-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A3%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%81%E0%A6%A1%E0%A6%BC%E0%A7%81-%E0%A6%93-%E0%A6%AE%E0%A6%B9%E0%A7%87%E0%A6%B6%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/
 - Source: Baruipur
@@ -11381,7 +11381,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #177: বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সংঘের দুর্গা মন্দিরে শ্রীশ্রী গনেশ পূজা উপ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-15T19:04:48.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%93-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%89%E0%A6%AA/
 - Source: Baruipur, Baruipur Uncover
@@ -11411,7 +11411,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #178: বারুইপুর  বিবিমা তলার গনেশ  পূজা - ২০২৬
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-15T17:10:37.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%A4%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/
 - Source: Baruipur
@@ -11477,7 +11477,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #180: দক্ষিণ ২৪ পরগনা   জেলা কংগ্রেসের ২ এর নতুন সভাপতি নির্বাচনের পর সাংবাদিক বৈঠক
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-15T10:10:18.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A7%A8%E0%A7%AA-%E0%A6%AA%E0%A6%B0%E0%A6%97%E0%A6%A8%E0%A6%BE-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A7%A8-%E0%A6%8F%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%95/
 - Source: Baruipur Barta, Baruipur Update
@@ -11509,7 +11509,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #181: বারুইপুর প্রগতি সংঘ ক্লাবের সপ্তম বর্ষের গণেশ পুজো - ২০২৬।
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-15T10:06:07.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%97%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/
 - Source: Baruipur
@@ -11579,7 +11579,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #183: বারুইপুর শিখরবালীর গণপতি কমিটির পরিচালনায় শ্রী শ্রী গণেশ পূজা - ২০২৬
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-15T06:44:57.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/
 - Source: Baruipur
@@ -11608,7 +11608,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #184: বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সংঘের দুর্গা মন্দিরে শ্রীশ্রী গনেশ পূজা - 202
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-15T04:01:32.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%93-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-202/
 - Source: Baruipur
@@ -11669,7 +11669,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #186: বারুইপুরে শাসনে মুম্বাই স্টাইলের গণেশ
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T18:13:32.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6/
 - Source: Baruipur Uncover, Baruipur
@@ -11699,7 +11699,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #187: বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সংঘের দুর্গা মন্দিরে শ্রীশ্রী গণেশ পূজা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T17:57:16.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%93-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%95%E0%A6%BE%E0%A6%B2-%E0%A7%A7%E0%A7%AB-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8/
 - Source: Baruipur, Baruipur Uncover, Baruipur
@@ -11767,7 +11767,7 @@ In connection with the incident, a specific case has been registered in Baruipur
 --------------------------------------------------------------------------------
 ARTICLE #189: বারুইপুর রেল ময়দান(১নং প্লাটফর্ম) কিশোর সংঘের শ্রী শ্রী গণেশ পূজা - ২০২৬
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T17:32:42.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2-%E0%A6%AE%E0%A6%AF%E0%A6%BC%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A7%A7%E0%A6%A8%E0%A6%82-%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%9F%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/
 - Source: Baruipur
@@ -11801,7 +11801,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #190: বারুইপুর রাসমাঠ চক্রবর্তীপাড়ার SILVER BOYZ এর উদ্যোগে চতুর্থ বর্ষের শ্রীশ্রী গনেশ পূজা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T16:58:15.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-silver-boyz-%E0%A6%8F%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/
 - Source: Baruipur
@@ -11831,7 +11831,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #191: দত্তপাড়া অধিবাসীবৃন্দের পরিচালনায় বারুইপুর দত্তপাড়া দুর্গা মন্দিরের শ্রীশ্রী গনেশ পূজা - ২০২৬
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T14:40:27.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%AC%E0%A7%83%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8/
 - Source: Baruipur
@@ -11869,7 +11869,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #192: বারুইপুর সূর্যসেন নগর আমরা ক'জনের শ্রীশ্রী গণেশ পূজা - ২০২৬
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T13:51:01.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC/
 - Source: Baruipur
@@ -11901,7 +11901,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #193: বারুইপুর উদ্বোধন হলো  ফ্যাশান বারুইপুর।
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-14T09:00:00.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0/
 - Source: Voice of Baruipur
@@ -11933,7 +11933,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #194: বারুইপুর উকিল পাড়ার ২০২৬ এর গণেশ পুজো ।
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T03:50:48.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%89%E0%A6%95%E0%A6%BF%E0%A6%B2-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-%E0%A6%8F%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B/
 - Source: Baruipur Uncover
@@ -11969,7 +11969,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #195: গণেশ চতুর্থী উপলক্ষে বারুইপুর সেজে উঠেছে
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-14T03:12:54.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A7%87-%E0%A6%89%E0%A6%A0%E0%A7%87%E0%A6%9B%E0%A7%87/
 - Source: Baruipur Uncover
@@ -12032,7 +12032,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #197: বারুইপুর প্রগতি সংঘের সপ্তম বর্ষের শ্রীশ্রী গণেশ পুজোর শুভ উদ্বোধন
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-13T20:53:00.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%97%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8-%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A7%A7%E0%A7%A9%E0%A6%87-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87/
 - Source: Baruipur, Baruipur Uncover, Voice of Baruipur
@@ -12070,7 +12070,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #198: বারুইপুর সুপারস্টার ক্লাবের গণেশ পূজার শুভ উদ্বোধন
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-13T19:36:23.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8/
 - Source: Baruipur Barta
@@ -12102,7 +12102,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #199: শ্রীশ্রী সিদ্ধিদাতার আশীর্বাদে শিখরবালী গণপতি কমিটির পরিচালনায় অনুষ্ঠিত হতে চলেছে পবিত্র
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-13T16:56:09.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%B8%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%A6%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%96%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A6%B2%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%AA%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0/
 - Source: Baruipur, Baruipur Uncover
@@ -12195,7 +12195,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #202: Awareness Programme on Child Marriage and Human Trafficking organised at Nimpith Girls High School under Bakultala PS
 --------------------------------------------------------------------------------
-- Category: রেল ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-09-12T17:33:58.000Z
 - Canonical URL: https://baruipur.online/awareness-programme-on-child-marriage-and-human-trafficking-organised-at-nimpith-girls-hig/
 - Source: Baruipur Police District
@@ -12372,7 +12372,7 @@ Following due legal procedure, both firearms and the motorcycle were seized and 
 --------------------------------------------------------------------------------
 ARTICLE #207: বারুইপুর রাসমাঠের রায়চৌধুরী বাড়ির আনন্দময়ীর মন্দিরে বৃহস্পতিবার কৌশিকী অমাবস্যা উপলক
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-11T13:43:02.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%AE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A7%83%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%80-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95/
 - Source: Baruipur
@@ -12472,7 +12472,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #210: বারুইপুর শিবানী পীঠে দুর্গাপুজোর প্রস্তুতি - আর মাত্র একটা মাস
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-11T07:38:08.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%AA%E0%A7%80%E0%A6%A0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF-%E0%A6%86%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE-%E0%A6%AE%E0%A6%BE%E0%A6%B8/
 - Source: Baruipur Uncover
@@ -12538,7 +12538,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #212: বারুইপুর ধপধপি কালী মন্দিরে মায়ের অন্ন ভোগ রান্না চলছে
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-10T18:57:14.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A7%E0%A6%AA%E0%A6%A7%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%AD%E0%A7%8B%E0%A6%97-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE-%E0%A6%9A%E0%A6%B2%E0%A6%9B%E0%A7%87/
 - Source: Baruipur
@@ -12679,7 +12679,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #216: জাতীয় কংগ্রেসের কল্যাণপুর অঞ্চল সভাপতি লালচাঁদ সিপাই এর নেতৃত্বে ৫০ জনের কংগ্রেসের যোগদান,সংগঠন সৃজন ও ত্রিপল বিতরণ অনুষ্ঠান অনুষ্ঠিত হলো
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-10T07:46:30.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A7%9F-%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2-%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6-%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%87-%E0%A6%8F%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A7%AB%E0%A7%A6-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%B8/
 - Source: Baruipur Update
@@ -12777,7 +12777,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #219: বারুইপুর শাসন বালক সংঘের ৭০তম বর্ষের দুর্গোৎসবের বিশেষ থিম ভাবনা
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-08T17:08:07.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%8F-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A6%BF%E0%A6%AE-ai-%E0%A6%8F%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%81%E0%A6%A8/
 - Source: Baruipur Barta, Baruipur
@@ -12878,7 +12878,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #222: বারুইপুর আটঘড়া মোড়ের কাছেই  ডি পি এস নাসিংহোম  উদ্বোধন হলো।
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-09-06T15:20:33.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%9F%E0%A6%98%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%AE%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87%E0%A6%87-%E0%A6%A1%E0%A6%BF-%E0%A6%AA%E0%A6%BF-%E0%A6%8F%E0%A6%B8-%E0%A6%A8%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%82%E0%A6%B9%E0%A7%8B%E0%A6%AE-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8-%E0%A6%B9%E0%A6%B2%E0%A7%8B/
 - Source: Voice of Baruipur
@@ -12910,7 +12910,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #223: বারুইপুর রায়চৌধুরী জমিদার বাড়ির পুজো প্রস্তুতি
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-06T05:57:23.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%9C%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF/
 - Source: Baruipur Uncover
@@ -12982,7 +12982,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #225: নতুন ভোরের ৫ম বর্ষে জগদ্ধাত্রী পুজো, আজ অনুষ্ঠিত হলো শুভ খুঁটি পুজো!
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-04T16:37:46.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AD%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A7%AB%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%9C%E0%A6%97%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%86%E0%A6%9C-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%B6%E0%A7%81%E0%A6%AD-%E0%A6%96%E0%A7%81%E0%A6%81%E0%A6%9F%E0%A6%BF-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B/
 - Source: Voice of Baruipur
@@ -13014,7 +13014,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #226: Joint Enforcement Drive Against Unhygienic Food Establishments in Canning
 --------------------------------------------------------------------------------
-- Category: রেল ও যাতায়াত (railway)
+- Category: ট্রেন ও যাতায়াত (railway)
 - Published At: 2026-09-03T16:32:46.000Z
 - Canonical URL: https://baruipur.online/joint-enforcement-drive-against-unhygienic-food-establishments-in-canning/
 - Source: Baruipur Police District
@@ -13051,7 +13051,7 @@ During the drive, on the recommendation of the concerned civil authorities, two 
 --------------------------------------------------------------------------------
 ARTICLE #227: Community Outreach and Awareness Program under Kultali Police Station
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-09-03T15:43:59.000Z
 - Canonical URL: https://baruipur.online/community-outreach-and-awareness-program-under-kultali-police-station/
 - Source: Baruipur Police District
@@ -13293,7 +13293,7 @@ Hooghly Rural Police
 --------------------------------------------------------------------------------
 ARTICLE #234: বারুইপুরের রাজনৈতিক চালচিত্র: বিধানসভা, লোকসভা, শাসকদল ও বিরোধী শিবিরের নেতৃত্ব
 --------------------------------------------------------------------------------
-- Category: পৌরসভা ও প্রশাসন (municipality)
+- Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-09-01T12:00:00.000Z
 - Canonical URL: https://baruipur.online/baruipur-political-profile-parties-mlas-and-leaders/
 - Source: বারুইপুর অনলাইন ডেক্স
@@ -13370,7 +13370,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #235: Things to Do in Baruipur: A Day-Trip Guide from Kolkata
 --------------------------------------------------------------------------------
-- Category: লাইফস্টাইল ও ভ্রমণ (lifestyle)
+- Category: ভ্রমণ ও দর্শনীয় স্থান (travel)
 - Published At: 2026-09-01T12:00:00.000Z
 - Canonical URL: https://baruipur.online/top-things-to-do-in-baruipur-complete-experience-guide/
 - Source: বারুইপুর অনলাইন ডেক্স
@@ -13577,7 +13577,7 @@ Yes. The open grasslands and water channels around Baruipur and the Adi Ganga ca
 --------------------------------------------------------------------------------
 ARTICLE #236: Places to Visit in Baruipur: Attractions & Travel Guide
 --------------------------------------------------------------------------------
-- Category: লাইফস্টাইল ও ভ্রমণ (lifestyle)
+- Category: ভ্রমণ ও দর্শনীয় স্থান (travel)
 - Published At: 2026-09-01T12:00:00.000Z
 - Canonical URL: https://baruipur.online/best-places-to-visit-in-baruipur-travel-guide/
 - Source: বারুইপুর অনলাইন ডেক্স
@@ -13728,7 +13728,7 @@ Visitors should confirm operating hours for enclosed parks like Aranyak and libr
 --------------------------------------------------------------------------------
 ARTICLE #237: Shopping in Baruipur: Markets, Stores & Shopping Guide
 --------------------------------------------------------------------------------
-- Category: লাইফস্টাইল ও শপিং (lifestyle)
+- Category: লাইফস্টাইল ও জীবনযাত্রা (lifestyle)
 - Published At: 2026-09-01T12:00:00.000Z
 - Canonical URL: https://baruipur.online/shopping-malls-and-top-brands-in-baruipur-market-guide/
 - Source: বারুইপুর অনলাইন ডেক্স
@@ -13962,7 +13962,7 @@ Baruipur is a major gold-buying center for southern Bengal, featuring certified 
 --------------------------------------------------------------------------------
 ARTICLE #238: বারুইপুরের স্কুল নির্দেশিকা ও ভর্তি গাইড: বোর্ড, মাধ্যম ও স্কুলের তালিকা (CBSE, CISCE, WBBSE)
 --------------------------------------------------------------------------------
-- Category: শিক্ষা ও কর্মসংস্থান (education)
+- Category: শিক্ষা ও বিদ্যায়তন (education)
 - Published At: 2026-09-01T12:00:00.000Z
 - Canonical URL: https://baruipur.online/top-schools-in-baruipur-education-admission-guide/
 - Source: বারুইপুর অনলাইন ডেক্স
@@ -14219,7 +14219,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #239: বারুইপুর সাগর সংঘের মাঠে জাগো সনাতনী সংগঠনের উদ্যোগে আজ রাখি উৎসব পালন করা হয়
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-08-28T11:14:47.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%97%E0%A7%8B-%E0%A6%B8%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A6%A8%E0%A7%80-%E0%A6%B8%E0%A6%82%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%86%E0%A6%9C-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%BF-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AF%E0%A6%BC/
 - Source: Voice of Baruipur
@@ -14251,7 +14251,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #240: আজ মদারাট অঞ্চলে বিজেপি কর্মীবৃন্দদের উদ্যোগে রাখি বন্ধন অনুষ্ঠান হল।
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-08-28T09:03:03.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%9F-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%AC%E0%A7%83%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%BF-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8-%E0%A6%B9%E0%A6%B2/
 - Source: Voice of Baruipur
@@ -14368,7 +14368,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #242: প্রতি বছর আষাঢ় মাসে রথযাত্রা থেকে উল্টোরথের মধ্যবর্তী সময়ে যে মঙ্গলবার ও শনিবার পড়ে, সেদিন মা বিপদনাশিনী বা বিপত্তারিণী পুজো অনুষ্ঠিত হয়
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-07-17T20:27:30.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%86%E0%A6%B7%E0%A6%BE%E0%A6%A2%E0%A6%BC-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%B0%E0%A6%A5%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%89%E0%A6%B2%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A6%A5%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%B8%E0%A6%AE%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A7%87-%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%93-%E0%A6%B6%E0%A6%A8%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A7%87-%E0%A6%B8%E0%A7%87%E0%A6%A6%E0%A6%BF/
 - Source: All Baruipur News
@@ -14407,7 +14407,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #243: দক্ষিণ ২৪ পরগনার বারুইপুর রাসমাঠের রথযাত্রা প্রায় ৩৫০ বছরের প্রাচীন একটি ঐতিহ্যবাহী উৎসব
 --------------------------------------------------------------------------------
-- Category: উৎসব, সংস্কৃতি ও খেলাধুলা (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-07-16T08:34:21.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A7%A8%E0%A7%AA-%E0%A6%AA%E0%A6%B0%E0%A6%97%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%A5%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A7%A9%E0%A7%AB%E0%A7%A6-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%90%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%89%E0%A7%8E%E0%A6%B8%E0%A6%AC/
 - Source: All Baruipur News
@@ -14442,7 +14442,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #244: প্রতি বছর ১৪ থেকে ২০ জুলাই পর্যন্ত পশ্চিমবঙ্গে 'অরণ্য সপ্তাহ' পালিত হয়
 --------------------------------------------------------------------------------
-- Category: সব খবর (general)
+- Category: সাধারণ সংবাদ (general)
 - Published At: 2026-07-14T05:24:10.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A7%A7%E0%A7%AA-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A7%A8%E0%A7%A6-%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%85%E0%A6%B0%E0%A6%A3%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B9-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%A4-%E0%A6%B9%E0%A7%9F/
 - Source: All Baruipur News
@@ -14543,7 +14543,7 @@ CONTENT:
 --------------------------------------------------------------------------------
 ARTICLE #247: রামনগর ঘোষপাড়ায় নেতাজি সুভাষচন্দ্র বসুর ১২৯তম জন্মদিবসে আবক্ষ মূর্তি উন্মোচন
 --------------------------------------------------------------------------------
-- Category: সংস্কৃতি ও উৎসব (culture)
+- Category: উৎসব ও সংস্কৃতি (culture)
 - Published At: 2026-01-23T19:05:38.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%9C%E0%A6%BF-%E0%A6%B8%E0%A7%81%E0%A6%AD%E0%A6%BE%E0%A6%B7%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A6%B8%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%8B%E0%A6%9A%E0%A6%A8/
 - Source: Ramnagar Baruipur

@@ -21,7 +21,8 @@ import {
   TrainTrack,
   ArrowRight,
   Play,
-  Compass
+  Compass,
+  Utensils
 } from 'lucide-react';
 
 interface BaruipurUtilitiesProps {
@@ -121,7 +122,10 @@ export default function BaruipurUtilities({
     Sparkles,
     Flame,
     Zap,
-    Phone
+    Phone,
+    Utensils,
+    Compass,
+    MapPin
   };
 
   return (

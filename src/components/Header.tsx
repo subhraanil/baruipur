@@ -205,6 +205,16 @@ export default function Header() {
               🏢 প্রতিষ্ঠান ও ক্লাব
             </a>
             <a
+              href="/category/food"
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname === '/category/food' 
+                  ? 'bg-amber-600 text-white shadow-sm' 
+                  : 'text-amber-800 hover:bg-amber-50 hover:text-amber-900'
+              }`}
+            >
+              🍽️ খাবার ও রেস্তোরাঁ
+            </a>
+            <a
               href="/#featured-guides"
               className="px-3 py-2 rounded-md text-sm font-semibold whitespace-nowrap text-slate-700 hover:bg-cyan-50 hover:text-cyan-800 transition"
             >
@@ -319,6 +329,18 @@ export default function Header() {
                   </span>
                   <span className="text-[10px] bg-purple-200 text-purple-800 px-1.5 py-0.5 rounded font-semibold">
                     Orgs
+                  </span>
+                </a>
+                <a
+                  href="/category/food"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-amber-900 bg-amber-50/70 hover:bg-amber-100/80 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🍽️</span> খাবার ও রেস্তোরাঁ (Food & Dining)
+                  </span>
+                  <span className="text-[10px] bg-amber-200 text-amber-900 px-1.5 py-0.5 rounded font-bold">
+                    Food
                   </span>
                 </a>
                 <a

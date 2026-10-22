@@ -1,12 +1,16 @@
 export type ArticleCategory = 
   | 'all'
+  | 'food'         // খাবার ও রেস্তোরাঁ
   | 'municipality' // পৌরসভা ও নাগরিক
   | 'railway'      // ট্রেন ও যাতায়াত
   | 'crime'        // অপরাধ ও প্রশাসন
   | 'health'       // স্বাস্থ্য ও হাসপাতাল
   | 'education'    // শিক্ষা ও বিদ্যায়তন
-  | 'culture'      // উৎসব, সংস্কৃতি ও খেলাধুলা
-  | 'general';     // সাধারণ সংবাদ
+  | 'culture'      // উৎসব ও সংস্কৃতি
+  | 'travel'       // ভ্রমণ ও দর্শনীয় স্থান
+  | 'lifestyle'    // লাইফস্টাইল ও জীবনযাত্রা
+  | 'general'      // সাধারণ সংবাদ
+  | string;
 
 export interface Article {
   id: string;
@@ -74,4 +78,5 @@ export interface CategoryInfo {
   slug: string;
   color: string;
   iconName: string;
+  descriptionBn?: string;
 }

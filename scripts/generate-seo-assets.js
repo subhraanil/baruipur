@@ -66,12 +66,16 @@ try {
 
 const categories = [
   { slug: 'all', nameBn: 'সব খবর', nameEn: 'All News', desc: 'বারুইপুর অঞ্চলের সমস্ত তাজা খবর ও সংকলন।' },
+  { slug: 'food', nameBn: 'খাবার ও রেস্তোরাঁ', nameEn: 'Food & Dining', desc: 'বারুইপুরের সেরা রেস্তোরাঁ, ক্যাফে, বিরিয়ানি ও ঐতিহ্যবাহী মিষ্টির দোকান এবং খাবারের গাইড।' },
   { slug: 'municipality', nameBn: 'পৌরসভা ও নাগরিক', nameEn: 'Municipality & Civic', desc: 'বারুইপুর পৌরসভা, রাস্তাঘাট, পানীয় জল ও নাগরিক সমস্যা।' },
   { slug: 'railway', nameBn: 'ট্রেন ও যাতায়াত', nameEn: 'Railway & Transit', desc: 'শিয়ালদহ দক্ষিণ শাখা, বারুইপুর জংশন ও লোকাল ট্রেনের আপডেট।' },
   { slug: 'crime', nameBn: 'অপরাধ ও প্রশাসন', nameEn: 'Police & Administration', desc: 'বারুইপুর পুলিশ জেলা, আদালত ও আইন-শৃঙ্খলা সংক্রান্ত খবর।' },
   { slug: 'health', nameBn: 'স্বাস্থ্য ও হাসপাতাল', nameEn: 'Health & Hospital', desc: 'বারুইপুর মহকুমা হাসপাতাল ও চিকিৎসা পরিষেবা।' },
-  { slug: 'education', nameBn: 'শিক্ষা ও স্কুল', nameEn: 'Education & Schools', desc: 'বারুইপুরের স্কুল, কলেজ ও শিক্ষামূলক তথ্য।' },
-  { slug: 'culture', nameBn: 'উৎসব ও খেলাধুলা', nameEn: 'Culture & Sports', desc: 'রাসমেলা, রাস উৎসব, দুর্গাপূজা ও আঞ্চলিক খেলাধুলা।' }
+  { slug: 'education', nameBn: 'শিক্ষা ও বিদ্যায়তন', nameEn: 'Education & Schools', desc: 'বারুইপুরের স্কুল, কলেজ ও শিক্ষামূলক তথ্য।' },
+  { slug: 'culture', nameBn: 'উৎসব ও সংস্কৃতি', nameEn: 'Culture & Sports', desc: 'রাসমেলা, রাস উৎসব, দুর্গাপূজা ও আঞ্চলিক সংস্কৃতি ও খেলাধুলা।' },
+  { slug: 'travel', nameBn: 'ভ্রমণ ও দর্শনীয় স্থান', nameEn: 'Travel & Tourism', desc: 'বারুইপুর ও দক্ষিণ ২৪ পরগনার সেরা ঐতিহাসিক স্থান ও ভ্রমণ নির্দেশিকা।' },
+  { slug: 'lifestyle', nameBn: 'লাইফস্টাইল ও জীবনযাত্রা', nameEn: 'Lifestyle & Living', desc: 'বারুইপুরের শপিং মল, রিয়েল এস্টেট, আবাসন ও নাগরিক জীবনযাত্রা।' },
+  { slug: 'general', nameBn: 'সাধারণ সংবাদ', nameEn: 'General News', desc: 'বারুইপুর মহকুমার সাধারণ নাগরিক খবর ও দৈনন্দিন সংবাদ প্রবাহ।' }
 ];
 
 function escapeXml(str) {

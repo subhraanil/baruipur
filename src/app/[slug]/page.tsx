@@ -278,9 +278,13 @@ export default function PostSlugPage({ params }: PostPageProps) {
         <article className="lg:col-span-9 bg-white rounded-2xl border border-slate-200 p-5 sm:p-7 lg:p-8 shadow-sm min-w-0">
           {/* Badges & Category */}
           <div className="flex flex-wrap items-center gap-2 mb-4">
-            <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+            <a 
+              href={`/category/${article.category}`}
+              className="bg-red-600 hover:bg-red-700 text-white text-xs font-bold px-3 py-1 rounded-full transition shadow-sm hover:shadow inline-block"
+              title={`${article.categoryNameBn} বিভাগের সমস্ত খবর দেখুন`}
+            >
               {article.categoryNameBn}
-            </span>
+            </a>
             {(article.videoUrl || article.videoEmbedUrl) && (
               <span className="bg-purple-600 text-white text-xs font-bold px-2.5 py-1 rounded-full flex items-center gap-1 shadow">
                 <Play className="w-3.5 h-3.5 fill-current" />
