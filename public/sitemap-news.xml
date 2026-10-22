@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://baruipur.online/best-restaurants-in-baruipur-family-dining-biryani-guide/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T14:45:00.000Z</news:publication_date>
+      <news:title>বারুইপুরের শীর্ষ ২০টি সেরা রেস্তোরাঁ ও ফ্যামিলি ডাইনিং গাইড: বিরিয়ানি, মোগলাই, জঙ্গল থিম, বিজলি গ্রিল ও মাল্টি-কুইজিন</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/famous-sweet-shops-in-baruipur-traditional-mishti-guide/</loc>
     <news:news>
       <news:publication>
@@ -32,17 +43,6 @@
       </news:publication>
       <news:publication_date>2026-10-22T14:25:00.000Z</news:publication_date>
       <news:title>বারুইপুর সম্পূর্ণ ফুড গাইড: সেরা রেস্তোরাঁ, বিরিয়ানি, ক্যাফে, ফাস্ট ফুড ও মিষ্টির ক্যাটাগরিভিত্তিক তালিকা</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/best-restaurants-in-baruipur-family-dining-biryani-guide/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-22T14:20:00.000Z</news:publication_date>
-      <news:title>বারুইপুরের সেরা ১০টি রেস্তোরাঁ ও ফ্যামিলি ডাইনিং গাইড: সুস্বাদু বিরিয়ানি, মোগলাই, ফ্রাইড চিকেন ও মাল্টি-কুইজিন</news:title>
     </news:news>
   </url>
   <url>
