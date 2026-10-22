@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://baruipur.online/famous-sweet-shops-in-baruipur-traditional-mishti-guide/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>বারুইপুর অনলাইন</news:name>
+        <news:language>bn</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T14:35:00.000Z</news:publication_date>
+      <news:title>বারুইপুরের সেরা ও ঐতিহ্যবাহী মিষ্টির দোকান গাইড: খাঁটি ছানার মিষ্টি, রসগোল্লা, কমলাভোগ ও সকালের কচুরি</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://baruipur.online/best-restaurants-cafes-and-food-guide-in-baruipur/</loc>
     <news:news>
       <news:publication>
@@ -54,17 +65,6 @@
       </news:publication>
       <news:publication_date>2026-10-22T14:00:00.000Z</news:publication_date>
       <news:title>বারুইপুরের বিখ্যাত পেয়ারা ও লিচু: চাষের ইতিহাস, বাগান ও পাইকারি ফলের বাজার গাইড</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/famous-sweet-shops-in-baruipur-traditional-mishti-guide/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-22T06:30:00.000Z</news:publication_date>
-      <news:title>বারুইপুরের সেরা ও প্রাচীন মিষ্টির দোকান: খাঁটি ছানার সন্দেশ, কমলাভোগ ও সকালের কচুরি গাইড</news:title>
     </news:news>
   </url>
   <url>
