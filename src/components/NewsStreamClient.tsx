@@ -21,12 +21,15 @@ interface NewsStreamClientProps {
 
 const CATEGORY_TABS = [
   { id: 'all', label: 'সব খবর' },
-  { id: 'municipality', label: 'পৌরসভা ও শহর' },
+  { id: 'food', label: 'খাবার ও রেস্তোরাঁ' },
+  { id: 'municipality', label: 'পৌরসভা ও নাগরিক' },
   { id: 'railway', label: 'ট্রেন ও যোগাযোগ' },
   { id: 'crime', label: 'আইন ও অপরাধ' },
-  { id: 'health', label: 'স্বাস্থ্য' },
-  { id: 'politics', label: 'রাজনীতি' },
-  { id: 'education', label: 'শিক্ষা ও সমাজ' },
+  { id: 'health', label: 'স্বাস্থ্য ও চিকিৎসা' },
+  { id: 'education', label: 'শিক্ষা ও বিদ্যায়তন' },
+  { id: 'culture', label: 'উৎসব ও সংস্কৃতি' },
+  { id: 'travel', label: 'ভ্রমণ ও দর্শনীয় স্থান' },
+  { id: 'lifestyle', label: 'লাইফস্টাইল ও শপিং' },
 ];
 
 export default function NewsStreamClient({ initialArticles, allArticles }: NewsStreamClientProps) {

@@ -46,7 +46,7 @@ export default function EditorialTeamPage() {
           alternateName: a.nameEn,
           jobTitle: a.roleBn,
           email: a.email,
-          image: a.avatar,
+          image: a.avatar.startsWith('http') ? a.avatar : `https://baruipur.online${a.avatar}`,
           worksFor: {
             '@type': 'NewsMediaOrganization',
             name: 'বারুইপুর অনলাইন (Baruipur Online)',

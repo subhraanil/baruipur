@@ -22,7 +22,7 @@ export const EDITORIAL_AUTHORS: Record<string, Author> = {
     roleEn: 'Chief Editor & Publisher',
     bioBn: 'দক্ষিণ ২৪ পরগনা ও বারুইপুর মহকুমার সমাজ, পৌর রাজনীতি ও আঞ্চলিক উন্নয়ন বিষয়ক বিশেষজ্ঞ সাংবাদিক। দীর্ঘ ৮ বছরেরও বেশি সময় ধরে মহকুমার জনস্বার্থ ও অনুসন্ধানমূলক সাংবাদিকতায় যুক্ত।',
     bioEn: 'Senior regional journalist covering South 24 Parganas, civic infrastructure, and public policy for over 8 years.',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    avatar: '/images/subhranil-naskar.png',
     email: 'subhranil@baruipur.online',
     beat: 'মহকুমা প্রশাসন, নগরোন্নয়ন ও রাজনীতি',
     location: 'বারুইপুর সদর'

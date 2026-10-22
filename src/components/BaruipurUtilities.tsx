@@ -128,6 +128,21 @@ export default function BaruipurUtilities({
     MapPin
   };
 
+  const COLOR_HEX_MAP: Record<string, string> = {
+    'bg-red-600': '#dc2626',
+    'bg-amber-600': '#d97706',
+    'bg-orange-600': '#ea580c',
+    'bg-emerald-600': '#059669',
+    'bg-blue-600': '#2563eb',
+    'bg-rose-700': '#be123c',
+    'bg-teal-600': '#0d9488',
+    'bg-indigo-600': '#4f46e5',
+    'bg-purple-600': '#9333ea',
+    'bg-cyan-600': '#0891b2',
+    'bg-fuchsia-600': '#c026d3',
+    'bg-slate-700': '#334155',
+  };
+
   return (
     <div className="space-y-6">
       {/* 1. News Categories Widget */}
@@ -151,6 +166,7 @@ export default function BaruipurUtilities({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-2">
             {CATEGORIES.map(cat => {
               const IconComp = iconMap[cat.iconName] || Newspaper;
+              const bgColor = COLOR_HEX_MAP[cat.color] || '#dc2626';
               return (
                 <a
                   key={cat.id}
@@ -158,8 +174,11 @@ export default function BaruipurUtilities({
                   className="flex items-center justify-between p-2.5 rounded-lg border border-slate-150 hover:border-red-300 hover:bg-red-50/40 transition group text-xs"
                 >
                   <div className="flex items-center gap-2.5">
-                    <span className={`w-7 h-7 rounded-md flex items-center justify-center text-white ${cat.color} group-hover:scale-105 transition shrink-0`}>
-                      <IconComp className="w-3.5 h-3.5" />
+                    <span 
+                      className={`w-7 h-7 rounded-md flex items-center justify-center text-white ${cat.color} group-hover:scale-105 transition shrink-0 shadow-sm`}
+                      style={{ backgroundColor: bgColor }}
+                    >
+                      <IconComp className="w-3.5 h-3.5 text-white stroke-[2.5]" />
                     </span>
                     <span className="font-bold text-slate-800 group-hover:text-red-700">
                       {cat.nameBn}
