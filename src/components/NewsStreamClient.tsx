@@ -30,6 +30,7 @@ const CATEGORY_TABS = [
   { id: 'culture', label: 'উৎসব ও সংস্কৃতি' },
   { id: 'travel', label: 'ভ্রমণ ও দর্শনীয় স্থান' },
   { id: 'lifestyle', label: 'লাইফস্টাইল ও শপিং' },
+  { id: 'general', label: 'সাধারণ সংবাদ' },
 ];
 
 export default function NewsStreamClient({ initialArticles, allArticles }: NewsStreamClientProps) {
@@ -68,10 +69,9 @@ export default function NewsStreamClient({ initialArticles, allArticles }: NewsS
   // Filtered articles
   const filteredArticles = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    const isSearching = Boolean(q || selectedCategory !== 'all');
 
-    // When searching or filtering, search across ALL published articles
-    const sourcePool = isSearching ? allArticles : initialArticles;
+    // Use full pool of all published articles for category filtering, search, and infinite stream
+    const sourcePool = allArticles && allArticles.length > 0 ? allArticles : initialArticles;
 
     return sourcePool.filter(art => {
       // Category match

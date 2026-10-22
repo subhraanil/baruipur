@@ -45,6 +45,11 @@ export default function HomePage() {
     excludeGuides: true
   });
 
+  // All published articles including guides for full search and category filtering in stream
+  const allStreamArticles = db.getArticles({
+    status: 'published'
+  });
+
   const featuredOrganizations = getFeaturedOrganizations(6);
   const places = getAllPlaces().slice(0, 6);
 
@@ -275,7 +280,7 @@ export default function HomePage() {
             {/* Latest news stream with live search and category filter */}
             <NewsStreamClient 
               initialArticles={remainingArticles}
-              allArticles={newsArticles}
+              allArticles={allStreamArticles}
             />
 
             {/* 6. DEDICATED SHOWCASE: FEATURED BARUIPUR GUIDES */}
