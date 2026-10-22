@@ -31,7 +31,7 @@ try {
 }
 
 const articles = (data.articles || [])
-  .filter(a => a.status === 'published')
+  .filter(a => a.status === 'published' && (a.isGuide || (a.content && a.content.split(/\s+/).length >= 200)))
   .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
 const PLACES_FILE = path.join(__dirname, '../src/data/places_data.json');

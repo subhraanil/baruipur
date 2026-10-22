@@ -80,6 +80,7 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
     alternates: {
       canonical: canonicalUrl,
     },
+    robots: (article.content || '').split(/\s+/).length < 200 ? { index: false, follow: true } : { index: true, follow: true },
     openGraph: {
       title: article.title,
       description: cleanDesc,
@@ -419,9 +420,6 @@ export default function PostSlugPage({ params }: PostPageProps) {
               সর্বশেষ পরিমার্জন: সেপ্টেম্বর ২০২৬
             </div>
           </div>
-
-          {/* In-Article Mid Content Ad Space */}
-          <AdSenseSlot format="in-article" className="my-6" />
 
           {/* Full Article Content with Markdown Rendering */}
           <div className="max-w-none text-slate-700 text-base leading-relaxed font-normal">
