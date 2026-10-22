@@ -856,7 +856,20 @@ async function runWorkflow() {
       continue;
     }
 
+    // Google AdSense Quality Gate 1: Source substance check
+    // Reject ultra-thin snippets (< 50 chars or < 10 words) to prevent thin scraper penalties
+    const rawWordCount = cleaned.split(/\s+/).filter(Boolean).length;
+    if (cleaned.length < 50 || rawWordCount < 10) {
+      console.log(`⏩ [AdSense Gate] বাতিল করা হলো (অতি সংক্ষিপ্ত পোস্ট): "${cleaned.substring(0, 35)}..."`);
+      continue;
+    }
+
     const enriched = enrichContentWithContext(headline, cleaned, category);
+    const enrichedWordCount = enriched.split(/\s+/).filter(Boolean).length;
+
+    // Google AdSense Quality Gate 2: Enforce minimum 250+ substantive words
+    // If an article has < 250 words, it MUST NOT be published automatically.
+    const publicationStatus = enrichedWordCount >= 250 ? 'published' : 'draft';
     const summary = enriched.length > 180 ? enriched.substring(0, 175) + '...' : enriched;
     const articleId = 'art-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6);
 
@@ -907,13 +920,17 @@ async function runWorkflow() {
       publishedAt: post.publishedAt || new Date().toISOString(),
       isBreaking: category === 'railway' || category === 'crime',
       isFeatured: downloadedImages.length > 2,
-      status: 'published',
+      status: publicationStatus,
       views: Math.floor(Math.random() * 50) + 10,
       crawlHash: crypto.createHash('md5').update(cleaned.substring(0, 100)).digest('hex')
     };
 
     existingArticles.unshift(article);
-    newPublishedCount++;
+    if (publicationStatus === 'published') {
+      newPublishedCount++;
+    } else {
+      console.log(`📝 [AdSense Gate] খসড়া হিসেবে সংরক্ষিত (${enrichedWordCount} শব্দ): "${headline}"`);
+    }
   }
 
   // Save updated database
@@ -989,6 +1006,12 @@ async function runWorkflow() {
       execSync('node scripts/submit-indexing.js', { stdio: 'inherit' });
     } catch (idxErr) {
       console.warn('⚠️ গুগল ইনডেক্সিং সাবমিশনে সতর্কতা:', idxErr.message);
+    }
+    try {
+      console.log('⚡ IndexNow এর মাধ্যমে বিং ও অন্যান্য সার্চ ইঞ্জিনে পাঠানো হচ্ছে...');
+      execSync('python scripts/submit_indexnow.py', { stdio: 'inherit' });
+    } catch (inErr) {
+      console.warn('⚠️ IndexNow সাবমিশনে সতর্কতা:', inErr.message);
     }
   }
 }

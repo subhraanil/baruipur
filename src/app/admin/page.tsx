@@ -272,6 +272,16 @@ export default function AdminPage() {
       return;
     }
 
+    const wordCount = artContent.trim().split(/\s+/).filter(Boolean).length;
+    if (artStatus === 'published' && wordCount < 250) {
+      const confirmLowWord = window.confirm(
+        `⚠️ AdSense কোয়ালিটি সতর্কতা:\n\nবর্তমান কন্টেন্টে ${wordCount}টি শব্দ রয়েছে। গুগল অ্যাডসেন্স লো-ভ্যালু কন্টেন্ট এড়াতে কমপক্ষে ২৫০ শব্দ সুপারিশ করে।\n\nআপনি কি নিশ্চিত যে এটি লাইভ প্রকাশ করতে চান?`
+      );
+      if (!confirmLowWord) {
+        return;
+      }
+    }
+
     const catObj = CATEGORIES.find(c => c.id === artCategory) || CATEGORIES[0];
     const trimmedVideo = artVideoUrl.trim();
     const videoEmbed = trimmedVideo ? getVideoEmbedUrl(trimmedVideo) : undefined;
@@ -964,6 +974,14 @@ export default function AdminPage() {
                   onChange={(e) => setArtContent(e.target.value)}
                   className="w-full bg-slate-50 border border-slate-300 rounded-lg p-2 text-xs leading-relaxed focus:bg-white focus:ring-2 focus:ring-red-500 focus:outline-none font-sans"
                 />
+                <div className="mt-1 flex items-center justify-between text-[11px]">
+                  <span className={artContent.trim().split(/\s+/).filter(Boolean).length >= 250 ? 'text-emerald-700 font-bold' : 'text-amber-700 font-semibold'}>
+                    {artContent.trim().split(/\s+/).filter(Boolean).length >= 250 ? '✓ AdSense কোয়ালিটি উত্তীর্ণ' : '⚠️ AdSense সুপারিশ: কমপক্ষে ২৫০ শব্দ'}
+                  </span>
+                  <span className="text-slate-500 font-medium">
+                    মোট শব্দ: <strong>{artContent.trim() ? artContent.trim().split(/\s+/).filter(Boolean).length : 0}</strong> / ২৫০
+                  </span>
+                </div>
               </div>
 
               {/* Checkboxes & Status */}
