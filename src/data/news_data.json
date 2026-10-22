@@ -79,7 +79,8 @@
       "originalPostUrl": "https://www.facebook.com/122231731970792099",
       "imageUrl": "/images/crawled/aa64ce54634178f3cb3c5630f31a9ce9.jpg",
       "images": [
-        "/images/crawled/aa64ce54634178f3cb3c5630f31a9ce9.jpg"
+        "/images/crawled/aa64ce54634178f3cb3c5630f31a9ce9.jpg",
+        "/images/crawled/f50845cc4c882612f4487e3fc544e3b8.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=39145695251744343",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39145695251744343&show_text=0",
@@ -234,7 +235,8 @@
       "images": [
         "/images/crawled/97480082f26cf51f25cd1ff867aaf86a.jpg",
         "/images/crawled/a4bfaab33d93d7df08f605c1a339e4f0.jpg",
-        "/images/crawled/63b3c73f9f47245ff68d8659ec050b8b.jpg"
+        "/images/crawled/63b3c73f9f47245ff68d8659ec050b8b.jpg",
+        "/images/crawled/b762684f7f5033f88e617c02d0173eee.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1623343259590630",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1623343259590630&show_text=0",
@@ -297,7 +299,8 @@
       "images": [
         "/images/crawled/ee12fb66bea3577d909b9b63d11791b2.jpg",
         "/images/crawled/acbdd06de8a41a89d2d40ab2a7d8658f.jpg",
-        "/images/crawled/7f585a6eca7ede212d9a439fb45166fa.jpg"
+        "/images/crawled/7f585a6eca7ede212d9a439fb45166fa.jpg",
+        "/images/crawled/a4c9c6aa3188dbd39e8b4500d09bfe2b.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1477919410881615",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1477919410881615&show_text=0",
@@ -329,7 +332,8 @@
       "images": [
         "/images/crawled/15b1c1c83d292863b31b5a15940a5edc.jpg",
         "/images/crawled/c240e898858db57c2ecfe6b83321b2d8.jpg",
-        "/images/crawled/8d9e991f0514f1a2ad7be993b785874e.jpg"
+        "/images/crawled/8d9e991f0514f1a2ad7be993b785874e.jpg",
+        "/images/crawled/333b87cffba556254ed6e6a0d90322d4.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1984586785547489",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1984586785547489&show_text=0",
@@ -360,7 +364,8 @@
       "imageUrl": "/images/crawled/607dee7b4645dde12c0b29d9285a1b8a.jpg",
       "images": [
         "/images/crawled/607dee7b4645dde12c0b29d9285a1b8a.jpg",
-        "/images/crawled/4eab74d148b580da04703d0d448e0f8b.jpg"
+        "/images/crawled/4eab74d148b580da04703d0d448e0f8b.jpg",
+        "/images/crawled/8fbe2c90675aa4cc9bb7ebc09bc0a178.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1431743085733458",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1431743085733458&show_text=0",
@@ -4917,7 +4922,8 @@
         "/images/crawled/375d4da34c0e6a0aa963fa2902484378.jpg",
         "/images/crawled/90bf7d1e6208a686b3cac7aa22e5168b.jpg",
         "/images/crawled/0758d6dd15760a8acff3e3ac8dd48a32.jpg",
-        "/images/crawled/fd51e94b0b662d64cad962d87c6a06ce.jpg"
+        "/images/crawled/fd51e94b0b662d64cad962d87c6a06ce.jpg",
+        "/images/crawled/c50679f3742265e392c7ddaab3f79634.jpg"
       ],
       "publishedAt": "2026-10-01T10:19:52.883Z",
       "isBreaking": false,
@@ -12733,7 +12739,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-22T03:11:51.668Z"
+      "lastCrawledAt": "2026-10-22T08:47:12.141Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -12746,7 +12752,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-22T03:11:56.470Z"
+      "lastCrawledAt": "2026-10-22T08:47:13.873Z"
     },
     {
       "id": "src-fb-police",
@@ -12759,7 +12765,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-22T03:12:00.374Z"
+      "lastCrawledAt": "2026-10-22T08:47:15.753Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -12772,7 +12778,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-22T03:12:02.495Z"
+      "lastCrawledAt": "2026-10-22T08:47:17.584Z"
     },
     {
       "id": "src-fb-uncover",
@@ -12785,7 +12791,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-22T03:12:06.699Z"
+      "lastCrawledAt": "2026-10-22T08:47:20.740Z"
     },
     {
       "id": "src-fb-update",
@@ -12798,7 +12804,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-22T03:12:11.303Z"
+      "lastCrawledAt": "2026-10-22T08:47:24.552Z"
     },
     {
       "id": "src-fb-barta",
@@ -12811,7 +12817,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-22T03:12:16.320Z"
+      "lastCrawledAt": "2026-10-22T08:47:28.345Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -12824,7 +12830,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-22T03:12:20.632Z"
+      "lastCrawledAt": "2026-10-22T08:47:31.483Z"
     },
     {
       "id": "src-fb-voice",
@@ -12837,7 +12843,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-22T03:12:23.910Z"
+      "lastCrawledAt": "2026-10-22T08:47:35.621Z"
     },
     {
       "id": "src-fb-24x7",
@@ -12850,7 +12856,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-22T03:12:28.354Z"
+      "lastCrawledAt": "2026-10-22T08:47:38.085Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -12863,10 +12869,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-22T03:12:32.277Z"
+      "lastCrawledAt": "2026-10-22T08:47:43.153Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1792658864243",
+      "timestamp": "2026-10-22T08:47:44.243Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 16, সমন্বয়ের পর: 10, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 16,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1792638759965",
       "timestamp": "2026-10-22T03:12:39.965Z",
