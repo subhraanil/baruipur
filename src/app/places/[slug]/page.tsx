@@ -136,7 +136,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
     description: place.overview,
     url: canonicalUrl,
     image: primaryImage,
-    hasMap: place.gmbMapUrl || `https://maps.google.com/?q=${place.coordinates.lat},${place.coordinates.lng}`,
+    hasMap: place.gmbMapUrl || `https://maps.google.com/?q=${(place.coordinates?.lat || 22.3654)},${(place.coordinates?.lng || 88.4325)}`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: place.address,
@@ -147,8 +147,8 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: place.coordinates.lat,
-      longitude: place.coordinates.lng
+      latitude: (place.coordinates?.lat || 22.3654),
+      longitude: (place.coordinates?.lng || 88.4325)
     },
     telephone: place.contact.phone || place.contact.helpline,
     openingHours: place.timings,
@@ -399,7 +399,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
 
             <div className="w-full h-72 sm:h-96 rounded-2xl overflow-hidden border border-slate-200 shadow-inner bg-slate-100 mb-4">
               <iframe
-                src={place.gmbEmbedUrl || `https://maps.google.com/maps?q=${place.coordinates.lat},${place.coordinates.lng}&hl=bn&z=16&output=embed`}
+                src={place.gmbEmbedUrl || `https://maps.google.com/maps?q=${(place.coordinates?.lat || 22.3654)},${(place.coordinates?.lng || 88.4325)}&hl=bn&z=16&output=embed`}
                 className="w-full h-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -409,7 +409,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
 
             <div className="flex flex-wrap gap-3">
               <a
-                href={`https://www.google.com/maps/dir/?api=1&destination=${place.coordinates.lat},${place.coordinates.lng}`}
+                href={`https://www.google.com/maps/dir/?api=1&destination=${(place.coordinates?.lat || 22.3654)},${(place.coordinates?.lng || 88.4325)}`}
                 target="_blank"
                 rel="noreferrer"
                 className="bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition flex items-center gap-1.5 shadow-sm"

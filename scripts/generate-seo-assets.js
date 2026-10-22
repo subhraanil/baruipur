@@ -429,29 +429,38 @@ This document contains the complete, unshortened text of all verified regional a
 ================================================================================
 PART 1: IMPORTANT CIVIC LANDMARKS & HERITAGE SITES (${places.length} TOTAL)
 ================================================================================
-${places.map((p, i) => `
+${places.map((p, i) => {
+  const addr = typeof p.address === 'object' ? `${p.address.line1 || ''}, ${p.address.area || ''}` : (p.address || 'Baruipur, South 24 Parganas');
+  const phone = (p.contact && (p.contact.phone || p.contact.helpline)) || 'N/A';
+  const timings = p.timings || 'Open during day hours';
+  const overview = p.overview || p.descriptionBn || '';
+  const history = p.history || (p.sections && p.sections[0] ? p.sections[0].contentBn : '');
+  const services = p.keyServices || p.highlights || [];
+  const howTo = p.howToReach || (p.sections && p.sections[2] ? p.sections[2].contentBn : '');
+  return `
 --------------------------------------------------------------------------------
 LANDMARK #${i + 1}: ${p.nameBn} (${p.nameEn})
 --------------------------------------------------------------------------------
 - Category: ${p.category}
-- Established: ${p.established}
+- Established: ${p.established || 'N/A'}
 - Canonical URL: ${SITE_URL}/places/${p.slug}/
-- Address: ${p.address}
-- Phone: ${p.contact.phone || p.contact.helpline || 'N/A'}
-- Timings: ${p.timings}
+- Address: ${addr}
+- Phone: ${phone}
+- Timings: ${timings}
 
 OVERVIEW:
-${p.overview}
+${overview}
 
 HISTORY & HERITAGE:
-${p.history}
+${history}
 
 KEY SERVICES & FACILITIES:
-${p.keyServices.map(s => `- ${s}`).join('\n')}
+${services.map(s => `- ${s}`).join('\n')}
 
 HOW TO REACH:
-${p.howToReach}
-`).join('\n')}
+${howTo}
+`;
+}).join('\n')}
 
 ================================================================================
 PART 2: ORGANIZATIONS, CLUBS & ASSOCIATIONS (${organizations.length} TOTAL)
