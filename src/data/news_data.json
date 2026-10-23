@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "art-1792778156565-7xc2",
+      "title": "এত তাড়াতাড়ি কেন চলে গেলে মা",
+      "slug": "এত-তাড়াতাড়ি-কেন-চলে-গেলে-মা",
+      "summary": "এত তাড়াতাড়ি কেন চলে গেলে মা 😔\n\n[ durgapuja 2026, bijaya, baruipur, baruipur uncovered ]\n\n### ঘটনার প্রাসঙ্গিক প্রেক্ষাপট ও স্থানীয় বিবরণ\nবারুইপুর দক্ষিণ ২৪ পরগনা জেলার একট...",
+      "content": "এত তাড়াতাড়ি কেন চলে গেলে মা 😔\n\n[ durgapuja 2026, bijaya, baruipur, baruipur uncovered ]\n\n### ঘটনার প্রাসঙ্গিক প্রেক্ষাপট ও স্থানীয় বিবরণ\nবারুইপুর দক্ষিণ ২৪ পরগনা জেলার একটি প্রাচীন ও গুরুত্বপূর্ণ প্রশাসনিক সদর দপ্তর। রেল যোগাযোগ, বাণিজ্যিক কর্মকাণ্ড এবং নাগরিক সুযোগ-সুবিধার দিক থেকে এই অঞ্চল দ্রুত উন্নত হচ্ছে। স্থানীয় প্রশাসন, পুলিশ ও নাগরিক সমাজ পারস্পরিক সমন্বয়ের মাধ্যমে এলাকার শান্তি, সম্প্রীতি ও সামগ্রিক উন্নয়ন অব্যাহত রাখতে সচেষ্ট।\n\n### নাগরিক সচেতনতা ও সাধারণ জনজীবনের প্রভাব\nএই ধরনের স্থানীয় খবরাখবর ও ঘটনার ক্ষেত্রে সংশ্লিষ্ট এলাকার সাধারণ বাসিন্দা ও নিত্যযাত্রীদের সতর্কতা এবং প্রশাসনের সাথে সহযোগিতার ওপর বিশেষ গুরুত্ব দেওয়া হয়। যেকোনো জরুরি পরিস্থিতিতে বিভ্রান্তিকর তথ্য এড়িয়ে সঠিক ও যাচাইকৃত তথ্যের ওপর নির্ভর করাই কাম্য।\n\n### জরুরি প্রশাসনিক হেল্পলাইন ও যোগাযোগ\n* বারুইপুর মহকুমা শাসক (SDO) কার্যালয়: ০৩৩-২৪৩৩-৮২০০ | মহকুমা তথ্য ও সংস্কৃতি দপ্তর: ০৩৩-২৪৩৩-৮২১০\n\n> **সম্পাদকীয় স্বচ্ছতা ও ফ্যাক্ট-চেক নীতি:** বারুইপুর অনলাইন বার্তা ডেস্কের নিজস্ব অনুসন্ধানী ও বিশ্বস্ত স্থানীয় সংবাদ সূত্রের মাধ্যমে এই প্রতিবেদনটি সংকলিত ও পরিমার্জিত করা হয়েছে। জনস্বার্থে প্রচারিত এই তথ্যে কোনো সংশোধন থাকলে আমাদের সাথে নির্দ্বিধায় যোগাযোগ করুন।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-uncover",
+      "sourceName": "Baruipur Uncover",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122232042182792099",
+      "originalPostUrl": "https://www.facebook.com/122232042182792099",
+      "imageUrl": "/images/crawled/82a38f6d90b93ab1c14d051ef7ed4929.jpg",
+      "images": [
+        "/images/crawled/82a38f6d90b93ab1c14d051ef7ed4929.jpg",
+        "/images/crawled/b97ce684096f2b4a1463d7e5f42d89c5.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1736878774074279",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1736878774074279&show_text=0",
+      "publishedAt": "2026-10-23T17:26:08.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 55,
+      "crawlHash": "4978c823161ce707332d023c66bdf345"
+    },
+    {
       "id": "art-guide-picnic-spots-resorts-baruipur",
       "title": "বারুইপুর ও সংলগ্ন অঞ্চলের সেরা পিকনিক স্পট ও রিসোর্ট নির্দেশিকা: শীতের ছুটি, পরিবার নিয়ে ডে-আউট ও বাগানবাড়ির তালিকা",
       "slug": "best-picnic-spots-and-resorts-in-and-around-baruipur-guide",
@@ -71,7 +102,8 @@
       "imageUrl": "/images/crawled/ede72a6d22474461568b099de37d4859.jpg",
       "images": [
         "/images/crawled/ede72a6d22474461568b099de37d4859.jpg",
-        "/images/crawled/0724518ec663a40e95e1e1985450bdc3.jpg"
+        "/images/crawled/0724518ec663a40e95e1e1985450bdc3.jpg",
+        "/images/crawled/0f701538a021b5758bc9ecc86f706d97.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=28831722533149255",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28831722533149255&show_text=0",
@@ -5152,7 +5184,8 @@
         "/images/crawled/fd51e94b0b662d64cad962d87c6a06ce.jpg",
         "/images/crawled/c50679f3742265e392c7ddaab3f79634.jpg",
         "/images/crawled/d846aceb006ccd8e6b9a44ee8c7b6fb9.jpg",
-        "/images/crawled/2b753f340908e3750b2744148e35efe2.jpg"
+        "/images/crawled/2b753f340908e3750b2744148e35efe2.jpg",
+        "/images/crawled/3a78b7f9f0105efd4fc3d50f5f61546a.jpg"
       ],
       "publishedAt": "2026-10-01T10:19:52.883Z",
       "isBreaking": false,
@@ -12972,7 +13005,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-23T08:43:05.922Z"
+      "lastCrawledAt": "2026-10-23T17:55:13.159Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -12985,7 +13018,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-23T08:43:08.419Z"
+      "lastCrawledAt": "2026-10-23T17:55:15.847Z"
     },
     {
       "id": "src-fb-police",
@@ -12998,7 +13031,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-23T08:43:10.882Z"
+      "lastCrawledAt": "2026-10-23T17:55:19.236Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -13011,7 +13044,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-23T08:43:13.395Z"
+      "lastCrawledAt": "2026-10-23T17:55:21.526Z"
     },
     {
       "id": "src-fb-uncover",
@@ -13024,7 +13057,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-23T08:43:17.220Z"
+      "lastCrawledAt": "2026-10-23T17:55:25.098Z"
     },
     {
       "id": "src-fb-update",
@@ -13037,7 +13070,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-23T08:43:22.364Z"
+      "lastCrawledAt": "2026-10-23T17:55:30.978Z"
     },
     {
       "id": "src-fb-barta",
@@ -13050,7 +13083,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-23T08:43:26.586Z"
+      "lastCrawledAt": "2026-10-23T17:55:36.580Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -13063,7 +13096,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-23T08:43:31.161Z"
+      "lastCrawledAt": "2026-10-23T17:55:41.008Z"
     },
     {
       "id": "src-fb-voice",
@@ -13076,7 +13109,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-23T08:43:35.208Z"
+      "lastCrawledAt": "2026-10-23T17:55:44.136Z"
     },
     {
       "id": "src-fb-24x7",
@@ -13089,7 +13122,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-23T08:43:40.133Z"
+      "lastCrawledAt": "2026-10-23T17:55:50.525Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -13102,10 +13135,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-23T08:43:51.233Z"
+      "lastCrawledAt": "2026-10-23T17:55:55.894Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1792778157012",
+      "timestamp": "2026-10-23T17:55:57.012Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 5, সমন্বয়ের পর: 5, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 5,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1792745033834",
       "timestamp": "2026-10-23T08:43:53.834Z",
