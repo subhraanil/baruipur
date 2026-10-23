@@ -1,6 +1,37 @@
 {
   "articles": [
     {
+      "id": "art-1792745033503-t3uk",
+      "title": "সামান্য অসাবধানতায় ঘটল বড় বিপ*দ",
+      "slug": "সামান্য-অসাবধানতায়-ঘটল-বড়-বিপদ",
+      "summary": "সামান্য অসাবধানতায় ঘটল বড় বিপ*দ!দিনহাটা থানার পাড়াদিঘীতে নিরঞ্জনের সময় তুফানগঞ্জের জয় হিন্দ ক্লাবের দুর্গা প্রতিমার নি*চে চা*পা পড়ে আহ*ত পৌরকর্মী!\n\n### ঘটনার প্রাসঙ্গিক প্...",
+      "content": "সামান্য অসাবধানতায় ঘটল বড় বিপ*দ!দিনহাটা থানার পাড়াদিঘীতে নিরঞ্জনের সময় তুফানগঞ্জের জয় হিন্দ ক্লাবের দুর্গা প্রতিমার নি*চে চা*পা পড়ে আহ*ত পৌরকর্মী!\n\n### ঘটনার প্রাসঙ্গিক প্রেক্ষাপট ও স্থানীয় বিবরণ\nবারুইপুরের সংস্কৃতি শতাব্দীপ্রাচীন ঐতিহ্য বহন করে। এখানকার বিখ্যাত ঐতিহাসিক রাসমেলা, রাসমাঠের মেলা, পদ্মপুকুরের সাংস্কৃতিক অনুষ্ঠান এবং শতাব্দীপ্রাচীন দুর্গাপূজা সমগ্র দক্ষিণবঙ্গে অত্যন্ত সমাদৃত।\n\n### নাগরিক সচেতনতা ও সাধারণ জনজীবনের প্রভাব\nএই ধরনের স্থানীয় খবরাখবর ও ঘটনার ক্ষেত্রে সংশ্লিষ্ট এলাকার সাধারণ বাসিন্দা ও নিত্যযাত্রীদের সতর্কতা এবং প্রশাসনের সাথে সহযোগিতার ওপর বিশেষ গুরুত্ব দেওয়া হয়। যেকোনো জরুরি পরিস্থিতিতে বিভ্রান্তিকর তথ্য এড়িয়ে সঠিক ও যাচাইকৃত তথ্যের ওপর নির্ভর করাই কাম্য।\n\n### জরুরি প্রশাসনিক হেল্পলাইন ও যোগাযোগ\n* বারুইপুর রবীন্দ্র ভবন ও সংস্কৃতি সেল: ০৩৩-২৪৩৩-৮২৬০ | স্থানীয় নাগরিক তথ্যবাতায়ন: info@baruipur.online\n\n> **সম্পাদকীয় স্বচ্ছতা ও ফ্যাক্ট-চেক নীতি:** বারুইপুর অনলাইন বার্তা ডেস্কের নিজস্ব অনুসন্ধানী ও বিশ্বস্ত স্থানীয় সংবাদ সূত্রের মাধ্যমে এই প্রতিবেদনটি সংকলিত ও পরিমার্জিত করা হয়েছে। জনস্বার্থে প্রচারিত এই তথ্যে কোনো সংশোধন থাকলে আমাদের সাথে নির্দ্বিধায় যোগাযোগ করুন।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1747830327345795",
+      "originalPostUrl": "https://www.facebook.com/1747830327345795",
+      "imageUrl": "/images/crawled/ede72a6d22474461568b099de37d4859.jpg",
+      "images": [
+        "/images/crawled/ede72a6d22474461568b099de37d4859.jpg",
+        "/images/crawled/0724518ec663a40e95e1e1985450bdc3.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=28831722533149255",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28831722533149255&show_text=0",
+      "publishedAt": "2026-10-23T08:18:45.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 26,
+      "crawlHash": "bae7117af240d4a80bd419b66d738649"
+    },
+    {
       "id": "art-lakshmi-puja-market-baruipur-2026",
       "title": "বিজয়ার পরই বারুইপুর কাছারি ও পদ্মপুকুর বাজারে কোজাগরী লক্ষ্মীপূজার কেনাকাটার ধুম: মৃৎশিল্পীদের ব্যস্ততা তুঙ্গে",
       "slug": "baruipur-kachari-bazar-kojagari-lakshmi-puja-shopping-potters-rush",
@@ -43,7 +74,8 @@
       "imageUrl": "/images/crawled/e9a030bd348e355285d9ae4841e73aa7.jpg",
       "images": [
         "/images/crawled/e9a030bd348e355285d9ae4841e73aa7.jpg",
-        "/images/crawled/89fc9361ed2d0eedfc11b5aa06e6239d.jpg"
+        "/images/crawled/89fc9361ed2d0eedfc11b5aa06e6239d.jpg",
+        "/images/crawled/658abdd55395cf3fd2049467301796a0.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1140373995238482",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1140373995238482&show_text=0",
@@ -5068,7 +5100,8 @@
         "/images/crawled/0758d6dd15760a8acff3e3ac8dd48a32.jpg",
         "/images/crawled/fd51e94b0b662d64cad962d87c6a06ce.jpg",
         "/images/crawled/c50679f3742265e392c7ddaab3f79634.jpg",
-        "/images/crawled/d846aceb006ccd8e6b9a44ee8c7b6fb9.jpg"
+        "/images/crawled/d846aceb006ccd8e6b9a44ee8c7b6fb9.jpg",
+        "/images/crawled/2b753f340908e3750b2744148e35efe2.jpg"
       ],
       "publishedAt": "2026-10-01T10:19:52.883Z",
       "isBreaking": false,
@@ -11412,7 +11445,11 @@
       "imageUrl": "/images/crawled/044059cde8ede80218331ff7896570b6.jpg",
       "images": [
         "/images/crawled/044059cde8ede80218331ff7896570b6.jpg",
-        "/images/crawled/75f70a621271253b4b476d7d8324f489.jpg"
+        "/images/crawled/75f70a621271253b4b476d7d8324f489.jpg",
+        "/images/crawled/25a68c1933ac4dcdd4d88e99a9e760f5.jpg",
+        "/images/crawled/c14ad5c1dfae1e2b35dbd8f978cab04c.jpg",
+        "/images/crawled/a426402489488f10e5cd15528653a8e2.jpg",
+        "/images/crawled/eca4d85b125f144bd88923a20e98aba2.jpg"
       ],
       "publishedAt": "2026-09-06T05:57:23.000Z",
       "isBreaking": false,
@@ -12884,7 +12921,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-10-23T07:48:32.737Z"
+      "lastCrawledAt": "2026-10-23T08:43:05.922Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -12897,7 +12934,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-10-23T07:48:36.179Z"
+      "lastCrawledAt": "2026-10-23T08:43:08.419Z"
     },
     {
       "id": "src-fb-police",
@@ -12910,7 +12947,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-10-23T07:48:39.375Z"
+      "lastCrawledAt": "2026-10-23T08:43:10.882Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -12923,7 +12960,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-10-23T07:48:42.745Z"
+      "lastCrawledAt": "2026-10-23T08:43:13.395Z"
     },
     {
       "id": "src-fb-uncover",
@@ -12936,7 +12973,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-10-23T07:48:46.713Z"
+      "lastCrawledAt": "2026-10-23T08:43:17.220Z"
     },
     {
       "id": "src-fb-update",
@@ -12949,7 +12986,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-10-23T07:48:52.216Z"
+      "lastCrawledAt": "2026-10-23T08:43:22.364Z"
     },
     {
       "id": "src-fb-barta",
@@ -12962,7 +12999,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-10-23T07:48:58.445Z"
+      "lastCrawledAt": "2026-10-23T08:43:26.586Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -12975,7 +13012,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-10-23T07:49:01.920Z"
+      "lastCrawledAt": "2026-10-23T08:43:31.161Z"
     },
     {
       "id": "src-fb-voice",
@@ -12988,7 +13025,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-10-23T07:49:06.863Z"
+      "lastCrawledAt": "2026-10-23T08:43:35.208Z"
     },
     {
       "id": "src-fb-24x7",
@@ -13001,7 +13038,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-10-23T07:49:13.416Z"
+      "lastCrawledAt": "2026-10-23T08:43:40.133Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -13014,10 +13051,20 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ - স্থানীয় নাগরিক খবর, উৎসব ও সাংস্কৃতিক আপডেট",
-      "lastCrawledAt": "2026-10-23T07:49:18.108Z"
+      "lastCrawledAt": "2026-10-23T08:43:51.233Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1792745033834",
+      "timestamp": "2026-10-23T08:43:53.834Z",
+      "sourceId": "multi-11-sources",
+      "sourceName": "11টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 11টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 5, সমন্বয়ের পর: 5, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 5,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1792741762390",
       "timestamp": "2026-10-23T07:49:22.390Z",
