@@ -390,11 +390,11 @@ export default function FacilityDetailPage({ params }: Props) {
                     </span>
                     <div className="flex items-center gap-2">
                       <a
-                        href={`tel:${doc.appointmentPhone.split(/[\/,]/)[0].replace(/[^0-9]/g, '')}`}
+                        href={`tel:${(doc.appointmentPhone || facility.phone || '').split(/[\/,]/)[0].replace(/[^0-9]/g, '')}`}
                         className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition shadow-sm"
                       >
                         <Phone className="w-3.5 h-3.5 text-emerald-400" />
-                        <span>{doc.appointmentPhone}</span>
+                        <span>{doc.appointmentPhone || facility.phone}</span>
                       </a>
                       {doc.appointmentWhatsapp && (
                         <a
