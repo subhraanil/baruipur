@@ -1640,26 +1640,4 @@
       <news:title>অঙ্কুর ক্লাবের উদ্যোগে পঞ্চম বর্ষের রক্তদান শিবির ও বিনামূল্যে চক্ষু পরীক্ষা ক্যাম্প বারুইপুরে</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AE%E0%A7%87%E0%A6%98%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T06:49:20.000Z</news:publication_date>
-      <news:title>কালো মেঘে ঢাকা আকাশ ও বৃষ্টির পূর্বাভাস: বারুইপুর জংশন স্টেশনের অপরূপ রূপ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87-%E0%A6%86%E0%A6%B9%E0%A6%A4-%E0%A6%AE%E0%A6%B9%E0%A6%BF%E0%A6%B2%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%A7-%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>বারুইপুর অনলাইন</news:name>
-        <news:language>bn</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T06:48:53.000Z</news:publication_date>
-      <news:title>বারুইপুর রেলগেটে হেলে পড়া ইলেকট্রিক পোস্ট ভেঙে পড়ে গুরুতর আহত মহিলা, দীর্ঘক্ষণ স্তব্ধ যান চলাচল</news:title>
-    </news:news>
-  </url>
 </urlset>
