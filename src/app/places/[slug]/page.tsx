@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllPlaces, getPlaceBySlug } from '@/lib/places';
-import { formatBilingualLocation } from '@/lib/seoUtils';
+import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
 import { 
   Building2, 
   ShieldAlert, 
@@ -72,6 +72,8 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
     };
   }
 
+  const cleanBn = cleanBengaliName(place.nameBn);
+  const cleanEn = cleanEnglishName(place.nameEn);
   const bilingualName = formatBilingualLocation(place.nameBn, place.nameEn);
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
   const title = `${bilingualName} | ইতিহাস, নাগরিক তথ্য ও গাইড`;
@@ -83,14 +85,31 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
     title,
     description,
     keywords: [
-      place.nameBn,
-      place.nameEn,
+      cleanBn,
+      cleanEn,
+      `${cleanBn}, বারুইপুর`,
+      `${cleanEn}, Baruipur`,
+      `${cleanBn} বারুইপুর`,
+      `${cleanEn} Baruipur`,
+      bilingualName,
       'Baruipur',
       'বারুইপুর',
       'দক্ষিণ ২৪ পরগনা',
       place.taglineBn,
-      'Baruipur guide'
+      'Baruipur guide',
+      'Baruipur places'
     ],
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: canonicalUrl,
     },
@@ -131,10 +150,22 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
   const primaryImage = place.coverImage || place.images?.[0]?.url || '';
 
+  const cleanBn = cleanBengaliName(place.nameBn);
+  const cleanEn = cleanEnglishName(place.nameEn);
+  const bilingualName = formatBilingualLocation(place.nameBn, place.nameEn);
+
   const placeSchema = {
     '@context': 'https://schema.org',
     '@type': place.schemaType || 'Place',
-    name: `${place.nameBn} (${place.nameEn})`,
+    name: place.nameBn,
+    alternateName: [
+      place.nameEn,
+      `${cleanBn}, বারুইপুর`,
+      `${cleanEn}, Baruipur`,
+      `${cleanBn} বারুইপুর`,
+      `${cleanEn} Baruipur`,
+      bilingualName
+    ],
     description: place.overview,
     url: canonicalUrl,
     image: primaryImage,
@@ -240,10 +271,11 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
           </div>
 
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-2 leading-tight">
-            {place.nameBn}
+            <span>{place.nameBn}, বারুইপুর</span>
+            <span className="block sm:inline sm:ml-2 text-xl sm:text-3xl font-semibold text-slate-300">({place.nameEn}, Baruipur)</span>
           </h1>
           <p className="text-lg sm:text-xl font-medium text-red-300 mb-4">
-            {place.nameEn}
+            {place.nameBn} • {place.nameEn}
           </p>
           <p className="text-sm sm:text-base text-slate-200 max-w-3xl leading-relaxed">
             {place.taglineBn}

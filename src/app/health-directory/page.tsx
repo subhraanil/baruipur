@@ -42,6 +42,19 @@ export default function HealthcareDirectoryPage() {
   const facilities = getAllFacilities();
   const totalDoctors = facilities.reduce((sum, f) => sum + f.doctors.length, 0);
 
+  // Schema.org ItemList JSON-LD
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'বারুইপুর স্বাস্থ্য ও ডাক্তার চেম্বার তালিকা',
+    itemListElement: facilities.map((f, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      name: `${f.nameBn}, বারুইপুর (${f.nameEn}, Baruipur)`,
+      url: `https://baruipur.online/health-directory/${f.slug}/`
+    }))
+  };
+
   // Schema.org MedicalWebPage JSON-LD
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -65,6 +78,10 @@ export default function HealthcareDirectoryPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
 
       <div className="bg-slate-50 min-h-screen py-8 sm:py-12">

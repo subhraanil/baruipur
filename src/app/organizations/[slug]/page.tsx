@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllOrganizations, getOrganizationBySlug } from '@/lib/organizations';
-import { formatBilingualLocation } from '@/lib/seoUtils';
+import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
 import { 
   Building2, 
   MapPin, 
@@ -45,6 +45,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const org = getOrganizationBySlug(params.slug);
   if (!org) return { title: 'প্রতিষ্ঠান পাওয়া যায়নি | বারুইপুর' };
 
+  const cleanBn = cleanBengaliName(org.nameBn);
+  const cleanEn = cleanEnglishName(org.nameEn);
   const bilingualName = formatBilingualLocation(org.nameBn, org.nameEn);
   const title = `${bilingualName} | ইতিহাস, সমাজসেবা ও যোগাযোগের তথ্য`;
   const rawDesc = `${bilingualName}: ক্লাবের ইতিহাস, ক্রীড়া ও ফুটবল টুর্নামেন্ট, রক্তদান শিবির, সমাজকল্যাণমূলক কর্মকাণ্ড এবং যোগাযোগের সম্পূর্ণ তথ্য।`;
@@ -53,6 +55,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description: cleanDesc,
+    keywords: [
+      cleanBn,
+      cleanEn,
+      `${cleanBn}, বারুইপুর`,
+      `${cleanEn}, Baruipur`,
+      `${cleanBn} বারুইপুর`,
+      `${cleanEn} Baruipur`,
+      bilingualName,
+      'Baruipur',
+      'বারুইপুর',
+      'Baruipur clubs',
+      'বারুইপুর প্রতিষ্ঠান ও ক্লাব',
+      ...(org.keyPeople ? org.keyPeople.map(k => k.name) : [])
+    ],
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
     alternates: {
       canonical: `https://baruipur.online/organizations/${org.slug}/`,
     },
@@ -84,11 +111,22 @@ export default function OrganizationDetailPage({ params }: Props) {
   const org = getOrganizationBySlug(params.slug);
   if (!org) notFound();
 
+  const cleanBn = cleanBengaliName(org.nameBn);
+  const cleanEn = cleanEnglishName(org.nameEn);
+  const bilingualName = formatBilingualLocation(org.nameBn, org.nameEn);
+
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': org.schemaType || 'Organization',
     name: org.nameBn,
-    alternateName: org.nameEn,
+    alternateName: [
+      org.nameEn,
+      `${cleanBn}, বারুইপুর`,
+      `${cleanEn}, Baruipur`,
+      `${cleanBn} বারুইপুর`,
+      `${cleanEn} Baruipur`,
+      bilingualName
+    ],
     description: org.overview,
     url: `https://baruipur.online/organizations/${org.slug}/`,
     logo: `https://baruipur.online${org.coverImage}`,
@@ -106,8 +144,39 @@ export default function OrganizationDetailPage({ params }: Props) {
       latitude: org.coordinates.lat,
       longitude: org.coordinates.lng
     },
+    hasMap: org.gmbMapUrl,
+    sameAs: [
+      org.gmbMapUrl,
+      org.contact.facebookUrl,
+      org.contact.website
+    ].filter(Boolean),
     telephone: org.contact.phone || undefined,
     email: org.contact.email || undefined
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'প্রচ্ছদ',
+        item: 'https://baruipur.online/'
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'প্রতিষ্ঠান ও ক্লাব',
+        item: 'https://baruipur.online/organizations/'
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: bilingualName,
+        item: `https://baruipur.online/organizations/${org.slug}/`
+      }
+    ]
   };
 
   const faqSchema = {
@@ -128,6 +197,10 @@ export default function OrganizationDetailPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {org.faqs.length > 0 && (
         <script
@@ -179,7 +252,8 @@ export default function OrganizationDetailPage({ params }: Props) {
                 {org.established}
               </div>
               <h1 className="text-2xl sm:text-4xl font-black text-white leading-tight mb-2">
-                {org.nameBn}
+                <span>{org.nameBn}, বারুইপুর</span>
+                <span className="block sm:inline sm:ml-2 text-xl sm:text-3xl font-semibold text-slate-300">({org.nameEn}, Baruipur)</span>
               </h1>
               <p className="text-xs sm:text-sm text-slate-300 max-w-3xl line-clamp-2">
                 {org.taglineBn}

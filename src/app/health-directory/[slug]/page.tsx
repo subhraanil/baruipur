@@ -7,7 +7,7 @@ import {
   getFacilityBySlug, 
   HealthcareFacility 
 } from '@/lib/healthcare';
-import { formatBilingualLocation } from '@/lib/seoUtils';
+import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
 import { 
   Hospital, 
   Building2, 
@@ -48,16 +48,51 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const cleanBn = cleanBengaliName(facility.nameBn);
+  const cleanEn = cleanEnglishName(facility.nameEn);
   const bilingualName = formatBilingualLocation(facility.nameBn, facility.nameEn);
   const title = `${bilingualName} | ডাক্তার তালিকা ও সময়সূচি`;
   const rawDesc = `${bilingualName}: ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি এবং যোগাযোগের নম্বর।`;
   const cleanDesc = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
 
+  const doctorKeywords = facility.doctors ? facility.doctors.flatMap(d => [
+    d.nameBn,
+    d.nameEn,
+    `${d.nameBn} বারুইপুর`,
+    `${d.nameEn} Baruipur`
+  ]) : [];
+
   return {
     title,
     description: cleanDesc,
+    keywords: [
+      cleanBn,
+      cleanEn,
+      `${cleanBn}, বারুইপুর`,
+      `${cleanEn}, Baruipur`,
+      `${cleanBn} বারুইপুর`,
+      `${cleanEn} Baruipur`,
+      bilingualName,
+      'Baruipur',
+      'বারুইপুর',
+      'Baruipur doctor list',
+      'বারুইপুর ডাক্তার চেম্বার',
+      'Baruipur clinic OPD',
+      ...doctorKeywords
+    ],
     alternates: {
       canonical: `https://baruipur.online/health-directory/${facility.slug}/`,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
     openGraph: {
       title,
@@ -94,15 +129,37 @@ export default function FacilityDetailPage({ params }: Props) {
     facility.type === 'pharmacy_opd' ? 'Pharmacy' :
     'MedicalBusiness';
 
+  const cleanBn = cleanBengaliName(facility.nameBn);
+  const cleanEn = cleanEnglishName(facility.nameEn);
+  const bilingualName = formatBilingualLocation(facility.nameBn, facility.nameEn);
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': schemaType,
     name: facility.nameBn,
-    alternateName: facility.nameEn,
+    alternateName: [
+      facility.nameEn,
+      `${cleanBn}, বারুইপুর`,
+      `${cleanEn}, Baruipur`,
+      `${cleanBn} বারুইপুর`,
+      `${cleanEn} Baruipur`,
+      bilingualName
+    ],
     description: facility.overviewBn,
     url: `https://baruipur.online/health-directory/${facility.slug}/`,
     ...(facility.coverImage ? { image: facility.coverImage.startsWith('http') ? facility.coverImage : `https://baruipur.online${facility.coverImage}` } : {}),
     telephone: facility.phone,
+    hasMap: facility.googleMapUrl,
+    sameAs: [
+      facility.googleMapUrl,
+      facility.websiteUrl,
+      facility.facebookUrl
+    ].filter(Boolean),
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 22.3654,
+      longitude: 88.4325
+    },
     address: {
       '@type': 'PostalAddress',
       streetAddress: facility.addressBn,
@@ -113,6 +170,16 @@ export default function FacilityDetailPage({ params }: Props) {
     },
     openingHours: facility.isOpen24Hours ? 'Mo-Su 00:00-24:00' : 'Mo-Sa 08:00-21:00',
     medicalSpecialty: facility.doctors.map(d => d.specialtyEn),
+    priceRange: '₹₹',
+    currenciesAccepted: 'INR',
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: 'Baruipur',
+      containedInPlace: {
+        '@type': 'AdministrativeArea',
+        name: 'South 24 Parganas'
+      }
+    },
     employee: facility.doctors.map(d => ({
       '@type': 'Physician',
       name: d.nameBn,
@@ -122,11 +189,40 @@ export default function FacilityDetailPage({ params }: Props) {
     }))
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'প্রচ্ছদ',
+        item: 'https://baruipur.online/'
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'স্বাস্থ্য ও ডাক্তার চেম্বার',
+        item: 'https://baruipur.online/health-directory/'
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: bilingualName,
+        item: `https://baruipur.online/health-directory/${facility.slug}/`
+      }
+    ]
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <div className="bg-slate-50 min-h-screen py-8 sm:py-12">
@@ -165,10 +261,11 @@ export default function FacilityDetailPage({ params }: Props) {
               </div>
 
               <h1 className="text-2xl sm:text-4xl font-black tracking-tight mb-2">
-                {facility.nameBn}
+                <span>{facility.nameBn}, বারুইপুর</span>
+                <span className="block sm:inline sm:ml-2 text-xl sm:text-3xl font-semibold text-slate-300">({facility.nameEn}, Baruipur)</span>
               </h1>
               <p className="text-sm sm:text-base text-slate-300 font-medium mb-4">
-                {facility.nameEn}
+                {facility.nameBn} • {facility.nameEn}
               </p>
 
               <p className="text-xs sm:text-sm text-slate-200 leading-relaxed max-w-3xl mb-6">

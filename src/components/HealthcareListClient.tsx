@@ -285,12 +285,13 @@ export default function HealthcareListClient({ facilities }: Props) {
                       <Link 
                         href={`/health-directory/${fac.slug}/`}
                         className="hover:text-red-600 transition"
+                        title={`${fac.nameBn}, বারুইপুর (${fac.nameEn}, Baruipur)`}
                       >
-                        {fac.nameBn}
+                        {fac.nameBn}, বারুইপুর
                       </Link>
                     </h2>
                     <p className="text-xs text-slate-500 font-medium mt-0.5">
-                      {fac.nameEn}
+                      {fac.nameEn}, Baruipur
                     </p>
 
                     <p className="text-xs sm:text-sm text-slate-600 mt-2 line-clamp-2 leading-relaxed">
