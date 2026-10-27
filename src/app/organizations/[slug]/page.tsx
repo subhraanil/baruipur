@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllOrganizations, getOrganizationBySlug } from '@/lib/organizations';
+import { formatBilingualLocation } from '@/lib/seoUtils';
 import { 
   Building2, 
   MapPin, 
@@ -44,17 +45,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const org = getOrganizationBySlug(params.slug);
   if (!org) return { title: 'প্রতিষ্ঠান পাওয়া যায়নি | বারুইপুর' };
 
-  const rawDesc = org.metaDescription || org.taglineBn || org.overview;
-  const cleanDesc = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc;
+  const bilingualName = formatBilingualLocation(org.nameBn, org.nameEn);
+  const title = `${bilingualName} | ইতিহাস, সমাজসেবা ও যোগাযোগের তথ্য`;
+  const rawDesc = `${bilingualName}: ক্লাবের ইতিহাস, ক্রীড়া ও ফুটবল টুর্নামেন্ট, রক্তদান শিবির, সমাজকল্যাণমূলক কর্মকাণ্ড এবং যোগাযোগের সম্পূর্ণ তথ্য।`;
+  const cleanDesc = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
 
   return {
-    title: `${org.nameBn} - ${org.nameEn} | বারুইপুর ডিরেক্টরি`,
+    title,
     description: cleanDesc,
     alternates: {
       canonical: `https://baruipur.online/organizations/${org.slug}/`,
     },
     openGraph: {
-      title: `${org.nameBn} | বারুইপুর ডিরেক্টরি`,
+      title,
       description: cleanDesc,
       url: `https://baruipur.online/organizations/${org.slug}/`,
       siteName: 'বারুইপুর Baruipur',
@@ -65,9 +68,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: org.coverImage.startsWith('http') ? org.coverImage : `https://baruipur.online${org.coverImage}`,
           width: 1200,
           height: 630,
-          alt: org.nameBn.length > 95 ? org.nameBn.slice(0, 92) + '...' : org.nameBn,
+          alt: bilingualName,
         }
       ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: cleanDesc,
     }
   };
 }

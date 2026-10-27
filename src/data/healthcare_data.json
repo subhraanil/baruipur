@@ -1,7 +1,7 @@
 [
   {
     "slug": "kabita-sebayatan-baruipur",
-    "nameBn": "কবিতা সেবায়তন (Kabita Sebayatan - ডক্টরস চেম্বার ও ডায়াগনস্টিক)",
+    "nameBn": "কবিতা সেবায়তন",
     "nameEn": "Kabita Sebayatan Doctors Chamber & Diagnostic Centre",
     "type": "polyclinic",
     "typeBn": "ডক্টরস চেম্বার, পলিক্লিনিক ও প্যাথলজি সেন্টার",
@@ -952,8 +952,8 @@
   },
   {
     "slug": "apollo-clinic-baruipur",
-    "nameBn": "অ্যাপোলো ক্লিনিক বারুইপুর (Apollo Clinic Baruipur)",
-    "nameEn": "Apollo Clinic Baruipur",
+    "nameBn": "অ্যাপোলো ক্লিনিক",
+    "nameEn": "Apollo Clinic",
     "type": "polyclinic",
     "typeBn": "মাল্টিস্পেশালিটি ক্লিনিক ও ডায়াগনস্টিক",
     "taglineBn": "অ্যাপোলো হেলথকেয়ারের আন্তর্জাতিক মানের মাল্টিস্পেশালিটি ওপিডি ক্লিনিক ও আধুনিক ডায়াগনস্টিক সেন্টার",
@@ -1340,7 +1340,7 @@
   },
   {
     "slug": "baruipur-subdivisional-hospital-opd",
-    "nameBn": "বারুইপুর মহকুমা হাসপাতাল (সরকারি বহির্বিভাগ / OPD)",
+    "nameBn": "বারুইপুর মহকুমা হাসপাতাল",
     "nameEn": "Baruipur Subdivisional Hospital (Govt OPD)",
     "type": "hospital",
     "typeBn": "সরকারি মহকুমা হাসপাতাল ও সুপার স্পেশালিটি ওপিডি",
@@ -1469,7 +1469,7 @@
   },
   {
     "slug": "mangaldeep-puratan-bazar-baruipur",
-    "nameBn": "মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার (MANGAL DEEP PHARMACY)",
+    "nameBn": "মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার",
     "nameEn": "Mangal Deep Pharmacy & Doctors Chamber",
     "type": "pharmacy_opd",
     "typeBn": "মেডিসিন শপ, কেমিষ্ট & ডক্টরস চেম্বার",
@@ -2017,7 +2017,7 @@
   },
   {
     "slug": "namita-sebayatan-baruipur",
-    "nameBn": "নমিতা সেবায়তন (Namita Sebayatan - ডক্টরস চেম্বার ও পলিক্লিনিক)",
+    "nameBn": "নমিতা সেবায়তন",
     "nameEn": "Namita Sebayatan Doctors Chamber & Polyclinic",
     "type": "polyclinic",
     "typeBn": "ডক্টরস চেম্বার, পলিক্লিনিক ও ফিজিওথেরাপি হাব",
@@ -2736,8 +2736,8 @@
   },
   {
     "slug": "hai-medical-centre-baruipur",
-    "nameBn": "হাই মেডিকেল সেন্টার (Hai Medical Centre | Polyclinic & Pharmacy)",
-    "nameEn": "Hai Medical Centre - Polyclinic & Medicine Delivery",
+    "nameBn": "হাই মেডিকেল সেন্টার",
+    "nameEn": "Hai Medical Centre",
     "type": "polyclinic",
     "typeBn": "ডক্টরস চেম্বার, পলিক্লিনিক ও হোম হেলথকেয়ার হাব",
     "taglineBn": "বারুইপুর রেলগেট সংলগ্ন সুপরিচিত পলিক্লিনিক, ২৮+ বিশেষজ্ঞ ডাক্তারের ওপিডি, বাড়িতে ব্লাড কালেকশন ও অক্সিজেন সিলিন্ডার পরিষেবা",
@@ -3206,7 +3206,7 @@
   },
   {
     "slug": "easycure-clinic-and-pharmacy-baruipur",
-    "nameBn": "ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic)",
+    "nameBn": "ইজিকিওর ক্লিনিক ও ফার্মেসী",
     "nameEn": "Easycure Clinic & Pharmacy",
     "type": "pharmacy_opd",
     "typeBn": "মেডিসিন শপ, পলিক্লিনিক ও ওপিডি চেম্বার",
@@ -3418,8 +3418,8 @@
   },
   {
     "slug": "jito-health-sastasundar-baruipur",
-    "nameBn": "জিতো হেলথ (JITO Health - Powered by SastaSundar)",
-    "nameEn": "JITO Health (Powered by SastaSundar)",
+    "nameBn": "জিতো হেলথ",
+    "nameEn": "JITO Health (SastaSundar)",
     "type": "pharmacy_opd",
     "typeBn": "ডক্টরস ওপিডি চেম্বার, মেডিসিন ও ডায়াগনস্টিক হাব",
     "taglineBn": "বারুইপুর ২০ নং রেলগেট, সাস্তাসুন্দর ওয়ারহাউসের কাছে—প্রতিটি পরিষেবাতেই সাশ্রয় করুন ৬০% পর্যন্ত",
@@ -3654,8 +3654,8 @@
   },
   {
     "slug": "shatabdi-diagnostic-pvt-ltd-baruipur",
-    "nameBn": "শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড (Shatabdi Diagnostic Pvt. Ltd.)",
-    "nameEn": "Shatabdi Diagnostic Pvt. Ltd. Baruipur",
+    "nameBn": "শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড",
+    "nameEn": "Shatabdi Diagnostic Pvt. Ltd.",
     "type": "diagnostic",
     "typeBn": "ডায়াগনস্টিক ও প্যাথলজি রিসার্চ সেন্টার",
     "taglineBn": "বারুইপুর পুরসভা সংলগ্ন সুপ্রতিষ্ঠিত প্যাথলজি ল্যাব, আল্ট্রাসনোগ্রাফি ও ডক্টরস কনসালটেশন সেন্টার",
@@ -3751,8 +3751,8 @@
   },
   {
     "slug": "metropolis-diagnostic-baruipur",
-    "nameBn": "মেট্রোপলিস ডায়াগনস্টিক বারুইপুর (Metropolis Labs Blood Test & Diagnostic Centre)",
-    "nameEn": "Metropolis Labs Diagnostic Centre Baruipur",
+    "nameBn": "মেট্রোপলিস ডায়াগনস্টিক",
+    "nameEn": "Metropolis Labs Diagnostic Centre",
     "type": "diagnostic",
     "typeBn": "NABL ও CAP আন্তর্জাতিক মানের ডায়াগনস্টিক ল্যাব",
     "taglineBn": "ভারতের শীর্ষস্থানীয় NABL স্বীকৃত ডায়াগনস্টিক চেন - ৪০০০+ উন্নত প্যাথলজি টেস্ট ও হোম কালেকশন",
@@ -3821,8 +3821,8 @@
   },
   {
     "slug": "life-zone-nursing-home-baruipur",
-    "nameBn": "লাইফ জোন নার্সিং হোম, ডায়াগনস্টিক ও ক্লিনিক (Life Zone Nursing Home)",
-    "nameEn": "Life Zone Nursing Home, Diagnostic & Clinic Baruipur",
+    "nameBn": "লাইফ জোন নার্সিং হোম ও ডায়াগনস্টিক",
+    "nameEn": "Life Zone Nursing Home & Diagnostic",
     "type": "nursing_home",
     "typeBn": "মাল্টিস্পেশালিটি নার্সিং হোম ও ডায়াগনস্টিক ক্লিনিক",
     "taglineBn": "বারুইপুর নতুন ফ্লাইওভার সংলগ্ন আধুনিক ইনডোর চিকিৎসা, মডার্ন ওটি, গাইনি, সার্জারি ও ওপিডি সেন্টার",
@@ -3955,8 +3955,8 @@
   },
   {
     "slug": "kalyan-medical-center-baruipur",
-    "nameBn": "কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center)",
-    "nameEn": "Kalyan Medical Center Baruipur",
+    "nameBn": "কল্যাণ মেডিকেল সেন্টার",
+    "nameEn": "Kalyan Medical Center",
     "type": "polyclinic",
     "typeBn": "মাল্টিস্পেশালিটি ক্লিনিক ও অ্যাডভান্সড ডায়াগনস্টিক",
     "taglineBn": "কল্যাণপুর স্টেশন সংলগ্ন প্রখ্যাত নিউরোলজি, কার্ডিওলজি ও আধুনিক প্যাথলজি হাব",
@@ -4055,8 +4055,8 @@
   },
   {
     "slug": "the-panacea-diagnostics-centre-baruipur",
-    "nameBn": "দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics [NABL Accredited])",
-    "nameEn": "The Panacea Diagnostics Centre Baruipur",
+    "nameBn": "দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার",
+    "nameEn": "The Panacea Diagnostics Centre",
     "type": "diagnostic",
     "typeBn": "NABL স্বীকৃত ডায়াগনস্টিক ল্যাব ও স্পেশালিটি ক্লিনিক",
     "taglineBn": "বারুইপুরের শীর্ষ NABL অ্যাক্রিডিটেড প্যাথলজি, কার্ডিওলজি, পালমোনোলজি ও হেলথ প্যাকেজ হাব",
@@ -4154,8 +4154,8 @@
   },
   {
     "slug": "accuhealth-diagnostics-baruipur",
-    "nameBn": "অ্যাকিউহেলথ ডায়াগনস্টিকস বারুইপুর (AccuHealth Diagnostics - 24/7 Pathology)",
-    "nameEn": "AccuHealth Diagnostics Baruipur",
+    "nameBn": "অ্যাকিউহেলথ ডায়াগনস্টিকস",
+    "nameEn": "AccuHealth Diagnostics",
     "type": "diagnostic",
     "typeBn": "২৪/৭ প্যাথলজি ও আধুনিক ডায়াগনস্টিক সেন্টার",
     "taglineBn": "পদ্মপুকুর মোড় সংলগ্ন ২৪ ঘণ্টা প্যাথলজি, ডিজিটাল এক্স-রে, ইউএসজি ও অভিজ্ঞ চিকিৎসকদের চেম্বার",
@@ -4252,8 +4252,8 @@
   },
   {
     "slug": "star-medical-centre-baruipur",
-    "nameBn": "স্টার মেডিক্যাল ক্লিনিক ও চেম্বার (Star Medical Clinic)",
-    "nameEn": "Star Medical Clinic Baruipur",
+    "nameBn": "স্টার মেডিক্যাল ক্লিনিক",
+    "nameEn": "Star Medical Clinic",
     "type": "pharmacy_opd",
     "typeBn": "ফার্মেসি ও স্পেশালিস্ট ওপিডি ক্লিনিক",
     "taglineBn": "বারুইপুর কুলপী রোডে শিশুদের সকল প্রকার ভ্যাকসিন (টিকাকরণ), হাড়ের প্লাস্টার ও বিশেষজ্ঞ চিকিৎসকদের চেম্বার",
@@ -4359,8 +4359,8 @@
   },
   {
     "slug": "oval-healthcare-services-baruipur",
-    "nameBn": "ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services)",
-    "nameEn": "Oval Healthcare Services Baruipur",
+    "nameBn": "ওভাল হেলথকেয়ার সার্ভিসেস",
+    "nameEn": "Oval Healthcare Services",
     "type": "diagnostic",
     "typeBn": "ডায়াগনস্টিক, পলিক্লিনিক ও হেলথকেয়ার সেন্টার",
     "taglineBn": "সুবুদ্ধিপুর দত্তপাড়া রোডের আধুনিক ডায়াগনস্টিক, ইএনটি, আই কেয়ার ও ওপিডি সেন্টার",
@@ -4456,8 +4456,8 @@
   },
   {
     "slug": "tulip-polyclinic-baruipur",
-    "nameBn": "টিউলিপ পলিক্লিনিক (Tulip Polyclinic)",
-    "nameEn": "Tulip Polyclinic Baruipur",
+    "nameBn": "টিউলিপ পলিক্লিনিক",
+    "nameEn": "Tulip Polyclinic",
     "type": "polyclinic",
     "typeBn": "মাল্টিস্পেশালিটি পলিক্লিনিক ও ডক্টরস চেম্বার",
     "taglineBn": "সাবিতা শপিং কমপ্লেক্সের প্রখ্যাত ডক্টরস চেম্বার, শিশু, স্ত্রী, অর্থোপেডিক ও চর্মরোগের বিশেষায়িত ক্লিনিক",
@@ -4591,8 +4591,8 @@
   },
   {
     "slug": "mahendra-clinic-baruipur",
-    "nameBn": "মহেন্দ্র ক্লিনিক (Mahendra Clinic)",
-    "nameEn": "Mahendra Clinic Baruipur",
+    "nameBn": "মহেন্দ্র ক্লিনিক",
+    "nameEn": "Mahendra Clinic",
     "type": "pharmacy_opd",
     "typeBn": "স্পেশালিস্ট ডক্টরস চেম্বার ও ক্লিনিক",
     "taglineBn": "মহেন্দ্র ক্লিনিক বারুইপুর: প্রখ্যাত চর্মরোগ বিশেষজ্ঞ ডাঃ বিজয় রায়চৌধুরী (Dr. Bijay Roy Chaudhuri - রুবি ও দেশুন হাসপাতাল) এবং ডাঃ এইচ এম দাও চেম্বার",

@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllPlaces, getPlaceBySlug } from '@/lib/places';
+import { formatBilingualLocation } from '@/lib/seoUtils';
 import { 
   Building2, 
   ShieldAlert, 
@@ -71,10 +72,11 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
     };
   }
 
+  const bilingualName = formatBilingualLocation(place.nameBn, place.nameEn);
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
-  const title = place.metaTitle || `${place.nameBn} (${place.nameEn}) - বারুইপুর`;
-  const rawDesc = place.metaDescription || place.overview;
-  const description = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc;
+  const title = `${bilingualName} | ইতিহাস, নাগরিক তথ্য ও গাইড`;
+  const rawDesc = `${bilingualName}: ঠিকানা, যোগাযোগ, ইতিহাস, নাগরিক পরিষেবা ও প্রশাসনিক সম্পূর্ণ তথ্য নির্দেশিকা।`;
+  const description = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
   const image = place.coverImage || place.images?.[0]?.url || 'https://baruipur.online/images/baruipur-logo.png';
 
   return {
@@ -104,7 +106,7 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
           url: image,
           width: 1200,
           height: 630,
-          alt: place.nameBn.length > 95 ? place.nameBn.slice(0, 92) + '...' : place.nameBn
+          alt: bilingualName
         }
       ]
     },

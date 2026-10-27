@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-10-27T03:37:22.645Z
+# Last Updated: 2026-10-27T09:01:27.877Z
 # Total Articles: 277
 # Total Key Landmarks: 33
 # Total Organizations & Clubs: 24
@@ -1658,7 +1658,7 @@ PART 3: HEALTHCARE, NURSING HOMES & DOCTOR OPD DIRECTORY (31 TOTAL)
 ================================================================================
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #1: কবিতা সেবায়তন (Kabita Sebayatan - ডক্টরস চেম্বার ও ডায়াগনস্টিক) (Kabita Sebayatan Doctors Chamber & Diagnostic Centre)
+HEALTHCARE FACILITY #1: কবিতা সেবায়তন (Kabita Sebayatan Doctors Chamber & Diagnostic Centre)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও প্যাথলজি সেন্টার (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/kabita-sebayatan-baruipur/
@@ -2154,7 +2154,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #7: অ্যাপোলো ক্লিনিক বারুইপুর (Apollo Clinic Baruipur) (Apollo Clinic Baruipur)
+HEALTHCARE FACILITY #7: অ্যাপোলো ক্লিনিক (Apollo Clinic)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি ক্লিনিক ও ডায়াগনস্টিক (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/apollo-clinic-baruipur/
@@ -2383,7 +2383,7 @@ DOCTORS OPD ROSTER (5 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #11: বারুইপুর মহকুমা হাসপাতাল (সরকারি বহির্বিভাগ / OPD) (Baruipur Subdivisional Hospital (Govt OPD))
+HEALTHCARE FACILITY #11: বারুইপুর মহকুমা হাসপাতাল (Baruipur Subdivisional Hospital (Govt OPD))
 --------------------------------------------------------------------------------
 - Facility Type: সরকারি মহকুমা হাসপাতাল ও সুপার স্পেশালিটি ওপিডি (hospital)
 - Canonical URL: https://baruipur.online/health-directory/baruipur-subdivisional-hospital-opd/
@@ -2455,7 +2455,7 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #12: মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার (MANGAL DEEP PHARMACY) (Mangal Deep Pharmacy & Doctors Chamber)
+HEALTHCARE FACILITY #12: মঙ্গলদীপ ফার্মেসী ও ডক্টরস চেম্বার (Mangal Deep Pharmacy & Doctors Chamber)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ, কেমিষ্ট & ডক্টরস চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/mangaldeep-puratan-bazar-baruipur/
@@ -2716,7 +2716,7 @@ DOCTORS OPD ROSTER (33 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #13: নমিতা সেবায়তন (Namita Sebayatan - ডক্টরস চেম্বার ও পলিক্লিনিক) (Namita Sebayatan Doctors Chamber & Polyclinic)
+HEALTHCARE FACILITY #13: নমিতা সেবায়তন (Namita Sebayatan Doctors Chamber & Polyclinic)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও ফিজিওথেরাপি হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/namita-sebayatan-baruipur/
@@ -3084,7 +3084,7 @@ DOCTORS OPD ROSTER (48 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #14: হাই মেডিকেল সেন্টার (Hai Medical Centre | Polyclinic & Pharmacy) (Hai Medical Centre - Polyclinic & Medicine Delivery)
+HEALTHCARE FACILITY #14: হাই মেডিকেল সেন্টার (Hai Medical Centre)
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস চেম্বার, পলিক্লিনিক ও হোম হেলথকেয়ার হাব (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/hai-medical-centre-baruipur/
@@ -3312,7 +3312,7 @@ DOCTORS OPD ROSTER (28 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #15: ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic) (Easycure Clinic & Pharmacy)
+HEALTHCARE FACILITY #15: ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic & Pharmacy)
 --------------------------------------------------------------------------------
 - Facility Type: মেডিসিন শপ, পলিক্লিনিক ও ওপিডি চেম্বার (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/easycure-clinic-and-pharmacy-baruipur/
@@ -3421,7 +3421,7 @@ DOCTORS OPD ROSTER (11 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #16: জিতো হেলথ (JITO Health - Powered by SastaSundar) (JITO Health (Powered by SastaSundar))
+HEALTHCARE FACILITY #16: জিতো হেলথ (JITO Health (SastaSundar))
 --------------------------------------------------------------------------------
 - Facility Type: ডক্টরস ওপিডি চেম্বার, মেডিসিন ও ডায়াগনস্টিক হাব (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/jito-health-sastasundar-baruipur/
@@ -3549,7 +3549,7 @@ DOCTORS OPD ROSTER (14 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #17: শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড (Shatabdi Diagnostic Pvt. Ltd.) (Shatabdi Diagnostic Pvt. Ltd. Baruipur)
+HEALTHCARE FACILITY #17: শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড (Shatabdi Diagnostic Pvt. Ltd.)
 --------------------------------------------------------------------------------
 - Facility Type: ডায়াগনস্টিক ও প্যাথলজি রিসার্চ সেন্টার (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/shatabdi-diagnostic-pvt-ltd-baruipur/
@@ -3609,7 +3609,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #18: মেট্রোপলিস ডায়াগনস্টিক বারুইপুর (Metropolis Labs Blood Test & Diagnostic Centre) (Metropolis Labs Diagnostic Centre Baruipur)
+HEALTHCARE FACILITY #18: মেট্রোপলিস ডায়াগনস্টিক (Metropolis Labs Diagnostic Centre)
 --------------------------------------------------------------------------------
 - Facility Type: NABL ও CAP আন্তর্জাতিক মানের ডায়াগনস্টিক ল্যাব (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/metropolis-diagnostic-baruipur/
@@ -3655,7 +3655,7 @@ DOCTORS OPD ROSTER (2 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #19: লাইফ জোন নার্সিং হোম, ডায়াগনস্টিক ও ক্লিনিক (Life Zone Nursing Home) (Life Zone Nursing Home, Diagnostic & Clinic Baruipur)
+HEALTHCARE FACILITY #19: লাইফ জোন নার্সিং হোম ও ডায়াগনস্টিক (Life Zone Nursing Home & Diagnostic)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি নার্সিং হোম ও ডায়াগনস্টিক ক্লিনিক (nursing_home)
 - Canonical URL: https://baruipur.online/health-directory/life-zone-nursing-home-baruipur/
@@ -3730,7 +3730,7 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #20: কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center) (Kalyan Medical Center Baruipur)
+HEALTHCARE FACILITY #20: কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি ক্লিনিক ও অ্যাডভান্সড ডায়াগনস্টিক (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/kalyan-medical-center-baruipur/
@@ -3790,7 +3790,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #21: দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics [NABL Accredited]) (The Panacea Diagnostics Centre Baruipur)
+HEALTHCARE FACILITY #21: দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics Centre)
 --------------------------------------------------------------------------------
 - Facility Type: NABL স্বীকৃত ডায়াগনস্টিক ল্যাব ও স্পেশালিটি ক্লিনিক (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/the-panacea-diagnostics-centre-baruipur/
@@ -3850,7 +3850,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #22: অ্যাকিউহেলথ ডায়াগনস্টিকস বারুইপুর (AccuHealth Diagnostics - 24/7 Pathology) (AccuHealth Diagnostics Baruipur)
+HEALTHCARE FACILITY #22: অ্যাকিউহেলথ ডায়াগনস্টিকস (AccuHealth Diagnostics)
 --------------------------------------------------------------------------------
 - Facility Type: ২৪/৭ প্যাথলজি ও আধুনিক ডায়াগনস্টিক সেন্টার (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/accuhealth-diagnostics-baruipur/
@@ -3910,7 +3910,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #23: স্টার মেডিক্যাল ক্লিনিক ও চেম্বার (Star Medical Clinic) (Star Medical Clinic Baruipur)
+HEALTHCARE FACILITY #23: স্টার মেডিক্যাল ক্লিনিক (Star Medical Clinic)
 --------------------------------------------------------------------------------
 - Facility Type: ফার্মেসি ও স্পেশালিস্ট ওপিডি ক্লিনিক (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/star-medical-centre-baruipur/
@@ -3971,7 +3971,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #24: ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services) (Oval Healthcare Services Baruipur)
+HEALTHCARE FACILITY #24: ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services)
 --------------------------------------------------------------------------------
 - Facility Type: ডায়াগনস্টিক, পলিক্লিনিক ও হেলথকেয়ার সেন্টার (diagnostic)
 - Canonical URL: https://baruipur.online/health-directory/oval-healthcare-services-baruipur/
@@ -4031,7 +4031,7 @@ DOCTORS OPD ROSTER (4 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #25: টিউলিপ পলিক্লিনিক (Tulip Polyclinic) (Tulip Polyclinic Baruipur)
+HEALTHCARE FACILITY #25: টিউলিপ পলিক্লিনিক (Tulip Polyclinic)
 --------------------------------------------------------------------------------
 - Facility Type: মাল্টিস্পেশালিটি পলিক্লিনিক ও ডক্টরস চেম্বার (polyclinic)
 - Canonical URL: https://baruipur.online/health-directory/tulip-polyclinic-baruipur/
@@ -4104,7 +4104,7 @@ DOCTORS OPD ROSTER (6 DOCTORS):
 
 
 --------------------------------------------------------------------------------
-HEALTHCARE FACILITY #26: মহেন্দ্র ক্লিনিক (Mahendra Clinic) (Mahendra Clinic Baruipur)
+HEALTHCARE FACILITY #26: মহেন্দ্র ক্লিনিক (Mahendra Clinic)
 --------------------------------------------------------------------------------
 - Facility Type: স্পেশালিস্ট ডক্টরস চেম্বার ও ক্লিনিক (pharmacy_opd)
 - Canonical URL: https://baruipur.online/health-directory/mahendra-clinic-baruipur/
@@ -6460,7 +6460,7 @@ ARTICLE #31: বারুইপুরের শীর্ষ ২০টি সে�
 - Original Post: https://baruipur.online/best-restaurants-in-baruipur-family-dining-biryani-guide/
 
 SUMMARY:
-বারুইপুরের শীর্ষ ২০টি সেরা রেস্তোরাঁ ও ফ্যামিলি ডাইনিং পূর্ণাঙ্গ গাইড: ভূকেমন, সিলভার স্পুন, দ্য ওয়ান, আসমা ধাবা, বেডউইন, কেএফসি, হাইজেনিক (জঙ্গল থিম) ও বিজলি গ্রিলের গুগল রেটিং, রিভিউ, ম্যাপ লিংক, ফোন ও সিগনেচার ডিশের বিস্তারিত তথ্য।
+বারুইপুরের শীর্ষ ২০টি সেরা রেস্তোরাঁ ও ফ্যামিলি ডাইনিং পূর্ণাঙ্গ গাইড: ভূকেমন, বারুইপুর (Bhookemon, Baruipur), দ্য সিলভার স্পুন, বারুইপুর (The Silver Spoon, Baruipur), দ্য ওয়ান, বারুইপুর (The One, Baruipur), আসমা ধাবা, বারুইপুর (Asma Dhaba, Baruipur), বেডউইন, বারুইপুর (Bedouin, Baruipur), কেএফসি, বারুইপুর (KFC, Baruipur) সহ গুগল রেটিং, রিভিউ, ম্যাপ লিংক, ফোন ও সিগনেচার ডিশ।
 
 CONTENT:
 দক্ষিণ ২৪ পরগনা জেলার ঐতিহাসিক সদর এবং শিয়ালদহ দক্ষিণ রেলওয়ে শাখার বৃহত্তম ট্রানজিট কেন্দ্র বারুইপুর এখন খাদ্যপ্রেমীদের কাছে এক লোভনীয় গ্যাস্ট্রোনমিক রাজধানী। ঐতিহ্যের সুবাসে ভরা শতাব্দীপ্রাচীন দম বিরিয়ানি, জিভে জল আনা মুচমুচে মোগলাই পরোটা, খাঁটি তন্দুরি কাবাব, ডায়মন্ড কাট ফিশ ফ্রাই থেকে শুরু করে জঙ্গল-থিমযুক্ত আধুনিক মাল্টি-কুইজিন ফাইন ডাইনিং, আমেরিকান ফ্রায়েড চিকেন ও পিৎজা—সবকিছুরই শীর্ষস্থানীয় আউটলেট এখন এই শহরে বিদ্যমান।

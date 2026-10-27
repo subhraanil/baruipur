@@ -7,6 +7,7 @@ import {
   getFacilityBySlug, 
   HealthcareFacility 
 } from '@/lib/healthcare';
+import { formatBilingualLocation } from '@/lib/seoUtils';
 import { 
   Hospital, 
   Building2, 
@@ -47,17 +48,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const rawDesc = `${facility.nameBn} (${facility.nameEn}): ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি এবং যোগাযোগের নম্বর।`;
-  const cleanDesc = rawDesc.length > 155 ? rawDesc.slice(0, 152) + '...' : rawDesc;
+  const bilingualName = formatBilingualLocation(facility.nameBn, facility.nameEn);
+  const title = `${bilingualName} | ডাক্তার তালিকা ও সময়সূচি`;
+  const rawDesc = `${bilingualName}: ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি এবং যোগাযোগের নম্বর।`;
+  const cleanDesc = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
 
   return {
-    title: `${facility.nameBn} বারুইপুর | ডাক্তার তালিকা ও সময়সূচি`,
+    title,
     description: cleanDesc,
     alternates: {
       canonical: `https://baruipur.online/health-directory/${facility.slug}/`,
     },
     openGraph: {
-      title: `${facility.nameBn} - ওপিডি ডাক্তার তালিকা ও বুকিং`,
+      title,
       description: cleanDesc,
       url: `https://baruipur.online/health-directory/${facility.slug}/`,
       type: 'website',
@@ -66,9 +69,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: facility.coverImage ? (facility.coverImage.startsWith('http') ? facility.coverImage : `https://baruipur.online${facility.coverImage}`) : 'https://baruipur.online/images/og-image.png',
           width: 1200,
           height: 630,
-          alt: facility.nameBn.length > 90 ? facility.nameBn.slice(0, 87) + '...' : facility.nameBn,
+          alt: bilingualName,
         }
       ]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: cleanDesc,
     }
   };
 }
