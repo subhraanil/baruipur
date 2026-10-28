@@ -30,12 +30,20 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://baruipur.online/images/og-image.png',
+        url: 'https://baruipur.online/images/organizations/real-star-club.jpg',
         width: 1200,
         height: 630,
         alt: 'বারুইপুরের প্রতিষ্ঠান ও সংগঠন ডিরেক্টরি',
+        type: 'image/jpeg'
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুরের শীর্ষস্থানীয় ক্লাব ও প্রতিষ্ঠান ডিরেক্টরি | Baruipur Online',
+    description: 'ঐতিহ্যবাহী ক্লাব, সমাজসেবী ট্রাস্ট, আইনজীবী সমিতি ও খেলাধুলো সংগঠনের নির্ভরযোগ্য যোগাযোগ।',
+    images: ['https://baruipur.online/images/organizations/real-star-club.jpg'],
+    site: '@BaruipurOnline'
   }
 };
 

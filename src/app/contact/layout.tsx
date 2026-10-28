@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'যোগাযোগ ও সম্পাদকীয় দপ্তর (Contact Us) - বারুইপুর অনলাইন',
-  description: 'বারুইপুর অনলাইন বার্তা বিভাগের সাথে সরাসরি যোগাযোগ করুন। সংবাদ ও তথ্য প্রেরণ, বিজ্ঞাপন ও প্রেস রিলিজ সংক্রান্ত যোগাযোগের ঠিকানা।',
+  title: 'যোগাযোগ ও বার্তা ডেস্ক (Contact Us) - বারুইপুর অনলাইন',
+  description: 'বারুইপুর অনলাইন সম্পাদকীয় দফতর, বিজ্ঞাপনী যোগাযোগ, সংবাদ পরিবেশন ও সাধারণ অনুসন্ধানের ঠিকানা ও হেল্পলাইন।',
   alternates: {
     canonical: 'https://baruipur.online/contact/',
   },
   openGraph: {
-    title: 'যোগাযোগ ও বার্তা বিভাগ - বারুইপুর অনলাইন',
-    description: 'সংবাদ ও তথ্য প্রেরণ, বিজ্ঞাপন ও প্রেস রিলিজ সংক্রান্ত যোগাযোগের তথ্য।',
+    title: 'যোগাযোগ ও বার্তা ডেস্ক - বারুইপুর অনলাইন',
+    description: 'বারুইপুর অনলাইন সম্পাদকীয় দফতর, বিজ্ঞাপনী যোগাযোগ ও সাধারণ অনুসন্ধানের ঠিকানা।',
     url: 'https://baruipur.online/contact/',
-    siteName: 'বারুইপুর Baruipur',
+    siteName: 'বারুইপুর অনলাইন',
     locale: 'bn_IN',
     type: 'website',
     images: [
@@ -18,16 +18,20 @@ export const metadata: Metadata = {
         url: 'https://baruipur.online/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'যোগাযোগ - বারুইপুর অনলাইন',
+        alt: 'বারুইপুর অনলাইন যোগাযোগ ও বার্তা ডেস্ক',
+        type: 'image/png'
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'যোগাযোগ ও বার্তা ডেস্ক | Baruipur Online',
+    description: 'বারুইপুর অনলাইন সম্পাদকীয় দফতর ও যোগাযোগের অফিসিয়াল পোর্টাল।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 
-export default function ContactLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function ContactLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

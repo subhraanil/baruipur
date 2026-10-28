@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { db } from '@/lib/db';
 import NewsCard from '@/components/NewsCard';
 import NewsStreamClient from '@/components/NewsStreamClient';
@@ -36,6 +37,40 @@ interface PageProps {
     category?: string;
   };
 }
+
+
+export const metadata: Metadata = {
+  title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
+  description: 'বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে, মহকুমা হাসপাতাল, পুলিশ প্রশাসন ও স্থানীয় সমস্ত খবরের নির্ভরযোগ্য ডিজিটাল ঠিকানা।',
+  alternates: {
+    canonical: 'https://baruipur.online/',
+  },
+  openGraph: {
+    title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
+    description: 'বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে, মহকুমা হাসপাতাল, পুলিশ প্রশাসন ও স্থানীয় সমস্ত খবরের নির্ভরযোগ্য ডিজিটাল ঠিকানা।',
+    url: 'https://baruipur.online/',
+    siteName: 'বারুইপুর অনলাইন',
+    locale: 'bn_IN',
+    type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুর অনলাইন - Baruipur Online News Portal',
+        type: 'image/png',
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ সংবাদ পোর্টাল',
+    description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার নির্ভরযোগ্য আঞ্চলিক ডিজিটাল সংবাদ ও তথ্যবাতায়ন।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline',
+    creator: '@BaruipurOnline'
+  }
+};
 
 export default function HomePage() {
   // Strictly exclude evergreen guides from breaking and latest news

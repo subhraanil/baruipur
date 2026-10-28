@@ -7,6 +7,30 @@ export const metadata: Metadata = {
   description: 'বারুইপুর পৌরসভা জন্ম-মৃত্যু সনদ, ট্রেড লাইসেন্স, মিউটেশন, পুলিশ সহায়তা, এসডিও-বিডিও শংসাপত্র ও সরকারি প্রকল্পের নির্দেশিকা।',
   alternates: {
     canonical: 'https://baruipur.online/citizen-services/',
+  },
+  openGraph: {
+    title: 'বারুইপুর নাগরিক ও সরকারি পরিষেবা নির্দেশিকা (Citizen Services)',
+    description: 'বারুইপুর পৌরসভা জন্ম-মৃত্যু সনদ, ট্রেড লাইসেন্স, মিউটেশন, পুলিশ সহায়তা ও এসডিও-বিডিও সরকারি প্রকল্পের নির্দেশিকা।',
+    url: 'https://baruipur.online/citizen-services/',
+    siteName: 'বারুইপুর অনলাইন',
+    locale: 'bn_IN',
+    type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/places/baruipur-municipality.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুর পৌরসভা ও নাগরিক পরিষেবা',
+        type: 'image/jpeg'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুর নাগরিক ও সরকারি পরিষেবা নির্দেশিকা | Baruipur Online',
+    description: 'পৌরসভা শংসাপত্র, ট্রেড লাইসেন্স, মিউটেশন ও সরকারি প্রকল্পের সহজ গাইড।',
+    images: ['https://baruipur.online/images/places/baruipur-municipality.jpg'],
+    site: '@BaruipurOnline'
   }
 };
 

@@ -23,6 +23,13 @@ export const metadata: Metadata = {
         alt: 'সংশোধনী নীতি - বারুইপুর অনলাইন',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'সংশোধনী ও সত্যতা যাচাই নীতি - বারুইপুর অনলাইন',
+    description: 'সংবাদের নির্ভুলতা ও দ্রুত সংশোধনের স্বচ্ছ বিধিমালার বিবরণ।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

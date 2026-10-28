@@ -29,12 +29,20 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://baruipur.online/images/og-image.png',
+        url: 'https://baruipur.online/images/health/star-medical-clinic-board.jpg',
         width: 1200,
         height: 630,
         alt: 'বারুইপুর স্বাস্থ্য ও ডাক্তার চেম্বার গাইড',
+        type: 'image/jpeg'
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুর স্বাস্থ্য ও ডাক্তার চেম্বার ডিরেক্টরি | Baruipur Online',
+    description: 'বারুইপুরের হাসপাতাল, নার্সিং হোম ও বিশেষজ্ঞ চিকিৎসকদের ওপিডি সময়সূচি ও সিরিয়াল নম্বর।',
+    images: ['https://baruipur.online/images/health/star-medical-clinic-board.jpg'],
+    site: '@BaruipurOnline'
   }
 };
 

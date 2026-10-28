@@ -23,6 +23,13 @@ export const metadata: Metadata = {
         alt: 'ব্যবহারের শর্তাবলী - বারুইপুর অনলাইন',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ব্যবহারের শর্তাবলী (Terms of Service) - বারুইপুর অনলাইন',
+    description: 'পোর্টাল ব্যবহারের বিধিবদ্ধ শর্তাবলী ও আইনি নিয়মাবলী।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

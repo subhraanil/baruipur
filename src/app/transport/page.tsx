@@ -25,6 +25,30 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: 'https://baruipur.online/transport/',
+  },
+  openGraph: {
+    title: 'বারুইপুর ট্রেন টাইম টেবিল ও পরিবহন নির্দেশিকা - বারুইপুর অনলাইন',
+    description: 'বারুইপুর জংশন থেকে শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা লোকাল ট্রেনের সম্পূর্ণ সময়সূচি এবং বাস রুট গাইড।',
+    url: 'https://baruipur.online/transport/',
+    siteName: 'বারুইপুর অনলাইন',
+    locale: 'bn_IN',
+    type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/places/baruipur-junction-railway-station.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুর রেলওয়ে স্টেশন ও লোকাল ট্রেন সময়সূচি',
+        type: 'image/jpeg'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুর ট্রেন টাইম টেবিল ও লোকাল ট্রেন সময়সূচি | Baruipur Online',
+    description: 'শিয়ালদহ, ডায়মন্ড হারবার ও নামখানা লোকাল ট্রেনের সঠিক সময়সূচি এবং পরিবহন গাইড।',
+    images: ['https://baruipur.online/images/places/baruipur-junction-railway-station.jpg'],
+    site: '@BaruipurOnline'
   }
 };
 

@@ -24,6 +24,13 @@ export const metadata: Metadata = {
         alt: 'বারুইপুর অনলাইন সম্পাদকীয় পরিষদ',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'সম্পাদকীয় পরিষদ ও সাংবাদিক প্রতিনিধি - বারুইপুর অনলাইন',
+    description: 'বারুইপুর অনলাইনের সম্পাদকীয় টিম ও ক্ষেত্রভিত্তিক সাংবাদিকবৃন্দের পরিচিতি।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

@@ -39,8 +39,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও তথ্য | বারুইপুর Baruipur',
-    description: 'বারুইপুরের ঐতিহাসিক, আধ্যাত্মিক ও প্রশাসনিক ২৮টি গুরুত্বপূর্ণ স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
+    title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও দর্শনীয় স্পট নির্দেশিকা | Baruipur Online',
+    description: 'বারুইপুরের ঐতিহাসিক, আধ্যাত্মিক ও প্রশাসনিক ৩৩টি গুরুত্বপূর্ণ স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
+    images: ['https://baruipur.online/images/places/baruipur-rajbari-facade.jpg'],
+    site: '@BaruipurOnline'
   }
 };
 

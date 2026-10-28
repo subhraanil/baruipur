@@ -23,6 +23,13 @@ export const metadata: Metadata = {
         alt: 'দাবিত্যাগ - বারুইপুর অনলাইন',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'দাবিত্যাগ ও দায়মুক্তি (Disclaimer) - বারুইপুর অনলাইন',
+    description: 'তথ্যের উৎস ও নির্ভরযোগ্যতা সংক্রান্ত সাধারণ দাবিত্যাগ।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

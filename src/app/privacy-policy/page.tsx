@@ -23,6 +23,13 @@ export const metadata: Metadata = {
         alt: 'গোপনীয়তা নীতি - বারুইপুর অনলাইন',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'গোপনীয়তা নীতি (Privacy Policy) - বারুইপুর অনলাইন',
+    description: 'ব্যবহারকারীর ডেটা সুরক্ষা ও নিরাপত্তা সংক্রান্ত তথ্যাবলি।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

@@ -7,6 +7,30 @@ export const metadata: Metadata = {
   description: 'বারুইপুর পুলিশ জেলা, মহকুমা হাসপাতাল, দমকল, অ্যাম্বুলেন্স, পৌরসভা ও রেলওয়ের যাচাইকৃত ২৪x৭ জরুরি যোগাযোগ নম্বর।',
   alternates: {
     canonical: 'https://baruipur.online/emergency-contacts/',
+  },
+  openGraph: {
+    title: 'বারুইপুর জরুরি হেল্পলাইন ও প্রয়োজনীয় ফোন নম্বর ডিরেক্টরি',
+    description: 'বারুইপুর পুলিশ জেলা, মহকুমা হাসপাতাল, দমকল, অ্যাম্বুলেন্স, পৌরসভা ও রেলওয়ের ২৪x৭ যাচাইকৃত জরুরি যোগাযোগ নম্বর।',
+    url: 'https://baruipur.online/emergency-contacts/',
+    siteName: 'বারুইপুর অনলাইন',
+    locale: 'bn_IN',
+    type: 'website',
+    images: [
+      {
+        url: 'https://baruipur.online/images/places/baruipur-subdivisional-hospital.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'বারুইপুর জরুরি হেল্পলাইন ও হাসপাতাল ডিরেক্টরি',
+        type: 'image/jpeg'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুর জরুরি হেল্পলাইন ও প্রয়োজনীয় ফোন নম্বর | Baruipur Online',
+    description: 'পুলিশ, হাসপাতাল, অ্যাম্বুলেন্স, দমকল ও পৌরসভার ২৪x৭ জরুরি নম্বর ডিরেক্টরি।',
+    images: ['https://baruipur.online/images/places/baruipur-subdivisional-hospital.jpg'],
+    site: '@BaruipurOnline'
   }
 };
 

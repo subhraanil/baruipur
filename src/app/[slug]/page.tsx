@@ -109,6 +109,8 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
       title: article.title,
       description: cleanDesc,
       images: [imageUrl],
+      site: '@BaruipurOnline',
+      creator: '@BaruipurOnline'
     },
     other: {
       'news_keywords': `${article.categoryNameBn}, Baruipur news, বারুইপুর খবর, ${article.sourceName || 'বারুইপুর'}`

@@ -67,6 +67,9 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
       card: 'summary_large_image',
       title,
       description,
+      images: ['https://baruipur.online/images/og-image.png'],
+      site: '@BaruipurOnline',
+      creator: '@BaruipurOnline'
     },
     other: {
       'news_keywords': `${category.nameBn}, Baruipur news, বারুইপুর খবর, দক্ষিণ ২৪ পরগনা`

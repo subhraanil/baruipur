@@ -104,6 +104,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description: cleanDesc,
+      images: [org.coverImage.startsWith('http') ? org.coverImage : `https://baruipur.online${org.coverImage}`],
+      site: '@BaruipurOnline'
     }
   };
 }

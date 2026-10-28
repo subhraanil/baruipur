@@ -54,6 +54,13 @@ export const metadata: Metadata = {
         alt: 'বারুইপুরের উৎসব ও মেলা ক্যালেন্ডার',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'বারুইপুরের মেলা ও উৎসব ক্যালেন্ডার - বারুইপুর অনলাইন',
+    description: 'ঐতিহাসিক রাসমেলা, রথযাত্রা, দুর্গাপূজা ও মেলা সমূহের দিনক্ষণ ও নির্দেশিকা।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

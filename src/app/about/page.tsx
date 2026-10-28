@@ -23,6 +23,13 @@ export const metadata: Metadata = {
         alt: 'আমাদের সম্পর্কে - বারুইপুর অনলাইন',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'আমাদের সম্পর্কে - বারুইপুর অনলাইন',
+    description: 'দক্ষিণ ২৪ পরগনার বারুইপুর মহকুমার নির্ভরযোগ্য ডিজিটাল তথ্যকোষ ও নাগরিক পোর্টাল।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 

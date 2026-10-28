@@ -23,6 +23,13 @@ export const metadata: Metadata = {
         alt: 'সম্পাদকীয় নীতি - বারুইপুর অনলাইন',
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'সম্পাদকীয় নীতিমালা - বারুইপুর অনলাইন',
+    description: 'বারুইপুর অনলাইন বার্তা ডেস্কের পক্ষপাতহীন সংবাদ পরিবেশন ও এডিটোরিয়াল গাইডলাইন।',
+    images: ['https://baruipur.online/images/og-image.png'],
+    site: '@BaruipurOnline'
   }
 };
 
