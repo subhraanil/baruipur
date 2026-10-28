@@ -17,6 +17,7 @@ export interface Article {
   title: string;
   originalTitle?: string;
   slug: string;
+  aliases?: string[];
   summary: string;
   content: string;
   category: ArticleCategory;

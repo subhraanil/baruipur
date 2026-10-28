@@ -34,9 +34,29 @@ interface PostPageProps {
 
 export function generateStaticParams() {
   const articles = db.getArticles({ status: 'published' });
-  return articles.map(a => ({
-    slug: a.slug || a.id
-  }));
+  const params: { slug: string }[] = [];
+  const seen = new Set<string>();
+
+  articles.forEach(a => {
+    if (a.slug && !seen.has(a.slug)) {
+      params.push({ slug: a.slug });
+      seen.add(a.slug);
+    }
+    if (a.id && !seen.has(a.id)) {
+      params.push({ slug: a.id });
+      seen.add(a.id);
+    }
+    if (a.aliases && Array.isArray(a.aliases)) {
+      a.aliases.forEach(al => {
+        if (al && !seen.has(al)) {
+          params.push({ slug: al });
+          seen.add(al);
+        }
+      });
+    }
+  });
+
+  return params;
 }
 
 export function generateMetadata({ params }: PostPageProps): Metadata {

@@ -249,7 +249,8 @@ export const db = {
       a.id === decoded ||
       a.slug === clean || 
       a.slug === decoded ||
-      (a.slug && decodeURIComponent(a.slug) === decoded)
+      (a.slug && decodeURIComponent(a.slug) === decoded) ||
+      (a.aliases && (a.aliases.includes(clean) || a.aliases.includes(decoded)))
     );
   },
 
