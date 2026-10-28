@@ -8,6 +8,7 @@ import {
   HealthcareFacility 
 } from '@/lib/healthcare';
 import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
+import SocialShareBar from '@/components/SocialShareBar';
 import { 
   Hospital, 
   Building2, 
@@ -517,6 +518,45 @@ export default function FacilityDetailPage({ params }: Props) {
               ))}
             </div>
           </div>
+
+          
+          {/* Cross-Directory Discover Navigation Bar */}
+          <div className="mt-8 mb-8 pt-6 border-t border-slate-200">
+            <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-3">
+              বারুইপুরের অন্যান্য গুরুত্বপূর্ণ তথ্য ও নির্দেশিকা
+            </h3>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs">
+              <a 
+                href="/health-directory" 
+                className="flex items-center gap-2 p-3 rounded-xl bg-red-50/70 border border-red-200/60 hover:bg-red-100/70 text-red-900 font-bold transition shadow-xs"
+              >
+                <Hospital className="w-4 h-4 text-red-600 shrink-0" />
+                <span>স্বাস্থ্য ও ডাক্তার</span>
+              </a>
+              <a 
+                href="/places" 
+                className="flex items-center gap-2 p-3 rounded-xl bg-amber-50/70 border border-amber-200/60 hover:bg-amber-100/70 text-amber-900 font-bold transition shadow-xs"
+              >
+                <MapPin className="w-4 h-4 text-amber-700 shrink-0" />
+                <span>দর্শনীয় স্থান</span>
+              </a>
+              <a 
+                href="/organizations" 
+                className="flex items-center gap-2 p-3 rounded-xl bg-purple-50/70 border border-purple-200/60 hover:bg-purple-100/70 text-purple-900 font-bold transition shadow-xs"
+              >
+                <Building2 className="w-4 h-4 text-purple-700 shrink-0" />
+                <span>প্রতিষ্ঠান ও ক্লাব</span>
+              </a>
+              <a 
+                href="/transport" 
+                className="flex items-center gap-2 p-3 rounded-xl bg-blue-50/70 border border-blue-200/60 hover:bg-blue-100/70 text-blue-900 font-bold transition shadow-xs"
+              >
+                <Clock className="w-4 h-4 text-blue-700 shrink-0" />
+                <span>পরিবহন ও ট্রেন</span>
+              </a>
+            </div>
+          </div>
+
 
           {/* Navigation Back link */}
           <div className="text-center">
