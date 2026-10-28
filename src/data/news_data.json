@@ -314,7 +314,9 @@
       "originalPostUrl": "https://www.facebook.com/1503985938445069",
       "imageUrl": "/images/crawled/4759a1412f5e6a3df8493fdafeba5fd1.jpg",
       "images": [
-        "/images/crawled/4759a1412f5e6a3df8493fdafeba5fd1.jpg"
+        "/images/crawled/4759a1412f5e6a3df8493fdafeba5fd1.jpg",
+        "/images/crawled/b6551328a6cbe8d5f6abd2cb064bf9cb.jpg",
+        "/images/crawled/a478eae0f9d74649162ab8fcb2d8d7ee.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1358900739473545",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1358900739473545&show_text=0",
@@ -6434,7 +6436,8 @@
         "/images/crawled/2b753f340908e3750b2744148e35efe2.jpg",
         "/images/crawled/3a78b7f9f0105efd4fc3d50f5f61546a.jpg",
         "/images/crawled/491e445ea33096700d2909018200a5d9.jpg",
-        "/images/crawled/619508df7a68dba1055b3268e3cd42e9.jpg"
+        "/images/crawled/619508df7a68dba1055b3268e3cd42e9.jpg",
+        "/images/crawled/561f724b025ed95d23fa8d04113521e6.jpg"
       ],
       "publishedAt": "2026-10-01T10:19:52.883Z",
       "isBreaking": false,
