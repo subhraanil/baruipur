@@ -59,9 +59,18 @@ interface PlacePageProps {
 
 export function generateStaticParams() {
   const places = getAllPlaces();
-  return places.map(p => ({
-    slug: p.slug
-  }));
+  const slugs = new Set<string>();
+  places.forEach(p => slugs.add(p.slug));
+  
+  // Include recognized aliases
+  const recognizedAliases = [
+    'baruipur-hospital', 'baruipur-junction', 'baruipur-bdo', 'baruipur-sdo',
+    'baruipur-mahaprabhu-tala', 'baruipur-arto', 'arto-baruipur', 'rto-baruipur',
+    'fultala-baruipur', 'baruipur-fultala', 'fultala-more', 'fultala'
+  ];
+  recognizedAliases.forEach(a => slugs.add(a));
+
+  return Array.from(slugs).map(slug => ({ slug }));
 }
 
 export function generateMetadata({ params }: PlacePageProps): Metadata {

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'Dhapdhapi Kali Mandir', 'Baruipur Cathedral Church', 'Baruipur Puratan Bazar', 'Neeldeep Garden',
     'Baruipur Film City', 'Baruipur BDO', 'Baruipur SDO', 'Baruipur Town Library',
     'Baruipur Mahaprabhu Tala', 'Baruipur Women Police Station', 'Baruipur Aranyak', 'Baruipur Rajbari',
-    'Baruipur Happy Valley', 'Baruipur Swimming pool', 'Baruipur Rashmath', 'Baruipur bypass', 'Baruipur guide'
+    'Baruipur Happy Valley', 'Baruipur Swimming pool', 'Baruipur Rashmath', 'Baruipur bypass', 'Fultala More', 'Baruipur Fultala', 'Baruipur guide'
   ],
   alternates: {
     canonical: 'https://baruipur.online/places/',
