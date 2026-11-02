@@ -137,7 +137,7 @@ export default function Header() {
             <form onSubmit={handleSearch} className="relative w-64 lg:w-80">
               <input
                 type="text"
-                placeholder="বারুইপুরের খবর খুঁজুন..."
+                placeholder="বারুইপুরে কী খুঁজছেন? ডাক্তার, ট্রেন, স্কুল, খবর..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full bg-slate-100 border border-slate-200 rounded-full py-2 pl-4 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:bg-white transition"
@@ -259,7 +259,7 @@ export default function Header() {
                 <div className="relative">
                   <input
                     type="text"
-                    placeholder="বারুইপুরের খবর বা প্রতিষ্ঠান খুঁজুন..."
+                    placeholder="বারুইপুরে কী খুঁজছেন? ডাক্তার, ট্রেন, স্কুল, খবর..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full bg-slate-100 border border-slate-200 rounded-xl py-2.5 pl-3.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:bg-white transition"

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import MobileBottomNav from '@/components/MobileBottomNav';
 import TrackingHead from '@/components/TrackingHead';
 
 export const metadata: Metadata = {
@@ -159,10 +160,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col bg-slate-50 font-bengali">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 pb-16 md:pb-0">
           {children}
         </main>
         <Footer />
+        <MobileBottomNav />
       </body>
     </html>
   );

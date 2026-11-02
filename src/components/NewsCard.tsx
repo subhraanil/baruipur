@@ -211,8 +211,8 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
 
   // Standard Card
   return (
-    <div className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-lg transition-all flex flex-col group">
-      <a href={postUrl} className="relative aspect-[16/10] w-full overflow-hidden bg-slate-100 block">
+    <div className="bg-white rounded-xl border border-slate-200/90 overflow-hidden shadow-2xs hover:shadow-xs hover:border-slate-300 transition-all flex flex-col group">
+      <a href={postUrl} className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100 block">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 
           src={safeImgUrl} 

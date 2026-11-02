@@ -5,14 +5,54 @@
 @tailwind utilities;
 
 :root {
-  --font-bengali: 'Noto Sans Bengali', 'Hind Siliguri', sans-serif;
+  --color-primary: #102A43;
+  --color-accent: #C62828;
+  --color-text: #263238;
+  --color-muted: #64748B;
+  --color-background: #FFFFFF;
+  --color-surface: #F8FAFC;
+  --color-border: #E2E8F0;
+  --font-bengali: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  --content-width: 1320px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-bengali);
-  background-color: #f8fafc;
-  color: #0f172a;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Bengali Typography Rules - Prevent Glyph Clipping */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.38;
+  letter-spacing: normal;
+}
+
+p, span, li, a {
+  letter-spacing: normal;
+}
+
+/* Focus styles for keyboard accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid #C62828;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 @keyframes ticker {

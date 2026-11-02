@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Flame, ChevronRight } from 'lucide-react';
+import { Flame, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Article } from '@/lib/types';
 
 interface BreakingNewsTickerProps {
@@ -10,25 +10,44 @@ interface BreakingNewsTickerProps {
 
 export default function BreakingNewsTicker({ articles }: BreakingNewsTickerProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
-    if (!articles || articles.length <= 1) return;
+    if (!articles || articles.length <= 1 || isPaused) return;
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % articles.length);
-    }, 4500);
+    }, 5000);
     return () => clearInterval(interval);
-  }, [articles]);
+  }, [articles, isPaused]);
 
   if (!articles || articles.length === 0) return null;
 
   const currentArticle = articles[currentIndex];
   const postUrl = `/${currentArticle.slug || currentArticle.id}/`;
 
+  const handlePrev = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setCurrentIndex((prev) => (prev - 1 + articles.length) % articles.length);
+  };
+
+  const handleNext = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setCurrentIndex((prev) => (prev + 1) % articles.length);
+  };
+
   return (
-    <div className="bg-slate-900 border-y border-slate-800 text-white shadow-inner">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-2 flex items-center gap-3">
+    <div 
+      className="bg-slate-900 border-b border-slate-800 text-white shadow-xs"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+      onFocus={() => setIsPaused(true)}
+      onBlur={() => setIsPaused(false)}
+      role="region"
+      aria-label="তাজা সংবাদ ও গুরুত্বপূর্ণ আপডেট"
+    >
+      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 py-2 flex items-center gap-3">
         {/* Badge */}
-        <div className="flex items-center gap-1.5 bg-red-600 text-white text-[11px] sm:text-xs font-black px-2.5 py-1 rounded shadow-sm tracking-wide shrink-0">
+        <div className="flex items-center gap-1.5 bg-[#C62828] text-white text-[11px] sm:text-xs font-bold px-2.5 py-1 rounded shadow-xs tracking-wide shrink-0">
           <Flame className="w-3.5 h-3.5 animate-pulse text-amber-300" />
           <span>তাজা আপডেট</span>
         </div>
@@ -49,18 +68,25 @@ export default function BreakingNewsTicker({ articles }: BreakingNewsTickerProps
           </a>
         </div>
 
-        {/* Action Link & Count */}
-        <div className="hidden md:flex items-center gap-2 text-xs text-slate-400 shrink-0">
-          <span className="tabular-nums font-mono text-[11px]">
+        {/* Interactive Controls & Counter */}
+        <div className="flex items-center gap-1.5 text-xs text-slate-400 shrink-0">
+          <span className="tabular-nums font-mono text-[11px] hidden sm:inline text-slate-400 mr-1">
             {currentIndex + 1}/{articles.length}
           </span>
-          <a
-            href={postUrl}
-            className="text-slate-300 hover:text-white flex items-center gap-0.5 hover:underline"
+          <button
+            onClick={handlePrev}
+            aria-label="পূর্ববর্তী খবর"
+            className="p-1 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition"
           >
-            <span>পড়ুন</span>
+            <ChevronLeft className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={handleNext}
+            aria-label="পরবর্তী খবর"
+            className="p-1 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition"
+          >
             <ChevronRight className="w-3.5 h-3.5" />
-          </a>
+          </button>
         </div>
       </div>
     </div>

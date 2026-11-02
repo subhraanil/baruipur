@@ -34,7 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        bengali: ['Noto Sans Bengali', 'sans-serif'],
+        bengali: ['"Hind Siliguri"', '"Noto Sans Bengali"', 'sans-serif'],
       },
     },
   },
