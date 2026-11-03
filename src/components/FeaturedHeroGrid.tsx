@@ -4,7 +4,7 @@ import React from 'react';
 import { Article } from '@/lib/types';
 import { formatTimeAgoBengali } from '@/lib/dateUtils';
 import { getSafeImageUrl } from '@/lib/videoUtils';
-import { Clock, Play, ArrowRight, Flame } from 'lucide-react';
+import { Clock, Play, ArrowRight, Flame, Sparkles, Newspaper } from 'lucide-react';
 
 interface FeaturedHeroGridProps {
   leadArticle: Article;
@@ -40,6 +40,11 @@ export default function FeaturedHeroGrid({ leadArticle, secondaryArticles }: Fea
     return clean.length > max ? clean.slice(0, max - 3) + '...' : clean;
   };
 
+  const cleanSummary = (text?: string) => {
+    if (!text) return '';
+    return text.replace(/###.*?\n/g, '').replace(/[*_#]/g, '').trim();
+  };
+
   return (
     <section className="mb-8" aria-label="প্রধান ও আলোচিত সংবাদ">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-6 items-stretch">
@@ -56,7 +61,7 @@ export default function FeaturedHeroGrid({ leadArticle, secondaryArticles }: Fea
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               loading="eager"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent pointer-events-none" />
 
             {/* Badges on Image */}
             <div className="absolute top-3.5 left-3.5 flex flex-wrap gap-2 z-10">
@@ -79,7 +84,7 @@ export default function FeaturedHeroGrid({ leadArticle, secondaryArticles }: Fea
 
             {leadHasVideo && (
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <div className="w-12 h-12 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-13 h-13 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:bg-red-600 transition-all duration-300 backdrop-blur-xs">
                   <Play className="w-6 h-6 fill-current translate-x-0.5" />
                 </div>
               </div>
@@ -90,7 +95,7 @@ export default function FeaturedHeroGrid({ leadArticle, secondaryArticles }: Fea
           <div className="p-4 sm:p-6 flex-1 flex flex-col justify-between">
             <div>
               {/* Metadata row */}
-              <div className="flex items-center gap-3 text-xs text-slate-500 mb-2.5 font-medium">
+              <div className="flex items-center gap-3 text-xs text-slate-500 mb-2.5 font-medium flex-wrap">
                 <span className="flex items-center gap-1">
                   <Clock className="w-3.5 h-3.5 text-slate-400" />
                   {formatTimeAgoBengali(leadArticle.publishedAt)}
@@ -119,7 +124,7 @@ export default function FeaturedHeroGrid({ leadArticle, secondaryArticles }: Fea
               {/* Summary / Excerpt */}
               {leadArticle.summary && (
                 <p className="text-sm text-slate-600 leading-relaxed line-clamp-3 mb-4">
-                  {leadArticle.summary.replace(/###.*?\n/g, '').replace(/[*_#]/g, '').trim()}
+                  {cleanSummary(leadArticle.summary)}
                 </p>
               )}
             </div>
@@ -137,73 +142,98 @@ export default function FeaturedHeroGrid({ leadArticle, secondaryArticles }: Fea
           </div>
         </article>
 
-        {/* Secondary Stories Stack (5 cols on desktop, 3 stacked items) */}
-        <div className="lg:col-span-5 flex flex-col gap-3.5 justify-between">
-          {secondaryArticles.slice(0, 3).map((art, idx) => {
-            const artUrl = `/${art.slug || art.id}/`;
-            const artImg = getSafeImageUrl(art.imageUrl);
-            const hasVideo = Boolean(art.videoUrl || art.videoEmbedUrl);
+        {/* Secondary Stories Cohesive Editorial Panel (5 cols on desktop) */}
+        <div className="lg:col-span-5 bg-white rounded-2xl border border-slate-200/90 shadow-xs p-4 sm:p-5 flex flex-col justify-between">
+          {/* Header */}
+          <div className="flex items-center justify-between pb-3 mb-1 border-b border-slate-100">
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#C62828] animate-pulse"></span>
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-1.5">
+                <Newspaper className="w-4 h-4 text-[#C62828]" />
+                আরও শীর্ষ সংবাদ (Top Stories)
+              </h3>
+            </div>
+            <span className="text-[11px] font-semibold text-slate-400 hidden sm:inline">
+              সর্বশেষ তাজা খবর
+            </span>
+          </div>
 
-            return (
-              <article
-                key={art.id || idx}
-                className="bg-white p-3 sm:p-3.5 rounded-xl border border-slate-200/90 shadow-xs hover:border-slate-300 hover:shadow-sm transition-all group flex gap-3.5 items-center flex-1"
-              >
-                {/* Thumbnail */}
-                <a 
-                  href={artUrl} 
-                  className="relative w-28 sm:w-32 aspect-[4/3] rounded-lg overflow-hidden bg-slate-100 shrink-0"
+          {/* List with Dividers */}
+          <div className="divide-y divide-slate-100 flex-1 flex flex-col justify-around">
+            {secondaryArticles.slice(0, 3).map((art, idx) => {
+              const artUrl = `/${art.slug || art.id}/`;
+              const artImg = getSafeImageUrl(art.imageUrl);
+              const hasVideo = Boolean(art.videoUrl || art.videoEmbedUrl);
+              const summary = cleanSummary(art.summary);
+
+              return (
+                <article
+                  key={art.id || idx}
+                  className="py-3 sm:py-3.5 first:pt-2 last:pb-2 group flex gap-3.5 items-start transition-colors"
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={artImg}
-                    alt={safeAlt(art.title)}
-                    width={200}
-                    height={150}
-                    onError={(e) => { (e.target as HTMLImageElement).src = fallbackImg; }}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                  {hasVideo && (
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-                      <div className="w-7 h-7 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow">
-                        <Play className="w-3.5 h-3.5 fill-current translate-x-0.5" />
+                  {/* Thumbnail */}
+                  <a 
+                    href={artUrl} 
+                    className="relative w-24 sm:w-28 aspect-[16/11] rounded-xl overflow-hidden bg-slate-100 shrink-0 shadow-2xs group-hover:shadow-xs transition-all"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={artImg}
+                      alt={safeAlt(art.title)}
+                      width={200}
+                      height={138}
+                      onError={(e) => { (e.target as HTMLImageElement).src = fallbackImg; }}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    {hasVideo && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                        <div className="w-6 h-6 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-xs">
+                          <Play className="w-3 h-3 fill-current translate-x-0.5" />
+                        </div>
                       </div>
-                    </div>
-                  )}
-                </a>
+                    )}
+                  </a>
 
-                {/* Content */}
-                <div className="flex-1 min-w-0 flex flex-col justify-between h-full py-0.5">
-                  <div>
-                    <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-                      <span className={`${getBadgeColor(art.category)} text-white text-[10px] font-bold px-2 py-0.5 rounded`}>
+                  {/* Content details */}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                      <span className={`${getBadgeColor(art.category)} text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-2xs`}>
                         {art.categoryNameBn || 'খবর'}
                       </span>
-                      <span className="text-[11px] text-slate-500 flex items-center gap-1 font-medium">
+                      <span className="text-[11px] text-slate-400 flex items-center gap-1 font-medium">
                         <Clock className="w-3 h-3 text-slate-400" />
                         {formatTimeAgoBengali(art.publishedAt)}
                       </span>
                     </div>
 
-                    <h3 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-[#C62828] transition-colors leading-snug line-clamp-2">
+                    <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-[#C62828] transition-colors leading-snug line-clamp-2 mb-1">
                       <a href={artUrl}>
                         {art.title}
                       </a>
-                    </h3>
-                  </div>
+                    </h4>
 
-                  <a 
-                    href={artUrl}
-                    className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-500 group-hover:text-[#C62828] transition-colors mt-1.5"
-                  >
-                    <span>বিস্তারিত</span>
-                    <ArrowRight className="w-3 h-3" />
-                  </a>
-                </div>
-              </article>
-            );
-          })}
+                    {summary && (
+                      <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                        {summary}
+                      </p>
+                    )}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+
+          {/* Panel Footer Link */}
+          <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#C62828]">
+            <a href="/#latest-news" className="flex items-center gap-1 hover:underline">
+              <span>সকল সংবাদ প্রবাহ দেখুন</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </a>
+            <span className="text-[11px] text-slate-400 font-normal">
+              ২৪x৭ আপডেট
+            </span>
+          </div>
         </div>
       </div>
     </section>
