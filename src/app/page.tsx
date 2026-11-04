@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { db } from '@/lib/db';
-import NewsCard from '@/components/NewsCard';
 import NewsStreamClient from '@/components/NewsStreamClient';
 import FeaturedHeroGrid from '@/components/FeaturedHeroGrid';
 import QuickAccessDirectory from '@/components/QuickAccessDirectory';
@@ -14,18 +13,6 @@ import AdSenseSlot from '@/components/AdSenseSlot';
 import { getFeaturedOrganizations } from '@/lib/organizations';
 import { getAllPlaces } from '@/lib/places';
 import { getAllFacilities } from '@/lib/healthcare';
-import { 
-  TrendingUp, 
-  ArrowRight,
-  CalendarDays
-} from 'lucide-react';
-
-interface PageProps {
-  searchParams?: {
-    search?: string;
-    category?: string;
-  };
-}
 
 export const metadata: Metadata = {
   title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
@@ -61,41 +48,55 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  // Strictly exclude evergreen guides from breaking and latest news
-  // db.getArticles returns articles sorted by publishedAt DESCENDING (newest first)
+  // 1. Fetch all published news articles excluding evergreen guides (sorted newest first)
   const newsArticles = db.getArticles({
     status: 'published',
     excludeGuides: true
   });
 
-  // All published articles including guides for full search and category filtering in stream
-  const allStreamArticles = db.getArticles({
-    status: 'published'
-  });
+  // Track displayed article IDs to guarantee ZERO repetition across the entire homepage!
+  const usedArticleIds = new Set<string>();
 
-  // Local Directory Data
+  // 2. Featured News: 1 Main Lead Story + 3 Secondary Stories (Editorial Grid)
+  const leadArticle = newsArticles[0];
+  const secondaryArticles = newsArticles.slice(1, 4);
+  if (leadArticle?.id) usedArticleIds.add(leadArticle.id);
+  secondaryArticles.forEach(a => { if (a?.id) usedArticleIds.add(a.id); });
+
+  // 3. Latest News: 8 Compact Stories (strictly excluding featured stories)
+  const latestNewsArticles = newsArticles.filter(a => !usedArticleIds.has(a.id)).slice(0, 8);
+  latestNewsArticles.forEach(a => usedArticleIds.add(a.id));
+
+  // 4. Category Highlights: 4 Key Categories (3 unique stories each, strictly excluding already displayed ones!)
+  const municipalityArticles = db.getArticles({ category: 'municipality', limit: 15, excludeGuides: true })
+    .filter(a => !usedArticleIds.has(a.id))
+    .slice(0, 3);
+  municipalityArticles.forEach(a => usedArticleIds.add(a.id));
+
+  const railwayArticles = db.getArticles({ category: 'railway', limit: 15, excludeGuides: true })
+    .filter(a => !usedArticleIds.has(a.id))
+    .slice(0, 3);
+  railwayArticles.forEach(a => usedArticleIds.add(a.id));
+
+  const crimeArticles = db.getArticles({ category: 'crime', limit: 15, excludeGuides: true })
+    .filter(a => !usedArticleIds.has(a.id))
+    .slice(0, 3);
+  crimeArticles.forEach(a => usedArticleIds.add(a.id));
+
+  const cultureArticles = db.getArticles({ category: 'culture', limit: 15, excludeGuides: true })
+    .filter(a => !usedArticleIds.has(a.id))
+    .slice(0, 3);
+  cultureArticles.forEach(a => usedArticleIds.add(a.id));
+
+  // 5. Local Directory Data (Icon-based, Utility Dashboard style)
   const healthcareFacilities = getAllFacilities();
   const places = getAllPlaces();
   const featuredOrganizations = getFeaturedOrganizations(6);
 
-  // Top 4 most recent articles for the Editorial Hero Grid (1 lead + 3 secondary)
-  const leadArticle = newsArticles[0];
-  const secondaryArticles = newsArticles.slice(1, 4);
-  const heroArticleIds = new Set([leadArticle?.id, ...secondaryArticles.map(a => a.id)].filter(Boolean));
+  // Pool for client-side search in latest stream (excluding lead story)
+  const streamPool = newsArticles.filter(a => a.id !== leadArticle?.id);
 
-  // Next recent articles for 2x2 trending grid
-  const sideArticles = newsArticles.filter(a => !heroArticleIds.has(a.id)).slice(0, 4);
-  const sideArticleIds = new Set(sideArticles.map(a => a.id));
-
-  // Remaining articles for the chronological stream
-  const remainingArticles = newsArticles.filter(a => !heroArticleIds.has(a.id) && !sideArticleIds.has(a.id)).slice(0, 16);
-
-  // Category specific articles
-  const municipalityArticles = db.getArticles({ category: 'municipality', limit: 3, excludeGuides: true });
-  const railwayArticles = db.getArticles({ category: 'railway', limit: 3, excludeGuides: true });
-  const crimeArticles = db.getArticles({ category: 'crime', limit: 3, excludeGuides: true });
-  const cultureArticles = db.getArticles({ category: 'culture', limit: 3, excludeGuides: true });
-
+  // SEO Schema
   const homeItemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -124,7 +125,7 @@ export default function HomePage() {
       <BreakingNewsTicker articles={newsArticles.slice(0, 5)} />
 
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6">
-        {/* 2. Featured Editorial Hero Grid (Section 8) */}
+        {/* 2. Featured News: 1 Main Story + 3 Secondary Stories (Editorial Grid) */}
         {leadArticle && (
           <FeaturedHeroGrid
             leadArticle={leadArticle}
@@ -132,39 +133,27 @@ export default function HomePage() {
           />
         )}
 
-        {/* 3. Quick Access Directory Grid (Section 9) */}
+        {/* 3. Quick Access Directory Grid (12 Civic & Lifestyle Tiles) */}
         <QuickAccessDirectory />
 
-        {/* Top Leaderboard Ad Space */}
-        <AdSenseSlot format="leaderboard" className="mb-8" />
+        {/* Top Leaderboard Ad Slot */}
+        <AdSenseSlot format="leaderboard" className="mb-6" />
 
-        {/* 4. Main Two-Column Layout (Section 10, 11, 12) */}
+        {/* 4. Main Two-Column Layout (News Content Left + Utilities Sidebar Right) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
           {/* Left Column: News Content & Local Spotlights (9 cols) */}
-          <div className="lg:col-span-9 space-y-8 min-w-0" id="latest-news">
-            {/* Sub-featured trending local stories (2x2 grid) */}
-            {sideArticles.length > 0 && (
-              <section aria-labelledby="trending-stories-heading">
-                <div className="flex items-center justify-between mb-3 border-b border-slate-200 pb-2">
-                  <h2 id="trending-stories-heading" className="text-base font-bold text-slate-900 flex items-center gap-2">
-                    <TrendingUp className="w-4 h-4 text-[#C62828]" />
-                    তাজা স্থানীয় প্রতিবেদন
-                  </h2>
-                  <span className="text-xs text-slate-500 font-medium">দক্ষিণ ২৪ পরগনা</span>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {sideArticles.map(art => (
-                    <NewsCard key={art.id} article={art} variant="standard" />
-                  ))}
-                </div>
-              </section>
-            )}
+          <div className="lg:col-span-9 space-y-7 min-w-0" id="latest-news">
+            {/* 4A. Latest News Feed: 8 Compact Stories with Horizontal Category Scroll */}
+            <NewsStreamClient 
+              initialArticles={latestNewsArticles}
+              allArticles={streamPool}
+            />
 
-            {/* In-Feed Native Ad Space */}
+            {/* In-Feed Native Ad Slot */}
             <AdSenseSlot format="in-feed" className="my-6" />
 
-            {/* News Category Spotlights (Section 11) */}
-            <div className="space-y-6">
+            {/* 4B. Category Highlights: 4 Categories (3 Distinct Stories Each) */}
+            <div className="space-y-5">
               {/* Municipality Spotlight */}
               {municipalityArticles.length > 0 && (
                 <NewsCategorySection
@@ -181,8 +170,8 @@ export default function HomePage() {
               {/* Railways & Transport Spotlight */}
               {railwayArticles.length > 0 && (
                 <NewsCategorySection
-                  title="শিয়ালদহ দক্ষিণ রেলওয়ে ও ট্রেন আপডেট"
-                  subtitle="লোকাল ট্রেন, বাতিল ও সময়সূচি সংক্রান্ত খবর"
+                  title="শিয়ালদহ দক্ষিণ রেলওয়ে ও লোকাল ট্রেন"
+                  subtitle="ট্রেন চলাচল, বাতিল ও সময়সূচি সংক্রান্ত খবর"
                   categorySlug="railway"
                   viewAllHref="/category/railway"
                   accentColor="border-blue-200/80 bg-blue-50/40"
@@ -195,7 +184,7 @@ export default function HomePage() {
               {crimeArticles.length > 0 && (
                 <NewsCategorySection
                   title="আইনশৃঙ্খলা ও বারুইপুর পুলিশ জেলা"
-                  subtitle="থানা, নিরাপত্তা ও মহকুমা প্রশাসনের খবর"
+                  subtitle="নিরাপত্তা, থানা ও মহকুমা প্রশাসনের খবর"
                   categorySlug="crime"
                   viewAllHref="/category/crime"
                   accentColor="border-rose-200/80 bg-rose-50/40"
@@ -208,7 +197,7 @@ export default function HomePage() {
               {cultureArticles.length > 0 && (
                 <NewsCategorySection
                   title="উৎসব, সংস্কৃতি ও ঐতিহ্যের বারুইপুর"
-                  subtitle="রাসমেলা, পূজা ও সাংস্কৃতিক অনুষ্ঠান"
+                  subtitle="পূজা, রাসমেলা ও সাংস্কৃতিক অনুষ্ঠান"
                   categorySlug="culture"
                   viewAllHref="/category/culture"
                   accentColor="border-amber-200/80 bg-amber-50/40"
@@ -218,23 +207,17 @@ export default function HomePage() {
               )}
             </div>
 
-            {/* Latest News Feed with Live Category Filter & Search (Section 10) */}
-            <NewsStreamClient 
-              initialArticles={remainingArticles}
-              allArticles={allStreamArticles}
-            />
-
-            {/* Local Directory Highlights (Section 12: Health, Places, Organizations) */}
+            {/* 4C. Local Information Directory: Health, Places, Organizations (Utility Layout) */}
             <LocalDirectoryHighlights
               facilities={healthcareFacilities}
               places={places}
               organizations={featuredOrganizations}
             />
 
-            {/* Featured Guides Section (Section 12 & 15: Evergreen Guides) */}
+            {/* 4D. Evergreen Lifestyle Guides: 8 Verified Special Guides */}
             <FeaturedGuidesSection />
 
-            {/* Events & Festivals Banner */}
+            {/* 4E. Annual Events Calendar Banner */}
             <section className="bg-gradient-to-r from-amber-600 to-orange-700 text-white rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-2xs">
               <div>
                 <span className="text-[10px] font-bold bg-white/20 px-2 py-0.5 rounded-full uppercase tracking-wider mb-1 inline-block">
@@ -244,7 +227,7 @@ export default function HomePage() {
                   বারুইপুরের উৎসব ও মেলা ক্যালেন্ডার ২০২৬
                 </h3>
                 <p className="text-xs text-amber-100 mt-0.5">
-                  ঐতিহাসিক বারুইপুর রাসমেলা, রাসমাঠের অনুষ্ঠান ও আঞ্চলিক লোকউৎসব।
+                  ঐতিহাসিক বারুইপুর রাসমেলা, রাসমাঠের অনুষ্ঠান ও আঞ্চলিক লোকউৎসবের সূচি।
                 </p>
               </div>
               <a 
@@ -256,9 +239,9 @@ export default function HomePage() {
             </section>
           </div>
 
-          {/* Right Column: Sidebar (3 cols) */}
+          {/* Right Column: Utilities & Emergency Sidebar (3 cols) */}
           <aside className="lg:col-span-3 space-y-6 min-w-0" aria-label="বারুইপুর ইউটিলিটি ও ডিরেক্টরি">
-            {/* Sidebar Top Ad Space */}
+            {/* Sidebar Top Ad Slot */}
             <AdSenseSlot format="sidebar" className="my-0" />
 
             <BaruipurUtilities 
@@ -271,7 +254,7 @@ export default function HomePage() {
           </aside>
         </div>
 
-        {/* Bottom Leaderboard Ad Space */}
+        {/* Bottom Leaderboard Ad Slot */}
         <AdSenseSlot format="leaderboard" className="mt-8" />
       </div>
     </div>

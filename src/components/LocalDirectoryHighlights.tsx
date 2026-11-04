@@ -2,7 +2,16 @@ import React from 'react';
 import { HealthcareFacility } from '@/lib/healthcare';
 import { PlaceItem } from '@/lib/places';
 import { OrganizationItem } from '@/lib/organizations';
-import { Stethoscope, Landmark, Building2, Phone, MapPin, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { 
+  Stethoscope, 
+  Landmark, 
+  Building2, 
+  Phone, 
+  MapPin, 
+  ArrowRight, 
+  Calendar,
+  FolderTree
+} from 'lucide-react';
 
 interface LocalDirectoryHighlightsProps {
   facilities: HealthcareFacility[];
@@ -16,165 +25,192 @@ export default function LocalDirectoryHighlights({
   organizations
 }: LocalDirectoryHighlightsProps) {
   return (
-    <section className="space-y-8 my-8" aria-label="বারুইপুর স্থানীয় তথ্য ও ডিরেক্টরি হাইলাইটস">
-      {/* 1. Health & Doctor Clinics Spotlight */}
-      <div className="bg-white rounded-2xl border border-rose-200/80 p-5 sm:p-6 shadow-2xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 pb-3 border-b border-rose-100">
-          <div>
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-rose-600 uppercase tracking-wider mb-1">
-              <Stethoscope className="w-4 h-4 text-rose-600" />
-              স্বাস্থ্য সেবা ও বিশেষজ্ঞ ডাক্তার ওপিডি
-            </div>
-            <h3 className="text-base sm:text-lg font-black text-slate-900">
-              বারুইপুর স্বাস্থ্য ডিরেক্টরি: শীর্ষ ক্লিনিক ও হাসপাতাল
-            </h3>
+    <section className="bg-slate-50/90 rounded-2xl border border-slate-200/90 p-5 sm:p-6 shadow-2xs my-8" aria-label="বারুইপুর স্থানীয় তথ্য ও ডিরেক্টরি">
+      {/* Directory Section Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6 pb-3 border-b border-slate-200">
+        <div>
+          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+            <FolderTree className="w-4 h-4 text-slate-600" />
+            নাগরিক তথ্য ও সেবা বাতায়ন
           </div>
-          <a
+          <h2 className="text-base sm:text-lg font-black text-slate-900">
+            বারুইপুর স্থানীয় ডিরেক্টরি (Local Information Directory)
+          </h2>
+          <p className="text-xs text-slate-500 mt-0.5">
+            ডাক্তার চেম্বার, প্রশাসনিক অফিস, ঐতিহাসিক ল্যান্ডমার্ক ও ক্লাবের প্রয়োজনীয় তথ্যাবলী
+          </p>
+        </div>
+      </div>
+
+      {/* 3 Columns Utility Layout */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        {/* Pillar 1: Health & OPD Doctors */}
+        <div className="bg-white rounded-xl border border-rose-200/90 p-4 shadow-2xs flex flex-col justify-between">
+          <div>
+            <div className="flex items-center justify-between mb-3 pb-2 border-b border-rose-100">
+              <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+                <span className="p-1.5 rounded-lg bg-rose-50 text-rose-600">
+                  <Stethoscope className="w-4 h-4" />
+                </span>
+                স্বাস্থ্য ও ডাক্তার ওপিডি
+              </h3>
+              <a href="/health-directory" className="text-[11px] font-bold text-rose-700 hover:underline">
+                সকল ডাক্তার →
+              </a>
+            </div>
+
+            <div className="space-y-2.5">
+              {facilities.slice(0, 3).map((fac) => (
+                <a
+                  key={fac.slug}
+                  href={`/health-directory/${fac.slug}`}
+                  className="block p-2.5 rounded-lg bg-slate-50/70 hover:bg-rose-50/40 border border-slate-100 hover:border-rose-200 transition group"
+                >
+                  <div className="flex items-center justify-between gap-1 mb-1">
+                    <span className="text-[10px] font-bold bg-rose-100 text-rose-800 px-1.5 py-0.5 rounded">
+                      {fac.typeBn || 'ক্লিনিক'}
+                    </span>
+                    <span className="text-[10px] text-slate-500 font-medium">
+                      {fac.doctorsCount ? `${fac.doctorsCount} জন ডাক্তার` : 'ওপিডি চেম্বার'}
+                    </span>
+                  </div>
+                  <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-rose-700 transition leading-snug line-clamp-1 mb-0.5">
+                    {fac.nameBn}
+                  </h4>
+                  <p className="text-[11px] text-slate-500 line-clamp-1 mb-1.5">
+                    <MapPin className="w-3 h-3 inline mr-1 text-slate-400" />
+                    {fac.addressBn || fac.landmarkBn}
+                  </p>
+                  <div className="flex items-center justify-between text-[10px] font-semibold text-rose-700 pt-1 border-t border-slate-200/60">
+                    <span className="flex items-center gap-1">
+                      <Phone className="w-2.5 h-2.5 text-slate-400" />
+                      {fac.phone || 'বুকিং চালু'}
+                    </span>
+                    <span className="group-hover:translate-x-0.5 transition-transform">
+                      সময়সূচি দেখুন →
+                    </span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <a 
             href="/health-directory"
-            className="inline-flex items-center gap-1 text-xs font-bold text-rose-700 hover:text-rose-900 bg-rose-50 hover:bg-rose-100/80 px-3 py-1.5 rounded-lg transition self-start sm:self-auto"
+            className="mt-3 block text-center text-xs font-bold text-rose-700 bg-rose-50 hover:bg-rose-100/80 py-2 rounded-lg transition"
           >
-            <span>সমস্ত ডাক্তার ও ওপিডি দেখুন</span>
-            <ArrowRight className="w-3.5 h-3.5" />
+            সম্পূর্ণ স্বাস্থ্য ডিরেক্টরি দেখুন →
           </a>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
-          {facilities.slice(0, 4).map((fac) => (
-            <a
-              key={fac.slug}
-              href={`/health-directory/${fac.slug}`}
-              className="bg-slate-50/70 hover:bg-white p-3.5 rounded-xl border border-slate-200 hover:border-rose-300 hover:shadow-xs transition-all flex flex-col justify-between group"
-            >
-              <div>
-                <div className="flex items-center justify-between text-[11px] font-bold text-rose-700 mb-1.5">
-                  <span className="bg-rose-100 text-rose-800 px-2 py-0.5 rounded">
-                    {fac.typeBn || 'পলিক্লিনিক'}
-                  </span>
-                  <span className="text-slate-500 font-medium">
-                    {fac.doctorsCount ? `${fac.doctorsCount} জন ডাক্তার` : 'ওপিডি চেম্বার'}
-                  </span>
-                </div>
-                <h4 className="font-bold text-sm text-slate-900 group-hover:text-rose-700 transition leading-snug mb-1">
-                  {fac.nameBn}
-                </h4>
-                <p className="text-[11px] text-slate-500 line-clamp-1 mb-2">
-                  <MapPin className="w-3 h-3 inline mr-1 text-slate-400" />
-                  {fac.addressBn || fac.landmarkBn}
-                </p>
-              </div>
-
-              <div className="pt-2 border-t border-slate-200/80 flex items-center justify-between text-[11px] font-semibold text-rose-600">
-                <span className="flex items-center gap-1">
-                  <Phone className="w-3 h-3 text-slate-400" />
-                  {fac.phone || fac.altPhone || 'বুকিং চালু'}
-                </span>
-                <span className="group-hover:translate-x-1 transition-transform">
-                  সময়সূচি →
-                </span>
-              </div>
-            </a>
-          ))}
-        </div>
-      </div>
-
-      {/* 2. Places & Landmarks Showcase */}
-      <div className="bg-white rounded-2xl border border-amber-200/80 p-5 sm:p-6 shadow-2xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 pb-3 border-b border-amber-100">
+        {/* Pillar 2: Places & Landmarks */}
+        <div className="bg-white rounded-xl border border-amber-200/90 p-4 shadow-2xs flex flex-col justify-between">
           <div>
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 uppercase tracking-wider mb-1">
-              <Landmark className="w-4 h-4 text-amber-600" />
-              প্রশাসনিক ও ঐতিহাসিক স্থান
+            <div className="flex items-center justify-between mb-3 pb-2 border-b border-amber-100">
+              <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+                <span className="p-1.5 rounded-lg bg-amber-50 text-amber-600">
+                  <Landmark className="w-4 h-4" />
+                </span>
+                স্থান ও প্রশাসনিক ল্যান্ডমার্ক
+              </h3>
+              <a href="/places" className="text-[11px] font-bold text-amber-800 hover:underline">
+                সকল স্থান →
+              </a>
             </div>
-            <h3 className="text-base sm:text-lg font-black text-slate-900">
-              বারুইপুরের ল্যান্ডমার্ক, আদালত ও দর্শনীয় স্থান
-            </h3>
+
+            <div className="space-y-2.5">
+              {places.slice(0, 3).map((place) => (
+                <a
+                  key={place.slug}
+                  href={`/places/${place.slug}/`}
+                  className="block p-2.5 rounded-lg bg-slate-50/70 hover:bg-amber-50/40 border border-slate-100 hover:border-amber-200 transition group"
+                >
+                  <div className="flex items-center justify-between gap-1 mb-1">
+                    <span className="text-[10px] font-bold bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded">
+                      {place.category === 'admin' ? 'প্রশাসনিক' : place.category === 'judiciary' ? 'আদালত' : 'ঐতিহাসিক'}
+                    </span>
+                    <span className="text-[10px] text-slate-400">
+                      {place.established ? `স্থাপিত: ${place.established}` : 'বারুইপুর'}
+                    </span>
+                  </div>
+                  <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-amber-800 transition leading-snug line-clamp-1 mb-0.5">
+                    {place.nameBn}
+                  </h4>
+                  <p className="text-[11px] text-slate-500 line-clamp-1 mb-1.5">
+                    {place.taglineBn}
+                  </p>
+                  <div className="flex items-center justify-between text-[10px] font-semibold text-amber-800 pt-1 border-t border-slate-200/60">
+                    <span className="text-slate-400">বিস্তারিত নির্দেশিকা</span>
+                    <span className="group-hover:translate-x-0.5 transition-transform">
+                      গাইড পড়ুন →
+                    </span>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
-          <a
+
+          <a 
             href="/places"
-            className="inline-flex items-center gap-1 text-xs font-bold text-amber-800 hover:text-amber-950 bg-amber-50 hover:bg-amber-100/80 px-3 py-1.5 rounded-lg transition self-start sm:self-auto"
+            className="mt-3 block text-center text-xs font-bold text-amber-800 bg-amber-50 hover:bg-amber-100/80 py-2 rounded-lg transition"
           >
-            <span>সব স্থান দেখুন</span>
-            <ArrowRight className="w-3.5 h-3.5" />
+            সকল স্থান ও ল্যান্ডমার্ক দেখুন →
           </a>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-          {places.slice(0, 6).map((place) => (
-            <a
-              key={place.slug}
-              href={`/places/${place.slug}/`}
-              className="bg-slate-50/70 hover:bg-white p-3 rounded-xl border border-slate-200 hover:border-amber-400 hover:shadow-xs transition-all group flex flex-col justify-between"
-            >
-              <div>
-                <span className="text-[10px] font-semibold text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded inline-block mb-1">
-                  {place.category === 'admin' ? 'প্রশাসনিক' : place.category === 'judiciary' ? 'বিচার বিভাগীয়' : 'ল্যান্ডমার্ক'}
-                </span>
-                <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-amber-700 transition leading-snug mb-1 line-clamp-1">
-                  {place.nameBn}
-                </h4>
-                <p className="text-[11px] text-slate-500 line-clamp-2">
-                  {place.taglineBn}
-                </p>
-              </div>
-              <span className="text-[10px] font-bold text-amber-800 mt-2 block group-hover:translate-x-0.5 transition-transform">
-                গাইড দেখুন →
-              </span>
-            </a>
-          ))}
-        </div>
-      </div>
-
-      {/* 3. Organizations & Clubs Showcase */}
-      <div className="bg-white rounded-2xl border border-purple-200/80 p-5 sm:p-6 shadow-2xs">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 pb-3 border-b border-purple-100">
+        {/* Pillar 3: Clubs & Organizations */}
+        <div className="bg-white rounded-xl border border-purple-200/90 p-4 shadow-2xs flex flex-col justify-between">
           <div>
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-purple-700 uppercase tracking-wider mb-1">
-              <Building2 className="w-4 h-4 text-purple-600" />
-              সামাজিক ও ক্রীড়া সংগঠন
+            <div className="flex items-center justify-between mb-3 pb-2 border-b border-purple-100">
+              <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+                <span className="p-1.5 rounded-lg bg-purple-50 text-purple-600">
+                  <Building2 className="w-4 h-4" />
+                </span>
+                ক্লাব, সমিতি ও প্রতিষ্ঠান
+              </h3>
+              <a href="/organizations" className="text-[11px] font-bold text-purple-800 hover:underline">
+                সকল ক্লাব →
+              </a>
             </div>
-            <h3 className="text-base sm:text-lg font-black text-slate-900">
-              বারুইপুরের ঐতিহ্যবাহী ক্লাব, সমিতি ও প্রতিষ্ঠান
-            </h3>
+
+            <div className="space-y-2.5">
+              {organizations.slice(0, 3).map((org) => (
+                <a
+                  key={org.slug}
+                  href={`/organizations/${org.slug}/`}
+                  className="block p-2.5 rounded-lg bg-slate-50/70 hover:bg-purple-50/40 border border-slate-100 hover:border-purple-200 transition group"
+                >
+                  <div className="flex items-center justify-between gap-1 mb-1">
+                    <span className="text-[10px] font-bold bg-purple-100 text-purple-900 px-1.5 py-0.5 rounded">
+                      {org.categoryBn}
+                    </span>
+                    <span className="text-[10px] text-slate-400">
+                      স্থাপিত: {org.established}
+                    </span>
+                  </div>
+                  <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-purple-800 transition leading-snug line-clamp-1 mb-0.5">
+                    {org.nameBn}
+                  </h4>
+                  <p className="text-[11px] text-slate-500 line-clamp-1 mb-1.5">
+                    {org.taglineBn}
+                  </p>
+                  <div className="flex items-center justify-between text-[10px] font-semibold text-purple-800 pt-1 border-t border-slate-200/60">
+                    <span className="text-slate-400">সামাজিক ও ক্রীড়া তথ্য</span>
+                    <span className="group-hover:translate-x-0.5 transition-transform">
+                      বিবরণ দেখুন →
+                    </span>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
-          <a
+
+          <a 
             href="/organizations"
-            className="inline-flex items-center gap-1 text-xs font-bold text-purple-800 hover:text-purple-950 bg-purple-50 hover:bg-purple-100/80 px-3 py-1.5 rounded-lg transition self-start sm:self-auto"
+            className="mt-3 block text-center text-xs font-bold text-purple-800 bg-purple-50 hover:bg-purple-100/80 py-2 rounded-lg transition"
           >
-            <span>সব ক্লাব ও সমিতি দেখুন</span>
-            <ArrowRight className="w-3.5 h-3.5" />
+            সকল ক্লাব ও প্রতিষ্ঠান দেখুন →
           </a>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
-          {organizations.slice(0, 3).map((org) => (
-            <a
-              key={org.slug}
-              href={`/organizations/${org.slug}/`}
-              className="bg-slate-50/70 hover:bg-white p-4 rounded-xl border border-slate-200 hover:border-purple-300 hover:shadow-xs transition-all group flex flex-col justify-between"
-            >
-              <div>
-                <div className="flex items-center justify-between gap-1 mb-1.5">
-                  <span className="text-[10px] font-bold bg-purple-100 text-purple-800 px-2 py-0.5 rounded">
-                    {org.categoryBn}
-                  </span>
-                  <span className="text-[10px] text-slate-400 font-medium">
-                    স্থাপিত: {org.established}
-                  </span>
-                </div>
-                <h4 className="font-bold text-slate-900 group-hover:text-purple-700 transition text-sm leading-snug mb-1">
-                  {org.nameBn}
-                </h4>
-                <p className="text-xs text-slate-500 line-clamp-2 mb-3">
-                  {org.taglineBn}
-                </p>
-              </div>
-
-              <div className="flex items-center justify-between text-xs font-semibold text-purple-700 pt-2 border-t border-slate-200/80">
-                <span>বিস্তারিত তথ্য</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </a>
-          ))}
         </div>
       </div>
     </section>
