@@ -57,9 +57,9 @@ export default function HomePage() {
   // Track displayed article IDs to guarantee ZERO repetition across the entire homepage!
   const usedArticleIds = new Set<string>();
 
-  // 2. Featured News: 1 Main Lead Story + 3 Secondary Stories (Editorial Grid)
+  // 2. Featured News: 1 Main Lead Story + 4 Secondary Stories (Editorial Grid)
   const leadArticle = newsArticles[0];
-  const secondaryArticles = newsArticles.slice(1, 4);
+  const secondaryArticles = newsArticles.slice(1, 5);
   if (leadArticle?.id) usedArticleIds.add(leadArticle.id);
   secondaryArticles.forEach(a => { if (a?.id) usedArticleIds.add(a.id); });
 
