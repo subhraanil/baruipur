@@ -37,6 +37,8 @@ next-env.d.ts
 *credentials*.json
 service_account.json
 reports/
+.build-hash-state.json
+.deploy-state.json
 
 # Performance marketing skill resources
 /SKILL.md
