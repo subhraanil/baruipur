@@ -22,6 +22,8 @@ export interface HealthcareFacility {
   slug: string;
   nameBn: string;
   nameEn: string;
+  metaTitle?: string;
+  metaDescription?: string;
   type: FacilityType;
   typeBn: string;
   taglineBn: string;

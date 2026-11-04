@@ -52,8 +52,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cleanBn = cleanBengaliName(facility.nameBn);
   const cleanEn = cleanEnglishName(facility.nameEn);
   const bilingualName = formatBilingualLocation(facility.nameBn, facility.nameEn);
-  const title = `${bilingualName} | ডাক্তার তালিকা ও সময়সূচি`;
-  const rawDesc = `${bilingualName}: ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি এবং যোগাযোগের নম্বর।`;
+  const title = facility.metaTitle || `${bilingualName} | ডাক্তার তালিকা ও সময়সূচি`;
+  const rawDesc = facility.metaDescription || `${bilingualName}: ঠিকানা, ওপিডি ডাক্তারদের রোস্টার, বসার দিন ও সময়, ভিজিটিং ফি এবং যোগাযোগের নম্বর।`;
   const cleanDesc = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
 
   const doctorKeywords = facility.doctors ? facility.doctors.flatMap(d => [

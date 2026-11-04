@@ -49,8 +49,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cleanBn = cleanBengaliName(org.nameBn);
   const cleanEn = cleanEnglishName(org.nameEn);
   const bilingualName = formatBilingualLocation(org.nameBn, org.nameEn);
-  const title = `${bilingualName} | ইতিহাস, সমাজসেবা ও যোগাযোগের তথ্য`;
-  const rawDesc = `${bilingualName}: ক্লাবের ইতিহাস, ক্রীড়া ও ফুটবল টুর্নামেন্ট, রক্তদান শিবির, সমাজকল্যাণমূলক কর্মকাণ্ড এবং যোগাযোগের সম্পূর্ণ তথ্য।`;
+  const title = org.metaTitle || `${bilingualName} | ইতিহাস, সমাজসেবা ও যোগাযোগের তথ্য`;
+  const rawDesc = org.metaDescription || `${bilingualName}: ক্লাবের ইতিহাস, ক্রীড়া ও ফুটবল টুর্নামেন্ট, রক্তদান শিবির, সমাজকল্যাণমূলক কর্মকাণ্ড এবং যোগাযোগের সম্পূর্ণ তথ্য।`;
   const cleanDesc = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
 
   return {

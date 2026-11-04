@@ -86,8 +86,8 @@ export function generateMetadata({ params }: PlacePageProps): Metadata {
   const cleanEn = cleanEnglishName(place.nameEn);
   const bilingualName = formatBilingualLocation(place.nameBn, place.nameEn);
   const canonicalUrl = `https://baruipur.online/places/${place.slug}/`;
-  const title = `${bilingualName} | ইতিহাস, নাগরিক তথ্য ও গাইড`;
-  const rawDesc = `${bilingualName}: ঠিকানা, যোগাযোগ, ইতিহাস, নাগরিক পরিষেবা ও প্রশাসনিক সম্পূর্ণ তথ্য নির্দেশিকা।`;
+  const title = place.metaTitle || `${bilingualName} | ইতিহাস, নাগরিক তথ্য ও গাইড`;
+  const rawDesc = place.metaDescription || `${bilingualName}: ঠিকানা, যোগাযোগ, ইতিহাস, নাগরিক পরিষেবা ও প্রশাসনিক সম্পূর্ণ তথ্য নির্দেশিকা।`;
   const description = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc;
   const image = place.coverImage || place.images?.[0]?.url || 'https://baruipur.online/images/baruipur-logo.png';
 
