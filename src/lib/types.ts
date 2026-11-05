@@ -52,8 +52,9 @@ export interface Article {
 export interface Source {
   id: string;
   name: string;
-  type: 'facebook' | 'telegram' | 'youtube' | 'rss';
+  type: 'facebook' | 'telegram' | 'youtube' | 'rss' | string;
   url: string;
+  searchUrl?: string;
   handle?: string;
   defaultCategory: ArticleCategory;
   isActive: boolean;
@@ -61,6 +62,7 @@ export interface Source {
   lastCrawledAt?: string;
   postsCount: number;
   description?: string;
+  filterBaruipurOnly?: boolean;
 }
 
 export interface CrawlLog {

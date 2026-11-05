@@ -176,6 +176,23 @@ function isJunkOrCommentOrPromo(text) {
   return false;
 }
 
+
+// 1b. Strict Geographic Relevance Filter for broad regional sources
+function isBaruipurGeographicallyRelevant(text) {
+  if (!text) return false;
+  const lower = text.toLowerCase();
+  const baruipurKeywords = [
+    'বারুইপুর', 'baruipur', 'পদ্মপুকুর', 'padmapukur', 'কাছারি বাজার', 'পুরাতন বাজার',
+    'রাসমাঠ', 'চম্পাহাটি', 'champahati', 'কল্যাণপুর', 'ধপধপি', 'dhapdhapi',
+    'মল্লিকপুর', 'mallikpur', 'সুভাষগ্রাম', 'subhasgram', 'সোনারপুর', 'sonarpur',
+    'জয়নগর', 'joynagar', 'ক্যানিং', 'canning', 'নরেন্দ্রপুর', 'narendrapur',
+    'কাশীপুর', 'কাশিপুর', 'ভাঙড়', 'ভাঙর', 'bhangar', 'কুলতলি', 'kultali',
+    'জীবনতলা', 'jibantala', 'বারুইপুর পুলিশ জেলা', 'বারুইপুর আদালত', 'বারুইপুর মহকুমা',
+    'রামনগর', 'ramnagar', 'দক্ষিণ ২৪ পরগনা'
+  ];
+  return baruipurKeywords.some(kw => lower.includes(kw));
+}
+
 // 2. Category detector
 function detectCategory(text) {
   const raw = text.split('\n\n[')[0].toLowerCase();
