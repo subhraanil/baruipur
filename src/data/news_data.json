@@ -112,10 +112,9 @@
       "sourceType": "editorial",
       "sourceUrl": "https://online.sbstc.com/",
       "originalPostUrl": "https://online.sbstc.com/",
-      "imageUrl": "/images/places/baruipur-bypass.jpg",
+      "imageUrl": "/images/places/baruipur-long-distance-bus-services.jpg",
       "images": [
-        "/images/places/baruipur-bypass.jpg",
-        "/images/places/baruipur-junction-railway-station.jpg"
+        "/images/places/baruipur-long-distance-bus-services.jpg"
       ],
       "publishedAt": "2026-11-05T09:50:57.675Z",
       "isBreaking": false,
@@ -141,9 +140,9 @@
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places/baruipur-puratan-bazar-kachari-bazar",
       "originalPostUrl": "https://baruipur.online/places/baruipur-puratan-bazar-kachari-bazar",
-      "imageUrl": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
+      "imageUrl": "/images/baruipur-furniture-craft-guide.jpg",
       "images": [
-        "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg"
+        "/images/baruipur-furniture-craft-guide.jpg"
       ],
       "publishedAt": "2026-11-05T09:50:57.675Z",
       "isBreaking": false,
@@ -518,9 +517,9 @@
       "sourceId": "portal-editorial-guide",
       "sourceName": "বারুইপুর অনলাইন বার্তা ডেস্ক",
       "sourceType": "guide",
-      "imageUrl": "/images/crawled/b806c17832d93737c4ce9762de635cc6.jpg",
+      "imageUrl": "/images/baruipur-veterinary-pet-care-guide.jpg",
       "images": [
-        "/images/crawled/b806c17832d93737c4ce9762de635cc6.jpg",
+        "/images/baruipur-veterinary-pet-care-guide.jpg",
         "/images/crawled/b74b66347c55ed89b01702ed7cecb35c.jpg"
       ],
       "publishedAt": "2026-11-04T08:00:00.000Z",
@@ -824,7 +823,11 @@
       "isFeatured": true,
       "slug": "বারুইপুর-রাসমাঠে-জমকালো-সঙ্গীত-সন্ধ্যা-ও-বিজয়া-সম্মিলনী-গায়িকা-জোজো-অভিনে-rasmath",
       "publishedAt": "2026-11-01T09:42:06.323Z",
-      "views": 54
+      "views": 54,
+      "imageUrl": "/images/baruipur-rasmath-cultural-concert.jpg",
+      "images": [
+        "/images/baruipur-rasmath-cultural-concert.jpg"
+      ]
     },
     {
       "id": "art-1793525952130-m9ys",
@@ -1120,9 +1123,9 @@
       "sourceId": "src-administrative-desk",
       "sourceName": "বারুইপুর অনলাইন প্রশাসনিক তথ্যকোষ",
       "sourceType": "manual",
-      "imageUrl": "/images/places/baruipur-bdo-office-front.jpg",
+      "imageUrl": "/images/places/baruipur-bdo-office-building.jpg",
       "images": [
-        "/images/places/baruipur-bdo-office-front.jpg",
+        "/images/places/baruipur-bdo-office-building.jpg",
         "/images/crawled/116cd24e081f7ff07e03882b7f2824d7.jpg"
       ],
       "publishedAt": "2026-10-29T04:01:56.843Z",
@@ -1151,9 +1154,9 @@
       "sourceId": "src-editorial-desk",
       "sourceName": "বারুইপুর অনলাইন ফুড ডেস্ক",
       "sourceType": "manual",
-      "imageUrl": "/images/baruipur-food-guide-hub.jpg",
+      "imageUrl": "/images/baruipur-station-restaurant-dining-guide.jpg",
       "images": [
-        "/images/baruipur-food-guide-hub.jpg",
+        "/images/baruipur-station-restaurant-dining-guide.jpg",
         "/images/crawled/116cd24e081f7ff07e03882b7f2824d7.jpg"
       ],
       "publishedAt": "2026-10-29T03:59:17.516Z",
@@ -1567,9 +1570,9 @@
       "authorName": "সৌমেন কর্মকার",
       "authorRole": "বাণিজ্য ও বাজার প্রতিনিধি",
       "reportingLocation": "বারুইপুর স্টেশন রোড ও পুরাতন বাজার স্বর্ণ হাব",
-      "imageUrl": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
+      "imageUrl": "/images/baruipur-gold-jewellery-guide.jpg",
       "images": [
-        "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
+        "/images/baruipur-gold-jewellery-guide.jpg",
         "/images/places/baruipur-junction-railway-station.jpg"
       ],
       "publishedAt": "2026-10-27T03:55:00.000Z",
@@ -1588,9 +1591,9 @@
       "authorName": "প্রিয়াঙ্কা চক্রবর্তী",
       "authorRole": "লাইফস্টাইল ও স্থানীয় জীবনযাত্রা প্রতিবেদক",
       "reportingLocation": "বারুইপুর পুরাতন বাজার ও স্টেশন রোড শপিং হাব",
-      "imageUrl": "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg",
+      "imageUrl": "/images/baruipur-bridal-shopping-guide.jpg",
       "images": [
-        "/images/places/baruipur-puratan-bazar-kachari-bazar.jpg"
+        "/images/baruipur-bridal-shopping-guide.jpg"
       ],
       "publishedAt": "2026-10-27T03:50:00.000Z",
       "status": "published",
@@ -1629,9 +1632,9 @@
       "authorName": "মৌসুমী সেনগুপ্ত",
       "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
       "reportingLocation": "বারুইপুর রবীন্দ্র ভবন ও সংস্কৃতি বলয়",
-      "imageUrl": "/images/places/baruipur-rabindra-bhawan.jpg",
+      "imageUrl": "/images/baruipur-classical-dance-music-guide.jpg",
       "images": [
-        "/images/places/baruipur-rabindra-bhawan.jpg"
+        "/images/baruipur-classical-dance-music-guide.jpg"
       ],
       "publishedAt": "2026-10-27T03:40:00.000Z",
       "status": "published",
@@ -1794,9 +1797,9 @@
       "authorName": "মৌসুমী সেনগুপ্ত",
       "authorRole": "সংস্কৃতি, ঐতিহ্য ও উৎসব প্রতিনিধি",
       "reportingLocation": "বারুইপুর পদ্মপুকুর ও স্টেশন চত্বর",
-      "imageUrl": "/images/places/baruipur-rabindra-bhawan.jpg",
+      "imageUrl": "/images/baruipur-kali-puja-pandals-lighting.jpg",
       "images": [
-        "/images/places/baruipur-rabindra-bhawan.jpg",
+        "/images/baruipur-kali-puja-pandals-lighting.jpg",
         "/images/places/baruipur-junction-railway-station.jpg"
       ],
       "publishedAt": "2026-10-27T03:00:00.000Z",
@@ -1881,9 +1884,9 @@
       "sourceType": "original",
       "sourceUrl": "https://baruipur.online/events/",
       "originalPostUrl": "https://baruipur.online/events/",
-      "imageUrl": "/images/places/baruipur-rabindra-bhawan.jpg",
+      "imageUrl": "/images/baruipur-milan-mela-carnival-guide.jpg",
       "images": [
-        "/images/places/baruipur-rabindra-bhawan.jpg",
+        "/images/baruipur-milan-mela-carnival-guide.jpg",
         "/images/places/baruipur-junction-railway-station.jpg",
         "/images/crawled/b9637c0410fe676dace49e2b24a08016.jpg",
         "/images/crawled/a8f08777e0403fe3e82810930c7f5b2a.jpg",
@@ -2154,7 +2157,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1536511135898-349887f4c029?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-guava-litchi-farming-guide.jpg",
       "publishedAt": "2026-10-24T10:00:00.000Z",
       "authorId": "soumen-karmakar",
       "authorName": "সৌমেন কর্মকার",
@@ -2162,7 +2165,10 @@
       "reportingLocation": "ধপধপি, কল্যাণপুর ও খাসমল্লিক পেয়ারা আড়ত",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/baruipur-guava-litchi-farming-guide.jpg"
+      ]
     },
     {
       "id": "art-guide-baruipur-padmapukur-plant-nursery-hub",
@@ -2175,7 +2181,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-plant-nursery-hub.jpg",
       "publishedAt": "2026-10-24T09:55:00.000Z",
       "authorId": "soumen-karmakar",
       "authorName": "সৌমেন কর্মকার",
@@ -2183,7 +2189,10 @@
       "reportingLocation": "বারুইপুর-মল্লিকপুর রোড ও পদ্মপুকুর",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/baruipur-plant-nursery-hub.jpg"
+      ]
     },
     {
       "id": "art-guide-baruipur-best-rooftop-cafes-hangout-spots",
@@ -2196,7 +2205,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-rooftop-cafes-hangout.jpg",
       "publishedAt": "2026-10-24T09:50:00.000Z",
       "authorId": "priyanka-chakraborty",
       "authorName": "প্রিয়াঙ্কা চক্রবর্তী",
@@ -2204,7 +2213,10 @@
       "reportingLocation": "বারুইপুর বাইপাস ও পদ্মপুকুর মোড়",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/baruipur-rooftop-cafes-hangout.jpg"
+      ]
     },
     {
       "id": "art-guide-baruipur-computer-training-skill-centers",
@@ -2217,7 +2229,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-computer-training-centers.jpg",
       "publishedAt": "2026-10-24T09:45:00.000Z",
       "authorId": "mousumi-sengupta",
       "authorName": "মৌসুমী সেনগুপ্ত",
@@ -2225,7 +2237,10 @@
       "reportingLocation": "বারুইপুর স্টেশন রোড ও কাছারি বাজার",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/baruipur-computer-training-centers.jpg"
+      ]
     },
     {
       "id": "art-guide-baruipur-cricket-football-coaching-academies",
@@ -2238,7 +2253,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-sports-coaching-academies.jpg",
       "publishedAt": "2026-10-24T09:40:00.000Z",
       "authorId": "amit-mandal",
       "authorName": "অমিত মণ্ডল",
@@ -2246,7 +2261,10 @@
       "reportingLocation": "বারুইপুর রাসমাঠ ও স্পোর্টস কমপ্লেক্স",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/baruipur-sports-coaching-academies.jpg"
+      ]
     },
     {
       "id": "art-guide-baruipur-swimming-pool-admission-fees",
@@ -2259,7 +2277,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-swimming-pool-guide.jpg",
       "publishedAt": "2026-10-24T09:35:00.000Z",
       "authorId": "amit-mandal",
       "authorName": "অমিত মণ্ডল",
@@ -2267,7 +2285,10 @@
       "reportingLocation": "বারুইপুর পৌর সুইমিং পুল চত্বর",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/baruipur-swimming-pool-guide.jpg"
+      ]
     },
     {
       "id": "art-guide-joynagar-moa-nolen-gur-authenticity",
@@ -2280,7 +2301,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর অনলাইন বিশেষ অনুসন্ধান",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/joynagar-moa-nolen-gur-guide.jpg",
       "publishedAt": "2026-10-24T09:30:00.000Z",
       "authorId": "priyanka-chakraborty",
       "authorName": "প্রিয়াঙ্কা চক্রবর্তী",
@@ -2288,7 +2309,10 @@
       "reportingLocation": "জয়নগর-মজিলপুর ও বারুইপুর জংশন",
       "status": "published",
       "isApproved": true,
-      "isTopNews": true
+      "isTopNews": true,
+      "images": [
+        "/images/joynagar-moa-nolen-gur-guide.jpg"
+      ]
     },
     {
       "id": "art-1792813035289-3zem",
@@ -2392,9 +2416,9 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর ট্রাভেল ও উইকএন্ড গাইড",
       "sourceType": "manual",
-      "imageUrl": "https://baruipur.online/images/places/neeldeep-garden-baruipur.jpg",
+      "imageUrl": "/images/places/neeldeep-garden-baruipur.jpg",
       "images": [
-        "https://baruipur.online/images/places/neeldeep-garden-baruipur.jpg",
+        "/images/places/neeldeep-garden-baruipur.jpg",
         "https://baruipur.online/images/places/baruipur-aranyak.jpg",
         "https://baruipur.online/images/places/baruipur-happy-valley.jpg"
       ],
@@ -2420,7 +2444,7 @@
       "sourceId": "src-manual",
       "sourceName": "বারুইপুর ঐতিহ্য ও ইতিহাস ডেস্ক",
       "sourceType": "manual",
-      "imageUrl": "https://baruipur.online/images/places/atghara-heritage-site.jpg",
+      "imageUrl": "/images/places/atghara-heritage-site.jpg",
       "publishedAt": "2026-10-23T11:00:00.000Z",
       "isBreaking": false,
       "isFeatured": true,
@@ -2430,7 +2454,10 @@
       "authorId": "mousumi-sengupta",
       "authorName": "মৌসুমী সেনগুপ্ত",
       "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
-      "reportingLocation": "বারুইপুর আদি গঙ্গা তীর"
+      "reportingLocation": "বারুইপুর আদি গঙ্গা তীর",
+      "images": [
+        "/images/places/atghara-heritage-site.jpg"
+      ]
     },
     {
       "id": "art-1792745033503-t3uk",
@@ -2483,7 +2510,7 @@
       "sourceId": "src-2",
       "sourceName": "বারুইপুর লোকাল নিউজ",
       "sourceType": "manual",
-      "imageUrl": "https://images.unsplash.com/photo-1607344645866-009c320c5ab8?w=800&auto=format&fit=crop&q=80",
+      "imageUrl": "/images/baruipur-lakshmi-puja-market.jpg",
       "publishedAt": "2026-10-23T07:30:00.000Z",
       "isBreaking": false,
       "isFeatured": true,
@@ -2493,7 +2520,10 @@
       "authorId": "mousumi-sengupta",
       "authorName": "মৌসুমী সেনগুপ্ত",
       "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
-      "reportingLocation": "বারুইপুর কাছারি বাজার"
+      "reportingLocation": "বারুইপুর কাছারি বাজার",
+      "images": [
+        "/images/baruipur-lakshmi-puja-market.jpg"
+      ]
     },
     {
       "id": "art-1792741761464-l9qt",
@@ -4982,9 +5012,9 @@
       "sourceType": "original",
       "sourceUrl": "https://baruipur.online/best-banquet-halls-and-marriage-venues-in-baruipur/",
       "originalPostUrl": "https://baruipur.online/best-banquet-halls-and-marriage-venues-in-baruipur/",
-      "imageUrl": "/images/crawled/5d1b233d58244f98d8942ab83978791d.jpg",
+      "imageUrl": "/images/baruipur-banquet-wedding-halls-guide.jpg",
       "images": [
-        "/images/crawled/5d1b233d58244f98d8942ab83978791d.jpg",
+        "/images/baruipur-banquet-wedding-halls-guide.jpg",
         "/images/crawled/ac09f5c6553370e91dfb5d5f269c8bca.jpg"
       ],
       "publishedAt": "2026-10-14T15:19:45.751Z",
@@ -5012,9 +5042,9 @@
       "sourceType": "original",
       "sourceUrl": "https://baruipur.online/baruipur-real-estate-property-and-flat-buying-guide/",
       "originalPostUrl": "https://baruipur.online/baruipur-real-estate-property-and-flat-buying-guide/",
-      "imageUrl": "/images/crawled/ac09f5c6553370e91dfb5d5f269c8bca.jpg",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
       "images": [
-        "/images/crawled/ac09f5c6553370e91dfb5d5f269c8bca.jpg",
+        "/images/baruipur-real-estate-flats-guide.jpg",
         "/images/crawled/b62cc5479d18e750675d3d3a99a892fa.jpg"
       ],
       "publishedAt": "2026-10-14T15:19:45.751Z",
@@ -12291,7 +12321,7 @@
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0ETvYsaZNdoULGwEti3iypbpNfqnZwwtHEBy6MoZRu7eA75WYH1isQKJvsFuA1zH5l",
       "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0ETvYsaZNdoULGwEti3iypbpNfqnZwwtHEBy6MoZRu7eA75WYH1isQKJvsFuA1zH5l",
-      "imageUrl": "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg",
+      "imageUrl": "/images/news-bank-fraud-investigation.jpg",
       "videoUrl": "https://www.facebook.com/watch/?v=1651234460052247",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1651234460052247&show_text=0",
       "publishedAt": "2026-09-14T03:06:08.000Z",
@@ -12304,7 +12334,7 @@
         "Baruipur Police District, Baruipur Update, Baruipur Barta"
       ],
       "images": [
-        "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
+        "/images/news-bank-fraud-investigation.jpg"
       ],
       "isGuide": false,
       "sourceCategory": "official",
@@ -13454,7 +13484,7 @@
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0mMBu4yMubN5cZVGDp3sQCdwJsHb5APdRCKA8juGVAWGYxRhcvVxFA4Q7TiN45t69l",
       "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0mMBu4yMubN5cZVGDp3sQCdwJsHb5APdRCKA8juGVAWGYxRhcvVxFA4Q7TiN45t69l",
-      "imageUrl": "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg",
+      "imageUrl": "/images/news-green-environment-plantation.jpg",
       "videoUrl": "https://www.facebook.com/watch/?v=2269512487782666",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2269512487782666&show_text=0",
       "publishedAt": "2026-09-10T03:26:23.000Z",
@@ -13467,7 +13497,7 @@
         "Baruipur Police District"
       ],
       "images": [
-        "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
+        "/images/news-green-environment-plantation.jpg"
       ],
       "isGuide": false,
       "sourceCategory": "official",
@@ -13931,7 +13961,7 @@
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0GLNRS4egM9r8sRD4dHQB9wiN8PWbA5wR19A9rKpgPsn54fVzukCGNhmKE4qEpSuNl",
       "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0GLNRS4egM9r8sRD4dHQB9wiN8PWbA5wR19A9rKpgPsn54fVzukCGNhmKE4qEpSuNl",
-      "imageUrl": "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg",
+      "imageUrl": "/images/news-cyber-crime-fraud-recovery.jpg",
       "videoUrl": "https://www.facebook.com/watch/?v=1679340473560326",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1679340473560326&show_text=0",
       "publishedAt": "2026-09-07T03:17:16.000Z",
@@ -13944,7 +13974,7 @@
         "Baruipur Police District"
       ],
       "images": [
-        "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
+        "/images/news-cyber-crime-fraud-recovery.jpg"
       ],
       "isGuide": false,
       "sourceCategory": "official",
@@ -14438,7 +14468,7 @@
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0N5u15myHkS5g3uEnKHs15dFgkfK7GgcEBs59cBv6AhWNM8R71mkkjHHUDu7xiSHGl",
       "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid0N5u15myHkS5g3uEnKHs15dFgkfK7GgcEBs59cBv6AhWNM8R71mkkjHHUDu7xiSHGl",
-      "imageUrl": "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg",
+      "imageUrl": "/images/news-anti-narcotics-drugs-action.jpg",
       "publishedAt": "2026-09-02T14:56:42.000Z",
       "isBreaking": true,
       "isFeatured": false,
@@ -14449,7 +14479,7 @@
         "Baruipur Police District"
       ],
       "images": [
-        "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
+        "/images/news-anti-narcotics-drugs-action.jpg"
       ],
       "isGuide": false,
       "sourceCategory": "official",
@@ -14505,7 +14535,7 @@
       "sourceType": "facebook",
       "sourceUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid02yHguxsEexDx81PL3KHWdSDqvg7uYDdrnpc86qUqTkcd8FUod8jJvranazNcwQz5ol",
       "originalPostUrl": "https://www.facebook.com/BaruipurPoliceDistrict/posts/pfbid02yHguxsEexDx81PL3KHWdSDqvg7uYDdrnpc86qUqTkcd8FUod8jJvranazNcwQz5ol",
-      "imageUrl": "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg",
+      "imageUrl": "/images/news-court-justice-life-sentence.jpg",
       "publishedAt": "2026-09-02T09:10:40.000Z",
       "isBreaking": true,
       "isFeatured": false,
@@ -14516,7 +14546,7 @@
         "Baruipur Police District"
       ],
       "images": [
-        "/images/crawled/e31ef92452cde9ef00f8a718fb566a04.jpg"
+        "/images/news-court-justice-life-sentence.jpg"
       ],
       "isGuide": false,
       "sourceCategory": "official",
@@ -14606,9 +14636,9 @@
       "sourceType": "editorial",
       "sourceUrl": "https://baruipur.online/places/baruipur-municipality",
       "originalPostUrl": "https://baruipur.online/places/baruipur-municipality",
-      "imageUrl": "/images/crawled/259888058bf68f0396e450c2ea60d226.jpg",
+      "imageUrl": "/images/baruipur-politics-assembly-guide.jpg",
       "images": [
-        "/images/crawled/259888058bf68f0396e450c2ea60d226.jpg"
+        "/images/baruipur-politics-assembly-guide.jpg"
       ],
       "publishedAt": "2026-09-01T12:00:00.000Z",
       "isBreaking": false,

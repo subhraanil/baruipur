@@ -442,6 +442,122 @@ async function downloadImageLocally(url) {
   return url;
 }
 
+
+// 6b. Automated Intelligent Banner Image Relevance Engine
+function resolveRelevantBannerImage(post, category, headline, content, downloadedImages) {
+  const text = ((headline || '') + ' ' + (content || '')).toLowerCase();
+
+  // 1. Check if the crawled primary image is substantive (> 12KB) and not a generic logo/crest
+  if (downloadedImages && downloadedImages.length > 0) {
+    const candidate = downloadedImages[0];
+    if (candidate.startsWith('/images/crawled/')) {
+      const fullPath = path.join(__dirname, '..', 'public', candidate.replace(/^\//, ''));
+      if (fs.existsSync(fullPath)) {
+        const stats = fs.statSync(fullPath);
+        const isKnownGenericLogo = candidate.includes('e31ef92452cde9ef00f8a718fb566a04'); // Police crest
+        if (stats.size >= 12000 && !isKnownGenericLogo) {
+          return candidate;
+        }
+        // If it is police crest, only allow if official police press release / safety advisory
+        if (isKnownGenericLogo && (text.includes('বারুইপুর পুলিশ জেলা') || text.includes('পুলিশ সুপার') || text.includes('বিজ্ঞপ্তি') || text.includes('প্রেস রিলিজ'))) {
+          return candidate;
+        }
+      }
+    } else if (candidate.startsWith('/images/')) {
+      return candidate;
+    }
+  }
+
+  // 2. High-precision semantic & keyword relevance matching
+  if (text.includes('রেল') || text.includes('ট্রেন') || text.includes('শিয়ালদহ') || text.includes('লোকাল') || text.includes('প্ল্যাটফর্ম') || text.includes('রেলওয়ে') || category === 'railway') {
+    return '/images/places/baruipur-junction-railway-station.jpg';
+  }
+  if (text.includes('আদালত') || text.includes('বিচারক') || text.includes('মহকুমা আদালত') || text.includes('আইনি') || text.includes('জামিন') || text.includes('আইনজীবী') || text.includes('মামলা')) {
+    return '/images/places/baruipur-court.jpg';
+  }
+  if (text.includes('যাবজ্জীবন') || text.includes('কারাদণ্ড') || text.includes('সাজা') || text.includes('ফাঁসি') || text.includes('দোষী সাব্যস্ত')) {
+    return '/images/news-court-justice-life-sentence.jpg';
+  }
+  if (text.includes('সাইবার') || text.includes('হ্যাকিং') || text.includes('অনলাইন প্রতারণা') || text.includes('ওটিপি') || text.includes('অ্যাকাউন্ট থেকে টাকা')) {
+    return '/images/news-cyber-crime-fraud-recovery.jpg';
+  }
+  if (text.includes('ব্যাংক') || text.includes('ডাকাতি') || text.includes('লকার') || text.includes('জালিয়াতি') || text.includes('এটিএম')) {
+    return '/images/news-bank-fraud-investigation.jpg';
+  }
+  if (text.includes('মাদক') || text.includes('ড্রাগ') || text.includes('গাঁজা') || text.includes('ব্রাউন সুগার') || text.includes('হেরোইন') || text.includes('কফ সিরাপ') || text.includes('ফেনসিডিল')) {
+    return '/images/news-anti-narcotics-drugs-action.jpg';
+  }
+  if (text.includes('পশু') || text.includes('কুকুর') || text.includes('বিড়াল') || text.includes('ভেটেরিনারি') || text.includes('প্রাণী')) {
+    return '/images/baruipur-veterinary-pet-care-guide.jpg';
+  }
+  if (text.includes('হাসপাতাল') || text.includes('ডাক্তার') || text.includes('চিকিৎসা') || text.includes('স্বাস্থ্য') || text.includes('ওপিডি') || text.includes('নার্সিংহোম') || text.includes('রোগী') || category === 'health') {
+    return '/images/places/baruipur-subdivisional-hospital.jpg';
+  }
+  if (text.includes('পৌরসভা') || text.includes('চেয়ারম্যান') || text.includes('কাউন্সিলর') || text.includes('পৌর') || text.includes('নিকাশি') || text.includes('আবর্জনা') || category === 'municipality') {
+    return '/images/places/baruipur-municipality.jpg';
+  }
+  if (text.includes('বিদ্যুৎ') || text.includes('ডব্লিউবিএসইডিসিএল') || text.includes('wbsedcl') || text.includes('লোডশেডিং') || text.includes('ট্রান্সফরমার')) {
+    return '/images/baruipur-wbsedcl-electricity-office.jpg';
+  }
+  if (text.includes('পঞ্চায়েত') || text.includes('বিডিও') || text.includes('ব্লক') || text.includes('গ্রাম পঞ্চায়েত')) {
+    return '/images/places/baruipur-bdo-office-building.jpg';
+  }
+  if (text.includes('লাইসেন্স') || text.includes('আরটিও') || text.includes('ড্রাইভিং') || text.includes('যানবাহন নথি')) {
+    return '/images/places/baruipur-rto-driving-test.jpg';
+  }
+  if (text.includes('স্কুল') || text.includes('বিদ্যালয়') || text.includes('কলেজ') || text.includes('পরীক্ষা') || text.includes('ছাত্র') || text.includes('ছাত্রী') || category === 'education') {
+    return '/images/places/baruipur-college.jpg';
+  }
+  if (text.includes('কালীপূজা') || text.includes('কালীপুজো') || text.includes('আলো') || text.includes('রোশনাই') || text.includes('মণ্ডপ')) {
+    return '/images/baruipur-kali-puja-pandals-lighting.jpg';
+  }
+  if (text.includes('বাজি') || text.includes('পটকা') || text.includes('শব্দবাজি') || text.includes('গ্রিন বাজি') || text.includes('চম্পাহাটি')) {
+    return '/images/baruipur-green-crackers-market.jpg';
+  }
+  if (text.includes('মেলা') || text.includes('মিলন মেলা') || text.includes('রাসমেলা') || text.includes('নাগরদোলা')) {
+    return '/images/baruipur-milan-mela-carnival-guide.jpg';
+  }
+  if (text.includes('গান') || text.includes('সঙ্গীত') || text.includes('নাচ') || text.includes('সাংস্কৃতিক') || text.includes('রবীন্দ্র ভবন') || text.includes('শিল্প')) {
+    return '/images/baruipur-classical-dance-music-guide.jpg';
+  }
+  if (text.includes('সোনা') || text.includes('গয়না') || text.includes('অলঙ্কার') || text.includes('হলমার্ক') || text.includes('জুয়েলার্স')) {
+    return '/images/baruipur-gold-jewellery-guide.jpg';
+  }
+  if (text.includes('শাড়ি') || text.includes('বেনারসি') || text.includes('বিয়ে') || text.includes('ব্রাইডাল') || text.includes('শেরওয়ানি')) {
+    return '/images/baruipur-bridal-shopping-guide.jpg';
+  }
+  if (text.includes('ফার্নিচার') || text.includes('আসবাবপত্র') || text.includes('কাঠ') || text.includes('সাগুন') || text.includes('খাট')) {
+    return '/images/baruipur-furniture-craft-guide.jpg';
+  }
+  if (text.includes('রেস্তোরাঁ') || text.includes('রেস্টুরেন্ট') || text.includes('খাবার') || text.includes('মিষ্টি') || text.includes('ক্যাফে')) {
+    return '/images/baruipur-station-restaurant-dining-guide.jpg';
+  }
+  if (text.includes('ফ্ল্যাট') || text.includes('জমি') || text.includes('আবাসন') || text.includes('রিয়েল এস্টেট')) {
+    return '/images/baruipur-real-estate-flats-guide.jpg';
+  }
+  if (text.includes('বাস') || text.includes('দূরপাল্লা') || text.includes('দীঘা') || text.includes('পুরী') || text.includes('এসবিএসটিসি')) {
+    return '/images/places/baruipur-long-distance-bus-services.jpg';
+  }
+  if (text.includes('বাইপাস') || text.includes('রাস্তা') || text.includes('যানজট') || text.includes('যান চলাচল')) {
+    return '/images/places/baruipur-bypass.jpg';
+  }
+  if (text.includes('গাছ') || text.includes('বৃক্ষরোপণ') || text.includes('পরিবেশ') || text.includes('সবুজ')) {
+    return '/images/news-green-environment-plantation.jpg';
+  }
+  if (text.includes('পুলিশ') || text.includes('গ্রেফতার') || text.includes('থানা') || text.includes('তদন্ত') || category === 'crime') {
+    return '/images/places/baruipur-police-district.jpg';
+  }
+  if (text.includes('বাজার') || text.includes('কাছারি বাজার') || text.includes('পুরাতন বাজার') || text.includes('দোকান')) {
+    return '/images/places/baruipur-puratan-bazar-kachari-bazar.jpg';
+  }
+  if (category === 'culture') {
+    return '/images/places/baruipur-charak-rashmath.jpg';
+  }
+
+  // 3. High quality universal local fallback
+  return '/images/places/baruipur-junction-railway-station.jpg';
+}
+
 // 7. Scrape a Facebook page with clean comment isolation
 async function scrapeFacebookSource(source) {
   const posts = [];
@@ -1036,9 +1152,15 @@ async function runWorkflow() {
       if (local) downloadedImages.push(local);
     }
 
-    const primaryImage = downloadedImages.length > 0 ? downloadedImages[0] : '';
+    // Automated Intelligent Banner Image Relevance Engine
+    const primaryImage = resolveRelevantBannerImage(post, category, headline, cleaned, downloadedImages);
     if (!primaryImage && !post.videoUrl) {
       continue;
+    }
+    if (downloadedImages.length === 0 && primaryImage) {
+      downloadedImages.push(primaryImage);
+    } else if (downloadedImages.length > 0 && downloadedImages[0] !== primaryImage) {
+      downloadedImages.unshift(primaryImage);
     }
 
     // Google AdSense Quality Gate 1: Source substance check
