@@ -1083,6 +1083,9 @@ async function runWorkflow() {
         promoCount++;
         continue;
       }
+      if (s.filterBaruipurOnly && !isBaruipurGeographicallyRelevant(p.content)) {
+        continue;
+      }
       allRawPosts.push(p);
       validCount++;
     }

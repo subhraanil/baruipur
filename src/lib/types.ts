@@ -26,7 +26,7 @@ export interface Article {
   categoryNameBn: string;
   sourceId: string;
   sourceName: string;
-  sourceType: 'facebook' | 'telegram' | 'youtube' | 'rss' | 'manual';
+  sourceType: 'facebook' | 'telegram' | 'youtube' | 'rss' | 'manual' | string;
   sourceUrl?: string;
   originalPostUrl?: string;
   imageUrl: string;
