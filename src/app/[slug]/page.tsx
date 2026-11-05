@@ -85,10 +85,11 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
   const cleanTitle = article.title.replace(/["']/g, '').trim();
   const safeAltText = cleanTitle.length > 78 ? (cleanTitle.slice(0, 75) + '...') : cleanTitle;
 
-  const pageTitle = article.title.replace(/["']/g, '').trim();
-  const titleDisplay = pageTitle.length > 50 
-    ? `${pageTitle.slice(0, 47)}... | বারুইপুর` 
-    : `${pageTitle} | বারুইপুর`;
+  const rawTitle = (article.metaTitle || article.title).replace(/["']/g, '').trim();
+  const hasBrand = rawTitle.includes('বারুইপুর') || rawTitle.includes('Baruipur');
+  const titleDisplay = hasBrand
+    ? (rawTitle.length > 62 ? `${rawTitle.slice(0, 59)}...` : rawTitle)
+    : (rawTitle.length > 46 ? `${rawTitle.slice(0, 43)}... | বারুইপুর` : `${rawTitle} | বারুইপুর`);
 
   return {
     title: { absolute: titleDisplay },

@@ -16,6 +16,8 @@ export interface Article {
   id: string;
   title: string;
   originalTitle?: string;
+  metaTitle?: string;
+  metaDescription?: string;
   slug: string;
   aliases?: string[];
   summary: string;

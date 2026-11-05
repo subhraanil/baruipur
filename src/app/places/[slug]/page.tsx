@@ -185,7 +185,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
       streetAddress: place.address,
       addressLocality: 'Baruipur',
       addressRegion: 'West Bengal',
-      postalCode: '743302',
+      postalCode: place.administrativeDetails?.pincode || '700144',
       addressCountry: 'IN'
     },
     geo: {
@@ -226,6 +226,19 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
     ]
   };
 
+  const faqSchema = place.faqs && place.faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: place.faqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer
+      }
+    }))
+  } : null;
+
   return (
     <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
@@ -237,6 +250,12 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6 overflow-x-auto">
