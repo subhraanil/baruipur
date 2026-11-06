@@ -502,6 +502,18 @@ function resolveRelevantBannerImage(post, category, headline, content, downloade
   if (text.includes('মাদক') || text.includes('ড্রাগ') || text.includes('গাঁজা') || text.includes('ব্রাউন সুগার') || text.includes('হেরোইন') || text.includes('কফ সিরাপ') || text.includes('ফেনসিডিল')) {
     return '/images/news-anti-narcotics-drugs-action.jpg';
   }
+  if (text.includes('দাঁত') || text.includes('ডেন্টাল') || text.includes('রুট ক্যানাল') || text.includes('দাঁতের')) {
+    return '/images/baruipur-dental-clinic-dentist-guide.jpg';
+  }
+  if (text.includes('ইভি') || text.includes('ইলেকট্রিক স্কুটার') || text.includes('ই-বাইক') || text.includes('ola') || text.includes('ather')) {
+    return '/images/baruipur-electric-scooter-ev-showroom-guide.jpg';
+  }
+  if (text.includes('ইলেকট্রনিক্স') || text.includes('হোম অ্যাপ্লায়েন্স') || text.includes('টিভি') || text.includes('ফ্রিজ') || text.includes('ওয়াশিং মেশিন')) {
+    return '/images/baruipur-electronics-home-appliances-guide.jpg';
+  }
+  if (text.includes('প্লাম্বার') || text.includes('ইলেকট্রিশিয়ান') || text.includes('এসি মেরামত') || text.includes('মেকানিক')) {
+    return '/images/baruipur-plumber-electrician-home-repair-guide.jpg';
+  }
   if (text.includes('পশু') || text.includes('কুকুর') || text.includes('বিড়াল') || text.includes('ভেটেরিনারি') || text.includes('প্রাণী')) {
     return '/images/baruipur-veterinary-pet-care-guide.jpg';
   }
