@@ -6,6 +6,8 @@ import FeaturedHeroGrid from '@/components/FeaturedHeroGrid';
 import QuickAccessDirectory from '@/components/QuickAccessDirectory';
 import LocalDirectoryHighlights from '@/components/LocalDirectoryHighlights';
 import FeaturedGuidesSection from '@/components/FeaturedGuidesSection';
+import HomePropertySection from '@/components/HomePropertySection';
+import HomeTendersSection from '@/components/HomeTendersSection';
 import NewsCategorySection from '@/components/NewsCategorySection';
 import BaruipurUtilities from '@/components/BaruipurUtilities';
 import BreakingNewsTicker from '@/components/BreakingNewsTicker';
@@ -214,7 +216,13 @@ export default function HomePage() {
               organizations={featuredOrganizations}
             />
 
-            {/* 4D. Evergreen Lifestyle Guides: 8 Verified Special Guides */}
+            {/* 4D. Real Estate & Property Buy/Sell Showcase */}
+            <HomePropertySection />
+
+            {/* 4E. Official Municipal & Govt Tenders Section */}
+            <HomeTendersSection />
+
+            {/* 4F. Evergreen Lifestyle Guides: 8 Verified Special Guides */}
             <FeaturedGuidesSection />
 
             {/* 4E. Annual Events Calendar Banner */}

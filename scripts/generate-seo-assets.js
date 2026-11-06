@@ -64,6 +64,26 @@ try {
   console.warn('Could not load healthcare_data.json:', e.message);
 }
 
+const TENDERS_FILE = path.join(__dirname, '../src/data/tenders_data.json');
+let tenders = [];
+try {
+  if (fs.existsSync(TENDERS_FILE)) {
+    tenders = (JSON.parse(fs.readFileSync(TENDERS_FILE, 'utf8'))).tenders || [];
+  }
+} catch (e) {
+  console.warn('Could not load tenders_data.json:', e.message);
+}
+
+const PROPERTIES_FILE = path.join(__dirname, '../src/data/properties_data.json');
+let properties = [];
+try {
+  if (fs.existsSync(PROPERTIES_FILE)) {
+    properties = (JSON.parse(fs.readFileSync(PROPERTIES_FILE, 'utf8'))).properties || [];
+  }
+} catch (e) {
+  console.warn('Could not load properties_data.json:', e.message);
+}
+
 const categories = [
   { slug: 'all', nameBn: 'সব খবর', nameEn: 'All News', desc: 'বারুইপুর অঞ্চলের সমস্ত তাজা খবর ও সংকলন।' },
   { slug: 'food', nameBn: 'খাবার ও রেস্তোরাঁ', nameEn: 'Food & Dining', desc: 'বারুইপুরের সেরা রেস্তোরাঁ, ক্যাফে, বিরিয়ানি ও ঐতিহ্যবাহী মিষ্টির দোকান এবং খাবারের গাইড।' },
@@ -172,6 +192,8 @@ for (const cat of categories) {
 }
 
 const staticPages = [
+  { path: '/property/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Buy & Sell Real Estate (Flats, Land, Resale & Bank Auction)' },
+  { path: '/tenders/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Municipality & Govt Tenders (e-Procurement NIT)' },
   { path: '/health-directory/', priority: '0.95', changefreq: 'daily', title: 'Healthcare & Doctor OPD Directory' },
   { path: '/places/', priority: '0.9', changefreq: 'weekly', title: 'Places Hub' },
   { path: '/organizations/', priority: '0.9', changefreq: 'weekly', title: 'Organizations Hub' },
@@ -369,6 +391,8 @@ This site aggregates, verifies, synthesizes, and contextualizes regional reporti
 - [উৎসব ও খেলাধুলা (Culture & Sports)](${SITE_URL}/category/culture/): Baruipur Rasmela (রাসমেলা), Durga Puja, Kali Puja (Dhapdhapi), regional football and cricket tournaments.
 
 ## Core Information Pillars & Citizen Guides
+- [জমি ও ফ্ল্যাট কেনাবেচা (Real Estate Buy & Sale)](${SITE_URL}/property/): বারুইপুরে নতুন ফ্ল্যাট, আবাসিক বাস্তু জমি, পুরানো বাড়ি রিসেল, বাণিজ্যিক দোকান ও ব্যাংক নিলাম প্রপার্টি (SARFAESI)।
+- [সরকারি ও পৌর ই-টেন্ডার ডিরেক্টরি (Govt & Municipal Tenders)](${SITE_URL}/tenders/): বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), পুলিশ জেলা, পঞ্চায়েত সমিতি ও পূর্ত দপ্তরের সক্রিয় সরকারি দরপত্র ও NIT তালিকা।
 - [যাতায়াত ও পরিবহন (Transport)](${SITE_URL}/transport/): শিয়ালদহ দক্ষিণ রেলওয়ে, অটো ও টোটো স্ট্যান্ড, বাস রুট ও ইএম বাইপাস গাইড।
 - [নাগরিক পরিষেবা (Citizen Services)](${SITE_URL}/citizen-services/): বারুইপুর পৌরসভা সার্টিফিকেট, ট্যাক্স, পুলিশ কন্ট্রোল রুম, হেল্পলাইন ও বিদ্যুৎ অভিযোগ।
 - [বার্ষিক উৎসব ও মেলা ক্যালেন্ডার ২০২৬ (Events & Festivals)](${SITE_URL}/events/): বারুইপুর ঐতিহাসিক রাসমেলা, রাস উৎসব, শ্রী শ্রী অনুকূলচন্দ্র মেলা ও দক্ষিণ চব্বিশ পরগনা হস্তশিল্প মেলা।
@@ -390,6 +414,14 @@ ${healthcareFacilities.map(h => `- [${h.nameBn} (${h.nameEn})](${SITE_URL}/healt
 ## Organizations, Clubs & Associations (প্রতিষ্ঠান, ক্লাব ও সংগঠন)
 - [প্রতিষ্ঠান ও ক্লাব ডিরেক্টরি (Organizations Hub)](${SITE_URL}/organizations/): বারুইপুরের ক্রীড়া ক্লাব, এনজিও, চ্যারিটি ট্রাস্ট ও ব্যবসায়িক সমিতি।
 ${organizations.map(o => `- [${o.nameBn} (${o.nameEn})](${SITE_URL}/organizations/${o.slug}/): ${o.taglineBn}. Established: ${o.established}. Category: ${o.categoryBn}. Address: ${o.address}`).join('\n')}
+
+## Real Estate & Property Showcase (জমি, ফ্ল্যাট ও সম্পত্তি কেনাবেচা)
+- [জমি ও ফ্ল্যাট পোর্টাল](${SITE_URL}/property/): সক্রিয় লিস্টিং মোট ${properties.length}টি
+${properties.map(pr => `- [${pr.title}](${SITE_URL}/property/): ${pr.categoryNameBn}, অবস্থান: ${pr.location}, মূল্য: ${pr.price}, আয়তন: ${pr.areaSqFt}`).join('\n')}
+
+## Official Govt & Municipal Tenders (সরকারি ও পৌর ই-টেন্ডার)
+- [সরকারি টেন্ডার পোর্টাল](${SITE_URL}/tenders/): সক্রিয় সরকারি বিজ্ঞপ্তি মোট ${tenders.length}টি
+${tenders.map(t => `- [${t.title}](${SITE_URL}/tenders/): NIT: ${t.tenderNo}, দপ্তর: ${t.authorityBn}, দরপত্র মূল্য: ${t.estimatedValue}, আবেদনের শেষ তারিখ: ${t.lastDate}`).join('\n')}
 
 ## Machine-Readable Feeds & Feeds for AI Systems
 - XML Sitemap: ${SITE_URL}/sitemap.xml

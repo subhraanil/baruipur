@@ -53,6 +53,16 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/property" className="hover:text-emerald-400 transition flex items-center gap-1.5 font-bold text-emerald-300">
+                  <span className="text-emerald-500">›</span> জমি ও ফ্ল্যাট কেনাবেচা (Real Estate Buy & Sale)
+                </a>
+              </li>
+              <li>
+                <a href="/tenders" className="hover:text-red-400 transition flex items-center gap-1.5 font-bold text-red-300">
+                  <span className="text-red-500">›</span> সরকারি ও পৌর ই-টেন্ডার (Govt Tenders)
+                </a>
+              </li>
+              <li>
                 <a href="/citizen-services" className="hover:text-emerald-400 transition flex items-center gap-1.5 font-medium text-emerald-300">
                   <span className="text-emerald-500">›</span> নাগরিক পরিষেবা গাইড (Services)
                 </a>

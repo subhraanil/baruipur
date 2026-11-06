@@ -205,6 +205,26 @@ export default function Header() {
               🏢 প্রতিষ্ঠান ও ক্লাব
             </a>
             <a
+              href="/property"
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname.startsWith('/property') || pathname.startsWith('/real-estate')
+                  ? 'bg-emerald-700 text-white shadow-sm' 
+                  : 'text-emerald-800 hover:bg-emerald-50 hover:text-emerald-900'
+              }`}
+            >
+              🏡 জমি ও ফ্ল্যাট
+            </a>
+            <a
+              href="/tenders"
+              className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
+                pathname.startsWith('/tenders') 
+                  ? 'bg-red-700 text-white shadow-sm' 
+                  : 'text-slate-700 hover:bg-red-50 hover:text-red-700'
+              }`}
+            >
+              🏛️ সরকারি টেন্ডার
+            </a>
+            <a
               href="/category/food"
               className={`px-3 py-2 rounded-md text-sm font-bold whitespace-nowrap transition-all ${
                 pathname === '/category/food' 
@@ -356,6 +376,30 @@ export default function Header() {
                 <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 pt-1">
                   নাগরিক ও দৈনন্দিন সেবা
                 </div>
+                <a
+                  href="/property"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-emerald-900 bg-emerald-50/70 hover:bg-emerald-100/80 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🏡</span> জমি, ফ্ল্যাট ও সম্পত্তি কেনাবেচা (Real Estate)
+                  </span>
+                  <span className="text-[10px] bg-emerald-200 text-emerald-800 px-1.5 py-0.5 rounded font-bold">
+                    BUY/SELL
+                  </span>
+                </a>
+                <a
+                  href="/tenders"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 bg-red-50/50 hover:bg-red-100/70 transition"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-base">🏛️</span> সরকারি ও পৌর ই-টেন্ডার নোটিস (Tenders)
+                  </span>
+                  <span className="text-[10px] bg-red-200 text-red-800 px-1.5 py-0.5 rounded font-bold">
+                    NIT
+                  </span>
+                </a>
                 <a
                   href="/transport"
                   onClick={() => setMobileMenuOpen(false)}
