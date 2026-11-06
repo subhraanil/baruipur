@@ -185,10 +185,8 @@ function isBaruipurGeographicallyRelevant(text) {
     'বারুইপুর', 'baruipur', 'পদ্মপুকুর', 'padmapukur', 'কাছারি বাজার', 'পুরাতন বাজার',
     'রাসমাঠ', 'চম্পাহাটি', 'champahati', 'কল্যাণপুর', 'ধপধপি', 'dhapdhapi',
     'মল্লিকপুর', 'mallikpur', 'সুভাষগ্রাম', 'subhasgram', 'সোনারপুর', 'sonarpur',
-    'জয়নগর', 'joynagar', 'ক্যানিং', 'canning', 'নরেন্দ্রপুর', 'narendrapur',
-    'কাশীপুর', 'কাশিপুর', 'ভাঙড়', 'ভাঙর', 'bhangar', 'কুলতলি', 'kultali',
-    'জীবনতলা', 'jibantala', 'বারুইপুর পুলিশ জেলা', 'বারুইপুর আদালত', 'বারুইপুর মহকুমা',
-    'রামনগর', 'ramnagar', 'দক্ষিণ ২৪ পরগনা'
+    'বারুইপুর পুলিশ জেলা', 'বারুইপুর আদালত', 'বারুইপুর মহকুমা', 'বারুইপুর থানা',
+    'শাসন', 'শিবানীপীঠ', 'শিবানী ধাম', 'রামনগর'
   ];
   return baruipurKeywords.some(kw => lower.includes(kw));
 }
