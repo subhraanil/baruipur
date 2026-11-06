@@ -12,6 +12,7 @@ import NewsCategorySection from '@/components/NewsCategorySection';
 import BaruipurUtilities from '@/components/BaruipurUtilities';
 import BreakingNewsTicker from '@/components/BreakingNewsTicker';
 import AdSenseSlot from '@/components/AdSenseSlot';
+import { Landmark, ArrowRight, ShieldCheck, MapPin, Sparkles } from 'lucide-react';
 import { getFeaturedOrganizations } from '@/lib/organizations';
 import { getAllPlaces } from '@/lib/places';
 import { getAllFacilities } from '@/lib/healthcare';
@@ -126,7 +127,57 @@ export default function HomePage() {
       {/* 1. Breaking News Live Ticker */}
       <BreakingNewsTicker articles={newsArticles.slice(0, 5)} />
 
-      <div className="max-w-[1320px] mx-auto px-4 sm:px-6">
+      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 pt-3">
+        {/* Civic Portal Highlight Strip */}
+        <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white rounded-2xl p-4 sm:p-5 shadow-xs flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-700/60 mb-6">
+          <div className="flex items-center gap-3.5">
+            <div className="w-10 h-10 rounded-xl bg-red-600 text-white flex items-center justify-center shrink-0 shadow-xs">
+              <Landmark className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <h2 className="text-sm sm:text-base font-extrabold text-white">
+                  বারুইপুর মহকুমা ও পৌর ডিজিটাল তথ্যবাতায়ন
+                </h2>
+                <span className="hidden sm:inline-flex items-center gap-1 bg-red-950/80 text-red-300 text-[10px] font-bold px-2 py-0.5 rounded-full border border-red-800/50">
+                  <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
+                  ২৪/৭ লাইভ
+                </span>
+              </div>
+              <p className="text-xs text-slate-300 mt-0.5">
+                পৌরসভার ১৭টি ওয়ার্ড • শিয়ালদহ দক্ষিণ রেলওয়ে জংশন • মহকুমা আদালত, হাসপাতাল ও পুলিশ জেলা
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <a
+              href="/property"
+              className="inline-flex items-center gap-1.5 bg-emerald-600/90 hover:bg-emerald-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
+            >
+              <span>🏡 ফ্ল্যাট ও জমি</span>
+            </a>
+            <a
+              href="/tenders"
+              className="inline-flex items-center gap-1.5 bg-red-600/90 hover:bg-red-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
+            >
+              <span>🏛️ সরকারি টেন্ডার</span>
+            </a>
+            <a
+              href="/health-directory"
+              className="inline-flex items-center gap-1.5 bg-rose-600/90 hover:bg-rose-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
+            >
+              <span>🏥 ডাক্তার ও ওপিডি</span>
+            </a>
+            <a
+              href="/transport"
+              className="inline-flex items-center gap-1.5 bg-blue-600/90 hover:bg-blue-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
+            >
+              <span>🚆 লোকাল ট্রেন</span>
+            </a>
+          </div>
+        </div>
+
         {/* 2. Featured News: 1 Main Story + 3 Secondary Stories (Editorial Grid) */}
         {leadArticle && (
           <FeaturedHeroGrid
