@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T14:55:53.255Z",
+  "lastUpdated": "2026-11-08T02:42:16.819Z",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,149 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-014",
+      "title": "ব্যাংক অফ বরোদা ই-নিলাম (SARFAESI): বারুইপুর বাইপাস রোডে ১,০৫০ বর্গফুটের রেসিডেন্সিয়াল ফ্ল্যাট",
+      "titleEn": "Bank of Baroda E-Auction: 1050 Sq Ft Residential Flat at Baruipur Bypass",
+      "category": "bank_auction",
+      "categoryNameBn": "ব্যাংক নিলাম সম্পত্তি (Bank Auction)",
+      "location": "বারুইপুর বাইপাস, দক্ষিণ ২৪ পরগনা",
+      "locationArea": "Bypass Road",
+      "price": "রিজার্ভ প্রাইজ: ₹১৬.৮০ লক্ষ (বাজারদরের ৩০% সাশ্রয়)",
+      "priceNum": 1680000,
+      "priceUnit": "total",
+      "configuration": "2 BHK + Car Parking",
+      "areaSqFt": "১,০৫০ বর্গফুট সুপার বিল্ট-আপ",
+      "facing": "দক্ষিণমুখী (South Facing)",
+      "floorInfo": "২য় তলা",
+      "possessionStatus": "প্রতীকী দখল (Symbolic Possession via SARFAESI)",
+      "reraStatus": "সারফেইসি অ্যাক্ট ২০০২ বিধি মোতাবেক ব্যাংক নিলাম",
+      "approvalStatus": "ব্যাংক আইনি ও স্বত্ব ক্লিয়ারেন্স সম্পন্ন",
+      "bankLoanApproved": "ব্যাংক অফ বরোদা অথবা অন্যান্য আর্থিক প্রতিষ্ঠান থেকে লোন অনুমোদনযোগ্য",
+      "amenities": [
+        "লিফট ও জেনারেটর ব্যাকআপ",
+        "কভার্ড কার পার্কিং স্পেস",
+        "প্রাইম ইএম বাইপাস কানেক্টর লোকেশন"
+      ],
+      "description": "ব্যাংক অফ বরোদা কর্তৃক সারফেইসি অ্যাক্টের অধীনে বিশেষ ই-নিলাম নোটিউট। অত্যন্ত সুবিধাজনক মূল্যে প্রাইম বাইপাস লোকেশনে ফ্ল্যাট কেনার সুযোগ। ইএমডি জমা ও দরপত্রের শেষ তারিখ ২০২৬-১১-২৪।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "অথরাইজড অফিসার / ই-অকশন সেল (Bank of Baroda)",
+      "contactPhone": "+91 33 2433 0000",
+      "contactWhatsapp": "+91 98300 00000",
+      "publishedAt": "২০২৬-১১-০৮"
+    },
+    {
+      "id": "prop-brp-013",
+      "title": "মল্লিকপুর রোড ও বারুইপুর স্টেশন লিঙ্ক এলাকায় ১.৫ তলা স্বাধীন ভিলা বাড়ি বিক্রয়",
+      "titleEn": "Independent 1.5 Storey Residential House on 2.5 Cottah Land near Mallikpur-Baruipur Link",
+      "category": "resale_house",
+      "categoryNameBn": "পুরোনো বাড়ি ও রিসেল (Resale Home)",
+      "location": "মল্লিকপুর রোড, বারুইপুর স্টেশন সংলগ্ন",
+      "locationArea": "Mallikpur Road",
+      "price": "₹৩৮.০০ লক্ষ",
+      "priceNum": 3800000,
+      "priceUnit": "total",
+      "configuration": "3 Bed + 2 Bath + Dining + Roof Garden",
+      "areaSqFt": "১,৩৫০ বর্গফুট বিল্ট-আপ (২.৫ কাঠা জমি)",
+      "facing": "উত্তর-পূর্বমুখী (North-East)",
+      "floorInfo": "গ্রাউন্ড + হাফ ফার্স্ট ফ্লোর",
+      "possessionStatus": "তাৎক্ষণিক বসবাসযোগ্য",
+      "reraStatus": "ব্যক্তিগত মালিকানা রেকর্ডযুক্ত",
+      "approvalStatus": "পৌরসভা রেজিস্টার্ড ট্যাক্স অ্যাসেসমেন্ট",
+      "bankLoanApproved": "জাতীয়কৃত ব্যাংক লোন সহজপ্রাপ্য",
+      "amenities": [
+        "সম্পূর্ণ সীমানা প্রাচীর ও লোহার গেট",
+        "নিজস্ব ডিপ টিউবওয়েল ও মোটর পাম্প",
+        "ড্রাইভওয়ে কার পার্কিং সুবিধা",
+        "ছাদের উপর রুফটপ গার্ডেন"
+      ],
+      "description": "সম্পূর্ণ নিজস্ব ২.৫ কাঠা জমিতে নির্মিত সুদৃশ্য স্বাধীন বাড়ি। বারুইপুর ও মল্লিকপুর স্টেশন উভয়ের কাছাকাছি। সম্পূর্ণ নিষ্কণ্টক দলিল।",
+      "imageUrl": "/images/baruipur-property-resale-house.jpg",
+      "images": [
+        "/images/baruipur-property-resale-house.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "নির্মল চ্যাটার্জি",
+      "contactPhone": "+91 98312 99011",
+      "contactWhatsapp": "+91 98312 99011",
+      "publishedAt": "২০২৬-১১-০৮"
+    },
+    {
+      "id": "prop-brp-012",
+      "title": "শাসন ও চম্পাহাটি রেলগেট সংলগ্ন শান্ত পরিবেশে ৩ কাঠা মিউটেশনযুক্ত সলিড বাস্তু জমি",
+      "titleEn": "3 Cottah Solid Bastu Land with Mutation near Shason-Champahati Link Road",
+      "category": "land_plot",
+      "categoryNameBn": "বাস্তু জমি ও প্লট (Land & Plot)",
+      "location": "শাসন রোড, বারুইপুর গ্রামীণ এলাকা",
+      "locationArea": "Shason Road",
+      "price": "₹৪.৮০ লক্ষ প্রতি কাঠা (মোট ₹১৪.৪০ লক্ষ)",
+      "priceNum": 1440000,
+      "priceUnit": "total",
+      "configuration": "আবাসিক প্লট (৩ কাঠা)",
+      "areaSqFt": "২,১৬০ বর্গফুট",
+      "facing": "পূর্বমুখী (East Facing)",
+      "floorInfo": "উঁচু সলিড মাটি, সীমানা চিহ্নিত",
+      "possessionStatus": "অবিলম্বে হস্তান্তর ও রেজিস্ট্রি",
+      "reraStatus": "ব্যক্তিগত নিষ্কণ্টক জমি",
+      "approvalStatus": "ব্লক ভূমি রেকর্ডস ও আরওআর মিউটেশন ক্লিয়ার",
+      "bankLoanApproved": "ভূমি উন্নয়ন ও গৃহনির্মাণ ঋণযোগ্য",
+      "amenities": [
+        "২০ ফুট চওড়া ঢালাই রাস্তা ফ্রন্টেজ",
+        "বিদ্যুৎ ও পানীয় জল সংযোগ উপলব্ধ",
+        "চারপাশে আবাসিক বসতি ও প্রাকৃতিক পরিবেশ"
+      ],
+      "description": "শান্ত নিরিবিলি এলাকায় নিজস্ব বাড়ি তৈরির জন্য আদর্শ ৩ কাঠা জমি। পাকা রাস্তার ফ্রন্টেজ। কাগজ সম্পূর্ণ পরিষ্কার ও রেজিস্ট্রিযোগ্য।",
+      "imageUrl": "/images/baruipur-property-land-plot.jpg",
+      "images": [
+        "/images/baruipur-property-land-plot.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "সুব্রত সরকার (জমির মালিক প্রতিনিধি)",
+      "contactPhone": "+91 94331 88920",
+      "contactWhatsapp": "+91 94331 88920",
+      "publishedAt": "২০২৬-১১-০৭"
+    },
+    {
+      "id": "prop-brp-011",
+      "title": "আনন্দ ধারা এনক্লেভ: বারুইপুর পদ্মপুকুর মোড়ে ৩ বিএইচকে প্রিমিয়াম ফ্ল্যাট (লিফট ও পাওয়ার ব্যাকআপ সহ)",
+      "titleEn": "Ananda Dhara Enclave: Premium 3 BHK Ready Flat near Padmapukur Crossing, Baruipur",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "পদ্মপুকুর মোড়, কুলপী রোড সংলগ্ন, বারুইপুর",
+      "locationArea": "Padmapukur More",
+      "price": "₹৩৪.৫০ লক্ষ",
+      "priceNum": 3450000,
+      "priceUnit": "total",
+      "configuration": "3 BHK (3 Bed + 2 Bath + Balcony)",
+      "areaSqFt": "১,১৫০ বর্গফুট",
+      "facing": "দক্ষিণ-পশ্চিম (South-West)",
+      "floorInfo": "৩য় তলা (G+4 লিফট সহ)",
+      "possessionStatus": "রেডি টু মুভ (Ready to Move)",
+      "reraStatus": "WB RERA রেজিস্টার্ড",
+      "approvalStatus": "বারুইপুর পৌরসভা প্ল্যান স্যাংকশন",
+      "bankLoanApproved": "SBI, Axis ও HDFC অনুমোদিত",
+      "amenities": [
+        "স্বয়ংক্রিয় লিফট ও জেনারেটর ব্যাকআপ",
+        "২৪ ঘণ্টা সিসিটিভি ও ইন্টারকম সিকিউরিটি",
+        "কভার্ড বাইক ও কার পার্কিং সুবিধা",
+        "সুপেয় ভূগর্ভস্থ পরিশোধন জল ব্যবস্থা"
+      ],
+      "description": "বারুইপুর পদ্মপুকুর মোড় থেকে মাত্র ৩ মিনিট দূরত্বে সুপরিকল্পিত ৩ বিএইচকে ফ্ল্যাট। বিদ্যালয়, বাজার ও নার্সিং হোম হাঁটা দূরত্বে। অবিলম্বে বসবাসযোগ্য।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg",
+        "/images/baruipur-property-flat-interior.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "দেবাশিস রায় (অনুমোদিত কনসালট্যান্ট)",
+      "contactPhone": "+91 98305 44321",
+      "contactWhatsapp": "+91 98305 44321",
+      "publishedAt": "২০২৬-১১-০৭"
+    },
     {
       "id": "prop-brp-001",
       "title": "গ্রিন ভ্যালি রেসিডেন্সি: বারুইপুর বাইপাসে লাক্সারি ২ ও ৩ বিএইচকে ফ্ল্যাট",
