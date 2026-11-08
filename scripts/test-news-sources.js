@@ -1,24 +1,12 @@
 const axios = require('axios');
+const fs = require('fs');
 
-const fbSources = [
-  { name: "Baruipur 360", url: "https://www.facebook.com/baruipur360" },
-  { name: "Baruipur Barta", url: "https://www.facebook.com/baruipurbarta05" },
-  { name: "Baruipur Update", url: "https://www.facebook.com/BaruipurUpdate" },
-  { name: "Baruipur Press Club", url: "https://www.facebook.com/BaruipurPressClub0" },
-  { name: "Voice of Baruipur", url: "https://www.facebook.com/voiceofbaruipur" }
-];
-
-const portals = [
-  { name: "Anandabazar Patrika Topic", url: "https://www.anandabazar.com/topic/baruipur" },
-  { name: "Public App Baruipur", url: "https://public.app/city/news-in-baruipur" },
-  { name: "Twitter/X Hashtag", url: "https://x.com/hashtag/Baruipur" },
-  { name: "ABP Ananda Topic", url: "https://bengali.abplive.com/topic/baruipur" },
-  { name: "ABP Ananda Search", url: "https://bengali.abplive.com/search?s=baruipur" },
-  { name: "NDTV Topic", url: "https://www.ndtv.com/topic/baruipur" }
-];
+const rawDb = JSON.parse(fs.readFileSync('src/data/news_data.json', 'utf-8'));
+const fbSources = (rawDb.sources || []).filter(s => s.type === 'facebook' && s.isActive);
+const portals = (rawDb.sources || []).filter(s => s.type !== 'facebook' && s.isActive);
 
 async function testFb() {
-  console.log("=== Testing Facebook Sources ===");
+  console.log(`=== Testing Facebook Sources (${fbSources.length} total) ===`);
   for (const s of fbSources) {
     try {
       const res = await axios.get(s.url, {
@@ -37,7 +25,7 @@ async function testFb() {
 }
 
 async function testPortals() {
-  console.log("\n=== Testing News Portals ===");
+  console.log(`\n=== Testing News Portals (${portals.length} total) ===`);
   for (const p of portals) {
     try {
       const res = await axios.get(p.url, {
