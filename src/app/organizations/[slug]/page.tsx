@@ -133,7 +133,10 @@ export default function OrganizationDetailPage({ params }: Props) {
     description: org.overview,
     url: `https://baruipur.online/organizations/${org.slug}/`,
     logo: `https://baruipur.online${org.coverImage}`,
-    image: org.images?.map(i => i.url.startsWith('http') ? i.url : `https://baruipur.online${i.url}`) || [`https://baruipur.online${org.coverImage}`],
+    image: org.images?.map(i => {
+      const u = typeof i === 'string' ? i : i?.url;
+      return u?.startsWith('http') ? u : `https://baruipur.online${u}`;
+    }) || [`https://baruipur.online${org.coverImage}`],
     address: {
       '@type': 'PostalAddress',
       streetAddress: org.address,
@@ -205,7 +208,7 @@ export default function OrganizationDetailPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      {org.faqs.length > 0 && (
+      {org.faqs && org.faqs.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
