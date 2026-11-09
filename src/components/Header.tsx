@@ -15,6 +15,7 @@ import {
   ArrowRight,
   PlusCircle,
   Building2,
+  Bell,
   Home,
   FileText,
   Stethoscope,
@@ -98,6 +99,14 @@ export default function Header() {
       badge: 'NIT',
       badgeColor: 'bg-red-100 text-red-800 border-red-200',
       color: 'hover:text-red-700'
+    },
+    {
+      label: '📢 জরুরি নোটিস',
+      href: '/notices',
+      isActive: pathname.startsWith('/notices'),
+      badge: 'সার্কুলার',
+      badgeColor: 'bg-amber-100 text-amber-800 border-amber-200',
+      color: 'hover:text-amber-700'
     },
     {
       label: '🏥 স্বাস্থ্য ও ডাক্তার',
@@ -414,6 +423,25 @@ export default function Header() {
                   </div>
                   <span className="text-[10px] bg-red-200 text-red-900 font-bold px-2 py-0.5 rounded-full">
                     NIT
+                  </span>
+                </a>
+
+                <a
+                  href="/notices"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center justify-between p-3 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 hover:shadow-xs transition"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="w-9 h-9 rounded-xl bg-amber-600 text-white flex items-center justify-center shrink-0">
+                      <Bell className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 text-xs sm:text-sm">জরুরি সরকারি নোটিস</h4>
+                      <p className="text-[10px] text-slate-500">দপ্তর ও পঞ্চায়েতের সার্কুলার</p>
+                    </div>
+                  </div>
+                  <span className="text-[10px] bg-amber-200 text-amber-900 font-bold px-2 py-0.5 rounded-full">
+                    নতুন
                   </span>
                 </a>
 

@@ -17,6 +17,7 @@ import {
   CalendarDays,
   Home,
   FileText,
+  Bell,
   Send,
   ArrowRight,
   Filter
@@ -65,6 +66,19 @@ export default function QuickAccessDirectory() {
       accentBg: 'bg-red-50/80 group-hover:bg-red-100/90',
       iconColor: 'text-red-700',
       borderHover: 'hover:border-red-300 hover:shadow-red-100/50'
+    },
+    {
+      id: 'notices',
+      label: 'জরুরি সরকারি নোটিস',
+      desc: 'তারিখভিত্তিক প্রশাসনিক সার্কুলার ও PDF',
+      category: 'civic',
+      icon: Bell,
+      href: '/notices',
+      badge: 'বিজ্ঞপ্তি',
+      badgeColor: 'bg-amber-100 text-amber-800 border-amber-200',
+      accentBg: 'bg-amber-50/80 group-hover:bg-amber-100/90',
+      iconColor: 'text-amber-700',
+      borderHover: 'hover:border-amber-300 hover:shadow-amber-100/50'
     },
     {
       id: 'health',

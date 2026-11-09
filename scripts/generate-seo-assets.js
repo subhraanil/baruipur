@@ -84,6 +84,16 @@ try {
   console.warn('Could not load properties_data.json:', e.message);
 }
 
+const NOTICES_FILE = path.join(__dirname, '../src/data/notices_data.json');
+let notices = [];
+try {
+  if (fs.existsSync(NOTICES_FILE)) {
+    notices = (JSON.parse(fs.readFileSync(NOTICES_FILE, 'utf8'))).notices || [];
+  }
+} catch (e) {
+  console.warn('Could not load notices_data.json:', e.message);
+}
+
 const categories = [
   { slug: 'all', nameBn: 'সব খবর', nameEn: 'All News', desc: 'বারুইপুর অঞ্চলের সমস্ত তাজা খবর ও সংকলন।' },
   { slug: 'food', nameBn: 'খাবার ও রেস্তোরাঁ', nameEn: 'Food & Dining', desc: 'বারুইপুরের সেরা রেস্তোরাঁ, ক্যাফে, বিরিয়ানি ও ঐতিহ্যবাহী মিষ্টির দোকান এবং খাবারের গাইড।' },
@@ -192,6 +202,7 @@ for (const cat of categories) {
 }
 
 const staticPages = [
+  { path: '/notices/', priority: '0.98', changefreq: 'hourly', title: 'Baruipur Official Important Notices & Circulars (Date-Wise Public Notices & PDF)' },
   { path: '/property/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Buy & Sell Real Estate (Flats, Land, Resale & Bank Auction)' },
   { path: '/tenders/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Municipality & Govt Tenders (e-Procurement NIT)' },
   { path: '/health-directory/', priority: '0.95', changefreq: 'daily', title: 'Healthcare & Doctor OPD Directory' },
@@ -418,6 +429,10 @@ ${organizations.map(o => `- [${o.nameBn} (${o.nameEn})](${SITE_URL}/organization
 ## Real Estate & Property Showcase (জমি, ফ্ল্যাট ও সম্পত্তি কেনাবেচা)
 - [জমি ও ফ্ল্যাট পোর্টাল](${SITE_URL}/property/): সক্রিয় লিস্টিং মোট ${properties.length}টি
 ${properties.map(pr => `- [${pr.title}](${SITE_URL}/property/): ${pr.categoryNameBn}, অবস্থান: ${pr.location}, মূল্য: ${pr.price}, আয়তন: ${pr.areaSqFt}`).join('\n')}
+
+## Official Important Notices & Circulars (সরকারি জরুরি নোটিস ও সার্কুলার)
+- [জরুরি নোটিস ডেস্ক](${SITE_URL}/notices/): তারিখভিত্তিক সক্রিয় সরকারি সার্কুলার মোট ${notices.length}টি
+${notices.map(n => `- [${n.title}](${SITE_URL}/notices/): মেমো নং: ${n.memoNo}, দপ্তর: ${n.departmentName}, তারিখ: ${n.publishedDateFormatted}`).join('\n')}
 
 ## Official Govt & Municipal Tenders (সরকারি ও পৌর ই-টেন্ডার)
 - [সরকারি টেন্ডার পোর্টাল](${SITE_URL}/tenders/): সক্রিয় সরকারি বিজ্ঞপ্তি মোট ${tenders.length}টি

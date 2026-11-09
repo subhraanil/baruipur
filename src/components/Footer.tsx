@@ -63,6 +63,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/notices" className="hover:text-amber-400 transition flex items-center gap-1.5 font-bold text-amber-300">
+                  <span className="text-amber-500">›</span> জরুরি সরকারি নোটিস (Official Notices)
+                </a>
+              </li>
+              <li>
                 <a href="/citizen-services" className="hover:text-emerald-400 transition flex items-center gap-1.5 font-medium text-emerald-300">
                   <span className="text-emerald-500">›</span> নাগরিক পরিষেবা গাইড (Services)
                 </a>

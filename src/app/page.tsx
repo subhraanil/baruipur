@@ -8,6 +8,7 @@ import LocalDirectoryHighlights from '@/components/LocalDirectoryHighlights';
 import FeaturedGuidesSection from '@/components/FeaturedGuidesSection';
 import HomePropertySection from '@/components/HomePropertySection';
 import HomeTendersSection from '@/components/HomeTendersSection';
+import HomeNoticesSection from '@/components/HomeNoticesSection';
 import NewsCategorySection from '@/components/NewsCategorySection';
 import BaruipurUtilities from '@/components/BaruipurUtilities';
 import BreakingNewsTicker from '@/components/BreakingNewsTicker';
@@ -272,6 +273,9 @@ export default function HomePage() {
 
             {/* 4E. Official Municipal & Govt Tenders Section */}
             <HomeTendersSection />
+
+            {/* 4E2. Official Administrative Important Notices Section */}
+            <HomeNoticesSection />
 
             {/* 4F. Evergreen Lifestyle Guides: 8 Verified Special Guides */}
             <FeaturedGuidesSection />
