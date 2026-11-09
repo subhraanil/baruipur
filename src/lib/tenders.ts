@@ -3,6 +3,7 @@ import tendersData from '@/data/tenders_data.json';
 export interface TenderAuthority {
   id: string;
   name: string;
+  shortName?: string;
   code: string;
 }
 

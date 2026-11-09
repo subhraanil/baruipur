@@ -5,14 +5,14 @@ import TendersClient from './TendersClient';
 import { FileText, Building2, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'বারুইপুর সরকারি টেন্ডার ও পৌর ই-টেন্ডার নোটিস ২০২৬ | Baruipur Municipality & Govt Tenders',
-  description: 'বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), পুলিশ জেলা, ব্লক পঞ্চায়েত সমিতি ও পূর্ত দপ্তরের সক্রিয় সরকারি ই-টেন্ডার ও কাজের তালিকা। NIT নম্বর ও আবেদন নির্দেশিকা।',
+  title: 'বারুইপুর সরকারি টেন্ডার ও পৌর ই-টেন্ডার নোটিস ২০২৬ | Baruipur Municipality, SDO, Court, Hospital & Govt Tenders',
+  description: 'বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), গ্রাম পঞ্চায়েত সমূহ, মহকুমা আদালত, মহকুমা হাসপাতাল, বিদ্যুৎ পর্ষদ (WBSEDCL), পূর্ত দপ্তর (PWD), এআরটিও ও বিএলএলআরও-র সক্রিয় সরকারি ই-টেন্ডার ও কাজের তালিকা।',
   alternates: {
     canonical: 'https://baruipur.online/tenders',
   },
   openGraph: {
     title: 'বারুইপুর সরকারি টেন্ডার ও পৌর ই-টেন্ডার নোটিস ২০২৬ | Baruipur Online',
-    description: 'বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), পুলিশ জেলা, ব্লক পঞ্চায়েত সমিতি ও পূর্ত দপ্তরের সক্রিয় সরকারি ই-টেন্ডার ও কাজের তালিকা।',
+    description: 'বারুইপুর পৌরসভা, এসডিও, গ্রাম পঞ্চায়েত, আদালত, হাসপাতাল, বিদ্যুৎ দপ্তর, পূর্ত দপ্তর, আরটিও ও ভূমি সংস্কার দপ্তরের সমস্ত সরকারি ই-টেন্ডার তালিকা।',
     url: 'https://baruipur.online/tenders',
     siteName: 'বারুইপুর অনলাইন',
     locale: 'bn_IN',
@@ -39,7 +39,7 @@ export default function TendersPage() {
           </h1>
 
           <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-3xl">
-            বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), বারুইপুর পুলিশ জেলা, পঞ্চায়েত সমিতি ও পূর্ত দপ্তরের সমস্ত সক্রিয় ই-টেন্ডার ও কাজের তালিকা এক ছাতার তলায়। ঠিকাদার ও সরবরাহকারীদের জন্য নোটিস ইনভাইটিং টেন্ডার (NIT), কাজের বিবরণী ও আবেদন লিংক।
+            বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), বারুইপুর ব্লকের সমস্ত গ্রাম পঞ্চায়েত, মহকুমা আদালত, মহকুমা হাসপাতাল, পশ্চিমবঙ্গ বিদ্যুৎ পর্ষদ (WBSEDCL), পূর্ত দপ্তর (PWD), আঞ্চলিক পরিবহণ দপ্তর (ARTO) এবং ভূমি ও ভূমি সংস্কার দপ্তরের (BL&LRO) সমস্ত সক্রিয় ই-টেন্ডার এক ছাতার তলায়।
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-2 text-xs text-slate-500 border-t border-slate-100">
@@ -49,7 +49,7 @@ export default function TendersPage() {
             </span>
             <span className="flex items-center gap-1">
               <Building2 className="w-4 h-4 text-blue-600" />
-              <span>৫টি প্রধান প্রশাসনিক দপ্তর</span>
+              <span>১০টি সরকারি প্রশাসনিক দপ্তর ও পঞ্চায়েত</span>
             </span>
             <span>নিয়মিত আপডেট: wbtenders.gov.in</span>
           </div>

@@ -98,7 +98,7 @@ export default function TendersClient({ initialTenders, authorities }: TendersCl
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                 }`}
               >
-                {auth.name.split(' (')[0]} ({count})
+                {auth.shortName || auth.name.split(' (')[0]} ({count})
               </button>
             );
           })}
