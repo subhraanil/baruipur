@@ -72,6 +72,8 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
 
   const postSlug = article.slug || article.id;
   const canonicalUrl = `https://baruipur.online/${encodeURI(postSlug)}/`;
+  const isCanonicalSlug = rawSlug === postSlug || decodedSlug === postSlug;
+  const wordCount = (article.content || '').trim().split(/\s+/).filter(Boolean).length;
   
   let cleanDesc = (article.summary || article.content.slice(0, 180)).replace(/[\r\n]+/g, ' ').replace(/["']/g, '').trim();
   if (cleanDesc.length > 152) {
@@ -105,7 +107,7 @@ export function generateMetadata({ params }: PostPageProps): Metadata {
     alternates: {
       canonical: canonicalUrl,
     },
-    robots: (article.content || '').split(/\s+/).length < 200 ? { index: false, follow: true } : { index: true, follow: true },
+    robots: (!isCanonicalSlug || wordCount < 200) ? { index: false, follow: true } : { index: true, follow: true },
     openGraph: {
       title: article.title,
       description: cleanDesc,

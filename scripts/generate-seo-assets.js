@@ -129,7 +129,13 @@ const robotsTxt = `# Robots.txt for ${SITE_URL}
 User-agent: *
 Allow: /
 Disallow: /admin
+Disallow: /submit-news
+Disallow: /real-estate
 Disallow: /api/
+
+# Google AdSense Crawler
+User-agent: Mediapartners-Google
+Allow: /
 
 # Explicitly permit AI Crawlers and Search Assistants
 User-agent: Google-Extended

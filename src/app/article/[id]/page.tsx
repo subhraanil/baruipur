@@ -1,9 +1,19 @@
+import type { Metadata } from 'next';
 import { redirect, notFound } from 'next/navigation';
 import { db } from '@/lib/db';
 
 interface ArticlePageProps {
   params: {
     id: string;
+  };
+}
+
+export function generateMetadata(): Metadata {
+  return {
+    robots: {
+      index: false,
+      follow: true,
+    },
   };
 }
 

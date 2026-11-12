@@ -32,10 +32,13 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
   const canonicalUrl = `https://baruipur.online/category/${category.slug}/`;
   const title = `${category.nameBn} - বারুইপুর`;
   const description = category.descriptionBn || `বারুইপুর মহকুমার ${category.nameBn} সম্পর্কিত সমস্ত সাম্প্রতিক খবর, নাগরিক আপডেট ও নির্ভরযোগ্য স্থানীয় প্রতিবেদন।`;
+  const catArticles = db.getArticles({ category: category.slug });
+  const shouldIndex = catArticles.length >= 3;
 
   return {
     title,
     description,
+    robots: shouldIndex ? { index: true, follow: true } : { index: false, follow: true },
     keywords: [
       category.nameBn,
       category.nameEn,

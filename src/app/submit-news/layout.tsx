@@ -3,6 +3,10 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'সংবাদ বা নাগরিক সমস্যা পাঠান (Submit News) - বারুইপুর অনলাইন',
   description: 'আপনার এলাকার ঘটে যাওয়া গুরুত্বপূর্ণ খবর, নাগরিক সমস্যা বা ভিডিও সরাসরি বারুইপুর অনলাইন বার্তা ডেস্কে পাঠান।',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
     canonical: 'https://baruipur.online/submit-news/',
   },
