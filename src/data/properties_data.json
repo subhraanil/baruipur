@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T02:42:16.819Z",
+  "lastUpdated": "2026-11-12T05:57:45.984Z",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,150 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-018",
+      "title": "স্টেট ব্যাংক অফ ইন্ডিয়া (SBI) ই-নিলাম: কল্যাণপুর এলাকায় ২ কাঠা জমিসহ দোতলা আবাসিক বাড়ি",
+      "titleEn": "SBI E-Auction (SARFAESI): Independent 2-Storey Residential House on 2 Cottah Land at Kalyanpur, Baruipur",
+      "category": "bank_auction",
+      "categoryNameBn": "ব্যাংক নিলাম সম্পত্তি (Bank Auction)",
+      "location": "কল্যাণপুর, বারুইপুর, দক্ষিণ ২৪ পরগনা",
+      "locationArea": "Kalyanpur",
+      "price": "রিজার্ভ প্রাইজ: ₹১৯.৫০ লক্ষ (সস্তায় নিলাম সুযোগ)",
+      "priceNum": 1950000,
+      "priceUnit": "total",
+      "configuration": "4 Bed + 2 Bath Independent House (2 Cottah)",
+      "areaSqFt": "১,৫০০ বর্গফুট বিল্ট-আপ (২ কাঠা জমি)",
+      "facing": "পশ্চিমমুখী (West Facing)",
+      "floorInfo": "দোতলা পাকা বাড়ি (G+1)",
+      "possessionStatus": "ব্যাংক সারফেইসি ফিজিক্যাল পজেশন প্রস্তুত",
+      "reraStatus": "SARFAESI Act 2002 অফিসিয়াল ব্যাংক নিলাম",
+      "approvalStatus": "SBI স্ট্রেজড অ্যাসেট রিকভারি ব্রাঞ্চ (SARB) ভেরিফায়েড",
+      "bankLoanApproved": "ব্যাংক অকশন সার্টিফিকেট ও সম্পূর্ণ লিগ্যাল টাইটেল হস্তান্তর",
+      "amenities": [
+        "দোতলা সম্পূর্ণ পাকা ও রঙিন বাড়ি",
+        "নিজস্ব সীমানা প্রাচীর ও গেট",
+        "কল্যাণপুর স্টেশন থেকে ৫ মিনিট দূরত্ব",
+        "ই-অকশন তারিখ: ২০২৬-১২-১০ (EMD ১০%)"
+      ],
+      "description": "স্টেট ব্যাংক অফ ইন্ডিয়ার সারফেইসি অ্যাক্ট ২০০২ অনুসারে ই-নিলাম। বাজার মূল্যের চেয়ে অনেক কম দামে কল্যাণপুরে ২ কাঠা জমিসহ দোতলা বাড়ি কেনার সুবর্ণ সুযোগ।",
+      "imageUrl": "/images/baruipur-property-resale-house.jpg",
+      "images": [
+        "/images/baruipur-property-resale-house.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "এসবিআই SARB রিকভারি অফিসার (Baruipur Zone)",
+      "contactPhone": "+91 33 2433 1020",
+      "contactWhatsapp": "+91 98300 00111",
+      "publishedAt": "২০২৬-১১-১১"
+    },
+    {
+      "id": "prop-brp-017",
+      "title": "বারুইপুর স্টেশন রোড ও কাছারি বাজারে ৬৫০ বর্গফুট গ্রাউন্ড ফ্লোর বাণিজ্যিক দোকান ও অফিস স্পেস",
+      "titleEn": "650 SqFt Ground Floor Commercial Shop & Office Space at Baruipur Station Road & Kanchari Bazar",
+      "category": "commercial",
+      "categoryNameBn": "বাণিজ্যিক দোকান ও অফিস (Commercial Space)",
+      "location": "স্টেশন রোড ও কাছারি বাজার মোড়, বারুইপুর",
+      "locationArea": "Station Road",
+      "price": "₹৪২.০০ লক্ষ (মাসিক ভাড়ার উচ্চ সম্ভাবনা)",
+      "priceNum": 4200000,
+      "priceUnit": "total",
+      "configuration": "Commercial Showroom / Clinic / Bank Office",
+      "areaSqFt": "৬৫০ বর্গফুট কার্পেট এরিয়া",
+      "facing": "মেইন রোড ফেসিং (Main Road Frontage)",
+      "floorInfo": "গ্রাউন্ড ফ্লোর (রোলিং শাটার ও গ্লাস ডোর সহ)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তরযোগ্য",
+      "reraStatus": "বাণিজ্যিক কর্পোরেশন/পৌর ট্রেড অ্যাসেসমেন্ট যুক্ত",
+      "approvalStatus": "পৌরসভা বাণিজ্যিক বিল্ডিং প্ল্যান অনুমোদিত",
+      "bankLoanApproved": "বিজনেস ও কমার্শিয়াল প্রপার্টি লোন উপলব্ধ",
+      "amenities": [
+        "মেইন রোডের ওপর ১৫ ফুট চওড়া ফ্রন্টেজ",
+        "থ্রি-ফেজ বিদ্যুৎ সংযোগ ও নিজস্ব ওয়াশরুম",
+        "রেল স্টেশন থেকে মাত্র ২ মিনিট হাঁটা পথ",
+        "প্যাথলজি ল্যাব, ফার্মেসি বা শো-রুমের জন্য আদর্শ"
+      ],
+      "description": "বারুইপুরের সবচেয়ে ব্যস্ত বাণিজ্যিক কেন্দ্র কাছারি বাজার ও স্টেশন রোডের সংযোগস্থলে গ্রাউন্ড ফ্লোর দোকান/অফিস স্পেস। উচ্চ ভাড়ার আয় ও ব্যবসার জন্য সেরা ঠিকানা।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "তাপস রায়",
+      "contactPhone": "+91 98301 77889",
+      "contactWhatsapp": "+91 98301 77889",
+      "publishedAt": "২০২৬-১১-১১"
+    },
+    {
+      "id": "prop-brp-016",
+      "title": "ধপধপি ও কুলপি রোড সংযোগে ১২ ফুট ঢালাই রাস্তার ধারে ৪ কাঠা সলিড বাস্তু প্লট বিক্রয়",
+      "titleEn": "4 Cottah Solid Bastu Plot on 12ft Concrete Road near Dhapdhapi & Kulpi Road Link",
+      "category": "land_plot",
+      "categoryNameBn": "বাস্তু জমি ও প্লট (Land & Plot)",
+      "location": "ধপধপি রোড, কুলপি রোড সংলগ্ন, বারুইপুর",
+      "locationArea": "Dhapdhapi Road",
+      "price": "₹১৫.২০ লক্ষ (₹৩.৮০ লক্ষ প্রতি কাঠা)",
+      "priceNum": 1520000,
+      "priceUnit": "total",
+      "configuration": "৪ কাঠা বাস্তু জমি (উঁচু জমি)",
+      "areaSqFt": "২,৮৮০ বর্গফুট (৪ কাঠা)",
+      "facing": "পূর্বমুখী (East Facing)",
+      "floorInfo": "খালি সলিড জমি (বাঁধানো রাস্তার ধারে)",
+      "possessionStatus": "তাৎক্ষণিক রেজিস্ট্রেশন ও দখলযোগ্য",
+      "reraStatus": "ব্লিএলআরও (BL&LRO) পর্চা ও মিউটেশন কমপ্লিট",
+      "approvalStatus": "১০০% নিষ্কণ্টক বাস্তু শ্রেণীভুক্ত জমি",
+      "bankLoanApproved": "প্লট লোনের জন্য সমস্ত আইনি দলিল প্রস্তুত",
+      "amenities": [
+        "১২ ফুট চওড়া কংক্রিট অ্যাক্সেস রোড",
+        "জমির সামনেই বিদ্যুৎ ও পানীয় জলের লাইন",
+        "কুলপি রোড থেকে মাত্র ৩০০ মিটার দূরত্ব",
+        "আশেপাশে ঘন বসতি, স্কুল ও বাজার"
+      ],
+      "description": "অবিলম্বে বাড়ি তৈরির উপযোগী উঁচু বাস্তু জমি। ২ কাঠা বা সম্পূর্ণ ৪ কাঠা একসাথে কেনার সুযোগ। বিএলএলআরও মিউটেশন ও খাজনা সম্পূর্ণ আপডেটেড।",
+      "imageUrl": "/images/baruipur-land-plot-sale.jpg",
+      "images": [
+        "/images/baruipur-land-plot-sale.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "সৌমেন হালদার",
+      "contactPhone": "+91 98316 44556",
+      "contactWhatsapp": "+91 98316 44556",
+      "publishedAt": "২০২৬-১১-১২"
+    },
+    {
+      "id": "prop-brp-015",
+      "title": "পদ্মপুকুর ক্রসিং ও বাইপাস সংযোগে 'সবুজ সাথী গ্রিনস' ২ ও ৩ বিএইচকে রেডি ফ্ল্যাট বিক্রয়",
+      "titleEn": "Sabuj Sathi Greens 2 & 3 BHK Ready-to-Move Flats at Padmapukur Crossing, Baruipur",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "পদ্মপুকুর মোড়, বারুইপুর বাইপাস রোড",
+      "locationArea": "Padmapukur More",
+      "price": "₹২৬.৫০ লক্ষ (২ বিএইচকে) থেকে শুরু",
+      "priceNum": 2650000,
+      "priceUnit": "total",
+      "configuration": "2 BHK (910 SqFt) & 3 BHK (1220 SqFt)",
+      "areaSqFt": "৯১০ - ১,২২০ বর্গফুট সুপার বিল্ট-আপ",
+      "facing": "দক্ষিণ ও পূর্বমুখী (South / East Open)",
+      "floorInfo": "২য়, ৩য় ও ৪র্থ তলা উপলব্ধ (G+4 প্রকল্প)",
+      "possessionStatus": "রেডি টু মুভ (Immediate Possession)",
+      "reraStatus": "WBRERA নিবন্ধিত (রেজিস্ট্রেশন ও সিসি প্রাপ্ত)",
+      "approvalStatus": "বারুইপুর পৌরসভা প্ল্যান অনুমোদিত",
+      "bankLoanApproved": "SBI, HDFC, ICICI ও Axis ব্যাংক থেকে ৯০% লোন অনুমোদিত",
+      "amenities": [
+        "অটোমেটিক লিফট ও ২৪ ঘণ্টা জেনারেটর ব্যাকআপ",
+        "২৪x৭ সিসিটিভি সিকিউরিটি ও ইন্টারকম সুবিধা",
+        "রুফটপ কমিউনিটি লাউঞ্জ ও গার্ডেন",
+        "কভার্ড টু-হুইলার ও ফোর-হুইলার পার্কিং"
+      ],
+      "description": "পদ্মপুকুর মোড় থেকে মাত্র ২ মিনিটের হাঁটা দূরত্বে অত্যাধুনিক গেটেড আবাসনে রেডি ফ্ল্যাট। স্টেশন ও বাইপাসের দারুণ যোগাযোগ ব্যবস্থা। সম্পূর্ণ আইনি ক্লিয়ারেন্স ও সিসি সহ প্রস্তুত।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "সবুজ সাথী প্রপার্টি সেলস ডেস্ক",
+      "contactPhone": "+91 98304 11223",
+      "contactWhatsapp": "+91 98304 11223",
+      "publishedAt": "২০২৬-১১-১২"
+    },
     {
       "id": "prop-brp-014",
       "title": "ব্যাংক অফ বরোদা ই-নিলাম (SARFAESI): বারুইপুর বাইপাস রোডে ১,০৫০ বর্গফুটের রেসিডেন্সিয়াল ফ্ল্যাট",
