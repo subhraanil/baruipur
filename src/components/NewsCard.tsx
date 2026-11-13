@@ -92,24 +92,24 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
         <div className="flex-1 min-w-0 flex flex-col justify-between py-0.5">
           <div>
             {/* Meta Row */}
-            <div className="flex items-center gap-2 mb-1 flex-wrap">
-              <span className={`${badgeColor} text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-2xs`}>
+            <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+              <span className={`${badgeColor} text-white text-xs font-bold px-2 py-0.5 rounded shadow-2xs`}>
                 {article.categoryNameBn || 'খবর'}
               </span>
               {isRecentBreaking && (
-                <span className="bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5 animate-pulse">
-                  <Flame className="w-2.5 h-2.5" />
+                <span className="bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded flex items-center gap-1 animate-pulse">
+                  <Flame className="w-3 h-3" />
                   ব্রেকিং
                 </span>
               )}
-              <span className="text-slate-400 text-[11px] flex items-center gap-1 font-medium">
-                <Clock className="w-3 h-3 text-slate-400" />
+              <span className="text-slate-500 text-xs flex items-center gap-1 font-medium">
+                <Clock className="w-3.5 h-3.5 text-slate-400" />
                 {article.isGuide ? 'স্থায়ী গাইড' : formatTimeAgoBengali(article.publishedAt)}
               </span>
             </div>
 
             {/* Headline */}
-            <h3 className="text-xs sm:text-[14px] font-bold text-slate-900 group-hover:text-[#C62828] transition-colors leading-snug line-clamp-2 mb-1">
+            <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-[#C62828] transition-colors leading-snug line-clamp-2 mb-1">
               <a href={postUrl}>
                 {article.title}
               </a>
@@ -117,29 +117,29 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
 
             {/* Clean Short 1-Line Excerpt (Desktop only to prevent clutter) */}
             {summary && (
-              <p className="hidden sm:block text-slate-500 text-xs line-clamp-1 leading-relaxed">
+              <p className="hidden sm:block text-slate-600 text-xs sm:text-sm line-clamp-1 leading-relaxed">
                 {summary}
               </p>
             )}
           </div>
 
           {/* Action Row */}
-          <div className="mt-1.5 pt-1.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
-            <span className="text-slate-400 truncate max-w-[150px]">
+          <div className="mt-2 pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span className="text-slate-500 font-medium truncate max-w-[150px]">
               {article.authorName || 'বারুইপুর বার্তা ডেস্ক'}
             </span>
             <div className="flex items-center gap-3">
               <button
                 onClick={handleWhatsAppShare}
-                className="text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-200/60 px-2 py-0.5 rounded-full font-bold flex items-center gap-1 transition-colors"
+                className="text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-200/60 px-2.5 py-1 rounded-full font-bold flex items-center gap-1 transition-colors text-xs"
                 title="হোয়াটসঅ্যাপে শেয়ার করুন"
               >
-                <Share2 className="w-3 h-3" />
+                <Share2 className="w-3.5 h-3.5" />
                 <span className="hidden sm:inline">শেয়ার</span>
               </button>
-              <a href={postUrl} className="text-[#C62828] font-bold hover:underline flex items-center gap-0.5">
+              <a href={postUrl} className="text-[#C62828] font-bold hover:underline flex items-center gap-1 text-xs">
                 <span>পড়ুন</span>
-                <ArrowRight className="w-3 h-3" />
+                <ArrowRight className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>
@@ -163,18 +163,18 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
           loading="lazy"
         />
         <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
-          <span className={`${badgeColor} text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-2xs`}>
+          <span className={`${badgeColor} text-white text-xs font-bold px-2 py-0.5 rounded shadow-2xs`}>
             {article.categoryNameBn || 'খবর'}
           </span>
           {hasVideo && (
-            <span className="bg-purple-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5 shadow-2xs">
-              <Play className="w-2.5 h-2.5 fill-current" />
+            <span className="bg-purple-600 text-white text-xs font-bold px-2 py-0.5 rounded flex items-center gap-1 shadow-2xs">
+              <Play className="w-3 h-3 fill-current" />
               ভিডিও
             </span>
           )}
           {isRecentBreaking && (
-            <span className="bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded flex items-center gap-0.5 shadow-2xs animate-pulse">
-              <Flame className="w-2.5 h-2.5" />
+            <span className="bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded flex items-center gap-1 shadow-2xs animate-pulse">
+              <Flame className="w-3 h-3" />
               ব্রেকিং
             </span>
           )}
@@ -189,44 +189,44 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
         )}
       </a>
 
-      <div className="p-3.5 flex-1 flex flex-col justify-between">
+      <div className="p-4 sm:p-4.5 flex-1 flex flex-col justify-between">
         <div>
-          <div className="flex items-center gap-2 text-slate-400 text-xs mb-1.5">
-            <span className="flex items-center gap-1 text-[11px]">
-              <Clock className="w-3 h-3 text-slate-400" />
+          <div className="flex items-center gap-2 text-slate-500 text-xs mb-2">
+            <span className="flex items-center gap-1 text-xs">
+              <Clock className="w-3.5 h-3.5 text-slate-400" />
               {article.isGuide ? 'স্থায়ী গাইড' : formatTimeAgoBengali(article.publishedAt)}
             </span>
             <span>•</span>
-            <span className="truncate text-slate-500 text-[11px] font-medium">
+            <span className="truncate text-slate-600 text-xs font-medium">
               {article.authorName || 'বারুইপুর বার্তা ডেস্ক'}
             </span>
           </div>
 
-          <h3 className="font-bold text-slate-900 text-xs sm:text-sm leading-snug group-hover:text-[#C62828] transition-colors line-clamp-2 mb-1.5">
+          <h3 className="font-bold text-slate-900 text-base sm:text-lg leading-snug group-hover:text-[#C62828] transition-colors line-clamp-2 mb-2">
             <a href={postUrl}>
               {article.title}
             </a>
           </h3>
 
           {article.summary && (
-            <p className="text-slate-500 text-xs line-clamp-2 leading-relaxed">
+            <p className="text-slate-600 text-xs sm:text-sm line-clamp-2 leading-relaxed mb-2">
               {cleanSummary(article.summary)}
             </p>
           )}
         </div>
 
-        <div className="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs">
+        <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
           <button
             onClick={handleWhatsAppShare}
-            className="flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-semibold text-[11px]"
+            className="flex items-center gap-1.5 text-emerald-700 hover:text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-full font-bold text-xs border border-emerald-200/70"
           >
-            <Share2 className="w-3 h-3" />
+            <Share2 className="w-3.5 h-3.5" />
             <span>হোয়াটসঅ্যাপ</span>
           </button>
 
-          <a href={postUrl} className="text-[#C62828] font-bold hover:underline flex items-center gap-0.5 text-xs">
+          <a href={postUrl} className="text-[#C62828] font-bold hover:underline flex items-center gap-1 text-xs sm:text-sm">
             <span>সম্পূর্ণ খবর</span>
-            <ArrowRight className="w-3 h-3" />
+            <ArrowRight className="w-3.5 h-3.5" />
           </a>
         </div>
       </div>

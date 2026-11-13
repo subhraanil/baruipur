@@ -64,29 +64,29 @@ export default function LocalDirectoryHighlights({
                 <a
                   key={fac.slug}
                   href={`/health-directory/${fac.slug}`}
-                  className="block p-2.5 rounded-lg bg-slate-50/70 hover:bg-rose-50/40 border border-slate-100 hover:border-rose-200 transition group"
+                  className="block p-3 rounded-xl bg-slate-50/70 hover:bg-rose-50/40 border border-slate-100 hover:border-rose-200 transition group"
                 >
-                  <div className="flex items-center justify-between gap-1 mb-1">
-                    <span className="text-[10px] font-bold bg-rose-100 text-rose-800 px-1.5 py-0.5 rounded">
+                  <div className="flex items-center justify-between gap-1 mb-1.5">
+                    <span className="text-xs font-bold bg-rose-100 text-rose-800 px-2 py-0.5 rounded">
                       {fac.typeBn || 'ক্লিনিক'}
                     </span>
-                    <span className="text-[10px] text-slate-500 font-medium">
+                    <span className="text-xs text-slate-500 font-medium">
                       {fac.doctorsCount ? `${fac.doctorsCount} জন ডাক্তার` : 'ওপিডি চেম্বার'}
                     </span>
                   </div>
-                  <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-rose-700 transition leading-snug line-clamp-1 mb-0.5">
+                  <h4 className="font-bold text-sm sm:text-base text-slate-900 group-hover:text-rose-700 transition leading-snug line-clamp-1 mb-1">
                     {fac.nameBn}
                   </h4>
-                  <p className="text-[11px] text-slate-500 line-clamp-1 mb-1.5">
-                    <MapPin className="w-3 h-3 inline mr-1 text-slate-400" />
+                  <p className="text-xs text-slate-600 line-clamp-1 mb-2">
+                    <MapPin className="w-3.5 h-3.5 inline mr-1 text-slate-400" />
                     {fac.addressBn || fac.landmarkBn}
                   </p>
-                  <div className="flex items-center justify-between text-[10px] font-semibold text-rose-700 pt-1 border-t border-slate-200/60">
+                  <div className="flex items-center justify-between text-xs font-semibold text-rose-700 pt-1.5 border-t border-slate-200/60">
                     <span className="flex items-center gap-1">
-                      <Phone className="w-2.5 h-2.5 text-slate-400" />
+                      <Phone className="w-3 h-3 text-slate-400" />
                       {fac.phone || 'বুকিং চালু'}
                     </span>
-                    <span className="group-hover:translate-x-0.5 transition-transform">
+                    <span className="group-hover:translate-x-0.5 transition-transform font-bold">
                       সময়সূচি দেখুন →
                     </span>
                   </div>
@@ -123,25 +123,25 @@ export default function LocalDirectoryHighlights({
                 <a
                   key={place.slug}
                   href={`/places/${place.slug}/`}
-                  className="block p-2.5 rounded-lg bg-slate-50/70 hover:bg-amber-50/40 border border-slate-100 hover:border-amber-200 transition group"
+                  className="block p-3 rounded-xl bg-slate-50/70 hover:bg-amber-50/40 border border-slate-100 hover:border-amber-200 transition group"
                 >
-                  <div className="flex items-center justify-between gap-1 mb-1">
-                    <span className="text-[10px] font-bold bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded">
+                  <div className="flex items-center justify-between gap-1 mb-1.5">
+                    <span className="text-xs font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded">
                       {place.category === 'admin' ? 'প্রশাসনিক' : place.category === 'judiciary' ? 'আদালত' : 'ঐতিহাসিক'}
                     </span>
-                    <span className="text-[10px] text-slate-400">
+                    <span className="text-xs text-slate-500 font-medium">
                       {place.established ? `স্থাপিত: ${place.established}` : 'বারুইপুর'}
                     </span>
                   </div>
-                  <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-amber-800 transition leading-snug line-clamp-1 mb-0.5">
+                  <h4 className="font-bold text-sm sm:text-base text-slate-900 group-hover:text-amber-800 transition leading-snug line-clamp-1 mb-1">
                     {place.nameBn}
                   </h4>
-                  <p className="text-[11px] text-slate-500 line-clamp-1 mb-1.5">
+                  <p className="text-xs text-slate-600 line-clamp-1 mb-2">
                     {place.taglineBn}
                   </p>
-                  <div className="flex items-center justify-between text-[10px] font-semibold text-amber-800 pt-1 border-t border-slate-200/60">
-                    <span className="text-slate-400">বিস্তারিত নির্দেশিকা</span>
-                    <span className="group-hover:translate-x-0.5 transition-transform">
+                  <div className="flex items-center justify-between text-xs font-semibold text-amber-800 pt-1.5 border-t border-slate-200/60">
+                    <span className="text-slate-500">বিস্তারিত নির্দেশিকা</span>
+                    <span className="group-hover:translate-x-0.5 transition-transform font-bold">
                       গাইড পড়ুন →
                     </span>
                   </div>
@@ -178,25 +178,25 @@ export default function LocalDirectoryHighlights({
                 <a
                   key={org.slug}
                   href={`/organizations/${org.slug}/`}
-                  className="block p-2.5 rounded-lg bg-slate-50/70 hover:bg-purple-50/40 border border-slate-100 hover:border-purple-200 transition group"
+                  className="block p-3 rounded-xl bg-slate-50/70 hover:bg-purple-50/40 border border-slate-100 hover:border-purple-200 transition group"
                 >
-                  <div className="flex items-center justify-between gap-1 mb-1">
-                    <span className="text-[10px] font-bold bg-purple-100 text-purple-900 px-1.5 py-0.5 rounded">
+                  <div className="flex items-center justify-between gap-1 mb-1.5">
+                    <span className="text-xs font-bold bg-purple-100 text-purple-900 px-2 py-0.5 rounded">
                       {org.categoryBn}
                     </span>
-                    <span className="text-[10px] text-slate-400">
+                    <span className="text-xs text-slate-500 font-medium">
                       স্থাপিত: {org.established}
                     </span>
                   </div>
-                  <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-purple-800 transition leading-snug line-clamp-1 mb-0.5">
+                  <h4 className="font-bold text-sm sm:text-base text-slate-900 group-hover:text-purple-800 transition leading-snug line-clamp-1 mb-1">
                     {org.nameBn}
                   </h4>
-                  <p className="text-[11px] text-slate-500 line-clamp-1 mb-1.5">
+                  <p className="text-xs text-slate-600 line-clamp-1 mb-2">
                     {org.taglineBn}
                   </p>
-                  <div className="flex items-center justify-between text-[10px] font-semibold text-purple-800 pt-1 border-t border-slate-200/60">
-                    <span className="text-slate-400">সামাজিক ও ক্রীড়া তথ্য</span>
-                    <span className="group-hover:translate-x-0.5 transition-transform">
+                  <div className="flex items-center justify-between text-xs font-semibold text-purple-800 pt-1.5 border-t border-slate-200/60">
+                    <span className="text-slate-500">সামাজিক ও ক্রীড়া তথ্য</span>
+                    <span className="group-hover:translate-x-0.5 transition-transform font-bold">
                       বিবরণ দেখুন →
                     </span>
                   </div>

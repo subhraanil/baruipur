@@ -339,14 +339,14 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
 
             return (
               <div key={idx} className="w-full overflow-x-auto my-6 rounded-2xl border border-slate-200 shadow-sm bg-white">
-                <table className="w-full divide-y divide-slate-200 text-xs sm:text-sm">
+                <table className="w-full divide-y divide-slate-200 text-sm sm:text-base">
                   <thead className="bg-slate-100/90">
                     <tr>
                       {headerCells.map((header, hIdx) => (
                         <th
                           key={hIdx}
                           scope="col"
-                          className="px-3.5 py-3 text-left font-black text-slate-900 tracking-tight whitespace-nowrap"
+                          className="px-4 py-3.5 text-left font-black text-slate-900 tracking-tight whitespace-nowrap"
                         >
                           {formatInlineText(header)}
                         </th>
@@ -357,7 +357,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
                     {dataRows.map((row, rIdx) => (
                       <tr key={rIdx} className="hover:bg-slate-50/80 transition-colors odd:bg-slate-50/30">
                         {row.map((cell, cIdx) => (
-                          <td key={cIdx} className="px-3.5 py-3 text-slate-700 whitespace-normal leading-relaxed break-words font-medium">
+                          <td key={cIdx} className="px-4 py-3.5 text-slate-800 whitespace-normal leading-relaxed break-words font-medium">
                             {formatInlineText(cell)}
                           </td>
                         ))}

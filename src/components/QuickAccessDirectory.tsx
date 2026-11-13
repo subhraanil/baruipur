@@ -321,7 +321,7 @@ export default function QuickAccessDirectory() {
                 {/* Micro Badge */}
                 {item.badge && (
                   <div className="flex justify-end mb-1">
-                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${item.badgeColor} tracking-tight`}>
+                    <span className={`text-xs font-bold px-2.5 py-0.5 rounded-full border ${item.badgeColor} tracking-tight`}>
                       {item.badge}
                     </span>
                   </div>
@@ -336,16 +336,16 @@ export default function QuickAccessDirectory() {
 
                 {/* Content */}
                 <div className="space-y-1">
-                  <h3 className="font-bold text-slate-900 group-hover:text-red-700 transition-colors text-xs sm:text-sm leading-snug">
+                  <h3 className="font-bold text-slate-900 group-hover:text-red-700 transition-colors text-sm sm:text-base leading-snug">
                     {item.label}
                   </h3>
-                  <p className="text-[11px] text-slate-500 line-clamp-2 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-600 line-clamp-2 leading-relaxed">
                     {item.desc}
                   </p>
                 </div>
 
                 {/* Bottom link indicator */}
-                <div className="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-semibold text-slate-400 group-hover:text-red-600 transition-colors">
+                <div className="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-500 group-hover:text-red-600 transition-colors">
                   <span>প্রবেশ করুন</span>
                   <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
                 </div>

@@ -24,9 +24,33 @@ body {
   font-family: var(--font-bengali);
   background-color: var(--color-surface);
   color: var(--color-text);
-  line-height: 1.68;
+  font-size: 15px;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optical readability protection for Bengali glyphs - prevents unreadable sub-12px text */
+.text-\[10px\], .text-\[11px\] {
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  font-weight: 600;
+}
+
+/* Mega menu dropdown transitions */
+@keyframes megaMenuFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mega-menu-dropdown {
+  animation: megaMenuFadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 /* Bengali Typography Rules - Enhanced optical line-height & conjunct spacing */

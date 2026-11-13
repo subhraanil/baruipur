@@ -453,8 +453,8 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
           <>
             {/* Desktop Table View */}
             <div className="hidden md:block overflow-x-auto">
-              <table className="w-full text-left text-xs">
-                <thead className="bg-slate-100/70 text-slate-700 font-bold border-b border-slate-200">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-slate-100/70 text-slate-800 font-bold border-b border-slate-200 text-xs sm:text-sm">
                   <tr>
                     <th className="py-3 px-4">ট্রেন নম্বর</th>
                     <th className="py-3 px-4">ট্রেনের নাম ও রুট</th>
@@ -468,34 +468,34 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
                   {filteredTrains.map((train, idx) => (
                     <tr key={`${train.trainNo}-${idx}`} className="hover:bg-slate-50/80 transition">
                       <td className="py-3.5 px-4 font-mono font-bold text-slate-900">
-                        <span className="bg-slate-100 px-2 py-1 rounded text-red-700 border border-slate-200">
+                        <span className="bg-slate-100 px-2 py-1 rounded text-red-700 border border-slate-200 text-sm">
                           {train.trainNo}
                         </span>
                       </td>
                       <td className="py-3.5 px-4">
-                        <div className="font-bold text-slate-800 text-xs">
+                        <div className="font-bold text-slate-900 text-sm sm:text-base">
                           {train.trainNameBn}
                         </div>
-                        <div className="text-[11px] text-slate-400">
+                        <div className="text-xs text-slate-500 mt-0.5">
                           {train.trainName} ({train.origin} ➔ {train.destination})
                         </div>
                       </td>
                       <td className="py-3.5 px-4 text-center">
-                        <span className="font-mono text-sm font-black text-slate-900 bg-emerald-50 text-emerald-800 px-2 py-0.5 rounded border border-emerald-200">
+                        <span className="font-mono text-base font-black text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200">
                           {train.departure}
                         </span>
                       </td>
                       <td className="py-3.5 px-4 text-center">
-                        <span className="font-mono text-sm font-semibold text-slate-700">
+                        <span className="font-mono text-base font-bold text-slate-800">
                           {train.arrival}
                         </span>
                       </td>
-                      <td className="py-3.5 px-4 text-center text-slate-600 font-medium">
+                      <td className="py-3.5 px-4 text-center text-slate-700 text-sm font-semibold">
                         {train.durationTextBn}
                       </td>
                       <td className="py-3.5 px-4 text-center">
                         <span
-                          className={`inline-block px-2 py-0.5 rounded-full text-[10px] font-bold ${
+                          className={`inline-block px-2.5 py-1 rounded-full text-xs font-bold ${
                             train.days === '1111111'
                               ? 'bg-emerald-100 text-emerald-800'
                               : 'bg-amber-100 text-amber-800'
@@ -516,11 +516,11 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
                 <div key={`${train.trainNo}-${idx}`} className="p-4 space-y-2 hover:bg-slate-50 transition">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <span className="bg-red-50 text-red-700 font-mono font-bold text-xs px-2 py-0.5 rounded border border-red-200">
+                      <span className="bg-red-50 text-red-700 font-mono font-bold text-xs px-2.5 py-0.5 rounded border border-red-200">
                         {train.trainNo}
                       </span>
                       <span
-                        className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                        className={`text-xs font-bold px-2 py-0.5 rounded-full ${
                           train.days === '1111111'
                             ? 'bg-emerald-100 text-emerald-800'
                             : 'bg-amber-100 text-amber-800'
@@ -529,26 +529,26 @@ export default function TrainTimetableClient({ routes, updatedAt }: Props) {
                         {train.daysTextBn}
                       </span>
                     </div>
-                    <span className="text-[11px] text-slate-500 font-medium">
+                    <span className="text-xs text-slate-600 font-semibold">
                       সময়: {train.durationTextBn}
                     </span>
                   </div>
 
-                  <div className="font-bold text-xs text-slate-900">
+                  <div className="font-bold text-sm sm:text-base text-slate-900">
                     {train.trainNameBn}
                   </div>
 
-                  <div className="flex items-center justify-between bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs">
+                  <div className="flex items-center justify-between bg-slate-50 p-3 rounded-xl border border-slate-150 text-xs">
                     <div>
-                      <span className="text-[10px] text-slate-400 block">ছাড়বে ({activeRoute.from})</span>
-                      <span className="font-mono text-base font-black text-emerald-700">
+                      <span className="text-xs text-slate-500 font-medium block">ছাড়বে ({activeRoute.from})</span>
+                      <span className="font-mono text-lg font-black text-emerald-700">
                         {train.departure}
                       </span>
                     </div>
-                    <div className="text-slate-300 font-bold">➔</div>
+                    <div className="text-slate-400 font-bold text-base">➔</div>
                     <div className="text-right">
-                      <span className="text-[10px] text-slate-400 block">পৌঁছাবে ({activeRoute.to})</span>
-                      <span className="font-mono text-base font-semibold text-slate-800">
+                      <span className="text-xs text-slate-500 font-medium block">পৌঁছাবে ({activeRoute.to})</span>
+                      <span className="font-mono text-lg font-bold text-slate-800">
                         {train.arrival}
                       </span>
                     </div>

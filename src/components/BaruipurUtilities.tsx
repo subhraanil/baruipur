@@ -297,10 +297,10 @@ export default function BaruipurUtilities({
               href={`/health-directory/${fac.slug}/`}
               className="flex items-center justify-between p-2.5 rounded-lg border border-red-150 bg-white hover:border-red-400 hover:bg-red-50/50 transition group"
             >
-              <span className="text-xs font-bold text-slate-800 group-hover:text-red-700 transition">
+              <span className="text-sm font-bold text-slate-800 group-hover:text-red-700 transition">
                 {fac.name}
               </span>
-              <span className="text-[10px] font-semibold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
+              <span className="text-xs font-bold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded">
                 {fac.tag}
               </span>
             </a>
@@ -335,13 +335,13 @@ export default function BaruipurUtilities({
               <a
                 key={idx}
                 href={`/places/${place.slug}/`}
-                className="flex items-center justify-between p-2 rounded-lg hover:bg-white/10 transition group text-xs"
+                className="flex items-center justify-between p-2 rounded-lg hover:bg-white/10 transition group text-sm"
               >
                 <div>
-                  <span className="font-semibold text-slate-100 group-hover:text-amber-300 transition">
+                  <span className="font-semibold text-slate-100 group-hover:text-amber-300 transition text-sm">
                     {place.name}
                   </span>
-                  <p className="text-[10px] text-slate-400">{place.subtitle}</p>
+                  <p className="text-xs text-slate-400">{place.subtitle}</p>
                 </div>
                 <ChevronRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-amber-300 group-hover:translate-x-0.5 transition" />
               </a>
@@ -390,10 +390,10 @@ export default function BaruipurUtilities({
               href={`/organizations/${org.slug}/`}
               className="flex items-center justify-between p-2.5 rounded-lg border border-slate-150 hover:border-purple-300 hover:bg-purple-50/40 transition group"
             >
-              <span className="text-xs font-bold text-slate-800 group-hover:text-purple-700 transition">
+              <span className="text-sm font-bold text-slate-800 group-hover:text-purple-700 transition">
                 {org.name}
               </span>
-              <span className="text-[10px] font-semibold text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded">
+              <span className="text-xs font-bold text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded">
                 {org.tag}
               </span>
             </a>
@@ -427,15 +427,15 @@ export default function BaruipurUtilities({
             <a
               key={idx}
               href={`/${guide.slug}/`}
-              className="block p-2.5 rounded-lg border border-slate-150 hover:border-emerald-300 hover:bg-emerald-50/30 transition group"
+              className="block p-3 rounded-lg border border-slate-150 hover:border-emerald-300 hover:bg-emerald-50/30 transition group"
             >
-              <div className="flex items-center justify-between gap-1 mb-1">
-                <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+              <div className="flex items-center justify-between gap-1 mb-1.5">
+                <span className="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200">
                   {guide.tag}
                 </span>
-                <ChevronRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition" />
+                <ChevronRight className="w-4 h-4 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition" />
               </div>
-              <h4 className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug">
+              <h4 className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition leading-snug">
                 {guide.title}
               </h4>
             </a>
