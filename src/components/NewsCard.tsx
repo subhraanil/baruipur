@@ -63,7 +63,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
     const summary = cleanSummary(article.summary);
 
     return (
-      <article className="bg-white rounded-xl border border-slate-200/90 p-3 hover:border-slate-300 shadow-2xs hover:shadow-xs transition-all flex flex-row gap-3 sm:gap-4 items-start group">
+      <article className="editorial-card bg-white rounded-2xl border border-slate-200/80 p-3.5 hover:border-slate-300 shadow-xs hover:shadow-md transition-all flex flex-row gap-3 sm:gap-4 items-start group">
         {/* Compact Thumbnail */}
         <a 
           href={postUrl} 
@@ -131,7 +131,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
             <div className="flex items-center gap-3">
               <button
                 onClick={handleWhatsAppShare}
-                className="text-emerald-600 hover:text-emerald-700 font-medium flex items-center gap-1"
+                className="text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-200/60 px-2 py-0.5 rounded-full font-bold flex items-center gap-1 transition-colors"
                 title="হোয়াটসঅ্যাপে শেয়ার করুন"
               >
                 <Share2 className="w-3 h-3" />
@@ -150,7 +150,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
 
   // 2. Standard Vertical Card (Used in Category Highlights)
   return (
-    <article className="bg-white rounded-xl border border-slate-200/90 overflow-hidden shadow-2xs hover:shadow-xs hover:border-slate-300 transition-all flex flex-col group">
+    <article className="editorial-card bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-xs hover:shadow-md hover:border-slate-300 transition-all flex flex-col group">
       <a href={postUrl} className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100 block">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 

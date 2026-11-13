@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import MobileBottomNav from '@/components/MobileBottomNav';
 import TrackingHead from '@/components/TrackingHead';
+import ReadingProgressBar from '@/components/ReadingProgressBar';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://baruipur.online'),
@@ -159,6 +160,7 @@ export default function RootLayout({
         <TrackingHead />
       </head>
       <body className="min-h-screen flex flex-col bg-slate-50 font-bengali">
+        <ReadingProgressBar />
         <Header />
         <main className="flex-1 pb-16 md:pb-0">
           {children}

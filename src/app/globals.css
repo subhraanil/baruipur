@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #102A43;
-  --color-accent: #C62828;
-  --color-text: #263238;
+  --color-primary: #0F172A;
+  --color-accent: #B91C1C;
+  --color-text: #1E293B;
   --color-muted: #64748B;
   --color-background: #FFFFFF;
   --color-surface: #F8FAFC;
   --color-border: #E2E8F0;
-  --font-bengali: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  --font-bengali: 'Noto Sans Bengali', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
   --content-width: 1320px;
 }
 
@@ -24,19 +24,40 @@ body {
   font-family: var(--font-bengali);
   background-color: var(--color-surface);
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.68;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Bengali Typography Rules - Prevent Glyph Clipping */
+/* Bengali Typography Rules - Enhanced optical line-height & conjunct spacing */
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.38;
-  letter-spacing: normal;
+  font-family: 'Noto Sans Bengali', var(--font-bengali);
+  line-height: 1.48;
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
 }
 
 p, span, li, a {
   letter-spacing: normal;
+  word-spacing: 0.04em;
+}
+
+/* Editorial Card & Interactive Physics */
+.editorial-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.editorial-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Hide scrollbar for clean horizontal snap carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* Focus styles for keyboard accessibility */
