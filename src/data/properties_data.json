@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T05:57:45.984Z",
+  "lastUpdated": "২০২৬-১১-১৩",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,78 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-020",
+      "title": "বারুইপুর কাছারি বাজার ও রবীন্দ্র ভবন রোডে ৮০০ বর্গফুট প্রথম তলা কমার্শিয়াল স্পেস বিক্রয়/লিজ",
+      "titleEn": "800 SqFt 1st Floor Prime Commercial Office / Diagnostic Space at Kanchari Bazar, Baruipur",
+      "category": "commercial",
+      "categoryNameBn": "বাণিজ্যিক দোকান ও অফিস (Commercial Space)",
+      "location": "কাছারি বাজার ও রবীন্দ্র ভবন মেইন রোড, বারুইপুর",
+      "locationArea": "Kanchari Bazar",
+      "price": "₹৪৮.০০ লক্ষ (বাৎসরিক উচ্চ ভাড়ার নিশ্চয়তা)",
+      "priceNum": 4800000,
+      "priceUnit": "total",
+      "configuration": "Commercial Hall + 2 Partitions + Private Washroom",
+      "areaSqFt": "৮০০ বর্গফুট কার্পেট এরিয়া",
+      "facing": "মেইন রোড ফেসিং (Main Road View Frontage)",
+      "floorInfo": "প্রথম তলা (গ্রাউন্ড ফ্লোরে প্রশস্ত সিড়ি ও ফুটফল)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তরযোগ্য",
+      "reraStatus": "পৌরসভা বাণিজ্যিক ট্রেড অনুমোদন সম্পন্ন",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত বাণিজ্যিক নকশা",
+      "bankLoanApproved": "বাণিজ্যিক প্রপার্টি লোন ও এমএসএমই ফাইন্যান্স উপলব্ধ",
+      "amenities": [
+        "থ্রি-ফেজ বাণিজ্যিক বিদ্যুৎ সংযোগ ও আলাদা সাব-মিটার",
+        "উন্নত ভিটিফাইড টাইলস ফ্লোরিং ও গ্লাস ফ্রন্ট পার্টেশন",
+        "ডায়াগনস্টিক ল্যাব, আইনি ফার্ম, ডাক্তার চেম্বার বা আইটি অফিসের জন্য আদর্শ",
+        "স্টেশন ও কাছারি আদালত থেকে মাত্র ২ মিনিট হাঁটা পথ"
+      ],
+      "description": "বারুইপুরের প্রাণকেন্দ্র কাছারি বাজার ও আদালতের সংযোগস্থলে ৮০০ বর্গফুটের সম্পূর্ণ রেডি প্রথম তলা বাণিজ্যিক স্থান। ব্যাঙ্ক, করপোরেট অফিস, পলিক্লিনিক বা ডায়াগনস্টিক সেন্টারের জন্য অত্যন্ত উপযোগী।",
+      "imageUrl": "/images/places/baruipur-bdo-office-building.jpg",
+      "images": [
+        "/images/places/baruipur-bdo-office-building.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "অরিন্দম মুখার্জী",
+      "contactPhone": "+91 98301 22998",
+      "contactWhatsapp": "+91 98301 22998",
+      "publishedAt": "২০২৬-১১-১৩"
+    },
+    {
+      "id": "prop-brp-019",
+      "title": "বারুইপুর বাইপাস ও পদ্মপুকুর মোড় সংলগ্ন 'আনন্দধারা গ্রিনস' ৩ বিএইচকে বিলাসবহুল রেডি ফ্ল্যাট",
+      "titleEn": "Anandadhara Greens 3 BHK Luxury Ready-to-Move Flat near Baruipur Bypass & Padmapukur",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "পদ্মপুকুর মোড়, বারুইপুর বাইপাস, দক্ষিণ ২৪ পরগনা",
+      "locationArea": "Padmapukur More",
+      "price": "₹৩২.৫০ লক্ষ (নেগোশিয়েবল)",
+      "priceNum": 3250000,
+      "priceUnit": "total",
+      "configuration": "3 BHK (1,180 SqFt Super Built-up) + 2 Balconies",
+      "areaSqFt": "১,১৮০ বর্গফুট",
+      "facing": "দক্ষিণ-পূর্বমুখী (South-East Open & Airy)",
+      "floorInfo": "৩য় তলা (G+4 লিফট সহ রেডি অ্যাপার্টমেন্ট)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "WBRERA নিবন্ধিত ও কমপ্লিশন সার্টিফিকেট (CC) প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত বৈধ আবাসিক বিল্ডিং প্ল্যান",
+      "bankLoanApproved": "SBI, HDFC, PNB ও Bank of Baroda থেকে ৮৫%-৯০% লোন উপলব্ধ",
+      "amenities": [
+        "অটোমেটিক ৬-যাত্রী লিফট ও সার্বক্ষণিক সাইলেন্ট জেনারেটর ব্যাকআপ",
+        "২৪ ঘণ্টা সিসিটিভি ক্যামেরা সিকিউরিটি ও ভিডিও ডোর ফোন",
+        "কভার্ড কার পার্কিং স্পেস ও বাইক পার্কিং",
+        "রুফটপ ছাদবাগান ও যোগা কর্নার"
+      ],
+      "description": "বারুইপুর বাইপাস ও পদ্মপুকুর ক্রসিং থেকে মাত্র ৩ মিনিটের দূরত্বে অবস্থিত আধুনিক সুযোগ-সুবিধাযুক্ত রেডি ৩ বিএইচকে ফ্ল্যাট। আলো-বাতাসে পরিপূর্ণ, ৩টি বেডরুম, ২টি বাথরুম এবং ২টি খোলামেলা ব্যালকনি। বারুইপুর রেলওয়ে স্টেশন ও মহকুমা হাসপাতালে দ্রুত পৌঁছানোর সুগম যোগাযোগ।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "শুভজিৎ চ্যাটার্জী (আনন্দধারা রিয়েলটি)",
+      "contactPhone": "+91 98305 44321",
+      "contactWhatsapp": "+91 98305 44321",
+      "publishedAt": "২০২৬-১১-১৩"
+    },
     {
       "id": "prop-brp-018",
       "title": "স্টেট ব্যাংক অফ ইন্ডিয়া (SBI) ই-নিলাম: কল্যাণপুর এলাকায় ২ কাঠা জমিসহ দোতলা আবাসিক বাড়ি",
