@@ -60,7 +60,7 @@ export default function LocalDirectoryHighlights({
             </div>
 
             <div className="space-y-2.5">
-              {facilities.slice(0, 3).map((fac) => (
+              {facilities.slice(0, 5).map((fac) => (
                 <a
                   key={fac.slug}
                   href={`/health-directory/${fac.slug}`}
