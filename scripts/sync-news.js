@@ -253,7 +253,6 @@ function enrichContentWithContext(title, content, category) {
 
   // AdSense Compliance: Zero repetitive templated boilerplate
   return cleaned;
-};
 }
 
 // 4. Clean Bengali headline
