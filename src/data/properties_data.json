@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৩",
+  "lastUpdated": "২০২৬-১১-১৪",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,78 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-022",
+      "title": "বারুইপুর বাইপাস ও চম্পাহাটি রোডে ৩ কাঠা নিষ্কণ্টক বাস্তু জমি প্রাচীর ঘেরা বিক্রয়",
+      "titleEn": "3 Cottah Gated Vastu Boundary Walled Residential Land on Baruipur Bypass & Champahati Road",
+      "category": "residential_land",
+      "categoryNameBn": "বাস্তু জমি (Residential Land)",
+      "location": "চম্পাহাটি সংযোগ, বারুইপুর বাইপাস, দক্ষিণ ২৪ পরগনা",
+      "locationArea": "Baruipur Bypass Champahati",
+      "price": "₹১১.০০ লক্ষ প্রতি কাঠা (মোট ৩৩ লক্ষ)",
+      "priceNum": 3300000,
+      "priceUnit": "total",
+      "configuration": "৩ কাঠা চার দেওয়াল ঘেরা রেডি বাস্তু প্লট (2,160 SqFt)",
+      "areaSqFt": "২,১৬০ বর্গফুট (৩ কাঠা)",
+      "facing": "পূর্বমুখী (East Facing 20 Ft Front Road)",
+      "floorInfo": "সমতল উঁচু জমি (Waterlogging Free)",
+      "possessionStatus": "তাৎক্ষণিক রেজিস্ট্রি ও দখল",
+      "reraStatus": "সম্পূর্ণ নিষ্কণ্টক একক স্বত্বাধিকারী রেকর্ড",
+      "approvalStatus": "ব্লক ও বিএলএলআরও পর্চা ও খতিয়ান হালনাগাদ",
+      "bankLoanApproved": "ল্যান্ড পারচেজ ও হোম কনস্ট্রাকশন লোন উপলব্ধ",
+      "amenities": [
+        "সামনে ২০ ফুট চওড়া পিচ ঢালা রাস্তা",
+        "বিদ্যুৎ ও পানীয় জলের পাইপলাইন সংলগ্ন",
+        "নিজস্ব চার দেওয়াল বাউন্ডারি ও লোহার গেট নির্মিত",
+        "বাইপাস সংযোগ থেকে মাত্র ১.৫ কিমি দূরত্ব"
+      ],
+      "description": "বাড়ি তৈরি বা বিনিয়োগের জন্য সেরা পছন্দের ৩ কাঠা সম্পূর্ণ নিষ্কণ্টক বাস্তু জমি। জমির সামনে ২০ ফুট চওড়া রাস্তা। দলিল, পর্চা ও রেকর্ড সম্পূর্ণ পরিষ্কার। কোনো দালাল নেই, সরাসরি মালিকের পক্ষ থেকে হস্তান্তর।",
+      "imageUrl": "/images/places/baruipur-bdo-office-building.jpg",
+      "images": [
+        "/images/places/baruipur-bdo-office-building.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "তাপস কুমার হালদার",
+      "contactPhone": "+91 98302 99812",
+      "contactWhatsapp": "+91 98302 99812",
+      "publishedAt": "২০২৬-১১-১৪"
+    },
+    {
+      "id": "prop-brp-021",
+      "title": "বারুইপুর স্টেশন রোড ও পুরাতন রেলগেট সংলগ্ন সাউথ ফেসিং ১,০৫০ বর্গফুট রেডি ২ বিএইচকে ফ্ল্যাট",
+      "titleEn": "1,050 SqFt South-Facing Ready-to-Move 2 BHK Flat near Baruipur Station Road & Puratan Railgate",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "পুরাতন রেলগেট, স্টেশন রোড, বারুইপুর",
+      "locationArea": "Station Road / Railgate",
+      "price": "₹২৬.৫০ লক্ষ (স্থির মূল্য)",
+      "priceNum": 2650000,
+      "priceUnit": "total",
+      "configuration": "2 BHK (1,050 SqFt Super Built-up) + 1 Balcony",
+      "areaSqFt": "১,০৫০ বর্গফুট",
+      "facing": "দক্ষিণমুখী (South Facing - Full Natural Light)",
+      "floorInfo": "২য় তলা (G+3 লিফট সহ সুসজ্জিত অ্যাপার্টমেন্ট)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "রেজিস্টার্ড ও কমপ্লিশন সার্টিফিকেট প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত প্ল্যান",
+      "bankLoanApproved": "SBI, PNB ও HDFC হোম লোন সুবিধা উপলব্ধ",
+      "amenities": [
+        "অটোমেটিক লিফট ও ২৪ ঘণ্টা সার্বক্ষণিক বিদ্যুৎ ব্যাকআপ",
+        "স্টেশন থেকে মাত্র ৪ মিনিট হাঁটা পথ",
+        "পৌরসভার সুপেয় পানীয় জলের প্রত্যক্ষ সংযোগ",
+        "সিসিটিভি নজরদারি ও ইন্টারকম সিকিউরিটি"
+      ],
+      "description": "বারুইপুর স্টেশন রোডের সন্নিকটে শান্ত ও নিরিবিলি পরিবেশে অবস্থিত নতুন ২ বিএইচকে ফ্ল্যাট। ২টি খোলামেলা বেডরুম, ২টি আধুনিক বাথরুম এবং একটি প্রশস্ত ব্যালকনি। দৈনন্দিন বাজার, ডাক্তার চেম্বার ও স্কুল হাঁটা দূরত্বের মধ্যে।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "পিনাকী বসু (বসু রিয়েল এস্টেট)",
+      "contactPhone": "+91 98310 77654",
+      "contactWhatsapp": "+91 98310 77654",
+      "publishedAt": "২০২৬-১১-১৪"
+    },
     {
       "id": "prop-brp-020",
       "title": "বারুইপুর কাছারি বাজার ও রবীন্দ্র ভবন রোডে ৮০০ বর্গফুট প্রথম তলা কমার্শিয়াল স্পেস বিক্রয়/লিজ",

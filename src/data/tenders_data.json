@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৩",
+  "lastUpdated": "২০২৬-১১-১৪",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -65,6 +65,52 @@
   ],
   "tenders": [
     {
+      "id": "tnd-sdh-2026-07",
+      "nitNumber": "NIT-07/SDH-BRP/DIET-SUPPLY/2026",
+      "title": "বারুইপুর মহকুমা হাসপাতালের অন্তর্বিভাগের রোগীদের দৈনিক পুষ্টিকর পথ্য ও পথ্যসামগ্রী বার্ষিক সরবরাহ চুক্তি",
+      "titleEn": "Annual Contract for Daily Supply of Cooked Diet, Raw Food Materials & Nutrition Supplements for In-Patients of Baruipur Sub-Divisional Hospital",
+      "authorityId": "hospital",
+      "authorityName": "বারুইপুর মহকুমা হাসপাতাল (Baruipur Sub-Divisional Hospital)",
+      "department": "হাসপাতাল পথ্য ও রোগী কল্যাণ কমিটি",
+      "location": "বারুইপুর মহকুমা হাসপাতাল অন্তর্বিভাগ",
+      "category": "হাসপাতাল পথ্য সরবরাহ (Dietary Services)",
+      "estimatedValue": "₹৩৮,০০,০০০",
+      "estimatedValueNum": 3800000,
+      "emdAmount": "₹৭৬,০০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-১৪",
+      "closingDate": "২০২৬-১২-১১",
+      "bidOpeningDate": "২০২৬-১২-১৪",
+      "status": "active",
+      "portalLink": "https://www.wbhealth.gov.in/pages/tender",
+      "sourcePortalName": "wbhealth.gov.in / e-Procurement",
+      "tenderRef": "WBHSD/SDH-BRP/NIT-07/DIET/2026",
+      "eligibility": "সরকারি হাসপাতালে খাদ্য ও পথ্য সরবরাহে বৈধ FSSAI লাইসেন্স ও ন্যূনতম ৩ বছরের অভিজ্ঞতা সম্পন্ন সরবরাহকারী।"
+    },
+    {
+      "id": "tnd-bm-2026-10",
+      "nitNumber": "NIT-10/BM/ELEC-SOLAR/2026",
+      "title": "বারুইপুর পৌরসভা ভবন ও টাউন লাইব্রেরিতে গ্রিড-সংযুক্ত ৫০ কিলোওয়াট সোলার রুফটপ প্ল্যান্ট সরবরাহ ও স্থাপন",
+      "titleEn": "Supply, Installation & Commissioning of 50 KWp Grid-Connected Rooftop Solar PV Power Plant at Baruipur Municipal Building and Town Library",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পৌর বিদ্যুৎ ও শক্তি পুনর্নবীকরণ বিভাগ",
+      "location": "বারুইপুর পৌর কার্যালয় ও টাউন লাইব্রেরি চত্বর",
+      "category": "সৌরশক্তি ও ইলেকট্রিক্যাল (Solar & Electrical Infra)",
+      "estimatedValue": "₹৩১,৫০,০০০",
+      "estimatedValueNum": 3150000,
+      "emdAmount": "₹৬৩,০০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-১৪",
+      "closingDate": "২০২৬-১২-১২",
+      "bidOpeningDate": "২০২৬-১২-১৫",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)",
+      "tenderRef": "WBMAD/BM/NIT-10/SOLAR/2026",
+      "eligibility": "WBREDA অনুমোদিত এবং সোলার পিভি রুফটপ ইনস্টলেশনে নথিবদ্ধ ১ম শ্রেণীর অভিজ্ঞ ঠিকাদারি সংস্থা।"
+    },
+    {
       "id": "tnd-sdh-2026-06",
       "nitNumber": "NIT-06/SDH-BRP/OXY-GEN/2026",
       "title": "বারুইপুর মহকুমা হাসপাতালের সেন্ট্রাল মেডিক্যাল গ্যাস ও পাইপলাইন সিস্টেমের বার্ষিক রক্ষণাবেক্ষণ ও লিকুইড অক্সিজেন রিফিল",
@@ -82,9 +128,10 @@
       "closingDate": "২০২৬-১২-০৭",
       "bidOpeningDate": "২০২৬-১২-১০",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbhealth.gov.in/pages/tender",
       "tenderRef": "WBHSD/SDH-BRP/NIT-06/MGPS/2026",
-      "eligibility": "স্বাস্থ্য দপ্তরের অনুমোদিত সরকারি ও কর্পোরেট হাসপাতালে মেডিক্যাল অক্সিজেন প্ল্যান্ট রক্ষণাবেক্ষণে অভিজ্ঞ সংস্থা।"
+      "eligibility": "স্বাস্থ্য দপ্তরের অনুমোদিত সরকারি ও কর্পোরেট হাসপাতালে মেডিক্যাল অক্সিজেন প্ল্যান্ট রক্ষণাবেক্ষণে অভিজ্ঞ সংস্থা।",
+      "sourcePortalName": "wbhealth.gov.in / e-Procurement"
     },
     {
       "id": "tnd-pwd-2026-04",
@@ -104,9 +151,10 @@
       "closingDate": "২০২৬-১২-১০",
       "bidOpeningDate": "২০২৬-১২-১৩",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbpwd.gov.in/tender",
       "tenderRef": "PWD/BRP/HWY/NIT-04/2026",
-      "eligibility": "রাজ্য পূর্ত দপ্তরে রাস্তা সংস্কার ও বিটুমিনাস কাজে নথিবদ্ধ যোগ্য ঠিকাদার।"
+      "eligibility": "রাজ্য পূর্ত দপ্তরে রাস্তা সংস্কার ও বিটুমিনাস কাজে নথিবদ্ধ যোগ্য ঠিকাদার।",
+      "sourcePortalName": "wbpwd.gov.in / wbtenders"
     },
     {
       "id": "tnd-bm-2026-09",
@@ -126,9 +174,10 @@
       "closingDate": "২০২৬-১২-০৮",
       "bidOpeningDate": "২০২৬-১২-১১",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
       "tenderRef": "WBMAD/BM/NIT-09/DRAIN/2026",
-      "eligibility": "পৌরসভা বা পূর্ত দপ্তরে আরসিসি ড্রেন ও সিভিল কাজে অভিজ্ঞ ১ম শ্রেণীর তালিকাভুক্ত ঠিকাদার।"
+      "eligibility": "পৌরসভা বা পূর্ত দপ্তরে আরসিসি ড্রেন ও সিভিল কাজে অভিজ্ঞ ১ম শ্রেণীর তালিকাভুক্ত ঠিকাদার।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
     },
     {
       "id": "tnd-wbsedcl-2026-03",
@@ -148,9 +197,10 @@
       "closingDate": "২০২৬-১২-০৬",
       "bidOpeningDate": "২০২৬-১২-০৯",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/Tenders.html",
       "tenderRef": "WBSEDCL/BRP-DIV/NIT-03/ABC/2026",
-      "eligibility": "WBSEDCL-এ LT এবিসি ক্যাবল স্ট্রিংগিং ও পোল ইরেকশনের বৈধ কন্ট্রাক্টরস লাইসেন্সধারী সংস্থা।"
+      "eligibility": "WBSEDCL-এ LT এবিসি ক্যাবল স্ট্রিংগিং ও পোল ইরেকশনের বৈধ কন্ট্রাক্টরস লাইসেন্সধারী সংস্থা।",
+      "sourcePortalName": "wbsedcl.in Official Tenders"
     },
     {
       "id": "tnd-gp-gob-2026-07",
@@ -170,9 +220,10 @@
       "closingDate": "২০২৬-১২-০৫",
       "bidOpeningDate": "২০২৬-১২-০৮",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/DGP-NBG/NIT-07/2026",
-      "eligibility": "পঞ্চায়েত সমিতি বা জেলা পরিষদে কংক্রিট রোড নির্মাণে নথিভুক্ত অভিজ্ঞ ঠিকাদার।"
+      "eligibility": "পঞ্চায়েত সমিতি বা জেলা পরিষদে কংক্রিট রোড নির্মাণে নথিভুক্ত অভিজ্ঞ ঠিকাদার।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-sdo-2026-06",
@@ -192,9 +243,10 @@
       "closingDate": "২০২৬-১২-০২",
       "bidOpeningDate": "২০২৬-১২-০৪",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/SDO/BRP/NIT-06/SOLAR/2026",
-      "eligibility": "MNRE ও WBREDA অনুমোদিত সোলার সিস্টেম ইন্টিগ্রেটর ও বৈধ ইলেকট্রিক্যাল কন্ট্রাক্টর।"
+      "eligibility": "MNRE ও WBREDA অনুমোদিত সোলার সিস্টেম ইন্টিগ্রেটর ও বৈধ ইলেকট্রিক্যাল কন্ট্রাক্টর।",
+      "sourcePortalName": "s24pgs.gov.in (SDO Baruipur)"
     },
     {
       "id": "tnd-bm-2026-08",
@@ -214,9 +266,10 @@
       "closingDate": "২০২৬-১২-০৪",
       "bidOpeningDate": "২০২৬-১২-০৭",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
       "tenderRef": "WBMAD/BM/NIT-08/CIVIL/2026",
-      "eligibility": "পুরসভা বা পিডব্লিউডি-তে কংক্রিট ড্রেন ও পেভমেন্ট নির্মাণে ন্যূনতম ৩ বছরের অভিজ্ঞতা সম্পন্ন প্রথম/দ্বিতীয় শ্রেণির ঠিকাদার।"
+      "eligibility": "পুরসভা বা পিডব্লিউডি-তে কংক্রিট ড্রেন ও পেভমেন্ট নির্মাণে ন্যূনতম ৩ বছরের অভিজ্ঞতা সম্পন্ন প্রথম/দ্বিতীয় শ্রেণির ঠিকাদার।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
     },
     {
       "id": "tnd-bm-2026-07",
@@ -236,9 +289,10 @@
       "closingDate": "২০২৬-১১-২৮",
       "bidOpeningDate": "২০২৬-১১-৩০",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
       "tenderRef": "WBMAD/BM/NIT-07/WATER/2026",
-      "eligibility": "জনস্বাস্থ্য ও পুরসভা পানীয় জল সরবরাহ প্রকল্পে ন্যূনতম ৩ বছরের বাস্তব অভিজ্ঞতাসম্পন্ন প্রথম শ্রেণির পূর্ত ঠিকাদার।"
+      "eligibility": "জনস্বাস্থ্য ও পুরসভা পানীয় জল সরবরাহ প্রকল্পে ন্যূনতম ৩ বছরের বাস্তব অভিজ্ঞতাসম্পন্ন প্রথম শ্রেণির পূর্ত ঠিকাদার।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
     },
     {
       "id": "tnd-bm-2026-04",
@@ -258,9 +312,10 @@
       "closingDate": "২০২৬-১১-২০",
       "bidOpeningDate": "২০২৬-১১-২২",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
       "tenderRef": "WBMAD/BM/NIT-04/2026",
-      "eligibility": "পশ্চিমবঙ্গ সরকার স্বীকৃত ১ম/২য় শ্রেণির পূর্ত ঠিকাদার, বিগত ৩ বছরে ৫০% অনুরূপ কাজের অভিজ্ঞতা ও জিএসটি/আইটি ক্লিয়ারেন্স বাধ্যতামূলক।"
+      "eligibility": "পশ্চিমবঙ্গ সরকার স্বীকৃত ১ম/২য় শ্রেণির পূর্ত ঠিকাদার, বিগত ৩ বছরে ৫০% অনুরূপ কাজের অভিজ্ঞতা ও জিএসটি/আইটি ক্লিয়ারেন্স বাধ্যতামূলক।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
     },
     {
       "id": "tnd-bm-2026-05",
@@ -280,9 +335,10 @@
       "closingDate": "২০২৬-১১-২৪",
       "bidOpeningDate": "২০২৬-১১-২৬",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
       "tenderRef": "WBMAD/BM/NIT-05/ELECT/2026",
-      "eligibility": "বৈধ ইলেকট্রিক্যাল সুপারভাইজরি লাইসেন্সধারী ঠিকাদারি সংস্থা ও সরকারি লাইটিং প্রকল্পে পূর্ব কাজের শংসাপত্র।"
+      "eligibility": "বৈধ ইলেকট্রিক্যাল সুপারভাইজরি লাইসেন্সধারী ঠিকাদারি সংস্থা ও সরকারি লাইটিং প্রকল্পে পূর্ব কাজের শংসাপত্র।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
     },
     {
       "id": "tnd-bm-2026-06",
@@ -302,9 +358,10 @@
       "closingDate": "২০২৬-১১-১৮",
       "bidOpeningDate": "২০২৬-১১-২১",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTendersByOrganisation&service=direct",
       "tenderRef": "WBMAD/BM/NIT-06/SWM/2026",
-      "eligibility": "পৌর কঠিন বর্জ্য পৃথকীকরণ ও বায়ো-মাইনিংয়ে ন্যূনতম ২ বছরের অভিজ্ঞতা সম্পন্ন এনভায়রনমেন্টাল এজেন্সি।"
+      "eligibility": "পৌর কঠিন বর্জ্য পৃথকীকরণ ও বায়ো-মাইনিংয়ে ন্যূনতম ২ বছরের অভিজ্ঞতা সম্পন্ন এনভায়রনমেন্টাল এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
     },
     {
       "id": "tnd-sdo-2026-02",
@@ -324,9 +381,10 @@
       "closingDate": "২০২৬-১১-২২",
       "bidOpeningDate": "২০২৬-১১-২৪",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/SDO/BRP/NIT-02/2026",
-      "eligibility": "সরকারি আদালত ভবন বা পুলিশি প্রতিষ্ঠানে সার্ভিল্যান্স ক্যামেরা ইন্সটলেশনের ৩ বছরের পূর্ব অভিজ্ঞতা সম্পন্ন OEM অনুমোদিত ভেন্ডর।"
+      "eligibility": "সরকারি আদালত ভবন বা পুলিশি প্রতিষ্ঠানে সার্ভিল্যান্স ক্যামেরা ইন্সটলেশনের ৩ বছরের পূর্ব অভিজ্ঞতা সম্পন্ন OEM অনুমোদিত ভেন্ডর।",
+      "sourcePortalName": "s24pgs.gov.in (SDO Baruipur)"
     },
     {
       "id": "tnd-sdo-2026-04",
@@ -346,9 +404,10 @@
       "closingDate": "২০২৬-১১-২৮",
       "bidOpeningDate": "২০২৬-১১-৩০",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/SDO/BRP/NIT-04/FIRE/2026",
-      "eligibility": "পশ্চিমবঙ্গ দমকল ও জরুরি পরিষেবা অধিদপ্তর (WBFES) স্বীকৃত এবং সরকারি ভবনে ফায়ার হাইড্র্যান্ট স্থাপনে অভিজ্ঞ লাইসেন্সপ্রাপ্ত সংস্থা।"
+      "eligibility": "পশ্চিমবঙ্গ দমকল ও জরুরি পরিষেবা অধিদপ্তর (WBFES) স্বীকৃত এবং সরকারি ভবনে ফায়ার হাইড্র্যান্ট স্থাপনে অভিজ্ঞ লাইসেন্সপ্রাপ্ত সংস্থা।",
+      "sourcePortalName": "s24pgs.gov.in (SDO Baruipur)"
     },
     {
       "id": "tnd-sdo-2026-05",
@@ -368,9 +427,10 @@
       "closingDate": "২০২৬-১১-২৯",
       "bidOpeningDate": "২০২৬-১২-০১",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/SDO/BRP/NIT-05/IT/2026",
-      "eligibility": "সরকারি দপ্তরে অডিও-ভিজ্যুয়াল ও ভিডিও কনফারেন্সিং সিস্টেম ইনস্টলেশনে অভিজ্ঞ আইটি ফার্ম।"
+      "eligibility": "সরকারি দপ্তরে অডিও-ভিজ্যুয়াল ও ভিডিও কনফারেন্সিং সিস্টেম ইনস্টলেশনে অভিজ্ঞ আইটি ফার্ম।",
+      "sourcePortalName": "s24pgs.gov.in (SDO Baruipur)"
     },
     {
       "id": "tnd-ps-2026-16",
@@ -390,9 +450,10 @@
       "closingDate": "২০২৬-১১-২৭",
       "bidOpeningDate": "২০২৬-১১-২৯",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/PRD/BRP-PS/NIT-16/SOLAR/2026",
-      "eligibility": "MNRE / WBREDA অনুমোদিত চ্যানেল পার্টনার বা সরকারি প্রকল্পে রুফটপ সোলার স্থাপনে অভিজ্ঞ সংস্থা।"
+      "eligibility": "MNRE / WBREDA অনুমোদিত চ্যানেল পার্টনার বা সরকারি প্রকল্পে রুফটপ সোলার স্থাপনে অভিজ্ঞ সংস্থা।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-ps-2026-14",
@@ -412,9 +473,10 @@
       "closingDate": "২০২৬-১১-১৯",
       "bidOpeningDate": "২০২৬-১১-২১",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/PRD/BRP-PS/NIT-14/2026",
-      "eligibility": "পিএইচইডি (PHED) বা পঞ্চায়েত সমিতিতে ডিপ টিউবওয়েল ও পাম্প হাউজ নির্মাণের অভিজ্ঞতা।"
+      "eligibility": "পিএইচইডি (PHED) বা পঞ্চায়েত সমিতিতে ডিপ টিউবওয়েল ও পাম্প হাউজ নির্মাণের অভিজ্ঞতা।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-ps-2026-15",
@@ -434,9 +496,10 @@
       "closingDate": "২০২৬-১১-২৫",
       "bidOpeningDate": "২০২৬-১১-২৭",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/PRD/BRP-PS/NIT-15/2026",
-      "eligibility": "পি ডব্লিউ ডি বা জেলা পরিষদে পিচ রাস্তা নির্মাণের বৈধ লাইসেন্স ও পেভার মেশিন থাকা বাধ্যতামূলক।"
+      "eligibility": "পি ডব্লিউ ডি বা জেলা পরিষদে পিচ রাস্তা নির্মাণের বৈধ লাইসেন্স ও পেভার মেশিন থাকা বাধ্যতামূলক।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-gp-mad-2026-02",
@@ -456,9 +519,10 @@
       "closingDate": "২০২৬-১১-২৬",
       "bidOpeningDate": "২০২৬-১১-২৮",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/MADARAT/NIT-02/2026",
-      "eligibility": "পঞ্চায়েত বা ব্লকে সিভিল কনস্ট্রাকশনে নথিভুক্ত নিবন্ধিত ঠিকাদার ও জিএসটিএন ধারক।"
+      "eligibility": "পঞ্চায়েত বা ব্লকে সিভিল কনস্ট্রাকশনে নথিভুক্ত নিবন্ধিত ঠিকাদার ও জিএসটিএন ধারক।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-gp-har-2026-01",
@@ -478,9 +542,10 @@
       "closingDate": "২০২৬-১১-২৭",
       "bidOpeningDate": "২০২৬-১১-২৯",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/HARIHARPUR/NIT-01/2026",
-      "eligibility": "ওয়াটার ট্রিটমেন্ট প্ল্যান্ট ও ফিল্ট্রেশন সিস্টেম নির্মাণে অভিজ্ঞ পিএইচইডি অনুমোদিত সরবরাহকারী।"
+      "eligibility": "ওয়াটার ট্রিটমেন্ট প্ল্যান্ট ও ফিল্ট্রেশন সিস্টেম নির্মাণে অভিজ্ঞ পিএইচইডি অনুমোদিত সরবরাহকারী।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-gp-beg-2026-03",
@@ -500,9 +565,10 @@
       "closingDate": "২০২৬-১১-২৫",
       "bidOpeningDate": "২০২৬-১১-২৭",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/BEGUMPUR/NIT-03/2026",
-      "eligibility": "গ্রামীণ বর্জ্য পৃথকীকরণ শেড ও সিভিল স্ট্রাকচার নির্মাণে অভিজ্ঞ নিবন্ধিত সংস্থা।"
+      "eligibility": "গ্রামীণ বর্জ্য পৃথকীকরণ শেড ও সিভিল স্ট্রাকচার নির্মাণে অভিজ্ঞ নিবন্ধিত সংস্থা।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-gp-dhp-2026-04",
@@ -522,9 +588,10 @@
       "closingDate": "২০২৬-১১-২৮",
       "bidOpeningDate": "২০২৬-১১-৩০",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/DHAPDHAPI/NIT-04/2026",
-      "eligibility": "বৈধ ইলেকট্রিক্যাল লাইসেন্সধারী সরকারি রেজিস্টার্ড কন্ট্রাক্টর।"
+      "eligibility": "বৈধ ইলেকট্রিক্যাল লাইসেন্সধারী সরকারি রেজিস্টার্ড কন্ট্রাক্টর।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-gp-kal-2026-05",
@@ -544,9 +611,10 @@
       "closingDate": "২০২৬-১১-২৪",
       "bidOpeningDate": "২০২৬-১১-২৬",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/KALYANPUR/NIT-05/2026",
-      "eligibility": "রিটেইনিং ওয়াল ও ক্যানাল প্রোটেকশনে পঞ্চায়েত বা সেচ দপ্তরের পূর্ব অভিজ্ঞতাসম্পন্ন ঠিকাদার।"
+      "eligibility": "রিটেইনিং ওয়াল ও ক্যানাল প্রোটেকশনে পঞ্চায়েত বা সেচ দপ্তরের পূর্ব অভিজ্ঞতাসম্পন্ন ঠিকাদার।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-gp-ram-2026-06",
@@ -566,9 +634,10 @@
       "closingDate": "২০২৬-১১-২৯",
       "bidOpeningDate": "২০২৬-১২-০১",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://s24pgs.gov.in/tender/",
       "tenderRef": "WB/GP/BRP/RAMNAGAR/NIT-06/2026",
-      "eligibility": "কংক্রিট পেভিং ও কালভার্ট নির্মাণে সরকারি শংসাপত্রধারী ঠিকাদার।"
+      "eligibility": "কংক্রিট পেভিং ও কালভার্ট নির্মাণে সরকারি শংসাপত্রধারী ঠিকাদার।",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)"
     },
     {
       "id": "tnd-crt-2026-01",
@@ -588,9 +657,10 @@
       "closingDate": "২০২৬-১১-২৬",
       "bidOpeningDate": "২০২৬-১১-২৮",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://districts.ecourts.gov.in/south-24-parganas/notices-tenders",
       "tenderRef": "WB/JUDICIAL/BRP-CRT/NIT-01/2026",
-      "eligibility": "উচ্চ আদালত বা জেলা আদালত ভবনে ভার্চুয়াল হেয়ারিং সেটআপ এবং সাউন্ডপ্রুফ অ্যাকোস্টিক কাজে অভিজ্ঞ আইটি ও ইন্টেরিয়র ফার্ম।"
+      "eligibility": "উচ্চ আদালত বা জেলা আদালত ভবনে ভার্চুয়াল হেয়ারিং সেটআপ এবং সাউন্ডপ্রুফ অ্যাকোস্টিক কাজে অভিজ্ঞ আইটি ও ইন্টেরিয়র ফার্ম।",
+      "sourcePortalName": "districts.ecourts.gov.in"
     },
     {
       "id": "tnd-crt-2026-02",
@@ -610,9 +680,10 @@
       "closingDate": "২০২৬-১১-২৭",
       "bidOpeningDate": "২০২৬-১১-২৯",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://districts.ecourts.gov.in/south-24-parganas/notices-tenders",
       "tenderRef": "WB/JUDICIAL/BRP-CRT/NIT-02/2026",
-      "eligibility": "সরকারি মহাফেজখানা বা ট্রাইব্যুনালে কমপ্যাক্ট স্টোরেজ সিস্টেম সরবরাহে পূর্ব অভিজ্ঞতাসম্পন্ন সংস্থা।"
+      "eligibility": "সরকারি মহাফেজখানা বা ট্রাইব্যুনালে কমপ্যাক্ট স্টোরেজ সিস্টেম সরবরাহে পূর্ব অভিজ্ঞতাসম্পন্ন সংস্থা।",
+      "sourcePortalName": "districts.ecourts.gov.in"
     },
     {
       "id": "tnd-sdh-2026-03",
@@ -632,9 +703,10 @@
       "closingDate": "২০২৬-১১-২৯",
       "bidOpeningDate": "২০২৬-১২-০২",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbhealth.gov.in/pages/tender",
       "tenderRef": "WB/HFW/SDH-BRP/NIT-03/2026",
-      "eligibility": "স্বাস্থ্য ও পরিবার কল্যাণ দপ্তর স্বীকৃত মেডিকেল গ্যাস পাইপলাইন (MGPS) স্থাপন ও আইসোলেশন ভেন্টিলেশন সিস্টেমের সনদপ্রাপ্ত এজেন্সি।"
+      "eligibility": "স্বাস্থ্য ও পরিবার কল্যাণ দপ্তর স্বীকৃত মেডিকেল গ্যাস পাইপলাইন (MGPS) স্থাপন ও আইসোলেশন ভেন্টিলেশন সিস্টেমের সনদপ্রাপ্ত এজেন্সি।",
+      "sourcePortalName": "wbhealth.gov.in / e-Procurement"
     },
     {
       "id": "tnd-sdh-2026-04",
@@ -654,9 +726,10 @@
       "closingDate": "২০২৬-১১-২৩",
       "bidOpeningDate": "২০২৬-১১-২৫",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbhealth.gov.in/pages/tender",
       "tenderRef": "WB/HFW/SDH-BRP/NIT-04/DIET/2026",
-      "eligibility": "FSSAI লাইসেন্সধারী এবং ২০০ শয্যাবিশিষ্ট সরকারি বা বেসরকারি হাসপাতালে ক্যাটারিং ও ডায়েটরি সাপ্লাইয়ে ৩ বছরের অভিজ্ঞ প্রতিষ্ঠান।"
+      "eligibility": "FSSAI লাইসেন্সধারী এবং ২০০ শয্যাবিশিষ্ট সরকারি বা বেসরকারি হাসপাতালে ক্যাটারিং ও ডায়েটরি সাপ্লাইয়ে ৩ বছরের অভিজ্ঞ প্রতিষ্ঠান।",
+      "sourcePortalName": "wbhealth.gov.in / e-Procurement"
     },
     {
       "id": "tnd-sdh-2026-05",
@@ -676,9 +749,10 @@
       "closingDate": "২০২৬-১১-২৭",
       "bidOpeningDate": "২০২৬-১১-২৯",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbhealth.gov.in/pages/tender",
       "tenderRef": "WB/HFW/SDH-BRP/NIT-05/OXY/2026",
-      "eligibility": "হাসপাতাল মেডিক্যাল গ্যাস পাইপিং ও ভারী ডিজেল জেনারেটর সিঙ্ক্রোনাইজেশনে PESO এবং CPCB সনদপ্রাপ্ত ভেন্ডর।"
+      "eligibility": "হাসপাতাল মেডিক্যাল গ্যাস পাইপিং ও ভারী ডিজেল জেনারেটর সিঙ্ক্রোনাইজেশনে PESO এবং CPCB সনদপ্রাপ্ত ভেন্ডর।",
+      "sourcePortalName": "wbhealth.gov.in / e-Procurement"
     },
     {
       "id": "tnd-wbsedcl-2026-01",
@@ -698,9 +772,10 @@
       "closingDate": "২০২৬-১১-২৫",
       "bidOpeningDate": "২০২৬-১১-২৭",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/Tenders.html",
       "tenderRef": "WBSEDCL/CED/BRP-DIV/NIT-01/2026",
-      "eligibility": "বিদ্যুৎ পর্ষদ বা রাজ্য ট্রান্সমিশন সংস্থায় ১১ কেভি/৩৩ কেভি আন্ডারগ্রাউন্ড ক্যাবল লেইং ও ট্রেন্সলেস ড্রিলিং (HDD) কাজের ক্লাস-১ লাইসেন্সপ্রাপ্ত ঠিকাদার।"
+      "eligibility": "বিদ্যুৎ পর্ষদ বা রাজ্য ট্রান্সমিশন সংস্থায় ১১ কেভি/৩৩ কেভি আন্ডারগ্রাউন্ড ক্যাবল লেইং ও ট্রেন্সলেস ড্রিলিং (HDD) কাজের ক্লাস-১ লাইসেন্সপ্রাপ্ত ঠিকাদার।",
+      "sourcePortalName": "wbsedcl.in Official Tenders"
     },
     {
       "id": "tnd-wbsedcl-2026-02",
@@ -720,9 +795,10 @@
       "closingDate": "২০২৬-১১-২৭",
       "bidOpeningDate": "২০২৬-১১-২৯",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/Tenders.html",
       "tenderRef": "WBSEDCL/BRP-DIV/NIT-02/DTR/2026",
-      "eligibility": "ইলেকট্রিক্যাল কন্ট্রাক্টরস লাইসেন্স (SCC) ও ট্রান্সফরমার ইরেকশনে ডব্লিউবিএসইডিসিএল বা পাওয়ার ইউটিলিটির পূর্ব কাজের সার্টিফিকেট।"
+      "eligibility": "ইলেকট্রিক্যাল কন্ট্রাক্টরস লাইসেন্স (SCC) ও ট্রান্সফরমার ইরেকশনে ডব্লিউবিএসইডিসিএল বা পাওয়ার ইউটিলিটির পূর্ব কাজের সার্টিফিকেট।",
+      "sourcePortalName": "wbsedcl.in Official Tenders"
     },
     {
       "id": "tnd-pwd-2026-01",
@@ -742,9 +818,10 @@
       "closingDate": "২০২৬-১১-১৫",
       "bidOpeningDate": "২০২৬-১১-১৭",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbpwd.gov.in/tender",
       "tenderRef": "WB/IRR/CANAL/NIT-01/2026",
-      "eligibility": "সেচ দপ্তরে ড্রেজিং ও রিভার ব্যাংক প্রটেকশনের এ-ক্লাস রেজিস্টার্ড ঠিকাদার।"
+      "eligibility": "সেচ দপ্তরে ড্রেজিং ও রিভার ব্যাংক প্রটেকশনের এ-ক্লাস রেজিস্টার্ড ঠিকাদার।",
+      "sourcePortalName": "wbpwd.gov.in / wbtenders"
     },
     {
       "id": "tnd-pwd-2026-02",
@@ -764,9 +841,10 @@
       "closingDate": "২০২৬-১১-২৪",
       "bidOpeningDate": "২০২৬-১১-২৬",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbpwd.gov.in/tender",
       "tenderRef": "WBPWD/BRP-HWY/NIT-02/2026",
-      "eligibility": "পূর্ত দপ্তর (PWD Roads) এ প্রথম শ্রেণির ঠিকাদার, নিজস্ব হট মিক্স প্ল্যান্ট ও সেন্সর পেভার থাকা আবশ্যক।"
+      "eligibility": "পূর্ত দপ্তর (PWD Roads) এ প্রথম শ্রেণির ঠিকাদার, নিজস্ব হট মিক্স প্ল্যান্ট ও সেন্সর পেভার থাকা আবশ্যক।",
+      "sourcePortalName": "wbpwd.gov.in / wbtenders"
     },
     {
       "id": "tnd-pwd-2026-03",
@@ -786,9 +864,10 @@
       "closingDate": "২০২৬-১১-২৬",
       "bidOpeningDate": "২০২৬-১১-২৮",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbpwd.gov.in/tender",
       "tenderRef": "WBPWD/BRP-CIVIL/NIT-03/2026",
-      "eligibility": "আরসিসি ব্রিজ বা হেভি বক্স কালভার্ট নির্মাণে ৩ বছরের কাজের অভিজ্ঞতা ও বৈধ পূর্ত নথিভুক্তি।"
+      "eligibility": "আরসিসি ব্রিজ বা হেভি বক্স কালভার্ট নির্মাণে ৩ বছরের কাজের অভিজ্ঞতা ও বৈধ পূর্ত নথিভুক্তি।",
+      "sourcePortalName": "wbpwd.gov.in / wbtenders"
     },
     {
       "id": "tnd-arto-2026-01",
@@ -808,9 +887,10 @@
       "closingDate": "২০২৬-১১-২৫",
       "bidOpeningDate": "২০২৬-১১-২৭",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://transport.wb.gov.in/",
       "tenderRef": "WB/TRANS/ARTO-BRP/NIT-01/2026",
-      "eligibility": "পরিবহণ দপ্তরে এডিটিটি (ADTT) অটোমেশন বা আরএফআইডি ট্র্যাকিং সিস্টেম ইনস্টলেশনের পূর্ব অভিজ্ঞতা সম্পন্ন প্রযুক্তি প্রতিষ্ঠান।"
+      "eligibility": "পরিবহণ দপ্তরে এডিটিটি (ADTT) অটোমেশন বা আরএফআইডি ট্র্যাকিং সিস্টেম ইনস্টলেশনের পূর্ব অভিজ্ঞতা সম্পন্ন প্রযুক্তি প্রতিষ্ঠান।",
+      "sourcePortalName": "transport.wb.gov.in"
     },
     {
       "id": "tnd-arto-2026-02",
@@ -830,9 +910,10 @@
       "closingDate": "২০২৬-১১-২৮",
       "bidOpeningDate": "২০২৬-১১-৩০",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://transport.wb.gov.in/",
       "tenderRef": "WB/TRANS/ARTO-BRP/NIT-02/2026",
-      "eligibility": "স্মার্ট কিউ ম্যানেজমেন্ট ও সরকারি সহায়তা কেন্দ্র স্থাপনে অভিজ্ঞতাসম্পন্ন তথ্যপ্রযুক্তি ভেন্ডর।"
+      "eligibility": "স্মার্ট কিউ ম্যানেজমেন্ট ও সরকারি সহায়তা কেন্দ্র স্থাপনে অভিজ্ঞতাসম্পন্ন তথ্যপ্রযুক্তি ভেন্ডর।",
+      "sourcePortalName": "transport.wb.gov.in"
     },
     {
       "id": "tnd-blro-2026-01",
@@ -852,9 +933,10 @@
       "closingDate": "২০২৬-১১-২৬",
       "bidOpeningDate": "২০২৬-১১-২৮",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://banglarbhumi.gov.in/",
       "tenderRef": "WB/LRC/BRP-BLRO/NIT-01/2026",
-      "eligibility": "পশ্চিমবঙ্গ সরকারের ভূমি ও ভূমি সংস্কার দপ্তরে ডিজিটাইজেশন ও স্ক্যানিং প্রজেক্টে সফল কাজের অভিজ্ঞতাসম্পন্ন এজেন্সি।"
+      "eligibility": "পশ্চিমবঙ্গ সরকারের ভূমি ও ভূমি সংস্কার দপ্তরে ডিজিটাইজেশন ও স্ক্যানিং প্রজেক্টে সফল কাজের অভিজ্ঞতাসম্পন্ন এজেন্সি।",
+      "sourcePortalName": "banglarbhumi.gov.in"
     },
     {
       "id": "tnd-blro-2026-02",
@@ -874,9 +956,10 @@
       "closingDate": "২০২৬-১১-২৮",
       "bidOpeningDate": "২০২৬-১১-৩০",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://banglarbhumi.gov.in/",
       "tenderRef": "WB/LRC/BRP-BLRO/NIT-02/2026",
-      "eligibility": "সিভিল স্ট্রাকচার ও সৌরবিদ্যুৎ সংযোগে সরকারি রেজিস্টার্ড ঠিকাদার।"
+      "eligibility": "সিভিল স্ট্রাকচার ও সৌরবিদ্যুৎ সংযোগে সরকারি রেজিস্টার্ড ঠিকাদার।",
+      "sourcePortalName": "banglarbhumi.gov.in"
     },
     {
       "id": "tnd-bpd-2026-08",
@@ -896,9 +979,10 @@
       "closingDate": "২০২৬-১১-২৬",
       "bidOpeningDate": "২০২৬-১১-২৮",
       "status": "active",
-      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalLink": "https://wbpolice.gov.in/WBP/Common/WBP_Tender.aspx",
       "tenderRef": "WB/POLICE/BPD/NIT-08/2026",
-      "eligibility": "আইটিএমএস (ITMS) ও ইন্টেলিজেন্ট ট্রাফিক কন্ট্রোল সিস্টেম ইনস্টলেশনের অভিজ্ঞতা।"
+      "eligibility": "আইটিএমএস (ITMS) ও ইন্টেলিজেন্ট ট্রাফিক কন্ট্রোল সিস্টেম ইনস্টলেশনের অভিজ্ঞতা।",
+      "sourcePortalName": "wbpolice.gov.in"
     }
   ]
 }

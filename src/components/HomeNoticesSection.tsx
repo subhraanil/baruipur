@@ -81,18 +81,20 @@ export default function HomeNoticesSection() {
               <div className="flex items-center gap-2">
                 <Link
                   href="/notices"
-                  className="text-amber-800 hover:underline font-bold text-xs"
+                  className="inline-flex items-center gap-1 bg-red-600 hover:bg-red-700 text-white font-bold text-xs px-3 py-1.5 rounded-lg shadow-2xs transition"
                 >
-                  বিস্তারিত
+                  <span>বিস্তারিত পড়ুন</span>
+                  <ArrowRight className="w-3 h-3" />
                 </Link>
                 <a
-                  href={notice.pdfUrl}
+                  href={notice.sourceUrl || notice.pdfUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 bg-red-600 hover:bg-red-700 text-white font-bold text-[11px] px-2.5 py-1 rounded-lg shadow-2xs transition"
+                  className="inline-flex items-center gap-1 bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-xs px-2.5 py-1.5 rounded-lg border border-slate-200 transition"
+                  title="অফিশিয়াল সরকারি উৎস"
                 >
-                  <Download className="w-3 h-3" />
-                  <span>PDF</span>
+                  <span>মূল সূত্র</span>
+                  <ExternalLink className="w-3 h-3 text-slate-400" />
                 </a>
               </div>
             </div>

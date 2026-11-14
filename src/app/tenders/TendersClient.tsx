@@ -14,7 +14,9 @@ import {
   Download,
   Filter,
   ShieldCheck,
-  Landmark
+  Landmark,
+  Copy,
+  Check
 } from 'lucide-react';
 import { Tender, TenderAuthority } from '@/lib/tenders';
 
@@ -27,6 +29,15 @@ export default function TendersClient({ initialTenders, authorities }: TendersCl
   const [selectedAuthority, setSelectedAuthority] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [statusFilter, setStatusFilter] = useState<string>('all');
+  const [copiedRef, setCopiedRef] = useState<string | null>(null);
+
+  const handleCopyRef = (refText: string) => {
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(refText);
+      setCopiedRef(refText);
+      setTimeout(() => setCopiedRef(null), 2500);
+    }
+  };
 
   const filteredTenders = useMemo(() => {
     return initialTenders.filter(tender => {
@@ -190,19 +201,39 @@ export default function TendersClient({ initialTenders, authorities }: TendersCl
               </div>
 
               {/* Footer Actions */}
-              <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-100">
-                <span className="text-xs text-slate-500 font-mono">
-                  রেফারেন্স: {tender.tenderRef}
-                </span>
+              <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-slate-500 font-mono bg-slate-50 px-2 py-1 rounded border border-slate-200">
+                    রেফারেন্স: {tender.tenderRef}
+                  </span>
+                  <button
+                    onClick={() => handleCopyRef(tender.tenderRef)}
+                    className="inline-flex items-center gap-1 text-xs text-slate-600 hover:text-red-700 bg-slate-100 hover:bg-slate-200 px-2.5 py-1 rounded-lg transition font-medium"
+                    title="NIT রেফারেন্স কপি করুন"
+                  >
+                    {copiedRef === tender.tenderRef ? (
+                      <>
+                        <Check className="w-3.5 h-3.5 text-emerald-600" />
+                        <span className="text-emerald-700 font-bold">কপি হয়েছে!</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="w-3.5 h-3.5 text-slate-500" />
+                        <span>কপি NIT</span>
+                      </>
+                    )}
+                  </button>
+                </div>
 
                 <div className="flex items-center gap-2">
                   <a
                     href={tender.portalLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition shadow-sm"
+                    className="inline-flex items-center gap-1.5 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-xs"
+                    title="অফিসিয়াল সরকারি ই-টেন্ডার পোর্টালে সরাসরি দরপত্র দেখুন"
                   >
-                    <span>e-Tender পোর্টালে দেখুন ও আবেদন করুন</span>
+                    <span>{tender.sourcePortalName ? `${tender.sourcePortalName}-এ দেখুন ও আবেদন করুন` : 'e-Tender পোর্টালে দেখুন ও আবেদন করুন'}</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                 </div>

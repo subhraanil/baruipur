@@ -204,7 +204,7 @@ export default function Header() {
         href: '/submit-news',
         btnText: 'সংবাদ জমা দিন →',
         badge: '২৪/৭ সক্রিয়',
-        accentBg: 'bg-red-50/80',
+        accentBg: 'bg-red-50',
         borderAccent: 'border-red-200',
         icon: Send
       }
@@ -272,7 +272,7 @@ export default function Header() {
         href: '/property',
         btnText: 'লিস্টিং ব্রাউজ করুন →',
         badge: 'বিনামূল্যে',
-        accentBg: 'bg-emerald-50/80',
+        accentBg: 'bg-emerald-50',
         borderAccent: 'border-emerald-200',
         icon: Home
       }
@@ -328,7 +328,7 @@ export default function Header() {
         href: '/emergency-contacts',
         btnText: 'জরুরি হেল্পলাইন →',
         badge: 'জরুরি নম্বর',
-        accentBg: 'bg-rose-50/80',
+        accentBg: 'bg-rose-50',
         borderAccent: 'border-rose-200',
         icon: PhoneCall
       }
@@ -383,7 +383,7 @@ export default function Header() {
         href: '/transport',
         btnText: 'টাইমটেবিল দেখুন →',
         badge: 'আপডেট ২০২৬',
-        accentBg: 'bg-blue-50/80',
+        accentBg: 'bg-blue-50',
         borderAccent: 'border-blue-200',
         icon: TrainTrack
       }
@@ -435,7 +435,7 @@ export default function Header() {
         href: '/places',
         btnText: 'ডিরেক্টরি দেখুন →',
         badge: 'তথ্যকোষ',
-        accentBg: 'bg-amber-50/80',
+        accentBg: 'bg-amber-50',
         borderAccent: 'border-amber-200',
         icon: Landmark
       }
@@ -672,103 +672,112 @@ export default function Header() {
 
         {/* 3B. Active Desktop Mega Menu Dropdown Panel */}
         {activeMegaMenu && (
-          <div 
-            className="absolute left-0 right-0 top-full bg-white/98 backdrop-blur-xl border-b border-slate-200/90 shadow-2xl mega-menu-dropdown z-40 transition-all duration-200"
-            onMouseEnter={() => {
-              if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
-            }}
-            onMouseLeave={handleMouseLeave}
-          >
-            {megaMenus
-              .filter(m => m.id === activeMegaMenu)
-              .map(menu => (
-                <div key={menu.id} className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6">
-                  <div className="grid grid-cols-12 gap-8">
-                    {/* Columns 1 & 2: Menu Categories (8-9 cols) */}
-                    <div className="col-span-8 lg:col-span-8 grid grid-cols-2 gap-8 border-r border-slate-150 pr-8">
-                      {menu.columns.map((col, colIdx) => (
-                        <div key={colIdx} className="space-y-3.5">
-                          {col.title && (
-                            <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-400 pb-1 border-b border-slate-100">
-                              {col.title}
-                            </h3>
-                          )}
-                          <div className="space-y-2">
-                            {col.items.map((item, itemIdx) => {
-                              const IconComp = item.icon;
-                              return (
-                                <a
-                                  key={itemIdx}
-                                  href={item.href}
-                                  className={`group flex items-start gap-3 p-2.5 rounded-xl transition-all duration-150 ${
-                                    item.highlight 
-                                      ? 'bg-slate-50/90 hover:bg-red-50/50 border border-slate-200/80 hover:border-red-200'
-                                      : 'hover:bg-slate-50 border border-transparent'
-                                  }`}
-                                >
-                                  <div className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-transform group-hover:scale-105 shadow-2xs ${
-                                    item.highlight 
-                                      ? 'bg-red-600 text-white' 
-                                      : 'bg-slate-100 text-slate-700 group-hover:bg-red-50 group-hover:text-red-700'
-                                  }`}>
-                                    <IconComp className="w-4 h-4" />
-                                  </div>
-                                  <div className="flex-1 min-w-0">
-                                    <div className="flex items-center gap-1.5 flex-wrap">
-                                      <span className="font-bold text-slate-900 group-hover:text-red-700 text-sm leading-snug transition-colors">
-                                        {item.label}
-                                      </span>
-                                      {item.badge && (
-                                        <span className={`text-xs font-bold px-1.5 py-0.2 rounded-full border ${item.badgeColor || 'bg-slate-100 text-slate-700'}`}>
-                                          {item.badge}
+          <>
+            {/* Backdrop Dimmer to avoid see-through clutter */}
+            <div 
+              className="fixed inset-0 top-[120px] bg-slate-900/40 backdrop-blur-xs z-40 transition-opacity"
+              onClick={() => setActiveMegaMenu(null)}
+              aria-hidden="true"
+            />
+            <div 
+              className="absolute left-0 right-0 top-full bg-white border-b border-slate-200 shadow-2xl mega-menu-dropdown z-50 transition-all duration-200"
+              style={{ backgroundColor: '#ffffff', opacity: 1 }}
+              onMouseEnter={() => {
+                if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
+              }}
+              onMouseLeave={handleMouseLeave}
+            >
+              {megaMenus
+                .filter(m => m.id === activeMegaMenu)
+                .map(menu => (
+                  <div key={menu.id} className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 bg-white" style={{ backgroundColor: '#ffffff' }}>
+                    <div className="grid grid-cols-12 gap-8">
+                      {/* Columns 1 & 2: Menu Categories (8-9 cols) */}
+                      <div className="col-span-8 lg:col-span-8 grid grid-cols-2 gap-8 border-r border-slate-150 pr-8">
+                        {menu.columns.map((col, colIdx) => (
+                          <div key={colIdx} className="space-y-3.5">
+                            {col.title && (
+                              <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-400 pb-1 border-b border-slate-100">
+                                {col.title}
+                              </h3>
+                            )}
+                            <div className="space-y-2">
+                              {col.items.map((item, itemIdx) => {
+                                const IconComp = item.icon;
+                                return (
+                                  <a
+                                    key={itemIdx}
+                                    href={item.href}
+                                    className={`group flex items-start gap-3 p-2.5 rounded-xl transition-all duration-150 ${
+                                      item.highlight 
+                                        ? 'bg-slate-50/90 hover:bg-red-50/50 border border-slate-200/80 hover:border-red-200'
+                                        : 'hover:bg-slate-50 border border-transparent'
+                                    }`}
+                                  >
+                                    <div className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-transform group-hover:scale-105 shadow-2xs ${
+                                      item.highlight 
+                                        ? 'bg-red-600 text-white' 
+                                        : 'bg-slate-100 text-slate-700 group-hover:bg-red-50 group-hover:text-red-700'
+                                    }`}>
+                                      <IconComp className="w-4 h-4" />
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                      <div className="flex items-center gap-1.5 flex-wrap">
+                                        <span className="font-bold text-slate-900 group-hover:text-red-700 text-sm leading-snug transition-colors">
+                                          {item.label}
                                         </span>
+                                        {item.badge && (
+                                          <span className={`text-xs font-bold px-1.5 py-0.2 rounded-full border ${item.badgeColor || 'bg-slate-100 text-slate-700'}`}>
+                                            {item.badge}
+                                          </span>
+                                        )}
+                                      </div>
+                                      {item.desc && (
+                                        <p className="text-xs text-slate-500 line-clamp-1 mt-0.5 group-hover:text-slate-600">
+                                          {item.desc}
+                                        </p>
                                       )}
                                     </div>
-                                    {item.desc && (
-                                      <p className="text-xs text-slate-500 line-clamp-1 mt-0.5 group-hover:text-slate-600">
-                                        {item.desc}
-                                      </p>
-                                    )}
-                                  </div>
-                                </a>
-                              );
-                            })}
+                                  </a>
+                                );
+                              })}
+                            </div>
                           </div>
-                        </div>
-                      ))}
-                    </div>
+                        ))}
+                      </div>
 
-                    {/* Column 3: Featured Interactive Callout Box (4 cols) */}
-                    <div className="col-span-4 lg:col-span-4 flex flex-col justify-between">
-                      <div className={`p-5 rounded-2xl ${menu.featured.accentBg} border ${menu.featured.borderAccent} shadow-2xs h-full flex flex-col justify-between`}>
-                        <div>
-                          <div className="flex items-center justify-between gap-2 mb-3">
-                            <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-white/80 text-slate-800 border border-slate-200/60 shadow-2xs">
-                              {menu.featured.badge}
-                            </span>
-                            <menu.featured.icon className="w-5 h-5 text-slate-700 opacity-80" />
+                      {/* Column 3: Featured Interactive Callout Box (4 cols) */}
+                      <div className="col-span-4 lg:col-span-4 flex flex-col justify-between">
+                        <div className={`p-5 rounded-2xl ${menu.featured.accentBg} border ${menu.featured.borderAccent} shadow-2xs h-full flex flex-col justify-between`}>
+                          <div>
+                            <div className="flex items-center justify-between gap-2 mb-3">
+                              <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-white/80 text-slate-800 border border-slate-200/60 shadow-2xs">
+                                {menu.featured.badge}
+                              </span>
+                              <menu.featured.icon className="w-5 h-5 text-slate-700 opacity-80" />
+                            </div>
+                            <h4 className="font-black text-slate-900 text-base mb-1.5 leading-snug">
+                              {menu.featured.title}
+                            </h4>
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                              {menu.featured.desc}
+                            </p>
                           </div>
-                          <h4 className="font-black text-slate-900 text-base mb-1.5 leading-snug">
-                            {menu.featured.title}
-                          </h4>
-                          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
-                            {menu.featured.desc}
-                          </p>
-                        </div>
 
-                        <a
-                          href={menu.featured.href}
-                          className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm py-2.5 px-4 rounded-xl transition shadow-xs group"
-                        >
-                          <span>{menu.featured.btnText}</span>
-                          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                        </a>
+                          <a
+                            href={menu.featured.href}
+                            className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm py-2.5 px-4 rounded-xl transition shadow-xs group"
+                          >
+                            <span>{menu.featured.btnText}</span>
+                            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-          </div>
+                ))}
+            </div>
+          </>
         )}
       </nav>
 

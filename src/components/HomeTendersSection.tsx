@@ -45,16 +45,16 @@ export default function HomeTendersSection() {
                   <Building2 className="w-3.5 h-3.5 text-red-600" />
                   <span className="truncate max-w-[150px]">{tender.authorityName}</span>
                 </span>
-                <span className="bg-emerald-100 text-emerald-800 text-[10px] font-extrabold px-2 py-0.5 rounded-full border border-emerald-200">
+                <span className="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-0.5 rounded-full border border-emerald-200">
                   সক্রিয় দরপত্র
                 </span>
               </div>
 
-              <h3 className="font-bold text-slate-900 text-sm leading-snug group-hover:text-red-700 transition-colors line-clamp-2">
+              <h3 className="font-bold text-slate-900 text-base leading-snug group-hover:text-red-700 transition-colors line-clamp-2">
                 {tender.title}
               </h3>
 
-              <div className="text-[11px] text-slate-500 font-mono bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-100 truncate">
+              <div className="text-xs text-slate-500 font-mono bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-100 truncate">
                 NIT: {tender.nitNumber}
               </div>
             </div>

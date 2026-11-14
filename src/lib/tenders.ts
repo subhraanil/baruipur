@@ -26,6 +26,7 @@ export interface Tender {
   bidOpeningDate: string;
   status: 'active' | 'evaluation' | 'closed';
   portalLink: string;
+  sourcePortalName?: string;
   tenderRef: string;
   eligibility: string;
 }

@@ -22,6 +22,8 @@ export interface Notice {
   content: string;
   pdfUrl: string;
   pdfSize?: string;
+  sourceUrl?: string;
+  sourcePortalName?: string;
   signatory: string;
   status: 'active' | 'archived';
 }
