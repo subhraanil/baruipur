@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৪",
+  "lastUpdated": "২০২৬-১১-১৫",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,78 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-024",
+      "title": "সুভাষগ্রাম ও চম্পাহাটি সংযোগ রোডে ২ কাঠা পাকা রাস্তার কর্নার প্লট (বাড়ি বা বাণিজ্যিক উপযুক্ত)",
+      "titleEn": "2 Cottah Prime Corner Residential/Commercial Land on Subhasgram-Champahati Link Road",
+      "category": "residential_land",
+      "categoryNameBn": "বাস্তু জমি (Residential Land)",
+      "location": "সুভাষগ্রাম সংলগ্ন চম্পাহাটি সংযোগ রোড, বারুইপুর",
+      "locationArea": "Subhasgram / Champahati Road",
+      "price": "₹১৪.৫০ লক্ষ প্রতি কাঠা (মোট ২৯ লক্ষ)",
+      "priceNum": 2900000,
+      "priceUnit": "total",
+      "configuration": "২ কাঠা উঁচু পাকা রাস্তার সংলগ্ন বাস্তু প্লট (1,440 SqFt)",
+      "areaSqFt": "১,৪৪০ বর্গফুট (২ কাঠা)",
+      "facing": "উত্তর-পূর্ব কর্নার (Double Side Road Facing: 22 Ft & 16 Ft)",
+      "floorInfo": "উঁচু মাটি ভরাট করা নিষ্কণ্টক জমি (Waterlogging Free)",
+      "possessionStatus": "তাৎক্ষণিক রেজিস্ট্রি ও বাউন্ডারি দখল",
+      "reraStatus": "একক মালিকানাধীন পরিষ্কার টাইটেল ডিড ও হাল পর্চা",
+      "approvalStatus": "ব্লক ও বিএলএলআরও পর্চা হালনাগাদ ও মিউটেশন সম্পন্ন",
+      "bankLoanApproved": "জাতীয়কৃত ব্যাংকের জমি কেনা ও বাড়ি তৈরির লোন সুবিধা",
+      "amenities": [
+        "২২ ফুট চওড়া মূল পিচ রাস্তা ও ১৬ ফুট সংযোগ রাস্তার কর্নার পজিশন",
+        "বিদ্যুৎ ট্রান্সফরমার ও পাইপলাইনের পানীয় জলের সুবিধা একেবারে সংলগ্ন",
+        "দোকান, গোডাউন, নার্সিং হোম বা নিজস্ব বিলাসবহুল বাড়ি তৈরির জন্য আদর্শ",
+        "সুভাষগ্রাম ও মল্লিকপুর স্টেশন সংযোগ অটো-টোটো রুটের উপরেই অবস্থিত"
+      ],
+      "description": "বারুইপুরের অত্যন্ত দ্রুত বর্ধনশীল সুভাষগ্রাম-চম্পাহাটি সংযোগ সড়কে ২ কাঠা উঁচু নিষ্কণ্টক বাস্তু জমি। দু'পাশে পাকা রাস্তা থাকায় বাড়ি বা বাণিজ্যিক উভয় কাজেই অত্যন্ত লাভজনক বিনিয়োগ। সরাসরি মালিকের সাথে চুক্তি, কোনো মধ্যস্বত্বভোগী নেই।",
+      "imageUrl": "/images/places/baruipur-bdo-office-building.jpg",
+      "images": [
+        "/images/places/baruipur-bdo-office-building.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "সুজয় কুমার নস্কর",
+      "contactPhone": "+91 98305 61789",
+      "contactWhatsapp": "+91 98305 61789",
+      "publishedAt": "২০২৬-১১-১৫"
+    },
+    {
+      "id": "prop-brp-023",
+      "title": "বারুইপুর পদ্মপুকুর ও কুলপি রোড সংলগ্ন আধুনিক ৩ বিএইচকে ১,২২০ বর্গফুট প্রিমিয়াম কর্নার ফ্ল্যাট",
+      "titleEn": "1,220 SqFt Premium 3 BHK Corner Flat near Padmapukur & Kulpi Road Baruipur",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "পদ্মপুকুর মোড়, কুলপি রোড, বারুইপুর",
+      "locationArea": "Padmapukur / Kulpi Road",
+      "price": "₹৩৪.৫০ লক্ষ (সহজ ব্যাংক লোন)",
+      "priceNum": 3450000,
+      "priceUnit": "total",
+      "configuration": "3 BHK (1,220 SqFt Super Built-up) + 2 ব্যালকনি + 2 বাথরুম",
+      "areaSqFt": "১,২২০ বর্গফুট",
+      "facing": "দক্ষিণ-পূর্ব কর্নার (South-East Open Corner)",
+      "floorInfo": "৩য় তলা (G+4 লিফট সহ আধুনিক হাউজিং কমপ্লেক্স)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "WB RERA রেজিস্টার্ড ও অকুপ্যান্সি সার্টিফিকেট প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত প্ল্যান",
+      "bankLoanApproved": "SBI, HDFC, Axis ও Bank of Baroda অনুমোদিত",
+      "amenities": [
+        "অটোমেটিক ৮ জনের ক্যাপাসিটি লিফট ও সার্বক্ষণিক পাওয়ার ব্যাকআপ",
+        "কভার্ড টু-হুইলার ও ফোর-হুইলার ডেডিকেটেড কার পার্কিং",
+        "কম্পাউন্ড গার্ডেন, শিশুদের খেলার জায়গা ও রুফটপ ওয়াকিং ট্র্যাক",
+        "২৪ ঘণ্টা পৌরসভার পরিশোধিত পানীয় জল ও সিসিটিভি নিরাপত্তা"
+      ],
+      "description": "বারুইপুর পদ্মপুকুর মোড় থেকে মাত্র ২০০ মিটার দূরে শান্ত ও নিরিবিলি আবাসিক অঞ্চলে অবস্থিত ৩ বিএইচকে কর্নার ফ্ল্যাট। আলো-বাতাসে পরিপূর্ণ, প্রশস্ত লিভিং কাম ডাইনিং হল এবং ২টি বারান্দা। বারুইপুর রেল জংশন ও বাজার মাত্র ৫ মিনিটের দূরত্বে।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "অভিজিৎ মুখার্জী (আনন্দধারা রিয়েলটি)",
+      "contactPhone": "+91 98314 22310",
+      "contactWhatsapp": "+91 98314 22310",
+      "publishedAt": "২০২৬-১১-১৫"
+    },
     {
       "id": "prop-brp-022",
       "title": "বারুইপুর বাইপাস ও চম্পাহাটি রোডে ৩ কাঠা নিষ্কণ্টক বাস্তু জমি প্রাচীর ঘেরা বিক্রয়",

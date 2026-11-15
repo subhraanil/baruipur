@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৪",
+  "lastUpdated": "২০২৬-১১-১৫",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,29 @@
     }
   ],
   "tenders": [
+    {
+      "id": "tnd-bdo-2026-12",
+      "nitNumber": "NIT-12/BDO-BRP/JALSWAPNA-PUMP/2026",
+      "title": "বারুইপুর ব্লকের অন্তর্গত মল্লিকপুর ও ধপধপি গ্রাম পঞ্চায়েত এলাকায় জলস্বপ্ন প্রকল্পে সৌরচালিত পানীয় জল পাম্পিং সিস্টেম বার্ষিক মেরামত ও প্রতিস্থাপন",
+      "titleEn": "Annual Repair, Solar Pumping Unit Maintenance and Piped Drinking Water Pipeline Expansion under Jal Swapna Project in Mallikpur & Dhapdhabi GPs",
+      "authorityId": "panchayat",
+      "authorityName": "বারুইপুর পঞ্চায়েত সমিতি ও বিডিও কার্যালয় (Baruipur BDO Office)",
+      "department": "জনস্বাস্থ্য কারিগরি ও গ্রামীণ জল সরবরাহ শাখা",
+      "location": "মল্লিকপুর ও ধপধপি ১ ও ২ গ্রাম পঞ্চায়েত এলাকা",
+      "category": "পানীয় জল ও সৌর পাম্প (Drinking Water Infra)",
+      "estimatedValue": "₹২৪,৮০,০০০",
+      "estimatedValueNum": 2480000,
+      "emdAmount": "₹৪৯,৬০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-১৫",
+      "closingDate": "২০২৬-১২-০৮",
+      "bidOpeningDate": "২০২৬-১২-১১",
+      "status": "active",
+      "portalLink": "https://s24pgs.gov.in/tender/",
+      "sourcePortalName": "s24pgs.gov.in (BDO & Gram Panchayats)",
+      "tenderRef": "WBP&RD/BRP-BDO/NIT-12/WATER/2026",
+      "eligibility": "পশ্চিমবঙ্গ সরকারের PHE বা পঞ্চায়েত দফতরে সাবমার্সিবল পাম্প ও পাইপলাইন রূপায়নে ৩ বছরের অভিজ্ঞতাসম্পন্ন ঠিকাদার।"
+    },
     {
       "id": "tnd-sdh-2026-07",
       "nitNumber": "NIT-07/SDH-BRP/DIET-SUPPLY/2026",
