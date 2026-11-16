@@ -34,8 +34,17 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/health-directory" className="hover:text-rose-400 transition flex items-center gap-1.5 font-bold text-rose-300">
-                  <span className="text-rose-500">›</span> স্বাস্থ্য ও ডাক্তার চেম্বার (Health & OPD)
+                  <span className="text-rose-500">›</span> স্বাস্থ্য ও ডাক্তার চেম্বার (Health Directory)
                 </a>
+                <div className="pl-4 pt-1 flex flex-wrap gap-x-2.5 gap-y-1 text-xs text-slate-400">
+                  <a href="/health-directory?category=doctors" className="hover:text-rose-300">ডাক্তার চেম্বার</a>
+                  <span>•</span>
+                  <a href="/health-directory?category=hospitals" className="hover:text-rose-300">নার্সিংহোম</a>
+                  <span>•</span>
+                  <a href="/health-directory?category=diagnostic" className="hover:text-rose-300">ডায়াগনস্টিক</a>
+                  <span>•</span>
+                  <a href="/health-directory?category=swasthya-sathi" className="hover:text-rose-300">স্বাস্থ্যসাথী</a>
+                </div>
               </li>
               <li>
                 <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1.5 font-medium text-amber-300">

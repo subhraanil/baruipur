@@ -51,25 +51,102 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   // 1. Fetch all published news articles excluding evergreen guides (sorted newest first)
-  const newsArticles = db.getArticles({
+  const allRawArticles = db.getArticles({
     status: 'published',
     excludeGuides: true
   });
 
+  // Filter out guides and non-news articles
+  const newsArticles = allRawArticles.filter(a => 
+    !a.isGuide && 
+    !a.id.startsWith('art-guide') && 
+    !a.id.includes('-guide')
+  );
+
   // Track displayed article IDs to guarantee ZERO repetition across the entire homepage!
   const usedArticleIds = new Set<string>();
 
-  // 2. Featured News: 1 Main Lead Story + 4 Secondary Stories (Editorial Grid)
-  const leadArticle = newsArticles[0];
-  const secondaryArticles = newsArticles.slice(1, 5);
-  if (leadArticle?.id) usedArticleIds.add(leadArticle.id);
-  secondaryArticles.forEach(a => { if (a?.id) usedArticleIds.add(a.id); });
+  // 2. Compute Editorial Quality Ranking for Featured Hero Grid
+  // Prioritize substantial, verified local stories with rich text (> 200 chars) and images
+  const eligibleHeroCandidates = newsArticles.filter(a => 
+    a.content && 
+    a.content.length > 200 && 
+    a.imageUrl && 
+    !a.title.includes('দোকান কেনার') && 
+    !a.title.includes('Happy Children')
+  );
 
-  // 3. Latest News: 8 Compact Stories (strictly excluding featured stories)
+  const scoredHeroCandidates = [...eligibleHeroCandidates].sort((a, b) => {
+    let scoreA = 0;
+    let scoreB = 0;
+    const now = Date.now();
+    const ageDaysA = (now - new Date(a.publishedAt).getTime()) / (1000 * 60 * 60 * 24);
+    const ageDaysB = (now - new Date(b.publishedAt).getTime()) / (1000 * 60 * 60 * 24);
+
+    // Recency weighting
+    if (ageDaysA <= 3) scoreA += 100;
+    else if (ageDaysA <= 7) scoreA += 60;
+    else if (ageDaysA <= 14) scoreA += 30;
+
+    if (ageDaysB <= 3) scoreB += 100;
+    else if (ageDaysB <= 7) scoreB += 60;
+    else if (ageDaysB <= 14) scoreB += 30;
+
+    // Engagement & views weighting
+    scoreA += Math.min((a.views || 30) * 0.4, 50);
+    scoreB += Math.min((b.views || 30) * 0.4, 50);
+
+    // Editorial flags
+    if (a.isBreaking) scoreA += 45;
+    if (b.isBreaking) scoreB += 45;
+
+    if (a.isFeatured) scoreA += 35;
+    if (b.isFeatured) scoreB += 35;
+
+    // In-depth reporting bonus
+    if (a.content.length > 500) scoreA += 25;
+    if (b.content.length > 500) scoreB += 25;
+
+    return scoreB - scoreA;
+  });
+
+  const leadArticle = scoredHeroCandidates[0] || newsArticles[0];
+  if (leadArticle?.id) usedArticleIds.add(leadArticle.id);
+
+  // Secondary stories: pick diverse category stories from top candidates
+  const secondaryArticles: typeof newsArticles = [];
+  const secondaryCategories = new Set<string>();
+  if (leadArticle?.category) secondaryCategories.add(leadArticle.category);
+
+  for (const art of scoredHeroCandidates.slice(1)) {
+    if (secondaryArticles.length >= 4) break;
+    if (!usedArticleIds.has(art.id) && !secondaryCategories.has(art.category)) {
+      secondaryArticles.push(art);
+      secondaryCategories.add(art.category);
+      usedArticleIds.add(art.id);
+    }
+  }
+
+  // If needed, fill remaining slots from top scored
+  for (const art of scoredHeroCandidates.slice(1)) {
+    if (secondaryArticles.length >= 4) break;
+    if (!usedArticleIds.has(art.id)) {
+      secondaryArticles.push(art);
+      usedArticleIds.add(art.id);
+    }
+  }
+
+  // 3. Compute Popular News Articles (Most Read & Trending Stories)
+  const popularArticles = [...newsArticles]
+    .filter(a => a.content && a.content.length > 180 && a.imageUrl && !a.title.includes('দোকান কেনার'))
+    .sort((a, b) => (b.views || 0) - (a.views || 0))
+    .slice(0, 10);
+
+  // 4. Latest News: 8 Fresh stories excluding hero stories
   const latestNewsArticles = newsArticles.filter(a => !usedArticleIds.has(a.id)).slice(0, 8);
   latestNewsArticles.forEach(a => usedArticleIds.add(a.id));
 
-  // 4. Category Highlights: 4 Key Categories (3 unique stories each, strictly excluding already displayed ones!)
+  // 5. Category Highlights: 4 Key Categories (3 unique stories each, strictly excluding already displayed ones!)
   const municipalityArticles = db.getArticles({ category: 'municipality', limit: 15, excludeGuides: true })
     .filter(a => !usedArticleIds.has(a.id))
     .slice(0, 3);
@@ -90,7 +167,7 @@ export default function HomePage() {
     .slice(0, 3);
   cultureArticles.forEach(a => usedArticleIds.add(a.id));
 
-  // 5. Local Directory Data (Icon-based, Utility Dashboard style)
+  // 6. Local Directory Data (Icon-based, Utility Dashboard style)
   const healthcareFacilities = getAllFacilities();
   const places = getAllPlaces();
   const featuredOrganizations = getFeaturedOrganizations(6);
@@ -124,7 +201,7 @@ export default function HomePage() {
       <h1 className="sr-only">বারুইপুর অনলাইন: আপনার স্থানীয় সংবাদ, গাইড ও তথ্যকোষ</h1>
 
       {/* 1. Breaking News Live Ticker */}
-      <BreakingNewsTicker articles={newsArticles.slice(0, 5)} />
+      <BreakingNewsTicker articles={scoredHeroCandidates.slice(0, 6)} />
 
       <div className="max-w-[1320px] mx-auto px-4 sm:px-6 pt-3">
         {/* Civic Portal Highlight Strip */}
@@ -163,7 +240,7 @@ export default function HomePage() {
               <span>🏛️ সরকারি টেন্ডার</span>
             </a>
             <a
-              href="/health-directory"
+              href="/health-directory?category=doctors"
               className="inline-flex items-center gap-1.5 bg-rose-600/90 hover:bg-rose-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
             >
               <span>🏥 ডাক্তার ও ওপিডি</span>
@@ -300,7 +377,8 @@ export default function HomePage() {
             <AdSenseSlot format="sidebar" className="my-0" />
 
             <BaruipurUtilities 
-              recentPosts={newsArticles.slice(4, 11)} 
+              recentPosts={newsArticles.slice(4, 12)} 
+              popularPosts={popularArticles}
               showCategories={true}
               showRecentPosts={true}
               showPlaces={true}

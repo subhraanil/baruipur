@@ -29,6 +29,7 @@ interface BaruipurUtilitiesProps {
   showCategories?: boolean;
   showRecentPosts?: boolean;
   recentPosts?: Article[];
+  popularPosts?: Article[];
   showPlaces?: boolean;
   showEmergency?: boolean;
 }
@@ -91,10 +92,13 @@ export default function BaruipurUtilities({
   showCategories = true,
   showRecentPosts = true,
   recentPosts: initialPosts,
+  popularPosts: initialPopular,
   showPlaces = true,
   showEmergency = true
 }: BaruipurUtilitiesProps) {
   const [posts, setPosts] = useState<Article[]>(initialPosts || []);
+  const [popularList, setPopularList] = useState<Article[]>(initialPopular || []);
+  const [newsTab, setNewsTab] = useState<'recent' | 'popular'>('recent');
 
   useEffect(() => {
     if (initialPosts && initialPosts.length > 0) {
@@ -109,7 +113,11 @@ export default function BaruipurUtilities({
         })
         .catch(() => {});
     }
-  }, [initialPosts, showRecentPosts]);
+
+    if (initialPopular && initialPopular.length > 0) {
+      setPopularList(initialPopular);
+    }
+  }, [initialPosts, initialPopular, showRecentPosts]);
 
   const iconMap: Record<string, any> = {
     Newspaper,
@@ -193,23 +201,52 @@ export default function BaruipurUtilities({
       )}
 
       {/* 2. More Posts / Trending News Widget */}
-      {showRecentPosts && posts.length > 0 && (
+      {showRecentPosts && (posts.length > 0 || popularList.length > 0) && (
         <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
-            <div className="flex items-center gap-2">
-              <div className="p-2 rounded-lg bg-amber-50 text-amber-600">
-                <TrendingUp className="w-5 h-5" />
+          {/* Header with Switcher Tabs */}
+          <div className="border-b border-slate-100 pb-3 mb-4">
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <div className={`p-1.5 rounded-lg ${newsTab === 'popular' ? 'bg-rose-50 text-rose-600' : 'bg-amber-50 text-amber-600'}`}>
+                  {newsTab === 'popular' ? <Flame className="w-4 h-4" /> : <TrendingUp className="w-4 h-4" />}
+                </div>
+                <h2 className="font-bold text-slate-900 text-sm sm:text-base">
+                  {newsTab === 'popular' ? 'জনপ্রিয় ও আলোচিত সংবাদ' : 'সর্বশেষ আঞ্চলিক সংবাদ'}
+                </h2>
               </div>
-              <div>
-                <h2 className="font-bold text-slate-900 text-base">আরও তাজা সংবাদ</h2>
-                <p className="text-xs text-slate-500">সর্বশেষ আঞ্চলিক আপডেট</p>
-              </div>
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
             </div>
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+
+            {/* Tab Buttons */}
+            <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-lg text-xs font-bold">
+              <button
+                type="button"
+                onClick={() => setNewsTab('recent')}
+                className={`flex-1 py-1 rounded-md transition text-center ${
+                  newsTab === 'recent' 
+                    ? 'bg-white text-slate-900 shadow-2xs' 
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                তাজা খবর
+              </button>
+              <button
+                type="button"
+                onClick={() => setNewsTab('popular')}
+                className={`flex-1 py-1 rounded-md transition text-center flex items-center justify-center gap-1 ${
+                  newsTab === 'popular' 
+                    ? 'bg-white text-rose-700 shadow-2xs font-extrabold' 
+                    : 'text-slate-600 hover:text-rose-600'
+                }`}
+              >
+                <Flame className="w-3 h-3 text-rose-600 fill-rose-600" />
+                <span>জনপ্রিয় খবর</span>
+              </button>
+            </div>
           </div>
 
           <div className="space-y-3.5">
-            {posts.slice(0, 6).map((art, idx) => {
+            {(newsTab === 'popular' && popularList.length > 0 ? popularList : posts).slice(0, 6).map((art, idx) => {
               const displayImg = art.imageUrl || (art.images && art.images[0]) || '';
               return (
                 <a
@@ -233,6 +270,11 @@ export default function BaruipurUtilities({
                           <Play className="w-4 h-4 text-white fill-white" />
                         </div>
                       )}
+                      {newsTab === 'popular' && (
+                        <span className="absolute top-1 left-1 bg-black/75 text-amber-300 text-[10px] font-black px-1.5 py-0.2 rounded">
+                          #{idx + 1}
+                        </span>
+                      )}
                     </div>
                   ) : (
                     <div className="w-16 h-16 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center shrink-0 text-slate-400 group-hover:bg-red-50 group-hover:text-red-600 transition">
@@ -246,7 +288,14 @@ export default function BaruipurUtilities({
                         {art.categoryNameBn || 'খবর'}
                       </span>
                       <span>•</span>
-                      <span>{formatTimeAgoBengali(art.publishedAt)}</span>
+                      {newsTab === 'popular' && art.views ? (
+                        <span className="text-rose-700 font-bold flex items-center gap-0.5">
+                          <Flame className="w-3 h-3 text-rose-500" />
+                          {art.views} ভিউ
+                        </span>
+                      ) : (
+                        <span>{formatTimeAgoBengali(art.publishedAt)}</span>
+                      )}
                     </div>
                     <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-red-600 line-clamp-2 leading-snug transition">
                       {art.title}

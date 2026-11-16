@@ -290,7 +290,7 @@ export default function Header() {
           items: [
             {
               label: 'ডাক্তার ও ওপিডি চেম্বার',
-              href: '/health-directory',
+              href: '/health-directory?category=doctors',
               desc: '১০০+ বিশেষজ্ঞ ডাক্তারের নিয়মিত বসার সময় ও ফি',
               icon: Stethoscope,
               badge: 'রোস্টার',
@@ -298,7 +298,7 @@ export default function Header() {
             },
             {
               label: 'নার্সিংহোম ও হাসপাতাল',
-              href: '/health-directory',
+              href: '/health-directory?category=hospitals',
               desc: 'হাই মেডিকেল, নমিতা সেবায়তন, ওয়েলকিন হাসপাতাল',
               icon: HeartPulse
             }
@@ -309,13 +309,13 @@ export default function Header() {
           items: [
             {
               label: 'ডায়াগনস্টিক ও প্যাথলজি',
-              href: '/health-directory',
+              href: '/health-directory?category=diagnostic',
               desc: 'রক্ত পরীক্ষা, ডিজিটাল এক্স-রে ও ইউএসজি সেন্টার',
               icon: Stethoscope
             },
             {
               label: 'স্বাস্থ্যসাথী পরিষেবা কেন্দ্র',
-              href: '/health-directory',
+              href: '/health-directory?category=swasthya-sathi',
               desc: 'সরকারি কার্ড গ্রাহ্য নার্সিংহোমের তালিকা',
               icon: Landmark
             }
@@ -914,24 +914,58 @@ export default function Header() {
                   </span>
                 </a>
 
-                <a
-                  href="/health-directory"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center justify-between p-3 rounded-2xl bg-gradient-to-r from-rose-50 to-pink-50 border border-rose-200 hover:shadow-xs transition"
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-xl bg-rose-600 text-white flex items-center justify-center shrink-0">
-                      <Stethoscope className="w-4 h-4" />
+                <div className="rounded-2xl bg-gradient-to-r from-rose-50 to-pink-50 border border-rose-200 p-3">
+                  <a
+                    href="/health-directory"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center justify-between hover:opacity-90 transition mb-2.5"
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="w-9 h-9 rounded-xl bg-rose-600 text-white flex items-center justify-center shrink-0">
+                        <Stethoscope className="w-4 h-4" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-slate-900 text-sm">স্বাস্থ্য ও ডাক্তার চেম্বার</h4>
+                        <p className="text-xs text-slate-500">নার্সিংহোম ও বিশেষজ্ঞ রোস্টার</p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-bold text-slate-900 text-sm">স্বাস্থ্য ও ডাক্তার চেম্বার</h4>
-                      <p className="text-xs text-slate-500">নার্সিংহোম ও বিশেষজ্ঞ রোস্টার</p>
-                    </div>
+                    <span className="text-xs bg-rose-200 text-rose-900 font-bold px-2 py-0.5 rounded-full">
+                      OPD
+                    </span>
+                  </a>
+
+                  {/* Direct Mobile Subcategory Links */}
+                  <div className="grid grid-cols-2 gap-1.5 pt-2 border-t border-rose-200/60 text-[11px] font-bold">
+                    <a
+                      href="/health-directory?category=doctors"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="bg-white/90 hover:bg-white text-rose-800 p-1.5 rounded-lg border border-rose-200/70 text-center transition"
+                    >
+                      🩺 ডাক্তার চেম্বার
+                    </a>
+                    <a
+                      href="/health-directory?category=hospitals"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="bg-white/90 hover:bg-white text-rose-800 p-1.5 rounded-lg border border-rose-200/70 text-center transition"
+                    >
+                      🏥 নার্সিংহোম
+                    </a>
+                    <a
+                      href="/health-directory?category=diagnostic"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="bg-white/90 hover:bg-white text-rose-800 p-1.5 rounded-lg border border-rose-200/70 text-center transition"
+                    >
+                      🔬 ডায়াগনস্টিক
+                    </a>
+                    <a
+                      href="/health-directory?category=swasthya-sathi"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="bg-white/90 hover:bg-white text-rose-800 p-1.5 rounded-lg border border-rose-200/70 text-center transition"
+                    >
+                      💳 স্বাস্থ্যসাথী
+                    </a>
                   </div>
-                  <span className="text-xs bg-rose-200 text-rose-900 font-bold px-2 py-0.5 rounded-full">
-                    OPD
-                  </span>
-                </a>
+                </div>
 
                 <a
                   href="/transport"

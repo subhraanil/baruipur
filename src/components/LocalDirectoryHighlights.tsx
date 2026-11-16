@@ -54,7 +54,7 @@ export default function LocalDirectoryHighlights({
                 </span>
                 স্বাস্থ্য ও ডাক্তার ওপিডি
               </h3>
-              <a href="/health-directory" className="text-[11px] font-bold text-rose-700 hover:underline">
+              <a href="/health-directory?category=doctors" className="text-[11px] font-bold text-rose-700 hover:underline">
                 সকল ডাক্তার →
               </a>
             </div>

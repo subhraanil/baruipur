@@ -19,7 +19,8 @@ interface NewsStreamClientProps {
 }
 
 const CATEGORY_TABS = [
-  { id: 'all', label: 'সব খবর' },
+  { id: 'all', label: 'সব তাজা খবর' },
+  { id: 'popular', label: '🔥 জনপ্রিয় খবর' },
   { id: 'municipality', label: 'পৌরসভা' },
   { id: 'railway', label: 'রেল ও ট্রেন' },
   { id: 'crime', label: 'আইন ও অপরাধ' },
@@ -66,10 +67,14 @@ export default function NewsStreamClient({ initialArticles, allArticles }: NewsS
   // Filtered articles
   const filteredArticles = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
-    const sourcePool = allArticles && allArticles.length > 0 ? allArticles : initialArticles;
+    let sourcePool = allArticles && allArticles.length > 0 ? allArticles : initialArticles;
+
+    if (selectedCategory === 'popular') {
+      sourcePool = [...sourcePool].sort((a, b) => (b.views || 0) - (a.views || 0));
+    }
 
     return sourcePool.filter(art => {
-      if (selectedCategory !== 'all' && art.category !== selectedCategory) {
+      if (selectedCategory !== 'all' && selectedCategory !== 'popular' && art.category !== selectedCategory) {
         return false;
       }
 
@@ -105,11 +110,13 @@ export default function NewsStreamClient({ initialArticles, allArticles }: NewsS
         <div className="flex items-center gap-2">
           <Newspaper className="w-5 h-5 text-[#C62828] shrink-0" />
           <h2 className="text-base sm:text-lg font-bold text-slate-900">
-            সর্বশেষ স্থানীয় সংবাদ (Latest News)
+            {selectedCategory === 'popular' 
+              ? '🔥 বারুইপুরের সর্বাধিক পঠিত ও আলোচিত খবর' 
+              : 'সর্বশেষ স্থানীয় সংবাদ (Latest News)'}
           </h2>
           {(searchQuery || selectedCategory !== 'all') && (
             <span className="text-[11px] font-bold bg-red-100 text-red-700 px-2 py-0.5 rounded-full">
-              ফিল্টার সক্রিয়
+              {selectedCategory === 'popular' ? 'ট্রেন্ডিং তালিকা' : 'ফিল্টার সক্রিয়'}
             </span>
           )}
         </div>

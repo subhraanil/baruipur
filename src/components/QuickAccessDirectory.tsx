@@ -86,7 +86,7 @@ export default function QuickAccessDirectory() {
       desc: 'নার্সিংহোম, পলিক্লিনিক ও বিশেষজ্ঞ তালিকা',
       category: 'health',
       icon: Stethoscope,
-      href: '/health-directory',
+      href: '/health-directory?category=doctors',
       badge: 'OPD রোস্টার',
       badgeColor: 'bg-rose-100 text-rose-800 border-rose-200',
       accentBg: 'bg-rose-50/80 group-hover:bg-rose-100/90',

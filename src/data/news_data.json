@@ -54,9 +54,9 @@
       ],
       "publishedAt": "2026-11-15T12:58:14.000Z",
       "isBreaking": false,
-      "isFeatured": false,
+      "isFeatured": true,
       "status": "draft",
-      "views": 50,
+      "views": 210,
       "crawlHash": "afca3aa2168bcb97f29fc7f0b5c8c13f"
     },
     {
@@ -85,9 +85,9 @@
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1164971352546381&show_text=0",
       "publishedAt": "2026-11-15T07:37:37.000Z",
       "isBreaking": false,
-      "isFeatured": false,
+      "isFeatured": true,
       "status": "draft",
-      "views": 15,
+      "views": 240,
       "crawlHash": "5a246ade327d4be38f4932c65d6290c1"
     },
     {
@@ -613,7 +613,10 @@
       ],
       "status": "published",
       "authorId": "priyabrata-mondal",
-      "isGuide": false
+      "isGuide": false,
+      "views": 360,
+      "isFeatured": true,
+      "isBreaking": false
     },
     {
       "id": "art-20261113-autoagitation",
@@ -633,7 +636,10 @@
       ],
       "status": "published",
       "authorId": "priyabrata-mondal",
-      "isGuide": false
+      "isGuide": false,
+      "views": 420,
+      "isFeatured": true,
+      "isBreaking": true
     },
     {
       "id": "art-1794586295031-w6ls",
@@ -785,7 +791,8 @@
       ],
       "status": "published",
       "authorId": "desk-crime",
-      "isGuide": false
+      "isGuide": false,
+      "views": 95
     },
     {
       "id": "art-20261113-jagadhatrikarnatak",
@@ -808,7 +815,10 @@
       ],
       "status": "draft",
       "authorId": "desk-culture",
-      "isGuide": false
+      "isGuide": false,
+      "views": 310,
+      "isFeatured": true,
+      "isBreaking": false
     },
     {
       "id": "art-20261113-sunflowerghora",
@@ -828,7 +838,10 @@
       ],
       "status": "published",
       "authorId": "desk-culture",
-      "isGuide": false
+      "isGuide": false,
+      "views": 280,
+      "isFeatured": true,
+      "isBreaking": false
     },
     {
       "id": "art-20261113-jagaranikali",
@@ -852,7 +865,10 @@
       "authorId": "desk-culture",
       "isGuide": false,
       "videoUrl": "https://www.facebook.com/watch/?v=1027419587047396",
-      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1027419587047396&show_text=0"
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1027419587047396&show_text=0",
+      "views": 340,
+      "isFeatured": true,
+      "isBreaking": false
     },
     {
       "id": "art-1794541667773-nm2t",
@@ -1148,9 +1164,9 @@
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1845432533305083&show_text=0",
       "publishedAt": "2026-11-12T10:40:00.000Z",
       "isBreaking": false,
-      "isFeatured": false,
+      "isFeatured": true,
       "status": "published",
-      "views": 58,
+      "views": 195,
       "crawlHash": "40cb25d016baa727f04f91ba7748add8",
       "galleryImages": [
         "/images/crawled/324ce55356a228559bb4304faa2bb100.jpg",
@@ -1225,10 +1241,10 @@
       "videoUrl": "https://www.facebook.com/watch/?v=1166829369025604",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1166829369025604&show_text=0",
       "publishedAt": "2026-11-12T10:45:00.000Z",
-      "isBreaking": true,
+      "isBreaking": false,
       "isFeatured": false,
       "status": "draft",
-      "views": 10,
+      "views": 220,
       "crawlHash": "ad099bebefe11e8d99b3e860fa8afef0"
     },
     {
@@ -1327,9 +1343,9 @@
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2040460679996228&show_text=0",
       "publishedAt": "2026-11-12T10:30:00.000Z",
       "isBreaking": false,
-      "isFeatured": false,
+      "isFeatured": true,
       "status": "published",
-      "views": 59,
+      "views": 395,
       "crawlHash": "ca39c79b893573e08239803c5516c02e"
     },
     {
@@ -1775,7 +1791,8 @@
       "imageUrl": "/images/health/dental-clinic-dr-tapan-sarkar-partha-sarathi-saha.jpg",
       "publishedAt": "2026-11-10T08:55:00.000Z",
       "status": "published",
-      "content": "বারুইপুর ও দক্ষিণ ২৪ পরগনার সাধারণ মানুষের নির্ভরযোগ্য আধুনিক দন্তচিকিৎসার অন্যতম প্রধান ঠিকানা হলো বারুইপুর স্টেশন রোড ও সুবুদ্ধিপুর মোড় সংলগ্ন 'ডেন্টাল ক্লিনিক' (Dental Clinic)। অভিজ্ঞ দন্ত চিকিৎসক এবং সর্বাধুনিক ডেন্টাল চেয়ার ও অটোক্লেভ স্টেরিলাইজেশন প্রযুক্তির সমন্বয়ে এই ক্লিনিকে সব ধরনের দাঁতের রোগের সুচিকিৎসা প্রদান করা হয়।\n\n### অভিজ্ঞ দন্ত চিকিৎসকবৃন্দ ও চেম্বারের সময়সূচি\nএই ডেন্টাল ক্লিনিকে চিকিৎসা প্রদান করেন দুজন বিশিষ্ট ডেন্টাল সার্জন:\n1. **ডাঃ তপন সরকার (Dr. Tapan Sarkar - B.D.S. CAL)**:\n   - কলকাতা বিশ্ববিদ্যালয়ের প্রবীণ ও অত্যন্ত অভিজ্ঞ সিনিয়র ডেন্টাল সার্জন।\n   - **চেম্বারের সময়**: প্রতিদিন সন্ধ্যা ৫:০০ টা হইতে রাত ৮:০০ টা।\n   - **সকালের চেম্বার**: শনি, রবি ও বুধবার সকাল ৯:৩০ টা হইতে বেলা ১১:৩০ টা। (বৃহস্পতিবার চেম্বার বন্ধ থাকে)।\n2. **ডাঃ পার্থ সারথী সাহা (Dr. Partha Sarathi Saha - BDS, MDS)**:\n   - বিশেষজ্ঞ ওরাল ইমপ্লান্টোলজিস্ট ও ম্যাক্সিলোফ্যাসিয়াল সার্জন।\n   - **চেম্বারের সময়**: সোম, মঙ্গল, বুধ ও শুক্রবার সকাল ৯:০০ টা হইতে দুপুর ১২:০০ টা পর্যন্ত।\n   - **অগ্রিম বুকিং হেল্পলাইন**: ৮৬৭০৮৩৩৭০৭ (8670833707)।\n\n### অত্যাধুনিক চিকিৎসা সুবিধাসমূহ\n- **সিঙ্গেল-সিটিং রুট ক্যানাল (Rotary RCT)**: ব্যথাহীনভাবে আধুনিক রোটারি মেশিনের সাহায্যে দাঁতের স্নায়ু চিকিৎসা।\n- **টাইটানিয়াম ডেন্টাল ইমপ্লান্ট**: স্থায়ীভাবে বাঁধানো দাঁত প্রতিস্থাপন যা আজীবন স্বাভাবিক দাঁতের মতো কাজ করে।\n- **আল্ট্রাসনিক স্কেলিং ও মাড়ির যত্ন**: মাড়ির রক্তপাত, মুখের দুর্গন্ধ ও টারটার অপসারণে আধুনিক আল্ট্রাসনিক ভাইব্রেশন পদ্ধতি।\n- **কসমেটিক স্মাইল মেকওভার**: জেরকোনিয়া ও সেরামিক ক্যাপ-ব্রিজ, ফাঁকা দাঁতের লেজার ফিলিং এবং বাচ্চাদের ক্যাভিটি প্রোটেকশন।"
+      "content": "বারুইপুর ও দক্ষিণ ২৪ পরগনার সাধারণ মানুষের নির্ভরযোগ্য আধুনিক দন্তচিকিৎসার অন্যতম প্রধান ঠিকানা হলো বারুইপুর স্টেশন রোড ও সুবুদ্ধিপুর মোড় সংলগ্ন 'ডেন্টাল ক্লিনিক' (Dental Clinic)। অভিজ্ঞ দন্ত চিকিৎসক এবং সর্বাধুনিক ডেন্টাল চেয়ার ও অটোক্লেভ স্টেরিলাইজেশন প্রযুক্তির সমন্বয়ে এই ক্লিনিকে সব ধরনের দাঁতের রোগের সুচিকিৎসা প্রদান করা হয়।\n\n### অভিজ্ঞ দন্ত চিকিৎসকবৃন্দ ও চেম্বারের সময়সূচি\nএই ডেন্টাল ক্লিনিকে চিকিৎসা প্রদান করেন দুজন বিশিষ্ট ডেন্টাল সার্জন:\n1. **ডাঃ তপন সরকার (Dr. Tapan Sarkar - B.D.S. CAL)**:\n   - কলকাতা বিশ্ববিদ্যালয়ের প্রবীণ ও অত্যন্ত অভিজ্ঞ সিনিয়র ডেন্টাল সার্জন।\n   - **চেম্বারের সময়**: প্রতিদিন সন্ধ্যা ৫:০০ টা হইতে রাত ৮:০০ টা।\n   - **সকালের চেম্বার**: শনি, রবি ও বুধবার সকাল ৯:৩০ টা হইতে বেলা ১১:৩০ টা। (বৃহস্পতিবার চেম্বার বন্ধ থাকে)।\n2. **ডাঃ পার্থ সারথী সাহা (Dr. Partha Sarathi Saha - BDS, MDS)**:\n   - বিশেষজ্ঞ ওরাল ইমপ্লান্টোলজিস্ট ও ম্যাক্সিলোফ্যাসিয়াল সার্জন।\n   - **চেম্বারের সময়**: সোম, মঙ্গল, বুধ ও শুক্রবার সকাল ৯:০০ টা হইতে দুপুর ১২:০০ টা পর্যন্ত।\n   - **অগ্রিম বুকিং হেল্পলাইন**: ৮৬৭০৮৩৩৭০৭ (8670833707)।\n\n### অত্যাধুনিক চিকিৎসা সুবিধাসমূহ\n- **সিঙ্গেল-সিটিং রুট ক্যানাল (Rotary RCT)**: ব্যথাহীনভাবে আধুনিক রোটারি মেশিনের সাহায্যে দাঁতের স্নায়ু চিকিৎসা।\n- **টাইটানিয়াম ডেন্টাল ইমপ্লান্ট**: স্থায়ীভাবে বাঁধানো দাঁত প্রতিস্থাপন যা আজীবন স্বাভাবিক দাঁতের মতো কাজ করে।\n- **আল্ট্রাসনিক স্কেলিং ও মাড়ির যত্ন**: মাড়ির রক্তপাত, মুখের দুর্গন্ধ ও টারটার অপসারণে আধুনিক আল্ট্রাসনিক ভাইব্রেশন পদ্ধতি।\n- **কসমেটিক স্মাইল মেকওভার**: জেরকোনিয়া ও সেরামিক ক্যাপ-ব্রিজ, ফাঁকা দাঁতের লেজার ফিলিং এবং বাচ্চাদের ক্যাভিটি প্রোটেকশন।",
+      "views": 78
     },
     {
       "id": "art-1794281343808-ssss",
@@ -1794,7 +1811,8 @@
         "/images/crawled/de9bafa88f0e86b0306827dac19134f2.jpg",
         "/images/crawled/7f7b1cb441aed8e7b637f25c3aba3851.jpg",
         "/images/crawled/79a6b026a8e61a036b4fd24a80c26939.jpg"
-      ]
+      ],
+      "views": 83
     },
     {
       "id": "art-1794281352742-mvy2",
@@ -4922,7 +4940,8 @@
       ],
       "publishedAt": "2026-10-27T03:55:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 86
     },
     {
       "id": "art-guide-baruipur-wedding-bridal-shopping",
@@ -4942,7 +4961,8 @@
       ],
       "publishedAt": "2026-10-27T03:50:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 91
     },
     {
       "id": "art-guide-baruipur-wbsedcl-electricity-guide",
@@ -4963,7 +4983,8 @@
       ],
       "publishedAt": "2026-10-27T03:45:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 81
     },
     {
       "id": "art-guide-baruipur-music-dance-academies",
@@ -4983,7 +5004,8 @@
       ],
       "publishedAt": "2026-10-27T03:40:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 76
     },
     {
       "id": "art-guide-baruipur-top-english-medium-schools",
@@ -5004,7 +5026,8 @@
       ],
       "publishedAt": "2026-10-27T03:35:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 85
     },
     {
       "id": "art-guide-baruipur-cathedral-church-bishop-house",
@@ -5024,7 +5047,8 @@
       ],
       "publishedAt": "2026-10-27T03:30:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 87
     },
     {
       "id": "art-guide-baruipur-jora-shiva-temple-terracotta",
@@ -5044,7 +5068,8 @@
       ],
       "publishedAt": "2026-10-27T03:25:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 78
     },
     {
       "id": "art-guide-bankim-chandra-heritage-baruipur",
@@ -5065,7 +5090,8 @@
       ],
       "publishedAt": "2026-10-27T03:20:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 77
     },
     {
       "id": "art-guide-baruipur-khejurer-ros-nolen-gur",
@@ -5086,7 +5112,8 @@
       ],
       "publishedAt": "2026-10-27T03:15:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 99
     },
     {
       "id": "art-guide-baruipur-green-crackers-haral-champahati",
@@ -5107,7 +5134,8 @@
       "publishedAt": "2026-10-27T03:10:00.000Z",
       "status": "published",
       "isFeatured": true,
-      "isGuide": true
+      "isGuide": true,
+      "views": 99
     },
     {
       "id": "art-guide-baruipur-shibanipith-kali-temples",
@@ -5128,7 +5156,8 @@
       ],
       "publishedAt": "2026-10-27T03:05:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 79
     },
     {
       "id": "art-guide-baruipur-best-kali-puja-pandals",
@@ -5149,7 +5178,8 @@
       ],
       "publishedAt": "2026-10-27T03:00:00.000Z",
       "status": "published",
-      "isFeatured": true
+      "isFeatured": true,
+      "views": 93
     },
     {
       "id": "art-1793042856375-wq2q",
@@ -5518,7 +5548,8 @@
       "isTopNews": true,
       "images": [
         "/images/baruipur-guava-litchi-farming-guide.jpg"
-      ]
+      ],
+      "views": 79
     },
     {
       "id": "art-guide-baruipur-padmapukur-plant-nursery-hub",
@@ -5542,7 +5573,8 @@
       "isTopNews": true,
       "images": [
         "/images/baruipur-plant-nursery-hub.jpg"
-      ]
+      ],
+      "views": 77
     },
     {
       "id": "art-guide-baruipur-best-rooftop-cafes-hangout-spots",
@@ -5566,7 +5598,8 @@
       "isTopNews": true,
       "images": [
         "/images/baruipur-rooftop-cafes-hangout.jpg"
-      ]
+      ],
+      "views": 94
     },
     {
       "id": "art-guide-baruipur-computer-training-skill-centers",
@@ -5590,7 +5623,8 @@
       "isTopNews": true,
       "images": [
         "/images/baruipur-computer-training-centers.jpg"
-      ]
+      ],
+      "views": 82
     },
     {
       "id": "art-guide-baruipur-cricket-football-coaching-academies",
@@ -5614,7 +5648,8 @@
       "isTopNews": true,
       "images": [
         "/images/baruipur-sports-coaching-academies.jpg"
-      ]
+      ],
+      "views": 85
     },
     {
       "id": "art-guide-baruipur-swimming-pool-admission-fees",
@@ -5638,7 +5673,8 @@
       "isTopNews": true,
       "images": [
         "/images/baruipur-swimming-pool-guide.jpg"
-      ]
+      ],
+      "views": 85
     },
     {
       "id": "art-guide-joynagar-moa-nolen-gur-authenticity",
@@ -5662,7 +5698,8 @@
       "isTopNews": true,
       "images": [
         "/images/joynagar-moa-nolen-gur-guide.jpg"
-      ]
+      ],
+      "views": 85
     },
     {
       "id": "art-1792813035289-3zem",
@@ -7659,7 +7696,8 @@
       "content": "বাঙালির দুর্গোৎসবের সবচেয়ে আবেগঘন ও ভক্তিপূর্ণ দিন মহা অষ্টমী। রবিবার সকাল থেকেই ঢাকের বোলে, ধূপ-ধুনোর সুবাসে এবং শঙ্খধ্বনিতে মুখরিত হয়ে উঠেছে গোটা বারুইপুর মহকুমা। নতুন পোশাকে সেজে সকাল থেকেই মণ্ডপে মণ্ডপে অঞ্জলি দেওয়ার জন্য ভক্তদের দীর্ঘ লাইন পরিলক্ষিত হচ্ছে।\n\nঐতিহাসিক রাসমাঠের ৩৫০ বছরের প্রাচীন সাবর্ণ রায়চৌধুরী রাজবাড়িতে নিয়ম-নিষ্ঠা মেনে মহা অষ্টমীর বিশেষ পূজার্চনা শুরু হয়েছে। সাবেকি একচালা প্রতিমার সামনে নিষ্ঠাভরে অঞ্জলি দিয়েছেন শত শত ভক্ত। পরিবারের সদস্যরা জানান, অষ্টমী ও নবমীর সন্ধিক্ষণে অনুষ্ঠিত সন্ধিপূজায় ১০৮টি নীলপদ্ম এবং ১০৮টি প্রদীপ প্রজ্বলন করে দেবীর বিশেষ আরতি করা হবে।\n\nঅন্যদিকে বারুইপুরের একাধিক ঐতিহ্যবাহী পুজো ও আশ্রমে অনুষ্ঠিত হচ্ছে কুমারী পূজা। জীবন্ত দেবীরূপে কুমারী কন্যাকে মাতৃজ্ঞানে পূজা করার এই দৃশ্য দেখতে বহু মানুষের সমাগম ঘটে। \n\nসপ্তপল্লী, শাসন বালক সংঘ, ভট্টাচার্য পাড়া, আদর্শ নবপল্লী এবং পদ্মপুকুর ইয়ুথ ক্লাবের মণ্ডপগুলিতে অষ্টমীর সকাল থেকেই ভোগ বিতরণ ও পুষ্পাঞ্জলি পর্ব সুশৃঙ্খলভাবে চলছে। ভিড় নিয়ন্ত্রণে পুজো উদ্যোক্তা ও পুলিশ প্রশাসনের পক্ষ থেকে কড়া নজরদারি রাখা হয়েছে। বিকেল গড়াতেই জনসমুদ্র নামবে বারুইপুরের রাজপথে, এমনটাই আশা করছেন স্থানীয়রা।",
       "status": "draft",
       "categoryNameBn": "উৎসব ও সংস্কৃতি",
-      "imageUrl": "/images/crawled/1c40c5547bcd636d34339fa4879d47aa.jpg"
+      "imageUrl": "/images/crawled/1c40c5547bcd636d34339fa4879d47aa.jpg",
+      "views": 82
     },
     {
       "id": "art-1792299777756-t4g4",
@@ -7809,7 +7847,8 @@
       "content": "শরতের স্নিগ্ধ রোদ আর কাশফুলের দোলা নিয়ে এলো বাঙালি শ্রেষ্ঠ উৎসবের মহা সপ্তমী। শনিবার ভোরে ঢাকের বোলে নবপত্রিকা বা কলাবউ স্নানের আনুষ্ঠানিকতার মধ্য দিয়ে বারুইপুর মহকুমা জুড়ে দেবীর প্রধান পূজার্চনা আরম্ভ হয়েছে।\n\nভোর থেকেই আদিগঙ্গার বিভিন্ন ঘাট, পদ্মপুকুর ও ঐতিহাসিক রায়চৌধুরী রাজবাড়ির দীঘিতে নবপত্রিকা স্নান করাতে পুরোহিত ও ভক্তদের সমাগম লক্ষ্য করা যায়। স্নান করানোর পর হলুদ শাড়িতে বধূবেশে নবপত্রিকাকে গণেশের পাশে স্থাপন করা হয় এবং শুরু হয় সপ্তমীর মূল বিহিত পূজা।\n\nসকাল গড়াতেই বারুইপুর পৌরসভার প্রতিটি ওয়ার্ড ও সংলগ্ন পঞ্চায়েত এলাকার মণ্ডপগুলিতে অঞ্জলি দেওয়ার লম্বা লাইন পড়ে যায়। নতুন পোশাকে সেজে শিশু থেকে বয়োবৃদ্ধ—সকলের মুখেই উৎসবের অনাবিল আনন্দ। রাসমাঠের সাবেকি রায়চৌধুরী রাজবাড়ি, সপ্তপল্লী সার্বজনীন, শাসন বালক সংঘ, বারুইপুর পুলিশ লাইনের পুজো এবং ভট্টাচার্য পাড়ার মণ্ডপগুলিতে সকাল থেকেই দর্শনার্থীদের ভিড় সামলাতে সক্রিয় ভূমিকা নিতে হচ্ছে পুজো উদ্যোক্তাদের।\n\nউৎসবে যানজট এড়াতে এবং সাধারণ মানুষের নিরাপত্তা সুনিশ্চিত করতে বারুইপুর পুলিশ জেলা ও ট্রাফিক পুলিশের পক্ষ থেকে বিশেষ ট্রাফিক প্ল্যান কার্যকর করা হয়েছে। কুলপি রোড ও কাচারি বাজার সংলগ্ন এলাকায় বড় গাড়ি নিয়ন্ত্রণ করে পথচারীদের অবাধ যাতায়াতের ব্যবস্থা করা হয়েছে। সর্বত্র নজরদারি চালাচ্ছে পুলিশ পিকেট ও সাদা পোশাকের বিশেষ নজরদারি দল।",
       "status": "draft",
       "categoryNameBn": "উৎসব ও সংস্কৃতি",
-      "imageUrl": "/images/crawled/5501415ccdaeaff7300498a4813f0478.jpg"
+      "imageUrl": "/images/crawled/5501415ccdaeaff7300498a4813f0478.jpg",
+      "views": 85
     },
     {
       "id": "art-1792210143572-5lvu",

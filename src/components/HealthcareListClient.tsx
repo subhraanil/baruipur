@@ -16,81 +16,205 @@ import {
   Phone, 
   MapPin, 
   Clock, 
-  ChevronRight,
-  ShieldCheck,
-  UserCheck,
-  CheckCircle2,
-  ExternalLink,
-  Users
+  ChevronRight, 
+  ShieldCheck, 
+  UserCheck, 
+  CheckCircle2, 
+  ExternalLink, 
+  Users,
+  Activity,
+  CreditCard,
+  HeartPulse,
+  Sparkles,
+  Info
 } from 'lucide-react';
 
 interface Props {
   facilities: HealthcareFacility[];
 }
 
-const TYPE_TABS: { key: 'all' | FacilityType; labelBn: string }[] = [
-  { key: 'all', labelBn: 'সব স্বাস্থ্যকেন্দ্র ও চেম্বার' },
-  { key: 'nursing_home', labelBn: 'হাসপাতাল ও নার্সিং হোম' },
-  { key: 'diagnostic', labelBn: 'ডায়াগনস্টিক ও ল্যাব' },
-  { key: 'polyclinic', labelBn: 'পলিক্লিনিক ও চেম্বার' },
-  { key: 'pharmacy_opd', labelBn: 'মেডিসিন শপ ও OPD' },
-  { key: 'hospital', labelBn: 'সরকারি মহকুমা হাসপাতাল' },
+export type MainHealthCategory = 'all' | 'doctors' | 'hospitals' | 'diagnostic' | 'swasthya-sathi';
+
+interface CategoryCardInfo {
+  key: MainHealthCategory;
+  titleBn: string;
+  subtitleBn: string;
+  badgeBn: string;
+  icon: any;
+  colorClass: string;
+  activeClass: string;
+  descriptionBn: string;
+}
+
+const CATEGORY_CARDS: CategoryCardInfo[] = [
+  {
+    key: 'all',
+    titleBn: 'সব স্বাস্থ্য পরিষেবা',
+    subtitleBn: 'হাসপাতাল, পলিক্লিনিক ও ল্যাব',
+    badgeBn: 'সম্পূর্ণ তালিকা',
+    icon: HeartPulse,
+    colorClass: 'text-slate-700',
+    activeClass: 'bg-slate-900 text-white border-slate-900 shadow-md',
+    descriptionBn: 'দক্ষিণ ২৪ পরগনার বারুইপুর মহকুমার সমস্ত হাসপাতাল, নার্সিং হোম, পলিক্লিনিক এবং ডায়াগনস্টিক সেন্টারের সার্বিক তথ্য।'
+  },
+  {
+    key: 'doctors',
+    titleBn: 'ডাক্তার ও ওপিডি চেম্বার',
+    subtitleBn: '১০০+ বিশেষজ্ঞ ডাক্তারের ওপিডি শিডিউল',
+    badgeBn: 'ডাক্তার রোস্টার',
+    icon: Stethoscope,
+    colorClass: 'text-rose-600',
+    activeClass: 'bg-rose-600 text-white border-rose-600 shadow-md shadow-rose-200',
+    descriptionBn: 'বারুইপুরের বিভিন্ন পলিক্লিনিক ও মেডিসিন চেম্বারে ১০০+ অভিজ্ঞ বিশেষজ্ঞ ডাক্তারের বসার দিন, ওপিডি সময়সূচি ও অ্যাপয়েন্টমেন্ট বুকিং নম্বর।'
+  },
+  {
+    key: 'hospitals',
+    titleBn: 'নার্সিংহোম ও হাসপাতাল',
+    subtitleBn: 'হাই মেডিকেল, নমিতা সেবায়তন, ওয়েলকিন',
+    badgeBn: 'ইনপেশেন্ট ও আইসিইউ',
+    icon: Building2,
+    colorClass: 'text-blue-600',
+    activeClass: 'bg-blue-600 text-white border-blue-600 shadow-md shadow-blue-200',
+    descriptionBn: 'বারুইপুর মহকুমা হাসপাতাল (SDH) ও শীর্ষস্থানীয় বেসরকারি নার্সিংহোমের বেড সংখ্যা, অপারেশন থিয়েটার, আইসিইউ ও ২৪ ঘণ্টা জরুরি পরিষেবা।'
+  },
+  {
+    key: 'diagnostic',
+    titleBn: 'ডায়াগনস্টিক ও প্যাথলজি',
+    subtitleBn: 'রক্ত পরীক্ষা, ডিজিটাল এক্স-রে ও ইউএসজি',
+    badgeBn: 'ল্যাব ও স্ক্যান',
+    icon: Activity,
+    colorClass: 'text-emerald-600',
+    activeClass: 'bg-emerald-600 text-white border-emerald-600 shadow-md shadow-emerald-200',
+    descriptionBn: 'রক্ত পরীক্ষা, ডিজিটাল এক্স-রে, ৪-ডি আল্ট্রাসনোগ্রাফি (USG), সিটি স্ক্যান ও ইসিজি পরীক্ষার নির্ভরযোগ্য ডায়াগনস্টিক সেন্টার।'
+  },
+  {
+    key: 'swasthya-sathi',
+    titleBn: 'স্বাস্থ্যসাথী পরিষেবা কেন্দ্র',
+    subtitleBn: 'সরকারি কার্ড গ্রাহ্য নার্সিংহোমের তালিকা',
+    badgeBn: 'বিনামূল্যে চিকিৎসা',
+    icon: ShieldCheck,
+    colorClass: 'text-amber-600',
+    activeClass: 'bg-amber-600 text-white border-amber-600 shadow-md shadow-amber-200',
+    descriptionBn: 'পশ্চিমবঙ্গ সরকারের স্বাস্থ্যসাথী স্মার্ট কার্ডের মাধ্যমে ক্যাশলেস অস্ত্রোপচার ও অন্তঃবিভাগীয় চিকিৎসা পরিষেবা প্রদানকারী নথিভুক্ত কেন্দ্র।'
+  }
 ];
 
 export default function HealthcareListClient({ facilities }: Props) {
+  const [activeCategory, setActiveCategory] = useState<MainHealthCategory>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedType, setSelectedType] = useState<'all' | FacilityType>('all');
   const [selectedSpecialty, setSelectedSpecialty] = useState('all');
   const [onlyOpen24Hours, setOnlyOpen24Hours] = useState(false);
-  const [onlySwasthyaSathi, setOnlySwasthyaSathi] = useState(false);
 
-  // Read URL query params on mount
+  // Sync state from URL parameters on mount and browser navigation
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    const handleUrlChange = () => {
+      if (typeof window === 'undefined') return;
       const params = new URLSearchParams(window.location.search);
+      const cat = params.get('category') || params.get('tab') || params.get('filter');
       const q = params.get('search') || params.get('q');
-      const t = params.get('type') as FacilityType;
       const s = params.get('specialty');
-      if (q) setSearchQuery(q);
-      if (t && ['nursing_home', 'polyclinic', 'pharmacy_opd', 'hospital', 'diagnostic'].includes(t)) {
-        setSelectedType(t);
+      const t = params.get('type');
+
+      if (cat) {
+        if (cat === 'doctors' || cat === 'doctor' || cat === 'opd' || cat === 'chamber') {
+          setActiveCategory('doctors');
+        } else if (cat === 'hospitals' || cat === 'hospital' || cat === 'nursing_home') {
+          setActiveCategory('hospitals');
+        } else if (cat === 'diagnostic' || cat === 'pathology' || cat === 'lab') {
+          setActiveCategory('diagnostic');
+        } else if (cat === 'swasthya-sathi' || cat === 'swasthya_sathi' || cat === 'card') {
+          setActiveCategory('swasthya-sathi');
+        } else {
+          setActiveCategory('all');
+        }
+      } else if (t) {
+        if (t === 'nursing_home' || t === 'hospital') setActiveCategory('hospitals');
+        else if (t === 'polyclinic' || t === 'pharmacy_opd') setActiveCategory('doctors');
+        else if (t === 'diagnostic') setActiveCategory('diagnostic');
       }
+
+      if (q) setSearchQuery(q);
       if (s) setSelectedSpecialty(s);
-    }
+    };
+
+    handleUrlChange();
+    window.addEventListener('popstate', handleUrlChange);
+    return () => window.removeEventListener('popstate', handleUrlChange);
   }, []);
+
+  // Update active category and push URL parameter
+  const handleSelectCategory = (cat: MainHealthCategory) => {
+    setActiveCategory(cat);
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      if (cat === 'all') {
+        url.searchParams.delete('category');
+      } else {
+        url.searchParams.set('category', cat);
+      }
+      window.history.pushState({}, '', url.toString());
+    }
+  };
+
+  // Compute category counts
+  const categoryCounts = useMemo(() => {
+    let doctors = 0;
+    let hospitals = 0;
+    let diagnostic = 0;
+    let swasthyaSathi = 0;
+
+    facilities.forEach(fac => {
+      if (fac.type === 'polyclinic' || fac.type === 'pharmacy_opd' || fac.doctors.length > 0) doctors++;
+      if (fac.type === 'nursing_home' || fac.type === 'hospital') hospitals++;
+      if (fac.type === 'diagnostic' || fac.hasDiagnostic || (fac.diagnosticFacilitiesBn && fac.diagnosticFacilitiesBn.length > 0)) diagnostic++;
+      if (fac.swasthyaSathiAccepted) swasthyaSathi++;
+    });
+
+    return {
+      all: facilities.length,
+      doctors,
+      hospitals,
+      diagnostic,
+      'swasthya-sathi': swasthyaSathi
+    };
+  }, [facilities]);
 
   // Compute total doctors count
   const totalDoctors = useMemo(() => {
     return facilities.reduce((sum, f) => sum + f.doctors.length, 0);
   }, [facilities]);
 
-  // Filter facilities
+  // Filter facilities based on category, search query, specialty, and 24x7 toggle
   const filteredFacilities = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
 
     return facilities.filter(fac => {
-      // Type match
-      if (selectedType !== 'all' && fac.type !== selectedType) {
-        return false;
+      // 1. Subcategory filter
+      if (activeCategory === 'doctors') {
+        const isDoctorChamber = fac.type === 'polyclinic' || fac.type === 'pharmacy_opd' || fac.doctors.length > 0;
+        if (!isDoctorChamber) return false;
+      } else if (activeCategory === 'hospitals') {
+        const isHospital = fac.type === 'nursing_home' || fac.type === 'hospital';
+        if (!isHospital) return false;
+      } else if (activeCategory === 'diagnostic') {
+        const isDiagnostic = fac.type === 'diagnostic' || fac.hasDiagnostic || (fac.diagnosticFacilitiesBn && fac.diagnosticFacilitiesBn.length > 0);
+        if (!isDiagnostic) return false;
+      } else if (activeCategory === 'swasthya-sathi') {
+        if (!fac.swasthyaSathiAccepted) return false;
       }
 
-      // 24 Hours match
+      // 2. 24 Hours match
       if (onlyOpen24Hours && !fac.isOpen24Hours) {
         return false;
       }
 
-      // Swasthya Sathi match
-      if (onlySwasthyaSathi && !fac.swasthyaSathiAccepted) {
-        return false;
-      }
-
-      // Specialty match: facility must have at least 1 doctor of that specialty
+      // 3. Specialty match: facility must have at least 1 doctor of that specialty
       if (selectedSpecialty !== 'all') {
         const hasSpec = fac.doctors.some(d => d.specialtyKey === selectedSpecialty);
         if (!hasSpec) return false;
       }
 
-      // Search Query matching facility or available specialties/doctors/services
+      // 4. Search Query matching facility or available specialties/doctors/services
       if (q) {
         const matchFacility = 
           fac.nameBn.toLowerCase().includes(q) ||
@@ -121,21 +245,104 @@ export default function HealthcareListClient({ facilities }: Props) {
 
       return true;
     });
-  }, [facilities, selectedType, selectedSpecialty, searchQuery, onlyOpen24Hours, onlySwasthyaSathi]);
+  }, [facilities, activeCategory, selectedSpecialty, searchQuery, onlyOpen24Hours]);
+
+  const activeCardInfo = CATEGORY_CARDS.find(c => c.key === activeCategory) || CATEGORY_CARDS[0];
 
   return (
-    <div className="space-y-8">
-      {/* Search & Filter Header Bar */}
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 sm:p-7">
-        <div className="flex flex-col md:flex-row gap-4 items-center justify-between mb-6">
+    <div className="space-y-8" id="health-directory-content">
+      {/* 1. Subcategory Selection Hub (Direct Visual Cards matching Mega Menu) */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <h2 className="text-base sm:text-lg font-black text-slate-900 flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-rose-600" />
+            <span>স্বাস্থ্য পরিষেবা সাব-ক্যাটাগরি সমূহ</span>
+          </h2>
+          <span className="text-xs text-slate-500 font-medium hidden sm:inline">
+            সরাসরি ক্লিক করে প্রয়োজনীয় বিভাগে যান
+          </span>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-2.5 sm:gap-3">
+          {CATEGORY_CARDS.map(card => {
+            const Icon = card.icon;
+            const count = categoryCounts[card.key];
+            const isActive = activeCategory === card.key;
+
+            return (
+              <button
+                key={card.key}
+                onClick={() => handleSelectCategory(card.key)}
+                className={`flex flex-col justify-between text-left p-3.5 sm:p-4 rounded-2xl border transition-all text-sm group ${
+                  isActive
+                    ? `${card.activeClass} ring-2 ring-offset-2 ring-rose-500`
+                    : 'bg-white text-slate-700 border-slate-200/90 hover:border-rose-300 hover:bg-rose-50/30'
+                }`}
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-1 mb-2">
+                    <div className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 ${
+                      isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-700 group-hover:bg-rose-100 group-hover:text-rose-700'
+                    }`}>
+                      <Icon className="w-4 h-4" />
+                    </div>
+                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                      isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'
+                    }`}>
+                      {count} টি
+                    </span>
+                  </div>
+
+                  <h3 className="font-extrabold text-xs sm:text-sm leading-tight line-clamp-1 mb-1">
+                    {card.titleBn}
+                  </h3>
+                  <p className={`text-[11px] leading-tight line-clamp-1 hidden sm:block ${
+                    isActive ? 'text-white/80' : 'text-slate-500'
+                  }`}>
+                    {card.subtitleBn}
+                  </p>
+                </div>
+
+                <div className={`text-[10px] font-bold mt-3 pt-2 border-t flex items-center justify-between ${
+                  isActive ? 'border-white/20 text-white/90' : 'border-slate-100 text-rose-700 group-hover:text-rose-800'
+                }`}>
+                  <span>{card.badgeBn}</span>
+                  <ChevronRight className={`w-3 h-3 transition-transform ${isActive ? 'translate-x-0.5' : 'group-hover:translate-x-0.5'}`} />
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 2. Active Category Banner & Filter Panel */}
+      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 sm:p-7 space-y-5">
+        {/* Active Category Description Notice */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200/70 text-xs text-slate-700">
+          <div className="flex items-center gap-2.5">
+            <Info className="w-4 h-4 text-rose-600 shrink-0" />
+            <p className="font-medium leading-relaxed">
+              <strong className="font-extrabold text-slate-900">{activeCardInfo.titleBn}:</strong>{' '}
+              {activeCardInfo.descriptionBn}
+            </p>
+          </div>
+          <div className="shrink-0 flex items-center gap-2 text-[11px] font-bold">
+            <span className="bg-white px-2.5 py-1 rounded-lg border border-slate-200 text-rose-700">
+              {filteredFacilities.length} টি প্রদর্শন হচ্ছে
+            </span>
+          </div>
+        </div>
+
+        {/* Search Input & Specialty Dropdown */}
+        <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
           <div className="relative w-full md:w-3/5">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
             <input
               type="text"
-              placeholder="স্বাস্থ্যকেন্দ্র, ডাক্তার, টেস্ট বা বিশেষজ্ঞ বিভাগ খুঁজুন (যেমন: USG, মেডিসিন, ইসিজি)..."
+              placeholder="স্বাস্থ্যকেন্দ্রের নাম, ডাক্তার, টেস্ট বা এলাকা লিখে খুঁজুন (যেমন: USG, ইসিজি, রায়চৌধুরী)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:bg-white transition text-sm sm:text-base font-medium"
+              className="w-full pl-12 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:bg-white transition text-sm sm:text-base font-medium"
             />
             {searchQuery && (
               <button 
@@ -153,11 +360,11 @@ export default function HealthcareListClient({ facilities }: Props) {
               ডাক্তারের ক্যাটাগরি বা বিশেষজ্ঞ বিভাগ:
             </label>
             <div className="relative">
-              <Stethoscope className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-red-600 pointer-events-none" />
+              <Stethoscope className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-rose-600 pointer-events-none" />
               <select
                 value={selectedSpecialty}
                 onChange={(e) => setSelectedSpecialty(e.target.value)}
-                className="w-full pl-10 pr-8 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-red-500 focus:bg-white appearance-none cursor-pointer"
+                className="w-full pl-10 pr-8 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-rose-500 focus:bg-white appearance-none cursor-pointer"
               >
                 {SPECIALTY_OPTIONS.map((spec) => (
                   <option key={spec.key} value={spec.key}>
@@ -172,52 +379,43 @@ export default function HealthcareListClient({ facilities }: Props) {
           </div>
         </div>
 
-        {/* Facility Type Tabs */}
-        <div className="flex flex-wrap gap-2 pt-2 border-t border-slate-100">
-          {TYPE_TABS.map((tab) => {
-            const isActive = selectedType === tab.key;
-            return (
-              <button
-                key={tab.key}
-                onClick={() => setSelectedType(tab.key)}
-                className={`px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all flex items-center gap-1.5 ${
-                  isActive
-                    ? 'bg-red-600 text-white shadow-sm shadow-red-200'
-                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                }`}
-              >
-                {tab.key === 'hospital' && <Hospital className="w-3.5 h-3.5" />}
-                {tab.key === 'nursing_home' && <Building2 className="w-3.5 h-3.5" />}
-                {tab.key === 'pharmacy_opd' && <Pill className="w-3.5 h-3.5" />}
-                {tab.key === 'polyclinic' && <Stethoscope className="w-3.5 h-3.5" />}
-                {tab.labelBn}
-              </button>
-            );
-          })}
-        </div>
-
         {/* Quick Toggles */}
-        <div className="flex flex-wrap items-center gap-4 mt-4 pt-3 border-t border-slate-100 text-xs font-semibold text-slate-600">
-          <label className="flex items-center gap-2 cursor-pointer hover:text-slate-900">
-            <input
-              type="checkbox"
-              checked={onlyOpen24Hours}
-              onChange={(e) => setOnlyOpen24Hours(e.target.checked)}
-              className="rounded text-red-600 focus:ring-red-500 w-4 h-4"
-            />
-            <span>২৪x৭ জরুরি পরিষেবা খোলা</span>
-          </label>
-          <label className="flex items-center gap-2 cursor-pointer hover:text-slate-900">
-            <input
-              type="checkbox"
-              checked={onlySwasthyaSathi}
-              onChange={(e) => setOnlySwasthyaSathi(e.target.checked)}
-              className="rounded text-red-600 focus:ring-red-500 w-4 h-4"
-            />
-            <span>স্বাস্থ্যসাথী কার্ড গ্রহণযোগ্য</span>
-          </label>
-          <div className="ml-auto text-slate-500 text-xs">
-            প্রদর্শন: <span className="font-bold text-red-600">{filteredFacilities.length}</span> টি স্বাস্থ্য প্রতিষ্ঠান
+        <div className="flex flex-wrap items-center justify-between gap-4 pt-3 border-t border-slate-100 text-xs font-semibold text-slate-600">
+          <div className="flex flex-wrap items-center gap-4">
+            <label className="flex items-center gap-2 cursor-pointer hover:text-slate-900">
+              <input
+                type="checkbox"
+                checked={onlyOpen24Hours}
+                onChange={(e) => setOnlyOpen24Hours(e.target.checked)}
+                className="rounded text-rose-600 focus:ring-rose-500 w-4 h-4"
+              />
+              <span>২৪x৭ জরুরি পরিষেবা সচল</span>
+            </label>
+
+            {activeCategory !== 'swasthya-sathi' && (
+              <button
+                type="button"
+                onClick={() => handleSelectCategory('swasthya-sathi')}
+                className="inline-flex items-center gap-1.5 text-amber-700 bg-amber-50 hover:bg-amber-100 px-2.5 py-1 rounded-lg border border-amber-200 transition"
+              >
+                <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                <span>স্বাস্থ্যসাথী কার্ড গ্রাহ্য কেন্দ্র দেখুন ({categoryCounts['swasthya-sathi']})</span>
+              </button>
+            )}
+
+            {activeCategory !== 'all' && (
+              <button
+                type="button"
+                onClick={() => handleSelectCategory('all')}
+                className="text-slate-500 hover:text-rose-600 underline"
+              >
+                সব সাব-ক্যাটাগরি রিসেট করুন
+              </button>
+            )}
+          </div>
+
+          <div className="text-slate-500 text-xs">
+            প্রদর্শন: <span className="font-bold text-rose-600">{filteredFacilities.length}</span> টি স্বাস্থ্য প্রতিষ্ঠান
           </div>
         </div>
       </div>
@@ -233,12 +431,11 @@ export default function HealthcareListClient({ facilities }: Props) {
           <button
             onClick={() => {
               setSearchQuery('');
-              setSelectedType('all');
+              setActiveCategory('all');
               setSelectedSpecialty('all');
               setOnlyOpen24Hours(false);
-              setOnlySwasthyaSathi(false);
             }}
-            className="px-4 py-2 bg-red-600 text-white rounded-lg text-sm font-bold hover:bg-red-700 transition"
+            className="px-4 py-2 bg-rose-600 text-white rounded-lg text-sm font-bold hover:bg-rose-700 transition"
           >
             ফিল্টার রিসেট করুন
           </button>
@@ -249,142 +446,129 @@ export default function HealthcareListClient({ facilities }: Props) {
             // Extract unique doctor specialties available at this facility
             const specialtyMap = new Map<string, string>();
             fac.doctors.forEach(d => {
-              if (d.specialtyKey && !specialtyMap.has(d.specialtyKey)) {
-                specialtyMap.set(d.specialtyKey, d.specialtyBn);
+              if (d.specialtyBn && !specialtyMap.has(d.specialtyBn)) {
+                specialtyMap.set(d.specialtyBn, d.specialtyBn);
               }
             });
-            const specialtiesList = Array.from(specialtyMap.entries());
+            const uniqueSpecialties = Array.from(specialtyMap.keys()).slice(0, 5);
 
             return (
               <div 
                 key={fac.slug}
-                className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-red-400 hover:shadow-md transition-all duration-200 flex flex-col justify-between"
+                className="bg-white rounded-2xl border border-slate-200/90 hover:border-rose-300 shadow-xs hover:shadow-md transition-all p-5 sm:p-6 flex flex-col justify-between group"
               >
                 <div>
-                  {/* Card Header & Badges */}
-                  <div className="p-5 sm:p-6 border-b border-slate-100 bg-gradient-to-r from-slate-50 to-white">
-                    <div className="flex flex-wrap items-center justify-between gap-2 mb-2.5">
-                      <span className="px-2.5 py-1 rounded-md text-xs font-bold bg-red-50 text-red-700 border border-red-200">
+                  {/* Top Badges */}
+                  <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-200/60">
                         {fac.typeBn}
                       </span>
-                      <div className="flex items-center gap-1.5">
-                        {fac.isOpen24Hours && (
-                          <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
-                            ২৪x৭
-                          </span>
-                        )}
-                        {fac.swasthyaSathiAccepted && (
-                          <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-blue-50 text-blue-700 border border-blue-200 flex items-center gap-1">
-                            <ShieldCheck className="w-3 h-3" /> স্বাস্থ্যসাথী
-                          </span>
-                        )}
-                      </div>
-                    </div>
-
-                    <h2 className="text-xl sm:text-2xl font-black text-slate-900 leading-snug group">
-                      <Link 
-                        href={`/health-directory/${fac.slug}/`}
-                        className="hover:text-red-600 transition"
-                        title={`${fac.nameBn}, বারুইপুর (${fac.nameEn}, Baruipur)`}
-                      >
-                        {fac.nameBn}, বারুইপুর
-                      </Link>
-                    </h2>
-                    <p className="text-xs text-slate-500 font-medium mt-0.5">
-                      {fac.nameEn}, Baruipur
-                    </p>
-
-                    <p className="text-xs sm:text-sm text-slate-600 mt-2 line-clamp-2 leading-relaxed">
-                      {fac.taglineBn}
-                    </p>
-                  </div>
-
-                  {/* Address, Hours & Fast Info */}
-                  <div className="p-5 sm:p-6 space-y-3.5 text-xs sm:text-sm text-slate-700">
-                    <div className="flex items-start gap-2">
-                      <MapPin className="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" />
-                      <div>
-                        <strong className="text-slate-900 block font-semibold">ঠিকানা ও ল্যান্ডমার্ক:</strong>
-                        <span className="text-slate-600">{fac.addressBn}</span>
-                        {fac.landmarkBn && (
-                          <span className="text-slate-400 block text-xs mt-0.5">({fac.landmarkBn})</span>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-2">
-                      <Clock className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" />
-                      <div>
-                        <strong className="text-slate-900 block font-semibold">সময়সূচি:</strong>
-                        <span className="text-slate-600 text-xs">{fac.openingHoursBn}</span>
-                      </div>
-                    </div>
-
-                    {/* Available Doctor Specialties / Categories */}
-                    <div className="pt-2 border-t border-slate-100">
-                      <div className="flex items-center justify-between mb-2">
-                        <strong className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
-                          <Stethoscope className="w-3.5 h-3.5 text-red-600" />
-                          <span>উপলব্ধ বিশেষজ্ঞ বিভাগ ({specialtiesList.length}+ টি ক্যাটেগরি)</span>
-                        </strong>
-                        <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full flex items-center gap-1">
-                          <Users className="w-3 h-3 text-red-500" />
-                          <span>{fac.doctors.length} জন ডাক্তার</span>
+                      {fac.isOpen24Hours && (
+                        <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                          ২৪x৭
                         </span>
-                      </div>
-
-                      <div className="flex flex-wrap gap-1.5">
-                        {specialtiesList.map(([key, name]) => {
-                          const isHighlighted = selectedSpecialty === key;
-                          return (
-                            <span 
-                              key={key}
-                              className={`px-2 py-1 rounded-lg text-xs font-semibold transition ${
-                                isHighlighted
-                                  ? 'bg-red-600 text-white shadow-sm'
-                                  : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
-                              }`}
-                            >
-                              {name}
-                            </span>
-                          );
-                        })}
-                      </div>
+                      )}
+                      {fac.swasthyaSathiAccepted && (
+                        <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 flex items-center gap-1">
+                          <ShieldCheck className="w-3 h-3 text-amber-600" />
+                          স্বাস্থ্যসাথী কার্ড
+                        </span>
+                      )}
                     </div>
-                  </div>
-                </div>
-
-                {/* Card Footer: Appointment Booking Actions & Details Button */}
-                <div className="p-4 sm:p-5 bg-slate-50 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <a
-                      href={`tel:${fac.phone.replace(/[^0-9]/g, '')}`}
-                      className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition shadow-sm"
-                      title="অ্যাপয়েন্টমেন্ট বা সিরিয়ালের জন্য সরাসরি কল করুন"
-                    >
-                      <Phone className="w-3.5 h-3.5 text-emerald-400" />
-                      <span>{fac.phone}</span>
-                    </a>
-
-                    {fac.whatsapp && (
-                      <a
-                        href={`https://wa.me/${fac.whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(`নমস্কার, আমি baruipur.online থেকে ${fac.nameBn}-এর ডাক্তারের ওপিডি ও অ্যাপয়েন্টমেন্ট বুকিং সম্পর্কে জানতে চাই।`)}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 px-3 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm"
-                        title="WhatsApp এ সরাসরি মেসেজ করুন"
-                      >
-                        <span>হোয়াটসঅ্যাপ</span>
-                      </a>
+                    {fac.doctorsCount > 0 && (
+                      <span className="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded-lg flex items-center gap-1">
+                        <Users className="w-3.5 h-3.5 text-slate-500" />
+                        {fac.doctorsCount} জন ডাক্তার
+                      </span>
                     )}
                   </div>
 
+                  {/* Facility Name */}
+                  <h3 className="text-lg sm:text-xl font-black text-slate-900 group-hover:text-rose-600 transition mb-1 leading-snug">
+                    <Link href={`/health-directory/${fac.slug}/`}>
+                      {fac.nameBn}
+                    </Link>
+                  </h3>
+                  <div className="text-xs text-slate-500 font-semibold mb-3">
+                    {fac.nameEn}
+                  </div>
+
+                  {/* Tagline */}
+                  <p className="text-xs sm:text-sm text-slate-600 line-clamp-2 leading-relaxed mb-4">
+                    {fac.taglineBn || fac.overviewBn}
+                  </p>
+
+                  {/* Key Info Details */}
+                  <div className="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3 mb-4">
+                    <div className="flex items-start gap-2">
+                      <MapPin className="w-3.5 h-3.5 text-rose-600 shrink-0 mt-0.5" />
+                      <span className="line-clamp-2">{fac.addressBn}</span>
+                    </div>
+                    {fac.openingHoursBn && (
+                      <div className="flex items-center gap-2">
+                        <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                        <span>{fac.openingHoursBn}</span>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Available Doctor Specialties Preview */}
+                  {uniqueSpecialties.length > 0 && (
+                    <div className="mb-4 pt-2 border-t border-slate-100">
+                      <div className="text-[11px] font-bold text-slate-500 mb-1.5 flex items-center gap-1">
+                        <Stethoscope className="w-3.5 h-3.5 text-rose-600" />
+                        <span>উপলব্ধ চিকিৎসা বিশেষজ্ঞ:</span>
+                      </div>
+                      <div className="flex flex-wrap gap-1">
+                        {uniqueSpecialties.map((spec, i) => (
+                          <span 
+                            key={i}
+                            className="text-[10px] bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md font-medium"
+                          >
+                            {spec}
+                          </span>
+                        ))}
+                        {specialtyMap.size > 5 && (
+                          <span className="text-[10px] bg-rose-50 text-rose-700 px-1.5 py-0.5 rounded-md font-bold">
+                            +{specialtyMap.size - 5} আরও
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Diagnostic Services Preview */}
+                  {fac.diagnosticFacilitiesBn && fac.diagnosticFacilitiesBn.length > 0 && (
+                    <div className="mb-4">
+                      <div className="text-[11px] font-bold text-slate-500 mb-1 flex items-center gap-1">
+                        <Activity className="w-3.5 h-3.5 text-emerald-600" />
+                        <span>ডায়াগনস্টিক পরীক্ষা:</span>
+                      </div>
+                      <div className="text-xs text-slate-600 line-clamp-1">
+                        {fac.diagnosticFacilitiesBn.join(' • ')}
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* Bottom Actions */}
+                <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
+                  <a
+                    href={`tel:${fac.phone}`}
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition"
+                  >
+                    <Phone className="w-3.5 h-3.5 text-rose-600" />
+                    <span>{fac.phone}</span>
+                  </a>
+
                   <Link
                     href={`/health-directory/${fac.slug}/`}
-                    className="inline-flex items-center gap-1 px-4 py-2 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-bold transition shadow-sm"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-white bg-rose-600 hover:bg-rose-700 px-3.5 py-2 rounded-xl transition shadow-xs"
                   >
-                    <span>ডাক্তার তালিকা ও বিস্তারিত</span>
-                    <ChevronRight className="w-4 h-4" />
+                    <span>ওপিডি ও ডাক্তার তালিকা</span>
+                    <ChevronRight className="w-3.5 h-3.5" />
                   </Link>
                 </div>
               </div>
