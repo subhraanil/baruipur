@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৩",
+  "lastUpdated": "২০২৬-১১-১৬",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,78 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-026",
+      "title": "বারুইপুর বাইপাস ও পদ্মপুকুর মোড় সংলগ্ন ১.৫ কাঠা চারদিক প্রাচীর ঘেরা দক্ষিণমুখী বাস্তু জমি",
+      "titleEn": "1.5 Cottah Boundary-Walled South-Facing Residential Plot near Baruipur Bypass",
+      "category": "residential_land",
+      "categoryNameBn": "বাস্তু জমি (Residential Land)",
+      "location": "পদ্মপুকুর মোড় সংলগ্ন বাইপাস লিঙ্ক রোড, বারুইপুর",
+      "locationArea": "Baruipur Bypass / Padmapukur",
+      "price": "₹১২.৮০ লক্ষ প্রতি কাঠা (মোট ১৯.২০ লক্ষ)",
+      "priceNum": 1920000,
+      "priceUnit": "total",
+      "configuration": "১.৫ কাঠা চারদিক প্রাচীর ও গেটযুক্ত সমতল বাস্তু জমি (1,080 SqFt)",
+      "areaSqFt": "১,০৮০ বর্গফুট (১.৫ কাঠা)",
+      "facing": "দক্ষিণমুখী (South-Facing Frontage)",
+      "floorInfo": "সমতল উঁচু জমি (Waterlogging Free)",
+      "possessionStatus": "তাৎক্ষণিক দখল ও রেজিস্ট্রি",
+      "reraStatus": "স্বতন্ত্র দাগ ও খতিয়ান সহ নিষ্কণ্টক রেকর্ড",
+      "approvalStatus": "মিউটেশন ও কনভার্সন সম্পন্ন বাস্তু জমি",
+      "bankLoanApproved": "জাতীয়কৃত ব্যাংক থেকে ল্যান্ড পারচেজ ও কনস্ট্রাকশন লোন উপলব্ধ",
+      "amenities": [
+        "১৬ ফুট চওড়া সরকারি ঢালাই রাস্তা সংলগ্ন",
+        "বিদ্যুৎ খুঁটি ও পৌরসভার পানীয় জল সংযোগের সুব্যবস্থা",
+        "উঁচু ভরাট জমি ও সীমানা প্রাচীর সম্পন্ন",
+        "বাইপাস থেকে মাত্র ৩০০ মিটার দূরত্ব"
+      ],
+      "description": "বারুইপুর বাইপাস ও পদ্মপুকুর মোড় থেকে অতি নিকটে শান্ত ও দ্রুত বিকাশমান আবাসিক পল্লীতে ১.৫ কাঠা দক্ষিণমুখী বাস্তু জমি। চারদিকে শক্ত সীমানা প্রাচীর ও লোহার গেট বসানো। অবিলম্বে নিজস্ব বাড়ি তৈরির জন্য আদর্শ।",
+      "imageUrl": "/images/places/baruipur-bdo-office-building.jpg",
+      "images": [
+        "/images/places/baruipur-bdo-office-building.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "দেবাশীষ মণ্ডল",
+      "contactPhone": "+91 94331 88456",
+      "contactWhatsapp": "+91 94331 88456",
+      "publishedAt": "২০২৬-১১-১৬"
+    },
+    {
+      "id": "prop-brp-025",
+      "title": "বারুইপুর কাছারি বাজার ও স্টেশন রোড সংলগ্ন ৯২০ বর্গফুট ২ বিএইচকে আধুনিক ফ্ল্যাট (লিফট ও ব্যালকনি সহ)",
+      "titleEn": "920 SqFt Ready 2 BHK Modern Flat near Baruipur Station & Kachari Bazar with Lift",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "কাছারি বাজার রোড, বারুইপুর",
+      "locationArea": "Kachari Bazar / Station Road",
+      "price": "₹২৪.৫০ লক্ষ (সহজ ব্যাংক লোন সুবিধা)",
+      "priceNum": 2450000,
+      "priceUnit": "total",
+      "configuration": "2 BHK (920 SqFt Super Built-up) + ১ ব্যালকনি + ২ বাথরুম",
+      "areaSqFt": "৯২০ বর্গফুট",
+      "facing": "দক্ষিণমুখী (South-Facing Airy)",
+      "floorInfo": "২য় তলা (G+4 লিফট সহ রেডি অ্যাপার্টমেন্ট)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "WB RERA নিবন্ধিত ও সি সি সার্টিফিকেট প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত বৈধ আবাসিক বিল্ডিং প্ল্যান",
+      "bankLoanApproved": "SBI, HDFC, PNB ও Axis ব্যাংক অনুমোদিত",
+      "amenities": [
+        "অটোমেটিক লিফট ও সাইলেন্ট জেনারেটর পাওয়ার ব্যাকআপ",
+        "সার্বক্ষণিক সিসিটিভি নজরদারি ও ইন্টারকম ব্যবস্থা",
+        "টু-হুইলার ও ডেডিকেটেড কার পার্কিং",
+        "কাছারি বাজার ও স্টেশন থেকে মাত্র ৩ মিনিট হাঁটা পথ"
+      ],
+      "description": "বারুইপুরের প্রাণকেন্দ্র কাছারি বাজার ও আদালতের সংযোগস্থলে অবস্থিত সম্পূর্ণ প্রস্তুত ২ বিএইচকে ফ্ল্যাট। আলো-বাতাসে পরিপূর্ণ, ২টি বেডরুম ও ২টি আধুনিক বাথরুম। স্কুল, বাজার, হাসপাতাল ও রেল যোগাযোগ হাতের কাছে।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "পিনাকী ব্যানার্জী (ব্যানার্জী রিয়েলটি)",
+      "contactPhone": "+91 98302 77123",
+      "contactWhatsapp": "+91 98302 77123",
+      "publishedAt": "২০২৬-১১-১৬"
+    },
     {
       "id": "prop-brp-024",
       "title": "সুভাষগ্রাম ও চম্পাহাটি সংযোগ রোডে ২ কাঠা পাকা রাস্তার কর্নার প্লট (বাড়ি বা বাণিজ্যিক উপযুক্ত)",

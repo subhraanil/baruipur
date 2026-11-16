@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৩",
+  "lastUpdated": "২০২৬-১১-১৬",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,52 @@
     }
   ],
   "tenders": [
+    {
+      "id": "tnd-pwd-2026-05",
+      "nitNumber": "NIT-05/PWD-BRP/CULVERT-REPAIR/2026",
+      "title": "বারুইপুর-ক্যানিং রাজ্য সড়ক সংযোগে পদচারী ফুটপাথ ও আরসিসি কালভার্ট শক্তিশালীকরণ ও সংস্কার",
+      "titleEn": "Repair, Upgradation and Widening of RCC Culverts with Pedestrian Safety Footpaths on Baruipur-Canning Road Stretch",
+      "authorityId": "pwd",
+      "authorityName": "পশ্চিমবঙ্গ পূর্ত দপ্তর (PWD Baruipur Highway Sub-Division)",
+      "department": "বারুইপুর পূর্ত সড়ক উপ-বিভাগ",
+      "location": "বারুইপুর-ক্যানিং সংযোগ রাজ্য সড়ক",
+      "category": "সেতু ও কালভার্ট সিভিল নির্মাণ (Bridge & Culvert Works)",
+      "estimatedValue": "₹২৭,২০,০০০",
+      "estimatedValueNum": 2720000,
+      "emdAmount": "₹৫৪,৪০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-১৬",
+      "closingDate": "২০২৬-১২-১০",
+      "bidOpeningDate": "২০২৬-১২-১৩",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "sourcePortalName": "wbtenders.gov.in",
+      "tenderRef": "WBPWD/BRP/HWY/NIT-05/2026",
+      "eligibility": "পূর্ত দপ্তরের সিভিল ও আরসিসি কালভার্ট নির্মাণে ক্লাস-১ তালিকাভুক্ত অভিজ্ঞ ঠিকাদার।"
+    },
+    {
+      "id": "tnd-bm-2026-11",
+      "nitNumber": "NIT-11/BM/SOLAR-LIGHT/2026",
+      "title": "বারুইপুর পৌরসভার ৯, ১০ ও ১২ নম্বর ওয়ার্ডে সড়ক আলোকিতকরণ ও হাইমাস্ট এলইডি সোলার লাইট স্থাপন প্রকল্প",
+      "titleEn": "Supply, Installation and 5-Year Maintenance of High-Mast Solar LED Street Lights in Wards 9, 10 & 12 under Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পৌর বিদ্যুৎ ও পথবাতি বিভাগ",
+      "location": "ওয়ার্ড ৯, ১০ ও ১২, বারুইপুর পৌরসভা",
+      "category": "সৌরশক্তি ও পথবাতি (Street Lighting & Solar)",
+      "estimatedValue": "₹১৬,৮০,০০০",
+      "estimatedValueNum": 1680000,
+      "emdAmount": "₹৩৩,৬০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-১৬",
+      "closingDate": "২০২৬-১২-১২",
+      "bidOpeningDate": "২০২৬-১২-১৫",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "sourcePortalName": "wbtenders.gov.in",
+      "tenderRef": "WBMAD/BM/NIT-11/LIGHT/2026",
+      "eligibility": "রাজ্য সরকারের অনুমোদিত সোলার ও বৈদ্যুতিক কাজে ৩ বছরের অভিজ্ঞতাসম্পন্ন লাইসেন্সপ্রাপ্ত ঠিকাদার সংস্থা।"
+    },
     {
       "id": "tnd-bdo-2026-12",
       "nitNumber": "NIT-12/BDO-BRP/JALSWAPNA-PUMP/2026",
