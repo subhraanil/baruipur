@@ -11,6 +11,18 @@
   RewriteEngine On
   RewriteBase /
 
+# ------------------------------------------------------------------------------
+# Permanent 301 Redirects for Legacy and High-Impression URLs (SEO Quality Recovery)
+# ------------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Non-article legacy broken URLs redirected to authoritative landing pages
+  RewriteRule ^two-persons-arrested-with-firearms-by-jibantala-police-station/?$ /places/baruipur-police-district/ [R=301,L]
+  RewriteRule ^(.*?)(%E0%A6%8F%E0%A6%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0.*?)/?$ /shopping-malls-and-top-brands-in-baruipur-market-guide/ [R=301,L,NE]
+  RewriteRule ^(.*?)(%E0%A6%A4%E0%A7%8B%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%Parse%E0%A6%BF.*?)/?$ / [R=301,L,NE]
+</IfModule>
+
+
   # Enforce trailing slash for directory style URLs (ensures Clean URLs & uniform CDN cache keys)
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_URI} !(.[a-zA-Z0-9]{1,5})$

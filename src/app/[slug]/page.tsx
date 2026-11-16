@@ -37,22 +37,26 @@ export function generateStaticParams() {
   const params: { slug: string }[] = [];
   const seen = new Set<string>();
 
+  const addParam = (raw: string | undefined) => {
+    if (!raw) return;
+    let s = raw.trim();
+    try {
+      if (s.includes('%')) s = decodeURIComponent(s);
+    } catch {
+      // ignore
+    }
+    // Windows file safety: ignore percent-encoded or excessively long slugs
+    if (s && !s.includes('%') && s.length < 120 && !seen.has(s)) {
+      params.push({ slug: s });
+      seen.add(s);
+    }
+  };
+
   articles.forEach(a => {
-    if (a.slug && !seen.has(a.slug)) {
-      params.push({ slug: a.slug });
-      seen.add(a.slug);
-    }
-    if (a.id && !seen.has(a.id)) {
-      params.push({ slug: a.id });
-      seen.add(a.id);
-    }
+    addParam(a.slug);
+    addParam(a.id);
     if (a.aliases && Array.isArray(a.aliases)) {
-      a.aliases.forEach(al => {
-        if (al && !seen.has(al)) {
-          params.push({ slug: al });
-          seen.add(al);
-        }
-      });
+      a.aliases.forEach(al => addParam(al));
     }
   });
 

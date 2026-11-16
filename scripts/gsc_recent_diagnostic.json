@@ -1,0 +1,2061 @@
+{
+  "generatedAt": "2026-11-16T15:17:51.896Z",
+  "daily": [
+    {
+      "keys": [
+        "2026-10-18"
+      ],
+      "clicks": 4,
+      "impressions": 322,
+      "ctr": 0.012422360248447204,
+      "position": 6.714285714285714
+    },
+    {
+      "keys": [
+        "2026-10-19"
+      ],
+      "clicks": 7,
+      "impressions": 330,
+      "ctr": 0.021212121212121213,
+      "position": 7.154545454545454
+    },
+    {
+      "keys": [
+        "2026-10-20"
+      ],
+      "clicks": 8,
+      "impressions": 328,
+      "ctr": 0.024390243902439025,
+      "position": 6.746951219512195
+    },
+    {
+      "keys": [
+        "2026-10-21"
+      ],
+      "clicks": 4,
+      "impressions": 204,
+      "ctr": 0.0196078431372549,
+      "position": 6.833333333333333
+    },
+    {
+      "keys": [
+        "2026-10-22"
+      ],
+      "clicks": 6,
+      "impressions": 207,
+      "ctr": 0.028985507246376812,
+      "position": 7.130434782608695
+    },
+    {
+      "keys": [
+        "2026-10-23"
+      ],
+      "clicks": 1,
+      "impressions": 214,
+      "ctr": 0.004672897196261682,
+      "position": 7.247663551401869
+    },
+    {
+      "keys": [
+        "2026-10-24"
+      ],
+      "clicks": 6,
+      "impressions": 205,
+      "ctr": 0.02926829268292683,
+      "position": 7
+    },
+    {
+      "keys": [
+        "2026-10-25"
+      ],
+      "clicks": 5,
+      "impressions": 218,
+      "ctr": 0.022935779816513763,
+      "position": 6.256880733944954
+    },
+    {
+      "keys": [
+        "2026-10-26"
+      ],
+      "clicks": 5,
+      "impressions": 281,
+      "ctr": 0.017793594306049824,
+      "position": 6.476868327402135
+    },
+    {
+      "keys": [
+        "2026-10-27"
+      ],
+      "clicks": 5,
+      "impressions": 269,
+      "ctr": 0.01858736059479554,
+      "position": 5.799256505576208
+    },
+    {
+      "keys": [
+        "2026-10-28"
+      ],
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 4.947368421052632
+    },
+    {
+      "keys": [
+        "2026-10-29"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 31.22222222222222
+    },
+    {
+      "keys": [
+        "2026-10-30"
+      ],
+      "clicks": 3,
+      "impressions": 8,
+      "ctr": 0.375,
+      "position": 10.25
+    },
+    {
+      "keys": [
+        "2026-10-31"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 5.571428571428571
+    },
+    {
+      "keys": [
+        "2026-11-01"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 1.3333333333333333
+    },
+    {
+      "keys": [
+        "2026-11-02"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "2026-11-03"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 5.2
+    },
+    {
+      "keys": [
+        "2026-11-04"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 30.571428571428573
+    },
+    {
+      "keys": [
+        "2026-11-05"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 10.25
+    },
+    {
+      "keys": [
+        "2026-11-06"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.75
+    },
+    {
+      "keys": [
+        "2026-11-07"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "2026-11-08"
+      ],
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": 0,
+      "position": 8.214285714285715
+    },
+    {
+      "keys": [
+        "2026-11-09"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "2026-11-10"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 10.2
+    },
+    {
+      "keys": [
+        "2026-11-11"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "2026-11-12"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "2026-11-13"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 7.666666666666667
+    },
+    {
+      "keys": [
+        "2026-11-14"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.4
+    }
+  ],
+  "topPages": [
+    {
+      "keys": [
+        "https://baruipur.online/shopping-malls-and-top-brands-in-baruipur-market-guide/"
+      ],
+      "clicks": 8,
+      "impressions": 1042,
+      "ctr": 0.007677543186180422,
+      "position": 6.3291746641074855
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-jail/"
+      ],
+      "clicks": 28,
+      "impressions": 832,
+      "ctr": 0.03365384615384615,
+      "position": 6.483173076923077
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-bdo-office/"
+      ],
+      "clicks": 13,
+      "impressions": 588,
+      "ctr": 0.022108843537414966,
+      "position": 5.302721088435374
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/"
+      ],
+      "clicks": 2,
+      "impressions": 587,
+      "ctr": 0.0034071550255536627,
+      "position": 9.41396933560477
+    },
+    {
+      "keys": [
+        "https://baruipur.online/top-schools-in-baruipur-education-admission-guide/"
+      ],
+      "clicks": 7,
+      "impressions": 566,
+      "ctr": 0.012367491166077738,
+      "position": 6.931095406360424
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-rajbari/"
+      ],
+      "clicks": 7,
+      "impressions": 495,
+      "ctr": 0.014141414141414142,
+      "position": 6.846464646464646
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-happy-valley/"
+      ],
+      "clicks": 7,
+      "impressions": 481,
+      "ctr": 0.014553014553014554,
+      "position": 8.821205821205822
+    },
+    {
+      "keys": [
+        "https://baruipur.online/transport/"
+      ],
+      "clicks": 5,
+      "impressions": 460,
+      "ctr": 0.010869565217391304,
+      "position": 8.093478260869565
+    },
+    {
+      "keys": [
+        "https://baruipur.online/best-restaurants-cafes-and-sweets-in-baruipur-food-guide/"
+      ],
+      "clicks": 2,
+      "impressions": 460,
+      "ctr": 0.004347826086956522,
+      "position": 7.163043478260869
+    },
+    {
+      "keys": [
+        "https://baruipur.online/best-places-to-visit-in-baruipur-travel-guide/"
+      ],
+      "clicks": 1,
+      "impressions": 447,
+      "ctr": 0.0022371364653243847,
+      "position": 7.105145413870246
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-municipality/"
+      ],
+      "clicks": 6,
+      "impressions": 434,
+      "ctr": 0.013824884792626729,
+      "position": 7.967741935483871
+    },
+    {
+      "keys": [
+        "https://baruipur.online/top-things-to-do-in-baruipur-complete-experience-guide/"
+      ],
+      "clicks": 3,
+      "impressions": 412,
+      "ctr": 0.007281553398058253,
+      "position": 7.432038834951456
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/sasan-balak-sangha/"
+      ],
+      "clicks": 2,
+      "impressions": 258,
+      "ctr": 0.007751937984496124,
+      "position": 5.771317829457364
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-film-city/"
+      ],
+      "clicks": 3,
+      "impressions": 251,
+      "ctr": 0.01195219123505976,
+      "position": 7.227091633466135
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-maa-shibani-pith/"
+      ],
+      "clicks": 2,
+      "impressions": 238,
+      "ctr": 0.008403361344537815,
+      "position": 8.558823529411764
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/baruipur-jagarani-sangha/"
+      ],
+      "clicks": 2,
+      "impressions": 167,
+      "ctr": 0.011976047904191617,
+      "position": 5.706586826347305
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-rashmath/"
+      ],
+      "clicks": 2,
+      "impressions": 166,
+      "ctr": 0.012048192771084338,
+      "position": 6.120481927710843
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-women-police-station/"
+      ],
+      "clicks": 4,
+      "impressions": 137,
+      "ctr": 0.029197080291970802,
+      "position": 6.2700729927007295
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-bypass/"
+      ],
+      "clicks": 4,
+      "impressions": 114,
+      "ctr": 0.03508771929824561,
+      "position": 6.9298245614035086
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-mahaprabhu-tala-sadabrata-ghat/"
+      ],
+      "clicks": 7,
+      "impressions": 109,
+      "ctr": 0.06422018348623854,
+      "position": 4.477064220183486
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-police-district/"
+      ],
+      "clicks": 1,
+      "impressions": 86,
+      "ctr": 0.011627906976744186,
+      "position": 7.244186046511628
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-town-library/"
+      ],
+      "clicks": 3,
+      "impressions": 85,
+      "ctr": 0.03529411764705882,
+      "position": 5.4
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/padmapukur-youth-club/"
+      ],
+      "clicks": 3,
+      "impressions": 82,
+      "ctr": 0.036585365853658534,
+      "position": 5.5
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/baruipur-sonali-sangha/"
+      ],
+      "clicks": 2,
+      "impressions": 79,
+      "ctr": 0.02531645569620253,
+      "position": 4.367088607594937
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-subdivisional-hospital/"
+      ],
+      "clicks": 2,
+      "impressions": 79,
+      "ctr": 0.02531645569620253,
+      "position": 6.151898734177215
+    },
+    {
+      "keys": [
+        "https://baruipur.online/health-directory/"
+      ],
+      "clicks": 1,
+      "impressions": 78,
+      "ctr": 0.01282051282051282,
+      "position": 6.602564102564102
+    },
+    {
+      "keys": [
+        "https://baruipur.online/health-directory/caring-heaven-nursing-home-baruipur/"
+      ],
+      "clicks": 3,
+      "impressions": 73,
+      "ctr": 0.0410958904109589,
+      "position": 6.917808219178082
+    },
+    {
+      "keys": [
+        "https://baruipur.online/events/"
+      ],
+      "clicks": 3,
+      "impressions": 72,
+      "ctr": 0.041666666666666664,
+      "position": 4.916666666666666
+    },
+    {
+      "keys": [
+        "https://baruipur.online/"
+      ],
+      "clicks": 2,
+      "impressions": 71,
+      "ctr": 0.028169014084507043,
+      "position": 11.619718309859154
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-rabindra-bhawan/"
+      ],
+      "clicks": 1,
+      "impressions": 61,
+      "ctr": 0.01639344262295082,
+      "position": 7.098360655737705
+    },
+    {
+      "keys": [
+        "https://baruipur.online/health-directory/mangaldeep-puratan-bazar-baruipur/"
+      ],
+      "clicks": 3,
+      "impressions": 52,
+      "ctr": 0.057692307692307696,
+      "position": 4.4423076923076925
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/baruipur-bar-association/"
+      ],
+      "clicks": 3,
+      "impressions": 47,
+      "ctr": 0.06382978723404255,
+      "position": 6.702127659574468
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/baruipur-byabsayi-kalyan-samity/"
+      ],
+      "clicks": 1,
+      "impressions": 45,
+      "ctr": 0.022222222222222223,
+      "position": 5.4
+    },
+    {
+      "keys": [
+        "https://baruipur.online/health-directory/mahendra-clinic-baruipur/"
+      ],
+      "clicks": 7,
+      "impressions": 41,
+      "ctr": 0.17073170731707318,
+      "position": 5.2682926829268295
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%A4-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%AC%E0%A6%A8/"
+      ],
+      "clicks": 3,
+      "impressions": 34,
+      "ctr": 0.08823529411764706,
+      "position": 3.3529411764705883
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/fultala-bidhan-smriti-sangha/"
+      ],
+      "clicks": 1,
+      "impressions": 32,
+      "ctr": 0.03125,
+      "position": 6.125
+    },
+    {
+      "keys": [
+        "https://baruipur.online/health-directory/debasish-nursing-home-baruipur/"
+      ],
+      "clicks": 2,
+      "impressions": 27,
+      "ctr": 0.07407407407407407,
+      "position": 5.592592592592593
+    },
+    {
+      "keys": [
+        "https://baruipur.online/madarat-pal-bari-300-year-durga-puja-baruipur/"
+      ],
+      "clicks": 1,
+      "impressions": 27,
+      "ctr": 0.037037037037037035,
+      "position": 4.407407407407407
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/baruipur-bhai-bhai-sangha/"
+      ],
+      "clicks": 1,
+      "impressions": 24,
+      "ctr": 0.041666666666666664,
+      "position": 4.416666666666666
+    },
+    {
+      "keys": [
+        "https://baruipur.online/baruipur-durga-puja-parikrama-pandal-guide-2026/"
+      ],
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047619047619047616,
+      "position": 5.809523809523809
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%AF%E0%A6%BC-%E0%A6%A6%E0%A7%81%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AE%E0%A7%80-%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A6%A8/"
+      ],
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0,
+      "position": 8.95
+    },
+    {
+      "keys": [
+        "https://baruipur.online/emergency-contacts/"
+      ],
+      "clicks": 1,
+      "impressions": 18,
+      "ctr": 0.05555555555555555,
+      "position": 4.611111111111111
+    },
+    {
+      "keys": [
+        "https://baruipur.online/madarat-pal-bari-300-year-durga-puja-baruipur"
+      ],
+      "clicks": 2,
+      "impressions": 17,
+      "ctr": 0.11764705882352941,
+      "position": 3.9411764705882355
+    },
+    {
+      "keys": [
+        "https://baruipur.online/category/culture/"
+      ],
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.058823529411764705,
+      "position": 10.529411764705882
+    },
+    {
+      "keys": [
+        "https://baruipur.online/four-historic-bonedi-bari-durga-puja-in-baruipur/"
+      ],
+      "clicks": 2,
+      "impressions": 13,
+      "ctr": 0.15384615384615385,
+      "position": 3.769230769230769
+    },
+    {
+      "keys": [
+        "https://baruipur.online/places/baruipur-court/"
+      ],
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "position": 3.3333333333333335
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%8F%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%AE-%E0%A6%B8%E0%A7%87%E0%A6%B0/"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 5.25
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/baruipur-pulakito-samaj/"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 10.125
+    },
+    {
+      "keys": [
+        "https://baruipur.online/organizations/rotary-club-of-baruipur/"
+      ],
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 4.25
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A7%87-%E0%A7%A9%E0%A7%A6%E0%A7%A6/"
+      ],
+      "clicks": 2,
+      "impressions": 7,
+      "ctr": 0.2857142857142857,
+      "position": 5.857142857142857
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%B9%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-is-in-baruipur-india/"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 5.714285714285714
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%AB%E0%A7%81%E0%A6%B2-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%AE%E0%A6%BE-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87/"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.428571428571429
+    },
+    {
+      "keys": [
+        "https://baruipur.online/two-persons-arrested-with-firearms-by-jibantala-police-station/"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 9.833333333333334
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%97%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AE%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/"
+      ],
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 4.4
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%A3%E0%A7%8D%E0%A6%A1/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 3.6
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A6%A4%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%AE-%E0%A6%9C%E0%A6%A8%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%B9/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 5.6
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%80%E0%A6%AA-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%AA%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%8B%E0%A6%A7%E0%A6%A8-%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE/"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 1.75
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AD%E0%A7%81%E0%A6%AF%E0%A6%BC%E0%A7%8B-%E0%A6%A1%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%A6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8/"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://baruipur.online/baruipur-kachari-bazar-transformer-blast-fire-incident/"
+      ],
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 3.75
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%87%E0%A6%A1%E0%A7%87%E0%A6%A8-%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A7%A9%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A8-%E0%A6%B6%E0%A7%8B/"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%AF%E0%A6%A6%E0%A6%BF-%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C-%E0%A6%AA%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BF-%E0%A6%93-%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%80%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%93-%E0%A6%A4/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A7%A8%E0%A6%B0%E0%A6%BE-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE-%E0%A6%93/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%8F%E0%A6%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A7%A8%E0%A7%AA-%E0%A6%AA%E0%A6%B0%E0%A6%97%E0%A6%A8%E0%A6%BE-%E0%A7%A7-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A7%A8%E0%A7%AA-%E0%A6%AA%E0%A6%B0%E0%A6%97%E0%A6%A3%E0%A6%BE-%E0%A7%A8-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%A8%E0%A6%BE%E0%A6%AE-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%AF%E0%A6%A6%E0%A6%BF-%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C-%E0%A6%AA%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%9A%E0%A7%8B%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%AE%E0%A6%A8/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 15.333333333333334
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%A4%E0%A7%8B%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.666666666666667
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%AC%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B0-barisha-sarbojanin-durgotsav-%E0%A6%8F%E0%A6%B0-%E0%A7%AD%E0%A7%AE%E0%A6%A4%E0%A6%AE/"
+      ],
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A7%AE-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%B9%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A7%A8-%E0%A6%A6/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2.5
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%AE%E0%A6%BE/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%B2-byob-chips-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%8F%E0%A6%B8%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AC%E0%A6%B9-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%98%E0%A7%81%E0%A6%9F%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%B6%E0%A6%B0%E0%A7%80%E0%A6%AB%E0%A7%87-%E0%A7%A9%E0%A7%AF%E0%A6%9F%E0%A6%BF-%E0%A6%9A%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%87-%E0%A6%AE%E0%A7%8B%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B2-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%A7/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%93-%E0%A6%AD%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%89%E0%A6%AD%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%85%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AA%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%81-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%AD%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE-%E0%A6%B0%E0%A6%BE%E0%A6%97-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE-%E0%A6%A4%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%93-%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%86%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A6%BE"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 132
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%AE-%E0%A6%9B%E0%A7%8B%E0%A6%81%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%80-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A7%E0%A6%AA%E0%A6%A7%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%8E%E0%A6%B8%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%9C-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8C%E0%A6%B0%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6-%E0%A6%A8%E0%A6%AC%E0%A6%AA%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE-education-field-%E0%A6%8F-%E0%A6%86%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8-only-teachers-tutors-comment"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 178
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%93-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%9C-%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%9C-%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F-%E0%A6%AC%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%B0%E0%A7%8B%E0%A6%B2-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A6%BE%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%89%E0%A6%93%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8-%E0%A6%95%E0%A7%87%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%8F%E0%A6%87-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A7%8B%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%98%E0%A7%81%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%8F%E0%A6%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%87%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 138
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%9C%E0%A6%9F-%E0%A6%95%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A6%A4%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%B9%E0%A6%BE%E0%A6%93%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%93-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 173
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AE%E0%A7%87%E0%A6%98%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9C%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A6%BE-%E0%A6%AE%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%95%E0%A6%B2-%E0%A6%AA%E0%A6%A5-%E0%A6%A4%E0%A6%BE%E0%A6%81%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%B9%E0%A7%8B%E0%A6%95/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 136
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A7%81%E0%A6%96-%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%93-%E0%A6%B8%E0%A6%AE%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BF-%E0%A6%AC%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%86%E0%A6%A8%E0%A7%81%E0%A6%95/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 137
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B6-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80-%E0%A6%89%E0%A6%AA%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%9C%E0%A7%87-%E0%A6%89%E0%A6%A0%E0%A7%87%E0%A6%9B%E0%A7%87/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A7%9F-%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2-%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A6%BF-%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6-%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%87-%E0%A6%8F%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A7%AB%E0%A7%A6-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%82%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%B8/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%B2%E0%A6%AE%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93-%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%A4%E0%A7%8B%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%B9%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4-%E0%A6%93-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%B8%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF-%E0%A6%AA%E0%A7%8C%E0%A6%81%E0%A6%9B%E0%A7%87-%E0%A6%A6%E0%A6%BE%E0%A6%93-baruipur-%E0%A6%AA%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8B-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 174
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%A4%E0%A7%8B%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%8F-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://baruipur.online/%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%AC%E0%A7%83%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AA%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A6%A8%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    }
+  ],
+  "topQueries": [
+    {
+      "keys": [
+        "baruipur rajbari"
+      ],
+      "clicks": 3,
+      "impressions": 211,
+      "ctr": 0.014218009478672985,
+      "position": 6.7725118483412325
+    },
+    {
+      "keys": [
+        "baruipur jail"
+      ],
+      "clicks": 7,
+      "impressions": 189,
+      "ctr": 0.037037037037037035,
+      "position": 4.957671957671957
+    },
+    {
+      "keys": [
+        "baruipur central jail"
+      ],
+      "clicks": 0,
+      "impressions": 112,
+      "ctr": 0,
+      "position": 7.107142857142857
+    },
+    {
+      "keys": [
+        "baruipur happy valley"
+      ],
+      "clicks": 3,
+      "impressions": 89,
+      "ctr": 0.033707865168539325,
+      "position": 9.820224719101123
+    },
+    {
+      "keys": [
+        "baruipur location"
+      ],
+      "clicks": 0,
+      "impressions": 80,
+      "ctr": 0,
+      "position": 11.3625
+    },
+    {
+      "keys": [
+        "baruipur bdo"
+      ],
+      "clicks": 5,
+      "impressions": 75,
+      "ctr": 0.06666666666666667,
+      "position": 4.08
+    },
+    {
+      "keys": [
+        "baruipur jail khana"
+      ],
+      "clicks": 2,
+      "impressions": 74,
+      "ctr": 0.02702702702702703,
+      "position": 9.486486486486486
+    },
+    {
+      "keys": [
+        "baruipur tele academy"
+      ],
+      "clicks": 2,
+      "impressions": 68,
+      "ctr": 0.029411764705882353,
+      "position": 6
+    },
+    {
+      "keys": [
+        "baruipur bdo office"
+      ],
+      "clicks": 0,
+      "impressions": 61,
+      "ctr": 0,
+      "position": 4.8196721311475414
+    },
+    {
+      "keys": [
+        "baruipur"
+      ],
+      "clicks": 1,
+      "impressions": 58,
+      "ctr": 0.017241379310344827,
+      "position": 9.448275862068966
+    },
+    {
+      "keys": [
+        "baruipur mall"
+      ],
+      "clicks": 0,
+      "impressions": 37,
+      "ctr": 0,
+      "position": 4.972972972972973
+    },
+    {
+      "keys": [
+        "baruipur jail location"
+      ],
+      "clicks": 2,
+      "impressions": 32,
+      "ctr": 0.0625,
+      "position": 7.90625
+    },
+    {
+      "keys": [
+        "baruipur women police station"
+      ],
+      "clicks": 1,
+      "impressions": 30,
+      "ctr": 0.03333333333333333,
+      "position": 6.266666666666667
+    },
+    {
+      "keys": [
+        "baruipur college website"
+      ],
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "bakultala police station"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 11.095238095238095
+    },
+    {
+      "keys": [
+        "baruipur central correctional home"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 11.857142857142858
+    },
+    {
+      "keys": [
+        "baruipur college location"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 5.857142857142857
+    },
+    {
+      "keys": [
+        "bdo baruipur"
+      ],
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 4.8125
+    },
+    {
+      "keys": [
+        "baruipur college notice"
+      ],
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "baruipur english medium school list"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "baruipur pragati sangha"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 5.8
+    },
+    {
+      "keys": [
+        "baruipur english medium school"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 4.6923076923076925
+    },
+    {
+      "keys": [
+        "baruipur restaurant name list"
+      ],
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "position": 9.583333333333334
+    },
+    {
+      "keys": [
+        "baruipur bdo office address"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 5.833333333333333
+    },
+    {
+      "keys": [
+        "baruipur police station phone number"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 3.6666666666666665
+    },
+    {
+      "keys": [
+        "baruipur correctional home"
+      ],
+      "clicks": 1,
+      "impressions": 11,
+      "ctr": 0.09090909090909091,
+      "position": 11.818181818181818
+    },
+    {
+      "keys": [
+        "baruipur best restaurants"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 9.090909090909092
+    },
+    {
+      "keys": [
+        "baruipur bypass"
+      ],
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 32.72727272727273
+    },
+    {
+      "keys": [
+        "baruipur happy valley park"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 8.6
+    },
+    {
+      "keys": [
+        "baruipur municipality address"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "baruipur b.d.o office"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "baruipur m bazar"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 10.333333333333334
+    },
+    {
+      "keys": [
+        "baruipur fultala"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "baruipur phultala"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 9.375
+    },
+    {
+      "keys": [
+        "baruipur hospital doctor list"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 6.142857142857143
+    },
+    {
+      "keys": [
+        "places to visit near baruipur"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 8.333333333333332
+    },
+    {
+      "keys": [
+        "baruipur famous places"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.6
+    },
+    {
+      "keys": [
+        "baruipur famous restaurant"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "keys": [
+        "baruipur address"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "baruipur area"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 6.25
+    },
+    {
+      "keys": [
+        "baruipur bdo officer name"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 65.5
+    },
+    {
+      "keys": [
+        "baruipur block office"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 4.75
+    },
+    {
+      "keys": [
+        "baruipur famous for"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "keys": [
+        "baruipur ghorar jaiga"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "baruipur kolkata"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 35.5
+    },
+    {
+      "keys": [
+        "baruipur private hospital list"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 3.5
+    },
+    {
+      "keys": [
+        "abar ekta bochorer opekkha"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "baruipur bazar kolkata"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "baruipur bypass road"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "baruipur central jail photos"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "baruipur choudhury bari"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "baruipur hospital"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "keys": [
+        "baruipur jagarani sangha"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "baruipur library"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5
+    },
+    {
+      "keys": [
+        "baruipur municipality"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 16.5
+    },
+    {
+      "keys": [
+        "baruipur municipality tax"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "baruipur nursing home"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "baruipur padmapukur"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "baruipur park location"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "baruipur puja pandal 2026"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baruipur rto"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 1
+    },
+    {
+      "keys": [
+        "2"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "2nd october in india"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "aranyak baruipur"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "arjun"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "bagala"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "bangla te bolun"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baraipur"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "bardhaman jail"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "barrackpore jail"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "baruipur aadhar card center"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "baruipur b.d.o office photos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baruipur bdo name"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "baruipur bdo office phone number"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "baruipur block panchayat list"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 19
+    },
+    {
+      "keys": [
+        "baruipur cafe near me"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "baruipur central correctional home photos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "baruipur city"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "keys": [
+        "baruipur college name"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "baruipur couple park"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "baruipur district"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "keys": [
+        "baruipur dreamz badminton academy"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "baruipur durga puja pandal 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baruipur dutta nursing home"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "baruipur is in which district"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "baruipur kachari bazar"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "keys": [
+        "baruipur khasmallik"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "baruipur kiser jonno bikhyato"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "baruipur kolkata pin code"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "baruipur kon district"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
+        "baruipur mahakuma hospital"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "baruipur mangaldeep pharmacy doctor list"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baruipur milan mela"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "baruipur milan mela 2026 date"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baruipur mla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "baruipur pandal 2026"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "baruipur places to visit"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "baruipur police district"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "baruipur police district address"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "baruipur police station address"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 73
+    }
+  ]
+}
