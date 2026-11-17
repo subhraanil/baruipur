@@ -1,5 +1,131 @@
 [
   {
+    "slug": "baruipur-subdivisional-hospital",
+    "nameBn": "বারুইপুর মহকুমা হাসপাতাল",
+    "nameEn": "Baruipur Subdivisional Hospital (Govt. SDH)",
+    "type": "hospital",
+    "typeBn": "সরকারি মহকুমা হাসপাতাল ও ট্রমা কেয়ার",
+    "taglineBn": "দক্ষিণ ২৪ পরগনার প্রধান সরকারি চিকিৎসাকেন্দ্র: ২৪/৭ জরুরি বিভাগ, ওপিডি, এসএনসিইউ, ব্লাড ব্যাংক ও স্বাস্থ্যসাথী পরিষেবা",
+    "overviewBn": "বারুইপুর মহকুমা হাসপাতাল (Baruipur Subdivisional Hospital) হলো বারুইপুর ও সংলগ্ন বিস্তীর্ণ দক্ষিণ ২৪ পরগনার প্রধান সরকারি রেফারেল হাসপাতাল। ৩০০ শয্যার এই হাসপাতালে ২৪ ঘণ্টা জরুরি বিভাগ, ট্রমা কেয়ার, সেন্ট্রাল অক্সিজেন ও গ্যাস পাইপলাইন সিস্টেম, নবজাতক পরিচর্যা ইউনিট (SNCU), ডিজিটাল এক্স-রে ও ইউএসজি, ন্যায্য মূল্যের ওষুধের দোকান এবং বিভিন্ন বিশেষজ্ঞ বিভাগের বহির্বিভাগ (OPD) ক্লিনিক সক্রিয় রয়েছে। সমস্ত নাগরিক এখানে বিনামূল্যে ও স্বাস্থ্যসাথী প্রকল্পের আওতায় উন্নত চিকিৎসা সেবা পেয়ে থাকেন।",
+    "addressBn": "হাসপাতাল রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, কোলকাতা - ৭০০১৪৪",
+    "addressEn": "Hospital Road, Baruipur, South 24 Parganas, Kolkata - 700144",
+    "landmarkBn": "বারুইপুর হাসপাতাল মোড়, পুরানো বাজার সংলগ্ন",
+    "phone": "03324338242",
+    "altPhone": "03324338240",
+    "emergencyPhone": "102",
+    "whatsapp": "",
+    "googleMapUrl": "https://maps.google.com/?q=Baruipur+Subdivisional+Hospital",
+    "facebookUrl": "",
+    "openingHoursBn": "জরুরি বিভাগ: ২৪ ঘণ্টা সার্বক্ষণিক | ওপিডি: সকাল ৯:০০ - দুপুর ২:০০ (সোম-শনি)",
+    "isOpen24Hours": true,
+    "hasEmergency": true,
+    "hasPharmacy": true,
+    "hasDiagnostic": true,
+    "hasAmbulance": true,
+    "hasBloodBank": true,
+    "swasthyaSathiAccepted": true,
+    "totalDoctors": 45,
+    "bedsCount": 300,
+    "featured": true,
+    "verified": true,
+    "facilitiesBn": [
+      "২৪ ঘণ্টা জরুরি বিভাগ ও ট্রমা সার্ভিস",
+      "সরকারি লাইসেন্সপ্রাপ্ত ব্লাড ব্যাংক",
+      "নবজাতক বিশেষায়িত পরিচর্যা কেন্দ্র (SNCU)",
+      "বিনামূল্যে সরকারি ডায়ালিসিস ইউনিট",
+      "ডিজিটাল এক্স-রে, ইউএসজি ও প্যাথলজি ল্যাব",
+      "সেন্ট্রাল মেডিকেল গ্যাস ও অক্সিজেন প্ল্যান্ট (LMO)",
+      "স্বাস্থ্যসাথী কার্ডে ক্যাশলেস অপারেশন",
+      "ন্যায্য মূল্যের ওষুধের দোকান (Fair Price Shop)"
+    ],
+    "departmentsBn": [
+      "জেনারেল মেডিসিন বিভাগ",
+      "জেনারেল ও ল্যাপারোস্কোপিক সার্জারি বিভাগ",
+      "প্রসূতি ও স্ত্রীরোগ বিভাগ (Gynaecology & Obstetrics)",
+      "শিশুরোগ বিভাগ (Paediatrics)",
+      "অর্থোপেডিক বিভাগ (হাড় ও জয়েন্ট)",
+      "চক্ষুরোগ বিভাগ (Ophthalmology)",
+      "নাক, কান ও গলারোগ বিভাগ (ENT)",
+      "চর্মরোগ বিভাগ (Dermatology)",
+      "দন্ত বিভাগ (Dental OPD)"
+    ],
+    "doctors": [
+      {
+        "id": "sdh-doc-1",
+        "nameBn": "সিনিয়র কনসালট্যান্ট ফিজিশিয়ানবৃন্দ",
+        "nameEn": "Senior Consultant Physicians (Medicine OPD)",
+        "degrees": "MD (General Medicine)",
+        "specialtyKey": "general_medicine",
+        "specialtyBn": "মেডিসিন বিশেষজ্ঞ",
+        "specialtyEn": "General Medicine",
+        "experienceBn": "Govt. Specialist Medical Officers",
+        "daysBn": "সোম থেকে শনিবার",
+        "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
+        "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
+        "appointmentPhone": "03324338242",
+        "notesBn": "ডায়াবেটিস, রক্তচাপ, জ্বর ও অভ্যন্তরীণ রোগের চিকিৎসা"
+      },
+      {
+        "id": "sdh-doc-2",
+        "nameBn": "কনসালট্যান্ট সার্জনবৃন্দ",
+        "nameEn": "Senior General Surgeons (Surgery OPD)",
+        "degrees": "MS (General Surgery)",
+        "specialtyKey": "general_surgery",
+        "specialtyBn": "জেনারেল সার্জন",
+        "specialtyEn": "General Surgeon",
+        "experienceBn": "Govt. Specialist Medical Officers",
+        "daysBn": "সোম, বুধ ও শুক্রবার",
+        "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
+        "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
+        "appointmentPhone": "03324338242",
+        "notesBn": "অ্যাপেন্ডিক্স, হার্নিয়া, গলব্লাডার ও ট্রমা সার্জারি"
+      },
+      {
+        "id": "sdh-doc-3",
+        "nameBn": "স্ত্রী ও প্রসূতিরোগ বিশেষজ্ঞবৃন্দ",
+        "nameEn": "Gynaecology & Obstetrics Specialists",
+        "degrees": "MS / DGO (Gynae & Obs)",
+        "specialtyKey": "gynaecology",
+        "specialtyBn": "স্ত্রী ও প্রসূতিরোগ বিশেষজ্ঞ",
+        "specialtyEn": "Gynaecologist & Obstetrician",
+        "experienceBn": "Govt. Specialist Medical Officers",
+        "daysBn": "সোম থেকে শনিবার",
+        "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
+        "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
+        "appointmentPhone": "03324338242",
+        "notesBn": "গর্ভবতী মায়েদের প্রসবপূর্ব পরিচর্যা ও নরমাল/সিজারিয়ান ডেলিভারি"
+      },
+      {
+        "id": "sdh-doc-4",
+        "nameBn": "শিশুরোগ বিশেষজ্ঞবৃন্দ",
+        "nameEn": "Paediatricians (Child Health OPD & SNCU)",
+        "degrees": "MD / DCH (Paediatrics)",
+        "specialtyKey": "paediatrics",
+        "specialtyBn": "শিশুরোগ বিশেষজ্ঞ",
+        "specialtyEn": "Paediatrician",
+        "experienceBn": "Govt. Specialist Medical Officers",
+        "daysBn": "সোম থেকে শনিবার",
+        "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
+        "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
+        "appointmentPhone": "03324338242",
+        "notesBn": "নবজাতক ও শিশুদের রোগব্যাধি, টিকাকরণ ও এসএনসিইউ পরিচর্যা"
+      }
+    ],
+    "metaTitle": "বারুইপুর মহকুমা হাসপাতাল | Baruipur Subdivisional Hospital - ডাক্তারদের ওপিডি তালিকা, সময়সূচি ও ফোন নম্বর",
+    "metaDescription": "বারুইপুর মহকুমা হাসপাতাল (Baruipur SDH Hospital): সরকারি বিশেষজ্ঞ ডাক্তারদের ওপিডি তালিকা, জরুরি বিভাগ ফোন নম্বর (033-24338242), ব্লাড ব্যাংক ও স্বাস্থ্যসাথী গাইড।",
+    "keyServicesBn": [
+      "২৪ ঘণ্টা জরুরি বিভাগ ও ট্রমা সার্ভিস",
+      "সরকারি লাইসেন্সপ্রাপ্ত ব্লাড ব্যাংক",
+      "নবজাতক বিশেষায়িত পরিচর্যা কেন্দ্র (SNCU)",
+      "বিনামূল্যে সরকারি ডায়ালিসিস ইউনিট",
+      "ডিজিটাল এক্স-রে, ইউএসজি ও প্যাথলজি ল্যাব",
+      "সেন্ট্রাল মেডিকেল গ্যাস ও অক্সিজেন প্ল্যান্ট (LMO)",
+      "স্বাস্থ্যসাথী কার্ডে ক্যাশলেস অপারেশন",
+      "ন্যায্য মূল্যের ওষুধের দোকান (Fair Price Shop)"
+    ],
+    "diagnosticFacilitiesBn": []
+  },
+  {
     "slug": "pubali-clinic-baruipur",
     "nameBn": "পূবালী ক্লিনিক",
     "nameEn": "Pubali Clinic Doctors Chamber & Diagnostic Centre",
@@ -1342,7 +1468,8 @@
       }
     ],
     "metaTitle": "ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক বারুইপুর | Frank Ross Pharmacy & Doctors Clinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক (Frank Ross Pharmacy & Doctors Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক (Frank Ross Pharmacy & Doctors Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "diagnosticFacilitiesBn": []
   },
   {
     "slug": "apollo-clinic-baruipur",
@@ -1441,7 +1568,8 @@
     "websiteUrl": "https://www.apolloclinic.com/clinic-locator/india/west-bengal/kolkata/baruipur",
     "facebookUrl": "https://www.facebook.com/ApolloClinicBaruipur",
     "metaTitle": "অ্যাপোলো ক্লিনিক বারুইপুর | Apollo Clinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "অ্যাপোলো ক্লিনিক (Apollo Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "অ্যাপোলো ক্লিনিক (Apollo Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "diagnosticFacilitiesBn": []
   },
   {
     "slug": "baruipur-arogya-niketan-chamber",
@@ -1619,7 +1747,8 @@
       }
     ],
     "metaTitle": "মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার বারুইপুর | Mondal Medical Stores & Doctor Chamber, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার (Mondal Medical Stores & Doctor Chamber Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার (Mondal Medical Stores & Doctor Chamber Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "diagnosticFacilitiesBn": []
   },
   {
     "slug": "baruipur-hospital-research-institute",
