@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৭",
+  "lastUpdated": "২০২৬-১১-১৭ (রাত ১১:০০)",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,42 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-029",
+      "title": "বারুইপুর রেল জংশন ৩ নং প্ল্যাটফর্ম সংলগ্ন সুবুদ্ধিপুর এলাকায় সম্পূর্ণ ফার্নিশড ২ বিএইচকে রেডি ফ্ল্যাট বিক্রি",
+      "titleEn": "Fully Furnished 2 BHK Ready Flat near Baruipur Railway Junction Platform 3, Subuddhipur",
+      "category": "resale_flat",
+      "categoryNameBn": "রেডি ফ্ল্যাট (Ready Flat)",
+      "location": "সুবুদ্ধিপুর, বারুইপুর স্টেশন রোড (প্ল্যাটফর্ম ৩ গেট সংলগ্ন)",
+      "locationArea": "Subuddhipur / Station Platform 3",
+      "price": "₹২৬.৫০ লক্ষ (হাতে চাবি ও রেজিস্ট্রেশন প্রস্তুত)",
+      "priceNum": 2650000,
+      "priceUnit": "total",
+      "configuration": "2 BHK (880 SqFt Super Built-up) + 1 ব্যালকনি + মডুলার কিচেন",
+      "areaSqFt": "৮৮০ বর্গফুট",
+      "facing": "দক্ষিণ-পশ্চিম খোলা হাওয়া ও পর্যাপ্ত আলো",
+      "floorInfo": "২য় তলা (G+3 লিফট ও নিজস্ব পার্কিং স্লটসহ)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "সমস্ত লিগ্যাল কাগজপত্র ক্লিয়ার ও মিউটেশন সম্পন্ন",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত প্ল্যান",
+      "bankLoanApproved": "SBI, HDFC ও Axis Bank থেকে অবিলম্বে হোম লোন সুবিধা",
+      "amenities": [
+        "স্টেশন থেকে মাত্র ২ মিনিটের হাঁটা পথ",
+        "অটোমেটিক লিফট ও নিরবচ্ছিন্ন জেনারেটর বিদ্যুৎ ব্যাকআপ",
+        "কাঠের কাজ করা সুসজ্জিত মডুলার কিচেন ও আলমারি",
+        "চব্বিশ ঘণ্টা পুরসভার পানীয় জল সংযোগ ও সিসিটিভি"
+      ],
+      "description": "বারুইপুর রেল জংশনে প্রতিদিন যাতায়াতকারী চাকুরিজীবী পরিবারের জন্য সেরা সুযোগ। ৩ নম্বর প্ল্যাটফর্ম গেট থেকে মাত্র ২ মিনিটের পায়ে হাঁটার দূরত্বে সুবুদ্ধিপুরে সম্পূর্ণ ফার্নিশড ৮৮০ বর্গফুটের ২ বিএইচকে ফ্ল্যাট। অবিলম্বে শিফট করার মতো প্রস্তুত। ব্যাংকের সমস্ত পেপারস ভেরিফাইড।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "প্রশান্ত দত্ত (অনুমোদিত প্রতিনিধি)",
+      "contactPhone": "+91 98305 66782",
+      "contactWhatsapp": "+91 98305 66782",
+      "publishedAt": "২০২৬-১১-১৭"
+    },
     {
       "id": "prop-brp-028",
       "title": "বারুইপুর কুলপী রোড ও স্টেশন মোড় সংলগ্ন ১,২০০ বর্গফুট গ্রাউন্ড ফ্লোর বাণিজ্যিক শোরুম / ক্লিনিক স্পেস",

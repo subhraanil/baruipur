@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৭",
+  "lastUpdated": "২০২৬-১১-১৭ (রাত ১১:০০)",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,46 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-sdh-2026-1117-hospital-reno",
+      "nitNumber": "WBPWD/SDH-BRP/NIT-09/CW-RENOV/2026",
+      "title": "বারুইপুর মহকুমা হাসপাতাল ক্যাম্পাসের জরুরি বিভাগ ও ইনডোর ওয়ার্ড ব্লকে শীতকালীন পরিকাঠামো সংস্কার ও অগ্নিনির্বাপক পাইপলাইন ফিটিং",
+      "titleEn": "Winter Infrastructure Maintenance, Sanitary Upgradation & Fire Hydrant Pipeline Fitting at Baruipur Subdivisional Hospital Campus",
+      "issuingAuthority": "বারুইপুর মহকুমা হাসপাতাল ও স্বাস্থ্য দপ্তর (WBHSD)",
+      "category": "পূর্ত ও হাসপাতাল পরিকাঠামো",
+      "status": "active",
+      "publishedDate": "২০২৬-১১-১৭",
+      "closingDate": "২০২৬-১১-২৫ (দুপুর ২:০০)",
+      "estimatedCost": "₹১৮,৫০,০০০",
+      "estimatedCostNum": 1850000,
+      "emdAmount": "₹৩৭,০০০",
+      "workLocation": "বারুইপুর মহকুমা হাসপাতাল প্রাঙ্গণ, হাসপাতাল রোড",
+      "eligibility": "স্বাস্থ্য দপ্তর বা পূর্ত দপ্তরের নথিভুক্ত সিভিল ঠিকাদার যাদের হাসপাতাল ওয়ার্ড সংস্কারে ন্যূনতম ৩ বছরের সক্রিয় ট্র্যাক রেকর্ড রয়েছে।",
+      "sourcePortal": "wbtenders.gov.in",
+      "sourcePortalName": "wbtenders.gov.in (সরকারি ই-টেন্ডার পোর্টাল)",
+      "portalUrl": "https://wbtenders.gov.in/",
+      "refNumber": "WBHSD/SDH-BRP/NIT-09/INFRA-2026"
+    },
+    {
+      "id": "ten-bm-2026-1117-elect",
+      "nitNumber": "WBMAD/BM/NIT-18/ELECT-RAS/2026",
+      "title": "বারুইপুর রাসমেলা ২০২৬ উপলক্ষে রাসমাঠ ও কাছারি মোড় সংলগ্ন প্রধান সংযোগকারী রাস্তায় অস্থায়ী হাই-মাস্ট আলোকসজ্জা ও সাইলেন্ট জেনারেটর ব্যাকআপ স্থাপন",
+      "titleEn": "Installation of Temporary High-Mast Decorative Illumination & 125 KVA Silent Generator Backup for Baruipur Rasmela 2026 at Rashmath",
+      "issuingAuthority": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "category": "বিদ্যুৎ ও উৎসব আলোকসজ্জা",
+      "status": "active",
+      "publishedDate": "২০২৬-১১-১৭",
+      "closingDate": "২০২৬-১১-২৪ (বিকাল ৫:০০)",
+      "estimatedCost": "₹১৪,৮০,০০০",
+      "estimatedCostNum": 1480000,
+      "emdAmount": "₹২৯,৬০০",
+      "workLocation": "বারুইপুর রাসমাঠ, কাছারি বাজার ও স্টেশন রোড সংযোগ",
+      "eligibility": "সরকারি স্বীকৃত 'A' গ্রেড বৈদ্যুতিক ঠিকাদারি লাইসেন্সধারী সংস্থা, যাদের মেলা বা উৎসবে ন্যূনতম ₹৭ লক্ষ মূল্যের কাজের পূর্ব অভিজ্ঞতা রয়েছে।",
+      "sourcePortal": "wbtenders.gov.in",
+      "sourcePortalName": "wbtenders.gov.in (সরকারি ই-টেন্ডার পোর্টাল)",
+      "portalUrl": "https://wbtenders.gov.in/",
+      "refNumber": "WBMAD/BM/NIT-18/ELECT-RAS/2026"
+    },
     {
       "id": "tnd-irr-2026-03",
       "nitNumber": "NIT-03/IWD-BRP/DRAINAGE/2026",
