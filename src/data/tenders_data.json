@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৬",
+  "lastUpdated": "২০২৬-১১-১৭",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,52 @@
     }
   ],
   "tenders": [
+    {
+      "id": "tnd-irr-2026-03",
+      "nitNumber": "NIT-03/IWD-BRP/DRAINAGE/2026",
+      "title": "বারুইপুর পিয়ালী নদী সংযোগ খাল ও সংলগ্ন নিকাশি প্রণালীর শীতকালীন পলি উত্তোলন ও পাড় শক্তিশালীকরণ কাজ",
+      "titleEn": "Desiltation, De-weeding and Bank Protection Works along Baruipur-Piyali Canal Feeder Channels by Irrigation & Waterways Dept",
+      "authorityId": "pwd",
+      "authorityName": "সেচ ও জলপথ দপ্তর (I&WD Baruipur Drainage Sub-Division)",
+      "department": "বারুইপুর সেচ উপ-বিভাগ",
+      "location": "বারুইপুর পৌর এলাকা ও চম্পাহাটি সংযোগ খাল",
+      "category": "নিকাশি খাল ও সেচ সিভিল সংস্কার (Drainage & Embankment Works)",
+      "estimatedValue": "₹১৮,৯০,০০০",
+      "estimatedValueNum": 1890000,
+      "emdAmount": "₹৩৭,৮০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-১৭",
+      "closingDate": "২০২৬-১২-১৬",
+      "bidOpeningDate": "২০২৬-১২-১৯",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "sourcePortalName": "wbtenders.gov.in",
+      "tenderRef": "WBIWD/BRP/DRG/NIT-03/2026",
+      "eligibility": "সেচ ও জলপথ দপ্তরের নদী/খাল খনন ও সিভিল কাজে ক্লাস-২ বা সমতুল্য তালিকাভুক্ত ঠিকাদার।"
+    },
+    {
+      "id": "tnd-bm-2026-12",
+      "nitNumber": "NIT-12/BM/RABINDRA-BHAVAN/2026",
+      "title": "বারুইপুর রবীন্দ্র ভবন অডিটোরিয়ামের অভ্যন্তরীণ অ্যাকোস্টিক সংস্কার, শীতাতপ নিয়ন্ত্রণ নালী ও শব্দ-নিয়ন্ত্রণ আধুনিকীকরণ প্রকল্প",
+      "titleEn": "Comprehensive Acoustic Insulation, HVAC Ducting and Audio-Visual Infrastructure Upgradation at Baruipur Rabindra Bhavan",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পৌর পূর্ত ও সংস্কৃতি ভবন রক্ষণাবেক্ষণ শাখা",
+      "location": "রবীন্দ্র ভবন, কুলপী রোড, বারুইপুর",
+      "category": "সংস্কৃতি ও পরিকাঠামো সংস্কার (Public Auditorium Infrastructure)",
+      "estimatedValue": "₹২১,৪৫,০০০",
+      "estimatedValueNum": 2145000,
+      "emdAmount": "₹৪২,৯০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-১৭",
+      "closingDate": "২০২৬-১২-১৪",
+      "bidOpeningDate": "২০২৬-১২-১৭",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "sourcePortalName": "wbtenders.gov.in",
+      "tenderRef": "WBMAD/BM/NIT-12/RAB-BHAVAN/2026",
+      "eligibility": "অ্যাকোস্টিক সিলিং ও পাবলিক হল আধুনিকীকরণে ৩ বছরের সফল অভিজ্ঞতাসম্পন্ন নিবন্ধিত ঠিকাদার সংস্থা।"
+    },
     {
       "id": "tnd-pwd-2026-05",
       "nitNumber": "NIT-05/PWD-BRP/CULVERT-REPAIR/2026",

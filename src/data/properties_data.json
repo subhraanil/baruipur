@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৬",
+  "lastUpdated": "২০২৬-১১-১৭",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,78 @@
     "ফুলতলা মোড়"
   ],
   "properties": [
+    {
+      "id": "prop-brp-028",
+      "title": "বারুইপুর কুলপী রোড ও স্টেশন মোড় সংলগ্ন ১,২০০ বর্গফুট গ্রাউন্ড ফ্লোর বাণিজ্যিক শোরুম / ক্লিনিক স্পেস",
+      "titleEn": "1,200 SqFt Ground Floor Prime Commercial Showroom / Clinic Space on Kulpi Road near Baruipur Station",
+      "category": "commercial_space",
+      "categoryNameBn": "বাণিজ্যিক স্পেস (Commercial Space)",
+      "location": "কুলপী রোড, বারুইপুর জংশন সংলগ্ন",
+      "locationArea": "Kulpi Road / Baruipur Junction",
+      "price": "₹৩৬.০০ লক্ষ (বাস্তু বাণিজ্যিক অনুমোদন)",
+      "priceNum": 3600000,
+      "priceUnit": "total",
+      "configuration": "১,২০০ বর্গফুট সমতল গ্রাউন্ড ফ্লোর ওপেন কমার্শিয়াল হল + ১ অ্যাটাচড ওয়াশরুম",
+      "areaSqFt": "১,২০০ বর্গফুট",
+      "facing": "মেইন রোড ফেসিং (High Footfall Commercial Frontage)",
+      "floorInfo": "গ্রাউন্ড ফ্লোর (উঁচু প্লিন্থ লেভেল, জল জমার আশঙ্কা মুক্ত)",
+      "possessionStatus": "অবিলম্বে দখল ও রেজিস্ট্রি",
+      "reraStatus": "নিষ্কণ্টক বাণিজ্যিক দাগ-খতিয়ান রেকর্ড",
+      "approvalStatus": "পৌরসভা অনুমোদিত বাণিজ্যিক ব্যবহারের প্ল্যান",
+      "bankLoanApproved": "সমস্ত জাতীয় ব্যাংকে বাণিজ্যিক সম্পত্তি ঋণ উপলব্ধ",
+      "amenities": [
+        "প্রশস্ত ২২ ফুট ডাবল রোলিং শাটার ও গ্লাস ফেসিং",
+        "গ্রাহকদের জন্য ডেডিকেটেড ফ্রন্ট পার্কিং বে",
+        "থ্রি-ফেজ বাণিজ্যিক বিদ্যুৎ সংযোগ ও পুরসভার জল লাইন",
+        "ডায়াগনস্টিক ল্যাব, ফার্মেসি, ব্যাংক, শোরুম বা কর্পোরেট অফিসের জন্য আদর্শ"
+      ],
+      "description": "বারুইপুর স্টেশন ও কুলপী রোডের অতি ব্যস্ত সংযোগস্থলে সম্পূর্ণ প্রস্তুত ১,২০০ বর্গফুটের গ্রাউন্ড ফ্লোর বাণিজ্যিক সম্পত্তি। প্রতিদিন হাজার হাজার মানুষের যাতায়াত। অবিলম্বে ব্যবসা বা ক্লিনিক চালুর জন্য সেরা বিনিয়োগ।",
+      "imageUrl": "/images/places/baruipur-bdo-office-building.jpg",
+      "images": [
+        "/images/places/baruipur-bdo-office-building.jpg"
+      ],
+      "featured": false,
+      "contactPerson": "সৌমেন ভট্টাচার্য",
+      "contactPhone": "+91 94332 99874",
+      "contactWhatsapp": "+91 94332 99874",
+      "publishedAt": "২০২৬-১১-১৭"
+    },
+    {
+      "id": "prop-brp-027",
+      "title": "বারুইপুর রাসমাঠ ও রেলওয়ে ওভারব্রিজ সংলগ্ন ৮৫০ বর্গফুট রেডি ২ বিএইচকে খোলামেলা ফ্ল্যাট (লিফট সুবিধা সহ)",
+      "titleEn": "850 SqFt Ready to Move 2 BHK Airy Apartment near Baruipur Rashmath & Overbridge with Lift",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "রাসমাঠ লিঙ্ক রোড, বারুইপুর",
+      "locationArea": "Rashmath / Overbridge",
+      "price": "₹২২.৮০ লক্ষ (সুলভ ব্যাংক লোন সুবিধা)",
+      "priceNum": 2280000,
+      "priceUnit": "total",
+      "configuration": "2 BHK (850 SqFt Super Built-up) + ১ ব্যালকনি + ২ বাথরুম",
+      "areaSqFt": "৮৫০ বর্গফুট",
+      "facing": "পূর্ব-দক্ষিণমুখী (Sunlit & Airy)",
+      "floorInfo": "৩য় তলা (G+4 লিফট সহ আধুনিক অ্যাপার্টমেন্ট)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "WB RERA ও মিউনিসিপ্যাল কমপ্লিশন সার্টিফিকেট প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত বৈধ আবাসিক বিল্ডিং প্ল্যান",
+      "bankLoanApproved": "SBI, HDFC ও PNB অনুমোদিত",
+      "amenities": [
+        "অটোমেটিক লিফট ও সার্বক্ষণিক ২৪ ঘণ্টা বিদ্যুৎ ব্যাকআপ",
+        "সার্বক্ষণিক সিসিটিভি ক্যামেরা ও নিরাপত্তা প্রহরী",
+        "টু-হুইলার ও খোলা কার পার্কিং স্পেস",
+        "রাসমাঠ ও বারুইপুর স্টেশন থেকে ৫ মিনিটের সহজ হাঁটা পথ"
+      ],
+      "description": "বারুইপুর রাসমাঠের শান্ত ও মনোরম পরিবেশের সংলগ্ন একদম প্রস্তুত ২ বিএইচকে আধুনিক ফ্ল্যাট। পর্যাপ্ত আলো-বাতাস, মার্বেল ফিনিশ ফ্লোরিং এবং উন্নত স্যানিটারি ফিটিংস। স্কুল, বাজার, হাসপাতাল ও রেল যোগাযোগ অতি সন্নিকটে।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "অভিজিৎ সামন্ত (সামন্ত রিয়েলটি)",
+      "contactPhone": "+91 98314 55210",
+      "contactWhatsapp": "+91 98314 55210",
+      "publishedAt": "২০২৬-১১-১৭"
+    },
     {
       "id": "prop-brp-026",
       "title": "বারুইপুর বাইপাস ও পদ্মপুকুর মোড় সংলগ্ন ১.৫ কাঠা চারদিক প্রাচীর ঘেরা দক্ষিণমুখী বাস্তু জমি",

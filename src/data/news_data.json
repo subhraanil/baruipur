@@ -1,6 +1,282 @@
 {
   "articles": [
     {
+      "id": "art-1794890920111-l1no",
+      "title": "বারুইপুরে যুব কংগ্রেসের পক্ষ থেকে নবনির্বাচিত সভাপতি কে সংবর্ধনা অনুষ্ঠান",
+      "slug": "বারুইপুরে-যুব-কংগ্রেসের-পক্ষ-থেকে-নবনির্বাচিত",
+      "summary": "বারুইপুরে যুব কংগ্রেসের পক্ষ থেকে নবনির্বাচিত সভাপতি কে সংবর্ধনা অনুষ্ঠান",
+      "content": "বারুইপুরে যুব কংগ্রেসের পক্ষ থেকে নবনির্বাচিত সভাপতি কে সংবর্ধনা অনুষ্ঠান",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-khobar48ghanta",
+      "sourceName": "Khobar48ghanta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1635011205306497",
+      "originalPostUrl": "https://www.facebook.com/1635011205306497",
+      "imageUrl": "/images/crawled/21f6595f9654abc723d0bb23372bb506.jpg",
+      "images": [
+        "/images/crawled/21f6595f9654abc723d0bb23372bb506.jpg",
+        "/images/crawled/a1ac0612a77f9b626e98e3b437969e99.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=4546074169036852",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4546074169036852&show_text=0",
+      "publishedAt": "2026-11-16T10:04:34.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 50,
+      "crawlHash": "b82384023bd143a0fae3a52b14a3b209"
+    },
+    {
+      "id": "art-1794890919841-9x7b",
+      "title": "বারুইপুর চক্রবর্তী পাড়া ঐক্য এর জগদ্ধাত্রী পুজো - এক্সক্লুসিভ ফার্স্ট লুক ।",
+      "slug": "বারুইপুর-চক্রবর্তী-পাড়া-ঐক্য-এর-জগদ্ধাত্রী-পু",
+      "summary": "বারুইপুর চক্রবর্তী পাড়া ঐক্য এর জগদ্ধাত্রী পুজো - এক্সক্লুসিভ ফার্স্ট লুক । \n\n[ Jagadhatri puja in baruipur, oikyo baruipur, chakrabarty para, purantan bazar, baruipur uncovered ]",
+      "content": "বারুইপুর চক্রবর্তী পাড়া ঐক্য এর জগদ্ধাত্রী পুজো - এক্সক্লুসিভ ফার্স্ট লুক । \n\n[ Jagadhatri puja in baruipur, oikyo baruipur, chakrabarty para, purantan bazar, baruipur uncovered ]",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-uncover",
+      "sourceName": "Baruipur Uncover",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122235627416792099",
+      "originalPostUrl": "https://www.facebook.com/122235627416792099",
+      "imageUrl": "/images/crawled/8a735fef9995dc8fd62468ea3f4ebdd4.jpg",
+      "images": [
+        "/images/crawled/8a735fef9995dc8fd62468ea3f4ebdd4.jpg",
+        "/images/crawled/74b1acbd6067a0f3403608a9b2253a2f.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1841745380423856",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1841745380423856&show_text=0",
+      "publishedAt": "2026-11-16T15:43:16.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 15,
+      "crawlHash": "723ea995b5c8f8aa5ca4df58f8f76002"
+    },
+    {
+      "id": "art-1794890918588-6t7p",
+      "title": "আগামী ১৮ই নভেম্বর, বুধবার (১লা অগ্রহায়ণ ১৪৩৩ বঙ্গাব্দ), বারুইপুর কাছারী বাজারে শ্রীশ্রী ব",
+      "slug": "আগামী-১৮ই-নভেম্বর-বুধবার-১লা-অগ্রহায়ণ-১৪৩৩-ব",
+      "summary": "আগামী ১৮ই নভেম্বর, বুধবার (১লা অগ্রহায়ণ ১৪৩৩ বঙ্গাব্দ), বারুইপুর কাছারী বাজারে শ্রীশ্রী বিশালাক্ষী মাতা ঠাকুরানীর বার্ষিক পূজা অনুষ্ঠিত হতে চলেছে।\n.\nমন্দিরের প্রকাশিত সূচি অন...",
+      "content": "আগামী ১৮ই নভেম্বর, বুধবার (১লা অগ্রহায়ণ ১৪৩৩ বঙ্গাব্দ), বারুইপুর কাছারী বাজারে শ্রীশ্রী বিশালাক্ষী মাতা ঠাকুরানীর বার্ষিক পূজা অনুষ্ঠিত হতে চলেছে।\n.\nমন্দিরের প্রকাশিত সূচি অনুযায়ী, সকাল ৭টা ২২ মিনিটে পুজোর সূচনা হবে। সকাল ১০টায় বলিদান, সকাল ১০টা ১৫ মিনিটে অঞ্জলি এবং দুপুর ১২টায় ভোগ নিবেদন করা হবে। দুপুর ১২টা ৪৩ মিনিটে হোম এবং সন্ধ্যা ৬টা ৩০ মিনিটে সন্ধ্যারতির আয়োজন করা হয়েছে।\n .\n🙏🌺 জয় মা বিশালাক্ষী🌺 🙏",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-baruipur",
+      "sourceName": "Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1640930798076148",
+      "originalPostUrl": "https://www.facebook.com/1640930798076148",
+      "imageUrl": "/images/crawled/fbd7fe5d111536ae99756f8a74825462.jpg",
+      "images": [
+        "/images/crawled/fbd7fe5d111536ae99756f8a74825462.jpg",
+        "/images/crawled/9a5371072858d3d710ec5e103aa6240b.jpg",
+        "/images/crawled/05bc34b053fd3347c253cc29897dd036.jpg",
+        "/images/crawled/8c2587e2f39e2fdf066e4c71793f4a46.jpg",
+        "/images/crawled/9270cd26ee4fa67de429930a8c8284c4.jpg"
+      ],
+      "publishedAt": "2026-11-16T08:28:36.000Z",
+      "isBreaking": false,
+      "isFeatured": true,
+      "status": "draft",
+      "views": 42,
+      "crawlHash": "14e784f67bf88e178243120313af2728"
+    },
+    {
+      "id": "art-1794890915393-vdiy",
+      "title": "শ্রীশ্রী জগদ্ধাত্রী পূজার সপ্তমী উপলক্ষ্যে বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সং",
+      "slug": "শ্রীশ্রী-জগদ্ধাত্রী-পূজার-সপ্তমী-উপলক্ষ্যে-বা",
+      "summary": "শ্রীশ্রী জগদ্ধাত্রী পূজার সপ্তমী উপলক্ষ্যে বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সংঘে দুর্গা মায়ের পূজা - ২০২৬। চিত্র সৌজন্যেঃ সৌম্যদীপ দত্ত।     । । 🌼 বারুইপুর ১নং ও...",
+      "content": "শ্রীশ্রী জগদ্ধাত্রী পূজার সপ্তমী উপলক্ষ্যে বারুইপুর পুরাতন বাজার সর্ব্বজনীন পূজা ও উৎসব সংঘে দুর্গা মায়ের পূজা - ২০২৬। চিত্র সৌজন্যেঃ সৌম্যদীপ দত্ত।     । । 🌼 বারুইপুর ১নং ওয়ার্ডের শীতলামন্দির ট্রাস্ট কমিটির জগদ্ধাত্রী পূজা - ২০২৬ 🌼। চিত্র সৌজন্যে : Monojit Mondal।   । মায়ের মুখটা শুধু দেখো ❤️।  : বারুইপুর দত্তপাড়া অধিবাসীবৃন্দের শ্রীশ্রী জগদ্ধাত্রী পূজা।    । বারুইপুর বৈষ্ণবপাড়ার বুড়িরবাগান পুজা ও সাংস্কৃতিক সংঘের শ্রীশ্রী জগদ্ধাত্রী পূজা - ২০২৬।    । বারুইপুর চক্রবর্তী পাড়া ঐক্য সাংস্কৃতিক সমিতির ৩য় বর্ষের জগদ্ধাত্রী পূজা - ২০২৬।    ।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-baruipur",
+      "sourceName": "Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1640738184762076",
+      "originalPostUrl": "https://www.facebook.com/1640738184762076",
+      "imageUrl": "/images/crawled/50be2e93f5fd287d31a25380603c012a.jpg",
+      "images": [
+        "/images/crawled/50be2e93f5fd287d31a25380603c012a.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1448258286837099",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1448258286837099&show_text=0",
+      "publishedAt": "2026-11-16T05:18:21.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 11,
+      "crawlHash": "b273a9f5b1a29170d71e05f7a4296231"
+    },
+    {
+      "id": "art-1794890915253-5c70",
+      "title": "সবাইকে জানাই শুভ কার্তিক পূজার শুভেচ্ছা",
+      "slug": "সবাইকে-জানাই-শুভ-কার্তিক-পূজার-শুভেচ্ছা",
+      "summary": "সবাইকে জানাই শুভ কার্তিক পূজার শুভেচ্ছা। দেব সেনাপতির কৃপায় আপনার জীবন আনন্দ ও সুখে ভরে উঠুক। 🌼🕉️ শুভ কার্তিক পূজা 🕉️🌼।     । সবচেয়ে বড় কার্তিক পূজার উদ্বোধন       ।",
+      "content": "সবাইকে জানাই শুভ কার্তিক পূজার শুভেচ্ছা। দেব সেনাপতির কৃপায় আপনার জীবন আনন্দ ও সুখে ভরে উঠুক। 🌼🕉️ শুভ কার্তিক পূজা 🕉️🌼।     । সবচেয়ে বড় কার্তিক পূজার উদ্বোধন       ।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-baruipur",
+      "sourceName": "Baruipur, Khobar48ghanta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1642188667950361",
+      "originalPostUrl": "https://www.facebook.com/1642188667950361",
+      "imageUrl": "/images/crawled/ededa1ea92e176f77362627370962401.jpg",
+      "images": [
+        "/images/crawled/ededa1ea92e176f77362627370962401.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1127828516525028",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1127828516525028&show_text=0",
+      "publishedAt": "2026-11-17T04:26:48.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 31,
+      "crawlHash": "c6c2d3faf0523d0268772d94eff0c578"
+    },
+    {
+      "id": "art-1794890912547-nte7",
+      "title": "যোগাযোগ ও ভর্তি সংক্রান্ত তথ্য",
+      "slug": "যোগাযোগ-ও-ভর্তি-সংক্রান্ত-তথ্য",
+      "summary": "যোগাযোগ ও ভর্তি সংক্রান্ত তথ্য:\n​সাক্ষাৎকার: প্রতি শনিবার ও রবিবার সেন্টারে এসে সরাসরি কথা বলুন সেন্টারের কর্ণধার অগ্নিমিত্র ঘোষের সাথে।\n​ফোন নম্বর: ৯৭৪৮০১৮২৪৭\n​ঠিকানা:\n​রয়্য...",
+      "content": "যোগাযোগ ও ভর্তি সংক্রান্ত তথ্য:\n​সাক্ষাৎকার: প্রতি শনিবার ও রবিবার সেন্টারে এসে সরাসরি কথা বলুন সেন্টারের কর্ণধার অগ্নিমিত্র ঘোষের সাথে।\n​ফোন নম্বর: ৯৭৪৮০১৮২৪৭\n​ঠিকানা:\n​রয়্যাল এডুকেশন সেন্টার\nবারুইপুর পুরাতন বাজার (মিও আমোরে শপের দ্বিতীয় তলা),\nবারুইপুর।",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-voice",
+      "sourceName": "Voice of Baruipur",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122123570619332585",
+      "originalPostUrl": "https://www.facebook.com/122123570619332585",
+      "imageUrl": "/images/crawled/1c8d98a211c693f07d89e303e83507bd.jpg",
+      "images": [
+        "/images/crawled/1c8d98a211c693f07d89e303e83507bd.jpg",
+        "/images/crawled/50cbdae3eb5896b7cfe9051b0c401dee.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=2245887252806435",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2245887252806435&show_text=0",
+      "publishedAt": "2026-11-16T10:40:19.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 25,
+      "crawlHash": "8d788e772f840f066d69e4b9ec70cc90"
+    },
+    {
+      "id": "art-1794890912133-ttya",
+      "title": "বাঁদরের বাদরামি দেখেছেন, কিন্তু ভূতের বাদরামি দেখেছেন কি?",
+      "slug": "বাঁদরের-বাদরামি-দেখেছেন-কিন্তু-ভূতের-বাদরামি",
+      "summary": "বাঁদরের বাদরামি দেখেছেন, কিন্তু ভূতের বাদরামি দেখেছেন কি?\n দেখুন ভুতের বাদরামি.....",
+      "content": "বাঁদরের বাদরামি দেখেছেন, কিন্তু ভূতের বাদরামি দেখেছেন কি?\n দেখুন ভুতের বাদরামি.....",
+      "category": "crime",
+      "categoryNameBn": "অপরাধ ও প্রশাসন",
+      "authorId": "animesh-mukherjee",
+      "authorName": "অনিমেষ মুখার্জী",
+      "authorRole": "সিনিয়র ক্রাইম ও জেলা প্রশাসন প্রতিনিধি",
+      "reportingLocation": "বারুইপুর আদালত চত্বর",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1777687331026761",
+      "originalPostUrl": "https://www.facebook.com/1777687331026761",
+      "imageUrl": "/images/crawled/f7b1d6af10e143ca6099f193a275e9e9.jpg",
+      "images": [
+        "/images/crawled/f7b1d6af10e143ca6099f193a275e9e9.jpg",
+        "/images/crawled/661edbf440e6ac5553500e247213a2bb.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1682508110157657",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1682508110157657&show_text=0",
+      "publishedAt": "2026-11-16T07:28:36.000Z",
+      "isBreaking": true,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 55,
+      "crawlHash": "981284d9cbda78c4a4d0219c8e4996d0"
+    },
+    {
+      "id": "art-1794890911669-vzaa",
+      "title": "Live আজ বারুইপুর চাম্পাহাটি অগ্নিশিখা ক্লাবের  কালী পূজার বিসর্জনের বর্ণাঢ্য শোভাযাত্রা",
+      "slug": "live-আজ-বারুইপুর-চাম্পাহাটি-অগ্নিশিখা-ক্লাবের",
+      "summary": "Live আজ বারুইপুর চাম্পাহাটি অগ্নিশিখা ক্লাবের  কালী পূজার বিসর্জনের বর্ণাঢ্য শোভাযাত্রা। বারুইপুর চম্পাহাটি অগ্নিশিখা ক্লাব এর কালী পূজার বিসর্জনে বর্ণাদ্ধ শোভাযাত্রা।",
+      "content": "Live আজ বারুইপুর চাম্পাহাটি অগ্নিশিখা ক্লাবের  কালী পূজার বিসর্জনের বর্ণাঢ্য শোভাযাত্রা। বারুইপুর চম্পাহাটি অগ্নিশিখা ক্লাব এর কালী পূজার বিসর্জনে বর্ণাদ্ধ শোভাযাত্রা।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-update",
+      "sourceName": "Baruipur Update, Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/4489357204614471",
+      "originalPostUrl": "https://www.facebook.com/4489357204614471",
+      "imageUrl": "/images/crawled/c8ac8ea5756fc3c93482fde25b98b968.jpg",
+      "images": [
+        "/images/crawled/c8ac8ea5756fc3c93482fde25b98b968.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=4489357204614471",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4489357204614471&show_text=0",
+      "publishedAt": "2026-11-16T14:00:34.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 14,
+      "crawlHash": "289d557c1d9f3b0c0785600bbcb40837"
+    },
+    {
+      "id": "art-1794890910338-t0gh",
+      "title": "সাবেকিয়ানা ও আধুনিকতার মেলবন্ধনে বারুইপুরের নতুন ভোর সোশ্যাল ওয়েলফেয়ার সোসাইটির জগদ্ধাত",
+      "slug": "সাবেকিয়ানা-ও-আধুনিকতার-মেলবন্ধনে-বারুইপুরের",
+      "summary": "সাবেকিয়ানা ও আধুনিকতার মেলবন্ধনে বারুইপুরের নতুন ভোর সোশ্যাল ওয়েলফেয়ার সোসাইটির জগদ্ধাত্রী পুজো। বেঙ্গল নাও নিউজ-এর বিচারে ‘জেলার সেরা জগদ্ধাত্রী সম্মান ২০২৬’পেলো। পঞ্চম বর...",
+      "content": "সাবেকিয়ানা ও আধুনিকতার মেলবন্ধনে বারুইপুরের নতুন ভোর সোশ্যাল ওয়েলফেয়ার সোসাইটির জগদ্ধাত্রী পুজো। বেঙ্গল নাও নিউজ-এর বিচারে ‘জেলার সেরা জগদ্ধাত্রী সম্মান ২০২৬’পেলো। পঞ্চম বর্ষে দক্ষিণ ভারতের বিখ্যাত মন্দিরের আদলে মণ্ডপ, পদ্মশ্রী সম্মানপ্রাপ্ত শিল্পী সনাতন রুদ্র পালের প্রতিমা এবং চন্দননগরের চোখধাঁধানো আলোকসজ্জায় মুগ্ধ দর্শনার্থীরা। । । । । । । । । । । । । । । দক্ষিণ ২৪ পরগনার বারুইপুরের ঘোষপুর শক্তি সংঘের পরিচালনায় এ বছর জগদ্ধাত্রী পুজো ৪৮ তম বর্ষে পদার্পণ করল, পুজোর শুভ উদ্বোধন ১৭ ই নভেম্বর ২০২৬, মঙ্গলবার।          ।",
+      "category": "culture",
+      "categoryNameBn": "উৎসব, সংস্কৃতি ও খেলাধুলা",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-bengalnow",
+      "sourceName": "Bengal Now / বেঙ্গল নাও, Baruipur Barta, Baruipur Update",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122128553241274294",
+      "originalPostUrl": "https://www.facebook.com/122128553241274294",
+      "imageUrl": "/images/crawled/87244d4fc00162bfb127f244fe92f82e.jpg",
+      "images": [
+        "/images/crawled/87244d4fc00162bfb127f244fe92f82e.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1900204321147656",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1900204321147656&show_text=0",
+      "publishedAt": "2026-11-16T11:05:13.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 36,
+      "crawlHash": "1bab40ff2255d669065376dc544b19c6"
+    },
+    {
       "id": "art-1794829848368-7b2c",
       "title": "দুর্গাপূজা কালী পূজায় সিপিআইএম এ বুক স্টল ভেঙ্গে দেওয়ার বিরুদ্ধে পথে নামল",
       "slug": "দুর্গাপূজা-কালী-পূজায়-সিপিআইএম-এ-বুক-স্টল-ভে",
@@ -299,7 +575,8 @@
         "/images/crawled/4ef5e18212f1f95ca9f7993cb53fdbe8.jpg",
         "/images/crawled/5cee6091515f6b21371cc1a96b615165.jpg",
         "/images/crawled/a3e156748e15714f4b15b2069dab4b2e.jpg",
-        "/images/crawled/ba068c6e09c99abf4297691c1a95b618.jpg"
+        "/images/crawled/ba068c6e09c99abf4297691c1a95b618.jpg",
+        "/images/crawled/fc0e1ccc0d9fd33da42769985b025777.jpg"
       ],
       "publishedAt": "2026-11-12T10:35:00.000Z",
       "isBreaking": false,
@@ -3738,7 +4015,8 @@
         "/images/crawled/fbbec114e5d2ac7719e5d920002eec11.jpg",
         "/images/crawled/44b5109441e6d2ef926b0b7e7a2d33c9.jpg",
         "/images/crawled/9a45faffcbd19da89ce1db25f3f3ab14.jpg",
-        "/images/crawled/7c53027439762e41a76ed4be4e1d7bd1.jpg"
+        "/images/crawled/7c53027439762e41a76ed4be4e1d7bd1.jpg",
+        "/images/crawled/e418a51eafdf52cc4d376df6d485c099.jpg"
       ],
       "publishedAt": "2026-10-26T17:30:00.000Z",
       "isBreaking": false,
@@ -7205,7 +7483,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ৩৬০ স্থানীয় তথ্য, সংস্কৃতি ও সাম্প্রতিক আপডেট",
-      "lastCrawledAt": "2026-11-16T11:49:54.191Z"
+      "lastCrawledAt": "2026-11-17T04:47:25.332Z"
     },
     {
       "id": "src-fb-barta",
@@ -7218,7 +7496,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-11-16T11:49:58.884Z"
+      "lastCrawledAt": "2026-11-17T04:47:32.396Z"
     },
     {
       "id": "src-fb-update",
@@ -7231,7 +7509,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-11-16T11:50:01.779Z"
+      "lastCrawledAt": "2026-11-17T04:47:35.639Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -7244,7 +7522,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-11-16T11:50:04.460Z"
+      "lastCrawledAt": "2026-11-17T04:47:39.299Z"
     },
     {
       "id": "src-fb-voice",
@@ -7257,7 +7535,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-11-16T11:50:08.373Z"
+      "lastCrawledAt": "2026-11-17T04:47:43.684Z"
     },
     {
       "id": "src-fb-baruipur",
@@ -7270,7 +7548,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-11-16T11:50:11.557Z"
+      "lastCrawledAt": "2026-11-17T04:47:47.398Z"
     },
     {
       "id": "src-fb-police",
@@ -7283,7 +7561,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-11-16T11:50:13.638Z"
+      "lastCrawledAt": "2026-11-17T04:47:51.809Z"
     },
     {
       "id": "src-fb-uncover",
@@ -7296,7 +7574,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-11-16T11:50:16.909Z"
+      "lastCrawledAt": "2026-11-17T04:47:56.664Z"
     },
     {
       "id": "src-fb-24x7",
@@ -7309,7 +7587,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-11-16T11:50:21.112Z"
+      "lastCrawledAt": "2026-11-17T04:48:01.936Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -7322,7 +7600,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ",
-      "lastCrawledAt": "2026-11-16T11:50:24.723Z"
+      "lastCrawledAt": "2026-11-17T04:48:05.551Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -7335,7 +7613,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-11-16T11:50:29.013Z"
+      "lastCrawledAt": "2026-11-17T04:48:18.727Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -7348,7 +7626,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-11-16T11:50:32.118Z"
+      "lastCrawledAt": "2026-11-17T04:48:21.546Z"
     },
     {
       "id": "src-portal-abp",
@@ -7361,7 +7639,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "এবিপি আনন্দ বারুইপুর বিশেষ সংবাদ কভারেজ",
-      "lastCrawledAt": "2026-11-16T11:50:34.843Z"
+      "lastCrawledAt": "2026-11-17T04:48:21.998Z"
     },
     {
       "id": "src-portal-publicapp",
@@ -7373,7 +7651,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "পাবলিক অ্যাপ বারুইপুর লোকাল ভিডিও ও গ্রাউন্ড রিপোর্ট",
-      "lastCrawledAt": "2026-11-16T11:50:35.445Z"
+      "lastCrawledAt": "2026-11-17T04:48:22.293Z"
     },
     {
       "id": "src-portal-anandabazar",
@@ -7385,7 +7663,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আনন্দবাজার পত্রিকা বারুইপুর ও জেলা সংবাদ",
-      "lastCrawledAt": "2026-11-16T11:50:35.661Z"
+      "lastCrawledAt": "2026-11-17T04:48:23.027Z"
     },
     {
       "id": "src-portal-ndtv",
@@ -7397,7 +7675,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "এনডিটিভি বারুইপুর সংবাদ বুলেটিন",
-      "lastCrawledAt": "2026-11-16T11:50:35.811Z"
+      "lastCrawledAt": "2026-11-17T04:48:23.283Z"
     },
     {
       "id": "src-portal-twitter",
@@ -7409,7 +7687,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "এক্স / টুইটার বারুইপুর রিয়েল-টাইম ট্রেন্ড ও হ্যাশট্যাগ",
-      "lastCrawledAt": "2026-11-16T11:50:36.018Z"
+      "lastCrawledAt": "2026-11-17T04:48:23.558Z"
     },
     {
       "id": "src-fb-khobar48ghanta",
@@ -7423,7 +7701,7 @@
       "postsCount": 0,
       "description": "খবর ৪৮ ঘণ্টা - দক্ষিণ ২৪ পরগনা ও বারুইপুর আঞ্চলিক সংবাদ",
       "filterBaruipurOnly": true,
-      "lastCrawledAt": "2026-11-16T11:50:40.200Z"
+      "lastCrawledAt": "2026-11-17T04:48:27.169Z"
     },
     {
       "id": "src-fb-bengalnow",
@@ -7437,10 +7715,20 @@
       "postsCount": 0,
       "description": "বেঙ্গল নাও - বারুইপুর ও দক্ষিণবঙ্গের সাম্প্রতিক অনুসন্ধান ও সংবাদ",
       "filterBaruipurOnly": true,
-      "lastCrawledAt": "2026-11-16T11:50:43.251Z"
+      "lastCrawledAt": "2026-11-17T04:48:30.211Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1794890920115",
+      "timestamp": "2026-11-17T04:48:40.115Z",
+      "sourceId": "multi-19-sources",
+      "sourceName": "19টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 19টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 25, সমন্বয়ের পর: 14, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 25,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1794829848368",
       "timestamp": "2026-11-16T11:50:48.368Z",
