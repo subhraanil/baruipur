@@ -1,6 +1,98 @@
 {
   "articles": [
     {
+      "id": "art-1795003214898-3wzw",
+      "title": "মেয়াদ শেষের তিন মাস আগেই ভাঙছে বারুইপুর পুরবোর্ড",
+      "slug": "মেয়াদ-শেষের-তিন-মাস-আগেই-ভাঙছে-বারুইপুর-পুরব",
+      "summary": "মেয়াদ শেষের তিন মাস আগেই ভাঙছে বারুইপুর পুরবোর্ড! পদত্যাগের সিদ্ধান্ত চেয়ারম্যানের, পুরসভা ঘিরে জোর রাজনৈতিক জল্পনা",
+      "content": "মেয়াদ শেষের তিন মাস আগেই ভাঙছে বারুইপুর পুরবোর্ড! পদত্যাগের সিদ্ধান্ত চেয়ারম্যানের, পুরসভা ঘিরে জোর রাজনৈতিক জল্পনা",
+      "category": "municipality",
+      "categoryNameBn": "পৌরসভা ও নাগরিক",
+      "authorId": "priyabrata-mondal",
+      "authorName": "প্রিয়ব্রত মণ্ডল",
+      "authorRole": "নাগরিক পরিষেবা ও রেল পরিকাঠামো সংবাদদাতা",
+      "reportingLocation": "বারুইপুর জংশন",
+      "sourceId": "src-fb-bengalnow",
+      "sourceName": "Bengal Now / বেঙ্গল নাও",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122128696407274294",
+      "originalPostUrl": "https://www.facebook.com/122128696407274294",
+      "imageUrl": "/images/crawled/f600667d62639dbd2c42606a3e3b05ba.jpg",
+      "images": [
+        "/images/crawled/f600667d62639dbd2c42606a3e3b05ba.jpg",
+        "/images/crawled/e95a33975f3a789527db2bf3a7ec8005.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=29773953608961104",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29773953608961104&show_text=0",
+      "publishedAt": "2026-11-18T09:02:15.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 54,
+      "crawlHash": "f95e395e587b53a97cdcb1b8b6e48d1b"
+    },
+    {
+      "id": "art-1795003214584-ikse",
+      "title": "কোন স্কুলের স্টুডেন্ট তুমি",
+      "slug": "কোন-স্কুলের-স্টুডেন্ট-তুমি",
+      "summary": "কোন স্কুলের স্টুডেন্ট তুমি। কমেন্ট করে বলো 😃। Baruipur-বারুইপুর। বাইপাস এ কোথায় বলো দেখি 😃।",
+      "content": "কোন স্কুলের স্টুডেন্ট তুমি। কমেন্ট করে বলো 😃। Baruipur-বারুইপুর। বাইপাস এ কোথায় বলো দেখি 😃।",
+      "category": "education",
+      "categoryNameBn": "শিক্ষা ও বিদ্যায়তন",
+      "authorId": "mousumi-sengupta",
+      "authorName": "মৌসুমী সেনগুপ্ত",
+      "authorRole": "সংস্কৃতি, ঐতিহ্য ও শিক্ষা প্রতিনিধি",
+      "reportingLocation": "বারুইপুর রাসমাঠ",
+      "sourceId": "src-fb-24x7",
+      "sourceName": "Baruipur 24x7",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/122360443916020343",
+      "originalPostUrl": "https://www.facebook.com/122360443916020343",
+      "imageUrl": "/images/crawled/48e2e75f36bbb03b9655227623136cc2.jpg",
+      "images": [
+        "/images/crawled/48e2e75f36bbb03b9655227623136cc2.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=1014456755035334",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1014456755035334&show_text=0",
+      "publishedAt": "2026-11-18T09:27:12.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 53,
+      "crawlHash": "af319acd83e062ceabf55d03ac46f14e"
+    },
+    {
+      "id": "art-1795003212015-2l55",
+      "title": "এবারের ঈদে বারুইপুর শাহজাহান রোড নিউ বন্ধু সংঘের কার্গিল স্মৃতি মিউজিয়াম থিম এক অনন্য শ্র",
+      "slug": "এবারের-ঈদে-বারুইপুর-শাহজাহান-রোড-নিউ-বন্ধু-সং",
+      "summary": "এবারের ঈদে বারুইপুর শাহজাহান রোড নিউ বন্ধু সংঘের কার্গিল স্মৃতি মিউজিয়াম থিম এক অনন্য শ্রদ্ধার্ঘ্য। আপনি কি এই অসাধারণ থিম দেখতে যাচ্ছেন?",
+      "content": "এবারের ঈদে বারুইপুর শাহজাহান রোড নিউ বন্ধু সংঘের কার্গিল স্মৃতি মিউজিয়াম থিম এক অনন্য শ্রদ্ধার্ঘ্য। আপনি কি এই অসাধারণ থিম দেখতে যাচ্ছেন?",
+      "category": "general",
+      "categoryNameBn": "সব খবর",
+      "authorId": "subhranil-naskar",
+      "authorName": "শুভ্রনীল নস্কর",
+      "authorRole": "প্রধান সম্পাদক ও প্রকাশক",
+      "reportingLocation": "বারুইপুর সদর",
+      "sourceId": "src-fb-barta",
+      "sourceName": "Baruipur Barta",
+      "sourceType": "facebook",
+      "sourceUrl": "https://www.facebook.com/1527199922790337",
+      "originalPostUrl": "https://www.facebook.com/1527199922790337",
+      "imageUrl": "/images/crawled/2128becb6b01c65f590d122bf9744495.jpg",
+      "images": [
+        "/images/crawled/2128becb6b01c65f590d122bf9744495.jpg",
+        "/images/crawled/76d7fbeb79a0aa6f8802db8b0f487e93.jpg"
+      ],
+      "videoUrl": "https://www.facebook.com/watch/?v=983509341037724",
+      "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D983509341037724&show_text=0",
+      "publishedAt": "2026-11-18T08:36:14.000Z",
+      "isBreaking": false,
+      "isFeatured": false,
+      "status": "draft",
+      "views": 17,
+      "crawlHash": "48a9cff0fe37ca5c090faeef5f41248f"
+    },
+    {
       "id": "art-20261118-municipality-civic-drainage-road-repair",
       "title": "বারুইপুর পৌরসভার ১৭টি ওয়ার্ডে শীতকালীন রাস্তা সংস্কার ও গভীর নিকাশি ড্রেজিং অভিযান: পুরপ্রধানের সরেজমিনে তদারকি",
       "slug": "baruipur-municipality-ward-road-patchwork-drainage-desiltation-winter-drive",
@@ -177,7 +269,9 @@
       "imageUrl": "/images/crawled/a3ddc2d0faa96ae394cfa91cd6890579.jpg",
       "images": [
         "/images/crawled/a3ddc2d0faa96ae394cfa91cd6890579.jpg",
-        "/images/crawled/6252feb6de6f28dad6d3b2363049fba2.jpg"
+        "/images/crawled/6252feb6de6f28dad6d3b2363049fba2.jpg",
+        "/images/crawled/f887fcb445271f48c2c37d79f118e9eb.jpg",
+        "/images/crawled/2108c358acd70d141e0f01f05a473c8b.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=5297873330480083",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D5297873330480083&show_text=0",
@@ -207,7 +301,11 @@
       "originalPostUrl": "https://www.facebook.com/1643591471143414",
       "imageUrl": "/images/crawled/1a6de69e5d0d6e293f96cef2572b2da3.jpg",
       "images": [
-        "/images/crawled/1a6de69e5d0d6e293f96cef2572b2da3.jpg"
+        "/images/crawled/1a6de69e5d0d6e293f96cef2572b2da3.jpg",
+        "/images/crawled/78d6065ecf1a81c43497dae94dadc22e.jpg",
+        "/images/crawled/d338aaefb50901be951b188ff1a9d58f.jpg",
+        "/images/crawled/fd1fac3b8fc96dfb74b237116cc3b1b3.jpg",
+        "/images/crawled/4b6b23ef4725cba5710dec8ac3a717b5.jpg"
       ],
       "publishedAt": "2026-11-18T07:58:25.000Z",
       "isBreaking": false,
@@ -236,7 +334,8 @@
       "imageUrl": "/images/crawled/5075dda9ef9cc374c0ac6b9953d58756.jpg",
       "images": [
         "/images/crawled/5075dda9ef9cc374c0ac6b9953d58756.jpg",
-        "/images/crawled/44e8b85b3b87bbec2d92c6919efc8dd7.jpg"
+        "/images/crawled/44e8b85b3b87bbec2d92c6919efc8dd7.jpg",
+        "/images/crawled/edf01a23077da290f80ba0b002bcdaf0.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1648959033625193",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1648959033625193&show_text=0",
@@ -296,7 +395,8 @@
       "originalPostUrl": "https://www.facebook.com/1643111064524788",
       "imageUrl": "/images/crawled/725f0460a3562f5fb32c9c22146a248c.jpg",
       "images": [
-        "/images/crawled/725f0460a3562f5fb32c9c22146a248c.jpg"
+        "/images/crawled/725f0460a3562f5fb32c9c22146a248c.jpg",
+        "/images/crawled/bb0ae7b9c448257cfa88f5036ccdaaa3.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=1445699030415328",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445699030415328&show_text=0",
@@ -415,7 +515,8 @@
       "imageUrl": "/images/crawled/7d18bcb6a852dceeea72dfed9dcbc53b.jpg",
       "images": [
         "/images/crawled/7d18bcb6a852dceeea72dfed9dcbc53b.jpg",
-        "/images/crawled/234a3d7eea40460a1e01f3c30c588f2c.jpg"
+        "/images/crawled/234a3d7eea40460a1e01f3c30c588f2c.jpg",
+        "/images/crawled/bf8d782678728ce37c885dbf591564c2.jpg"
       ],
       "videoUrl": "https://www.facebook.com/watch/?v=4596745320594021",
       "videoEmbedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4596745320594021&show_text=0",
@@ -4414,7 +4515,8 @@
         "/images/crawled/7c53027439762e41a76ed4be4e1d7bd1.jpg",
         "/images/crawled/e418a51eafdf52cc4d376df6d485c099.jpg",
         "/images/crawled/538cd6765fa4aa42d029ed5d37ef8dc5.jpg",
-        "/images/crawled/32128c5e3f58aae00719c86cf9c4a4ea.jpg"
+        "/images/crawled/32128c5e3f58aae00719c86cf9c4a4ea.jpg",
+        "/images/crawled/be208d96a346aea00a6b849ddd85b64c.jpg"
       ],
       "publishedAt": "2026-10-26T17:30:00.000Z",
       "isBreaking": false,
@@ -7883,7 +7985,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ৩৬০ স্থানীয় তথ্য, সংস্কৃতি ও সাম্প্রতিক আপডেট",
-      "lastCrawledAt": "2026-11-18T08:01:48.605Z"
+      "lastCrawledAt": "2026-11-18T11:59:12.524Z"
     },
     {
       "id": "src-fb-barta",
@@ -7896,7 +7998,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর বার্তা সংবাদ ও সংস্কৃতি",
-      "lastCrawledAt": "2026-11-18T08:01:53.516Z"
+      "lastCrawledAt": "2026-11-18T11:59:18.262Z"
     },
     {
       "id": "src-fb-update",
@@ -7909,7 +8011,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ট্রেন, ট্রাফিক ও সাম্প্রতিক খবর",
-      "lastCrawledAt": "2026-11-18T08:01:56.963Z"
+      "lastCrawledAt": "2026-11-18T11:59:22.580Z"
     },
     {
       "id": "src-fb-pressclub",
@@ -7922,7 +8024,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর প্রেস ক্লাব সাংবাদিক সমাজ",
-      "lastCrawledAt": "2026-11-18T08:02:00.244Z"
+      "lastCrawledAt": "2026-11-18T11:59:26.213Z"
     },
     {
       "id": "src-fb-voice",
@@ -7935,7 +8037,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "ভয়েস অফ বারুইপুর নাগরিক কণ্ঠ",
-      "lastCrawledAt": "2026-11-18T08:02:04.871Z"
+      "lastCrawledAt": "2026-11-18T11:59:30.952Z"
     },
     {
       "id": "src-fb-baruipur",
@@ -7948,7 +8050,7 @@
       "autoPublish": true,
       "postsCount": 20,
       "description": "বারুইপুর প্রধান সোশ্যাল পেজ",
-      "lastCrawledAt": "2026-11-18T08:02:07.694Z"
+      "lastCrawledAt": "2026-11-18T11:59:34.406Z"
     },
     {
       "id": "src-fb-police",
@@ -7961,7 +8063,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর পুলিশ জেলা অফিসিয়াল আপডেট ও নিরাপত্তা বার্তা",
-      "lastCrawledAt": "2026-11-18T08:02:10.704Z"
+      "lastCrawledAt": "2026-11-18T11:59:38.147Z"
     },
     {
       "id": "src-fb-uncover",
@@ -7974,7 +8076,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর আনকভার আঞ্চলিক তথ্য ও অনুসন্ধান",
-      "lastCrawledAt": "2026-11-18T08:02:14.524Z"
+      "lastCrawledAt": "2026-11-18T11:59:41.590Z"
     },
     {
       "id": "src-fb-24x7",
@@ -7987,7 +8089,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "বারুইপুর ২৪x৭ লাইভ নিউজ",
-      "lastCrawledAt": "2026-11-18T08:02:18.780Z"
+      "lastCrawledAt": "2026-11-18T11:59:45.742Z"
     },
     {
       "id": "src-fb-amarshohor",
@@ -8000,7 +8102,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আমার শহর বারুইপুর ফেসবুক পেজ",
-      "lastCrawledAt": "2026-11-18T08:02:22.262Z"
+      "lastCrawledAt": "2026-11-18T11:59:49.195Z"
     },
     {
       "id": "src-fb-allbaruipur",
@@ -8013,7 +8115,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "অল বারুইপুর নিউজ ও স্থানীয় আপডেট",
-      "lastCrawledAt": "2026-11-18T08:02:23.860Z"
+      "lastCrawledAt": "2026-11-18T11:59:53.949Z"
     },
     {
       "id": "src-fb-ramnagar",
@@ -8026,7 +8128,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "রামনগর ও সংলগ্ন অঞ্চলের স্থানীয় নাগরিক আপডেট",
-      "lastCrawledAt": "2026-11-18T08:02:26.779Z"
+      "lastCrawledAt": "2026-11-18T11:59:56.745Z"
     },
     {
       "id": "src-portal-abp",
@@ -8039,7 +8141,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "এবিপি আনন্দ বারুইপুর বিশেষ সংবাদ কভারেজ",
-      "lastCrawledAt": "2026-11-18T08:02:29.897Z"
+      "lastCrawledAt": "2026-11-18T11:59:58.501Z"
     },
     {
       "id": "src-portal-publicapp",
@@ -8051,7 +8153,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "পাবলিক অ্যাপ বারুইপুর লোকাল ভিডিও ও গ্রাউন্ড রিপোর্ট",
-      "lastCrawledAt": "2026-11-18T08:02:30.210Z"
+      "lastCrawledAt": "2026-11-18T11:59:59.970Z"
     },
     {
       "id": "src-portal-anandabazar",
@@ -8063,7 +8165,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "আনন্দবাজার পত্রিকা বারুইপুর ও জেলা সংবাদ",
-      "lastCrawledAt": "2026-11-18T08:02:30.973Z"
+      "lastCrawledAt": "2026-11-18T12:00:00.260Z"
     },
     {
       "id": "src-portal-ndtv",
@@ -8075,7 +8177,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "এনডিটিভি বারুইপুর সংবাদ বুলেটিন",
-      "lastCrawledAt": "2026-11-18T08:02:31.285Z"
+      "lastCrawledAt": "2026-11-18T12:00:00.522Z"
     },
     {
       "id": "src-portal-twitter",
@@ -8087,7 +8189,7 @@
       "autoPublish": true,
       "postsCount": 0,
       "description": "এক্স / টুইটার বারুইপুর রিয়েল-টাইম ট্রেন্ড ও হ্যাশট্যাগ",
-      "lastCrawledAt": "2026-11-18T08:02:31.556Z"
+      "lastCrawledAt": "2026-11-18T12:00:00.717Z"
     },
     {
       "id": "src-fb-khobar48ghanta",
@@ -8101,7 +8203,7 @@
       "postsCount": 0,
       "description": "খবর ৪৮ ঘণ্টা - দক্ষিণ ২৪ পরগনা ও বারুইপুর আঞ্চলিক সংবাদ",
       "filterBaruipurOnly": true,
-      "lastCrawledAt": "2026-11-18T08:02:35.352Z"
+      "lastCrawledAt": "2026-11-18T12:00:07.629Z"
     },
     {
       "id": "src-fb-bengalnow",
@@ -8115,10 +8217,20 @@
       "postsCount": 0,
       "description": "বেঙ্গল নাও - বারুইপুর ও দক্ষিণবঙ্গের সাম্প্রতিক অনুসন্ধান ও সংবাদ",
       "filterBaruipurOnly": true,
-      "lastCrawledAt": "2026-11-18T08:02:39.468Z"
+      "lastCrawledAt": "2026-11-18T12:00:11.519Z"
     }
   ],
   "crawlLogs": [
+    {
+      "id": "log-1795003214898",
+      "timestamp": "2026-11-18T12:00:14.898Z",
+      "sourceId": "multi-19-sources",
+      "sourceName": "19টি ফেসবুক পেজ ও গ্রুপ",
+      "status": "success",
+      "message": "বিগত 1 দিনের 19টি ফেসবুক উৎস স্ক্যান সম্পন্ন। মোট পোস্ট সংগ্রহ: 36, সমন্বয়ের পর: 21, নতুন প্রকাশিত সংবাদ: 0 টি।",
+      "itemsFetched": 36,
+      "itemsPublished": 0
+    },
     {
       "id": "log-1794988977704",
       "timestamp": "2026-11-18T08:02:57.705Z",
