@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৮",
+  "lastUpdated": "২০২৬-১১-১৮ (রাত ১০:০০)",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,37 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-bm-2026-1118-roads-asphalt",
+      "nitNumber": "WBMAD/BM/NIT-20/ROADS-ASPHALT/2026",
+      "title": "বারুইপুর পুর এলাকার ৪ ও ৫ নম্বর ওয়ার্ডে ক্ষতিগ্রস্ত বিটুমিনাস রাস্তা সংস্কার ও পেভার ব্লক বসানো প্রকল্প",
+      "titleEn": "Repair and Bituminous Resurfacing along with Heavy-Duty Interlocking Paver Blocks in Ward No 4 & 5 under Baruipur Municipality",
+      "issuingAuthority": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা",
+      "department": "পৌর পূর্ত ও সিভিল রোড শাখা",
+      "location": "ওয়ার্ড ৪ ও ৫, বারুইপুর পুরসভা",
+      "category": "পৌর রাস্তাঘাট ও সিভিল পূর্ত",
+      "status": "active",
+      "publishedDate": "২০২৬-১১-১৮",
+      "publishDate": "২০২৬-১১-১৮",
+      "closingDate": "২০২৬-১২-২২",
+      "bidOpeningDate": "২০২৬-১২-২৫",
+      "estimatedCost": "₹১২,৪০,০০০",
+      "estimatedValue": "₹১২,৪০,০০০",
+      "estimatedValueNum": 1240000,
+      "estimatedCostNum": 1240000,
+      "emdAmount": "₹২৪,৮০০",
+      "tenderFee": "₹১,০০০",
+      "workLocation": "বারুইপুর পুর এলাকা (ওয়ার্ড ৪ ও ৫)",
+      "portalLink": "https://wbtenders.gov.in/nicgep/app",
+      "portalUrl": "https://wbtenders.gov.in/",
+      "sourcePortal": "wbtenders.gov.in",
+      "sourcePortalName": "wbtenders.gov.in (সরকারি ই-টেন্ডার পোর্টাল)",
+      "tenderRef": "WBMAD/BM/NIT-20/ROADS/2026",
+      "refNumber": "WBMAD/BM/NIT-20/ROADS/2026",
+      "eligibility": "পৌর বা রাজ্য সরকার অনুমোদিত অভিজ্ঞ সিভিল রাস্তা ঠিকাদার সংস্থা যাদের বিটুমিনাস সারফেসিং কাজে ন্যূনতম ৩ বছরের সফল ট্র্যাক রেকর্ড রয়েছে।"
+    },
     {
       "id": "ten-bm-2026-1118-drainage-culvert",
       "nitNumber": "WBMAD/BM/NIT-19/DRAIN-CULVERT/2026",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৮",
+  "lastUpdated": "২০২৬-১১-১৮ (রাত ১০:০০)",
   "portalUrl": "https://s24pgs.gov.in",
   "departments": [
     {
@@ -64,6 +64,25 @@
     }
   ],
   "notices": [
+    {
+      "id": "not-bm-2026-1118-drainage-winter",
+      "memoNo": "Memo No: 959/BM/DRAINAGE-WINTER/2026",
+      "title": "বারুইপুর পুরসভার ১৭টি ওয়ার্ডে শীতকালীন বিশেষ নিকাশি সাফাই ও ভ্যাট জীবাণুমুক্তকরণ অভিযান সংক্রান্ত বিজ্ঞপ্তি",
+      "titleEn": "Baruipur Municipality Notification on Winter Drainage Clearance, Waste Sanitization & Public Hygiene Drive",
+      "departmentId": "municipality",
+      "departmentName": "বারুইপুর পৌরসভা",
+      "publishedDate": "2026-11-18",
+      "publishedDateFormatted": "১৮ নভেম্বর, ২০২৬ (রাত)",
+      "category": "পৌর প্রশাসন ও নাগরিক পরিষেবা",
+      "isUrgent": false,
+      "summary": "মশা বাহিত রোগ প্রতিরোধ ও শীতকালীন নিকাশি স্বাভাবিক রাখতে সমস্ত ওয়ার্ডের ভূগর্ভস্থ নালা ও ড্রেন পলি মুক্ত করার বিশেষ অভিযান আগামী ২০ নভেম্বর থেকে শুরু হবে।",
+      "content": "বারুইপুর পুর এলাকার সমস্ত নাগরিক ও ব্যবসায়ীদের অবগতির জন্য জানানো যাচ্ছে:\\n\\n১. শীতকালীন আবহে মশার লার্ভা দমন এবং নিকাশি প্রবাহ স্বাভাবিক রাখার লক্ষ্যে পুরসভার স্বাস্থ্য ও জঞ্জাল অপসারণ শাখা আগামী ২০শে নভেম্বর থেকে ১৭টি ওয়ার্ডেই বিশেষ ড্রেনেজ সাফাই অভিযান শুরু করছে।\\n২. সমস্ত খোলা নর্দমা ও জঞ্জাল ভ্যাটে নিয়মিত ব্লিচিং পাউডার ও অ্যান্টি-লার্ভিসাইডাল তেল স্প্রে করা হবে।\\n৩. নাগরিকদের কাছে বিনীত অনুরোধ, ড্রেনে কোনো প্রকার প্লাস্টিক বোতল, থার্মোকল বা নির্মাণ সামগ্রী ফেলবেন না। আইন অমান্যকারীদের বিরুদ্ধে পুর আইনে ব্যবস্থা নেওয়া হবে।",
+      "sourceUrl": "https://s24pgs.gov.in/notice/",
+      "sourcePortalName": "s24pgs.gov.in (জেলা প্রশাসন)",
+      "pdfUrl": "https://s24pgs.gov.in/notice/",
+      "signatory": "পৌরপ্রধান, বারুইপুর পৌরসভা",
+      "status": "active"
+    },
     {
       "id": "not-sdo-2026-1118-rabi-crop-assistance",
       "memoNo": "Memo No: 712/SDO-BRP/AGRI-RABI/2026",
