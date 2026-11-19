@@ -40,6 +40,42 @@
   ],
   "properties": [
     {
+      "id": "prop-brp-032",
+      "title": "বারুইপুর কাছারি মোড় ও মহকুমা আদালত সংলগ্ন ১,২২০ বর্গফুট ৩ বিএইচকে সাউথ-ফেসিং প্রিমিয়াম রেডি ফ্ল্যাট",
+      "titleEn": "1,220 SqFt 3 BHK South-Facing Premium Ready Apartment near Baruipur Kachari More & Sub-Divisional Court",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "কাছারি মোড় সংলগ্ন, বারুইপুর পুর এলাকা",
+      "locationArea": "Kachari More / Court Area",
+      "price": "₹৩৬.৫০ লক্ষ (সহজ ব্যাংক ঋণ উপলব্ধ)",
+      "priceNum": 3650000,
+      "priceUnit": "total",
+      "configuration": "3 BHK (১,২২০ বর্গফুট সুপার বিল্ট-আপ) + ২টি ব্যালকনি + ২টি ওয়েস্টার্ন বাথরুম",
+      "areaSqFt": "১,২২০ বর্গফুট",
+      "facing": "দক্ষিণ-পূর্ব মুখী (খোলামেলা ও আলো-বাতাসময়)",
+      "floorInfo": "৩য় তলা (G+4 লিফট সহ রেডি অ্যাপার্টমেন্ট)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "WB RERA ও পৌর কমপ্লিশন সার্টিফিকেট (CC) প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পৌরসভা অনুমোদিত বৈধ আবাসিক বিল্ডিং প্ল্যান",
+      "bankLoanApproved": "SBI, HDFC ও PNB থেকে ৮০%-৮৫% গৃহঋণ সুবিধা",
+      "amenities": [
+        "অটোমেটিক ৬-যাত্রী লিফট ও ২৪ ঘণ্টা নিরবচ্ছিন্ন সাইলেন্ট জেনারেটর ব্যাকআপ",
+        "গ্রাউন্ড ফ্লোরে রিজার্ভড কভার্ড কার পার্কিং ও সিসিটিভি নজরদারি",
+        "রুফটপ ছাদবাগান, যোগা ডেক ও কমিউনিটি স্পেস",
+        "বারুইপুর কাছারি মোড়, আদালত ও রেলওয়ে স্টেশনের হাঁটা পথ"
+      ],
+      "description": "বারুইপুরের প্রাণকেন্দ্র কাছারি মোড় ও আদালতের অতি নিকটে অবস্থিত সম্পূর্ণ রেডি ৩ বিএইচকে বিলাসবহুল ফ্ল্যাট। ভিট্রিফাইড টাইলস ফ্লোরিং, গ্রানাইট স্ল্যাব কিচেন এবং পর্যাপ্ত আলো-বাতাস সমৃদ্ধ। সমস্ত স্কুল, হাসপাতাল ও বাজার কয়েক মিনিটের দূরত্বে।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "অভিজিৎ মুখার্জি (সাউথ বেঙ্গল প্রপার্টিজ)",
+      "contactPhone": "+91 98312 77410",
+      "contactWhatsapp": "+91 98312 77410",
+      "publishedAt": "২০২৬-১১-১৯"
+    },
+    {
       "id": "prop-brp-031",
       "title": "বারুইপুর হাই স্কুল ও পদ্মপুকুর সংলগ্ন ১,১৫০ বর্গফুট ৩ বিএইচকে সাউথ-ফেসিং আধুনিক ফ্ল্যাট (লিফট ও কভার্ড কার পার্কিং সহ)",
       "titleEn": "1,150 SqFt 3 BHK South-Facing Premium Ready Apartment near Baruipur High School & Padmapukur with Covered Parking",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "২০২৬-১১-১৮ (রাত ১০:০০)",
+  "lastUpdated": "2026-11-19",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,29 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-bm-2026-1119-water-supply",
+      "nitNumber": "WBMAD/BM/NIT-21/WATER-SUPPLY/2026",
+      "title": "বারুইপুর পুরসভার ৮ ও ৯ নম্বর ওয়ার্ডে পানীয় জল পাইপলাইন নেটওয়ার্ক সম্প্রসারণ ও ডিস্ট্রিবিউশন ভালভ সংস্থাপন",
+      "titleEn": "Expansion of Piped Drinking Water Distribution Network and Sluice Valve Installation in Ward 8 & 9 under Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পানি সরবরাহ ও জনস্বাস্থ্য কারিগরি বিভাগ",
+      "location": "ওয়ার্ড ৮ ও ৯ (মাস্টারপাড়া, রেলগেট ও সংলগ্ন এলাকা), বারুইপুর",
+      "category": "পানীয় জল প্রকল্প (Water Infrastructure)",
+      "estimatedValue": "₹১৫,৮০,০০০",
+      "estimatedValueNum": 1580000,
+      "emdAmount": "₹৩১,৬০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-১৯",
+      "closingDate": "২০২৬-১২-১০",
+      "bidOpeningDate": "২০২৬-১২-১২",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-21/WTR/2026",
+      "eligibility": "পৌরসভা, পিএইচই (PHE) বা কেএমডিএ এলাকায় পানীয় জল পাইপলাইন বসানো ও ডিস্ট্রিবিউশন নেটওয়ার্ক রক্ষণাবেক্ষণে ৩ বছরের অভিজ্ঞতাসম্পন্ন ঠিকাদারি সংস্থা।",
+      "sourcePortalName": "wbtenders.gov.in"
+    },
     {
       "id": "ten-bm-2026-1118-roads-asphalt",
       "nitNumber": "WBMAD/BM/NIT-20/ROADS-ASPHALT/2026",
