@@ -40,6 +40,42 @@
   ],
   "properties": [
     {
+      "id": "prop-brp-033",
+      "title": "বারুইপুর রেলওয়ে স্টেশন রোড ও পুরাতন বাজার সংলগ্ন ৩৫০ বর্গফুটের রানিং কমার্শিয়াল দোকান/শো-রুম স্পেস বিক্রয়",
+      "titleEn": "350 SqFt Running Prime Commercial Shop / Showroom Space for Sale near Baruipur Railway Station & Puratan Bazar",
+      "category": "commercial",
+      "categoryNameBn": "বাণিজ্যিক দোকান (Commercial Shop)",
+      "location": "স্টেশন রোড, পুরাতন বাজার প্রবেশমুখ, বারুইপুর পুর এলাকা",
+      "locationArea": "Station Road / Puratan Bazar",
+      "price": "₹১৮.০০ লক্ষ (এককালীন হস্তান্তর মূল্য)",
+      "priceNum": 1800000,
+      "priceUnit": "total",
+      "configuration": "৩৫০ বর্গফুট গ্রাউন্ড ফ্লোর শপ + রোলিং শাটার + গ্লাস ফ্রন্ট ডিসপ্লে",
+      "areaSqFt": "৩৫০ বর্গফুট",
+      "facing": "উত্তর-পূর্ব মুখী (প্রধান পিচ রাস্তার ওপর বিশাল ফুটফল)",
+      "floorInfo": "গ্রাউন্ড ফ্লোর (সরাসরি রাস্তা সংলগ্ন ফ্রন্ট শপ)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Immediate Possession)",
+      "reraStatus": "বারুইপুর পুরসভা অনুমোদিত বাণিজ্যিক ট্রেড লাইসেন্স যোগ্য",
+      "approvalStatus": "সম্পূর্ণ রায়তি ও নিষ্কণ্টক আইনি দলিল সহ প্রস্তুত",
+      "bankLoanApproved": "বাণিজ্যিক ব্যবসার জন্য যেকোনো জাতীয়কৃত ব্যাংক থেকে ঋণ সুবিধা",
+      "amenities": [
+        "গ্রাউন্ড ফ্লোর মেইন রোড ফ্রন্টে ২৪ ঘণ্টা ক্রেতাদের বিশাল আনাগোনা",
+        "পৃথক বাণিজ্যিক বিদ্যুৎ মিটার ও সার্বক্ষণিক জলের ব্যবস্থা",
+        "ফার্মেসি, মিষ্টির দোকান, প্যাথলজি বা কাপড়ের শোরুমের জন্য আদর্শ",
+        "বারুইপুর রেল স্টেশন থেকে মাত্র ২ মিনিটের হাঁটা পথ"
+      ],
+      "description": "বারুইপুরের সর্বোচ্চ ভিড়যুক্ত এলাকা স্টেশন রোড ও পুরাতন বাজারের মোড়ে অবস্থিত ৩৫০ বর্গফুটের তৈরি বাণিজ্যিক দোকান। ফ্রন্ট রোড ভিউ, টাইলস ফ্লোরিং এবং মজবুত রিলিং শাটার সহ প্রস্তুত। রেডি ইনভেস্টমেন্ট ও নিয়মিত মাসিক ভাড়ার জন্য অতুলনীয় সুযোগ।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "তারক নাথ সাহা (বারুইপুর ট্রেডার্স কনসালটেন্সি)",
+      "contactPhone": "+91 98308 11492",
+      "contactWhatsapp": "+91 98308 11492",
+      "publishedAt": "২০২৬-১১-১৯"
+    },
+    {
       "id": "prop-brp-032",
       "title": "বারুইপুর কাছারি মোড় ও মহকুমা আদালত সংলগ্ন ১,২২০ বর্গফুট ৩ বিএইচকে সাউথ-ফেসিং প্রিমিয়াম রেডি ফ্ল্যাট",
       "titleEn": "1,220 SqFt 3 BHK South-Facing Premium Ready Apartment near Baruipur Kachari More & Sub-Divisional Court",
