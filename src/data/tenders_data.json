@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,29 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-bm-2026-1120-drain-culvert",
+      "nitNumber": "WBMAD/BM/NIT-22/DRAIN-CULVERT/2026",
+      "title": "বারুইপুর পুরসভার ১১ ও ১২ নম্বর ওয়ার্ডে পাকা আরসিসি ড্রেন ও বক্স কালভার্ট নির্মাণ প্রকল্প",
+      "titleEn": "Construction of Reinforced Concrete (RCC) Covered Drain and Box Culverts in Ward No. 11 & 12 under Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পূর্ত ও নিকাশি পরিকাঠামো শাখা",
+      "location": "ওয়ার্ড ১১ ও ১২ (মাদরাত সংযোগ ও শ্মশান রোড এলাকা), বারুইপুর",
+      "category": "পূর্ত ও নিকাশি (Civil Drainage)",
+      "estimatedValue": "₹২১,২০,০০০",
+      "estimatedValueNum": 2120000,
+      "emdAmount": "₹৪২,৪০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-২০",
+      "closingDate": "২০২৬-১২-১৪",
+      "bidOpeningDate": "২০২৬-১২-১৬",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-22/DRN/2026",
+      "eligibility": "পৌরসভা, পূর্ত দপ্তর (PWD) বা কেএমডিএ এলাকায় আরসিসি ড্রেন ও কালভার্ট নির্মাণ কার্যে পূর্ব অভিজ্ঞতাসম্পন্ন বৈধ জিএসটি ও ট্রেড লাইসেন্সধারী ঠিকাদারি প্রতিষ্ঠান।",
+      "sourcePortalName": "wbtenders.gov.in"
+    },
     {
       "id": "ten-zp-2026-1119-solar-lights",
       "nitNumber": "WBZP/S24PGS/NIT-48/SOLAR-LIGHT/2026",
