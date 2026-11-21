@@ -40,11 +40,14 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
   const safeImgUrl = getSafeImageUrl(article.imageUrl);
   const fallbackImg = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80';
 
+  const articleDate = article.publishedAt || (article as any).published_at || (article as any).date;
+
   // Only consider 'breaking' if published within the last 24 hours
   const isRecentBreaking = Boolean(
     article.isBreaking && 
-    article.publishedAt && 
-    (Date.now() - new Date(article.publishedAt).getTime() < 24 * 60 * 60 * 1000)
+    articleDate && 
+    !isNaN(new Date(articleDate).getTime()) &&
+    (Date.now() - new Date(articleDate).getTime() < 24 * 60 * 60 * 1000)
   );
 
   const safeAlt = (text: string, max = 78) => {
@@ -104,7 +107,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
               )}
               <span className="text-slate-500 text-xs flex items-center gap-1 font-medium">
                 <Clock className="w-3.5 h-3.5 text-slate-400" />
-                {article.isGuide ? 'স্থায়ী গাইড' : formatTimeAgoBengali(article.publishedAt)}
+                {article.isGuide ? 'স্থায়ী গাইড' : formatTimeAgoBengali(articleDate)}
               </span>
             </div>
 
@@ -194,7 +197,7 @@ export default function NewsCard({ article, variant = 'standard' }: NewsCardProp
           <div className="flex items-center gap-2 text-slate-500 text-xs mb-2">
             <span className="flex items-center gap-1 text-xs">
               <Clock className="w-3.5 h-3.5 text-slate-400" />
-              {article.isGuide ? 'স্থায়ী গাইড' : formatTimeAgoBengali(article.publishedAt)}
+              {article.isGuide ? 'স্থায়ী গাইড' : formatTimeAgoBengali(articleDate)}
             </span>
             <span>•</span>
             <span className="truncate text-slate-600 text-xs font-medium">

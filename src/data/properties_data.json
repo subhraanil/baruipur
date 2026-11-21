@@ -40,6 +40,42 @@
   ],
   "properties": [
     {
+      "id": "prop-brp-035",
+      "title": "বারুইপুর রেলগেট ও স্টেশন চত্বর সংলগ্ন ১,০৫০ বর্গফুট রেডি ২ বিএইচকে সাউথ-ফেসিং ফ্ল্যাট বিক্রয় (লিফট ও সিসিটিভি সহ)",
+      "titleEn": "1,050 SqFt Ready 2 BHK South-Facing Flat near Baruipur Railgate & Railway Junction with Lift & CCTV",
+      "category": "new_flat",
+      "categoryNameBn": "নতুন ফ্ল্যাট (New Flat)",
+      "location": "মাস্টারপাড়া, রেলগেট সংলগ্ন, বারুইপুর পুর এলাকা",
+      "locationArea": "Railgate / Masterpara",
+      "price": "₹২৮.৫০ লক্ষ (সহজ ব্যাংক কিস্তি সুবিধা)",
+      "priceNum": 2850000,
+      "priceUnit": "total",
+      "configuration": "2 BHK (১,০৫০ বর্গফুট সুপার বিল্ট-আপ) + ১টি খোলামেলা ব্যালকনি + ২টি বাথরুম",
+      "areaSqFt": "১,০৫০ বর্গফুট",
+      "facing": "দক্ষিণ-পশ্চিম মুখী (খোলামেলা ও আলোময়)",
+      "floorInfo": "২য় তলা (G+4 আধুনিক রেসিডেনশিয়াল বিল্ডিং)",
+      "possessionStatus": "তাৎক্ষণিক হস্তান্তর (Ready to Move)",
+      "reraStatus": "WB RERA ও পৌর কমপ্লিশন সার্টিফিকেট প্রাপ্ত",
+      "approvalStatus": "বারুইপুর পুরসভা অনুমোদিত বৈধ আবাসিক বিল্ডিং নকশা",
+      "bankLoanApproved": "SBI, PNB ও HDFC থেকে ৮০%-৮৫% লোন অনুমোদিত",
+      "amenities": [
+        "অটোমেটিক লিফট ও নিরবচ্ছিন্ন ২৪ ঘণ্টা সাইলেন্ট জেনারেটর ব্যাকআপ",
+        "নিরাপত্তার জন্য সার্বক্ষণিক সিসিটিভি ক্যামেরা ও ইন্টারকম",
+        "টু-হুইলার ও ফোর-হুইলার পার্কিং এর সুব্যবস্থা",
+        "বারুইপুর রেলওয়ে স্টেশন ও লোকাল বাজার থেকে মাত্র ৩ মিনিটের হাঁটা পথ"
+      ],
+      "description": "বারুইপুর রেলগেট ও মাস্টারপাড়ায় প্রধান সংযোগ সড়কের সন্নিকটে অবস্থিত সম্পূর্ণ রেডি ১,০৫০ বর্গফুটের ২ বিএইচকে ফ্ল্যাট। প্রিমিয়াম ফ্লোরিং, আধুনিক বাথরুম ফিটিংস এবং খোলামেলা ব্যালকনি। নিত্যযাত্রী ও ছোট পরিবারের জন্য যাতায়াতের অতুলনীয় সুবিধা।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "পিনাকী ভট্টাচার্য (মাস্টারপাড়া রিয়েল এস্টেট)",
+      "contactPhone": "+91 94331 44520",
+      "contactWhatsapp": "+91 94331 44520",
+      "publishedAt": "২০২৬-১১-২১"
+    },
+    {
       "id": "prop-brp-034",
       "title": "বারুইপুর দক্ষিণ গোবিন্দপুর ও বাইপাস কানেক্টর সংলগ্ন ২.৫ কাঠা নিষ্কণ্টক বাস্তু জমি বিক্রয়",
       "titleEn": "2.5 Katha Prime Freehold Residential Vastu Land for Sale near Baruipur Dakshin Gobindapur & Bypass Connector",

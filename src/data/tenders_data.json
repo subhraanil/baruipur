@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-21",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,29 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-sdh-2026-1121-fire-safety",
+      "nitNumber": "WBHSD/SDH-BRP/NIT-07/FIRE-SAFETY/2026",
+      "title": "বারুইপুর মহকুমা হাসপাতালের ইনডোর, এসএনসিইউ (SNCU) ও ডায়ালিসিস ইউনিটে ফায়ার অ্যালার্ম ও অটোমেটিক স্প্রিংকলার সিস্টেম সংস্কার ও বার্ষিক রক্ষণাবেক্ষণ",
+      "titleEn": "Comprehensive Maintenance and Repair of Fire Detection, Alarm & Automatic Sprinkler System at Baruipur Sub-Divisional Hospital",
+      "authorityId": "hospital",
+      "authorityName": "বারুইপুর মহকুমা হাসপাতাল (Baruipur SDH)",
+      "department": "স্বাস্থ্য ও পরিবার কল্যাণ দপ্তর, পশ্চিমবঙ্গ সরকার",
+      "location": "বারুইপুর মহকুমা হাসপাতাল প্রাঙ্গণ, দক্ষিণ ২৪ পরগনা",
+      "category": "অগ্নি-সুরক্ষা পরিকাঠামো (Fire Safety)",
+      "estimatedValue": "₹১৪,৬০,০০০",
+      "estimatedValueNum": 1460000,
+      "emdAmount": "₹২৯,২০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-২১",
+      "closingDate": "২০২৬-১২-১২",
+      "bidOpeningDate": "২০২৬-১২-১৫",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBHSD/SDH-BRP/NIT-07/FS/2026",
+      "eligibility": "সরকারি হাসপাতাল বা স্বাস্থ্যকেন্দ্রে ফায়ার ফাইটিং, হিট অ্যান্ড স্মোক ডিটেকশন ও স্প্রিংকলার সিস্টেম ইনস্টলেশন ও রক্ষণাবেক্ষণে ৩ বছরের অভিজ্ঞতাসম্পন্ন লাইসেন্সপ্রাপ্ত সংস্থা।",
+      "sourcePortalName": "wbtenders.gov.in"
+    },
     {
       "id": "ten-bm-2026-1120-drain-culvert",
       "nitNumber": "WBMAD/BM/NIT-22/DRAIN-CULVERT/2026",

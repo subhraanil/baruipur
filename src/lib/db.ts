@@ -227,7 +227,13 @@ export const db = {
       list = list.filter(a => a.title.toLowerCase().includes(q) || a.content.toLowerCase().includes(q) || a.summary.toLowerCase().includes(q));
     }
 
-    list.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+    list.sort((a, b) => {
+      const bDate = b.publishedAt || (b as any).published_at || (b as any).date;
+      const aDate = a.publishedAt || (a as any).published_at || (a as any).date;
+      const timeB = bDate && !isNaN(new Date(bDate).getTime()) ? new Date(bDate).getTime() : 0;
+      const timeA = aDate && !isNaN(new Date(aDate).getTime()) ? new Date(aDate).getTime() : 0;
+      return timeB - timeA;
+    });
 
     if (filter?.limit && filter.limit > 0) {
       list = list.slice(0, filter.limit);

@@ -3,8 +3,10 @@ export function toBengaliNumber(num: number | string): string {
   return String(num).replace(/[0-9]/g, d => bnDigits[parseInt(d, 10)]);
 }
 
-export function formatBengaliDate(dateInput: Date | string): string {
+export function formatBengaliDate(dateInput?: Date | string | null): string {
+  if (!dateInput) return '';
   const d = typeof dateInput === 'string' ? new Date(dateInput) : dateInput;
+  if (!d || typeof d.getTime !== 'function' || isNaN(d.getTime())) return '';
   const days = ['রবিবার', 'সোমবার', 'মঙ্গলবার', 'বুধবার', 'বৃহস্পতিবার', 'শুক্রবার', 'শনিবার'];
   const months = ['জানুয়ারি', 'ফেব্রুয়ারি', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্টেম্বর', 'অক্টোবর', 'নভেম্বর', 'ডিসেম্বর'];
 
@@ -16,8 +18,10 @@ export function formatBengaliDate(dateInput: Date | string): string {
   return `${dayName}, ${dateNum} ${monthName} ${yearNum}`;
 }
 
-export function formatTimeAgoBengali(dateInput: Date | string): string {
+export function formatTimeAgoBengali(dateInput?: Date | string | null): string {
+  if (!dateInput) return 'সম্প্রতি';
   const d = typeof dateInput === 'string' ? new Date(dateInput) : dateInput;
+  if (!d || typeof d.getTime !== 'function' || isNaN(d.getTime())) return 'সম্প্রতি';
   const now = new Date();
   const diffMs = now.getTime() - d.getTime();
   const diffSec = Math.floor(diffMs / 1000);

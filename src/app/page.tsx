@@ -80,8 +80,10 @@ export default function HomePage() {
     let scoreA = 0;
     let scoreB = 0;
     const now = Date.now();
-    const ageDaysA = (now - new Date(a.publishedAt).getTime()) / (1000 * 60 * 60 * 24);
-    const ageDaysB = (now - new Date(b.publishedAt).getTime()) / (1000 * 60 * 60 * 24);
+    const aDate = a.publishedAt || (a as any).published_at || (a as any).date;
+    const bDate = b.publishedAt || (b as any).published_at || (b as any).date;
+    const ageDaysA = aDate && !isNaN(new Date(aDate).getTime()) ? (now - new Date(aDate).getTime()) / (1000 * 60 * 60 * 24) : 999;
+    const ageDaysB = bDate && !isNaN(new Date(bDate).getTime()) ? (now - new Date(bDate).getTime()) / (1000 * 60 * 60 * 24) : 999;
 
     // Recency weighting
     if (ageDaysA <= 3) scoreA += 100;
