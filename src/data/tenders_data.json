@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21",
+  "lastUpdated": "2026-11-22",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,29 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-bm-2026-1122-led-streetlighting",
+      "nitNumber": "WBMAD/BM/NIT-23/LED-STREETLIGHT/2026",
+      "title": "বারুইপুর পুরসভার কুলপী রোড, স্টেশন রোড ও নবনির্মিত বাইপাস সংযোগে উচ্চ ক্ষমতাসম্পন্ন স্মার্ট এলইডি স্ট্রিট লাইট সংস্থাপন ও পোল ফিটিংস",
+      "titleEn": "Supply, Installation & Commissioning of Smart Energy-Efficient LED Street Light Fittings on Kulpi Road, Station Road & Bypass Connectors under Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "বিদ্যুৎ ও পৌর আলোকসজ্জা বিভাগ",
+      "location": "কুলপী রোড, বারুইপুর স্টেশন রোড ও বাইপাস ক্রসিং",
+      "category": "বৈদ্যুতিক পরিকাঠামো (Electrical Lighting)",
+      "estimatedValue": "₹১৬,৭৫,০০০",
+      "estimatedValueNum": 1675000,
+      "emdAmount": "₹৩৩,৫০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-২২",
+      "closingDate": "২০২৬-১২-১৫",
+      "bidOpeningDate": "২০২৬-১২-১৭",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-23/ELEC/2026",
+      "eligibility": "সরকারি বা পুর সংস্থায় এলইডি স্ট্রিট লাইটিং, আন্ডারগ্রাউন্ড ক্যাবলিং ও অটোমেটিক টাইমার প্যানেল ইনস্টলেশনে ৩ বছরের অভিজ্ঞতাসম্পন্ন বৈদ্যুতিক ঠিকাদারি লাইসেন্সধারী এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in"
+    },
     {
       "id": "ten-sdh-2026-1121-fire-safety",
       "nitNumber": "WBHSD/SDH-BRP/NIT-07/FIRE-SAFETY/2026",
