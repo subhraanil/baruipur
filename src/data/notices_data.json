@@ -61,9 +61,79 @@
       "name": "মহকুমা বিদ্যালয় পরিদর্শক দপ্তর (DI / SI Schools, Baruipur)",
       "shortName": "বিদ্যালয় পরিদর্শক (শিক্ষা)",
       "code": "EDU"
+    },
+    {
+      "id": "bida",
+      "name": "বারুইপুর উন্নয়ন কর্তৃপক্ষ (BIDA - Baruipur Industrial & Development Authority)",
+      "shortName": "উন্নয়ন কর্তৃপক্ষ (BIDA)",
+      "code": "BIDA"
+    },
+    {
+      "id": "suda",
+      "name": "রাজ্য নগর উন্নয়ন সংস্থা ও পৌর বিষয়ক (SUDA & UDMA)",
+      "shortName": "নগর উন্নয়ন (SUDA)",
+      "code": "SUDA"
+    },
+    {
+      "id": "phe",
+      "name": "জনস্বাস্থ্য কারিগরি দপ্তর (Public Health Engineering - PHE Baruipur)",
+      "shortName": "জনস্বাস্থ্য কারিগরি (PHE)",
+      "code": "PHE"
+    },
+    {
+      "id": "zp",
+      "name": "দক্ষিণ ২৪ পরগনা জেলা পরিষদ (South 24 Parganas Zilla Parishad)",
+      "shortName": "জেলা পরিষদ (ZP)",
+      "code": "ZP"
+    },
+    {
+      "id": "central_gem",
+      "name": "পূর্ব রেলওয়ে ও কেন্দ্রীয় সংস্থা (Eastern Railway & GeM Baruipur)",
+      "shortName": "রেলওয়ে ও GeM",
+      "code": "GeM"
     }
   ],
   "notices": [
+    {
+      "id": "not-phe-2026-1123-arsenic-testing",
+      "memoNo": "Memo No: 890/EE/PHE/BRP-ARSENIC/2026",
+      "title": "বারুইপুর ১ ও ২ নম্বর ব্লকের ভূগর্ভস্থ আর্সেনিক প্রবণ পঞ্চায়েত এলাকায় গভীর নলকূপ ও ওয়াটার ফিল্ট্রেশন প্ল্যান্টের গুণমান পরীক্ষা সংক্রান্ত জরুরি স্বাস্থ্য নির্দেশিকা",
+      "titleEn": "Groundwater Quality Testing & Arsenic Mitigation Advisory for Deep Tube Wells across Baruipur-I & II Block Gram Panchayats",
+      "departmentId": "phe",
+      "departmentName": "জনস্বাস্থ্য কারিগরি দপ্তর (PHE Baruipur Sub-Division)",
+      "publishedDate": "2026-11-23",
+      "publishedDateFormatted": "২৩ নভেম্বর, ২০২৬",
+      "category": "পানীয় জল সুরক্ষা ও ল্যাবরেটরি টেস্ট",
+      "isUrgent": false,
+      "summary": "কল্যাণপুর, হরিহরপুর ও মল্লিকপুর পঞ্চায়েতের সাধারণ গ্রামীণ নলকূপের জল পরীক্ষা এবং নির্ধারিত মাত্রাতিরিক্ত আর্সেনিকযুক্ত লাল চিহ্নিত নলকূপ থেকে জলপান নিষিদ্ধকরণ বিজ্ঞপ্তি।",
+      "content": "জনস্বাস্থ্য কারিগরি দপ্তরের বারুইপুর মহকুমা ল্যাবরেটরির পক্ষ থেকে বারুইপুর গ্রামীণ জনপদের সাধারণ নাগরিক ও পঞ্চায়েত প্রধানদের অবগতির জন্য জানানো যাচ্ছে:\n\n১. বারুইপুর মহকুমার সমস্ত গ্রামীণ গভীর ও অগভীর নলকূপের জলের নমুনা সংগ্রহ ও রাসায়নিক পরীক্ষা প্রক্রিয়া নিয়মিত পরিচালিত হচ্ছে।\n২. যে সমস্ত ব্যক্তিগত বা সরকারি নলকূপে গ্রহণযোগ্য মাত্রার চেয়ে বেশি আর্সেনিক শনাক্ত হয়েছে, সেখানে দপ্তরের পক্ষ থেকে লাল রঙের সুরক্ষা ব্যান্ড লাগানো হয়েছে। ওই নলকূপের জল কোনোভাবেই পানীয় বা রান্নার কাজে ব্যবহার করা যাবে না।\n৩. প্রতিটি পঞ্চায়েতে স্থাপন করা সরকারি পিএইচই ওয়াটার এটিএম (Water ATM) ও পাইপলাইনের সরবরাহকৃত গভীর ভূগর্ভস্থ ফিল্টার্ড জল ব্যবহারের অনুরোধ করা হচ্ছে।\n৪. স্থানীয় বিদ্যালয় ও অঙ্গনওয়াড়ি কেন্দ্রগুলিতে বিনামূল্যে জলের গুণমান পরীক্ষার আবেদন সংশ্লিষ্ট পঞ্চায়েত অফিসে জমা দেওয়া যাবে।",
+      "pdfUrl": "https://wbphed.gov.in/",
+      "pdfSize": "488 KB",
+      "signatory": "সহকারী বাস্তুকার, বারুইপুর পিএইচই সাব-ডিভিশন, জনস্বাস্থ্য কারিগরি দপ্তর",
+      "status": "active",
+      "sourceUrl": "https://wbphed.gov.in/",
+      "sourcePortalName": "wbphed.gov.in (জনস্বাস্থ্য কারিগরি দপ্তর)"
+    },
+    {
+      "id": "not-suda-2026-1123-amrut-water",
+      "memoNo": "Memo No: 204/SUDA/AMRUT-II/BRP-WATER/2026",
+      "title": "বারুইপুর পৌরসভা এলাকায় 'অম্রুত ২.০' (AMRUT 2.0) প্রকল্পের আওতায় প্রতিটি ওয়ার্ডে পাইপলাইনের মাধ্যমে ২৪ ঘণ্টা বিশুদ্ধ পরিশ্রুত পানীয় জল সরবরাহ সংযোগ সংক্রান্ত সার্বজনীন নির্দেশিকা",
+      "titleEn": "Public Notification on House-to-House Piped Drinking Water Connections under AMRUT 2.0 across all Wards of Baruipur Municipality",
+      "departmentId": "suda",
+      "departmentName": "রাজ্য নগর উন্নয়ন সংস্থা ও বারুইপুর পৌরসভা (SUDA & BM)",
+      "publishedDate": "2026-11-23",
+      "publishedDateFormatted": "২৩ নভেম্বর, ২০২৬",
+      "category": "পৌর জল সরবরাহ ও জনস্বাস্থ্য",
+      "isUrgent": false,
+      "summary": "বারুইপুর পুরসভার ১ থেকে ১৭ নম্বর ওয়ার্ডের বাসিন্দাদের জন্য ভূগর্ভস্থ আর্সেনিকমুক্ত পরিশ্রুত পানীয় জলের পাইপলাইন নেটওয়ার্ক চালু ও বিনামূল্যে গৃহস্থালি ওয়াটার মিটার সংযোগ সংক্রান্ত আনুষ্ঠানিক নির্দেশিকা।",
+      "content": "বারুইপুর পৌরসভা ও রাজ্য নগর উন্নয়ন সংস্থা (SUDA)-র যৌথ উদ্যোগে অম্রুত ২.০ (AMRUT 2.0) প্রকল্পের অধীনে বারুইপুর শহরবাসীর জন্য নিম্নলিখিত পরিষেবা নির্দেশিকা জারি করা হলো:\n\n১. পুরসভা এলাকার প্রতিটি পরিবারের দোরগোড়ায় পরিশ্রুত ও আর্সেনিকমুক্ত ভূগর্ভস্থ পানীয় জল পৌঁছে দেওয়ার জন্য আধুনিক ডিআই পাইপলাইন সংস্থাপন কাজ সমাপ্তির পথে।\n২. প্রতিটি ওয়ার্ডে নির্ধারিত ক্যাম্পের মাধ্যমে বাসিন্দারা কোনো অতিরিক্ত জামানত ছাড়াই বৈধ পৌর নাগরিক প্রমাণপত্র দেখিয়ে গৃহস্থালি সংযোগ আবেদন জমা দিতে পারবেন।\n৩. অনুমোদনহীন কোনো মোটর পাম্প সরাসরি ডিস্ট্রিবিউশন পাইপলাইনে যুক্ত করা আইনত দণ্ডনীয় অপরাধ। আইন অমান্যকারীদের বিরুদ্ধে পুর আইন অনুযায়ী জরিমানা ও সংযোগ বিচ্ছিন্ন করা হবে।\n৪. জল অপচয় রোধে সচেতন থাকুন এবং যেকোনো ফুটো বা পাইপলাইন মেরামতের জন্য পুরসভার জল সরবরাহ কন্ট্রোল রুমে অবহিত করুন।",
+      "pdfUrl": "https://wburbanservices.gov.in/",
+      "pdfSize": "540 KB",
+      "signatory": "প্রকল্প আধিকারিক (AMRUT), SUDA ও কার্যনির্বাহী বাস্তুকার, বারুইপুর পৌরসভা",
+      "status": "active",
+      "sourceUrl": "https://wburbanservices.gov.in/",
+      "sourcePortalName": "wburbanservices.gov.in (SUDA)"
+    },
     {
       "id": "not-health-2026-1123-mobile-medical-camp-rasmela",
       "memoNo": "Memo No: 1442/SDO/BRP/HEALTH-RASMELA/2026",
@@ -930,6 +1000,157 @@
       "status": "active",
       "sourceUrl": "https://s24pgs.gov.in/notice/",
       "sourcePortalName": "s24pgs.gov.in (পৌরসভা)"
+    }
+  ],
+  "trackedSources": [
+    {
+      "id": "s24pgs_admin",
+      "name": "দক্ষিণ ২৪ পরগনা জেলা ও মহকুমা প্রশাসন (s24pgs.gov.in)",
+      "url": "https://s24pgs.gov.in/notice/",
+      "type": "district_administration",
+      "scope": "SDO Baruipur, DM, Land & BL&LRO, Disaster, Law & Order",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "SDO Baruipur",
+        "Baruipur Sub-Division",
+        "BRP"
+      ]
+    },
+    {
+      "id": "wb_urban_services",
+      "name": "পৌর বিষয়ক দপ্তর ও সুডা (SUDA / Urban Development)",
+      "url": "https://wburbanservices.gov.in/",
+      "type": "municipal_affairs",
+      "scope": "Baruipur Municipality, Banglar Awas, AMRUT 2.0, Solid Waste Management",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Municipality",
+        "বারুইপুর পৌরসভা"
+      ]
+    },
+    {
+      "id": "bida_authority",
+      "name": "বারুইপুর উন্নয়ন কর্তৃপক্ষ (BIDA)",
+      "url": "https://wbdma.gov.in/",
+      "type": "development_authority",
+      "scope": "Baruipur New Town, District Administrative Headquarters Complex",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "BIDA",
+        "Baruipur New Town"
+      ]
+    },
+    {
+      "id": "wbprd_panchayat",
+      "name": "পঞ্চায়েত ও গ্রামোন্নয়ন দপ্তর (WBPRD)",
+      "url": "https://wbprd.gov.in/",
+      "type": "panchayats",
+      "scope": "Baruipur-I & Baruipur-II Block Gram Panchayats & Panchayat Samiti",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Hariharpur",
+        "Kalyanpur",
+        "Mallickpur",
+        "Madarat",
+        "Nabagram",
+        "South Garia"
+      ]
+    },
+    {
+      "id": "s24pgs_zp",
+      "name": "দক্ষিণ ২৪ পরগনা জেলা পরিষদ (Zilla Parishad)",
+      "url": "https://s24pgs.gov.in/",
+      "type": "zilla_parishad",
+      "scope": "Baruipur Sub-divisional Rural Highways, Bridges & Rural Hat Leases",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Sub-Division",
+        "দক্ষিণ ২৪ পরগনা জেলা পরিষদ বারুইপুর"
+      ]
+    },
+    {
+      "id": "wbhealth_sdh",
+      "name": "স্বাস্থ্য ভবন ও জেলা স্বাস্থ্য সমিতি (WB Health)",
+      "url": "https://wbhealth.gov.in/",
+      "type": "health_department",
+      "scope": "Baruipur Sub-divisional Hospital, Padmapukur Matri Sadan, BPHC Recruitment & Medical Tenders",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur SDH",
+        "বারুইপুর মহকুমা হাসপাতাল"
+      ]
+    },
+    {
+      "id": "wbsedcl_power",
+      "name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ বণ্টন কোম্পানি (WBSEDCL Baruipur)",
+      "url": "https://wbsedcl.in/",
+      "type": "power_utility",
+      "scope": "Baruipur Division, Canning Road Substation, Scheduled Power Shutdowns & Transformer Works",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Division",
+        "Baruipur CCC",
+        "ক্যানিং রোড সাবস্টেশন"
+      ]
+    },
+    {
+      "id": "wbphed_water",
+      "name": "জনস্বাস্থ্য কারিগরি দপ্তর (PHE Water Supply)",
+      "url": "https://wbphed.gov.in/",
+      "type": "water_supply",
+      "scope": "Baruipur Arsenic Mitigation Water Treatment Plants & JJM Piped Water Supply",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Division",
+        "Baruipur Sub-Division"
+      ]
+    },
+    {
+      "id": "dcourts_judiciary",
+      "name": "বারুইপুর মহকুমা ও দায়রা আদালত (eCourts / DLSA)",
+      "url": "https://south24parganas.dcourts.gov.in/",
+      "type": "judiciary",
+      "scope": "Baruipur Court Staff Recruitment, Free Legal Aid Camps, Judicial & Auction Notices",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Court",
+        "বারুইপুর মহকুমা আদালত"
+      ]
+    },
+    {
+      "id": "wbpolice_bpd",
+      "name": "বারুইপুর পুলিশ জেলা (Baruipur Police District)",
+      "url": "https://wbpolice.gov.in/",
+      "type": "police_law_order",
+      "scope": "Traffic Advisories, Festival Diversions, Civic Volunteers, Public Safety Notices",
+      "filterKeywords": [
+        "Baruipur Police District",
+        "বারুইপুর পুলিশ জেলা",
+        "Baruipur PS",
+        "বারুইপুর থানা"
+      ]
+    },
+    {
+      "id": "gem_central_rail",
+      "name": "রেলওয়ে ও সেন্ট্রাল প্রকিউরমেন্ট (Eastern Railway & GeM)",
+      "url": "https://eprocure.gov.in/",
+      "type": "central_railway",
+      "scope": "Baruipur Junction Station, Sealdah South Railway Infrastructure, Baruipur HPO",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Junction",
+        "BRP Station"
+      ]
     }
   ]
 }

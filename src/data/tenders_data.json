@@ -61,9 +61,108 @@
       "name": "বারুইপুর পুলিশ জেলা (Baruipur Police District)",
       "shortName": "পুলিশ জেলা",
       "code": "BPD"
+    },
+    {
+      "id": "bida",
+      "name": "বারুইপুর উন্নয়ন কর্তৃপক্ষ (BIDA - Baruipur Industrial & Development Authority)",
+      "shortName": "উন্নয়ন কর্তৃপক্ষ (BIDA)",
+      "code": "BIDA"
+    },
+    {
+      "id": "suda",
+      "name": "রাজ্য নগর উন্নয়ন সংস্থা ও পৌর বিষয়ক (SUDA & UDMA)",
+      "shortName": "নগর উন্নয়ন (SUDA)",
+      "code": "SUDA"
+    },
+    {
+      "id": "phe",
+      "name": "জনস্বাস্থ্য কারিগরি দপ্তর (Public Health Engineering - PHE Baruipur)",
+      "shortName": "জনস্বাস্থ্য কারিগরি (PHE)",
+      "code": "PHE"
+    },
+    {
+      "id": "zp",
+      "name": "দক্ষিণ ২৪ পরগনা জেলা পরিষদ (South 24 Parganas Zilla Parishad)",
+      "shortName": "জেলা পরিষদ (ZP)",
+      "code": "ZP"
+    },
+    {
+      "id": "central_gem",
+      "name": "পূর্ব রেলওয়ে ও কেন্দ্রীয় সংস্থা (Eastern Railway & GeM Baruipur)",
+      "shortName": "রেলওয়ে ও GeM",
+      "code": "GeM"
     }
   ],
   "tenders": [
+    {
+      "id": "ten-zp-2026-1123-rural-road",
+      "nitNumber": "S24PZP/BRP-SUBDIV/NIT-31/RD-SURFACE/2026",
+      "title": "বারুইপুর মহকুমার দক্ষিণ গোবিন্দপুর ও চম্পাহাটি সংযোগকারী জেলা পরিষদ গ্রামীণ প্রধান সড়কের বিটুমিনাস পেভমেন্ট সংস্কার ও কালভার্ট সুরক্ষা কাজ",
+      "titleEn": "Bituminous Road Surfacing and RCC Culvert Protection along South Gobindapur to Champahati Zilla Parishad Link Road under Baruipur Sub-Division",
+      "authorityId": "zp",
+      "authorityName": "দক্ষিণ ২৪ পরগনা জেলা পরিষদ (South 24 Parganas Zilla Parishad)",
+      "department": "পূর্ত ও গ্রামীণ সড়ক নির্মাণ সেল",
+      "location": "দক্ষিণ গোবিন্দপুর - চম্পাহাটি জেলা পরিষদ রোড, বারুইপুর",
+      "category": "সড়ক পরিকাঠামো ও পেভমেন্ট সংস্কার (Highway & Road Works)",
+      "estimatedValue": "₹১৯,৮০,০০০",
+      "estimatedValueNum": 1980000,
+      "emdAmount": "₹৩৯,৬০০",
+      "tenderFee": "₹১,২০০",
+      "publishDate": "২০২৬-১১-২৩",
+      "closingDate": "২০২৬-১২-১৬",
+      "bidOpeningDate": "২০২৬-১২-১৮",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "S24PZP/ENGG/BRP-RD/NIT-31/2026",
+      "eligibility": "জেলা পরিষদ বা পূর্ত সড়কে বিটুমিনাস পেভার ফিনিশার সহ পিচ ঢালাই কাজে ন্যূনতম ৩ বছরের সক্রিয় অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in (Zilla Parishad)"
+    },
+    {
+      "id": "ten-er-2026-1123-railway-shed",
+      "nitNumber": "ER/SDAH-SOUTH/BRP-YARD/2026/08",
+      "title": "শিয়ালদহ দক্ষিণ শাখার বারুইপুর জংশন স্টেশনের ১ ও ২ নম্বর প্ল্যাটফর্ম শেড সম্প্রসারণ ও আধুনিক যাত্রী সুবিধা উন্নয়ন কাজ",
+      "titleEn": "Extension of Platform Shed (Cover Over Platform) & Passenger Amenity Modernization at Platform 1 & 2 of Baruipur Junction Railway Station",
+      "authorityId": "central_gem",
+      "authorityName": "পূর্ব রেলওয়ে ও কেন্দ্রীয় ক্রয় (Eastern Railway & GeM Baruipur)",
+      "department": "রেলওয়ে সিভিল ইঞ্জিনিয়ারিং দপ্তর (শিয়ালদহ দক্ষিণ শাখা)",
+      "location": "বারুইপুর রেল জংশন স্টেশন, প্ল্যাটফর্ম ১ ও ২",
+      "category": "রেলওয়ে পরিকাঠামো ও প্ল্যাটফর্ম শেড নির্মাণ (Railway Infrastructure)",
+      "estimatedValue": "₹২৮,৪৫,০০০",
+      "estimatedValueNum": 2845000,
+      "emdAmount": "₹৫৬,৯০০",
+      "tenderFee": "₹২,০০০",
+      "publishDate": "২০২৬-১১-২৩",
+      "closingDate": "২০২৬-১২-১৮",
+      "bidOpeningDate": "২০২৬-১২-২০",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "ER/W-3/SDAH/BRP-COP/2026",
+      "eligibility": "ভারতীয় রেলওয়ে বা সেন্ট্রাল পিডব্লিউডি-র নথিভুক্ত ক্যাটাগরি-এ সিভিল ও স্ট্রাকচারাল স্টিল কন্ট্রাক্টর যাদের রেলওয়ে প্ল্যাটফর্ম সংস্কারে পূর্ব অভিজ্ঞতা রয়েছে।",
+      "sourcePortalName": "wbtenders.gov.in / eprocure.gov.in"
+    },
+    {
+      "id": "ten-phe-2026-1123-water-pipeline",
+      "nitNumber": "WBPHE/EE/BRP-DIV/NIT-14/JJM-WATER/2026",
+      "title": "বারুইপুর ব্লকের কল্যাণপুর ও মল্লিকপুর গ্রাম পঞ্চায়েতে জল জীবন মিশনের অধীনে ডিআই পাইপলাইন সংস্থাপন ও নতুন ডিপ টিউবওয়েল খনন কাজ",
+      "titleEn": "Laying of Piped Water Distribution Network, DI Pipelines and Deep Tube Well Boring under Jal Jeevan Mission in Kalyanpur & Mallickpur GPs under Baruipur Block",
+      "authorityId": "phe",
+      "authorityName": "জনস্বাস্থ্য কারিগরি দপ্তর (PHE Baruipur Sub-Division)",
+      "department": "জল সরবরাহ ও গ্রামীণ স্যানিটেশন বিভাগ",
+      "location": "কল্যাণপুর ও মল্লিকপুর গ্রাম পঞ্চায়েত এলাকা, বারুইপুর",
+      "category": "পানীয় জল সরবরাহ ও ড্রেনেজ পাইপলাইন (Water Supply Engineering)",
+      "estimatedValue": "₹২২,৩০,০০০",
+      "estimatedValueNum": 2230000,
+      "emdAmount": "₹৪৪,৬০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-২৩",
+      "closingDate": "২০২৬-১২-১৭",
+      "bidOpeningDate": "২০২৬-১২-১৯",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBPHE/EE/BRP/NIT-14/JJM/2026",
+      "eligibility": "সরকারি সংস্থায় ডিআই/এইচডিপিই ওয়াটার পাইপলাইন নেটওয়ার্ক স্থাপন ও গভীর নলকূপ খননে ন্যূনতম ৩ বছরের বাস্তব অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড সিভিল ও প্লাম্বিং ঠিকাদারি প্রতিষ্ঠান।",
+      "sourcePortalName": "wbtenders.gov.in (PHE Dept)"
+    },
     {
       "id": "ten-bm-2026-1123-drainage-culvert-repair",
       "nitNumber": "WBMAD/BM/NIT-24/DRAINAGE-CULVERT/2026",
@@ -313,7 +412,9 @@
       "sourcePortal": "wbtenders.gov.in",
       "sourcePortalName": "wbtenders.gov.in (সরকারি ই-টেন্ডার পোর্টাল)",
       "portalUrl": "https://wbtenders.gov.in/",
-      "refNumber": "WBHSD/SDH-BRP/NIT-09/INFRA-2026"
+      "refNumber": "WBHSD/SDH-BRP/NIT-09/INFRA-2026",
+      "authorityId": "hospital",
+      "authorityName": "বারুইপুর মহকুমা হাসপাতাল (SDH Baruipur)"
     },
     {
       "id": "ten-bm-2026-1117-elect",
@@ -333,7 +434,9 @@
       "sourcePortal": "wbtenders.gov.in",
       "sourcePortalName": "wbtenders.gov.in (সরকারি ই-টেন্ডার পোর্টাল)",
       "portalUrl": "https://wbtenders.gov.in/",
-      "refNumber": "WBMAD/BM/NIT-18/ELECT-RAS/2026"
+      "refNumber": "WBMAD/BM/NIT-18/ELECT-RAS/2026",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)"
     },
     {
       "id": "tnd-irr-2026-03",
@@ -1369,6 +1472,157 @@
       "tenderRef": "WB/POLICE/BPD/NIT-08/2026",
       "eligibility": "আইটিএমএস (ITMS) ও ইন্টেলিজেন্ট ট্রাফিক কন্ট্রোল সিস্টেম ইনস্টলেশনের অভিজ্ঞতা।",
       "sourcePortalName": "wbpolice.gov.in"
+    }
+  ],
+  "trackedSources": [
+    {
+      "id": "s24pgs_admin",
+      "name": "দক্ষিণ ২৪ পরগনা জেলা ও মহকুমা প্রশাসন (s24pgs.gov.in)",
+      "url": "https://s24pgs.gov.in/notice/",
+      "type": "district_administration",
+      "scope": "SDO Baruipur, DM, Land & BL&LRO, Disaster, Law & Order",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "SDO Baruipur",
+        "Baruipur Sub-Division",
+        "BRP"
+      ]
+    },
+    {
+      "id": "wb_urban_services",
+      "name": "পৌর বিষয়ক দপ্তর ও সুডা (SUDA / Urban Development)",
+      "url": "https://wburbanservices.gov.in/",
+      "type": "municipal_affairs",
+      "scope": "Baruipur Municipality, Banglar Awas, AMRUT 2.0, Solid Waste Management",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Municipality",
+        "বারুইপুর পৌরসভা"
+      ]
+    },
+    {
+      "id": "bida_authority",
+      "name": "বারুইপুর উন্নয়ন কর্তৃপক্ষ (BIDA)",
+      "url": "https://wbdma.gov.in/",
+      "type": "development_authority",
+      "scope": "Baruipur New Town, District Administrative Headquarters Complex",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "BIDA",
+        "Baruipur New Town"
+      ]
+    },
+    {
+      "id": "wbprd_panchayat",
+      "name": "পঞ্চায়েত ও গ্রামোন্নয়ন দপ্তর (WBPRD)",
+      "url": "https://wbprd.gov.in/",
+      "type": "panchayats",
+      "scope": "Baruipur-I & Baruipur-II Block Gram Panchayats & Panchayat Samiti",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Hariharpur",
+        "Kalyanpur",
+        "Mallickpur",
+        "Madarat",
+        "Nabagram",
+        "South Garia"
+      ]
+    },
+    {
+      "id": "s24pgs_zp",
+      "name": "দক্ষিণ ২৪ পরগনা জেলা পরিষদ (Zilla Parishad)",
+      "url": "https://s24pgs.gov.in/",
+      "type": "zilla_parishad",
+      "scope": "Baruipur Sub-divisional Rural Highways, Bridges & Rural Hat Leases",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Sub-Division",
+        "দক্ষিণ ২৪ পরগনা জেলা পরিষদ বারুইপুর"
+      ]
+    },
+    {
+      "id": "wbhealth_sdh",
+      "name": "স্বাস্থ্য ভবন ও জেলা স্বাস্থ্য সমিতি (WB Health)",
+      "url": "https://wbhealth.gov.in/",
+      "type": "health_department",
+      "scope": "Baruipur Sub-divisional Hospital, Padmapukur Matri Sadan, BPHC Recruitment & Medical Tenders",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur SDH",
+        "বারুইপুর মহকুমা হাসপাতাল"
+      ]
+    },
+    {
+      "id": "wbsedcl_power",
+      "name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ বণ্টন কোম্পানি (WBSEDCL Baruipur)",
+      "url": "https://wbsedcl.in/",
+      "type": "power_utility",
+      "scope": "Baruipur Division, Canning Road Substation, Scheduled Power Shutdowns & Transformer Works",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Division",
+        "Baruipur CCC",
+        "ক্যানিং রোড সাবস্টেশন"
+      ]
+    },
+    {
+      "id": "wbphed_water",
+      "name": "জনস্বাস্থ্য কারিগরি দপ্তর (PHE Water Supply)",
+      "url": "https://wbphed.gov.in/",
+      "type": "water_supply",
+      "scope": "Baruipur Arsenic Mitigation Water Treatment Plants & JJM Piped Water Supply",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Division",
+        "Baruipur Sub-Division"
+      ]
+    },
+    {
+      "id": "dcourts_judiciary",
+      "name": "বারুইপুর মহকুমা ও দায়রা আদালত (eCourts / DLSA)",
+      "url": "https://south24parganas.dcourts.gov.in/",
+      "type": "judiciary",
+      "scope": "Baruipur Court Staff Recruitment, Free Legal Aid Camps, Judicial & Auction Notices",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Court",
+        "বারুইপুর মহকুমা আদালত"
+      ]
+    },
+    {
+      "id": "wbpolice_bpd",
+      "name": "বারুইপুর পুলিশ জেলা (Baruipur Police District)",
+      "url": "https://wbpolice.gov.in/",
+      "type": "police_law_order",
+      "scope": "Traffic Advisories, Festival Diversions, Civic Volunteers, Public Safety Notices",
+      "filterKeywords": [
+        "Baruipur Police District",
+        "বারুইপুর পুলিশ জেলা",
+        "Baruipur PS",
+        "বারুইপুর থানা"
+      ]
+    },
+    {
+      "id": "gem_central_rail",
+      "name": "রেলওয়ে ও সেন্ট্রাল প্রকিউরমেন্ট (Eastern Railway & GeM)",
+      "url": "https://eprocure.gov.in/",
+      "type": "central_railway",
+      "scope": "Baruipur Junction Station, Sealdah South Railway Infrastructure, Baruipur HPO",
+      "filterKeywords": [
+        "Baruipur",
+        "বারুইপুর",
+        "Baruipur Junction",
+        "BRP Station"
+      ]
     }
   ]
 }

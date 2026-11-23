@@ -49,7 +49,7 @@ export default function NoticesPage() {
             </span>
             <span className="flex items-center gap-1">
               <Building2 className="w-4 h-4 text-blue-600" />
-              <span>১০টি প্রধান প্রশাসনিক দপ্তর ও পঞ্চায়েত</span>
+              <span>{departments.length}টি প্রধান প্রশাসনিক দপ্তর ও পঞ্চায়েত</span>
             </span>
             <span className="flex items-center gap-1">
               <Calendar className="w-4 h-4 text-purple-600" />

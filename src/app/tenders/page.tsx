@@ -49,7 +49,7 @@ export default function TendersPage() {
             </span>
             <span className="flex items-center gap-1">
               <Building2 className="w-4 h-4 text-blue-600" />
-              <span>১০টি সরকারি প্রশাসনিক দপ্তর ও পঞ্চায়েত</span>
+              <span>{authorities.length}টি সরকারি প্রশাসনিক কর্তৃপক্ষ ও পঞ্চায়েত</span>
             </span>
             <span>নিয়মিত আপডেট: wbtenders.gov.in</span>
           </div>
