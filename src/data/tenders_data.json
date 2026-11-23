@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22",
+  "lastUpdated": "2026-11-23",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -64,6 +64,29 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-bm-2026-1123-drainage-culvert-repair",
+      "nitNumber": "WBMAD/BM/NIT-24/DRAINAGE-CULVERT/2026",
+      "title": "বারুইপুর পৌরসভা এলাকার ৩ ও ৪ নম্বর ওয়ার্ডে আদি গঙ্গা সংলগ্ন প্রধান ড্রেনেজ আউটফল ও বক্স কালভার্ট জরুরি সংস্কার ও পলি নিষ্কাশন কাজ",
+      "titleEn": "Urgent Renovation, Silt Desiltation and RCC Box Culvert Repair of Outfall Drainage Channel connecting Adi Ganga under Ward No. 3 & 4 of Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পূর্ত ও পয়ঃপ্রণালী নিকাশি বিভাগ (PWD & Drainage Dept.)",
+      "location": "ওয়ার্ড নম্বর ৩ ও ৪ (আদি গঙ্গা সংযোগ চ্যানেল চত্বর), বারুইপুর",
+      "category": "পূর্ত ও পয়ঃপ্রণালী নির্মাণ (Drainage & Civil Infrastructure)",
+      "estimatedValue": "₹১৪,৫০,০০০",
+      "estimatedValueNum": 1450000,
+      "emdAmount": "₹২৯,০০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-২৩",
+      "closingDate": "২০২৬-১২-১৬",
+      "bidOpeningDate": "২০২৬-১২-১৮",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-24/DRAIN/2026",
+      "eligibility": "সরকারি বা স্থানীয় স্বায়ত্তশাসন সংস্থায় আরসিসি বক্স কালভার্ট নির্মাণ ও নিকাশি ড্রেন সংস্কারে নূন্যতম ৩ বছরের বাস্তব অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড সিভিল কন্ট্রাক্টর বা কনস্ট্রাকশন এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in"
+    },
     {
       "id": "ten-bm-2026-1122-led-streetlighting",
       "nitNumber": "WBMAD/BM/NIT-23/LED-STREETLIGHT/2026",

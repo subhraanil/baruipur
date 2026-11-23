@@ -40,6 +40,43 @@
   ],
   "properties": [
     {
+      "id": "prop-brp-037",
+      "title": "বারুইপুর রেল গেট ও মাদারাত রোড সংযোগে ব্র্যান্ড নিউ ৮৮০ বর্গফুটের ২ বিএইচকে রেডি-টু-মুভ ফ্ল্যাট বিক্রয়",
+      "titleEn": "Brand New 880 Sq Ft 2BHK Ready-to-Move Modern Apartment for Sale near Baruipur Rail Gate & Madarat Road",
+      "category": "residential_apartment",
+      "categoryNameBn": "আবাসিক ফ্ল্যাট (Residential Apartment)",
+      "location": "মাদারাত রোড, বারুইপুর রেল গেট সংলগ্ন, দক্ষিণ ২৪ পরগনা",
+      "locationArea": "Madarat Road / Rail Gate Junction",
+      "price": "₹২৮.৫০ লক্ষ (সহজ ব্যাংক লোন সুবিধা সহ)",
+      "priceNum": 2850000,
+      "priceUnit": "total",
+      "configuration": "২ বেডরুম, ২ বাথরুম, ১ লিভিং-কাম-ডাইনিং, ১ ব্যালকনি ও মডুলার কিচেন",
+      "areaSqFt": "৮৮০ বর্গফুট সুপার বিল্ট-আপ (দক্ষিণ-পূর্ব খোলা হাওয়া)",
+      "facing": "দক্ষিণ-পূর্ব মুখী (পর্যাপ্ত আলো ও প্রাকৃতিক বাতাস)",
+      "floorInfo": "৪ তলা জি+৩ কমপ্লেক্সের ২য় তলায় অবস্থিত (লিফট সুবিধা সহ)",
+      "possessionStatus": "রেডি-টু-মুভ (Immediate Possession & Registration)",
+      "reraStatus": "বারুইপুর পুরসভা অনুমোদিত বিল্ডিং প্ল্যান ও কমপ্লিশন সার্টিফিকেট সহ",
+      "approvalStatus": "নিষ্কণ্টক রায়তি সত্য ও ব্যাংকিং লোনযোগ্য ক্লিয়ার টাইটেল",
+      "bankLoanApproved": "SBI, HDFC, Axis ও LIC HFL থেকে ৯০% পর্যন্ত হোম লোন অনুমোদিত",
+      "amenities": [
+        "স্বয়ংক্রিয় লিফট ও ২৪ ঘণ্টা ব্যাকআপ জেনারেটর সংযোগ",
+        "গভীর নলকূপের ২৪ ঘণ্টা পরিশ্রুত পানীয় জল ও আধুনিক নিকাশি ব্যবস্থা",
+        "সিসিটিভি নজরদারি ও ডেডিকেটেড সিকিউরিটি গার্ড পোস্ট",
+        "টু-হুইলার ও ফোর-হুইলারের সুরক্ষিত পার্কিং এরিয়া",
+        "বারুইপুর রেল জংশন ও বাজার থেকে মাত্র ৪ মিনিটের হাঁটা পথ"
+      ],
+      "description": "বারুইপুর শহরের প্রাণকেন্দ্র মাদারাত রোড ও রেল গেট সংযোগে অবস্থিত সম্পূর্ণ নতুন তৈরি বিলাসবহুল ২ বিএইচকে রেডি-টু-মুভ ফ্ল্যাট। প্রিমিয়াম ফ্লোরিং, আধুনিক বাথ ফিটিংস এবং খোলামেলা বারান্দা সহ সাজানো। পরিবার নিয়ে অবিলম্বে বসবাসের জন্য চমৎকার পরিবেশ।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "অরিন্দম মুখার্জী (বারুইপুর হোম ফাইন্ডার)",
+      "contactPhone": "+91 98317 44321",
+      "contactWhatsapp": "+91 98317 44321",
+      "publishedAt": "২০২৬-১১-২৩"
+    },
+    {
       "id": "prop-brp-036",
       "title": "বারুইপুর বাইপাস ও পদ্মপুকুর সংলগ্ন সম্পূর্ণ নতুন ৩ কাঠার বাউন্ডারি ওয়াল ঘেরা আবাসিক বাস্তু প্লট বিক্রয়",
       "titleEn": "3 Katha Prime Residential Gated Vastu Plot for Sale near Baruipur Bypass & Padmapukur Junction",
