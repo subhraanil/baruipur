@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23",
+  "lastUpdated": "2026-11-24",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -94,6 +94,52 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-wbsedcl-2026-1124-canning-feeder-upgrade",
+      "nitNumber": "WBSEDCL/BRP-DIV/NIT-12/FEEDER-UPGRADE/2026",
+      "title": "বারুইপুর ক্যানিং রোড ৩৩/১১ কেভি সাব-স্টেশনের আউটগোয়িং ফিডার লাইন সম্প্রসারণ, আন্ডারগ্রাউন্ড এইচটি ক্যাবলিং ও নতুন ভ্যাকুয়াম সার্কিট ব্রেকার প্যানেল স্থাপন",
+      "titleEn": "Extension of Outgoing 11 KV Feeder Lines, Underground HT Cabling & Installation of Vacuum Circuit Breaker (VCB) Panels at Baruipur Canning Road 33/11 KV Substation",
+      "authorityId": "wbsedcl",
+      "authorityName": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ বণ্টন কোম্পানি (WBSEDCL Baruipur)",
+      "department": "বিদ্যুৎ বিতরণ ও ডিস্ট্রিবিউশন সাবস্টেশন সেল",
+      "location": "ক্যানিং রোড ৩৩/১১ কেভি সাবস্টেশন, বারুইপুর ডিভিশন",
+      "category": "বৈদ্যুতিক সাবস্টেশন ও এইচটি ক্যাবলিং (Electrical Substation Works)",
+      "estimatedValue": "₹১৫,২০,০০০",
+      "estimatedValueNum": 1520000,
+      "emdAmount": "₹৩০,৪০০",
+      "tenderFee": "₹১,২০০",
+      "publishDate": "২০২৬-১১-২৪",
+      "closingDate": "২০২৬-১২-১৮",
+      "bidOpeningDate": "২০২৬-১২-২০",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBSEDCL/BRP/DIV/NIT-12/VCB/2026",
+      "eligibility": "বিদ্যুৎ পর্ষদের নথিভুক্ত 'ক্যাটাগরি-১' লাইসেন্সপ্রাপ্ত ইলেকট্রিক্যাল কন্ট্রাক্টর যাদের এইচটি ক্যাবলিং ও ভিবিবি প্যানেল রূপায়ণে পূর্ব কাজের অভিজ্ঞতা রয়েছে।",
+      "sourcePortalName": "wbtenders.gov.in (WBSEDCL)"
+    },
+    {
+      "id": "ten-bm-2026-1124-solid-waste-composting",
+      "nitNumber": "WBMAD/BM/NIT-25/SWM-COMPOST/2026",
+      "title": "বারুইপুর পৌরসভার কঠিন বর্জ্য ব্যবস্থাপনা প্রকল্পের আওতায় ১০ ও ১১ নম্বর ওয়ার্ড সংলগ্ন বায়ো-কম্পোস্টিং প্ল্যান্ট ও সেগ্রিগেশন শেড আধুনিকীকরণ ও পরিচালনা",
+      "titleEn": "Upgradation, Civil Repair and Mechanical Overhauling of Bio-Composting Plant & Municipal Solid Waste Segregation Shed under Ward 10 & 11 of Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "কঠিন বর্জ্য ব্যবস্থাপনা ও পরিবেশ সেল (SWM & Environment Dept)",
+      "location": "ওয়ার্ড নম্বর ১০ ও ১১ ডাম্পিং সংলগ্ন প্রাঙ্গণ, বারুইপুর",
+      "category": "কঠিন বর্জ্য ও স্যানিটেশন পরিকাঠামো (Solid Waste Engineering)",
+      "estimatedValue": "₹১৮,৯০,০০০",
+      "estimatedValueNum": 1890000,
+      "emdAmount": "₹৩৭,৮০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-২৪",
+      "closingDate": "২০২৬-১২-১৯",
+      "bidOpeningDate": "২০২৬-১২-২২",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-25/SWM/2026",
+      "eligibility": "পৌর সংস্থা বা স্থানীয় স্বায়ত্তশাসন সংস্থায় মিউনিসিপ্যাল সলিড ওয়েস্ট প্রসেসিং প্ল্যান্ট বা কম্পোস্টিং শেড নির্মাণ ও পরিচালনায় ৩ বছরের বাস্তব অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
+    },
     {
       "id": "ten-zp-2026-1123-rural-road",
       "nitNumber": "S24PZP/BRP-SUBDIV/NIT-31/RD-SURFACE/2026",
