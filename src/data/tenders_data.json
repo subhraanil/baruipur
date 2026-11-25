@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24",
+  "lastUpdated": "2026-11-25",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -94,6 +94,52 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-bm-2026-1125-ward6-paver-block",
+      "nitNumber": "WBMAD/BM/NIT-26/PAVER-BLOCK/2026",
+      "title": "বারুইপুর পৌরসভার ৬ ও ৭ নম্বর ওয়ার্ডে রেলগেট সংলগ্ন অভ্যন্তরীণ লেনের ইন্টারলকিং পেভার ব্লক রাস্তা ও সাইড ড্রেন নির্মাণ কাজ",
+      "titleEn": "Construction of Heavy-Duty Interlocking Concrete Paver Block Road with Covered RCC Side Drain connecting Rail Gate Lane under Ward 6 & 7 of Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "পূর্ত ও পৌর সড়ক নির্মাণ বিভাগ (Civil Engineering Dept)",
+      "location": "ওয়ার্ড নম্বর ৬ ও ৭ (রেলগেট সংযোগ লেন), বারুইপুর",
+      "category": "পৌর সড়ক নির্মাণ ও পেভার পেভমেন্ট (Urban Road Infrastructure)",
+      "estimatedValue": "₹১২,৭৫,০০০",
+      "estimatedValueNum": 1275000,
+      "emdAmount": "₹২৫,৫০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-২৫",
+      "closingDate": "২০২৬-১২-২১",
+      "bidOpeningDate": "২০২৬-১২-২৪",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-26/PAVER/2026",
+      "eligibility": "পৌরসভা বা পূর্ত দপ্তরে হেভি-ডিউটি আরসিসি ইন্টারলকিং পেভার ব্লক রাস্তা ও ড্রেন নির্মাণে ন্যূনতম ৩ বছরের অভিজ্ঞতাসম্পন্ন ঠিকাদারি প্রতিষ্ঠান।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
+    },
+    {
+      "id": "ten-phe-2026-1125-solar-pump-fluoride",
+      "nitNumber": "WBPHE/EE/BRP-DIV/NIT-15/SOLAR-PUMP/2026",
+      "title": "বারুইপুর ২ নম্বর ব্লকের নবগ্রাম ও চম্পাহাটি অঞ্চলের দূরবর্তী পল্লীগুলিতে সোলার চালিত পানীয় জল মিনি-পাইপ প্রকল্প সংস্থাপন ও ওভারহেড ট্যাংক স্থাপন",
+      "titleEn": "Installation of Solar-Powered Mini Piped Water Supply System with Elevated HDPE Storage Tank in Remote Hamlets of Nabagram & Champahati under Baruipur-II Block",
+      "authorityId": "phe",
+      "authorityName": "জনস্বাস্থ্য কারিগরি দপ্তর (PHE Baruipur Sub-Division)",
+      "department": "সৌর শক্তি ও গ্রামীণ পানীয় জল সরবরাহ সেল",
+      "location": "নবগ্রাম ও চম্পাহাটি পঞ্চায়েত পল্লী চত্বর, বারুইপুর",
+      "category": "সৌর পানীয় জল পরিকাঠামো (Solar Water Supply Engineering)",
+      "estimatedValue": "₹১৬,৪০,০০০",
+      "estimatedValueNum": 1640000,
+      "emdAmount": "₹৩২,৮০০",
+      "tenderFee": "₹১,২০০",
+      "publishDate": "২০২৬-১১-২৫",
+      "closingDate": "২০২৬-১২-২০",
+      "bidOpeningDate": "২০২৬-১২-২৩",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBPHE/BRP/DIV/NIT-15/SOLAR/2026",
+      "eligibility": "সরকারি সংস্থায় সোলার সাবমার্সিবল পাম্প ও মিনি ওয়াটার ডিস্ট্রিবিউশন পাইপলাইন নেটওয়ার্ক স্থাপনে ৩ বছরের অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড মেকানিক্যাল ও সিভিল এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in (PHE Dept)"
+    },
     {
       "id": "ten-wbsedcl-2026-1124-canning-feeder-upgrade",
       "nitNumber": "WBSEDCL/BRP-DIV/NIT-12/FEEDER-UPGRADE/2026",

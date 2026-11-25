@@ -40,6 +40,43 @@
   ],
   "properties": [
     {
+      "id": "prop-brp-039",
+      "title": "বারুইপুর রেল জংশন ও দক্ষিণপাড়া সংলগ্ন অভিজাত আবাসনে সম্পূর্ণ নতুন ৯৫০ বর্গফুটের ৩ বিএইচকে ফ্ল্যাট বিক্রয়",
+      "titleEn": "Brand New 950 Sq Ft 3BHK Airy Residential Flat for Sale near Baruipur Rail Junction & Dakshinpara",
+      "category": "residential_apartment",
+      "categoryNameBn": "আবাসিক ফ্ল্যাট (Residential Apartment)",
+      "location": "দক্ষিণপাড়া রোড, বারুইপুর রেল জংশন সংলগ্ন, দক্ষিণ ২৪ পরগনা",
+      "locationArea": "Dakshinpara / Rail Junction Connector",
+      "price": "₹৩২.০০ লক্ষ (সহজ ব্যাংক ঋণ ও সরকারি ভর্তুকি সুবিধা সহ)",
+      "priceNum": 3200000,
+      "priceUnit": "total",
+      "configuration": "৩ বেডরুম, ২ বাথরুম, ১ প্রশস্ত লিভিং-ডাইনিং, ১ বিশাল ব্যালকনি ও মডুলার কিচেন স্পেস",
+      "areaSqFt": "৯৫০ বর্গফুট সুপার বিল্ট-আপ (তিন দিকে খোলা আলো-বাতাসময়)",
+      "facing": "দক্ষিণ-পশ্চিম মুখী (বাস্তুসম্মত ও খোলামেলা প্রাকৃতিক পরিবেশ)",
+      "floorInfo": "৪ তলা আধুনিক কমপ্লেক্সের ৩য় তলায় অবস্থিত (হাই-স্পিড লিফট সহ)",
+      "possessionStatus": "রেডি-টু-মুভ (Immediate Handover & Registration)",
+      "reraStatus": "বারুইপুর পুরসভা অনুমোদিত বিল্ডিং প্ল্যান ও স্ট্রাকচারাল ফিটনেস সার্টিফিকেট সহ",
+      "approvalStatus": "সম্পূর্ণ নিষ্কণ্টক বৈধ রায়তি সত্য ও ব্যাংকিং লোনযোগ্য ক্লিয়ার টাইটেল",
+      "bankLoanApproved": "SBI, PNB, Bank of Baroda ও LIC HFL থেকে ৯০% পর্যন্ত হোম লোন অনুমোদিত",
+      "amenities": [
+        "স্বয়ংক্রিয় লিফট ও সার্বক্ষণিক পাওয়ার ব্যাকআপ জেনারেটর সংযোগ",
+        "গভীর সাবমার্সিবল পাম্পের ২৪ ঘণ্টা পরিস্রুত পানীয় জল সরবরাহ",
+        "সিসিটিভি ক্যামেরা ও ২৪ ঘণ্টা প্রশিক্ষিত সিকিউরিটি গার্ড পোস্ট",
+        "কমন রুফটপ গার্ডেন ও কমিউনিটি হল রুমের সুবিধা",
+        "বারুইপুর রেলওয়ে জংশন ও বাস টার্মিনাস থেকে মাত্র ৫ মিনিটের দূরত্ব"
+      ],
+      "description": "বারুইপুরের অন্যতম শান্ত ও অভিজাত আবাসিক এলাকা দক্ষিণপাড়ায় অবস্থিত সম্পূর্ণ নতুন তৈরি ৯৫০ বর্গফুটের ৩ বিএইচকে ফ্ল্যাট। বিশাল লিভিং ডাইনিং, পর্যাপ্ত প্রাকৃতিক আলো এবং খোলামেলা বারান্দা সহ সাজানো। স্কুল, বাজার, হাসপাতাল ও রেলওয়ে জংশন সন্নিকটে থাকায় স্থায়ী বসবাসের জন্য আদর্শ।",
+      "imageUrl": "/images/baruipur-real-estate-flats-guide.jpg",
+      "images": [
+        "/images/baruipur-real-estate-flats-guide.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "সঞ্জয় কর্মকার (বারুইপুর ড্রিম হোমস)",
+      "contactPhone": "+91 98319 77890",
+      "contactWhatsapp": "+91 98319 77890",
+      "publishedAt": "২০২৬-১১-২৫"
+    },
+    {
       "id": "prop-brp-038",
       "title": "বারুইপুর কাছারি বাজার ও মহকুমা আদালত সংলগ্ন প্রধান রাস্তায় সম্পূর্ণ নতুন বাণিজ্যিক দোকান ও অফিস স্পেস বিক্রয়",
       "titleEn": "Prime 220 Sq Ft Ground Floor Commercial Shop & Professional Office Space for Sale near Baruipur Kachari Bazar & Court",
