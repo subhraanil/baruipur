@@ -87,23 +87,23 @@ export default function TransportPage() {
   ];
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-8 sm:py-12">
-      <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
-        <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>
-        <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-        <span className="text-slate-800 font-bold">পরিবহন ও ট্রেন সময়সূচি</span>
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-8 sm:py-10">
+      <nav className="flex items-center gap-1.5 text-[14px] text-[#667085] mb-6">
+        <a href="/" className="hover:text-[#245B91] font-medium">প্রচ্ছদ</a>
+        <ChevronRight className="w-4 h-4 text-slate-400" />
+        <span className="text-[#142B4A] font-bold">পরিবহন ও ট্রেন সময়সূচি</span>
       </nav>
 
       {/* Hero Header */}
-      <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-10 mb-10 shadow-lg border border-slate-800">
-        <div className="inline-flex items-center gap-2 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
-          <TrainTrack className="w-3.5 h-3.5" />
+      <div className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-10 mb-8 shadow-sm">
+        <div className="inline-flex items-center gap-2 bg-[#F28C28] text-slate-950 text-[14px] font-bold px-3 py-1 rounded-md mb-4">
+          <TrainTrack className="w-4 h-4" />
           নিত্যযাত্রী ও পরিবহন নির্দেশিকা
         </div>
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-4">
+        <h1 className="text-[30px] sm:text-[42px] font-bold mb-4 leading-[1.3]">
           বারুইপুর পরিবহন ও সম্পূর্ণ ট্রেন সময়সূচি
         </h1>
-        <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-3xl">
+        <p className="text-[18px] sm:text-[19px] text-slate-200 leading-[1.85] max-w-3xl">
           বারুইপুর জংশন থেকে শিয়ালদহ, ডায়মন্ড হারবার, লক্ষ্মীকান্তপুর ও নামখানা লাইনের ২৮০+ আপ ও ডাউন ট্রেনের সঠিক সময়সূচি, ৪-লেন বাইপাস ও প্রধান বাস রুট নির্দেশিকা।
         </p>
       </div>

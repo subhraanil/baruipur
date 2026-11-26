@@ -70,28 +70,26 @@ export default function OrganizationsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(directorySchema) }}
       />
 
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         {/* Breadcrumb */}
-        <nav className="flex items-center space-x-2 text-xs text-slate-500 mb-6">
-          <a href="/" className="hover:text-red-600 transition">প্রচ্ছদ</a>
+        <nav className="flex items-center space-x-2 text-[14px] text-[#667085] mb-6">
+          <a href="/" className="hover:text-[#245B91] transition">প্রচ্ছদ</a>
           <span>/</span>
-          <span className="text-slate-800 font-semibold">সংস্থা, ক্লাব ও সংগঠন</span>
+          <span className="text-[#142B4A] font-bold">সংস্থা, ক্লাব ও সংগঠন</span>
         </nav>
 
         {/* Hero Banner */}
-        <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl mb-8 relative overflow-hidden border border-slate-800">
-          <div className="absolute right-0 top-0 -mt-10 -mr-10 w-72 h-72 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
-          
+        <div className="bg-[#142B4A] rounded-2xl p-6 sm:p-10 text-white shadow-sm mb-8 relative overflow-hidden">
           <div className="relative z-10 max-w-3xl">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-red-600/90 text-white mb-3 shadow-sm">
-              <ShieldCheck className="w-3.5 h-3.5" />
-              যাচাইকৃত স্থানীয় ডিরেক্টরি ২০২৬
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-[14px] font-bold bg-[#F28C28] text-slate-950 mb-4">
+              <ShieldCheck className="w-4 h-4" />
+              যাচাইকৃত স্থানীয় ডিরেক্টরি • ২৬ নভেম্বর ২০২৬
             </span>
-            <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-white mb-3 leading-tight">
+            <h1 className="text-[30px] sm:text-[42px] font-bold text-white mb-4 leading-[1.3]">
               বারুইপুরের ক্লাব, সমাজসেবা ট্রাস্ট ও প্রতিষ্ঠান নির্দেশিকা
             </h1>
-            <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-2">
-              ঐতিহ্যবাহী ক্রীড়া ক্লাব, রাসমাঠের টুর্নামেন্ট আয়োজক, রক্তদান ও ত্রাণ ট্রাস্ট, আইনজীবী সমিতি, বণিক সভা এবং শীর্ষস্থানীয় বাণিজ্যিক প্রতিষ্ঠানের সার্বিক যোগাযোগ ও তথ্যকোষ।
+            <p className="text-[18px] sm:text-[19px] text-slate-200 leading-[1.85] mb-2">
+              ঐতিহ্যবাহী ক্রীড়া ক্লাব, রাসমাঠের টুর্নামেন্ট আয়োজক, রক্তদান ও ত্রাণ ট্রাস্ট, আইনজীবী সমিতি, বণিক সভা এবং শীর্ষস্থানীয় প্রতিষ্ঠানের সার্বিক যোগাযোগ ও তথ্যকোষ।
             </p>
           </div>
         </div>
@@ -103,17 +101,17 @@ export default function OrganizationsPage() {
         <OrganizationsListClient initialOrgs={allOrgs} />
 
         {/* Submission Call To Action */}
-        <section className="bg-gradient-to-r from-red-600 to-rose-700 text-white rounded-3xl p-6 sm:p-10 shadow-lg flex flex-col md:flex-row items-center justify-between gap-6">
+        <section className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-10 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6 mt-10">
           <div className="max-w-2xl">
-            <span className="inline-flex items-center gap-1 text-[11px] font-bold bg-white/20 px-3 py-1 rounded-full uppercase tracking-wider mb-2">
-              <Sparkles className="w-3.5 h-3.5" />
+            <span className="inline-flex items-center gap-1 text-[14px] font-bold bg-[#F28C28] text-slate-950 px-3 py-1 rounded-md mb-3">
+              <Sparkles className="w-4 h-4" />
               ডিরেক্টরি অন্তর্ভুক্তি
             </span>
-            <h3 className="text-xl sm:text-2xl font-black mb-2">
+            <h3 className="text-[22px] sm:text-[26px] font-bold mb-2">
               আপনার ক্লাব, স্বেচ্ছাসেবী সংস্থা বা প্রতিষ্ঠান যুক্ত করতে চান?
             </h3>
-            <p className="text-xs sm:text-sm text-red-100 leading-relaxed">
-              বারুইপুর ও সংলগ্ন অঞ্চলের যে কোনো নিবন্ধিত ক্রীড়া ক্লাব, সমাজসেবা ট্রাস্ট, উৎসব কমিটি বা বাণিজ্যিক প্রতিষ্ঠান আমাদের পোর্টালে বিনামূল্যে তালিকাভুক্ত করা হয়।
+            <p className="text-[17px] text-slate-200 leading-[1.75]">
+              বারুইপুর ও সংলগ্ন অঞ্চলের যে কোনো নিবন্ধিত ক্রীড়া ক্লাব, সমাজসেবা ট্রাস্ট, উৎসব কমিটি বা প্রতিষ্ঠান আমাদের পোর্টালে বিনামূল্যে তালিকাভুক্ত করা হয়।
             </p>
           </div>
           <a

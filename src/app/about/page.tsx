@@ -50,7 +50,7 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}

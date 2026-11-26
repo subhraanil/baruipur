@@ -62,13 +62,13 @@ export default function HomePage() {
   return (
     <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-12">
       {/* 1. Hero with One Big Search Box & 6 Intent Tiles */}
-      <section className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-10 space-y-6">
-        <div className="space-y-3 max-w-[700px]">
-          <h1 className="text-[28px] sm:text-[40px] font-bold text-slate-900 leading-[1.3]">
-            বারুইপুর নাগরিক তথ্যকোষ ও পাবলিক ডিরেক্টরি
+      <section className="bg-white rounded-2xl border border-[#E4E7EC] shadow-sm p-6 sm:p-10 space-y-6">
+        <div className="space-y-3 max-w-[720px]">
+          <h1 className="text-[30px] sm:text-[42px] font-bold text-[#142B4A] leading-[1.3]">
+            আপনার বারুইপুর, সব তথ্য এক জায়গায়
           </h1>
-          <p className="text-[17px] sm:text-[18px] text-slate-700 leading-[1.75]">
-            ডাক্তার, হাসপাতাল, দর্শনীয় স্থান, ক্লাব ও সংগঠন, সরকারি নোটিস, ই-টেন্ডার এবং লোকাল ট্রেনের যাচাইকৃত তথ্য খুঁজুন এক জায়গায়।
+          <p className="text-[18px] sm:text-[19px] text-[#202938] leading-[1.85]">
+            ডাক্তার, হাসপাতাল, দর্শনীয় স্থান, ক্লাব ও সংগঠন, সরকারি নোটিস, ই-টেন্ডার এবং লোকাল ট্রেনের যাচাইকৃত তথ্য খুঁজুন।
           </p>
         </div>
 
@@ -79,14 +79,14 @@ export default function HomePage() {
             <input
               type="search"
               name="q"
-              placeholder="ডাক্তার, হাসপাতাল, স্থান, ক্লাব, নোটিস বা টেন্ডার লিখুন..."
+              placeholder="বারুইপুরে কী খুঁজছেন? (ডাক্তার, হাসপাতাল, স্থান, নোটিস, টেন্ডার)"
               aria-label="বারুইপুর ডিরেক্টরিতে খুঁজুন"
-              className="w-full min-h-[52px] pl-12 pr-4 py-3 rounded-xl border border-slate-300 bg-slate-50 focus:bg-white focus:border-blue-700 focus:outline-none text-[17px] text-slate-900"
+              className="w-full min-h-[54px] pl-12 pr-4 py-3 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] focus:bg-white focus:border-[#245B91] focus:outline-none text-[18px] text-[#202938]"
             />
           </div>
           <button
             type="submit"
-            className="min-h-[52px] px-7 py-3 rounded-xl bg-slate-900 hover:bg-blue-900 text-white font-bold text-[16px] leading-[1.2] transition-colors shrink-0"
+            className="min-h-[54px] px-7 py-3 rounded-xl bg-[#142B4A] hover:bg-[#245B91] text-white font-bold text-[16px] leading-[1.3] transition-colors shrink-0"
           >
             অনুসন্ধান করুন
           </button>
@@ -392,28 +392,28 @@ export default function HomePage() {
       </section>
 
       {/* 6. Seasonal Guide Banner */}
-      <section className="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <section className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div className="space-y-2 max-w-[700px]">
-          <span className="inline-block px-3 py-1 rounded-md bg-amber-500 text-slate-950 font-bold text-[14px]">
+          <span className="inline-block px-3 py-1 rounded-md bg-[#F28C28] text-slate-950 font-bold text-[14px]">
             মৌসুমি বিশেষ গাইড
           </span>
-          <h2 className="text-[22px] sm:text-[30px] font-bold leading-[1.4]">
+          <h2 className="text-[24px] sm:text-[32px] font-bold leading-[1.38]">
             বারুইপুর রাসমেলা ও শীতকালীন পিকনিক গাইড ২০২৬
           </h2>
-          <p className="text-[17px] text-slate-200 leading-[1.7]">
+          <p className="text-[18px] text-slate-200 leading-[1.8]">
             ঐতিহ্যবাহী বারুইপুর রাসমাঠ, অতিসার মহাপ্রভুতলা এবং পরিবারের সাথে শীতের পিকনিক ও ভ্রমণের সেরা ঠিকানা জানুন।
           </p>
         </div>
         <div className="flex flex-wrap gap-3 shrink-0">
           <a
             href="/places/baruipur-rashmath"
-            className="inline-flex items-center justify-center min-h-[44px] px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-[16px] leading-[1.2] transition-colors"
+            className="inline-flex items-center justify-center min-h-[44px] px-5 py-2.5 rounded-xl bg-[#F28C28] hover:bg-amber-400 text-slate-950 font-bold text-[16px] leading-[1.3] transition-colors"
           >
             রাসমেলা গাইড
           </a>
           <a
             href="/category/all"
-            className="inline-flex items-center justify-center min-h-[44px] px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium text-[16px] leading-[1.2] transition-colors"
+            className="inline-flex items-center justify-center min-h-[44px] px-5 py-2.5 rounded-xl bg-[#245B91] hover:bg-[#1b4670] text-white font-semibold text-[16px] leading-[1.3] transition-colors"
           >
             সকল গাইড
           </a>

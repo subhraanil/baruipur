@@ -69,26 +69,26 @@ export default function DirectoryCard({
         </div>
 
         {/* Title (max 2 lines) */}
-        <h3 className="text-[18px] sm:text-[22px] font-bold text-slate-900 leading-[1.4] line-clamp-2">
-          <a href={href} className="hover:text-blue-800 transition-colors">
+        <h3 className="text-[19px] sm:text-[22px] font-bold text-[#202938] leading-[1.4] line-clamp-2">
+          <a href={href} className="hover:text-[#245B91] transition-colors">
             {title}
           </a>
         </h3>
 
         {/* 120-140 char plain-text excerpt */}
         {cleanExcerpt && (
-          <p className="text-slate-700 text-[16px] leading-[1.6] line-clamp-3 flex-1">
+          <p className="text-[#475467] text-[16px] leading-[1.65] line-clamp-3 flex-1">
             {cleanExcerpt}
           </p>
         )}
 
         {/* Action Buttons (>= 44px tap targets) */}
-        <div className="pt-2 mt-auto border-t border-slate-100 flex flex-wrap items-center gap-2">
+        <div className="pt-2 mt-auto border-t border-[#E4E7EC] flex flex-wrap items-center gap-2">
           {safeTel && displayPhone && (
             <a
               href={safeTel}
               title={`কল করুন: ${displayPhone}`}
-              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-medium text-[16px] leading-[1.2] transition-colors"
+              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-[#23845B] hover:bg-[#1b6b49] text-white font-semibold text-[16px] leading-[1.3] transition-colors"
             >
               <Phone className="w-4 h-4 shrink-0" />
               <span>কল</span>
@@ -99,7 +99,7 @@ export default function DirectoryCard({
               href={mapUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-900 font-medium text-[16px] leading-[1.2] transition-colors"
+              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-[#F5F7FA] hover:bg-[#E4E7EC] text-[#202938] font-semibold text-[16px] leading-[1.3] transition-colors"
             >
               <MapPin className="w-4 h-4 shrink-0" />
               <span>ম্যাপ</span>
@@ -107,7 +107,7 @@ export default function DirectoryCard({
           )}
           <a
             href={href}
-            className="inline-flex items-center justify-center gap-1 min-h-[44px] px-4 py-2 rounded-lg bg-slate-900 hover:bg-blue-900 text-white font-medium text-[16px] leading-[1.2] ml-auto transition-colors"
+            className="inline-flex items-center justify-center gap-1 min-h-[44px] px-4 py-2 rounded-lg bg-[#142B4A] hover:bg-[#245B91] text-white font-semibold text-[16px] leading-[1.3] ml-auto transition-colors"
           >
             <span>বিস্তারিত</span>
             <ArrowUpRight className="w-4 h-4 shrink-0" />

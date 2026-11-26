@@ -61,7 +61,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-sm">
       {/* Slim Top Utility Bar: Date, Weather & Emergency Quick Strip */}
-      <div className="bg-slate-900 text-slate-100 border-b border-slate-800">
+      <div className="bg-[#142B4A] text-slate-100 border-b border-[#1f3d66]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 min-h-[40px] py-1.5 flex items-center justify-between gap-3 text-[14px]">
           <div className="flex items-center gap-4 min-w-0">
             <span className="inline-flex items-center gap-1.5 truncate">
@@ -112,7 +112,7 @@ export default function Header() {
             />
             <button
               type="submit"
-              className="absolute right-1.5 top-1/2 -translate-y-1/2 min-h-[36px] px-4 rounded-lg bg-slate-900 hover:bg-blue-900 text-white font-medium text-[14px] transition-colors"
+              className="absolute right-1.5 top-1/2 -translate-y-1/2 min-h-[36px] px-4 rounded-lg bg-[#142B4A] hover:bg-[#245B91] text-white font-semibold text-[14px] transition-colors"
             >
               খুঁজুন
             </button>

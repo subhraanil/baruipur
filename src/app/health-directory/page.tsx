@@ -92,52 +92,48 @@ export default function HealthcareDirectoryPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
 
-      <div className="bg-slate-50 min-h-screen py-8 sm:py-12">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+      <div className="bg-[#F5F7FA] min-h-screen py-8 sm:py-10">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           {/* Breadcrumbs */}
-          <nav className="flex items-center space-x-2 text-xs font-semibold text-slate-500 mb-6 overflow-x-auto whitespace-nowrap">
-            <Link href="/" className="hover:text-red-600 transition">প্রচ্ছদ</Link>
-            <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-            <span className="text-red-600">স্বাস্থ্য ও ডাক্তার চেম্বার ডিরেক্টরি</span>
+          <nav className="flex items-center space-x-2 text-[14px] font-medium text-[#667085] mb-6 overflow-x-auto whitespace-nowrap">
+            <Link href="/" className="hover:text-[#245B91] transition">প্রচ্ছদ</Link>
+            <ChevronRight className="w-4 h-4 text-slate-400" />
+            <span className="text-[#142B4A] font-bold">স্বাস্থ্য ও ডাক্তার চেম্বার ডিরেক্টরি</span>
           </nav>
 
           {/* Hero Banner */}
-          <div className="bg-gradient-to-br from-red-600 via-rose-600 to-red-800 rounded-3xl p-6 sm:p-10 text-white shadow-lg mb-8 relative overflow-hidden">
-            <div className="absolute right-0 bottom-0 opacity-10 translate-x-8 translate-y-8 pointer-events-none">
-              <Hospital className="w-96 h-96 text-white" />
-            </div>
-
+          <div className="bg-[#142B4A] rounded-2xl p-6 sm:p-10 text-white shadow-sm mb-8 relative overflow-hidden">
             <div className="relative z-10 max-w-3xl">
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/20 backdrop-blur-sm text-xs sm:text-sm font-bold mb-4">
-                <HeartHandshake className="w-4 h-4 text-rose-200" />
-                <span>বারুইপুর ও দক্ষিণ ২৪ পরগনা স্বাস্থ্য ডিরেক্টরি</span>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#F28C28] text-slate-950 text-[14px] font-bold mb-4">
+                <HeartHandshake className="w-4 h-4" />
+                <span>বারুইপুর স্বাস্থ্য ডিরেক্টরি • সর্বশেষ যাচাই: ২৬ নভেম্বর ২০২৬</span>
               </div>
 
-              <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-4">
+              <h1 className="text-[30px] sm:text-[42px] font-bold leading-[1.3] mb-4 text-white">
                 বারুইপুর স্বাস্থ্য, নার্সিং হোম ও ডাক্তার চেম্বার গাইড
               </h1>
 
-              <p className="text-sm sm:text-base text-rose-100 leading-relaxed font-medium mb-6">
-                বারুইপুর মহকুমার সমস্ত বেসরকারি নার্সিং হোম, পলিক্লিনিক ও মেডিসিন শপ যেখানে ডাক্তারদের ওপিডি হয়—তাদের নির্ভরযোগ্য তালিকা। প্রতিটি প্রতিষ্ঠানের নাম, ঠিকানা, অ্যাপয়েন্টমেন্ট বুকিং নম্বর এবং কোন কোন স্পেশালিস্ট ডাক্তার বসেন তার সার্বিক নির্দেশিকা। সম্পূর্ণ ডাক্তারের ওপিডি শিডিউল দেখতে সংশ্লিষ্ট প্রতিষ্ঠানের প্রোফাইল লিঙ্কে ক্লিক করুন।
+              <p className="text-[18px] sm:text-[19px] text-slate-200 leading-[1.85] mb-6">
+                বারুইপুর মহকুমার সমস্ত সরকারি হাসপাতাল, বেসরকারি নার্সিং হোম, পলিক্লিনিক ও ডায়াগনস্টিক সেন্টারের নির্ভরযোগ্য তালিকা, ঠিকানা, অ্যাপয়েন্টমেন্ট নম্বর ও বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি।
               </p>
 
               {/* Quick Summary Badges */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-slate-900 font-bold">
-                <div className="bg-white/95 rounded-xl p-3 text-center shadow-sm">
-                  <div className="text-2xl font-black text-red-600">{facilities.length} টি</div>
-                  <div className="text-xs text-slate-600 font-semibold mt-0.5">স্বাস্থ্যকেন্দ্র ও চেম্বার</div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-[#202938] font-bold">
+                <div className="bg-white rounded-xl p-3 text-center">
+                  <div className="text-[24px] font-bold text-[#142B4A]">{facilities.length} টি</div>
+                  <div className="text-[14px] text-[#667085] font-medium mt-0.5">স্বাস্থ্যকেন্দ্র ও চেম্বার</div>
                 </div>
-                <div className="bg-white/95 rounded-xl p-3 text-center shadow-sm">
-                  <div className="text-2xl font-black text-blue-600">{totalDoctors}+ জন</div>
-                  <div className="text-xs text-slate-600 font-semibold mt-0.5">অভিজ্ঞ বিশেষজ্ঞ ডাক্তার</div>
+                <div className="bg-white rounded-xl p-3 text-center">
+                  <div className="text-[24px] font-bold text-[#245B91]">{totalDoctors}+ জন</div>
+                  <div className="text-[14px] text-[#667085] font-medium mt-0.5">বিশেষজ্ঞ ডাক্তার</div>
                 </div>
-                <div className="bg-white/95 rounded-xl p-3 text-center shadow-sm">
-                  <div className="text-2xl font-black text-emerald-600">১৬+ টি</div>
-                  <div className="text-xs text-slate-600 font-semibold mt-0.5">চিকিৎসা বিভাগ</div>
+                <div className="bg-white rounded-xl p-3 text-center">
+                  <div className="text-[24px] font-bold text-[#23845B]">১৬+ টি</div>
+                  <div className="text-[14px] text-[#667085] font-medium mt-0.5">চিকিৎসা বিভাগ</div>
                 </div>
-                <div className="bg-white/95 rounded-xl p-3 text-center shadow-sm">
-                  <div className="text-2xl font-black text-amber-600">২৪x৭</div>
-                  <div className="text-xs text-slate-600 font-semibold mt-0.5">জরুরি ও ট্রমা সহায়তা</div>
+                <div className="bg-white rounded-xl p-3 text-center">
+                  <div className="text-[24px] font-bold text-[#D93636]">২৪x৭</div>
+                  <div className="text-[14px] text-[#667085] font-medium mt-0.5">জরুরি ও ট্রমা সহায়তা</div>
                 </div>
               </div>
             </div>

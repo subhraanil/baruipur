@@ -3,7 +3,7 @@ import { ShieldAlert, MessageSquareWarning } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-200 pt-10 pb-8 mt-12 border-t border-slate-800">
+    <footer className="bg-[#142B4A] text-slate-200 pt-10 pb-8 mt-12 border-t border-[#1f3d66]">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
           {/* Column 1: Brand & Correction */}

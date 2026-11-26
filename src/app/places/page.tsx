@@ -133,7 +133,7 @@ export default function PlacesIndexPage() {
   };
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-8 sm:py-10">
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-8 sm:py-10">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -153,24 +153,24 @@ export default function PlacesIndexPage() {
       />
 
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
-        <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>
-        <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-        <span className="text-slate-800 font-bold">গুরুত্বপূর্ণ স্থান ও নির্দেশিকা</span>
+      <nav className="flex items-center gap-1.5 text-[14px] text-[#667085] mb-6">
+        <a href="/" className="hover:text-[#245B91] font-medium">প্রচ্ছদ</a>
+        <ChevronRight className="w-4 h-4 text-slate-400" />
+        <span className="text-[#142B4A] font-bold">গুরুত্বপূর্ণ স্থান ও নির্দেশিকা</span>
       </nav>
 
       {/* Hero Header */}
-      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-red-950 text-white rounded-3xl p-6 sm:p-10 mb-8 shadow-lg border border-slate-700/50">
+      <div className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-10 mb-8 shadow-sm">
         <div className="max-w-3xl">
-          <span className="inline-flex items-center gap-1.5 bg-red-600/90 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
-            <Landmark className="w-3.5 h-3.5" />
-            বারুইপুর পরিচিতি ও নির্দেশিকা
+          <span className="inline-flex items-center gap-1.5 bg-[#F28C28] text-slate-950 text-[14px] font-bold px-3 py-1 rounded-md mb-4">
+            <Landmark className="w-4 h-4" />
+            বারুইপুর পরিচিতি • সর্বশেষ যাচাই: ২৬ নভেম্বর ২০২৬
           </span>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white mb-4 leading-tight">
+          <h1 className="text-[30px] sm:text-[42px] font-bold text-white mb-4 leading-[1.3]">
             বারুইপুরের গুরুত্বপূর্ণ স্থান ও প্রধান প্রতিষ্ঠান
           </h1>
-          <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-            ঐতিহাসিক পৌরসভা থেকে শুরু করে পুলিশ জেলা সদর, আধুনিক সুইমিং পুল কমপ্লেক্স, শতবর্ষ প্রাচীন রাসমাঠ, ফিল্ম সিটি, রাজবাড়ি কিংবা কলকাতার সাথে সংযোগকারী আধুনিক বাইপাস—বারুইপুরের প্রতিটি প্রধান স্থানের পূর্ণাঙ্গ তথ্য, ছবি, ভিডিও, যোগাযোগের নম্বর ও গুগল ম্যাপ নির্দেশিকা।
+          <p className="text-[18px] sm:text-[19px] text-slate-200 leading-[1.85]">
+            ঐতিহাসিক পৌরসভা থেকে শুরু করে পুলিশ জেলা সদর, আধুনিক সুইমিং পুল কমপ্লেক্স, শতবর্ষ প্রাচীন রাসমাঠ, রাজবাড়ি কিংবা বাইপাস—বারুইপুরের প্রতিটি প্রধান স্থানের পূর্ণাঙ্গ তথ্য, যোগাযোগের নম্বর ও গুগল ম্যাপ নির্দেশিকা।
           </p>
         </div>
       </div>

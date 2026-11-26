@@ -25,35 +25,35 @@ export default function NoticesPage() {
   const departments = getNoticeDepartments();
 
   return (
-    <div className="min-h-screen bg-slate-50 py-8 px-4 sm:px-6">
+    <div className="min-h-screen bg-[#F5F7FA] py-8 px-4 sm:px-6">
       <div className="max-w-[1200px] mx-auto space-y-6">
         {/* Page Hero Header */}
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-3">
-          <div className="inline-flex items-center gap-1.5 bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-bold">
-            <Bell className="w-3.5 h-3.5 animate-pulse" />
-            <span>প্রশাসনিক নোটিস ও সার্কুলার ডেস্ক (Official Public Circulars)</span>
+        <div className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-10 shadow-sm space-y-4">
+          <div className="inline-flex items-center gap-1.5 bg-[#F28C28] text-slate-950 px-3 py-1 rounded-md text-[14px] font-bold">
+            <Bell className="w-4 h-4" />
+            <span>প্রশাসনিক নোটিস ও সার্কুলার ডেস্ক</span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+          <h1 className="text-[30px] sm:text-[42px] font-bold text-white leading-[1.3]">
             বারুইপুর সরকারি জরুরি নোটিস ও প্রশাসনিক বিজ্ঞপ্তি
           </h1>
 
-          <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-3xl">
-            বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), মহকুমা হাসপাতাল, বারুইপুর মহকুমা আদালত, পঞ্চায়েত সমিতি, বিদ্যুৎ দপ্তর (WBSEDCL), পরিবহণ দপ্তর (ARTO), ভূমি সংস্কার (BL&LRO), শিক্ষা দপ্তর ও পুলিশ জেলার সমস্ত বিজ্ঞপ্তি তারিখ অনুযায়ী এক ছাতার তলায়। মূল নোটিস সরাসরি অনলাইনে পড়ুন অথবা মূল অফিসিয়াল PDF ডাউনলোড করুন।
+          <p className="text-[18px] sm:text-[19px] text-slate-200 leading-[1.85] max-w-3xl">
+            বারুইপুর পৌরসভা, মহকুমা শাসক দপ্তর (SDO), মহকুমা হাসপাতাল, আদালত, পঞ্চায়েত, বিদ্যুৎ দপ্তর (WBSEDCL), পরিবহণ দপ্তর ও পুলিশ জেলার সমস্ত বিজ্ঞপ্তি ও অফিসিয়াল PDF।
           </p>
 
-          <div className="flex flex-wrap items-center gap-4 pt-2 text-xs text-slate-500 border-t border-slate-100">
-            <span className="flex items-center gap-1">
-              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+          <div className="flex flex-wrap items-center gap-4 pt-3 text-[14px] text-slate-300 border-t border-[#1f3d66]">
+            <span className="flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4 text-emerald-400" />
               <span>যাচাইকৃত অফিশিয়াল মেমো ও সার্কুলার</span>
             </span>
-            <span className="flex items-center gap-1">
-              <Building2 className="w-4 h-4 text-blue-600" />
-              <span>{departments.length}টি প্রধান প্রশাসনিক দপ্তর ও পঞ্চায়েত</span>
+            <span className="flex items-center gap-1.5">
+              <Building2 className="w-4 h-4 text-sky-300" />
+              <span>{departments.length}টি প্রধান প্রশাসনিক দপ্তর</span>
             </span>
-            <span className="flex items-center gap-1">
-              <Calendar className="w-4 h-4 text-purple-600" />
-              <span>তারিখভিত্তিক (Date-Wise) নিয়মিত আপডেট</span>
+            <span className="flex items-center gap-1.5">
+              <Calendar className="w-4 h-4 text-amber-300" />
+              <span>সর্বশেষ যাচাই: ২৬ নভেম্বর ২০২৬</span>
             </span>
           </div>
         </div>

@@ -279,7 +279,7 @@ export default function PostSlugPage({ params }: PostPageProps) {
   } : null;
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -347,13 +347,13 @@ export default function PostSlugPage({ params }: PostPageProps) {
           </div>
 
           {/* Headline */}
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight leading-snug mb-4">
+          <h1 className="text-[30px] sm:text-[42px] font-bold text-[#142B4A] leading-[1.3] mb-4">
             {article.title}
           </h1>
 
           {/* Subheading / Summary */}
           {article.summary && (
-            <p className="text-base sm:text-lg text-slate-700 font-medium border-l-4 border-red-600 pl-4 py-1.5 mb-6 bg-red-50/40 rounded-r-xl leading-relaxed">
+            <p className="text-[18px] sm:text-[19px] text-[#202938] font-medium border-l-4 border-[#F28C28] pl-4 py-2 mb-6 bg-amber-50/50 rounded-r-xl leading-[1.85]">
               {article.summary}
             </p>
           )}

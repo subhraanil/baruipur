@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Noto_Sans_Bengali } from 'next/font/google';
+import { Noto_Sans_Bengali, Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -8,9 +8,16 @@ import TrackingHead from '@/components/TrackingHead';
 
 const notoSansBengali = Noto_Sans_Bengali({
   subsets: ['bengali', 'latin'],
-  weight: ['400', '500', '700'],
+  weight: ['400', '500', '600', '700'],
   display: 'swap',
   variable: '--font-noto-bengali',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-inter',
 });
 
 export const metadata: Metadata = {
@@ -124,7 +131,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="bn" className={notoSansBengali.variable}>
+    <html lang="bn" className={`${notoSansBengali.variable} ${inter.variable}`}>
       <head>
         <TrackingHead />
         <script
@@ -136,7 +143,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(civicOrgSchema) }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 pb-20 md:pb-0">
+      <body className="min-h-screen flex flex-col bg-[#F5F7FA] text-[#202938] pb-20 md:pb-0">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

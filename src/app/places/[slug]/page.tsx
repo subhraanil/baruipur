@@ -241,7 +241,7 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
   } : null;
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -268,19 +268,19 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
       </nav>
 
       {/* Hero Header with optional Cover Image Background */}
-      <div className="relative rounded-3xl overflow-hidden mb-8 shadow-lg border border-slate-800 bg-slate-950">
+      <div className="relative rounded-2xl overflow-hidden mb-8 shadow-sm border border-[#1f3d66] bg-[#142B4A]">
         {primaryImage && (
           <div 
             className="absolute inset-0 bg-cover bg-center opacity-25 filter blur-xs scale-105 transition-transform duration-700"
             style={{ backgroundImage: `url(${primaryImage})` }}
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#142B4A] via-[#142B4A]/85 to-transparent" />
 
         <div className="relative z-10 p-6 sm:p-10 text-white">
           <div className="flex flex-wrap items-center gap-2 mb-4">
-            <span className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider flex items-center gap-1">
-              <Sparkles className="w-3.5 h-3.5" />
+            <span className="bg-[#F28C28] text-slate-950 text-[14px] font-bold px-3 py-1 rounded-md flex items-center gap-1">
+              <Sparkles className="w-4 h-4" />
               বারুইপুর পরিচিতি ও গাইড
             </span>
             <span className="bg-white/15 text-white/90 text-xs font-medium px-3 py-1 rounded-full backdrop-blur-sm">

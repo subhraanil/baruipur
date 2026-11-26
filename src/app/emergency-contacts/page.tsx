@@ -84,17 +84,17 @@ export default function EmergencyContactsPage() {
   ];
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-8 sm:py-12">
-      <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
-        <a href="/" className="hover:text-red-600 font-medium">প্রচ্ছদ</a>
-        <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-        <span className="text-slate-800 font-bold">জরুরি হেল্পলাইন নম্বর</span>
+    <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-8 sm:py-10">
+      <nav className="flex items-center gap-1.5 text-[14px] text-[#667085] mb-6">
+        <a href="/" className="hover:text-[#245B91] font-medium">প্রচ্ছদ</a>
+        <ChevronRight className="w-4 h-4 text-slate-400" />
+        <span className="text-[#142B4A] font-bold">জরুরি হেল্পলাইন নম্বর</span>
       </nav>
 
-      <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-10 mb-8 shadow-lg border border-slate-800">
-        <div className="inline-flex items-center gap-2 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3">
-          <Phone className="w-3.5 h-3.5" />
-          ২৪x৭ সিটিজেন হেল্পলাইন
+      <div className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-10 mb-8 shadow-sm">
+        <div className="inline-flex items-center gap-2 bg-[#D93636] text-white text-[14px] font-bold px-3 py-1 rounded-md mb-4">
+          <Phone className="w-4 h-4" />
+          ২৪x৭ সিটিজেন জরুরি হেল্পলাইন
         </div>
         <h1 className="text-3xl sm:text-4xl font-black mb-3">
           বারুইপুর জরুরি ও প্রয়োজনীয় ফোন নম্বর ডিরেক্টরি

@@ -216,7 +216,7 @@ export default function OrganizationDetailPage({ params }: Props) {
         />
       )}
 
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         {/* Breadcrumb Navigation */}
         <nav className="flex items-center space-x-2 text-xs text-slate-500 mb-6">
           <a href="/" className="hover:text-red-600 transition">প্রচ্ছদ</a>
