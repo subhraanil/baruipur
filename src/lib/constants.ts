@@ -154,12 +154,13 @@ export const INITIAL_SOURCES: Source[] = [
 ];
 
 export const EMERGENCY_CONTACTS = [
-  { titleBn: 'বারুইপুর পুলিশ জেলা কন্ট্রোল রুম', phone: '033-2433-8200', altPhone: '112', icon: 'ShieldAlert', note: '২৪ ঘণ্টা সক্রিয়' },
-  { titleBn: 'বারুইপুর মহকুমা হাসপাতাল (জরুরি বিভাগ)', phone: '033-2433-8244', altPhone: '102 (অ্যাম্বুলেন্স)', icon: 'Hospital', note: 'জরুরি চিকিৎসা ও অ্যাম্বুলেন্স' },
-  { titleBn: 'বারুইপুর দমকল কেন্দ্র (Fire Brigade)', phone: '033-2433-8101', altPhone: '101', icon: 'Flame', note: 'দমকল ও উদ্ধারকার্য' },
-  { titleBn: 'বারুইপুর পৌরসভা হেল্পলাইন (Municipality)', phone: '033-2433-8260', altPhone: '1800-345-5555', icon: 'Building2', note: 'নাগরিক পরিষেবা ও অভিযোগ' },
-  { titleBn: 'বারুইপুর জংশন রেলওয়ে অনুসন্ধান', phone: '139', altPhone: '033-2433-7221', icon: 'TrainTrack', note: 'ট্রেনের সময়সূচি ও তথ্য' },
-  { titleBn: 'বিদ্যুৎ বিপর্যয় অভিযোগ (WBSEDCL Baruipur)', phone: '19121', altPhone: '8900793503', icon: 'Zap', note: 'বিদ্যুৎ পরিষেবা সংক্রান্ত' }
+  { titleBn: 'বারুইপুর পুলিশ জেলা কন্ট্রোল রুম', phone: '033-2433-0083', altPhone: '112 / 9147888037', icon: 'ShieldAlert', note: '২৪ ঘণ্টা সক্রিয়' },
+  { titleBn: 'বারুইপুর মহকুমা হাসপাতাল (জরুরি বিভাগ)', phone: '033-2433-5303', altPhone: '8100820190 / 102', icon: 'Hospital', note: 'জরুরি চিকিৎসা ও অ্যাম্বুলেন্স' },
+  { titleBn: 'বারুইপুর দমকল কেন্দ্র (Fire Brigade)', phone: '033-2433-2555', altPhone: '101', icon: 'Flame', note: 'দমকল ও উদ্ধারকার্য' },
+  { titleBn: 'বারুইপুর পৌরসভা হেল্পলাইন (Municipality)', phone: '033-2433-8201', altPhone: '033-2433-0980', icon: 'Building2', note: 'নাগরিক পরিষেবা ও অভিযোগ' },
+  { titleBn: 'বারুইপুর মহকুমা শাসক (SDO Office)', phone: '033-2433-8579', altPhone: '112', icon: 'Building2', note: 'মহকুমা প্রশাসন' },
+  { titleBn: 'বারুইপুর জংশন রেলওয়ে অনুসন্ধান', phone: '139', altPhone: '', icon: 'TrainTrack', note: 'ট্রেনের সময়সূচি ও তথ্য' },
+  { titleBn: 'বিদ্যুৎ বিপর্যয় অভিযোগ (WBSEDCL Baruipur)', phone: '19121', altPhone: '', icon: 'Zap', note: 'বিদ্যুৎ পরিষেবা সংক্রান্ত' }
 ];
 
 export const TRAIN_UPDATES = [

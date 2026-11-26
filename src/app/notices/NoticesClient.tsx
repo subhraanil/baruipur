@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Bell, 
   Search, 
@@ -31,6 +31,27 @@ export default function NoticesClient({ initialNotices, departments }: NoticesCl
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [activeNoticeModal, setActiveNoticeModal] = useState<Notice | null>(null);
   const [expandedNoticeId, setExpandedNoticeId] = useState<string | null>(null);
+  const [highlightedId, setHighlightedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      const id = params.get('id') || window.location.hash.replace('#', '');
+      if (q) setSearchQuery(q);
+      if (id) {
+        const match = initialNotices.find((n) => n.id === id);
+        if (match) {
+          setHighlightedId(match.id);
+          setExpandedNoticeId(match.id);
+          setActiveNoticeModal(match);
+          setTimeout(() => {
+            document.getElementById(match.id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 150);
+        }
+      }
+    }
+  }, [initialNotices]);
 
   // Extract unique categories
   const categories = useMemo(() => {
@@ -140,8 +161,13 @@ export default function NoticesClient({ initialNotices, departments }: NoticesCl
             return (
               <div 
                 key={notice.id}
+                id={notice.id}
                 className={`bg-white rounded-2xl border transition-all duration-200 p-5 sm:p-6 space-y-4 shadow-2xs hover:shadow-md ${
-                  notice.isUrgent ? 'border-amber-300 bg-amber-50/15' : 'border-slate-200 hover:border-slate-300'
+                  highlightedId === notice.id
+                    ? 'border-blue-600 ring-2 ring-blue-500/30'
+                    : notice.isUrgent
+                    ? 'border-amber-300 bg-amber-50/15'
+                    : 'border-slate-200 hover:border-slate-300'
                 }`}
               >
                 {/* Notice Top Bar: Badges & Date */}

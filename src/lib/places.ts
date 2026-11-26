@@ -30,6 +30,11 @@ export interface PlaceItem {
   metaDescription?: string;
   taglineBn: string;
   category: string;
+  categoryBn?: string;
+  area?: string;
+  phone?: string;
+  isFeatured?: boolean;
+  lastVerified?: string;
   schemaType: string;
   established: string;
   wardsCount?: number;

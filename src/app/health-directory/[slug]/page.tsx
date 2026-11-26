@@ -8,6 +8,7 @@ import {
   HealthcareFacility 
 } from '@/lib/healthcare';
 import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
+import { formatPhoneForDisplay, formatPhoneForTel } from '@/lib/formatters';
 import SocialShareBar from '@/components/SocialShareBar';
 import { 
   Hospital, 
@@ -277,12 +278,20 @@ export default function FacilityDetailPage({ params }: Props) {
 
               {/* Fast Booking / Direct Actions */}
               <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-slate-700/60">
+                {formatPhoneForTel(facility.phone) && (
+                  <a
+                    href={formatPhoneForTel(facility.phone)!}
+                    className="inline-flex items-center gap-2 min-h-[44px] px-5 py-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-[16px] font-bold transition shadow-md"
+                  >
+                    <Phone className="w-4 h-4 text-white" />
+                    <span>কল করুন: {formatPhoneForDisplay(facility.phone)}</span>
+                  </a>
+                )}
                 <a
-                  href={`tel:${facility.phone.replace(/[^0-9]/g, '')}`}
-                  className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-red-600 hover:bg-red-700 text-white text-sm font-bold transition shadow-md shadow-red-900/30"
+                  href={`/contact?report=${encodeURIComponent(facility.slug)}`}
+                  className="inline-flex items-center gap-1.5 min-h-[44px] px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-300 text-[14px] font-medium transition"
                 >
-                  <Phone className="w-4 h-4 text-white" />
-                  <span>কল করুন: {facility.phone}</span>
+                  <span>সর্বশেষ যাচাই: {facility.lastVerified || '২৬ নভেম্বর ২০২৬'} • ভুল তথ্য জানান</span>
                 </a>
 
                 {facility.whatsapp && (

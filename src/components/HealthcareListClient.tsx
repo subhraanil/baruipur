@@ -7,6 +7,7 @@ import {
   FacilityType, 
   SPECIALTY_OPTIONS 
 } from '@/lib/healthcare';
+import { formatPhoneForDisplay, formatPhoneForTel } from '@/lib/formatters';
 import { 
   Search, 
   Hospital, 
@@ -443,14 +444,22 @@ export default function HealthcareListClient({ facilities }: Props) {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {filteredFacilities.map((fac) => {
-            // Extract unique doctor specialties available at this facility
+            // Use canonical normalized specialties (no near-duplicate strings)
             const specialtyMap = new Map<string, string>();
-            fac.doctors.forEach(d => {
-              if (d.specialtyBn && !specialtyMap.has(d.specialtyBn)) {
-                specialtyMap.set(d.specialtyBn, d.specialtyBn);
-              }
-            });
-            const uniqueSpecialties = Array.from(specialtyMap.keys()).slice(0, 5);
+            if (fac.canonicalSpecialties && fac.canonicalSpecialties.length > 0) {
+              fac.canonicalSpecialties.forEach(s => specialtyMap.set(s.key, s.bn));
+            } else {
+              fac.doctors.forEach(d => {
+                const k = d.canonicalSpecialtyKey || d.specialtyKey || d.specialtyBn;
+                const label = d.canonicalSpecialtyBn || d.specialtyBn;
+                if (label && !specialtyMap.has(k)) {
+                  specialtyMap.set(k, label);
+                }
+              });
+            }
+            const uniqueSpecialties = Array.from(specialtyMap.values()).slice(0, 5);
+            const safeTel = formatPhoneForTel(fac.phone);
+            const displayPhone = formatPhoneForDisplay(fac.phone);
 
             return (
               <div 
@@ -461,7 +470,12 @@ export default function HealthcareListClient({ facilities }: Props) {
                   {/* Top Badges */}
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                     <div className="flex flex-wrap items-center gap-1.5">
-                      <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-200/60">
+                      {fac.isFeatured && (
+                        <span className="text-[14px] font-bold px-2.5 py-0.5 rounded-full bg-amber-500 text-slate-950">
+                          Featured
+                        </span>
+                      )}
+                      <span className="text-[14px] font-bold px-2.5 py-1 rounded-full bg-rose-50 text-rose-800 border border-rose-200/60">
                         {fac.typeBn}
                       </span>
                       {fac.isOpen24Hours && (
@@ -555,20 +569,24 @@ export default function HealthcareListClient({ facilities }: Props) {
 
                 {/* Bottom Actions */}
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
-                  <a
-                    href={`tel:${fac.phone}`}
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition"
-                  >
-                    <Phone className="w-3.5 h-3.5 text-rose-600" />
-                    <span>{fac.phone}</span>
-                  </a>
+                  {safeTel && displayPhone ? (
+                    <a
+                      href={safeTel}
+                      className="inline-flex items-center gap-1.5 min-h-[44px] text-[14px] font-bold text-slate-900 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition"
+                    >
+                      <Phone className="w-4 h-4 text-emerald-700" />
+                      <span>{displayPhone}</span>
+                    </a>
+                  ) : (
+                    <span className="text-[14px] text-slate-500 font-medium">সরাসরি ওপিডি</span>
+                  )}
 
                   <Link
                     href={`/health-directory/${fac.slug}/`}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-white bg-rose-600 hover:bg-rose-700 px-3.5 py-2 rounded-xl transition shadow-xs"
+                    className="inline-flex items-center gap-1 min-h-[44px] text-[14px] font-bold text-white bg-slate-900 hover:bg-blue-900 px-3.5 py-2 rounded-xl transition shadow-xs ml-auto"
                   >
                     <span>ওপিডি ও ডাক্তার তালিকা</span>
-                    <ChevronRight className="w-3.5 h-3.5" />
+                    <ChevronRight className="w-4 h-4" />
                   </Link>
                 </div>
               </div>

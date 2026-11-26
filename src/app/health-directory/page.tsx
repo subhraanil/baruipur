@@ -151,8 +151,8 @@ export default function HealthcareDirectoryPage() {
                 <h2 className="text-sm sm:text-base font-bold text-amber-900">
                   জরুরি পরিস্থিতিতে সরাসরি সরকারি সহায়তা ও অ্যাম্বুলেন্স:
                 </h2>
-                <p className="text-xs sm:text-sm text-amber-800 mt-0.5">
-                  বারুইপুর মহকুমা হাসপাতাল ইমার্জেন্সি: <strong className="font-bold">033-2433-8244</strong> | সরকারি অ্যাম্বুলেন্স: <strong className="font-bold">102</strong> | জাতীয় জরুরি হেল্পলাইন: <strong className="font-bold">112</strong>
+                <p className="text-[15px] text-amber-950 mt-0.5">
+                  বারুইপুর মহকুমা হাসপাতাল: <strong className="font-bold">033-2433-5303</strong> (জরুরি: <strong className="font-bold">8100820190</strong>) | অ্যাম্বুলেন্স: <strong className="font-bold">102</strong> | জরুরি হেল্পলাইন: <strong className="font-bold">112</strong>
                 </p>
               </div>
             </div>

@@ -7,12 +7,12 @@
     "typeBn": "সরকারি মহকুমা হাসপাতাল ও ট্রমা কেয়ার",
     "taglineBn": "দক্ষিণ ২৪ পরগনার প্রধান সরকারি চিকিৎসাকেন্দ্র: ২৪/৭ জরুরি বিভাগ, ওপিডি, এসএনসিইউ, ব্লাড ব্যাংক ও স্বাস্থ্যসাথী পরিষেবা",
     "overviewBn": "বারুইপুর মহকুমা হাসপাতাল (Baruipur Subdivisional Hospital) হলো বারুইপুর ও সংলগ্ন বিস্তীর্ণ দক্ষিণ ২৪ পরগনার প্রধান সরকারি রেফারেল হাসপাতাল। ৩০০ শয্যার এই হাসপাতালে ২৪ ঘণ্টা জরুরি বিভাগ, ট্রমা কেয়ার, সেন্ট্রাল অক্সিজেন ও গ্যাস পাইপলাইন সিস্টেম, নবজাতক পরিচর্যা ইউনিট (SNCU), ডিজিটাল এক্স-রে ও ইউএসজি, ন্যায্য মূল্যের ওষুধের দোকান এবং বিভিন্ন বিশেষজ্ঞ বিভাগের বহির্বিভাগ (OPD) ক্লিনিক সক্রিয় রয়েছে। সমস্ত নাগরিক এখানে বিনামূল্যে ও স্বাস্থ্যসাথী প্রকল্পের আওতায় উন্নত চিকিৎসা সেবা পেয়ে থাকেন।",
-    "addressBn": "হাসপাতাল রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা, কোলকাতা - ৭০০১৪৪",
-    "addressEn": "Hospital Road, Baruipur, South 24 Parganas, Kolkata - 700144",
+    "addressBn": "কুলপি রোড, বারুইপুর, দক্ষিণ ২৪ পরগনা - 700144",
+    "addressEn": "Kulpi Road, Baruipur, South 24 Parganas - 700144",
     "landmarkBn": "বারুইপুর হাসপাতাল মোড়, পুরানো বাজার সংলগ্ন",
-    "phone": "03324338242",
+    "phone": "033-2433-5303",
     "altPhone": "03324338240",
-    "emergencyPhone": "102",
+    "emergencyPhone": "8100820190",
     "whatsapp": "",
     "googleMapUrl": "https://maps.google.com/?q=Baruipur+Subdivisional+Hospital",
     "facebookUrl": "",
@@ -63,7 +63,9 @@
         "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
         "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
         "appointmentPhone": "03324338242",
-        "notesBn": "ডায়াবেটিস, রক্তচাপ, জ্বর ও অভ্যন্তরীণ রোগের চিকিৎসা"
+        "notesBn": "ডায়াবেটিস, রক্তচাপ, জ্বর ও অভ্যন্তরীণ রোগের চিকিৎসা",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "sdh-doc-2",
@@ -78,7 +80,9 @@
         "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
         "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
         "appointmentPhone": "03324338242",
-        "notesBn": "অ্যাপেন্ডিক্স, হার্নিয়া, গলব্লাডার ও ট্রমা সার্জারি"
+        "notesBn": "অ্যাপেন্ডিক্স, হার্নিয়া, গলব্লাডার ও ট্রমা সার্জারি",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "sdh-doc-3",
@@ -93,7 +97,9 @@
         "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
         "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
         "appointmentPhone": "03324338242",
-        "notesBn": "গর্ভবতী মায়েদের প্রসবপূর্ব পরিচর্যা ও নরমাল/সিজারিয়ান ডেলিভারি"
+        "notesBn": "গর্ভবতী মায়েদের প্রসবপূর্ব পরিচর্যা ও নরমাল/সিজারিয়ান ডেলিভারি",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "sdh-doc-4",
@@ -108,7 +114,110 @@
         "timingBn": "সকাল ৯:০০ টা - দুপুর ২:০০ টা",
         "visitingFeeBn": "সম্পূর্ণ বিনামূল্যে সরকারি ওপিডি",
         "appointmentPhone": "03324338242",
-        "notesBn": "নবজাতক ও শিশুদের রোগব্যাধি, টিকাকরণ ও এসএনসিইউ পরিচর্যা"
+        "notesBn": "নবজাতক ও শিশুদের রোগব্যাধি, টিকাকরণ ও এসএনসিইউ পরিচর্যা",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "id": "govt-doc-1",
+        "nameBn": "জেনারেল মেডিসিন ওপিডি (সরকারি মেডিকেল অফিসার ও স্পেশালিস্ট)",
+        "nameEn": "General Medicine Govt OPD",
+        "degrees": "MBBS, MD (Medicine)",
+        "specialtyKey": "general_medicine",
+        "specialtyBn": "জেনারেল মেডিসিন বিভাগ",
+        "specialtyEn": "General Medicine Dept",
+        "daysBn": "সোম থেকে শনিবার (ছুটির দিন ব্যতিরেকে)",
+        "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
+        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
+        "roomNo": "ওপিডি রুম ১ ও ২",
+        "appointmentPhone": "033-2433-8244",
+        "notesBn": "সকাল ৮:৩০ থেকে কাউন্টারে লাইন দিয়ে টিকিট কাটতে হয়",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
+      },
+      {
+        "id": "govt-doc-2",
+        "nameBn": "স্ত্রীরোগ ও প্রসূতি ওপিডি (Gynae & Obs)",
+        "nameEn": "Gynecology & Obstetrics Govt OPD",
+        "degrees": "MBBS, MS / DGO",
+        "specialtyKey": "gynecology",
+        "specialtyBn": "স্ত্রীরোগ ও প্রসূতি বিভাগ",
+        "specialtyEn": "Gynecology & Obstetrics Dept",
+        "daysBn": "সোম থেকে শনিবার",
+        "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
+        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
+        "roomNo": "ওপিডি রুম ৫",
+        "appointmentPhone": "033-2433-8244",
+        "notesBn": "গর্ভবতী মায়েদের অ্যান্টিনেটাল চেকআপ ও ওষুধ বিতরণ",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "id": "govt-doc-3",
+        "nameBn": "শিশু স্বাস্থ্য বহির্বিভাগ (Pediatrics OPD)",
+        "nameEn": "Pediatrics Govt OPD",
+        "degrees": "MBBS, MD / DCH",
+        "specialtyKey": "pediatrics",
+        "specialtyBn": "শিশু স্বাস্থ্য বিভাগ",
+        "specialtyEn": "Pediatrics Dept",
+        "daysBn": "সোম থেকে শনিবার",
+        "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
+        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
+        "roomNo": "ওপিডি রুম ৮",
+        "appointmentPhone": "033-2433-8244",
+        "notesBn": "শিশুদের টিকাদান ও পুষ্টি পর্যবেক্ষণ",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "id": "govt-doc-4",
+        "nameBn": "অর্থোপেডিক ও অস্থি বিভাগ (Orthopedics OPD)",
+        "nameEn": "Orthopedics Govt OPD",
+        "degrees": "MBBS, MS (Ortho)",
+        "specialtyKey": "orthopedics",
+        "specialtyBn": "অর্থোপেডিক বিভাগ",
+        "specialtyEn": "Orthopedics Dept",
+        "daysBn": "সোম, বুধ ও শুক্রবার",
+        "timingBn": "সকাল ৯:০০ - দুপুর ১:৩০",
+        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
+        "roomNo": "ওপিডি রুম ১০",
+        "appointmentPhone": "033-2433-8244",
+        "notesBn": "হাড়ের ফ্র্যাকচার, প্লাস্টার ও বাতের সমস্যা",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "id": "govt-doc-5",
+        "nameBn": "চক্ষু বহির্বিভাগ (Ophthalmology OPD)",
+        "nameEn": "Ophthalmology Govt OPD",
+        "degrees": "MBBS, MS (Eye)",
+        "specialtyKey": "ophthalmology",
+        "specialtyBn": "চক্ষু বিভাগ",
+        "specialtyEn": "Ophthalmology Dept",
+        "daysBn": "মঙ্গল, বৃহস্পতি ও শনিবার",
+        "timingBn": "সকাল ৯:০০ - দুপুর ১:০০",
+        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
+        "roomNo": "ওপিডি রুম ১২",
+        "appointmentPhone": "033-2433-8244",
+        "notesBn": "দৃষ্টিশক্তি পরীক্ষা ও ছানি অপারেশনের পরামর্শ",
+        "canonicalSpecialtyKey": "ophthalmology",
+        "canonicalSpecialtyBn": "চক্ষুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "id": "govt-doc-6",
+        "nameBn": "দন্ত চিকিৎসা বিভাগ (Dental OPD)",
+        "nameEn": "Dental Govt OPD",
+        "degrees": "BDS / MDS",
+        "specialtyKey": "dentistry",
+        "specialtyBn": "দন্ত চিকিৎসা বিভাগ",
+        "specialtyEn": "Dental Dept",
+        "daysBn": "সোম থেকে শুক্রবার",
+        "timingBn": "সকাল ৯:০০ - দুপুর ১:০০",
+        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
+        "roomNo": "ওপিডি রুম ১৪",
+        "appointmentPhone": "033-2433-8244",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       }
     ],
     "metaTitle": "বারুইপুর মহকুমা হাসপাতাল | Baruipur Subdivisional Hospital - ডাক্তারদের ওপিডি তালিকা, সময়সূচি ও ফোন নম্বর",
@@ -123,7 +232,42 @@
       "স্বাস্থ্যসাথী কার্ডে ক্যাশলেস অপারেশন",
       "ন্যায্য মূল্যের ওষুধের দোকান (Fair Price Shop)"
     ],
-    "diagnosticFacilitiesBn": []
+    "diagnosticFacilitiesBn": [],
+    "enquiryPhone": "8100820174",
+    "timingsBn": "সোম–শনি: সকাল ৯:০০ – দুপুর ২:০০ (OPD) | জরুরি বিভাগ: ২৪ ঘণ্টা খোলা",
+    "isOpen24x7": true,
+    "swasthyaSathi": true,
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "ophthalmology",
+        "bn": "চক্ষুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "dentistry",
+        "bn": "দন্ত চিকিৎসা"
+      }
+    ]
   },
   {
     "slug": "pubali-clinic-baruipur",
@@ -186,7 +330,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "শিশুদের সব ধরণের ভ্যাক্সিন বা টিকাকরণ করানো হয়"
+        "notesBn": "শিশুদের সব ধরণের ভ্যাক্সিন বা টিকাকরণ করানো হয়",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "pubali-doc-2",
@@ -202,7 +348,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "বুকের ব্যথা, হার্ট, শ্বাসকষ্ট ও দীর্ঘমেয়াদী মেডিসিন চিকিৎসা"
+        "notesBn": "বুকের ব্যথা, হার্ট, শ্বাসকষ্ট ও দীর্ঘমেয়াদী মেডিসিন চিকিৎসা",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "pubali-doc-3",
@@ -218,7 +366,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "ডায়াবেটিস, বাতের ব্যথা ও মেটাবলিক রোগের আধুনিক চিকিৎসা"
+        "notesBn": "ডায়াবেটিস, বাতের ব্যথা ও মেটাবলিক রোগের আধুনিক চিকিৎসা",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "pubali-doc-4",
@@ -234,7 +384,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "নবজাতক যত্ন, শিশুর বৃদ্ধি ও সংক্রমণ সংক্রান্ত সমস্যা"
+        "notesBn": "নবজাতক যত্ন, শিশুর বৃদ্ধি ও সংক্রমণ সংক্রান্ত সমস্যা",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "pubali-doc-5",
@@ -250,7 +402,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "এখানে আধুনিক কানের পরীক্ষা ও শ্রবণযন্ত্র সংক্রান্ত পরামর্শ দেওয়া হয়"
+        "notesBn": "এখানে আধুনিক কানের পরীক্ষা ও শ্রবণযন্ত্র সংক্রান্ত পরামর্শ দেওয়া হয়",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "pubali-doc-6",
@@ -266,7 +420,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "মাইক্রো ইয়ার সার্জারি, এন্ডোস্কোপিক নাক-গলার অপারেশন ও থাইরয়েড চিকিৎসা"
+        "notesBn": "মাইক্রো ইয়ার সার্জারি, এন্ডোস্কোপিক নাক-গলার অপারেশন ও থাইরয়েড চিকিৎসা",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "pubali-doc-7",
@@ -282,7 +438,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "চর্মরোগ, অ্যালার্জি, একজিমা, চুল পড়া ও স্কিন লেজার ট্রিটমেন্ট"
+        "notesBn": "চর্মরোগ, অ্যালার্জি, একজিমা, চুল পড়া ও স্কিন লেজার ট্রিটমেন্ট",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "pubali-doc-8",
@@ -298,7 +456,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "ডিপ্রেশন, মানসিক উদ্বেগ, শুচিবায়ু, যৌন সমস্যা ও শিশুদের লেখাপড়ার আচরণগত সমস্যা"
+        "notesBn": "ডিপ্রেশন, মানসিক উদ্বেগ, শুচিবায়ু, যৌন সমস্যা ও শিশুদের লেখাপড়ার আচরণগত সমস্যা",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "pubali-doc-9",
@@ -313,7 +473,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "হাড় ভাঙা, লিগামেন্ট ইনজুরি, কোমর ও হাঁটুর ব্যথার চিকিৎসা"
+        "notesBn": "হাড় ভাঙা, লিগামেন্ট ইনজুরি, কোমর ও হাঁটুর ব্যথার চিকিৎসা",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "pubali-doc-10",
@@ -329,7 +491,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "স্ট্রোক, মৃগীরোগ, হাত-পা কাঁপা, মাথাব্যথা ও নার্ভের জটিল সমস্যা"
+        "notesBn": "স্ট্রোক, মৃগীরোগ, হাত-পা কাঁপা, মাথাব্যথা ও নার্ভের জটিল সমস্যা",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "pubali-doc-11",
@@ -345,7 +509,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "শিশুদের সব ধরণের টিকাকরণ ও ভ্যাকসিনেশনের সুব্যবস্থা"
+        "notesBn": "শিশুদের সব ধরণের টিকাকরণ ও ভ্যাকসিনেশনের সুব্যবস্থা",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "pubali-doc-12",
@@ -361,7 +527,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "জ্বর, সর্দি-কাশি, পেটের অসুখ ও সাধারণ রোগের নিয়মিত ওপিডি পরামর্শ"
+        "notesBn": "জ্বর, সর্দি-কাশি, পেটের অসুখ ও সাধারণ রোগের নিয়মিত ওপিডি পরামর্শ",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "pubali-doc-13",
@@ -377,7 +545,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "পারিবারিক কাউন্সেলিং, মানসিক চাপ মুক্তি ও ব্যক্তিগত কাউন্সেলিং"
+        "notesBn": "পারিবারিক কাউন্সেলিং, মানসিক চাপ মুক্তি ও ব্যক্তিগত কাউন্সেলিং",
+        "canonicalSpecialtyKey": "psychology",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "pubali-doc-14",
@@ -392,7 +562,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "শিশুদের বিশেষ শিক্ষা, অটিজম, এডিএইচডি ও আচরণ সংশোধন"
+        "notesBn": "শিশুদের বিশেষ শিক্ষা, অটিজম, এডিএইচডি ও আচরণ সংশোধন",
+        "canonicalSpecialtyKey": "psychology",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "pubali-doc-15",
@@ -408,7 +580,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "বন্ধ্যাত্ব নিরাময়, জটিল প্রসব ও ল্যাপারোস্কোপিক গাইনোকোলজি সার্জারি"
+        "notesBn": "বন্ধ্যাত্ব নিরাময়, জটিল প্রসব ও ল্যাপারোস্কোপিক গাইনোকোলজি সার্জারি",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "pubali-doc-16",
@@ -423,7 +597,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "মহিলাদের তলপেটের ব্যথা, ওভারিয়ান সিস্ট ও নরমাল ডেলিভারি পরামর্শ"
+        "notesBn": "মহিলাদের তলপেটের ব্যথা, ওভারিয়ান সিস্ট ও নরমাল ডেলিভারি পরামর্শ",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "pubali-doc-17",
@@ -439,7 +615,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "ভগিনী নিবেদিতা ও ভাগীরথী নিওটিয়া হাসপাতালের অভিজ্ঞ চিকিৎসক"
+        "notesBn": "ভগিনী নিবেদিতা ও ভাগীরথী নিওটিয়া হাসপাতালের অভিজ্ঞ চিকিৎসক",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "pubali-doc-18",
@@ -455,7 +633,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "পিত্তথলির পাথর, হার্নিয়া, অ্যাপেন্ডিক্স ও পাইলস-ফিসার অপারেশন পরামর্শ"
+        "notesBn": "পিত্তথলির পাথর, হার্নিয়া, অ্যাপেন্ডিক্স ও পাইলস-ফিসার অপারেশন পরামর্শ",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "pubali-doc-19",
@@ -471,7 +651,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "ব্যথাহীন দাঁত তোলা, রুট ক্যানেল, স্কেলিং ও বাঁধানো দাঁতের আধুনিক চিকিৎসা"
+        "notesBn": "ব্যথাহীন দাঁত তোলা, রুট ক্যানেল, স্কেলিং ও বাঁধানো দাঁতের আধুনিক চিকিৎসা",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       },
       {
         "id": "pubali-doc-20",
@@ -486,7 +668,9 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "প্যারালাইসিস, ফ্রোজেন শোল্ডার ও স্পোর্টস ইনজুরির ফিজিওথেরাপি"
+        "notesBn": "প্যারালাইসিস, ফ্রোজেন শোল্ডার ও স্পোর্টস ইনজুরির ফিজিওথেরাপি",
+        "canonicalSpecialtyKey": "physiotherapy",
+        "canonicalSpecialtyBn": "ফিজিওথেরাপি"
       },
       {
         "id": "pubali-doc-21",
@@ -501,11 +685,69 @@
         "visitingFeeBn": "বাই অ্যাপয়েন্টমেন্ট",
         "appointmentPhone": "9073085883",
         "appointmentWhatsapp": "+919073085883",
-        "notesBn": "আর্থ্রাইটিস, স্পন্ডিলাইটিস ও পোস্ট-অপারেটিভ পুনর্বাসন"
+        "notesBn": "আর্থ্রাইটিস, স্পন্ডিলাইটিস ও পোস্ট-অপারেটিভ পুনর্বাসন",
+        "canonicalSpecialtyKey": "physiotherapy",
+        "canonicalSpecialtyBn": "ফিজিওথেরাপি"
       }
     ],
     "metaTitle": "পূবালী ক্লিনিক বারুইপুর | Pubali Clinic Doctors Chamber & Diagnostic Centre, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "পূবালী ক্লিনিক (Pubali Clinic Doctors Chamber & Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "পূবালী ক্লিনিক (Pubali Clinic Doctors Chamber & Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "isFeatured": true,
+    "canonicalSpecialties": [
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "psychiatry",
+        "bn": "মানসিক স্বাস্থ্য"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "psychology",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "dentistry",
+        "bn": "দন্ত চিকিৎসা"
+      },
+      {
+        "key": "physiotherapy",
+        "bn": "ফিজিওথেরাপি"
+      }
+    ]
   },
   {
     "slug": "kabita-sebayatan-baruipur",
@@ -565,7 +807,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "হাই-রিস্ক প্রেগন্যান্সি, বন্ধ্যাত্ব ও নরমাল ডেলিভারি পরামর্শ"
+        "notesBn": "হাই-রিস্ক প্রেগন্যান্সি, বন্ধ্যাত্ব ও নরমাল ডেলিভারি পরামর্শ",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "kabita-doc-2",
@@ -581,7 +825,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "পেটের যে কোন সমস্যা, হার্নিয়া, অ্যাপেন্ডিক্স ও মাইক্রো সার্জারি"
+        "notesBn": "পেটের যে কোন সমস্যা, হার্নিয়া, অ্যাপেন্ডিক্স ও মাইক্রো সার্জারি",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "kabita-doc-3",
@@ -596,7 +842,9 @@
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "সাধারণ সার্জারি ও পেটের সমস্যা চিকিৎসা"
+        "notesBn": "সাধারণ সার্জারি ও পেটের সমস্যা চিকিৎসা",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "kabita-doc-4",
@@ -611,7 +859,9 @@
         "visitingFeeBn": "₹ ৪০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "সাধারণ রোগ, জ্বর, পেটের গোলযোগ ও নিয়মিত চিকিৎসা"
+        "notesBn": "সাধারণ রোগ, জ্বর, পেটের গোলযোগ ও নিয়মিত চিকিৎসা",
+        "canonicalSpecialtyKey": "general_physician",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "kabita-doc-5",
@@ -627,7 +877,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "সুগার, কিডনি ও হার্টের চিকিৎসার বিশেষ অভিজ্ঞ"
+        "notesBn": "সুগার, কিডনি ও হার্টের চিকিৎসার বিশেষ অভিজ্ঞ",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "kabita-doc-6",
@@ -642,7 +894,9 @@
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "জটিল অভ্যন্তরীণ রোগ, ডায়াবেটিস ও রক্তচাপ নিয়ন্ত্রণ"
+        "notesBn": "জটিল অভ্যন্তরীণ রোগ, ডায়াবেটিস ও রক্তচাপ নিয়ন্ত্রণ",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "kabita-doc-7",
@@ -657,7 +911,9 @@
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "মেডিসিন ও দীর্ঘমেয়াদী রোগের বিশেষজ্ঞ পরামর্শ"
+        "notesBn": "মেডিসিন ও দীর্ঘমেয়াদী রোগের বিশেষজ্ঞ পরামর্শ",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "kabita-doc-8",
@@ -673,7 +929,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "নবজাতক ও শিশুদের রোগ, ওজন ও পুষ্টি পরামর্শ এবং টিকাকরণ"
+        "notesBn": "নবজাতক ও শিশুদের রোগ, ওজন ও পুষ্টি পরামর্শ এবং টিকাকরণ",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "kabita-doc-9",
@@ -688,7 +946,9 @@
         "visitingFeeBn": "₹ ৮০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "ইউরেটেরিক স্টোন, প্রস্টেট সমস্যা ও মূত্রনালীর ল্যাপারোস্কোপিক সার্জারি"
+        "notesBn": "ইউরেটেরিক স্টোন, প্রস্টেট সমস্যা ও মূত্রনালীর ল্যাপারোস্কোপিক সার্জারি",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "kabita-doc-10",
@@ -704,7 +964,9 @@
         "visitingFeeBn": "₹ ৭০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "হাড়ভাঙা, বাতের ব্যথা, হাঁটু ও কোমর ব্যথা, স্পন্ডিলাইটিস ও ফ্র্যাকচার চিকিৎসা"
+        "notesBn": "হাড়ভাঙা, বাতের ব্যথা, হাঁটু ও কোমর ব্যথা, স্পন্ডিলাইটিস ও ফ্র্যাকচার চিকিৎসা",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "kabita-doc-11",
@@ -719,7 +981,9 @@
         "visitingFeeBn": "₹ ৮০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "হার্টের সমস্যা, বুকে ব্যথা, উচ্চ রক্তচাপ ও ইসিজি/ইকো মূল্যায়ন"
+        "notesBn": "হার্টের সমস্যা, বুকে ব্যথা, উচ্চ রক্তচাপ ও ইসিজি/ইকো মূল্যায়ন",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "kabita-doc-12",
@@ -734,7 +998,9 @@
         "visitingFeeBn": "₹ ৮০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "কিডনি রোগ, ইউরিন প্রোটিন লিক ও ক্রিয়েটিনিন বৃদ্ধি চিকিৎসা"
+        "notesBn": "কিডনি রোগ, ইউরিন প্রোটিন লিক ও ক্রিয়েটিনিন বৃদ্ধি চিকিৎসা",
+        "canonicalSpecialtyKey": "nephrology",
+        "canonicalSpecialtyBn": "নেফ্রোলজি (কিডনি)"
       },
       {
         "id": "kabita-doc-13",
@@ -750,7 +1016,9 @@
         "visitingFeeBn": "₹ ৮০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "মানসিক উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা, নার্ভের দুর্বলতা ও কাউন্সেলিং"
+        "notesBn": "মানসিক উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা, নার্ভের দুর্বলতা ও কাউন্সেলিং",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "kabita-doc-14",
@@ -765,7 +1033,9 @@
         "visitingFeeBn": "₹ ৮০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "মাথাব্যথা, প্যারালাইসিস, ব্রেন স্ট্রোক ও স্নায়ুর সমস্যা"
+        "notesBn": "মাথাব্যথা, প্যারালাইসিস, ব্রেন স্ট্রোক ও স্নায়ুর সমস্যা",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "kabita-doc-15",
@@ -780,11 +1050,64 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9062524649",
         "appointmentWhatsapp": "+919062524649",
-        "notesBn": "কানের ব্যথা ও পুঁজ, টনসিল, সাইনাস, গলার সমস্যা ও মাইক্রো স্ক্রিনিং"
+        "notesBn": "কানের ব্যথা ও পুঁজ, টনসিল, সাইনাস, গলার সমস্যা ও মাইক্রো স্ক্রিনিং",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       }
     ],
     "metaTitle": "কবিতা সেবায়তন বারুইপুর | Kabita Sebayatan Doctors Chamber & Diagnostic Centre, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "কবিতা সেবায়তন (Kabita Sebayatan Doctors Chamber & Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "কবিতা সেবায়তন (Kabita Sebayatan Doctors Chamber & Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "general_physician",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "nephrology",
+        "bn": "নেফ্রোলজি (কিডনি)"
+      },
+      {
+        "key": "psychiatry",
+        "bn": "মানসিক স্বাস্থ্য"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      }
+    ]
   },
   {
     "slug": "welkin-medicare-hospital",
@@ -845,7 +1168,9 @@
         "roomNo": "চেম্বার নং ১০২",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "হাই-রিস্ক প্রেগন্যান্সি ও বন্ধ্যাত্ব চিকিৎসা"
+        "notesBn": "হাই-রিস্ক প্রেগন্যান্সি ও বন্ধ্যাত্ব চিকিৎসা",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "welkin-doc-2",
@@ -862,7 +1187,9 @@
         "roomNo": "চেম্বার নং ১০৫",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "ইকো, পেসমেকার ফলো-আপ ও হৃদরোগ ব্যবস্থাপনা"
+        "notesBn": "ইকো, পেসমেকার ফলো-আপ ও হৃদরোগ ব্যবস্থাপনা",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "welkin-doc-3",
@@ -879,7 +1206,9 @@
         "roomNo": "চেম্বার নং ১০৩",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "শিশুদের টিকাদান ও জটিল ইনফেকশন চিকিৎসা"
+        "notesBn": "শিশুদের টিকাদান ও জটিল ইনফেকশন চিকিৎসা",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "welkin-doc-4",
@@ -896,7 +1225,9 @@
         "roomNo": "চেম্বার নং ১০৪",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "হাড়ভাঙা, আর্থ্রাইটিস ও স্পাইন সমস্যা"
+        "notesBn": "হাড়ভাঙা, আর্থ্রাইটিস ও স্পাইন সমস্যা",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "welkin-doc-5",
@@ -913,7 +1244,9 @@
         "roomNo": "চেম্বার নং ১০৬",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "ত্বক, চুল ও চর্মরোগের লেজার চিকিৎসা"
+        "notesBn": "ত্বক, চুল ও চর্মরোগের লেজার চিকিৎসা",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "welkin-doc-6",
@@ -930,7 +1263,9 @@
         "roomNo": "চেম্বার নং ১০১",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "ডায়াবেটিস, হাইপারটেনশন ও দীর্ঘমেয়াদি জ্বর"
+        "notesBn": "ডায়াবেটিস, হাইপারটেনশন ও দীর্ঘমেয়াদি জ্বর",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "welkin-doc-7",
@@ -947,7 +1282,9 @@
         "roomNo": "চেম্বার নং ১০৭",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "কানের মাইক্রো-সার্জারি ও সাইনাস চিকিৎসা"
+        "notesBn": "কানের মাইক্রো-সার্জারি ও সাইনাস চিকিৎসা",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "welkin-doc-8",
@@ -964,11 +1301,48 @@
         "roomNo": "চেম্বার নং ১০৮",
         "appointmentPhone": "033-2433-1111",
         "appointmentWhatsapp": "+919830500112",
-        "notesBn": "গলব্লাডার স্টোন, হার্নিয়া ও অ্যাপেন্ডিক্স ল্যাপারোস্কোপিক সার্জারি"
+        "notesBn": "গলব্লাডার স্টোন, হার্নিয়া ও অ্যাপেন্ডিক্স ল্যাপারোস্কোপিক সার্জারি",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       }
     ],
     "metaTitle": "ওয়েলকিন মেডিকেয়ার হাসপাতাল বারুইপুর | Welkin Medicare Hospital, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "ওয়েলকিন মেডিকেয়ার হাসপাতাল (Welkin Medicare Hospital Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "ওয়েলকিন মেডিকেয়ার হাসপাতাল (Welkin Medicare Hospital Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      }
+    ]
   },
   {
     "slug": "paramount-nursing-home-baruipur",
@@ -1024,7 +1398,9 @@
         "roomNo": "চেম্বার ২",
         "appointmentPhone": "033-2433-8472",
         "appointmentWhatsapp": "+919831123450",
-        "notesBn": "প্রসূতি সেবা ও জটিল গর্ভধারণ পর্যবেক্ষণ"
+        "notesBn": "প্রসূতি সেবা ও জটিল গর্ভধারণ পর্যবেক্ষণ",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "paramount-doc-2",
@@ -1040,7 +1416,9 @@
         "visitingFeeBn": "₹ ৬৫০",
         "roomNo": "চেম্বার ১",
         "appointmentPhone": "033-2433-8472",
-        "appointmentWhatsapp": "+919831123450"
+        "appointmentWhatsapp": "+919831123450",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "paramount-doc-3",
@@ -1056,7 +1434,9 @@
         "visitingFeeBn": "₹ ৫৫০",
         "roomNo": "চেম্বার ৩",
         "appointmentPhone": "033-2433-8472",
-        "appointmentWhatsapp": "+919831123450"
+        "appointmentWhatsapp": "+919831123450",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "paramount-doc-4",
@@ -1072,7 +1452,9 @@
         "visitingFeeBn": "₹ ৫৫০",
         "roomNo": "চেম্বার ৪",
         "appointmentPhone": "033-2433-8472",
-        "appointmentWhatsapp": "+919831123450"
+        "appointmentWhatsapp": "+919831123450",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "paramount-doc-5",
@@ -1088,11 +1470,36 @@
         "visitingFeeBn": "₹ ৬৫০",
         "roomNo": "চেম্বার ৫",
         "appointmentPhone": "033-2433-8472",
-        "appointmentWhatsapp": "+919831123450"
+        "appointmentWhatsapp": "+919831123450",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       }
     ],
     "metaTitle": "প্যারামাউন্ট নার্সিং হোম বারুইপুর | Paramount Nursing Home, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "প্যারামাউন্ট নার্সিং হোম (Paramount Nursing Home Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "প্যারামাউন্ট নার্সিং হোম (Paramount Nursing Home Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      }
+    ]
   },
   {
     "slug": "apex-polyclinic-and-diagnostic-baruipur",
@@ -1148,7 +1555,9 @@
         "roomNo": "রুম ১",
         "appointmentPhone": "033-2433-7766",
         "appointmentWhatsapp": "+919433189922",
-        "notesBn": "মাথাব্যথা, মৃগীরোগ, স্ট্রোক ও স্নায়ু অবশতা বিশেষজ্ঞ"
+        "notesBn": "মাথাব্যথা, মৃগীরোগ, স্ট্রোক ও স্নায়ু অবশতা বিশেষজ্ঞ",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "apex-doc-2",
@@ -1164,7 +1573,9 @@
         "visitingFeeBn": "₹ ৮৫০",
         "roomNo": "রুম ২",
         "appointmentPhone": "033-2433-7766",
-        "appointmentWhatsapp": "+919433189922"
+        "appointmentWhatsapp": "+919433189922",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "apex-doc-3",
@@ -1180,7 +1591,9 @@
         "visitingFeeBn": "₹ ৬৫০",
         "roomNo": "রুম ৩",
         "appointmentPhone": "033-2433-7766",
-        "appointmentWhatsapp": "+919433189922"
+        "appointmentWhatsapp": "+919433189922",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "apex-doc-4",
@@ -1196,7 +1609,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "roomNo": "রুম ৪",
         "appointmentPhone": "033-2433-7766",
-        "appointmentWhatsapp": "+919433189922"
+        "appointmentWhatsapp": "+919433189922",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "apex-doc-5",
@@ -1212,7 +1627,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "roomNo": "রুম ৫",
         "appointmentPhone": "033-2433-7766",
-        "appointmentWhatsapp": "+919433189922"
+        "appointmentWhatsapp": "+919433189922",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "apex-doc-6",
@@ -1228,7 +1645,9 @@
         "visitingFeeBn": "₹ ৭০০",
         "roomNo": "রুম ৬",
         "appointmentPhone": "033-2433-7766",
-        "appointmentWhatsapp": "+919433189922"
+        "appointmentWhatsapp": "+919433189922",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "apex-doc-7",
@@ -1244,11 +1663,44 @@
         "visitingFeeBn": "₹ ৫০০",
         "roomNo": "রুম ১",
         "appointmentPhone": "033-2433-7766",
-        "appointmentWhatsapp": "+919433189922"
+        "appointmentWhatsapp": "+919433189922",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "অ্যাপেক্স পলিক্লিনিক ও ডায়াগনস্টিক সেন্টার বারুইপুর | Apex Polyclinic & Diagnostic Centre, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "অ্যাপেক্স পলিক্লিনিক ও ডায়াগনস্টিক সেন্টার (Apex Polyclinic & Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "অ্যাপেক্স পলিক্লিনিক ও ডায়াগনস্টিক সেন্টার (Apex Polyclinic & Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      }
+    ]
   },
   {
     "slug": "sun-diagnostic-and-doctor-chamber",
@@ -1302,7 +1754,9 @@
         "roomNo": "চেম্বার ১",
         "appointmentPhone": "033-2433-6555",
         "appointmentWhatsapp": "+919830889911",
-        "notesBn": "পেটের সমস্যা, আইবিএস, ফ্যাটি লিভার ও জন্ডিস"
+        "notesBn": "পেটের সমস্যা, আইবিএস, ফ্যাটি লিভার ও জন্ডিস",
+        "canonicalSpecialtyKey": "gastroenterology",
+        "canonicalSpecialtyBn": "গ্যাস্ট্রো ও লিভার"
       },
       {
         "id": "sun-doc-2",
@@ -1319,7 +1773,9 @@
         "roomNo": "চেম্বার ২",
         "appointmentPhone": "033-2433-6555",
         "appointmentWhatsapp": "+919830889911",
-        "notesBn": "কিডনি স্টোন, প্রস্টেট সমস্যা ও প্রস্রাবের সংক্রমণ"
+        "notesBn": "কিডনি স্টোন, প্রস্টেট সমস্যা ও প্রস্রাবের সংক্রমণ",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "sun-doc-3",
@@ -1335,7 +1791,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "roomNo": "চেম্বার ৩",
         "appointmentPhone": "033-2433-6555",
-        "appointmentWhatsapp": "+919830889911"
+        "appointmentWhatsapp": "+919830889911",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "sun-doc-4",
@@ -1351,7 +1809,9 @@
         "visitingFeeBn": "₹ ৫০০",
         "roomNo": "চেম্বার ৪",
         "appointmentPhone": "033-2433-6555",
-        "appointmentWhatsapp": "+919830889911"
+        "appointmentWhatsapp": "+919830889911",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "sun-doc-5",
@@ -1368,11 +1828,36 @@
         "roomNo": "চেম্বার ৫",
         "appointmentPhone": "033-2433-6555",
         "appointmentWhatsapp": "+919830889911",
-        "notesBn": "হাঁপানি, দীর্ঘস্থায়ী কাশি, সিওপিডি ও অ্যালার্জি"
+        "notesBn": "হাঁপানি, দীর্ঘস্থায়ী কাশি, সিওপিডি ও অ্যালার্জি",
+        "canonicalSpecialtyKey": "pulmonology",
+        "canonicalSpecialtyBn": "বক্ষব্যাধি ও ফুসফুস"
       }
     ],
     "metaTitle": "সান ডায়াগনস্টিক ও ডক্টরস চেম্বার বারুইপুর | Sun Diagnostic & Doctor Chamber, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "সান ডায়াগনস্টিক ও ডক্টরস চেম্বার (Sun Diagnostic & Doctor Chamber Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "সান ডায়াগনস্টিক ও ডক্টরস চেম্বার (Sun Diagnostic & Doctor Chamber Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "gastroenterology",
+        "bn": "গ্যাস্ট্রো ও লিভার"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "pulmonology",
+        "bn": "বক্ষব্যাধি ও ফুসফুস"
+      }
+    ]
   },
   {
     "slug": "frank-ross-pharmacy-opd-baruipur",
@@ -1418,7 +1903,9 @@
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-9090",
         "appointmentWhatsapp": "+919830022334",
-        "notesBn": "জ্বর, সর্দি-কাশি, রক্তচাপ ও ডায়াবেটিস মনিটরিং"
+        "notesBn": "জ্বর, সর্দি-কাশি, রক্তচাপ ও ডায়াবেটিস মনিটরিং",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "fr-doc-2",
@@ -1433,7 +1920,9 @@
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-9090",
-        "appointmentWhatsapp": "+919830022334"
+        "appointmentWhatsapp": "+919830022334",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "fr-doc-3",
@@ -1448,7 +1937,9 @@
         "timingBn": "শনিবার বিকাল ৫:৩০, রবিবার সকাল ১১:০০",
         "visitingFeeBn": "₹ ৫৫০",
         "appointmentPhone": "033-2433-9090",
-        "appointmentWhatsapp": "+919830022334"
+        "appointmentWhatsapp": "+919830022334",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "fr-doc-4",
@@ -1464,12 +1955,33 @@
         "visitingFeeBn": "₹ ৪০০",
         "appointmentPhone": "033-2433-9090",
         "appointmentWhatsapp": "+919830022334",
-        "notesBn": "দাঁত তোলা, রুট ক্যানাল ও স্কেলিং পরামর্শ"
+        "notesBn": "দাঁত তোলা, রুট ক্যানাল ও স্কেলিং পরামর্শ",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       }
     ],
     "metaTitle": "ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক বারুইপুর | Frank Ross Pharmacy & Doctors Clinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
     "metaDescription": "ফ্রাঙ্ক রস ফার্মেসি ও ডক্টরস ক্লিনিক (Frank Ross Pharmacy & Doctors Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
-    "diagnosticFacilitiesBn": []
+    "diagnosticFacilitiesBn": [],
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "dentistry",
+        "bn": "দন্ত চিকিৎসা"
+      }
+    ]
   },
   {
     "slug": "apollo-clinic-baruipur",
@@ -1516,7 +2028,9 @@
         "timingBn": "সকাল ১০:৩০ - দুপুর ১২:৩০",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-5454",
-        "appointmentWhatsapp": "+919830234567"
+        "appointmentWhatsapp": "+919830234567",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "apollo-doc-2",
@@ -1531,7 +2045,9 @@
         "timingBn": "বিকাল ৪:৩০ - সন্ধ্যা ৬:৩০",
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "033-2433-5454",
-        "appointmentWhatsapp": "+919830234567"
+        "appointmentWhatsapp": "+919830234567",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "apollo-doc-3",
@@ -1546,7 +2062,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:০০",
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "033-2433-5454",
-        "appointmentWhatsapp": "+919830234567"
+        "appointmentWhatsapp": "+919830234567",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "apollo-doc-4",
@@ -1562,14 +2080,35 @@
         "visitingFeeBn": "₹ ৭০০",
         "appointmentPhone": "033-2433-5454",
         "appointmentWhatsapp": "+919830234567",
-        "notesBn": "উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা ও মানসিক কাউন্সেলিং"
+        "notesBn": "উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা ও মানসিক কাউন্সেলিং",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       }
     ],
     "websiteUrl": "https://www.apolloclinic.com/clinic-locator/india/west-bengal/kolkata/baruipur",
     "facebookUrl": "https://www.facebook.com/ApolloClinicBaruipur",
     "metaTitle": "অ্যাপোলো ক্লিনিক বারুইপুর | Apollo Clinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
     "metaDescription": "অ্যাপোলো ক্লিনিক (Apollo Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
-    "diagnosticFacilitiesBn": []
+    "diagnosticFacilitiesBn": [],
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "psychiatry",
+        "bn": "মানসিক স্বাস্থ্য"
+      }
+    ]
   },
   {
     "slug": "baruipur-arogya-niketan-chamber",
@@ -1618,7 +2157,9 @@
         "timingBn": "সকাল ৯:০০ - দুপুর ১২:০০",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-4321",
-        "appointmentWhatsapp": "+919831987654"
+        "appointmentWhatsapp": "+919831987654",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "arogya-doc-2",
@@ -1633,7 +2174,9 @@
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:৩০",
         "visitingFeeBn": "₹ ৫৫০",
         "appointmentPhone": "033-2433-4321",
-        "appointmentWhatsapp": "+919831987654"
+        "appointmentWhatsapp": "+919831987654",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "arogya-doc-3",
@@ -1648,7 +2191,9 @@
         "timingBn": "বিকাল ৫:৩০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-4321",
-        "appointmentWhatsapp": "+919831987654"
+        "appointmentWhatsapp": "+919831987654",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "arogya-doc-4",
@@ -1664,11 +2209,32 @@
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-4321",
         "appointmentWhatsapp": "+919831987654",
-        "notesBn": "চোখের পাওয়ার পরীক্ষা, ছানি ও গ্লুকোমা প্রাথমিক স্ক্রিনিং"
+        "notesBn": "চোখের পাওয়ার পরীক্ষা, ছানি ও গ্লুকোমা প্রাথমিক স্ক্রিনিং",
+        "canonicalSpecialtyKey": "ophthalmology",
+        "canonicalSpecialtyBn": "চক্ষুরোগ বিশেষজ্ঞ"
       }
     ],
     "metaTitle": "বারুইপুর আরোগ্য নিকেতন ও পলিক্লিনিক বারুইপুর | Baruipur Arogya Niketan & Polyclinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "বারুইপুর আরোগ্য নিকেতন ও পলিক্লিনিক (Baruipur Arogya Niketan & Polyclinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "বারুইপুর আরোগ্য নিকেতন ও পলিক্লিনিক (Baruipur Arogya Niketan & Polyclinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "ophthalmology",
+        "bn": "চক্ষুরোগ বিশেষজ্ঞ"
+      }
+    ]
   },
   {
     "slug": "mandal-medical-stores-and-opd",
@@ -1712,7 +2278,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:৩০",
         "visitingFeeBn": "₹ ৪০০",
         "appointmentPhone": "033-2433-3388",
-        "appointmentWhatsapp": "+919836112244"
+        "appointmentWhatsapp": "+919836112244",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mondal-doc-2",
@@ -1727,7 +2295,9 @@
         "timingBn": "বিকাল ৫:৩০ - সন্ধ্যা ৭:৩০",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-3388",
-        "appointmentWhatsapp": "+919836112244"
+        "appointmentWhatsapp": "+919836112244",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "mondal-doc-3",
@@ -1743,12 +2313,29 @@
         "visitingFeeBn": "₹ ৪০০",
         "appointmentPhone": "033-2433-3388",
         "appointmentWhatsapp": "+919836112244",
-        "notesBn": "কোমর ও পিঠের ব্যথা, ফ্র্যাকচার-পরবর্তী থেরাপি ও প্যারালাইসিস রিহ্যাব"
+        "notesBn": "কোমর ও পিঠের ব্যথা, ফ্র্যাকচার-পরবর্তী থেরাপি ও প্যারালাইসিস রিহ্যাব",
+        "canonicalSpecialtyKey": "physiotherapy",
+        "canonicalSpecialtyBn": "ফিজিওথেরাপি"
       }
     ],
     "metaTitle": "মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার বারুইপুর | Mondal Medical Stores & Doctor Chamber, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
     "metaDescription": "মণ্ডল মেডিকেল স্টোরস ও ডাক্তার চেম্বার (Mondal Medical Stores & Doctor Chamber Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
-    "diagnosticFacilitiesBn": []
+    "diagnosticFacilitiesBn": [],
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "physiotherapy",
+        "bn": "ফিজিওথেরাপি"
+      }
+    ]
   },
   {
     "slug": "baruipur-hospital-research-institute",
@@ -1803,7 +2390,9 @@
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ৭০০",
         "appointmentPhone": "033-2433-7000",
-        "appointmentWhatsapp": "+919831778899"
+        "appointmentWhatsapp": "+919831778899",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "bhri-doc-2",
@@ -1818,7 +2407,9 @@
         "timingBn": "সকাল ১১:০০ - দুপুর ১:৩০",
         "visitingFeeBn": "₹ ৬৫০",
         "appointmentPhone": "033-2433-7000",
-        "appointmentWhatsapp": "+919831778899"
+        "appointmentWhatsapp": "+919831778899",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "bhri-doc-3",
@@ -1833,7 +2424,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:৩০",
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "033-2433-7000",
-        "appointmentWhatsapp": "+919831778899"
+        "appointmentWhatsapp": "+919831778899",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "bhri-doc-4",
@@ -1848,7 +2441,9 @@
         "timingBn": "সকাল ১০:০০ - দুপুর ১২:৩০",
         "visitingFeeBn": "₹ ৫৫০",
         "appointmentPhone": "033-2433-7000",
-        "appointmentWhatsapp": "+919831778899"
+        "appointmentWhatsapp": "+919831778899",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "bhri-doc-5",
@@ -1863,142 +2458,36 @@
         "timingBn": "শুক্রবার বিকাল ৫:০০, রবিবার সকাল ১০:৩০",
         "visitingFeeBn": "₹ ৬৫০",
         "appointmentPhone": "033-2433-7000",
-        "appointmentWhatsapp": "+919831778899"
+        "appointmentWhatsapp": "+919831778899",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       }
     ],
     "metaTitle": "বারুইপুর হসপিটাল অ্যান্ড রিসার্চ ইনস্টিটিউট বারুইপুর | Baruipur Hospital & Research Institute, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "বারুইপুর হসপিটাল অ্যান্ড রিসার্চ ইনস্টিটিউট (Baruipur Hospital & Research Institute Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
-  },
-  {
-    "slug": "baruipur-subdivisional-hospital-opd",
-    "nameBn": "বারুইপুর মহকুমা হাসপাতাল",
-    "nameEn": "Baruipur Subdivisional Hospital (Govt OPD)",
-    "type": "hospital",
-    "typeBn": "সরকারি মহকুমা হাসপাতাল ও সুপার স্পেশালিটি ওপিডি",
-    "taglineBn": "মহকুমার প্রধান সরকারি চিকিৎসাকেন্দ্র, মাত্র ₹২ টিকিটে বিশেষজ্ঞ ওপিডি পরামর্শ ও বিনামূল্যে ওষুধ",
-    "overviewBn": "পশ্চিমবঙ্গ রাজ্য সরকারের স্বাস্থ্য ও পরিবার কল্যাণ দপ্তরের অধীনে পরিচালিত বারুইপুর মহকুমা হাসপাতাল (Baruipur Subdivisional Hospital) এই অঞ্চলের প্রধান সরকারি স্বাস্থ্য পরিকাঠামো। এখানে প্রতিদিন মেডিসিন, সার্জারি, স্ত্রীরোগ ও প্রসূতি, পেডিয়াট্রিক্স, চক্ষু, ইএনটি, চর্মরোগ ও ডেন্টাল বহির্বিভাগে (OPD) কয়েক হাজার রোগী বিনামূল্যে উচ্চমানের সরকারি চিকিৎসা পরিষেবা ও ওষুধ গ্রহণ করেন। হাসপাতালে রয়েছে সার্বক্ষণিক চালু জরুরি বিভাগ (Emergency Ward), ব্লাড ব্যাংক ও কম্পোনেন্ট সেপারেশন ইউনিট, বিনামূল্যে ডিজিটাল এক্স-রে ও ইউএসজি, ডায়ালাইসিস ইউনিট এবং সম্পূর্ণ বিনামূল্যে ন্যায্য মূল্যের ওষুধের দোকান (Fair Price Shop)।",
-    "addressBn": "হাসপাতাল রোড, মাদারাত মোড়, বারুইপুর, দক্ষিণ ২৪ পরগনা - ৭৪৩৩০২",
-    "addressEn": "Hospital Road, Madarat More, Baruipur, South 24 Parganas - 743302",
-    "landmarkBn": "বারুইপুর মাদারাত রোড ও কোর্ট চত্বরের কাছে",
-    "phone": "033-2433-8244",
-    "emergencyPhone": "112",
-    "altPhone": "102 (অ্যাম্বুলেন্স)",
-    "googleMapUrl": "https://maps.google.com/?q=Baruipur+Subdivisional+Hospital",
-    "openingHoursBn": "জরুরি বিভাগ: ২৪ ঘণ্টা খোলা | বহির্বিভাগ (OPD টিকিট কাউন্টার): সকাল ৮:৩০ - দুপুর ১:০০ (রবিবার ও ছুটির দিন বাদে)",
-    "isOpen24Hours": true,
-    "hasEmergency": true,
-    "hasPharmacy": true,
-    "hasDiagnostic": true,
-    "hasAmbulance": true,
-    "swasthyaSathiAccepted": true,
-    "insuranceAccepted": true,
-    "establishedYear": "সরকারি মহকুমা কেন্দ্র",
-    "bedCapacity": "৩০০+ শয্যা",
-    "keyServicesBn": [
-      "মাত্র ₹২ সরকারি রেজিস্ট্রেশন টিকিটে অভিজ্ঞ ডাক্তারদের পরামর্শ",
-      "বিনামূল্যে অত্যাবশ্যকীয় ওষুধ সরবরাহ ও ফেয়ার প্রাইস মেডিসিন শপ",
-      "২৪ ঘণ্টা ট্রমা কেয়ার, ব্লাড ব্যাংক ও ডায়ালিসিস সুবিধা",
-      "স্বাস্থ্যসাথী কার্ডে বিনামূল্যে জটিল অস্ত্রোপচার"
-    ],
-    "diagnosticFacilitiesBn": [
-      "ডিজিটাল এক্স-রে ও ইউএসজি (USG)",
-      "সম্পূর্ণ বিনামূল্যে সরকারি প্যাথলজি ল্যাবরেটরি",
-      "ইসিজি ও ডায়ালিসিস ইউনিট"
-    ],
-    "doctorsCount": 6,
-    "doctors": [
+    "metaDescription": "বারুইপুর হসপিটাল অ্যান্ড রিসার্চ ইনস্টিটিউট (Baruipur Hospital & Research Institute Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
       {
-        "id": "govt-doc-1",
-        "nameBn": "জেনারেল মেডিসিন ওপিডি (সরকারি মেডিকেল অফিসার ও স্পেশালিস্ট)",
-        "nameEn": "General Medicine Govt OPD",
-        "degrees": "MBBS, MD (Medicine)",
-        "specialtyKey": "general_medicine",
-        "specialtyBn": "জেনারেল মেডিসিন বিভাগ",
-        "specialtyEn": "General Medicine Dept",
-        "daysBn": "সোম থেকে শনিবার (ছুটির দিন ব্যতিরেকে)",
-        "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
-        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
-        "roomNo": "ওপিডি রুম ১ ও ২",
-        "appointmentPhone": "033-2433-8244",
-        "notesBn": "সকাল ৮:৩০ থেকে কাউন্টারে লাইন দিয়ে টিকিট কাটতে হয়"
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
       },
       {
-        "id": "govt-doc-2",
-        "nameBn": "স্ত্রীরোগ ও প্রসূতি ওপিডি (Gynae & Obs)",
-        "nameEn": "Gynecology & Obstetrics Govt OPD",
-        "degrees": "MBBS, MS / DGO",
-        "specialtyKey": "gynecology",
-        "specialtyBn": "স্ত্রীরোগ ও প্রসূতি বিভাগ",
-        "specialtyEn": "Gynecology & Obstetrics Dept",
-        "daysBn": "সোম থেকে শনিবার",
-        "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
-        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
-        "roomNo": "ওপিডি রুম ৫",
-        "appointmentPhone": "033-2433-8244",
-        "notesBn": "গর্ভবতী মায়েদের অ্যান্টিনেটাল চেকআপ ও ওষুধ বিতরণ"
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
-        "id": "govt-doc-3",
-        "nameBn": "শিশু স্বাস্থ্য বহির্বিভাগ (Pediatrics OPD)",
-        "nameEn": "Pediatrics Govt OPD",
-        "degrees": "MBBS, MD / DCH",
-        "specialtyKey": "pediatrics",
-        "specialtyBn": "শিশু স্বাস্থ্য বিভাগ",
-        "specialtyEn": "Pediatrics Dept",
-        "daysBn": "সোম থেকে শনিবার",
-        "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
-        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
-        "roomNo": "ওপিডি রুম ৮",
-        "appointmentPhone": "033-2433-8244",
-        "notesBn": "শিশুদের টিকাদান ও পুষ্টি পর্যবেক্ষণ"
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
       },
       {
-        "id": "govt-doc-4",
-        "nameBn": "অর্থোপেডিক ও অস্থি বিভাগ (Orthopedics OPD)",
-        "nameEn": "Orthopedics Govt OPD",
-        "degrees": "MBBS, MS (Ortho)",
-        "specialtyKey": "orthopedics",
-        "specialtyBn": "অর্থোপেডিক বিভাগ",
-        "specialtyEn": "Orthopedics Dept",
-        "daysBn": "সোম, বুধ ও শুক্রবার",
-        "timingBn": "সকাল ৯:০০ - দুপুর ১:৩০",
-        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
-        "roomNo": "ওপিডি রুম ১০",
-        "appointmentPhone": "033-2433-8244",
-        "notesBn": "হাড়ের ফ্র্যাকচার, প্লাস্টার ও বাতের সমস্যা"
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
-        "id": "govt-doc-5",
-        "nameBn": "চক্ষু বহির্বিভাগ (Ophthalmology OPD)",
-        "nameEn": "Ophthalmology Govt OPD",
-        "degrees": "MBBS, MS (Eye)",
-        "specialtyKey": "ophthalmology",
-        "specialtyBn": "চক্ষু বিভাগ",
-        "specialtyEn": "Ophthalmology Dept",
-        "daysBn": "মঙ্গল, বৃহস্পতি ও শনিবার",
-        "timingBn": "সকাল ৯:০০ - দুপুর ১:০০",
-        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
-        "roomNo": "ওপিডি রুম ১২",
-        "appointmentPhone": "033-2433-8244",
-        "notesBn": "দৃষ্টিশক্তি পরীক্ষা ও ছানি অপারেশনের পরামর্শ"
-      },
-      {
-        "id": "govt-doc-6",
-        "nameBn": "দন্ত চিকিৎসা বিভাগ (Dental OPD)",
-        "nameEn": "Dental Govt OPD",
-        "degrees": "BDS / MDS",
-        "specialtyKey": "dentistry",
-        "specialtyBn": "দন্ত চিকিৎসা বিভাগ",
-        "specialtyEn": "Dental Dept",
-        "daysBn": "সোম থেকে শুক্রবার",
-        "timingBn": "সকাল ৯:০০ - দুপুর ১:০০",
-        "visitingFeeBn": "বিনামূল্যে (টিকিট ফি ₹২)",
-        "roomNo": "ওপিডি রুম ১৪",
-        "appointmentPhone": "033-2433-8244"
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
       }
-    ],
-    "metaTitle": "বারুইপুর মহকুমা হাসপাতাল বারুইপুর | Baruipur Subdivisional Hospital, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "বারুইপুর মহকুমা হাসপাতাল (Baruipur Subdivisional Hospital Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    ]
   },
   {
     "slug": "mangaldeep-puratan-bazar-baruipur",
@@ -2051,7 +2540,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "থাইরয়েড, ডায়াবেটিস ও হরমোনজনিত জটিলতা"
+        "notesBn": "থাইরয়েড, ডায়াবেটিস ও হরমোনজনিত জটিলতা",
+        "canonicalSpecialtyKey": "endocrinology",
+        "canonicalSpecialtyBn": "হরমোন ও ডায়াবেটিস"
       },
       {
         "id": "mangaldeep-doc-2",
@@ -2067,7 +2558,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "এন্ডোস্কোপিক, ল্যাপারোস্কোপিক ও রোবোটিক ইউরোলজি সার্জারি"
+        "notesBn": "এন্ডোস্কোপিক, ল্যাপারোস্কোপিক ও রোবোটিক ইউরোলজি সার্জারি",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "mangaldeep-doc-3",
@@ -2083,7 +2576,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "কিডনি, প্রস্টেট ও ইউরো-অনকোলজি"
+        "notesBn": "কিডনি, প্রস্টেট ও ইউরো-অনকোলজি",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "mangaldeep-doc-4",
@@ -2099,7 +2594,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "স্কাল বেস ও হেড-নেক সার্জারি"
+        "notesBn": "স্কাল বেস ও হেড-নেক সার্জারি",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "mangaldeep-doc-5",
@@ -2114,7 +2611,9 @@
         "timingBn": "দুপুর ৩:০০ / ৩:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "mangaldeep-doc-6",
@@ -2129,7 +2628,9 @@
         "timingBn": "সন্ধ্যা ৪:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "mangaldeep-doc-7",
@@ -2145,7 +2646,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "গাইনিকোলজিক্যাল সার্জারি ও ল্যাপারোস্কোপি"
+        "notesBn": "গাইনিকোলজিক্যাল সার্জারি ও ল্যাপারোস্কোপি",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "mangaldeep-doc-8",
@@ -2160,7 +2663,9 @@
         "timingBn": "বিকাল ৪:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "mangaldeep-doc-9",
@@ -2175,7 +2680,9 @@
         "timingBn": "দুপুর ৩:৩০ / বাই অ্যাপয়েন্টমেন্ট",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "mangaldeep-doc-10",
@@ -2191,7 +2698,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "ইনফার্টিলিটি ও মিনিমাল ইনভেসিভ সার্জারি"
+        "notesBn": "ইনফার্টিলিটি ও মিনিমাল ইনভেসিভ সার্জারি",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "mangaldeep-doc-11",
@@ -2206,7 +2715,9 @@
         "timingBn": "দুপুর ২:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "mangaldeep-doc-12",
@@ -2222,7 +2733,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "লিভার, পাকস্থলী ও পেটের জটিল রোগ"
+        "notesBn": "লিভার, পাকস্থলী ও পেটের জটিল রোগ",
+        "canonicalSpecialtyKey": "gastroenterology",
+        "canonicalSpecialtyBn": "গ্যাস্ট্রো ও লিভার"
       },
       {
         "id": "mangaldeep-doc-13",
@@ -2238,7 +2751,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "হাঁপানি, শ্বাসকষ্ট, সিওপিডি ও অ্যালার্জি"
+        "notesBn": "হাঁপানি, শ্বাসকষ্ট, সিওপিডি ও অ্যালার্জি",
+        "canonicalSpecialtyKey": "pulmonology",
+        "canonicalSpecialtyBn": "বক্ষব্যাধি ও ফুসফুস"
       },
       {
         "id": "mangaldeep-doc-14",
@@ -2254,7 +2769,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "মানসিক চাপ, আচরণগত সমস্যা ও স্ট্রেস ম্যানেজমেন্ট"
+        "notesBn": "মানসিক চাপ, আচরণগত সমস্যা ও স্ট্রেস ম্যানেজমেন্ট",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "mangaldeep-doc-15",
@@ -2270,7 +2787,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "ডায়াবেটিস, ওজন নিয়ন্ত্রণ, রেনাল ও কার্ডিয়াক ডায়েট চার্ট"
+        "notesBn": "ডায়াবেটিস, ওজন নিয়ন্ত্রণ, রেনাল ও কার্ডিয়াক ডায়েট চার্ট",
+        "canonicalSpecialtyKey": "dietetics",
+        "canonicalSpecialtyBn": "পুষ্টি ও ডায়েট"
       },
       {
         "id": "mangaldeep-doc-16",
@@ -2286,7 +2805,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "ইসিজি সুবিধা ও হার্টের সার্বিক পরীক্ষা"
+        "notesBn": "ইসিজি সুবিধা ও হার্টের সার্বিক পরীক্ষা",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "mangaldeep-doc-17",
@@ -2301,7 +2822,9 @@
         "timingBn": "সন্ধ্যা ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "mangaldeep-doc-18",
@@ -2316,7 +2839,9 @@
         "timingBn": "বিকাল ৩:০০ - ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "mangaldeep-doc-19",
@@ -2331,7 +2856,9 @@
         "timingBn": "সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "mangaldeep-doc-20",
@@ -2347,7 +2874,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "বাত, স্পাইন ও জটিল অর্থোপেডিক সার্জারি"
+        "notesBn": "বাত, স্পাইন ও জটিল অর্থোপেডিক সার্জারি",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "mangaldeep-doc-21",
@@ -2362,7 +2891,9 @@
         "timingBn": "সন্ধ্যা ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "mangaldeep-doc-22",
@@ -2377,7 +2908,9 @@
         "timingBn": "দুপুর ১:০০ ও দুপুর ৩:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "mangaldeep-doc-23",
@@ -2392,7 +2925,9 @@
         "timingBn": "সন্ধ্যা ৭:০০ / ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "mangaldeep-doc-24",
@@ -2407,7 +2942,9 @@
         "timingBn": "সন্ধ্যা ৬:৩০ (নির্দিষ্ট দিনে)",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "mangaldeep-doc-25",
@@ -2422,7 +2959,9 @@
         "timingBn": "বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mangaldeep-doc-26",
@@ -2437,7 +2976,9 @@
         "timingBn": "বিকাল ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mangaldeep-doc-27",
@@ -2452,7 +2993,9 @@
         "timingBn": "বিকাল ৪:০০ / দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mangaldeep-doc-28",
@@ -2467,7 +3010,9 @@
         "timingBn": "সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mangaldeep-doc-29",
@@ -2483,7 +3028,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "স্ট্রোক, মৃগীরোগ, পারকিনসন্স ও স্নায়ু অবশতা"
+        "notesBn": "স্ট্রোক, মৃগীরোগ, পারকিনসন্স ও স্নায়ু অবশতা",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "mangaldeep-doc-30",
@@ -2498,7 +3045,9 @@
         "timingBn": "সন্ধ্যা ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mangaldeep-doc-31",
@@ -2513,7 +3062,9 @@
         "timingBn": "সন্ধ্যা ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "mangaldeep-doc-32",
@@ -2529,7 +3080,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
         "appointmentWhatsapp": "+916290582906",
-        "notesBn": "ক্যান্সার স্ক্রিনিং, রেডিয়েশন অনকোলজি ও সাধারণ চিকিৎসা"
+        "notesBn": "ক্যান্সার স্ক্রিনিং, রেডিয়েশন অনকোলজি ও সাধারণ চিকিৎসা",
+        "canonicalSpecialtyKey": "oncology",
+        "canonicalSpecialtyBn": "ক্যান্সার (অনকোলজি)"
       },
       {
         "id": "mangaldeep-doc-33",
@@ -2544,11 +3097,68 @@
         "timingBn": "সকাল ৯:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8444071937",
-        "appointmentWhatsapp": "+916290582906"
+        "appointmentWhatsapp": "+916290582906",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "মঙ্গলদীপ বারুইপুর ডক্টর লিস্ট | Mangaldeep Baruipur Doctor List & Pharmacy (পুরাতন বাজার চেম্বার)",
-    "metaDescription": "Mangaldeep Baruipur Doctor List (বারুইপুর মঙ্গলদীপ ফার্মেসী ডাক্তার তালিকা): Mangal deep baruipur বিশেষজ্ঞ ডাক্তারদের সময়সূচি, ভিজিট ফি, বুকিং ফোন নম্বর ও ওষুধে ২০% ছাড়।"
+    "metaDescription": "Mangaldeep Baruipur Doctor List (বারুইপুর মঙ্গলদীপ ফার্মেসী ডাক্তার তালিকা): Mangal deep baruipur বিশেষজ্ঞ ডাক্তারদের সময়সূচি, ভিজিট ফি, বুকিং ফোন নম্বর ও ওষুধে ২০% ছাড়।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "endocrinology",
+        "bn": "হরমোন ও ডায়াবেটিস"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "gastroenterology",
+        "bn": "গ্যাস্ট্রো ও লিভার"
+      },
+      {
+        "key": "pulmonology",
+        "bn": "বক্ষব্যাধি ও ফুসফুস"
+      },
+      {
+        "key": "psychiatry",
+        "bn": "মানসিক স্বাস্থ্য"
+      },
+      {
+        "key": "dietetics",
+        "bn": "পুষ্টি ও ডায়েট"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "oncology",
+        "bn": "ক্যান্সার (অনকোলজি)"
+      }
+    ]
   },
   {
     "slug": "namita-sebayatan-baruipur",
@@ -2602,7 +3212,9 @@
         "timingBn": "বিকাল ৫:৩০ - রাত ৮:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-2",
@@ -2616,7 +3228,9 @@
         "timingBn": "সকাল ১১:৩০ - ১:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-3",
@@ -2630,7 +3244,9 @@
         "timingBn": "দুপুর ১:১৫ - ২:১৫",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-4",
@@ -2644,7 +3260,9 @@
         "timingBn": "সন্ধ্যা ৫:৩০ / দুপুর ৩:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-5",
@@ -2658,7 +3276,9 @@
         "timingBn": "বিকাল ৫:৩০ / দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-6",
@@ -2672,7 +3292,9 @@
         "timingBn": "দুপুর ২:৩০ - ৪:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-7",
@@ -2686,7 +3308,9 @@
         "timingBn": "সকাল ১১:৩০ - ১:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-8",
@@ -2700,7 +3324,9 @@
         "timingBn": "সন্ধ্যা ৬:৩০ - ৮:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-9",
@@ -2714,7 +3340,9 @@
         "timingBn": "সকাল ১০:৩০ - দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919830016819"
+        "appointmentWhatsapp": "+919830016819",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-10",
@@ -2728,7 +3356,9 @@
         "timingBn": "সকাল ১১:০০ / বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "namita-doc-11",
@@ -2742,7 +3372,9 @@
         "timingBn": "বিকাল ৩:৩০ - ৭:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-12",
@@ -2756,7 +3388,9 @@
         "timingBn": "সকাল ১০:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-13",
@@ -2771,7 +3405,9 @@
         "timingBn": "বিকাল ৪:০০ - ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-14",
@@ -2785,7 +3421,9 @@
         "timingBn": "বিকাল ৪:০০ - ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-15",
@@ -2799,7 +3437,9 @@
         "timingBn": "সকাল ১১:৩০ - ১:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-16",
@@ -2813,7 +3453,9 @@
         "timingBn": "সকাল ১০:০০ - ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-17",
@@ -2827,7 +3469,9 @@
         "timingBn": "বিকাল ৪:৩০ / বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "namita-doc-18",
@@ -2841,7 +3485,9 @@
         "timingBn": "দুপুর ২:০০ - ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "namita-doc-19",
@@ -2856,7 +3502,9 @@
         "timingBn": "বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "namita-doc-20",
@@ -2870,7 +3518,9 @@
         "timingBn": "বিকাল ৪:০০ - ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "nephrology",
+        "canonicalSpecialtyBn": "নেফ্রোলজি (কিডনি)"
       },
       {
         "id": "namita-doc-21",
@@ -2884,7 +3534,9 @@
         "timingBn": "বিকাল ৪:০০ - ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "namita-doc-22",
@@ -2898,7 +3550,9 @@
         "timingBn": "সকাল ১০:৩০ / বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "namita-doc-23",
@@ -2912,7 +3566,9 @@
         "timingBn": "সকাল ১১:৩০ / দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "namita-doc-24",
@@ -2926,7 +3582,9 @@
         "timingBn": "সকাল ১১:৩০ - ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "namita-doc-25",
@@ -2940,7 +3598,9 @@
         "timingBn": "সকাল ১১:৩০ - ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "namita-doc-26",
@@ -2954,7 +3614,9 @@
         "timingBn": "দুপুর ৩:০০ / বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "namita-doc-27",
@@ -2968,7 +3630,9 @@
         "timingBn": "সকাল ১০:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "namita-doc-28",
@@ -2982,7 +3646,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ - ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "namita-doc-29",
@@ -2996,7 +3662,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ - ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "namita-doc-30",
@@ -3010,7 +3678,9 @@
         "timingBn": "সন্ধ্যা ৫:০০ - ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "namita-doc-31",
@@ -3024,7 +3694,9 @@
         "timingBn": "দুপুর ৩:৩০ - ৪:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "namita-doc-32",
@@ -3038,7 +3710,9 @@
         "timingBn": "বিকাল ৫:০০ / সকাল ৯:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "namita-doc-33",
@@ -3052,7 +3726,9 @@
         "timingBn": "বিকাল ৫:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "namita-doc-34",
@@ -3066,7 +3742,9 @@
         "timingBn": "সকাল ১০:০০ - দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-35",
@@ -3080,7 +3758,9 @@
         "timingBn": "সকাল ৯:০০ - দুপুর ৩:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-36",
@@ -3094,7 +3774,9 @@
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-37",
@@ -3108,7 +3790,9 @@
         "timingBn": "সকাল ১১:০০ - ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-38",
@@ -3122,7 +3806,9 @@
         "timingBn": "বিকাল ৪:০০ - ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-39",
@@ -3136,7 +3822,9 @@
         "timingBn": "বিকাল ৫:৩০ / সকাল ১১:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-40",
@@ -3150,7 +3838,9 @@
         "timingBn": "সকাল ১১:৩০ / বিকাল ৪:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-41",
@@ -3164,7 +3854,9 @@
         "timingBn": "সকাল ১১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "namita-doc-42",
@@ -3178,7 +3870,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ / দুপুর ২:০০ / বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "namita-doc-43",
@@ -3192,7 +3886,9 @@
         "timingBn": "সকাল ১০:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "namita-doc-44",
@@ -3207,7 +3903,9 @@
         "timingBn": "বিকাল ৪:৩০ - ৫:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "namita-doc-45",
@@ -3221,7 +3919,9 @@
         "timingBn": "দুপুর ২:০০ - ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       },
       {
         "id": "namita-doc-46",
@@ -3236,7 +3936,9 @@
         "timingBn": "বিকাল ৪:০০ - ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "pulmonology",
+        "canonicalSpecialtyBn": "বক্ষব্যাধি ও ফুসফুস"
       },
       {
         "id": "namita-doc-47",
@@ -3251,7 +3953,9 @@
         "timingBn": "বিকাল ৪:০০ - ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "namita-doc-48",
@@ -3265,11 +3969,72 @@
         "timingBn": "সকাল ১০:৩০ - ১২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9831980442",
-        "appointmentWhatsapp": "+919748033091"
+        "appointmentWhatsapp": "+919748033091",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       }
     ],
     "metaTitle": "নমিতা সেবায়তন বারুইপুর | Namita Sebayatan Doctors Chamber & Polyclinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "নমিতা সেবায়তন (Namita Sebayatan Doctors Chamber & Polyclinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "নমিতা সেবায়তন (Namita Sebayatan Doctors Chamber & Polyclinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "psychiatry",
+        "bn": "মানসিক স্বাস্থ্য"
+      },
+      {
+        "key": "nephrology",
+        "bn": "নেফ্রোলজি (কিডনি)"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "dentistry",
+        "bn": "দন্ত চিকিৎসা"
+      },
+      {
+        "key": "pulmonology",
+        "bn": "বক্ষব্যাধি ও ফুসফুস"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      }
+    ]
   },
   {
     "slug": "hai-medical-centre-baruipur",
@@ -3326,7 +4091,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "ত্বক, চুল, নখ ও নানাবিধ অ্যালার্জি চিকিৎসা"
+        "notesBn": "ত্বক, চুল, নখ ও নানাবিধ অ্যালার্জি চিকিৎসা",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "hai-doc-2",
@@ -3341,7 +4108,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "ফুসফুস, হাঁপানি, দীর্ঘস্থায়ী কাশি ও শ্বাসকষ্ট"
+        "notesBn": "ফুসফুস, হাঁপানি, দীর্ঘস্থায়ী কাশি ও শ্বাসকষ্ট",
+        "canonicalSpecialtyKey": "pulmonology",
+        "canonicalSpecialtyBn": "বক্ষব্যাধি ও ফুসফুস"
       },
       {
         "id": "hai-doc-3",
@@ -3357,7 +4126,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "এন্ডোস্কোপিক, মাইক্রোস্কোপিক ও হেড-নেক সার্জারি"
+        "notesBn": "এন্ডোস্কোপিক, মাইক্রোস্কোপিক ও হেড-নেক সার্জারি",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "hai-doc-4",
@@ -3372,7 +4143,9 @@
         "timingBn": "সকাল ৯:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "hai-doc-5",
@@ -3388,7 +4161,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "কানের মাইক্রো-সার্জারি ও ল্যারিঞ্জিয়াল মাইক্রোসার্জারি"
+        "notesBn": "কানের মাইক্রো-সার্জারি ও ল্যারিঞ্জিয়াল মাইক্রোসার্জারি",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "hai-doc-6",
@@ -3403,7 +4178,9 @@
         "timingBn": "বিকাল ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "hai-doc-7",
@@ -3419,7 +4196,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "কিডনি স্টোন, প্রস্টেট ও এন্ডো-ইউরোলজি"
+        "notesBn": "কিডনি স্টোন, প্রস্টেট ও এন্ডো-ইউরোলজি",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "hai-doc-8",
@@ -3434,7 +4213,9 @@
         "timingBn": "সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "hai-doc-9",
@@ -3450,7 +4231,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "ডায়াবেটিস, থাইরয়েড, PCOD, খর্বাকৃতি ও পিটুইটারি গ্রন্থির রোগ"
+        "notesBn": "ডায়াবেটিস, থাইরয়েড, PCOD, খর্বাকৃতি ও পিটুইটারি গ্রন্থির রোগ",
+        "canonicalSpecialtyKey": "endocrinology",
+        "canonicalSpecialtyBn": "হরমোন ও ডায়াবেটিস"
       },
       {
         "id": "hai-doc-10",
@@ -3465,7 +4248,9 @@
         "timingBn": "সকাল ১০:৩০ - ১:৩০ / বিকাল ৫:০০ - ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       },
       {
         "id": "hai-doc-11",
@@ -3479,7 +4264,9 @@
         "timingBn": "কল করে বুক করুন",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       },
       {
         "id": "hai-doc-12",
@@ -3494,7 +4281,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "আমেরিকান কার্ডিওলোজি কনসালট্যান্ট সদস্য"
+        "notesBn": "আমেরিকান কার্ডিওলোজি কনসালট্যান্ট সদস্য",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "hai-doc-13",
@@ -3510,7 +4299,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "ইকো, এনজিওগ্রাফি ও হার্টের জটিল রোগ"
+        "notesBn": "ইকো, এনজিওগ্রাফি ও হার্টের জটিল রোগ",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "hai-doc-14",
@@ -3525,7 +4316,9 @@
         "timingBn": "সকাল ৯:৩০ / সন্ধ্যা ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "hai-doc-15",
@@ -3540,7 +4333,9 @@
         "timingBn": "সন্ধ্যা ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "hai-doc-16",
@@ -3554,7 +4349,9 @@
         "timingBn": "সকাল ১১:৩০ / বিকাল ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "hai-doc-17",
@@ -3569,7 +4366,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "পেটের রোগ, ফ্যাটি লিভার ও হজমজনিত সমস্যা"
+        "notesBn": "পেটের রোগ, ফ্যাটি লিভার ও হজমজনিত সমস্যা",
+        "canonicalSpecialtyKey": "gastroenterology",
+        "canonicalSpecialtyBn": "গ্যাস্ট্রো ও লিভার"
       },
       {
         "id": "hai-doc-18",
@@ -3584,7 +4383,9 @@
         "timingBn": "বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "hai-doc-19",
@@ -3599,7 +4400,9 @@
         "timingBn": "সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "hai-doc-20",
@@ -3615,7 +4418,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "লন্ডন ও যুক্তরাজ্যের আন্তর্জাতিক পেডিয়াট্রিক অভিজ্ঞতাসম্পন্ন"
+        "notesBn": "লন্ডন ও যুক্তরাজ্যের আন্তর্জাতিক পেডিয়াট্রিক অভিজ্ঞতাসম্পন্ন",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "hai-doc-21",
@@ -3630,7 +4435,9 @@
         "timingBn": "সকাল ৯:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "hai-doc-22",
@@ -3645,7 +4452,9 @@
         "timingBn": "বিকাল ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "hai-doc-23",
@@ -3660,7 +4469,9 @@
         "timingBn": "বিকাল ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "hai-doc-24",
@@ -3675,7 +4486,9 @@
         "timingBn": "সন্ধ্যা ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "hai-doc-25",
@@ -3691,7 +4504,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "মাথাব্যথা, মৃগীরোগ, স্ট্রোক ও প্যারালাইসিস"
+        "notesBn": "মাথাব্যথা, মৃগীরোগ, স্ট্রোক ও প্যারালাইসিস",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "hai-doc-26",
@@ -3705,7 +4520,9 @@
         "timingBn": "সন্ধ্যা ৫:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
-        "appointmentWhatsapp": "+919051601218"
+        "appointmentWhatsapp": "+919051601218",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "hai-doc-27",
@@ -3721,7 +4538,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা ও মানসিক কাউন্সেলিং"
+        "notesBn": "উদ্বেগ, ডিপ্রেশন, ঘুমের সমস্যা ও মানসিক কাউন্সেলিং",
+        "canonicalSpecialtyKey": "psychiatry",
+        "canonicalSpecialtyBn": "মানসিক স্বাস্থ্য"
       },
       {
         "id": "hai-doc-28",
@@ -3737,11 +4556,76 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9830029256",
         "appointmentWhatsapp": "+919051601218",
-        "notesBn": "হাড়ভাঙা, লিগামেন্ট টিয়ার ও জয়েন্ট রিপ্লেসমেন্ট"
+        "notesBn": "হাড়ভাঙা, লিগামেন্ট টিয়ার ও জয়েন্ট রিপ্লেসমেন্ট",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       }
     ],
     "metaTitle": "হাই মেডিকেল সেন্টার বারুইপুর | Hai Medical Centre, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "হাই মেডিকেল সেন্টার (Hai Medical Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "হাই মেডিকেল সেন্টার (Hai Medical Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "pulmonology",
+        "bn": "বক্ষব্যাধি ও ফুসফুস"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "endocrinology",
+        "bn": "হরমোন ও ডায়াবেটিস"
+      },
+      {
+        "key": "dentistry",
+        "bn": "দন্ত চিকিৎসা"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "gastroenterology",
+        "bn": "গ্যাস্ট্রো ও লিভার"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "psychiatry",
+        "bn": "মানসিক স্বাস্থ্য"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      }
+    ]
   },
   {
     "slug": "easycure-clinic-and-pharmacy-baruipur",
@@ -3795,7 +4679,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "শিশুদের জটিল রোগ, টিকাদান ও নবজাতকের যত্ন"
+        "notesBn": "শিশুদের জটিল রোগ, টিকাদান ও নবজাতকের যত্ন",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "easycure-doc-2",
@@ -3811,7 +4697,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "বোস্টন ইউনিভার্সিটি (USA) সার্টিফাইড পেডিয়াট্রিক নিউট্রিশন ও শিশু স্বাস্থ্য"
+        "notesBn": "বোস্টন ইউনিভার্সিটি (USA) সার্টিফাইড পেডিয়াট্রিক নিউট্রিশন ও শিশু স্বাস্থ্য",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "easycure-doc-3",
@@ -3827,7 +4715,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "মহিলাদের জটিল রোগ, বন্ধ্যাত্ব ও প্রসূতি পরিষেবা"
+        "notesBn": "মহিলাদের জটিল রোগ, বন্ধ্যাত্ব ও প্রসূতি পরিষেবা",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "easycure-doc-4",
@@ -3843,7 +4733,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "ডায়াবেটিস নেফ্রোপ্যাথি, কিডনি ফেইলিওর ও ডায়ালিসিস পরামর্শ"
+        "notesBn": "ডায়াবেটিস নেফ্রোপ্যাথি, কিডনি ফেইলিওর ও ডায়ালিসিস পরামর্শ",
+        "canonicalSpecialtyKey": "nephrology",
+        "canonicalSpecialtyBn": "নেফ্রোলজি (কিডনি)"
       },
       {
         "id": "easycure-doc-5",
@@ -3859,7 +4751,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "সার্জিক্যাল ক্ষত, ফোঁড়া, হার্নিয়া ও সাধারণ রোগ"
+        "notesBn": "সার্জিক্যাল ক্ষত, ফোঁড়া, হার্নিয়া ও সাধারণ রোগ",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "easycure-doc-6",
@@ -3875,7 +4769,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "এন্ডোস্কোপিক, ল্যাপারোস্কোপিক ও রোবোটিক ইউরো-সার্জারি"
+        "notesBn": "এন্ডোস্কোপিক, ল্যাপারোস্কোপিক ও রোবোটিক ইউরো-সার্জারি",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "easycure-doc-7",
@@ -3890,7 +4786,9 @@
         "timingBn": "বাই অ্যাপয়েন্টমেন্ট",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
-        "appointmentWhatsapp": "+916291551186"
+        "appointmentWhatsapp": "+916291551186",
+        "canonicalSpecialtyKey": "nephrology",
+        "canonicalSpecialtyBn": "নেফ্রোলজি (কিডনি)"
       },
       {
         "id": "easycure-doc-8",
@@ -3905,7 +4803,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "হার্ট অ্যাটাক পরবর্তী পর্যবেক্ষণ, উচ্চ রক্তচাপ ও ডায়াবেটিস"
+        "notesBn": "হার্ট অ্যাটাক পরবর্তী পর্যবেক্ষণ, উচ্চ রক্তচাপ ও ডায়াবেটিস",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "easycure-doc-9",
@@ -3921,7 +4821,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "ত্বক, চুল, নখ ও নানাবিধ জটিল চর্মরোগ"
+        "notesBn": "ত্বক, চুল, নখ ও নানাবিধ জটিল চর্মরোগ",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "easycure-doc-10",
@@ -3936,7 +4838,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "ডায়াবেটিক ডায়েট, ওবেসিটি হ্রাস ও মানসিক কাউন্সেলিং"
+        "notesBn": "ডায়াবেটিক ডায়েট, ওবেসিটি হ্রাস ও মানসিক কাউন্সেলিং",
+        "canonicalSpecialtyKey": "dietetics",
+        "canonicalSpecialtyBn": "পুষ্টি ও ডায়েট"
       },
       {
         "id": "easycure-doc-11",
@@ -3951,11 +4855,52 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "6291551186",
         "appointmentWhatsapp": "+916291551186",
-        "notesBn": "স্পন্ডিলাইটিস, ফ্র্যাকচার পরবর্তী রিহ্যাব, কোমর-হাঁটুর ব্যথা ও প্যারালাইসিস থেরাপি"
+        "notesBn": "স্পন্ডিলাইটিস, ফ্র্যাকচার পরবর্তী রিহ্যাব, কোমর-হাঁটুর ব্যথা ও প্যারালাইসিস থেরাপি",
+        "canonicalSpecialtyKey": "physiotherapy",
+        "canonicalSpecialtyBn": "ফিজিওথেরাপি"
       }
     ],
     "metaTitle": "ইজিকিওর ক্লিনিক ও ফার্মেসী বারুইপুর | Easycure Clinic & Pharmacy, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic & Pharmacy Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "ইজিকিওর ক্লিনিক ও ফার্মেসী (Easycure Clinic & Pharmacy Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "nephrology",
+        "bn": "নেফ্রোলজি (কিডনি)"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "dietetics",
+        "bn": "পুষ্টি ও ডায়েট"
+      },
+      {
+        "key": "physiotherapy",
+        "bn": "ফিজিওথেরাপি"
+      }
+    ]
   },
   {
     "slug": "jito-health-sastasundar-baruipur",
@@ -4006,7 +4951,9 @@
         "visitingFeeBn": "সাশ্রয়ী রেটে (৬০% পর্যন্ত ছাড়)",
         "appointmentPhone": "6289080000",
         "appointmentWhatsapp": "+916289080000",
-        "notesBn": "ক্লিনিক ওপিডি চেম্বার (Physical OPD)"
+        "notesBn": "ক্লিনিক ওপিডি চেম্বার (Physical OPD)",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-2",
@@ -4021,7 +4968,9 @@
         "visitingFeeBn": "সাশ্রয়ী রেটে (৬০% পর্যন্ত ছাড়)",
         "appointmentPhone": "6289080000",
         "appointmentWhatsapp": "+916289080000",
-        "notesBn": "ক্লিনিক ওপিডি চেম্বার (Physical OPD)"
+        "notesBn": "ক্লিনিক ওপিডি চেম্বার (Physical OPD)",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-3",
@@ -4035,7 +4984,9 @@
         "timingBn": "বুকিং করে নির্দিষ্ট করুন",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "jito-doc-4",
@@ -4049,7 +5000,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "jito-doc-5",
@@ -4063,7 +5016,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "jito-doc-6",
@@ -4077,7 +5032,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "endocrinology",
+        "canonicalSpecialtyBn": "হরমোন ও ডায়াবেটিস"
       },
       {
         "id": "jito-doc-7",
@@ -4091,7 +5048,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "jito-doc-8",
@@ -4105,7 +5064,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-9",
@@ -4119,7 +5080,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-10",
@@ -4133,7 +5096,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-11",
@@ -4147,7 +5112,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-12",
@@ -4161,7 +5128,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-13",
@@ -4175,7 +5144,9 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "jito-doc-14",
@@ -4189,11 +5160,40 @@
         "timingBn": "বুকিং অনুযায়ী",
         "visitingFeeBn": "সাশ্রয়ী কনসালটেশন ফি",
         "appointmentPhone": "6289080000",
-        "appointmentWhatsapp": "+916289080000"
+        "appointmentWhatsapp": "+916289080000",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "জিতো হেলথ বারুইপুর | JITO Health, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "জিতো হেলথ (JITO Health Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "জিতো হেলথ (JITO Health Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "endocrinology",
+        "bn": "হরমোন ও ডায়াবেটিস"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      }
+    ]
   },
   {
     "slug": "shatabdi-diagnostic-pvt-ltd-baruipur",
@@ -4246,7 +5246,9 @@
         "daysBn": "প্রতিদিন (রবিবার বাদে)",
         "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "033-2433-7050"
+        "appointmentPhone": "033-2433-7050",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "প্যাথলজি ও ল্যাব"
       },
       {
         "id": "shatabdi-doc-2",
@@ -4260,7 +5262,9 @@
         "daysBn": "সোম, বুধ ও শুক্রবার",
         "timingBn": "সন্ধ্যা ৫:০০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "033-2433-7050"
+        "appointmentPhone": "033-2433-7050",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "shatabdi-doc-3",
@@ -4274,7 +5278,9 @@
         "daysBn": "মঙ্গলবার ও শনিবার",
         "timingBn": "বিকাল ৪:৩০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "033-2433-7050"
+        "appointmentPhone": "033-2433-7050",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "shatabdi-doc-4",
@@ -4288,11 +5294,28 @@
         "daysBn": "সোম, বৃহস্পতি ও শনিবার",
         "timingBn": "সকাল ১০:০০ - দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "033-2433-7050"
+        "appointmentPhone": "033-2433-7050",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "রেডিওলজি ও ইউএসজি"
       }
     ],
     "metaTitle": "শতাব্দী ডায়াগনস্টিক প্রাইভেট লিমিটেড, বারুইপুর (Shatabdi Diagnostic Centre, Baruipur) - ফোন নম্বর, টেস্টের খরচ ও ডাক্তার তালিকা",
-    "metaDescription": "শতাব্দী ডায়াগনস্টিক বারুইপুর (Shatabdi Diagnostic Baruipur Phone Number): রক্ত পরীক্ষা, ইউএসজি, ডিজিটাল এক্স-রে, সিটি স্ক্যান, ভিজিটিং ডাক্তার ও যোগাযোগ নম্বর।"
+    "metaDescription": "শতাব্দী ডায়াগনস্টিক বারুইপুর (Shatabdi Diagnostic Baruipur Phone Number): রক্ত পরীক্ষা, ইউএসজি, ডিজিটাল এক্স-রে, সিটি স্ক্যান, ভিজিটিং ডাক্তার ও যোগাযোগ নম্বর।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "diagnostics",
+        "bn": "রেডিওলজি ও ইউএসজি"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      }
+    ]
   },
   {
     "slug": "metropolis-diagnostic-baruipur",
@@ -4346,7 +5369,9 @@
         "daysBn": "সোম থেকে শনি",
         "timingBn": "সকাল ১০:০০ - বিকাল ৫:০০",
         "visitingFeeBn": "ল্যাব টেস্ট ভিত্তিক",
-        "appointmentPhone": "8422801801"
+        "appointmentPhone": "8422801801",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "প্যাথলজি ও ল্যাব"
       },
       {
         "id": "metropolis-doc-2",
@@ -4360,11 +5385,20 @@
         "daysBn": "সোম থেকে শনি",
         "timingBn": "সকাল ১১:০০ - বিকাল ৪:০০",
         "visitingFeeBn": "ল্যাব টেস্ট ভিত্তিক",
-        "appointmentPhone": "8422801801"
+        "appointmentPhone": "8422801801",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "প্যাথলজি ও ল্যাব"
       }
     ],
     "metaTitle": "মেট্রোপলিস ডায়াগনস্টিক বারুইপুর | Metropolis Labs Diagnostic Centre, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "মেট্রোপলিস ডায়াগনস্টিক (Metropolis Labs Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "মেট্রোপলিস ডায়াগনস্টিক (Metropolis Labs Diagnostic Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "diagnostics",
+        "bn": "প্যাথলজি ও ল্যাব"
+      }
+    ]
   },
   {
     "slug": "life-zone-nursing-home-baruipur",
@@ -4421,7 +5455,9 @@
         "timingBn": "সকাল ১১:০০ - দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9123818292",
-        "appointmentWhatsapp": "+919123818292"
+        "appointmentWhatsapp": "+919123818292",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "lifezone-doc-2",
@@ -4436,7 +5472,9 @@
         "timingBn": "বিকাল ৫:০০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9123818292",
-        "appointmentWhatsapp": "+919123818292"
+        "appointmentWhatsapp": "+919123818292",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "lifezone-doc-3",
@@ -4451,7 +5489,9 @@
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9123818292",
-        "appointmentWhatsapp": "+919123818292"
+        "appointmentWhatsapp": "+919123818292",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "lifezone-doc-4",
@@ -4466,7 +5506,9 @@
         "timingBn": "সকাল ১০:০০ - দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9123818292",
-        "appointmentWhatsapp": "+919123818292"
+        "appointmentWhatsapp": "+919123818292",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "lifezone-doc-5",
@@ -4481,7 +5523,9 @@
         "timingBn": "বিকাল ৪:০০ - সন্ধ্যা ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9123818292",
-        "appointmentWhatsapp": "+919123818292"
+        "appointmentWhatsapp": "+919123818292",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "lifezone-doc-6",
@@ -4496,11 +5540,40 @@
         "timingBn": "সন্ধ্যা ৬:৩০ - রাত ৮:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9123818292",
-        "appointmentWhatsapp": "+919123818292"
+        "appointmentWhatsapp": "+919123818292",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       }
     ],
     "metaTitle": "লাইফ জোন নার্সিং হোম ও ডায়াগনস্টিক বারুইপুর | Life Zone Nursing Home & Diagnostic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "লাইফ জোন নার্সিং হোম ও ডায়াগনস্টিক (Life Zone Nursing Home & Diagnostic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "লাইফ জোন নার্সিং হোম ও ডায়াগনস্টিক (Life Zone Nursing Home & Diagnostic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      }
+    ]
   },
   {
     "slug": "kalyan-medical-center-baruipur",
@@ -4556,7 +5629,9 @@
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "8981807116",
         "appointmentWhatsapp": "+918981807116",
-        "notesBn": "মাথাব্যথা, মৃগীরোগ, হাত-পা অবশ ও প্যারালাইসিস"
+        "notesBn": "মাথাব্যথা, মৃগীরোগ, হাত-পা অবশ ও প্যারালাইসিস",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "kalyan-doc-2",
@@ -4570,7 +5645,9 @@
         "daysBn": "সোম, বুধ ও শুক্রবার",
         "timingBn": "বিকাল ৫:০০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "8981807116"
+        "appointmentPhone": "8981807116",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "kalyan-doc-3",
@@ -4584,7 +5661,9 @@
         "daysBn": "মঙ্গলবার ও শনিবার",
         "timingBn": "বিকাল ৪:৩০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "8981807116"
+        "appointmentPhone": "8981807116",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "kalyan-doc-4",
@@ -4598,11 +5677,32 @@
         "daysBn": "বৃহস্পতিবার ও রবিবার",
         "timingBn": "সকাল ১০:০০ - দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "8981807116"
+        "appointmentPhone": "8981807116",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       }
     ],
     "metaTitle": "কল্যাণ মেডিকেল সেন্টার বারুইপুর | Kalyan Medical Center, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "কল্যাণ মেডিকেল সেন্টার (Kalyan Medical Center Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      }
+    ]
   },
   {
     "slug": "the-panacea-diagnostics-centre-baruipur",
@@ -4657,7 +5757,9 @@
         "daysBn": "সোম থেকে শনি",
         "timingBn": "সকাল ৯:০০ - দুপুর ২:০০",
         "visitingFeeBn": "ল্যাব টেস্ট ভিত্তিক",
-        "appointmentPhone": "7439667663"
+        "appointmentPhone": "7439667663",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "প্যাথলজি ও ল্যাব"
       },
       {
         "id": "panacea-doc-2",
@@ -4671,7 +5773,9 @@
         "daysBn": "মঙ্গল ও শুক্রবার",
         "timingBn": "বিকাল ৫:০০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "7439667663"
+        "appointmentPhone": "7439667663",
+        "canonicalSpecialtyKey": "cardiology",
+        "canonicalSpecialtyBn": "হৃদরোগ (কার্ডিওলজি)"
       },
       {
         "id": "panacea-doc-3",
@@ -4685,7 +5789,9 @@
         "daysBn": "সোম ও বৃহস্পতিবার",
         "timingBn": "বিকাল ৪:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "7439667663"
+        "appointmentPhone": "7439667663",
+        "canonicalSpecialtyKey": "pulmonology",
+        "canonicalSpecialtyBn": "বক্ষব্যাধি ও ফুসফুস"
       },
       {
         "id": "panacea-doc-4",
@@ -4699,11 +5805,32 @@
         "daysBn": "শনিবার",
         "timingBn": "বিকাল ৩:০০ - সন্ধ্যা ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "7439667663"
+        "appointmentPhone": "7439667663",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       }
     ],
     "metaTitle": "দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার বারুইপুর | The Panacea Diagnostics Centre, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "দ্য প্যানাসিয়া ডায়াগনস্টিকস সেন্টার (The Panacea Diagnostics Centre Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "diagnostics",
+        "bn": "প্যাথলজি ও ল্যাব"
+      },
+      {
+        "key": "cardiology",
+        "bn": "হৃদরোগ (কার্ডিওলজি)"
+      },
+      {
+        "key": "pulmonology",
+        "bn": "বক্ষব্যাধি ও ফুসফুস"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      }
+    ]
   },
   {
     "slug": "accuhealth-diagnostics-baruipur",
@@ -4757,7 +5884,9 @@
         "daysBn": "সোম থেকে শনি",
         "timingBn": "সকাল ৯:০০ - দুপুর ৩:০০",
         "visitingFeeBn": "ল্যাব টেস্ট ভিত্তিক",
-        "appointmentPhone": "9836920022"
+        "appointmentPhone": "9836920022",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "প্যাথলজি ও ল্যাব"
       },
       {
         "id": "accuhealth-doc-2",
@@ -4771,7 +5900,9 @@
         "daysBn": "সোম, বুধ ও শুক্রবার",
         "timingBn": "সন্ধ্যা ৫:০০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9836920022"
+        "appointmentPhone": "9836920022",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "accuhealth-doc-3",
@@ -4785,7 +5916,9 @@
         "daysBn": "মঙ্গল, বৃহস্পতি ও শনিবার",
         "timingBn": "সকাল ১০:০০ - দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9836920022"
+        "appointmentPhone": "9836920022",
+        "canonicalSpecialtyKey": "diagnostics",
+        "canonicalSpecialtyBn": "রেডিওলজি ও ইউএসজি"
       },
       {
         "id": "accuhealth-doc-4",
@@ -4799,11 +5932,28 @@
         "daysBn": "বুধবার ও শনিবার",
         "timingBn": "বিকাল ৫:৩০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9836920022"
+        "appointmentPhone": "9836920022",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       }
     ],
     "metaTitle": "অ্যাকিউহেলথ ডায়াগনস্টিকস বারুইপুর | AccuHealth Diagnostics, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "অ্যাকিউহেলথ ডায়াগনস্টিকস (AccuHealth Diagnostics Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "অ্যাকিউহেলথ ডায়াগনস্টিকস (AccuHealth Diagnostics Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "diagnostics",
+        "bn": "রেডিওলজি ও ইউএসজি"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      }
+    ]
   },
   {
     "slug": "star-medical-centre-baruipur",
@@ -4863,7 +6013,9 @@
         "timingBn": "মঙ্গল ও বৃহস্পতি সন্ধ্যা ৬:০০ - রাত ৯:০০, শনি বিকাল ৪:০০ - রাত ৮:০০, রবি দুপুর ১২:০০ - বিকাল ৪:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "033-24330868",
-        "notesBn": "পি.জি. হাসপাতাল (SSKM)-এর শিশু বিভাগের বিভাগীয় প্রধান। শিশুদের সকল জটিল ও সাধারণ রোগের চিকিৎসা ও ভ্যাকসিনের পরামর্শ।"
+        "notesBn": "পি.জি. হাসপাতাল (SSKM)-এর শিশু বিভাগের বিভাগীয় প্রধান। শিশুদের সকল জটিল ও সাধারণ রোগের চিকিৎসা ও ভ্যাকসিনের পরামর্শ।",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "starmed-doc-santanu-mandal",
@@ -4878,7 +6030,9 @@
         "timingBn": "দুপুর ২:৩০ মিঃ থেকে",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "033-24330868",
-        "notesBn": "ট্রমা, আর্থ্রোস্কোপি, স্পাইন ও হাড়-জোড় সার্জন। চেম্বারে হাড় ভাঙ্গার প্লাস্টার করার বিশেষ সুবিধা রয়েছে।"
+        "notesBn": "ট্রমা, আর্থ্রোস্কোপি, স্পাইন ও হাড়-জোড় সার্জন। চেম্বারে হাড় ভাঙ্গার প্লাস্টার করার বিশেষ সুবিধা রয়েছে।",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "starmed-doc-koushik-pan",
@@ -4893,7 +6047,9 @@
         "timingBn": "বিকাল ৩:০০ টা থেকে",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "033-24330868",
-        "notesBn": "হাত-পা কাঁপা, খিঁচুনি, মৃগী, স্ট্রোক, প্যারালাইসিস, ভুলে যাওয়া, হাতে পায়ে ঝিন ঝিন ভাব, বাচ্চাদের নার্ভের রোগ, ব্যালেন্স সমস্যা ইত্যাদির অভিজ্ঞ বিশেষজ্ঞ চিকিৎসক।"
+        "notesBn": "হাত-পা কাঁপা, খিঁচুনি, মৃগী, স্ট্রোক, প্যারালাইসিস, ভুলে যাওয়া, হাতে পায়ে ঝিন ঝিন ভাব, বাচ্চাদের নার্ভের রোগ, ব্যালেন্স সমস্যা ইত্যাদির অভিজ্ঞ বিশেষজ্ঞ চিকিৎসক।",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "starmed-doc-papiya-biswas",
@@ -4908,11 +6064,32 @@
         "timingBn": "মঙ্গল, বৃহস্পতি ও শনি সকাল ১০:০০ - বেলা ১১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "033-24330868",
-        "notesBn": "মহিলাদের স্বাস্থ্য, প্রসূতি সেবা, নিরাপদ ডেলিভারি পরামর্শ, ঋতুস্রাব ও জটিল স্ত্রীরোগ চিকিৎসা।"
+        "notesBn": "মহিলাদের স্বাস্থ্য, প্রসূতি সেবা, নিরাপদ ডেলিভারি পরামর্শ, ঋতুস্রাব ও জটিল স্ত্রীরোগ চিকিৎসা।",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       }
     ],
     "metaTitle": "স্টার মেডিক্যাল ক্লিনিক বারুইপুর | Star Medical Clinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "স্টার মেডিক্যাল ক্লিনিক (Star Medical Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "স্টার মেডিক্যাল ক্লিনিক (Star Medical Clinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      }
+    ]
   },
   {
     "slug": "oval-healthcare-services-baruipur",
@@ -4965,7 +6142,9 @@
         "daysBn": "সোম, বুধ ও শুক্রবার",
         "timingBn": "সকাল ১০:০০ - দুপুর ১:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9051384123"
+        "appointmentPhone": "9051384123",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "oval-doc-2",
@@ -4979,7 +6158,9 @@
         "daysBn": "মঙ্গলবার ও শনিবার",
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9051384123"
+        "appointmentPhone": "9051384123",
+        "canonicalSpecialtyKey": "ent",
+        "canonicalSpecialtyBn": "নাক, কান ও গলা (ENT)"
       },
       {
         "id": "oval-doc-3",
@@ -4993,7 +6174,9 @@
         "daysBn": "বৃহস্পতিবার ও রবিবার",
         "timingBn": "সকাল ১১:০০ - দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9051384123"
+        "appointmentPhone": "9051384123",
+        "canonicalSpecialtyKey": "ophthalmology",
+        "canonicalSpecialtyBn": "চক্ষুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "oval-doc-4",
@@ -5007,11 +6190,32 @@
         "daysBn": "বুধবার ও শনিবার",
         "timingBn": "বিকাল ৫:৩০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
-        "appointmentPhone": "9051384123"
+        "appointmentPhone": "9051384123",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       }
     ],
     "metaTitle": "ওভাল হেলথকেয়ার সার্ভিসেস বারুইপুর | Oval Healthcare Services, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "ওভাল হেলথকেয়ার সার্ভিসেস (Oval Healthcare Services Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "ent",
+        "bn": "নাক, কান ও গলা (ENT)"
+      },
+      {
+        "key": "ophthalmology",
+        "bn": "চক্ষুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      }
+    ]
   },
   {
     "slug": "tulip-polyclinic-baruipur",
@@ -5069,7 +6273,9 @@
         "visitingFeeBn": "₹৫০০ / চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9007734034 / 9163294141",
         "appointmentWhatsapp": "+919007734034",
-        "notesBn": "প্রাক্তন ফেলো (R.N. Tagore Hospital)। নবজাতক ও শিশুদের জটিল ও সাধারণ রোগের উন্নত চিকিৎসা। ব্যক্তিগত ফোন: 9433390729; সিরিয়াল বুকিং: 9007734034 / 9163294141।"
+        "notesBn": "প্রাক্তন ফেলো (R.N. Tagore Hospital)। নবজাতক ও শিশুদের জটিল ও সাধারণ রোগের উন্নত চিকিৎসা। ব্যক্তিগত ফোন: 9433390729; সিরিয়াল বুকিং: 9007734034 / 9163294141।",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "tulip-doc-1",
@@ -5084,7 +6290,9 @@
         "timingBn": "সন্ধ্যা ৫:০০ - রাত ৮:৩০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9007734034",
-        "appointmentWhatsapp": "+919007734034"
+        "appointmentWhatsapp": "+919007734034",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "tulip-doc-2",
@@ -5099,7 +6307,9 @@
         "timingBn": "বিকাল ৪:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9007734034",
-        "appointmentWhatsapp": "+919007734034"
+        "appointmentWhatsapp": "+919007734034",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "tulip-doc-3",
@@ -5114,7 +6324,9 @@
         "timingBn": "সকাল ১১:০০ - দুপুর ২:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9007734034",
-        "appointmentWhatsapp": "+919007734034"
+        "appointmentWhatsapp": "+919007734034",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "tulip-doc-4",
@@ -5129,7 +6341,9 @@
         "timingBn": "বিকাল ৫:৩০ - রাত ৮:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9007734034",
-        "appointmentWhatsapp": "+919007734034"
+        "appointmentWhatsapp": "+919007734034",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "tulip-doc-5",
@@ -5144,11 +6358,36 @@
         "timingBn": "বিকাল ৩:০০ - সন্ধ্যা ৬:০০",
         "visitingFeeBn": "চেম্বারে যোগাযোগ করুন",
         "appointmentPhone": "9007734034",
-        "appointmentWhatsapp": "+919007734034"
+        "appointmentWhatsapp": "+919007734034",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       }
     ],
     "metaTitle": "টিউলিপ পলিক্লিনিক বারুইপুর | Tulip Polyclinic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "টিউলিপ পলিক্লিনিক (Tulip Polyclinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "টিউলিপ পলিক্লিনিক (Tulip Polyclinic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      }
+    ]
   },
   {
     "slug": "mahendra-clinic-baruipur",
@@ -5205,7 +6444,9 @@
         "visitingFeeBn": "₹ ৭০০ - ₹ ৮০০",
         "appointmentPhone": "9831771336",
         "appointmentWhatsapp": "+919831771336",
-        "notesBn": "রুবি ও দেশুন হাসপাতালের সিনিয়র কনসালট্যান্ট; সোরাইসিস, একজিমা, চুল পড়া (Alopecia), শ্বেতী, অ্যালার্জি ও স্কিন ইনফেকশন কেয়ার"
+        "notesBn": "রুবি ও দেশুন হাসপাতালের সিনিয়র কনসালট্যান্ট; সোরাইসিস, একজিমা, চুল পড়া (Alopecia), শ্বেতী, অ্যালার্জি ও স্কিন ইনফেকশন কেয়ার",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "mahendra-doc-1",
@@ -5220,11 +6461,24 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9831771336",
         "appointmentWhatsapp": "+919831771336",
-        "notesBn": "ডায়াবেটিস, থাইরয়েড, উচ্চ রক্তচাপ ও ক্রনিক রোগের বিশেষজ্ঞ চিকিৎসা"
+        "notesBn": "ডায়াবেটিস, থাইরয়েড, উচ্চ রক্তচাপ ও ক্রনিক রোগের বিশেষজ্ঞ চিকিৎসা",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "মহেন্দ্র ক্লিনিক, বারুইপুর (Mahendra Clinic Baruipur) - ডাঃ বিজয় রায়চৌধুরী, ডাঃ এইচ এম দাও (Dr. HM Dao) ও ডাক্তার তালিকা",
-    "metaDescription": "মহেন্দ্র ক্লিনিক বারুইপুর (Mahendra Clinic Baruipur): প্রখ্যাত ডার্মাটোলজিস্ট ডাঃ বিজয় রায়চৌধুরী ও ডাঃ এইচ এম দাও (Dr. HM Dao) চেম্বার, ডাক্তার তালিকা, সিরিয়াল বুকিং ফোন নম্বর ও ঠিকানা।"
+    "metaDescription": "মহেন্দ্র ক্লিনিক বারুইপুর (Mahendra Clinic Baruipur): প্রখ্যাত ডার্মাটোলজিস্ট ডাঃ বিজয় রায়চৌধুরী ও ডাঃ এইচ এম দাও (Dr. HM Dao) চেম্বার, ডাক্তার তালিকা, সিরিয়াল বুকিং ফোন নম্বর ও ঠিকানা।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      }
+    ]
   },
   {
     "slug": "sevatirtham-nursing-home-baruipur",
@@ -5288,7 +6542,9 @@
         "timingBn": "সকাল ১০:০০ - দুপুর ১২:০০ এবং সন্ধ্যা ৭:০০ - রাত ৯:০০",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "9088377220",
-        "appointmentWhatsapp": "+916291123465"
+        "appointmentWhatsapp": "+916291123465",
+        "canonicalSpecialtyKey": "general_physician",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "sevatirtham-doc-2",
@@ -5303,7 +6559,9 @@
         "timingBn": "সন্ধ্যা ৭:০০ - রাত ৯:০০",
         "visitingFeeBn": "₹ ৭০০",
         "appointmentPhone": "9088377220",
-        "appointmentWhatsapp": "+916291123465"
+        "appointmentWhatsapp": "+916291123465",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "sevatirtham-doc-3",
@@ -5318,7 +6576,9 @@
         "timingBn": "সোমবার সকাল ১০:৩০, শুক্রবার দুপুর ১:৩০",
         "visitingFeeBn": "₹ ৭০০",
         "appointmentPhone": "9088377220",
-        "appointmentWhatsapp": "+916291123465"
+        "appointmentWhatsapp": "+916291123465",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "sevatirtham-doc-4",
@@ -5333,7 +6593,9 @@
         "timingBn": "সকাল ১১:০০",
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "9088377220",
-        "appointmentWhatsapp": "+916291123465"
+        "appointmentWhatsapp": "+916291123465",
+        "canonicalSpecialtyKey": "dermatology",
+        "canonicalSpecialtyBn": "চর্মরোগ (ডার্মাটোলজি)"
       },
       {
         "id": "sevatirtham-doc-5",
@@ -5348,11 +6610,32 @@
         "timingBn": "জরুরি কল মারফত নির্ধারিত",
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "9088377220",
-        "appointmentWhatsapp": "+916291123465"
+        "appointmentWhatsapp": "+916291123465",
+        "canonicalSpecialtyKey": "general_physician",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "সেবাতীর্থম নার্সিং হোম ও ডায়াগনস্টিক বারুইপুর | Sevatirtham Nursing Home & Diagnostic, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "সেবাতীর্থম নার্সিং হোম ও ডায়াগনস্টিক (Sevatirtham Nursing Home & Diagnostic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "সেবাতীর্থম নার্সিং হোম ও ডায়াগনস্টিক (Sevatirtham Nursing Home & Diagnostic Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_physician",
+        "bn": "জেনারেল মেডিসিন"
+      },
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "dermatology",
+        "bn": "চর্মরোগ (ডার্মাটোলজি)"
+      }
+    ]
   },
   {
     "slug": "santiniketan-nursing-home-baruipur",
@@ -5407,7 +6690,9 @@
         "daysBn": "কল মারফত নির্ধারিত দিন ও সময়",
         "timingBn": "পূর্ব বুকিং অনুযায়ী",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "7044410441"
+        "appointmentPhone": "7044410441",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "santiniketan-doc-2",
@@ -5421,11 +6706,24 @@
         "daysBn": "সোম থেকে শনিবার",
         "timingBn": "সকাল ১০:০০ - দুপুর ১:০০",
         "visitingFeeBn": "₹ ৫০০",
-        "appointmentPhone": "7044410441"
+        "appointmentPhone": "7044410441",
+        "canonicalSpecialtyKey": "general_physician",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি বারুইপুর | Santiniketan Nursing Home & Society, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি (Santiniketan Nursing Home & Society Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "শান্তিনিকেতন নার্সিং হোম অ্যান্ড সোসাইটি (Santiniketan Nursing Home & Society Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "general_physician",
+        "bn": "জেনারেল মেডিসিন"
+      }
+    ]
   },
   {
     "slug": "well-care-nursing-home-baruipur",
@@ -5483,7 +6781,9 @@
         "daysBn": "সোম, বুধ ও শুক্রবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:০০",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "wellcare-doc-2",
@@ -5497,7 +6797,9 @@
         "daysBn": "সোম ও বৃহস্পতিবার",
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "wellcare-doc-3",
@@ -5511,7 +6813,9 @@
         "daysBn": "মঙ্গলবার ও শনিবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:৩০",
         "visitingFeeBn": "₹ ৮০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "wellcare-doc-4",
@@ -5525,7 +6829,9 @@
         "daysBn": "বুধবার ও রবিবার",
         "timingBn": "সকাল ১১:০০ - দুপুর ১:০০",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "wellcare-doc-5",
@@ -5539,7 +6845,9 @@
         "daysBn": "বুধবার ও শুক্রবার",
         "timingBn": "সন্ধ্যা ৬:৩০ - রাত ৮:৩০",
         "visitingFeeBn": "₹ ৮০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "orthopedics",
+        "canonicalSpecialtyBn": "অর্থোপেডিক ও হাড়"
       },
       {
         "id": "wellcare-doc-6",
@@ -5553,7 +6861,9 @@
         "daysBn": "বৃহস্পতিবার",
         "timingBn": "বিকাল ৪:০০ - সন্ধ্যা ৬:০০",
         "visitingFeeBn": "₹ ৯০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "urology",
+        "canonicalSpecialtyBn": "ইউরোলজি ও কিডনি"
       },
       {
         "id": "wellcare-doc-7",
@@ -5567,7 +6877,9 @@
         "daysBn": "মঙ্গলবার ও শুক্রবার",
         "timingBn": "দুপুর ১২:০০ - দুপুর ২:০০",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "wellcare-doc-8",
@@ -5581,7 +6893,9 @@
         "daysBn": "সোম থেকে শনিবার",
         "timingBn": "সন্ধ্যা ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "pediatrics",
+        "canonicalSpecialtyBn": "শিশুরোগ বিশেষজ্ঞ"
       },
       {
         "id": "wellcare-doc-9",
@@ -5595,7 +6909,9 @@
         "daysBn": "সোমবার ও বুধবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:০০",
         "visitingFeeBn": "₹ ৮০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "wellcare-doc-10",
@@ -5609,7 +6925,9 @@
         "daysBn": "মঙ্গলবার",
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ৮০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "wellcare-doc-11",
@@ -5623,7 +6941,9 @@
         "daysBn": "বৃহস্পতিবার ও শনিবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:০০",
         "visitingFeeBn": "₹ ৯০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "gastroenterology",
+        "canonicalSpecialtyBn": "গ্যাস্ট্রো ও লিভার"
       },
       {
         "id": "wellcare-doc-12",
@@ -5637,7 +6957,9 @@
         "daysBn": "শুক্রবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:০০",
         "visitingFeeBn": "₹ ১,০০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "oncology",
+        "canonicalSpecialtyBn": "ক্যান্সার (অনকোলজি)"
       },
       {
         "id": "wellcare-doc-13",
@@ -5651,7 +6973,9 @@
         "daysBn": "শনিবার",
         "timingBn": "বিকাল ৪:০০ - সন্ধ্যা ৬:০০",
         "visitingFeeBn": "₹ ১,০০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "hematology",
+        "canonicalSpecialtyBn": "রক্তরোগ (হেমাটোলজি)"
       },
       {
         "id": "wellcare-doc-14",
@@ -5665,7 +6989,9 @@
         "daysBn": "বুধবার",
         "timingBn": "বিকাল ৫:০০ - সন্ধ্যা ৭:০০",
         "visitingFeeBn": "₹ ১,০০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "neurology",
+        "canonicalSpecialtyBn": "স্নায়ুরোগ (নিউরোলজি)"
       },
       {
         "id": "wellcare-doc-15",
@@ -5679,7 +7005,9 @@
         "daysBn": "সোম, বুধ ও শুক্রবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:৩০",
         "visitingFeeBn": "₹ ৮০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       },
       {
         "id": "wellcare-doc-16",
@@ -5693,11 +7021,56 @@
         "daysBn": "মঙ্গল, বৃহস্পতি ও শনিবার",
         "timingBn": "সন্ধ্যা ৬:০০ - রাত ৮:৩০",
         "visitingFeeBn": "₹ ৭০০",
-        "appointmentPhone": "9475332013"
+        "appointmentPhone": "9475332013",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "ওয়েল কেয়ার নার্সিং হোম বারুইপুর | Well Care Nursing Home, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "ওয়েল কেয়ার নার্সিং হোম (Well Care Nursing Home Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "ওয়েল কেয়ার নার্সিং হোম (Well Care Nursing Home Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "pediatrics",
+        "bn": "শিশুরোগ বিশেষজ্ঞ"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "orthopedics",
+        "bn": "অর্থোপেডিক ও হাড়"
+      },
+      {
+        "key": "urology",
+        "bn": "ইউরোলজি ও কিডনি"
+      },
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "gastroenterology",
+        "bn": "গ্যাস্ট্রো ও লিভার"
+      },
+      {
+        "key": "oncology",
+        "bn": "ক্যান্সার (অনকোলজি)"
+      },
+      {
+        "key": "hematology",
+        "bn": "রক্তরোগ (হেমাটোলজি)"
+      },
+      {
+        "key": "neurology",
+        "bn": "স্নায়ুরোগ (নিউরোলজি)"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      }
+    ]
   },
   {
     "slug": "debasish-nursing-home-baruipur",
@@ -5757,7 +7130,9 @@
         "visitingFeeBn": "₹ ৬০০",
         "appointmentPhone": "033-2433-8555",
         "appointmentWhatsapp": "+919830567890",
-        "notesBn": "গলব্লাডার, হার্নিয়া, অ্যাপেন্ডিক্স ও জরুরি ট্রমা সার্জারি"
+        "notesBn": "গলব্লাডার, হার্নিয়া, অ্যাপেন্ডিক্স ও জরুরি ট্রমা সার্জারি",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "debasish-doc-2",
@@ -5772,11 +7147,24 @@
         "visitingFeeBn": "₹ ৫০০",
         "appointmentPhone": "033-2433-8555",
         "appointmentWhatsapp": "+919830567890",
-        "notesBn": "সিজারিয়ান, নরমাল ডেলিভারি ও হাই-রিস্ক প্রেগন্যান্সি কেয়ার"
+        "notesBn": "সিজারিয়ান, নরমাল ডেলিভারি ও হাই-রিস্ক প্রেগন্যান্সি কেয়ার",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       }
     ],
     "metaTitle": "দেবাশীষ নার্সিং হোম বারুইপুর | Debasish Nursing Home, Baruipur - ডাক্তার তালিকা, সময়সূচি ও ফোন নম্বর",
-    "metaDescription": "দেবাশীষ নার্সিং হোম (Debasish Nursing Home Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।"
+    "metaDescription": "দেবাশীষ নার্সিং হোম (Debasish Nursing Home Baruipur): বিশেষজ্ঞ ডাক্তারদের ওপিডি সময়সূচি, ফি, যোগাযোগের ফোন নম্বর ও সম্পূর্ণ স্বাস্থ্যসেবা গাইড।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      }
+    ]
   },
   {
     "slug": "caring-heaven-nursing-home-baruipur",
@@ -5838,7 +7226,9 @@
         "roomNo": "কেবিন ১",
         "appointmentPhone": "8509560869",
         "appointmentWhatsapp": "+918509560869",
-        "notesBn": "২৪ ঘণ্টা এমার্জেন্সি অপারেশন সুবিধা"
+        "notesBn": "২৪ ঘণ্টা এমার্জেন্সি অপারেশন সুবিধা",
+        "canonicalSpecialtyKey": "general_surgery",
+        "canonicalSpecialtyBn": "জেনারেল সার্জারি"
       },
       {
         "id": "caring-doc-2",
@@ -5855,7 +7245,9 @@
         "roomNo": "কেবিন ২",
         "appointmentPhone": "8509560869",
         "appointmentWhatsapp": "+918509560869",
-        "notesBn": "হাই-রিস্ক প্রেগন্যান্সি ও নিয়মিত প্রসবপূর্ব পরীক্ষা"
+        "notesBn": "হাই-রিস্ক প্রেগন্যান্সি ও নিয়মিত প্রসবপূর্ব পরীক্ষা",
+        "canonicalSpecialtyKey": "gynaecology",
+        "canonicalSpecialtyBn": "স্ত্রী ও প্রসূতিরোগ"
       },
       {
         "id": "caring-doc-3",
@@ -5872,11 +7264,28 @@
         "roomNo": "আইসিইউ বিভাগ",
         "appointmentPhone": "8420658406",
         "appointmentWhatsapp": "+918509560869",
-        "notesBn": "জরুরি কার্ডিয়াক ও রেসপিরেটরি ক্রিটিক্যাল কেয়ার"
+        "notesBn": "জরুরি কার্ডিয়াক ও রেসপিরেটরি ক্রিটিক্যাল কেয়ার",
+        "canonicalSpecialtyKey": "general_medicine",
+        "canonicalSpecialtyBn": "জেনারেল মেডিসিন"
       }
     ],
     "metaTitle": "কেয়ারিং হেভেন নার্সিং হোম, বারুইপুর | Caring Heaven Nursing Home Baruipur - Photos, Doctor List & ICU Facilities",
-    "metaDescription": "Caring Heaven Nursing Home Baruipur (কেয়ারিং হেভেন নার্সিং হোম / Caring Haven): ডাক্তার তালিকা, আইসিইউ ও ওটি সুবিধা, নার্সিং হোম ফটো (Photos), জরুরি ফোন নম্বর ও ঋষি বঙ্কিম নগর ঠিকানা।"
+    "metaDescription": "Caring Heaven Nursing Home Baruipur (কেয়ারিং হেভেন নার্সিং হোম / Caring Haven): ডাক্তার তালিকা, আইসিইউ ও ওটি সুবিধা, নার্সিং হোম ফটো (Photos), জরুরি ফোন নম্বর ও ঋষি বঙ্কিম নগর ঠিকানা।",
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "general_surgery",
+        "bn": "জেনারেল সার্জারি"
+      },
+      {
+        "key": "gynaecology",
+        "bn": "স্ত্রী ও প্রসূতিরোগ"
+      },
+      {
+        "key": "general_medicine",
+        "bn": "জেনারেল মেডিসিন"
+      }
+    ]
   },
   {
     "slug": "dental-clinic-dr-tapan-sarkar-dr-partha-sarathi-saha-baruipur",
@@ -5939,7 +7348,9 @@
         "roomNo": "চেম্বার ১",
         "appointmentPhone": "8670833707",
         "appointmentWhatsapp": "+918670833707",
-        "notesBn": "বৃহস্পতিবার চেম্বার বন্ধ থাকে"
+        "notesBn": "বৃহস্পতিবার চেম্বার বন্ধ থাকে",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
       },
       {
         "id": "brp-dental-doc-2",
@@ -5956,7 +7367,16 @@
         "roomNo": "চেম্বার ২",
         "appointmentPhone": "8670833707",
         "appointmentWhatsapp": "+918670833707",
-        "notesBn": "ওরাল ইমপ্লান্ট ও অ্যাডভান্সড ডেন্টাল প্রসিডিউরের জন্য স্পেশাল স্লট"
+        "notesBn": "ওরাল ইমপ্লান্ট ও অ্যাডভান্সড ডেন্টাল প্রসিডিউরের জন্য স্পেশাল স্লট",
+        "canonicalSpecialtyKey": "dentistry",
+        "canonicalSpecialtyBn": "দন্ত চিকিৎসা"
+      }
+    ],
+    "lastVerified": "২০২৬-১১-২৬",
+    "canonicalSpecialties": [
+      {
+        "key": "dentistry",
+        "bn": "দন্ত চিকিৎসা"
       }
     ]
   }

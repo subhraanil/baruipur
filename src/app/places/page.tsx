@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'বারুইপুরের গুরুত্বপূর্ণ স্থান ও দর্শনীয় স্পট নির্দেশিকা | Baruipur Online',
-    description: 'বারুইপুরের ঐতিহাসিক, আধ্যাত্মিক ও প্রশাসনিক ৩৩টি গুরুত্বপূর্ণ স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
+    description: 'বারুইপুরের ঐতিহাসিক, আধ্যাত্মিক ও প্রশাসনিক ৩৫টি গুরুত্বপূর্ণ স্থানের পূর্ণাঙ্গ তথ্যকোষ।',
     images: ['https://baruipur.online/images/places/baruipur-rajbari-facade.jpg'],
     site: '@BaruipurOnline'
   }
@@ -118,7 +118,7 @@ export default function PlacesIndexPage() {
         name: 'বারুইপুর থানার জরুরি ফোন নম্বর কত? (Baruipur Police Station Phone Number)',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'বারুইপুর থানার যোগাযোগ ও হেল্পলাইন নম্বর: ০৩৩-২৪৩৩-৮২২২ / ০৩৩-২৪৩৩-৮২২৩। এছাড়া বারুইপুর পুলিশ জেলা কন্ট্রোল রুম নম্বর: ০৩৩-২৪৩৩-০৪০০ এবং জরুরি রাজ্য পুলিশ হেল্পলাইন ১১২ / ১০০।'
+          text: 'বারুইপুর পুলিশ জেলা কন্ট্রোল রুম: 033-2433-0083 / 033-2433-1312, এসপি অফিস: 033-2433-0010 এবং জরুরি পুলিশ হেল্পলাইন 112।'
         }
       },
       {
@@ -207,12 +207,13 @@ export default function PlacesIndexPage() {
             <h3 className="text-lg font-bold text-red-700 mb-2">
               📞 জরুরি যোগাযোগ ও হেল্পলাইন ডিরেক্টরি (Emergency Contacts)
             </h3>
-            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 mb-4 space-y-2 text-sm">
-              <p><strong>বারুইপুর থানা (Police Station):</strong> ০৩৩-২৪৩৩-৮২২২ / ০৩৩-২৪৩৩-৮২২৩</p>
-              <p><strong>বারুইপুর পুলিশ জেলা কন্ট্রোল:</strong> ০৩৩-২৪৩৩-০৪০০ | জরুরি পুলিশ: ১১২</p>
-              <p><strong>মহকুমা সুপার স্পেশালিটি হাসপাতাল:</strong> ০৩৩-২৪৩৩-৮২৬০</p>
-              <p><strong>বারুইপুর পৌরসভা হেল্পলাইন:</strong> ০৩৩-২৪৩৩-৮২৩০</p>
-              <p><strong>বারুইপুর বিডিও অফিস (BDO Office):</strong> ০৩৩-২৪৩৩-৮২২১</p>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 mb-4 space-y-2 text-[15px]">
+              <p><strong>বারুইপুর পুলিশ জেলা কন্ট্রোল:</strong> <span className="phone-display">033-2433-0083</span> | জরুরি পুলিশ: <span className="phone-display">112</span></p>
+              <p><strong>বারুইপুর পুলিশ সুপার অফিস:</strong> <span className="phone-display">033-2433-0010</span></p>
+              <p><strong>বারুইপুর মহকুমা হাসপাতাল:</strong> <span className="phone-display">033-2433-5303</span> (জরুরি: <span className="phone-display">8100820190</span>)</p>
+              <p><strong>বারুইপুর পৌরসভা কার্যালয়:</strong> <span className="phone-display">033-2433-8201</span></p>
+              <p><strong>বারুইপুর মহকুমা শাসক (SDO):</strong> <span className="phone-display">033-2433-8579</span></p>
+              <p><strong>বারুইপুর বিডিও অফিস (BDO Office):</strong> <span className="phone-display">033-2433-8221</span></p>
             </div>
 
             <h3 className="text-lg font-bold text-red-700 mb-2">

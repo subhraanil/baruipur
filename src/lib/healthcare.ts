@@ -16,6 +16,8 @@ export interface DoctorOPD {
   appointmentPhone: string;
   appointmentWhatsapp?: string;
   notesBn?: string;
+  canonicalSpecialtyKey?: string;
+  canonicalSpecialtyBn?: string;
 }
 
 export interface HealthcareFacility {
@@ -31,6 +33,10 @@ export interface HealthcareFacility {
   addressBn: string;
   addressEn: string;
   landmarkBn: string;
+  area?: string;
+  isFeatured?: boolean;
+  lastVerified?: string;
+  canonicalSpecialties?: Array<{ key: string; bn: string }>;
   phone: string;
   altPhone?: string;
   emergencyPhone?: string;

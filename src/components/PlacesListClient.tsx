@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import { PlaceItem } from '@/lib/places';
+import { formatPhoneForDisplay, formatPhoneForTel, getPlaceCategoryBn } from '@/lib/formatters';
 import { 
   Building2, 
   ShieldAlert, 
@@ -231,7 +232,8 @@ export default function PlacesListClient({ places }: PlacesListClientProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredPlaces.map((place) => {
             const mapUrl = place.gmbMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.nameEn + ' Baruipur ' + place.address)}`;
-            const phoneRaw = place.contact?.phone ? place.contact.phone.replace(/[^0-9]/g, '') : '';
+            const safeTel = formatPhoneForTel(place.phone || place.contact?.phone);
+            const displayPhone = formatPhoneForDisplay(place.phone || place.contact?.phone);
             const coverImg = place.coverImage || place.images?.[0]?.url;
 
             return (
@@ -254,9 +256,9 @@ export default function PlacesListClient({ places }: PlacesListClientProps) {
                     
                     {/* Top Badges */}
                     <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
-                      <span className="inline-flex items-center gap-1 text-[11px] font-bold bg-white/90 text-slate-800 px-2.5 py-1 rounded-full backdrop-blur-xs shadow-xs">
+                      <span className="inline-flex items-center gap-1 text-[14px] font-bold bg-white/95 text-slate-900 px-2.5 py-1 rounded-full shadow-xs">
                         {getCategoryIcon(place.category)}
-                        <span className="uppercase tracking-wide">{place.category === 'Government & Civic Administration' ? 'civic' : place.category}</span>
+                        <span>{getPlaceCategoryBn(place.category, place.categoryBn)}</span>
                       </span>
 
                       <div className="flex items-center gap-1.5">
@@ -303,11 +305,11 @@ export default function PlacesListClient({ places }: PlacesListClientProps) {
                       <MapPin className="w-3.5 h-3.5 text-red-500 shrink-0 mt-0.5" />
                       <span className="line-clamp-1 font-medium">{place.address}</span>
                     </div>
-                    {place.contact?.phone && (
+                    {safeTel && displayPhone && (
                       <div className="flex items-center gap-2">
-                        <Phone className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                        <a href={`tel:${phoneRaw}`} className="font-bold text-slate-800 hover:text-red-600 transition truncate">
-                          {place.contact.phone}
+                        <Phone className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
+                        <a href={safeTel} className="font-bold text-slate-900 hover:text-blue-800 transition truncate">
+                          {displayPhone}
                         </a>
                       </div>
                     )}
@@ -339,16 +341,16 @@ export default function PlacesListClient({ places }: PlacesListClientProps) {
                       <span>ম্যাপ</span>
                     </a>
 
-                    {phoneRaw ? (
+                    {safeTel ? (
                       <a
-                        href={`tel:${phoneRaw}`}
-                        className="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold py-2 px-2 rounded-lg text-center transition flex items-center justify-center gap-1"
+                        href={safeTel}
+                        className="bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 text-[14px] font-bold py-2 px-2 rounded-lg text-center transition flex items-center justify-center gap-1 min-h-[44px]"
                       >
-                        <Phone className="w-3 h-3 text-emerald-600" />
+                        <Phone className="w-3.5 h-3.5 text-emerald-700" />
                         <span>কল</span>
                       </a>
                     ) : (
-                      <span className="bg-slate-50 text-slate-400 text-xs font-semibold py-2 px-2 rounded-lg text-center border border-slate-100">
+                      <span className="bg-slate-50 text-slate-500 text-[14px] font-medium py-2 px-2 rounded-lg text-center border border-slate-100 flex items-center justify-center min-h-[44px]">
                         সরাসরি
                       </span>
                     )}

@@ -1,31 +1,34 @@
 import type { Metadata } from 'next';
+import { Noto_Sans_Bengali } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import MobileBottomNav from '@/components/MobileBottomNav';
 import TrackingHead from '@/components/TrackingHead';
-import ReadingProgressBar from '@/components/ReadingProgressBar';
+
+const notoSansBengali = Noto_Sans_Bengali({
+  subsets: ['bengali', 'latin'],
+  weight: ['400', '500', '700'],
+  display: 'swap',
+  variable: '--font-noto-bengali',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://baruipur.online'),
   title: {
-    default: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
-    template: '%s | বারুইপুর অনলাইন'
+    default: 'বারুইপুর অনলাইন | নাগরিক তথ্যকোষ, স্বাস্থ্য, স্থান, সরকারি নোটিস ও ই-টেন্ডার ডিরেক্টরি',
+    template: '%s | বারুইপুর অনলাইন',
   },
-  description: 'বারুইপুর মহকুমা, পৌরসভা, হাসপাতাল, শিয়ালদহ দক্ষিণ রেলওয়ে, পুলিশ প্রশাসন ও স্থানীয় সমস্ত খবরের নির্ভরযোগ্য ডিজিটাল ঠিকানা।',
-  keywords: [
-    'Baruipur', 'Baruipur news', 'Baruipur update', 'Baruipur live', 'Baruipur municipality',
-    'বারুইপুর', 'বারুইপুর খবর', 'বারুইপুর লাইভ', 'বারুইপুর আপডেট', 'দক্ষিণ ২৪ পরগনা সংবাদ',
-    'শিয়ালদহ লোকাল ট্রেন', 'বারুইপুর জংশন', 'বারুইপুর পুলিশ জেলা', 'বারুইপুর মহকুমা হাসপাতাল'
-  ],
-  authors: [{ name: 'বারুইপুর অনলাইন বার্তা ডেস্ক', url: 'https://baruipur.online' }],
-  creator: 'বারুইপুর Baruipur',
-  publisher: 'বারুইপুর Baruipur',
+  description:
+    'বারুইপুর মহকুমা ও পৌরসভার যাচাইকৃত নাগরিক ডিরেক্টরি: হাসপাতাল ও বিশেষজ্ঞ ডাক্তার, দর্শনীয় স্থান, ক্লাব ও সংগঠন, সরকারি নোটিস, ই-টেন্ডার এবং লোকাল ট্রেনের সময়সূচি।',
+  authors: [{ name: 'বারুইপুর অনলাইন তথ্যকোষ ডেস্ক', url: 'https://baruipur.online' }],
+  creator: 'বারুইপুর অনলাইন',
+  publisher: 'বারুইপুর অনলাইন',
   alternates: {
     canonical: 'https://baruipur.online/',
     types: {
-      'application/rss+xml': 'https://baruipur.online/feed.xml'
-    }
+      'application/rss+xml': 'https://baruipur.online/feed.xml',
+    },
   },
   robots: {
     index: true,
@@ -46,16 +49,15 @@ export const metadata: Metadata = {
       { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
       { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
     ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
-    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     shortcut: '/favicon.ico',
   },
   openGraph: {
-    title: 'বারুইপুর Baruipur - ২৪x৭ তাজা আঞ্চলিক খবর ও আপডেট',
-    description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার সামাজিক যোগাযোগ মাধ্যম ও সংবাদের নির্ভরযোগ্য সংকলন।',
+    title: 'বারুইপুর অনলাইন — নাগরিক তথ্যকোষ ও পাবলিক ডিরেক্টরি',
+    description:
+      'বারুইপুরের হাসপাতাল, বিশেষজ্ঞ ডাক্তার, দর্শনীয় স্থান, ক্লাব, সরকারি নোটিস ও ই-টেন্ডারের নির্ভরযোগ্য নাগরিক ডিরেক্টরি।',
     url: 'https://baruipur.online/',
-    siteName: 'বারুইপুর Baruipur',
+    siteName: 'বারুইপুর অনলাইন',
     locale: 'bn_IN',
     type: 'website',
     images: [
@@ -63,24 +65,24 @@ export const metadata: Metadata = {
         url: 'https://baruipur.online/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'বারুইপুর অনলাইন - Baruipur Online'
-      }
-    ]
+        alt: 'বারুইপুর অনলাইন - নাগরিক তথ্যকোষ ও পাবলিক ডিরেক্টরি',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'বারুইপুর Baruipur - ২৪x৭ তাজা খবর',
-    description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার নির্ভরযোগ্য আঞ্চলিক সংবাদ পোর্টাল।',
+    title: 'বারুইপুর অনলাইন — নাগরিক তথ্যকোষ ও পাবলিক ডিরেক্টরি',
+    description:
+      'বারুইপুরের হাসপাতাল, বিশেষজ্ঞ ডাক্তার, দর্শনীয় স্থান, সরকারি নোটিস ও ই-টেন্ডার ডিরেক্টরি।',
     images: ['https://baruipur.online/images/og-image.png'],
   },
   other: {
     'geo.region': 'IN-WB',
     'geo.placename': 'Baruipur',
     'geo.position': '22.3654;88.4325',
-    'ICBM': '22.3654, 88.4325',
-    'news_keywords': 'Baruipur, Baruipur news, Baruipur update, বারুইপুর, বারুইপুর খবর, দক্ষিণ ২৪ পরগনা',
-    'google-adsense-account': 'ca-pub-4871015401102715'
-  }
+    ICBM: '22.3654, 88.4325',
+    'google-adsense-account': 'ca-pub-4871015401102715',
+  },
 };
 
 export default function RootLayout({
@@ -88,83 +90,55 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const organizationSchema = {
+  const websiteSchema = {
     '@context': 'https://schema.org',
-    '@type': 'NewsMediaOrganization',
-    name: 'বারুইপুর Baruipur',
-    alternateName: ['বারুইপুর অনলাইন', 'Baruipur Online', 'Baruipur News', 'বারুইপুর খবর'],
+    '@type': 'WebSite',
+    name: 'বারুইপুর অনলাইন',
+    alternateName: ['Baruipur Online', 'Baruipur Civic Directory'],
     url: 'https://baruipur.online/',
-    description: 'বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে ও দক্ষিণ ২৪ পরগনা অঞ্চলের নির্ভরযোগ্য ডিজিটাল সংবাদ ও সামাজিক তথ্যবাতায়ন।',
+    description:
+      'বারুইপুর মহকুমা ও পৌরসভার নাগরিক তথ্যকোষ: স্বাস্থ্য ও ডাক্তার ডিরেক্টরি, দর্শনীয় স্থান, সংগঠন, সরকারি নোটিস ও ই-টেন্ডার।',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://baruipur.online/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
+  const civicOrgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'বারুইপুর অনলাইন (Baruipur Online)',
+    url: 'https://baruipur.online/',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Baruipur',
       addressRegion: 'West Bengal',
-      postalCode: '743302',
-      addressCountry: 'IN'
+      postalCode: '700144',
+      addressCountry: 'IN',
     },
     areaServed: [
-      {
-        '@type': 'AdministrativeArea',
-        name: 'Baruipur'
-      },
-      {
-        '@type': 'AdministrativeArea',
-        name: 'South 24 Parganas'
-      }
+      { '@type': 'AdministrativeArea', name: 'Baruipur' },
+      { '@type': 'AdministrativeArea', name: 'South 24 Parganas' },
     ],
-    knowsAbout: [
-      'Baruipur',
-      'Baruipur news',
-      'Baruipur Municipality',
-      'Baruipur Police District',
-      'Sealdah South Local Trains',
-      'বারুইপুর',
-      'বারুইপুর খবর',
-      'দক্ষিণ ২৪ পরগনা'
-    ],
-    sameAs: [
-      'https://en.wikipedia.org/wiki/Baruipur'
-    ]
-  };
-
-  const websiteSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'বারুইপুর অনলাইন - Baruipur Online',
-    alternateName: 'Baruipur News',
-    url: 'https://baruipur.online/',
-    inLanguage: 'bn'
   };
 
   return (
-    <html lang="bn">
+    <html lang="bn" className={notoSansBengali.variable}>
       <head>
-        {/* Cloudflare and Third-party Preconnect & DNS Prefetch */}
-        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
-        <link rel="alternate" type="application/rss+xml" title="বারুইপুর অনলাইন RSS Feed" href="/feed.xml" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
+        <TrackingHead />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
-        {/* Common Tracking & Analytics Head */}
-        <TrackingHead />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(civicOrgSchema) }}
+        />
       </head>
-      <body className="min-h-screen flex flex-col bg-slate-50 font-bengali">
-        <ReadingProgressBar />
+      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 pb-20 md:pb-0">
         <Header />
-        <main className="flex-1 pb-16 md:pb-0">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
         <Footer />
         <MobileBottomNav />
       </body>

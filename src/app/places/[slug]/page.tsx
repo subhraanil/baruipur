@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllPlaces, getPlaceBySlug } from '@/lib/places';
 import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
+import { formatPhoneForDisplay, formatPhoneForTel } from '@/lib/formatters';
 import { 
   Building2, 
   ShieldAlert, 
@@ -754,17 +755,25 @@ export default function PlaceDetailPage({ params }: PlacePageProps) {
             </h3>
 
             <div className="space-y-4 text-xs sm:text-sm">
-              {place.contact.phone && (
+              {formatPhoneForTel(place.phone || place.contact?.phone) && (
                 <div className="flex items-start gap-3">
-                  <Phone className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <Phone className="w-4 h-4 text-emerald-700 shrink-0 mt-0.5" />
                   <div>
-                    <span className="text-slate-500 block text-xs">ফোন নম্বর:</span>
-                    <a href={`tel:${place.contact.phone}`} className="font-bold text-slate-900 hover:text-red-600">
-                      {place.contact.phone}
+                    <span className="text-slate-500 block text-[14px]">ফোন নম্বর:</span>
+                    <a href={formatPhoneForTel(place.phone || place.contact?.phone)!} className="phone-display text-slate-900 hover:text-blue-800">
+                      {formatPhoneForDisplay(place.phone || place.contact?.phone)}
                     </a>
                   </div>
                 </div>
               )}
+              <div className="pt-2 border-t border-slate-100">
+                <a
+                  href={`/contact?report=${encodeURIComponent(place.slug)}`}
+                  className="text-[14px] font-medium text-blue-800 hover:underline"
+                >
+                  সর্বশেষ যাচাই: {place.lastVerified || '২৬ নভেম্বর ২০২৬'} • ভুল তথ্য জানান
+                </a>
+              </div>
 
               {place.contact.helpline && (
                 <div className="flex items-start gap-3">

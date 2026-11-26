@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllOrganizations, getOrganizationBySlug } from '@/lib/organizations';
 import { formatBilingualLocation, cleanBengaliName, cleanEnglishName } from '@/lib/seoUtils';
+import { formatPhoneForDisplay, formatPhoneForTel } from '@/lib/formatters';
 import { 
   Building2, 
   MapPin, 
@@ -270,15 +271,21 @@ export default function OrganizationDetailPage({ params }: Props) {
           {/* Quick Action Contact Bar */}
           <div className="bg-slate-50 border-t border-slate-200 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex flex-wrap items-center gap-3">
-              {org.contact.phone && (
+              {formatPhoneForTel(org.contact?.phone) && (
                 <a
-                  href={`tel:${org.contact.phone.replace(/[^0-9+]/g, '')}`}
-                  className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl shadow-sm transition"
+                  href={formatPhoneForTel(org.contact?.phone)!}
+                  className="inline-flex items-center gap-2 min-h-[44px] bg-emerald-700 hover:bg-emerald-800 text-white text-[16px] font-bold px-4 py-2.5 rounded-xl shadow-sm transition"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>ফোন: {org.contact.phone}</span>
+                  <span>ফোন: {formatPhoneForDisplay(org.contact?.phone)}</span>
                 </a>
               )}
+              <a
+                href={`/contact?report=${encodeURIComponent(org.slug)}`}
+                className="inline-flex items-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-100 text-slate-800 text-[14px] font-medium transition"
+              >
+                <span>ভুল তথ্য জানান</span>
+              </a>
               {org.contact.whatsapp && (
                 <a
                   href={`https://wa.me/91${org.contact.whatsapp.replace(/[^0-9]/g, '')}`}

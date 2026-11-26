@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   FileText, 
   Search, 
@@ -30,6 +30,25 @@ export default function TendersClient({ initialTenders, authorities }: TendersCl
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [copiedRef, setCopiedRef] = useState<string | null>(null);
+  const [highlightedId, setHighlightedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      const id = params.get('id') || window.location.hash.replace('#', '');
+      if (q) setSearchQuery(q);
+      if (id) {
+        const match = initialTenders.find((t) => t.id === id);
+        if (match) {
+          setHighlightedId(match.id);
+          setTimeout(() => {
+            document.getElementById(match.id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 150);
+        }
+      }
+    }
+  }, [initialTenders]);
 
   const handleCopyRef = (refText: string) => {
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
@@ -134,7 +153,12 @@ export default function TendersClient({ initialTenders, authorities }: TendersCl
           {filteredTenders.map((tender) => (
             <div 
               key={tender.id}
-              className="bg-white rounded-2xl border border-slate-200 hover:border-red-300 hover:shadow-md transition-all p-5 sm:p-6 space-y-4"
+              id={tender.id}
+              className={`bg-white rounded-2xl border transition-all p-5 sm:p-6 space-y-4 ${
+                highlightedId === tender.id
+                  ? 'border-blue-600 ring-2 ring-blue-500/30 shadow-md'
+                  : 'border-slate-200 hover:border-slate-300 hover:shadow-md'
+              }`}
             >
               {/* Header Badges */}
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
