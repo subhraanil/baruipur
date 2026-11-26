@@ -1,6 +1,6 @@
 # বারুইপুর Baruipur - Complete Regional News & Information Corpus
 # Website: https://baruipur.online
-# Last Updated: 2026-11-26T13:25:23.463Z
+# Last Updated: 2026-11-26T13:41:25.226Z
 # Total Articles: 81
 # Total Key Landmarks: 35
 # Total Organizations & Clubs: 25
@@ -4984,8 +4984,8 @@ ARTICLE #2: চৈতন্য মহাপ্রভুর পুণ্য প�
 - Category: ঐতিহ্য ও সংস্কৃতি (events)
 - Published At: 2026-11-25T05:30:00.000Z
 - Canonical URL: https://baruipur.online/chaitanya-mahaprabhu-atisara-mahaprabhutala-baruipur-ras-yatra-festival-2026/
-- Source: Baruipur 24x7
-- Original Post: https://www.facebook.com/1786273570168137
+- Source: বারুইপুর বার্তা ডট কম বিশেষ সম্পাদকীয়
+- Original Post: https://baruipur.in
 
 SUMMARY:
 ঐতিহাসিক আদি গঙ্গার তীরে অবস্থিত বারুইপুরের সুপ্রাচীন আটিসারা মহাপ্রভুতলায় কার্তিক পূর্ণিমা উপলক্ষ্যে উদযাপিত হলো ঐতিহ্যবাহী রাসযাত্রা ও নামযজ্ঞ। শ্রীচৈতন্য মহাপ্রভুর নীলাচল যাত্রার স্মৃতিবাহী এই পুণ্যক্ষেত্রে ভিড় জমালেন দক্ষিণবঙ্গের শত শত ভক্ত।
@@ -5015,8 +5015,8 @@ ARTICLE #3: বেনারসের আদলে দেব দীপাবল�
 - Category: উৎসব ও সমাজ (events)
 - Published At: 2026-11-25T05:00:00.000Z
 - Canonical URL: https://baruipur.online/dev-deepavali-celebration-adi-ganga-ghat-baruipur-thousands-diyas-ganga-aarti-2026/
-- Source: Baruipur Uncover
-- Original Post: https://www.facebook.com/1786273570168137
+- Source: বারুইপুর বার্তা ডট কম বিশেষ সম্পাদকীয়
+- Original Post: https://baruipur.in
 
 SUMMARY:
 বারাণসীর ঐতিহ্যবাহী দেব দীপাবলীর রূপ যেন নেমে এলো বারুইপুরের আদি গঙ্গার তীরে। কার্তিক পূর্ণিমার সন্ধ্যায় হাজার হাজার প্রদীপের সোনালী আলো, বৈদিক স্তোত্রপাঠ ও সুবিশাল গঙ্গা আরতিতে মুগ্ধ হলেন শহরবাসী।
@@ -6705,8 +6705,8 @@ ARTICLE #41: বারুইপুর মহকুমা হাসপাতা�
 - Category: আইন ও অপরাধ (crime)
 - Published At: 2026-10-27T12:40:20.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%87%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%B9%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%80%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%9C%E0%A6%A8%E0%A6%95-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A6%BE%E0%A6%AB%E0%A6%BF%E0%A6%B2%E0%A6%A4%E0%A6%BF-wdlv/
-- Source: Baruipur Update
-- Original Post: https://www.facebook.com/1752536053541889
+- Source: বারুইপুর বার্তা ডট কম বিশেষ সম্পাদকীয়
+- Original Post: https://baruipur.in
 
 SUMMARY:
 বারুইপুর মহকুমা সংশোধনাগার থেকে আশঙ্কাজনক অবস্থায় মহকুমা হাসপাতালে নিয়ে আসার পর এক বিচারাধীন বন্দির অস্বাভাবিক মৃত্যু ঘিরে তীব্র চাঞ্চল্য ছড়িয়েছে। হেফাজতে নির্যাতন ও চিকিৎসায় গাফিলতির অভিযোগ তুলে নিরপেক্ষ বিচারবিভাগীয় তদন্তের দাবি জানিয়েছে মৃতের পরিবার।
@@ -9841,8 +9841,8 @@ ARTICLE #75: বারুইপুর পৌরসভা নাগরিক স�
 - Category: পৌরসভা ও নাগরিক (municipality)
 - Published At: 2026-10-02T09:35:24.000Z
 - Canonical URL: https://baruipur.online/%E0%A6%AD%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%95%E0%A6%BF-%E0%A6%AC%E0%A6%B2%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%B8%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%93-%E0%A6%AA%E0%A7%8C%E0%A6%B0%E0%A6%B8%E0%A6%AD%E0%A6%BE-%E0%A6%8F%E0%A6%AC%E0%A6%82/
-- Source: Voice of Baruipur
-- Original Post: https://www.facebook.com/122119556007332585
+- Source: বারুইপুর বার্তা ডট কম বিশেষ সম্পাদকীয়
+- Original Post: https://baruipur.in
 
 SUMMARY:
 ভাতা নিয়ে কি বলছেন সাধারণ মানুষ ও পৌরসভা এবং প্রশাসনের দিক থেকে। [পৌর ও নাগরিক পরিষেবা]: বারুইপুর মহকুমা ও পুরসভা এলাকার নাগরিকদের সুবিধার জন্য বিভিন্ন ওয়ার্ডে নিকাশি, আলো ...

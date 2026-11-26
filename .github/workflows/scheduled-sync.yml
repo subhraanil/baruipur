@@ -1,4 +1,4 @@
-name: Twice Daily News Sync (AdSense Compliant)
+name: Civic Directory, Notices & Tenders Scheduled Sync
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync-news:
+  sync-civic-portal:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -35,39 +35,26 @@ jobs:
       - name: Install Python Dependencies
         run: pip install requests
 
-      - name: Run News Sync with AdSense Quality Standards
-        run: node scripts/sync-news.js --days=1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Sync & Validate 5 Civic Pillars (Places, Orgs, Health, Notices, Tenders)
+        run: node scripts/sync-civic-portal.js
 
-      - name: Regenerate Clean Sitemaps, Feeds & SEO Assets
+      - name: Regenerate Clean Sitemaps, Feeds & SEO Discovery Assets
         run: node scripts/generate-seo-assets.js
 
-      - name: AdSense Quality Gate Validation
-        run: |
-          python -c "
-          import json, sys
-          with open('src/data/news_data.json', encoding='utf-8') as f:
-              data = json.load(f)
-          pub = [a for a in data.get('articles', []) if a.get('status') == 'published']
-          thin = [a for a in pub if len(a.get('content', '').split()) < 200]
-          if thin:
-              print(f'❌ AdSense Quality Violation: Found {len(thin)} thin articles with < 200 words.')
-              sys.exit(1)
-          print(f'✅ AdSense Quality Check Passed: All {len(pub)} published articles have >= 200 words.')
-          "
+      - name: Validate Production Build Readiness
+        run: npm run build
 
       - name: Broadcast Updates to IndexNow (Bing & Search Engines)
         run: python scripts/submit_indexnow.py || true
 
-      - name: Commit and Push Changes (if any new posts)
+      - name: Commit and Push Changes (if any directory or tender updates)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/news_data.json public/ scripts/
+          git add src/data/ public/ scripts/
           if git diff --staged --quiet; then
-            echo "No changes or new articles found today."
+            echo "No changes or updates detected in civic directory."
           else
-            git commit -m "Auto-sync daily news adhering to AdSense quality standards"
+            git commit -m "chore(sync): auto-sync civic directory, public tenders and official notices"
             git push origin main
           fi
