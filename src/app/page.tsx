@@ -18,8 +18,11 @@ import { getAllOrganizations } from '@/lib/organizations';
 import { getAllFacilities } from '@/lib/healthcare';
 import { getActiveNotices } from '@/lib/notices';
 import { getAllTenders } from '@/lib/tenders';
+import { getAllProperties } from '@/lib/properties';
+import { db } from '@/lib/db';
 import DirectoryCard from '@/components/DirectoryCard';
 import AdSlot from '@/components/AdSlot';
+import Hero3DStack from '@/components/Hero3DStack';
 import {
   CANONICAL_SPECIALTIES,
   getOrgCategoryBn,
@@ -34,6 +37,12 @@ export default function HomePage() {
   const healthFacilities = getAllFacilities();
   const notices = getActiveNotices();
   const tenders = getAllTenders();
+  const properties = getAllProperties();
+  const bankAuctionsCount = properties.filter((p) => p.category === 'bank_auction').length;
+  const curatedGuides = db
+    .getArticles()
+    .filter((a) => a.status === 'published')
+    .slice(0, 3);
 
   const totalDoctors = healthFacilities.reduce(
     (sum, h) => sum + (Array.isArray(h.doctors) ? h.doctors.length : h.doctorsCount || 0),
@@ -61,36 +70,48 @@ export default function HomePage() {
 
   return (
     <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-12">
-      {/* 1. Hero with One Big Search Box & 6 Intent Tiles */}
-      <section className="bg-white rounded-2xl border border-[#E4E7EC] shadow-sm p-6 sm:p-10 space-y-6">
-        <div className="space-y-3 max-w-[720px]">
-          <h1 className="text-[30px] sm:text-[42px] font-bold text-[#142B4A] leading-[1.3]">
-            আপনার বারুইপুর, সব তথ্য এক জায়গায়
-          </h1>
-          <p className="text-[18px] sm:text-[19px] text-[#202938] leading-[1.85]">
-            ডাক্তার, হাসপাতাল, দর্শনীয় স্থান, ক্লাব ও সংগঠন, সরকারি নোটিস, ই-টেন্ডার এবং লোকাল ট্রেনের যাচাইকৃত তথ্য খুঁজুন।
-          </p>
-        </div>
+      {/* 1. Split Hero: Left Search & 6 Intent Tiles | Right 3D Layered Civic Stack */}
+      <section className="bg-white rounded-2xl border border-[#E4E7EC] shadow-sm p-6 sm:p-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-7 space-y-6">
+            <div className="space-y-3 max-w-[700px]">
+              <h1 className="text-[30px] sm:text-[42px] font-bold text-[#142B4A] leading-[1.3]">
+                আপনার বারুইপুর, সব তথ্য এক জায়গায়
+              </h1>
+              <p className="text-[18px] sm:text-[19px] text-[#202938] leading-[1.85]">
+                ডাক্তার, হাসপাতাল, দর্শনীয় স্থান, ব্যাংক নিলাম প্রপার্টি, সরকারি নোটিস, ই-টেন্ডার এবং লোকাল ট্রেনের যাচাইকৃত তথ্য খুঁজুন।
+              </p>
+            </div>
 
-        {/* Big Search Box */}
-        <form action="/search" method="GET" className="flex flex-col sm:flex-row gap-3">
-          <div className="relative flex-1">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
-            <input
-              type="search"
-              name="q"
-              placeholder="বারুইপুরে কী খুঁজছেন? (ডাক্তার, হাসপাতাল, স্থান, নোটিস, টেন্ডার)"
-              aria-label="বারুইপুর ডিরেক্টরিতে খুঁজুন"
-              className="w-full min-h-[54px] pl-12 pr-4 py-3 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] focus:bg-white focus:border-[#245B91] focus:outline-none text-[18px] text-[#202938]"
+            {/* Big Search Box */}
+            <form action="/search" method="GET" className="flex flex-col sm:flex-row gap-3">
+              <div className="relative flex-1">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
+                <input
+                  type="search"
+                  name="q"
+                  placeholder="বারুইপুরে কী খুঁজছেন? (ডাক্তার, হাসপাতাল, স্থান, নোটিস, টেন্ডার)"
+                  aria-label="বারুইপুর ডিরেক্টরিতে খুঁজুন"
+                  className="w-full min-h-[54px] pl-12 pr-4 py-3 rounded-xl border border-[#E4E7EC] bg-[#F5F7FA] focus:bg-white focus:border-[#245B91] focus:outline-none text-[18px] text-[#202938]"
+                />
+              </div>
+              <button
+                type="submit"
+                className="min-h-[54px] px-7 py-3 rounded-xl bg-[#142B4A] hover:bg-[#245B91] text-white font-bold text-[16px] leading-[1.3] transition-colors shrink-0"
+              >
+                অনুসন্ধান করুন
+              </button>
+            </form>
+          </div>
+
+          <div className="lg:col-span-5">
+            <Hero3DStack
+              activeTendersCount={tenders.length}
+              placesCount={places.length}
+              bankAuctionsCount={bankAuctionsCount}
             />
           </div>
-          <button
-            type="submit"
-            className="min-h-[54px] px-7 py-3 rounded-xl bg-[#142B4A] hover:bg-[#245B91] text-white font-bold text-[16px] leading-[1.3] transition-colors shrink-0"
-          >
-            অনুসন্ধান করুন
-          </button>
-        </form>
+        </div>
 
         {/* 6 Intent Tiles */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2">
@@ -391,7 +412,44 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Seasonal Guide Banner */}
+      {/* 6. Curated City Guides (3 Cards) */}
+      {curatedGuides.length > 0 && (
+        <section className="space-y-6">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <h2 className="text-[24px] sm:text-[32px] font-bold text-[#142B4A] leading-[1.38]">
+                বারুইপুর সিটিজেন গাইড ও ঐতিহ্য
+              </h2>
+              <p className="text-[17px] text-[#475467]">
+                স্থানীয় বাজার, উৎসব, নাগরিক পরিষেবা ও ঐতিহ্যের বিস্তারিত নির্দেশিকা
+              </p>
+            </div>
+            <a
+              href="/category/all"
+              className="inline-flex items-center gap-1.5 min-h-[44px] px-4 py-2 rounded-xl bg-[#142B4A] text-white font-semibold text-[16px] leading-[1.3] hover:bg-[#245B91] transition-colors"
+            >
+              <span>সকল গাইড</span>
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {curatedGuides.map((g) => (
+              <DirectoryCard
+                key={g.id}
+                title={g.title}
+                href={`/${g.slug}`}
+                imageUrl={g.imageUrl}
+                excerpt={g.summary || g.content}
+                categoryLabel={g.categoryNameBn || 'গাইড'}
+                areaLabel={g.reportingLocation || 'বারুইপুর'}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* 7. Seasonal Guide Banner */}
       <section className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div className="space-y-2 max-w-[700px]">
           <span className="inline-block px-3 py-1 rounded-md bg-[#F28C28] text-slate-950 font-bold text-[14px]">

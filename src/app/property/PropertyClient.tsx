@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
+import { formatPhoneForTel } from '@/lib/formatters';
 import { 
   Building, 
   MapPin, 
@@ -35,6 +36,14 @@ export default function PropertyClient({ initialProperties, categories, location
   const [activeModalProperty, setActiveModalProperty] = useState<Property | null>(null);
   const [showSubmitModal, setShowSubmitModal] = useState<boolean>(false);
   const [inquirySent, setInquirySent] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('category');
+      if (cat) setSelectedCategory(cat);
+    }
+  }, []);
 
   // Listing Form State
   const [sellerName, setSellerName] = useState('');
@@ -253,22 +262,26 @@ export default function PropertyClient({ initialProperties, categories, location
                     >
                       বিস্তারিত দেখুন
                     </button>
-                    <a
-                      href={`https://wa.me/${property.contactWhatsapp.replace(/[^\d]/g, '')}?text=${encodeURIComponent(`নমস্কার, আমি baruipur.online এ আপনার সম্পত্তিটি দেখলাম: ${property.title} (${property.price})। এটি কি উপলব্ধ আছে?`)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 p-2.5 rounded-xl transition"
-                      title="হোয়াটসঅ্যাপে চ্যাট করুন"
-                    >
-                      <Send className="w-4 h-4" />
-                    </a>
-                    <a
-                      href={`tel:${property.contactPhone.replace(/[^\d+]/g, '')}`}
-                      className="bg-red-50 hover:bg-red-100 text-red-700 p-2.5 rounded-xl transition"
-                      title="সরাসরি কল করুন"
-                    >
-                      <PhoneCall className="w-4 h-4" />
-                    </a>
+                    {formatPhoneForTel(property.contactWhatsapp) && (
+                      <a
+                        href={`https://wa.me/${property.contactWhatsapp.replace(/[^\d]/g, '')}?text=${encodeURIComponent(`নমস্কার, আমি baruipur.online এ আপনার সম্পত্তিটি দেখলাম: ${property.title} (${property.price})। এটি কি উপলব্ধ আছে?`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-emerald-50 hover:bg-emerald-100 text-emerald-700 p-2.5 rounded-xl transition min-h-[44px] min-w-[44px] inline-flex items-center justify-center"
+                        title="হোয়াটসঅ্যাপে চ্যাট করুন"
+                      >
+                        <Send className="w-4 h-4" />
+                      </a>
+                    )}
+                    {formatPhoneForTel(property.contactPhone) && (
+                      <a
+                        href={formatPhoneForTel(property.contactPhone)!}
+                        className="bg-[#23845B] hover:bg-[#1b6b49] text-white p-2.5 rounded-xl transition min-h-[44px] min-w-[44px] inline-flex items-center justify-center"
+                        title="সরাসরি কল করুন"
+                      >
+                        <PhoneCall className="w-4 h-4" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -397,13 +410,15 @@ export default function PropertyClient({ initialProperties, categories, location
                     >
                       কল ব্যাক বা ভিজিট বুক করুন
                     </button>
-                    <a
-                      href={`tel:${activeModalProperty.contactPhone.replace(/[^\d+]/g, '')}`}
-                      className="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2.5 rounded-xl text-xs font-bold flex items-center gap-1.5"
-                    >
-                      <PhoneCall className="w-3.5 h-3.5" />
-                      <span>সরাসরি কল</span>
-                    </a>
+                    {formatPhoneForTel(activeModalProperty.contactPhone) && (
+                      <a
+                        href={formatPhoneForTel(activeModalProperty.contactPhone)!}
+                        className="bg-[#142B4A] hover:bg-[#245B91] text-white px-4 py-2.5 rounded-xl text-[14px] font-bold flex items-center gap-1.5 min-h-[44px]"
+                      >
+                        <PhoneCall className="w-4 h-4" />
+                        <span>সরাসরি কল</span>
+                      </a>
+                    )}
                   </div>
                 </form>
               )}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, MapPin, ArrowUpRight, Star } from 'lucide-react';
 import { cleanPlainExcerpt, formatPhoneForDisplay, formatPhoneForTel } from '@/lib/formatters';
+import Tilt3DCard from '@/components/Tilt3DCard';
 
 export interface DirectoryCardProps {
   title: string;
@@ -33,7 +34,8 @@ export default function DirectoryCard({
   const safeImage = imageUrl && imageUrl.trim() ? imageUrl : '/images/places/baruipur-junction-railway-station.jpg';
 
   return (
-    <article className="bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all overflow-hidden flex flex-col h-full">
+    <Tilt3DCard className="h-full">
+      <article className="bg-white rounded-xl border border-[#E4E7EC] shadow-sm card-3d overflow-hidden flex flex-col h-full">
       {/* 16:9 Image */}
       <a href={href} className="relative block aspect-video w-full bg-slate-100 overflow-hidden shrink-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -115,5 +117,6 @@ export default function DirectoryCard({
         </div>
       </div>
     </article>
+    </Tilt3DCard>
   );
 }

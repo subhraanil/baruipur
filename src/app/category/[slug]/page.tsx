@@ -167,12 +167,12 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       </nav>
 
       {/* Category Hero Banner */}
-      <div className={`${category.color} text-white rounded-2xl p-6 sm:p-8 mb-8 shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4`}>
+      <div className="bg-[#142B4A] text-white rounded-2xl p-6 sm:p-10 mb-8 shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <span className="text-xs uppercase tracking-wider bg-white/25 px-2.5 py-0.5 rounded font-bold">
-            বিভাগীয় সংবাদ
+          <span className="text-[14px] bg-[#F28C28] text-slate-950 px-3 py-1 rounded-md font-bold inline-block">
+            সিটিজেন গাইড ও তথ্যকোষ
           </span>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black mt-2">
+          <h1 className="text-[30px] sm:text-[42px] font-bold mt-3 leading-[1.3]">
             {category.nameBn}
           </h1>
           <p className="text-sm text-white/90 mt-1 max-w-xl">

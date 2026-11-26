@@ -239,7 +239,7 @@ export default function PlacesListClient({ places }: PlacesListClientProps) {
             return (
               <article 
                 key={place.slug}
-                className="bg-white rounded-2xl border border-slate-200 hover:border-red-400 shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden group"
+                className="bg-white rounded-2xl border border-[#E4E7EC] hover:border-[#245B91] shadow-sm card-3d flex flex-col overflow-hidden group"
               >
                 {/* Cover Image Thumbnail */}
                 {coverImg && (

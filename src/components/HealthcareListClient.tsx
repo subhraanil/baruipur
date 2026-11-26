@@ -464,7 +464,7 @@ export default function HealthcareListClient({ facilities }: Props) {
             return (
               <div 
                 key={fac.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 hover:border-rose-300 shadow-xs hover:shadow-md transition-all p-5 sm:p-6 flex flex-col justify-between group"
+                className="bg-white rounded-2xl border border-[#E4E7EC] hover:border-[#245B91] shadow-sm card-3d p-5 sm:p-6 flex flex-col justify-between group"
               >
                 <div>
                   {/* Top Badges */}

@@ -245,6 +245,12 @@ export default function Header() {
                   পৌর ও নাগরিক পরিষেবা
                 </a>
                 <a
+                  href="/property?category=bank_auction"
+                  className="block px-4 py-2.5 text-[16px] text-slate-800 hover:bg-slate-50 hover:text-blue-800"
+                >
+                  ব্যাংক নিলাম ও প্রপার্টি
+                </a>
+                <a
                   href="/category/all"
                   className="block px-4 py-2.5 text-[16px] text-slate-800 hover:bg-slate-50 hover:text-blue-800"
                 >

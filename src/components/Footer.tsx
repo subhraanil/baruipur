@@ -55,6 +55,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/property?category=bank_auction" className="hover:text-white text-slate-300 transition-colors">
+                  ব্যাংক নিলাম ও প্রপার্টি
+                </a>
+              </li>
+              <li>
                 <a href="/category/all" className="hover:text-white text-slate-300 transition-colors">
                   নাগরিক ও উৎসব গাইড
                 </a>
