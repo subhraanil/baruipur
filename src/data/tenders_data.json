@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25",
+  "lastUpdated": "2026-11-26",
   "portalUrl": "https://wbtenders.gov.in",
   "authorities": [
     {
@@ -94,6 +94,52 @@
     }
   ],
   "tenders": [
+    {
+      "id": "ten-zp-2026-1126-baruipur-kalyanpur-bridge",
+      "nitNumber": "S24PZP/BRP-SUBDIV/NIT-32/CULVERT-RECON/2026",
+      "title": "বারুইপুর কল্যাণপুর সংযোগকারী গ্রামীণ প্রধান সড়কের উপর বিপজ্জনক পুরানো সাঁকো ভেঙে নতুন দ্বিতল আরসিসি বক্স কালভার্ট ও গার্ডওয়াল নির্মাণ",
+      "titleEn": "Demolition of Dilapidated Wooden Culvert & Construction of Heavy-Duty RCC Double Box Culvert with Protective Guard Wall on Baruipur-Kalyanpur Rural Link Road",
+      "authorityId": "zp",
+      "authorityName": "দক্ষিণ ২৪ পরগনা জেলা পরিষদ (South 24 Parganas Zilla Parishad)",
+      "department": "পূর্ত ও গ্রামীণ সেতু নির্মাণ দপ্তর",
+      "location": "বারুইপুর - কল্যাণপুর জেলা পরিষদ গ্রামীণ সড়ক সংযোগ",
+      "category": "সেতু ও আরসিসি কালভার্ট নির্মাণ (Bridge & Culvert Engineering)",
+      "estimatedValue": "₹২১,৫০,০০০",
+      "estimatedValueNum": 2150000,
+      "emdAmount": "₹৪৩,০০০",
+      "tenderFee": "₹১,৫০০",
+      "publishDate": "২০২৬-১১-২৬",
+      "closingDate": "২০২৬-১২-২৩",
+      "bidOpeningDate": "২০২৬-১২-২৬",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "S24PZP/ENGG/BRP-BRIDGE/NIT-32/2026",
+      "eligibility": "জেলা পরিষদ, পিডব্লিউডি বা ইরিগেশন দপ্তরে আরসিসি ব্রিজ/বক্স কালভার্ট নির্মাণে ৩ বছরের পরীক্ষিত অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড সিভিল কনস্ট্রাকশন এজেন্সি।",
+      "sourcePortalName": "wbtenders.gov.in (Zilla Parishad)"
+    },
+    {
+      "id": "ten-bm-2026-1126-led-solar-highmast",
+      "nitNumber": "WBMAD/BM/NIT-27/SOLAR-HIGHMAST/2026",
+      "title": "বারুইপুর পুরসভার ৮ ও ৯ নম্বর ওয়ার্ডের জনবহুল সংযোগস্থল ও পার্ক সংলগ্ন স্থানে সোলার হাই-মাস্ট লাইট স্থাপন ও বিদ্যুৎ সাশ্রয়ী এলইডি আলোকসজ্জা",
+      "titleEn": "Supply, Installation & 5-Year Maintenance of Solar Powered High-Mast LED Lighting Systems at Busy Junctions & Parks under Ward 8 & 9 of Baruipur Municipality",
+      "authorityId": "municipality",
+      "authorityName": "বারুইপুর পৌরসভা (Baruipur Municipality)",
+      "department": "বিদ্যুৎ ও পৌর আলোকসজ্জা সেল (Electrical Lighting Dept)",
+      "location": "ওয়ার্ড নম্বর ৮ ও ৯ পার্ক এবং বাজার সংযোগ, বারুইপুর",
+      "category": "সৌর আলোকসজ্জা ও বৈদ্যুতিক পরিকাঠামো (Solar & Electrical Works)",
+      "estimatedValue": "₹১৩,৮৫,০০০",
+      "estimatedValueNum": 1385000,
+      "emdAmount": "₹২৭,৭০০",
+      "tenderFee": "₹১,০০০",
+      "publishDate": "২০২৬-১১-২৬",
+      "closingDate": "২০২৬-১২-২২",
+      "bidOpeningDate": "২০২৬-১২-২৪",
+      "status": "active",
+      "portalLink": "https://wbtenders.gov.in/",
+      "tenderRef": "WBMAD/BM/NIT-27/ELEC/2026",
+      "eligibility": "পৌর সংস্থা বা সরকারি সংস্থায় মিনি হাই-মাস্ট ও সৌর এলইডি আলোকসজ্জা সংস্থাপনে ন্যূনতম ৩ বছরের বাস্তব অভিজ্ঞতাসম্পন্ন রেজিস্টার্ড ইলেকট্রিক্যাল কন্ট্রাক্টর।",
+      "sourcePortalName": "wbtenders.gov.in (Baruipur Municipality)"
+    },
     {
       "id": "ten-bm-2026-1125-ward6-paver-block",
       "nitNumber": "WBMAD/BM/NIT-26/PAVER-BLOCK/2026",
