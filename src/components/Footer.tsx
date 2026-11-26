@@ -1,6 +1,5 @@
 import React from 'react';
-import { CATEGORIES, EMERGENCY_CONTACTS } from '@/lib/constants';
-import { Phone, Shield, ExternalLink, Heart } from 'lucide-react';
+import { Shield, Heart } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -22,24 +21,34 @@ export default function Footer() {
               </div>
             </a>
             <p className="text-sm text-slate-400 leading-relaxed mb-4">
-              বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে এবং দক্ষিণ ২৪ পরগনার প্রত্যন্ত অঞ্চলের প্রতি মুহূর্তের তাজা খবর ও প্রয়োজনীয় নাগরিক তথ্য।
+              বারুইপুর মহকুমা, পৌরসভা ও দক্ষিণ ২৪ পরগনার প্রধান নাগরিক তথ্যকোষ ও ডিরেক্টরি প্ল্যাটফর্ম। স্থান ও ল্যান্ডমার্ক, স্বাস্থ্য পরিষেবা, সমাজকল্যাণ সংগঠন, সরকারি নোটিস ও সক্রিয় ই-টেন্ডারের নির্ভরযোগ্য ঠিকানা।
             </p>
           </div>
 
-          {/* Quick Pillars & Directory */}
+          {/* 5 Core Directory Pillars */}
           <div>
             <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2">
-              প্ল্যাটফর্মের মূল স্তম্ভ
+              মূল ৫টি ডিরেক্টরি স্তম্ভ
             </h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2.5 text-sm">
+              <li>
+                <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1.5 font-bold text-amber-300">
+                  <span className="text-amber-500">›</span> স্থান ও ল্যান্ডমার্ক (Places Hub)
+                </a>
+              </li>
+              <li>
+                <a href="/organizations" className="hover:text-purple-400 transition flex items-center gap-1.5 font-bold text-purple-300">
+                  <span className="text-purple-500">›</span> সংস্থা, ক্লাব ও প্রতিষ্ঠান (Organizations)
+                </a>
+              </li>
               <li>
                 <a href="/health-directory" className="hover:text-rose-400 transition flex items-center gap-1.5 font-bold text-rose-300">
-                  <span className="text-rose-500">›</span> স্বাস্থ্য ও ডাক্তার চেম্বার (Health Directory)
+                  <span className="text-rose-500">›</span> স্বাস্থ্য ও হাসপাতাল ডিরেক্টরি (Health)
                 </a>
                 <div className="pl-4 pt-1 flex flex-wrap gap-x-2.5 gap-y-1 text-xs text-slate-400">
-                  <a href="/health-directory?category=doctors" className="hover:text-rose-300">ডাক্তার চেম্বার</a>
+                  <a href="/health-directory?category=hospitals" className="hover:text-rose-300">হাসপাতাল</a>
                   <span>•</span>
-                  <a href="/health-directory?category=hospitals" className="hover:text-rose-300">নার্সিংহোম</a>
+                  <a href="/health-directory?category=doctors" className="hover:text-rose-300">ডাক্তার</a>
                   <span>•</span>
                   <a href="/health-directory?category=diagnostic" className="hover:text-rose-300">ডায়াগনস্টিক</a>
                   <span>•</span>
@@ -47,23 +56,8 @@ export default function Footer() {
                 </div>
               </li>
               <li>
-                <a href="/places" className="hover:text-amber-400 transition flex items-center gap-1.5 font-medium text-amber-300">
-                  <span className="text-amber-500">›</span> স্থান ও ল্যান্ডমার্ক (Places Hub)
-                </a>
-              </li>
-              <li>
-                <a href="/organizations" className="hover:text-purple-400 transition flex items-center gap-1.5 font-medium text-purple-300">
-                  <span className="text-purple-500">›</span> প্রতিষ্ঠান, ক্লাব ও সমিতি (Organizations)
-                </a>
-              </li>
-              <li>
-                <a href="/transport" className="hover:text-blue-400 transition flex items-center gap-1.5 font-medium text-blue-300">
-                  <span className="text-blue-500">›</span> পরিবহন ও লোকাল ট্রেন (Transport)
-                </a>
-              </li>
-              <li>
-                <a href="/property" className="hover:text-emerald-400 transition flex items-center gap-1.5 font-bold text-emerald-300">
-                  <span className="text-emerald-500">›</span> জমি ও ফ্ল্যাট কেনাবেচা (Real Estate Buy & Sale)
+                <a href="/notices" className="hover:text-amber-400 transition flex items-center gap-1.5 font-bold text-amber-300">
+                  <span className="text-amber-500">›</span> সরকারি জরুরি নোটিস (Official Notices)
                 </a>
               </li>
               <li>
@@ -71,34 +65,14 @@ export default function Footer() {
                   <span className="text-red-500">›</span> সরকারি ও পৌর ই-টেন্ডার (Govt Tenders)
                 </a>
               </li>
-              <li>
-                <a href="/notices" className="hover:text-amber-400 transition flex items-center gap-1.5 font-bold text-amber-300">
-                  <span className="text-amber-500">›</span> জরুরি সরকারি নোটিস (Official Notices)
-                </a>
-              </li>
-              <li>
-                <a href="/citizen-services" className="hover:text-emerald-400 transition flex items-center gap-1.5 font-medium text-emerald-300">
-                  <span className="text-emerald-500">›</span> নাগরিক পরিষেবা গাইড (Services)
-                </a>
-              </li>
-              <li>
-                <a href="/events" className="hover:text-purple-400 transition flex items-center gap-1.5 font-medium text-purple-300">
-                  <span className="text-purple-500">›</span> উৎসব ও মেলা ক্যালেন্ডার (Events)
-                </a>
-              </li>
-              <li>
-                <a href="/#featured-guides" className="hover:text-red-400 transition flex items-center gap-1.5 font-medium">
-                  <span className="text-red-500">›</span> ৫টি বিশেষ লাইফস্টাইল গাইড
-                </a>
-              </li>
             </ul>
           </div>
 
-          {/* Trust, Governance & Editorial */}
+          {/* Trust, Governance & Policies */}
           <div>
             <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2 flex items-center gap-2">
               <Shield className="w-4 h-4 text-emerald-400" />
-              স্বচ্ছতা ও সম্পাদকীয় নীতি
+              নাগরিক তথ্য ও নীতি
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -107,28 +81,23 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/editorial-team" className="hover:text-red-400 transition flex items-center gap-1.5 font-medium text-white">
-                  <span className="text-red-500 text-xs">›</span> সম্পাদকীয় পরিষদ (Editorial Team)
-                </a>
-              </li>
-              <li>
-                <a href="/editorial-policy" className="hover:text-red-400 transition flex items-center gap-1.5">
-                  <span className="text-red-500 text-xs">›</span> সম্পাদকীয় নীতি (Editorial Policy)
-                </a>
-              </li>
-              <li>
-                <a href="/corrections-policy" className="hover:text-red-400 transition flex items-center gap-1.5">
-                  <span className="text-red-500 text-xs">›</span> ভুল সংশোধনী নীতি (Corrections)
-                </a>
-              </li>
-              <li>
-                <a href="/submit-news" className="hover:text-red-400 transition flex items-center gap-1.5">
-                  <span className="text-red-500 text-xs">›</span> নাগরিক সংবাদ পাঠান (Submit News)
-                </a>
-              </li>
-              <li>
                 <a href="/contact" className="hover:text-red-400 transition flex items-center gap-1.5">
                   <span className="text-red-500 text-xs">›</span> যোগাযোগ ও হেল্পডেস্ক (Contact)
+                </a>
+              </li>
+              <li>
+                <a href="/emergency-contacts" className="hover:text-red-400 transition flex items-center gap-1.5 font-bold text-rose-400">
+                  <span className="text-rose-500 text-xs">›</span> ২৪/৭ জরুরি হেল্পলাইন ডিরেক্টরি
+                </a>
+              </li>
+              <li>
+                <a href="/citizen-services" className="hover:text-emerald-400 transition flex items-center gap-1.5">
+                  <span className="text-emerald-500 text-xs">›</span> নাগরিক পরিষেবা গাইড (Services)
+                </a>
+              </li>
+              <li>
+                <a href="/transport" className="hover:text-blue-400 transition flex items-center gap-1.5">
+                  <span className="text-blue-500 text-xs">›</span> লোকাল ট্রেন ও যাতায়াত (Transport)
                 </a>
               </li>
               <li>
@@ -146,28 +115,18 @@ export default function Footer() {
                   <span className="text-red-500 text-xs">›</span> আইনি দাবিত্যাগ (Disclaimer)
                 </a>
               </li>
-              <li>
-                <a href="/emergency-contacts" className="hover:text-red-400 transition flex items-center gap-1.5 font-bold text-rose-400">
-                  <span className="text-rose-500 text-xs">›</span> জরুরি হেল্পলাইন ডিরেক্টরি
-                </a>
-              </li>
             </ul>
           </div>
 
           {/* Useful Links, SEO & AI Feeds */}
           <div>
             <h3 className="text-white font-bold text-base mb-4 border-b border-slate-800 pb-2">
-              সাইটম্যাপ ও AI ডেটা
+              সাইটম্যাপ ও AI ম্যানিফেস্ট
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/sitemap.xml" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
                   <span className="text-slate-500">›</span> XML সাইটম্যাপ (Sitemap)
-                </a>
-              </li>
-              <li>
-                <a href="/sitemap-news.xml" target="_blank" className="hover:text-red-400 transition flex items-center gap-1">
-                  <span className="text-slate-500">›</span> গুগল নিউজ সাইটম্যাপ
                 </a>
               </li>
               <li>
@@ -182,7 +141,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/llms-full.txt" target="_blank" className="hover:text-red-400 transition flex items-center gap-1 text-xs text-slate-400">
-                  <span className="text-slate-500">›</span> সম্পূর্ণ টেক্সট ডাম্প (llms-full.txt)
+                  <span className="text-slate-500">›</span> সম্পূর্ণ ডিরেক্টরি টেক্সট (llms-full.txt)
                 </a>
               </li>
             </ul>
@@ -192,13 +151,10 @@ export default function Footer() {
         {/* AI & Search Engine Regional Context Knowledge Block */}
         <div className="border-t border-slate-800/80 pt-6 pb-6 text-xs text-slate-400 leading-relaxed space-y-2">
           <p className="font-semibold text-slate-300">
-            বারুইপুর মহকুমা ও আঞ্চলিক তথ্যবাতায়ন (About Baruipur Online):
+            বারুইপুর মহকুমা ও আঞ্চলিক ডিজিটাল তথ্যকোষ (About Baruipur Civic Directory):
           </p>
           <p>
-            বারুইপুর অনলাইন (Baruipur Online) দক্ষিণ ২৪ পরগনা জেলার বারুইপুর মহকুমা (Baruipur Subdivision), বারুইপুর পৌরসভা (Baruipur Municipality - ১৭টি ওয়ার্ড), বারুইপুর পুলিশ জেলা (Baruipur Police District), বারুইপুর মহকুমা হাসপাতাল ও শিয়ালদহ দক্ষিণ রেলওয়ে শাখার (Sealdah South Section - বারুইপুর জংশন, ক্যানিং, ডায়মন্ড হারবার, নামখানা ও লক্ষ্মীকান্তপুর রুট) সাধারণ মানুষ ও যাত্রীদের জন্য সার্বক্ষণিক ডিজিটাল তথ্য ও সংবাদ সংযোগ মাধ্যম।
-          </p>
-          <p>
-            সামাজিক যোগাযোগ মাধ্যমে ছড়িয়ে থাকা আঞ্চলিক তথ্য, স্থানীয় প্রশাসনের বিজ্ঞপ্তি ও নাগরিক সুবিধাগুলোকে সাধারণ মানুষ ও কৃত্রিম বুদ্ধিমত্তা (AI) গবেষকদের কাছে সহজে ও তথ্যনিষ্ঠভাবে পৌঁছে দেওয়াই এই পোর্টালের মূল লক্ষ্য।
+            বারুইপুর অনলাইন (Baruipur Online) দক্ষিণ ২৪ পরগনা জেলার বারুইপুর মহকুমা ও বারুইপুর পৌরসভার ঐতিহাসিক দর্শনীয় স্থান, স্বাস্থ্যসেবা ও ডাক্তার চেম্বার, সামাজিক প্রতিষ্ঠান ও ক্লাব, সরকারি জরুরি সার্কুলার ও পৌরসভার সক্রিয় ই-টেন্ডারের প্রামাণ্য ডিজিটাল তথ্যকোষ। নাগরিক পরিষেবা সহজীকরণ ও সার্বক্ষণিক তথ্য সরবরাহই এই প্ল্যাটফর্মের মূল লক্ষ্য।
           </p>
         </div>
 

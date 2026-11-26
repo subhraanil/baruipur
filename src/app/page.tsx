@@ -1,30 +1,43 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { db } from '@/lib/db';
-import NewsStreamClient from '@/components/NewsStreamClient';
-import FeaturedHeroGrid from '@/components/FeaturedHeroGrid';
-import QuickAccessDirectory from '@/components/QuickAccessDirectory';
-import LocalDirectoryHighlights from '@/components/LocalDirectoryHighlights';
-import FeaturedGuidesSection from '@/components/FeaturedGuidesSection';
-import CivicServicesTabHub from '@/components/CivicServicesTabHub';
-import NewsCategorySection from '@/components/NewsCategorySection';
-import BaruipurUtilities from '@/components/BaruipurUtilities';
-import BreakingNewsTicker from '@/components/BreakingNewsTicker';
-import AdSenseSlot from '@/components/AdSenseSlot';
-import { Landmark, ArrowRight, ShieldCheck, MapPin, Sparkles } from 'lucide-react';
-import { getFeaturedOrganizations } from '@/lib/organizations';
+import Link from 'next/link';
+import { 
+  Landmark, 
+  Building2, 
+  Stethoscope, 
+  Bell, 
+  FileText, 
+  Search, 
+  PhoneCall, 
+  ShieldAlert, 
+  MapPin, 
+  Calendar, 
+  ArrowRight, 
+  CheckCircle2, 
+  Clock, 
+  HeartPulse, 
+  Compass, 
+  ShieldCheck, 
+  ChevronRight,
+  ExternalLink,
+  BookOpen
+} from 'lucide-react';
 import { getAllPlaces } from '@/lib/places';
+import { getFeaturedOrganizations, getAllOrganizations } from '@/lib/organizations';
 import { getAllFacilities } from '@/lib/healthcare';
+import { getActiveNotices } from '@/lib/notices';
+import { getActiveTenders } from '@/lib/tenders';
+import { db } from '@/lib/db';
 
 export const metadata: Metadata = {
-  title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
-  description: 'বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে, মহকুমা হাসপাতাল, পুলিশ প্রশাসন ও স্থানীয় সমস্ত খবরের নির্ভরযোগ্য ডিজিটাল ঠিকানা।',
+  title: 'বারুইপুর অনলাইন - স্থান, প্রতিষ্ঠান, স্বাস্থ্য ডিরেক্টরি, সরকারি নোটিস ও টেন্ডার পোর্টাল',
+  description: 'বারুইপুর মহকুমা ও পৌরসভার সমস্ত দর্শনীয় স্থান, স্বাস্থ্য পরিষেবা, সমাজকল্যাণ প্রতিষ্ঠান, জরুরি সরকারি নোটিস ও সক্রিয় ই-টেন্ডারের প্রামাণ্য নাগরিক ডিজিটাল তথ্যকোষ।',
   alternates: {
     canonical: 'https://baruipur.online/',
   },
   openGraph: {
-    title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ আঞ্চলিক সংবাদ ও তথ্য পোর্টাল',
-    description: 'বারুইপুর মহকুমা, পৌরসভা, শিয়ালদহ দক্ষিণ রেলওয়ে, মহকুমা হাসপাতাল, পুলিশ প্রশাসন ও স্থানীয় সমস্ত খবরের নির্ভরযোগ্য ডিজিটাল ঠিকানা।',
+    title: 'বারুইপুর অনলাইন - স্থান, প্রতিষ্ঠান, স্বাস্থ্য ডিরেক্টরি, সরকারি নোটিস ও টেন্ডার পোর্টাল',
+    description: 'বারুইপুর মহকুমা ও পৌরসভার সমস্ত দর্শনীয় স্থান, স্বাস্থ্য পরিষেবা, সমাজকল্যাণ প্রতিষ্ঠান, জরুরি সরকারি নোটিস ও সক্রিয় ই-টেন্ডারের প্রামাণ্য নাগরিক ডিজিটাল তথ্যকোষ।',
     url: 'https://baruipur.online/',
     siteName: 'বারুইপুর অনলাইন',
     locale: 'bn_IN',
@@ -34,364 +47,677 @@ export const metadata: Metadata = {
         url: 'https://baruipur.online/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'বারুইপুর অনলাইন - Baruipur Online News Portal',
+        alt: 'বারুইপুর অনলাইন - Baruipur Online Civic Directory Portal',
         type: 'image/png',
       }
     ]
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'বারুইপুর অনলাইন - দক্ষিণ ২৪ পরগনার শীর্ষ সংবাদ পোর্টাল',
-    description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার নির্ভরযোগ্য আঞ্চলিক ডিজিটাল সংবাদ ও তথ্যবাতায়ন।',
-    images: ['https://baruipur.online/images/og-image.png'],
-    site: '@BaruipurOnline',
-    creator: '@BaruipurOnline'
   }
 };
 
 export default function HomePage() {
-  // 1. Fetch all published news articles excluding evergreen guides (sorted newest first)
-  const allRawArticles = db.getArticles({
-    status: 'published',
-    excludeGuides: true
-  });
-
-  // Filter out guides and non-news articles
-  const newsArticles = allRawArticles.filter(a => 
-    !a.isGuide && 
-    !a.id.startsWith('art-guide') && 
-    !a.id.includes('-guide')
-  );
-
-  // Track displayed article IDs to guarantee ZERO repetition across the entire homepage!
-  const usedArticleIds = new Set<string>();
-
-  // 2. Compute Editorial Quality Ranking for Featured Hero Grid
-  // Prioritize substantial, verified local stories with rich text (> 200 chars) and images
-  const eligibleHeroCandidates = newsArticles.filter(a => 
-    a.content && 
-    a.content.length > 200 && 
-    a.imageUrl && 
-    !a.title.includes('দোকান কেনার') && 
-    !a.title.includes('Happy Children')
-  );
-
-  const scoredHeroCandidates = [...eligibleHeroCandidates].sort((a, b) => {
-    let scoreA = 0;
-    let scoreB = 0;
-    const now = Date.now();
-    const aDate = a.publishedAt || (a as any).published_at || (a as any).date;
-    const bDate = b.publishedAt || (b as any).published_at || (b as any).date;
-    const ageDaysA = aDate && !isNaN(new Date(aDate).getTime()) ? (now - new Date(aDate).getTime()) / (1000 * 60 * 60 * 24) : 999;
-    const ageDaysB = bDate && !isNaN(new Date(bDate).getTime()) ? (now - new Date(bDate).getTime()) / (1000 * 60 * 60 * 24) : 999;
-
-    // Recency weighting
-    if (ageDaysA <= 3) scoreA += 100;
-    else if (ageDaysA <= 7) scoreA += 60;
-    else if (ageDaysA <= 14) scoreA += 30;
-
-    if (ageDaysB <= 3) scoreB += 100;
-    else if (ageDaysB <= 7) scoreB += 60;
-    else if (ageDaysB <= 14) scoreB += 30;
-
-    // Engagement & views weighting
-    scoreA += Math.min((a.views || 30) * 0.4, 50);
-    scoreB += Math.min((b.views || 30) * 0.4, 50);
-
-    // Editorial flags
-    if (a.isBreaking) scoreA += 45;
-    if (b.isBreaking) scoreB += 45;
-
-    if (a.isFeatured) scoreA += 35;
-    if (b.isFeatured) scoreB += 35;
-
-    // In-depth reporting bonus
-    if (a.content.length > 500) scoreA += 25;
-    if (b.content.length > 500) scoreB += 25;
-
-    return scoreB - scoreA;
-  });
-
-  const leadArticle = scoredHeroCandidates[0] || newsArticles[0];
-  if (leadArticle?.id) usedArticleIds.add(leadArticle.id);
-
-  // Secondary stories: pick diverse category stories from top candidates
-  const secondaryArticles: typeof newsArticles = [];
-  const secondaryCategories = new Set<string>();
-  if (leadArticle?.category) secondaryCategories.add(leadArticle.category);
-
-  for (const art of scoredHeroCandidates.slice(1)) {
-    if (secondaryArticles.length >= 4) break;
-    if (!usedArticleIds.has(art.id) && !secondaryCategories.has(art.category)) {
-      secondaryArticles.push(art);
-      secondaryCategories.add(art.category);
-      usedArticleIds.add(art.id);
-    }
-  }
-
-  // If needed, fill remaining slots from top scored
-  for (const art of scoredHeroCandidates.slice(1)) {
-    if (secondaryArticles.length >= 4) break;
-    if (!usedArticleIds.has(art.id)) {
-      secondaryArticles.push(art);
-      usedArticleIds.add(art.id);
-    }
-  }
-
-  // 3. Compute Popular News Articles (Most Read & Trending Stories)
-  const popularArticles = [...newsArticles]
-    .filter(a => a.content && a.content.length > 180 && a.imageUrl && !a.title.includes('দোকান কেনার'))
-    .sort((a, b) => (b.views || 0) - (a.views || 0))
-    .slice(0, 10);
-
-  // 4. Latest News: 8 Fresh stories excluding hero stories
-  const latestNewsArticles = newsArticles.filter(a => !usedArticleIds.has(a.id)).slice(0, 8);
-  latestNewsArticles.forEach(a => usedArticleIds.add(a.id));
-
-  // 5. Category Highlights: 4 Key Categories (3 unique stories each, strictly excluding already displayed ones!)
-  const municipalityArticles = db.getArticles({ category: 'municipality', limit: 15, excludeGuides: true })
-    .filter(a => !usedArticleIds.has(a.id))
-    .slice(0, 3);
-  municipalityArticles.forEach(a => usedArticleIds.add(a.id));
-
-  const railwayArticles = db.getArticles({ category: 'railway', limit: 15, excludeGuides: true })
-    .filter(a => !usedArticleIds.has(a.id))
-    .slice(0, 3);
-  railwayArticles.forEach(a => usedArticleIds.add(a.id));
-
-  const crimeArticles = db.getArticles({ category: 'crime', limit: 15, excludeGuides: true })
-    .filter(a => !usedArticleIds.has(a.id))
-    .slice(0, 3);
-  crimeArticles.forEach(a => usedArticleIds.add(a.id));
-
-  const cultureArticles = db.getArticles({ category: 'culture', limit: 15, excludeGuides: true })
-    .filter(a => !usedArticleIds.has(a.id))
-    .slice(0, 3);
-  cultureArticles.forEach(a => usedArticleIds.add(a.id));
-
-  // 6. Local Directory Data (Icon-based, Utility Dashboard style)
-  const healthcareFacilities = getAllFacilities();
-  const places = getAllPlaces();
+  // Fetch Directory Datasets
+  const allPlaces = getAllPlaces();
+  const allOrganizations = getAllOrganizations();
   const featuredOrganizations = getFeaturedOrganizations(6);
+  const allFacilities = getAllFacilities();
+  const activeNotices = getActiveNotices().slice(0, 5);
+  const activeTenders = getActiveTenders().slice(0, 5);
 
-  // Pool for client-side search in latest stream (excluding lead story)
-  const streamPool = newsArticles.filter(a => a.id !== leadArticle?.id);
+  // Top featured places (select prominent heritage & civic landmarks)
+  const featuredPlaces = allPlaces.slice(0, 6);
 
-  // SEO Schema
-  const homeItemListSchema = {
+  // Featured healthcare facilities (key hospitals & clinics)
+  const featuredHealthcare = allFacilities.slice(0, 4);
+
+  // Our created evergreen lifestyle & heritage guides
+  const evergreenGuides = db.getArticles({
+    status: 'published'
+  }).filter(a => a.isGuide || a.id.startsWith('art-guide') || a.id.includes('-guide')).slice(0, 4);
+
+  // JSON-LD Structured Data
+  const portalSchema = {
     '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: 'বারুইপুর অনলাইন - সংবাদ, ডিরেক্টরি ও নাগরিক প্ল্যাটফর্ম',
-    description: 'বারুইপুর মহকুমা ও দক্ষিণ ২৪ পরগনার শীর্ষস্থানীয় আঞ্চলিক ডিজিটাল তথ্যকোষ ও সংবাদ প্ল্যাটফর্ম।',
-    itemListElement: newsArticles.slice(0, 20).map((art, idx) => ({
-      '@type': 'ListItem',
-      position: idx + 1,
-      name: art.title,
-      url: `https://baruipur.online/${encodeURI(art.slug || art.id)}/`
-    }))
+    '@type': 'WebSite',
+    name: 'বারুইপুর অনলাইন - নাগরিক তথ্যকোষ',
+    url: 'https://baruipur.online/',
+    description: 'বারুইপুর মহকুমা ও পৌরসভার স্থান, প্রতিষ্ঠান, স্বাস্থ্য ডিরেক্টরি, সরকারি নোটিস ও টেন্ডার পোর্টাল।',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://baruipur.online/?search={search_term_string}',
+      'query-input': 'required name=search_term_string'
+    }
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-10 pb-16">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeItemListSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(portalSchema) }}
       />
 
-      {/* Visually hidden H1 for SEO semantics */}
-      <h1 className="sr-only">বারুইপুর অনলাইন: আপনার স্থানীয় সংবাদ, গাইড ও তথ্যকোষ</h1>
+      {/* 1. Hero Section: Premium Civic Directory Portal */}
+      <section className="bg-gradient-to-b from-slate-900 via-slate-850 to-slate-900 text-white pt-8 pb-12 sm:pt-12 sm:pb-16 px-4 sm:px-6 relative overflow-hidden border-b border-slate-800">
+        {/* Subtle Ambient Background Gradients */}
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-red-600/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
 
-      {/* 1. Breaking News Live Ticker */}
-      <BreakingNewsTicker articles={scoredHeroCandidates.slice(0, 6)} />
+        <div className="max-w-[1240px] mx-auto text-center space-y-6 relative z-10">
+          {/* Header Pill */}
+          <div className="inline-flex items-center gap-2 bg-slate-800/80 border border-slate-700/80 text-red-300 text-xs font-bold px-3.5 py-1.5 rounded-full shadow-xs">
+            <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+            <span>বারুইপুর পৌর ও মহকুমা ডিজিটাল নাগরিক তথ্যকোষ</span>
+          </div>
 
-      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 pt-3">
-        {/* Civic Portal Highlight Strip */}
-        <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white rounded-2xl p-4 sm:p-5 shadow-xs flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-700/60 mb-6">
-          <div className="flex items-center gap-3.5">
-            <div className="w-10 h-10 rounded-xl bg-red-600 text-white flex items-center justify-center shrink-0 shadow-xs">
-              <Landmark className="w-5 h-5" />
+          {/* Main Title */}
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight max-w-4xl mx-auto">
+            বারুইপুরের সমস্ত স্থান, প্রতিষ্ঠান, স্বাস্থ্যসেবা, সরকারি নোটিস ও টেন্ডার
+          </h1>
+
+          {/* Subtitle */}
+          <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
+            দক্ষিণ ২৪ পরগনার প্রাচীন ঐতিহাসিক জনপদ বারুইপুরের ৪৭+ দর্শনীয় স্থান, ৩৫+ হাসপাতাল ও ক্লিনিক, ২৬+ সামাজিক সংগঠন, ৫২+ সরকারি সার্কুলার ও ৬৫+ সক্রিয় পৌর ই-টেন্ডারের সম্পূর্ণ নির্ভরযোগ্য তথ্যভাণ্ডার।
+          </p>
+
+          {/* Global Unified Directory Search */}
+          <div className="max-w-xl mx-auto pt-2">
+            <form action="/places" method="GET" className="relative flex items-center shadow-lg rounded-2xl overflow-hidden bg-white/10 backdrop-blur-md p-1.5 border border-slate-700 focus-within:border-red-500 transition">
+              <div className="pl-3 text-slate-400">
+                <Search className="w-5 h-5" />
+              </div>
+              <input
+                type="text"
+                name="q"
+                placeholder="স্থান, হাসপাতাল, সংগঠন, নোটিস বা টেন্ডার খুঁজুন..."
+                className="w-full bg-transparent px-3 py-2 text-sm sm:text-base text-white placeholder-slate-400 focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="bg-red-600 hover:bg-red-700 text-white font-bold text-xs sm:text-sm px-4 sm:px-6 py-2.5 rounded-xl transition shadow-xs shrink-0"
+              >
+                অনুসন্ধান
+              </button>
+            </form>
+          </div>
+
+          {/* Live Metric Counters */}
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-6 max-w-4xl mx-auto text-left">
+            <Link href="/places" className="bg-slate-800/60 hover:bg-slate-800/90 border border-slate-750 p-3 rounded-2xl transition group">
+              <div className="flex items-center gap-2 text-amber-400 mb-1">
+                <Landmark className="w-4 h-4" />
+                <span className="text-xs font-bold">স্থান</span>
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-white">{allPlaces.length}+</div>
+              <p className="text-[11px] text-slate-400">ঐতিহাসিক ও পর্যটন</p>
+            </Link>
+
+            <Link href="/organizations" className="bg-slate-800/60 hover:bg-slate-800/90 border border-slate-750 p-3 rounded-2xl transition group">
+              <div className="flex items-center gap-2 text-purple-400 mb-1">
+                <Building2 className="w-4 h-4" />
+                <span className="text-xs font-bold">সংগঠন</span>
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-white">{allOrganizations.length}+</div>
+              <p className="text-[11px] text-slate-400">ক্লাব, স্কুল ও ট্রাস্ট</p>
+            </Link>
+
+            <Link href="/health-directory" className="bg-slate-800/60 hover:bg-slate-800/90 border border-slate-750 p-3 rounded-2xl transition group">
+              <div className="flex items-center gap-2 text-rose-400 mb-1">
+                <Stethoscope className="w-4 h-4" />
+                <span className="text-xs font-bold">স্বাস্থ্য</span>
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-white">{allFacilities.length}+</div>
+              <p className="text-[11px] text-slate-400">হাসপাতাল ও ওপিডি</p>
+            </Link>
+
+            <Link href="/notices" className="bg-slate-800/60 hover:bg-slate-800/90 border border-slate-750 p-3 rounded-2xl transition group">
+              <div className="flex items-center gap-2 text-blue-400 mb-1">
+                <Bell className="w-4 h-4" />
+                <span className="text-xs font-bold">নোটিস</span>
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-white">৫২+</div>
+              <p className="text-[11px] text-slate-400">সরকারি সার্কুলার</p>
+            </Link>
+
+            <Link href="/tenders" className="col-span-2 sm:col-span-1 bg-slate-800/60 hover:bg-slate-800/90 border border-slate-750 p-3 rounded-2xl transition group">
+              <div className="flex items-center gap-2 text-red-400 mb-1">
+                <FileText className="w-4 h-4" />
+                <span className="text-xs font-bold">টেন্ডার</span>
+              </div>
+              <div className="text-xl sm:text-2xl font-black text-white">৬৫+</div>
+              <p className="text-[11px] text-slate-400">সক্রিয় NIT দরপত্র</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 2. Core 5 Pillars Interactive Navigation Grid */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+        <div className="text-center space-y-1 mb-6">
+          <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            মূল ৫টি নাগরিক ও প্রশাসনিক ডিরেক্টরি
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-500">
+            আপনার প্রয়োজনীয় নাগরিক তথ্য পেতে যেকোনো স্তম্ভে ক্লিক করুন
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          {/* Card 1: Places */}
+          <Link
+            href="/places"
+            className="group p-5 rounded-3xl bg-gradient-to-br from-amber-50 to-orange-50/50 border border-amber-200/80 hover:border-amber-400 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-amber-600 text-white flex items-center justify-center mb-3 shadow-sm group-hover:scale-105 transition-transform">
+                <Landmark className="w-6 h-6" />
+              </div>
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-amber-800 bg-amber-100/80 px-2 py-0.5 rounded-md">
+                {allPlaces.length}টি স্থান
+              </span>
+              <h3 className="text-lg font-black text-slate-900 mt-2 group-hover:text-amber-800 transition-colors">
+                স্থান ও ল্যান্ডমার্ক
+              </h3>
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                ঐতিহাসিক রাজবাড়ি, প্রাচীন মন্দির, আদালত, রেলওয়ে জংশন ও পর্যটন কেন্দ্র।
+              </p>
+            </div>
+            <div className="pt-4 flex items-center gap-1.5 text-xs font-bold text-amber-700 group-hover:translate-x-1 transition-transform">
+              <span>অন্বেষণ করুন</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* Card 2: Organizations */}
+          <Link
+            href="/organizations"
+            className="group p-5 rounded-3xl bg-gradient-to-br from-purple-50 to-indigo-50/50 border border-purple-200/80 hover:border-purple-400 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center mb-3 shadow-sm group-hover:scale-105 transition-transform">
+                <Building2 className="w-6 h-6" />
+              </div>
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-purple-800 bg-purple-100/80 px-2 py-0.5 rounded-md">
+                {allOrganizations.length}টি প্রতিষ্ঠান
+              </span>
+              <h3 className="text-lg font-black text-slate-900 mt-2 group-hover:text-purple-800 transition-colors">
+                সংগঠন ও প্রতিষ্ঠান
+              </h3>
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                ঐতিহ্যবাহী সামাজিক ক্লাব, হাইস্কুল, ডিগ্রি কলেজ, স্বেচ্ছাসেবী ট্রাস্ট ও সমিতি।
+              </p>
+            </div>
+            <div className="pt-4 flex items-center gap-1.5 text-xs font-bold text-purple-700 group-hover:translate-x-1 transition-transform">
+              <span>তালিকা দেখুন</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* Card 3: Health Directory */}
+          <Link
+            href="/health-directory"
+            className="group p-5 rounded-3xl bg-gradient-to-br from-rose-50 to-pink-50/50 border border-rose-200/80 hover:border-rose-400 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-rose-600 text-white flex items-center justify-center mb-3 shadow-sm group-hover:scale-105 transition-transform">
+                <Stethoscope className="w-6 h-6" />
+              </div>
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-rose-800 bg-rose-100/80 px-2 py-0.5 rounded-md">
+                {allFacilities.length}টি স্বাস্থ্যকেন্দ্র
+              </span>
+              <h3 className="text-lg font-black text-slate-900 mt-2 group-hover:text-rose-800 transition-colors">
+                স্বাস্থ্য ডিরেক্টরি
+              </h3>
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                মহকুমা হাসপাতাল, নার্সিংহোম, ডায়াগনস্টিক, বিশেষজ্ঞ ডাক্তার ও ওপিডি চেম্বার।
+              </p>
+            </div>
+            <div className="pt-4 flex items-center gap-1.5 text-xs font-bold text-rose-700 group-hover:translate-x-1 transition-transform">
+              <span>স্বাস্থ্যসেবা দেখুন</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* Card 4: Notices */}
+          <Link
+            href="/notices"
+            className="group p-5 rounded-3xl bg-gradient-to-br from-blue-50 to-cyan-50/50 border border-blue-200/80 hover:border-blue-400 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-blue-600 text-white flex items-center justify-center mb-3 shadow-sm group-hover:scale-105 transition-transform">
+                <Bell className="w-6 h-6" />
+              </div>
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-blue-800 bg-blue-100/80 px-2 py-0.5 rounded-md">
+                ৫২টি নোটিস
+              </span>
+              <h3 className="text-lg font-black text-slate-900 mt-2 group-hover:text-blue-800 transition-colors">
+                সরকারি নোটিস
+              </h3>
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                মহকুমা শাসক (SDO), পুরসভা, ভূমি সংস্কার, ট্রাফিক ও স্বাস্থ্য দপ্তরের সার্কুলার।
+              </p>
+            </div>
+            <div className="pt-4 flex items-center gap-1.5 text-xs font-bold text-blue-700 group-hover:translate-x-1 transition-transform">
+              <span>নোটিস পড়ুন</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* Card 5: Tenders */}
+          <Link
+            href="/tenders"
+            className="group p-5 rounded-3xl bg-gradient-to-br from-red-50 to-orange-50/50 border border-red-200/80 hover:border-red-400 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-red-600 text-white flex items-center justify-center mb-3 shadow-sm group-hover:scale-105 transition-transform">
+                <FileText className="w-6 h-6" />
+              </div>
+              <span className="text-[10px] font-extrabold uppercase tracking-wider text-red-800 bg-red-100/80 px-2 py-0.5 rounded-md">
+                ৬৫টি সক্রিয় NIT
+              </span>
+              <h3 className="text-lg font-black text-slate-900 mt-2 group-hover:text-red-800 transition-colors">
+                পৌর ও সরকারি টেন্ডার
+              </h3>
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                পৌরসভা, পূর্ত দপ্তর, পিএইচই, জেলা পরিষদ ও রেলওয়ের সক্রিয় দরপত্র ও বাজেট।
+              </p>
+            </div>
+            <div className="pt-4 flex items-center gap-1.5 text-xs font-bold text-red-700 group-hover:translate-x-1 transition-transform">
+              <span>টেন্ডার ব্রাউজ করুন</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+        </div>
+      </section>
+
+      {/* 3. Section 1: Health Directory Spotlight */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-1.5 bg-rose-100 text-rose-800 px-3 py-0.5 rounded-full text-xs font-bold">
+                <HeartPulse className="w-3.5 h-3.5" />
+                <span>চিকিৎসা ও জরুরি পরিষেবা ডিরেক্টরি</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900">
+                বারুইপুর স্বাস্থ্য ও হাসপাতাল কেন্দ্রসমূহ
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-500">
+                মহকুমা হাসপাতাল, নার্সিংহোম ও বিশেষজ্ঞ চিকিৎসা ক্লিনিকের সরাসরি যোগাযোগ
+              </p>
+            </div>
+
+            <Link
+              href="/health-directory"
+              className="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition shadow-xs shrink-0 self-start sm:self-auto"
+            >
+              <span>সম্পূর্ণ স্বাস্থ্য ডিরেক্টরি দেখুন ({allFacilities.length}+)</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {featuredHealthcare.map((fac) => (
+              <div 
+                key={fac.slug}
+                className="p-4 rounded-2xl bg-slate-50 border border-slate-200/90 hover:border-rose-300 transition flex flex-col justify-between space-y-3"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700">
+                      {fac.typeBn}
+                    </span>
+                    {fac.isOpen24Hours && (
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 border border-emerald-200">
+                        ২৪/৭ খোলা
+                      </span>
+                    )}
+                  </div>
+                  <h3 className="font-extrabold text-slate-900 text-sm leading-snug">
+                    {fac.nameBn}
+                  </h3>
+                  <p className="text-xs text-slate-500 line-clamp-2 mt-1">
+                    {fac.overviewBn || fac.taglineBn}
+                  </p>
+                </div>
+
+                <div className="pt-2 border-t border-slate-200/60 space-y-2">
+                  <div className="flex items-center gap-1.5 text-xs text-slate-600">
+                    <PhoneCall className="w-3.5 h-3.5 text-rose-600 shrink-0" />
+                    <span className="font-bold">{fac.phone || fac.emergencyPhone || 'হেল্পলাইন প্রস্তুত'}</span>
+                  </div>
+                  <Link
+                    href={`/health-directory/${fac.slug}`}
+                    className="block text-center text-xs font-bold text-rose-700 hover:text-rose-800 bg-white py-1.5 rounded-lg border border-rose-200 transition"
+                  >
+                    বিবরণ ও ডাক্তার রোস্টার →
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Section 2: Places & Landmarks Spotlight */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-1.5 bg-amber-100 text-amber-800 px-3 py-0.5 rounded-full text-xs font-bold">
+                <Landmark className="w-3.5 h-3.5" />
+                <span>ঐতিহ্য, পর্যটন ও নাগরিক কেন্দ্র</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900">
+                স্থান ও দর্শনীয় ল্যান্ডমার্ক ডিরেক্টরি
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-500">
+                ৩৫০ বছরের প্রাচীন রাজবাড়ি থেকে আধুনিক রেলওয়ে জংশন ও আদালত চত্বর
+              </p>
+            </div>
+
+            <Link
+              href="/places"
+              className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition shadow-xs shrink-0 self-start sm:self-auto"
+            >
+              <span>সমস্ত স্থান অন্বেষণ করুন ({allPlaces.length}+)</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {featuredPlaces.map((place) => (
+              <Link
+                key={place.slug}
+                href={`/places/${place.slug}`}
+                className="group rounded-2xl bg-slate-50 border border-slate-200/90 overflow-hidden hover:border-amber-400 transition-all flex flex-col justify-between"
+              >
+                {place.coverImage && (
+                  <div className="h-44 w-full overflow-hidden bg-slate-200 relative">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img 
+                      src={place.coverImage} 
+                      alt={place.nameBn}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-2.5 left-2.5 bg-slate-900/80 backdrop-blur-xs text-white text-[10px] font-bold px-2 py-0.5 rounded-md">
+                      {place.category}
+                    </div>
+                  </div>
+                )}
+                <div className="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="font-extrabold text-slate-900 text-base group-hover:text-amber-800 transition-colors">
+                      {place.nameBn}
+                    </h3>
+                    <p className="text-xs text-slate-500 line-clamp-2 mt-1">
+                      {place.overview || place.taglineBn}
+                    </p>
+                  </div>
+
+                  <div className="pt-2 border-t border-slate-200/60 flex items-center justify-between text-xs text-slate-600">
+                    <span className="flex items-center gap-1 text-[11px] text-slate-500">
+                      <MapPin className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                      <span className="line-clamp-1">{place.address}</span>
+                    </span>
+                    <span className="font-bold text-amber-700 shrink-0 group-hover:translate-x-0.5 transition-transform">
+                      বিস্তারিত →
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Section 3: Organizations & Clubs Spotlight */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-1.5 bg-purple-100 text-purple-800 px-3 py-0.5 rounded-full text-xs font-bold">
+                <Building2 className="w-3.5 h-3.5" />
+                <span>সামাজিক ক্লাব, সমিতি ও শিক্ষা প্রতিষ্ঠান</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900">
+                বারুইপুর প্রতিষ্ঠান ও সংগঠন ডিরেক্টরি
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-500">
+                ক্রীড়া ক্লাব, সমাজকল্যাণ সমিতি, লাইব্রেরি ও প্রখ্যাত শিক্ষা প্রতিষ্ঠান
+              </p>
+            </div>
+
+            <Link
+              href="/organizations"
+              className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition shadow-xs shrink-0 self-start sm:self-auto"
+            >
+              <span>সমস্ত সংগঠন তালিকা ({allOrganizations.length}+)</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {featuredOrganizations.map((org) => (
+              <Link
+                key={org.slug}
+                href={`/organizations/${org.slug}`}
+                className="group rounded-2xl bg-slate-50 border border-slate-200/90 overflow-hidden hover:border-purple-400 transition-all flex flex-col justify-between"
+              >
+                {org.coverImage && (
+                  <div className="h-40 w-full overflow-hidden bg-slate-200 relative">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img 
+                      src={org.coverImage} 
+                      alt={org.nameBn}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-2.5 left-2.5 bg-slate-900/80 backdrop-blur-xs text-white text-[10px] font-bold px-2 py-0.5 rounded-md">
+                      {org.categoryBn}
+                    </div>
+                  </div>
+                )}
+                <div className="p-4 space-y-2 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="font-extrabold text-slate-900 text-base group-hover:text-purple-800 transition-colors">
+                      {org.nameBn}
+                    </h3>
+                    <p className="text-xs text-slate-500 line-clamp-2 mt-1">
+                      {org.overview || org.taglineBn}
+                    </p>
+                  </div>
+
+                  <div className="pt-2 border-t border-slate-200/60 flex items-center justify-between text-xs text-slate-600">
+                    <span className="text-[11px] text-slate-500">
+                      প্রতিষ্ঠা: {org.established || 'ঐতিহ্যবাহী'}
+                    </span>
+                    <span className="font-bold text-purple-700 shrink-0 group-hover:translate-x-0.5 transition-transform">
+                      কার্যক্রম দেখুন →
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6. Section 4 & 5: Notices & Tenders Twin Section */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* Official Notices Block */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xs flex flex-col justify-between space-y-5">
+            <div>
+              <div className="flex items-center justify-between gap-2 border-b border-slate-100 pb-4 mb-4">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center shrink-0">
+                    <Bell className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-black text-slate-900 text-lg">জরুরি সরকারি নোটিস</h3>
+                    <p className="text-xs text-slate-500">SDO, পৌরসভা, স্বাস্থ্য ও পুলিশ সার্কুলার</p>
+                  </div>
+                </div>
+                <Link
+                  href="/notices"
+                  className="text-xs font-bold text-blue-700 hover:text-blue-800 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 transition shrink-0"
+                >
+                  সমস্ত নোটিস (৫২+) →
+                </Link>
+              </div>
+
+              <div className="space-y-3">
+                {activeNotices.map((notice) => (
+                  <Link
+                    key={notice.id}
+                    href="/notices"
+                    className="block p-3 rounded-xl bg-slate-50 hover:bg-blue-50/50 border border-slate-200 hover:border-blue-300 transition"
+                  >
+                    <div className="flex items-center justify-between gap-2 text-[10px] text-slate-500 mb-1">
+                      <span className="font-bold bg-white px-2 py-0.5 rounded border border-slate-200 text-slate-700">
+                        {notice.departmentName}
+                      </span>
+                      <span>{notice.publishedDateFormatted || notice.publishedDate}</span>
+                    </div>
+                    <h4 className="text-xs font-bold text-slate-800 line-clamp-2 leading-snug">
+                      {notice.title}
+                    </h4>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <Link
+              href="/notices"
+              className="w-full text-center py-2.5 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-xs font-bold text-slate-700 transition"
+            >
+              সমস্ত অফিশিয়াল নোটিস ও PDF দেখুন →
+            </Link>
+          </div>
+
+          {/* Active Tenders Block */}
+          <div className="bg-white rounded-3xl p-6 border border-slate-200 shadow-xs flex flex-col justify-between space-y-5">
+            <div>
+              <div className="flex items-center justify-between gap-2 border-b border-slate-100 pb-4 mb-4">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-10 h-10 rounded-xl bg-red-100 text-red-800 flex items-center justify-center shrink-0">
+                    <FileText className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-black text-slate-900 text-lg">পৌর ও সরকারি ই-টেন্ডার</h3>
+                    <p className="text-xs text-slate-500">wbtenders.gov.in-এর সক্রিয় NIT দরপত্র</p>
+                  </div>
+                </div>
+                <Link
+                  href="/tenders"
+                  className="text-xs font-bold text-red-700 hover:text-red-800 bg-red-50 px-3 py-1.5 rounded-lg border border-red-200 transition shrink-0"
+                >
+                  সমস্ত টেন্ডার (৬৫+) →
+                </Link>
+              </div>
+
+              <div className="space-y-3">
+                {activeTenders.map((tender) => (
+                  <Link
+                    key={tender.id}
+                    href="/tenders"
+                    className="block p-3 rounded-xl bg-slate-50 hover:bg-red-50/50 border border-slate-200 hover:border-red-300 transition"
+                  >
+                    <div className="flex items-center justify-between gap-2 text-[10px] text-slate-500 mb-1">
+                      <span className="font-bold bg-white px-2 py-0.5 rounded border border-slate-200 text-slate-700">
+                        {tender.authorityName}
+                      </span>
+                      <span className="font-extrabold text-red-700">{tender.estimatedValue}</span>
+                    </div>
+                    <h4 className="text-xs font-bold text-slate-800 line-clamp-2 leading-snug">
+                      {tender.title}
+                    </h4>
+                    <div className="flex items-center justify-between text-[10px] text-slate-500 mt-1.5 pt-1 border-t border-slate-200/50">
+                      <span>শেষ তারিখ: {tender.closingDate}</span>
+                      <span className="text-red-700 font-semibold">NIT বিবরণ →</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <Link
+              href="/tenders"
+              className="w-full text-center py-2.5 rounded-xl bg-slate-100 hover:bg-red-600 hover:text-white text-xs font-bold text-slate-700 transition"
+            >
+              সমস্ত সক্রিয় টেন্ডার ও ডিরেক্টরি দেখুন →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Special Evergreen Lifestyle & Heritage Guides Section */}
+      {evergreenGuides.length > 0 && (
+        <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+          <div className="bg-slate-900 text-white rounded-3xl p-6 sm:p-8 space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4">
+              <div>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 bg-amber-950/60 border border-amber-800/60 px-2.5 py-0.5 rounded-full inline-block mb-1">
+                  প্রামাণ্য গাইড
+                </span>
+                <h3 className="text-lg sm:text-xl font-black">
+                  বারুইপুর বিশেষ তথ্য ও ঐতিহ্য গাইড
+                </h3>
+              </div>
+              <p className="text-xs text-slate-400 max-w-md">
+                রাসমেলা, পিকনিক স্পট, সেরা রেস্তোরাঁ ও বিদ্যালয় সংক্রান্ত বিস্তারিত রেফারেন্স
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {evergreenGuides.map((guide) => (
+                <Link
+                  key={guide.id}
+                  href={`/${encodeURI(guide.slug || guide.id)}`}
+                  className="p-4 rounded-2xl bg-slate-800/80 hover:bg-slate-800 border border-slate-700 hover:border-amber-500/60 transition flex flex-col justify-between space-y-3"
+                >
+                  <div>
+                    <h4 className="text-sm font-bold text-white line-clamp-2 leading-snug">
+                      {guide.title}
+                    </h4>
+                    <p className="text-xs text-slate-400 line-clamp-2 mt-1">
+                      {guide.summary}
+                    </p>
+                  </div>
+                  <span className="text-xs font-bold text-amber-400 flex items-center gap-1">
+                    সম্পূর্ণ গাইড পড়ুন →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* 8. 24/7 Emergency & Helplines Strip */}
+      <section className="max-w-[1240px] mx-auto px-4 sm:px-6">
+        <div className="bg-gradient-to-r from-red-600 to-rose-700 text-white rounded-3xl p-5 sm:p-6 shadow-md flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-white/20 flex items-center justify-center shrink-0">
+              <PhoneCall className="w-6 h-6 animate-pulse" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <h2 className="text-sm sm:text-base font-extrabold text-white">
-                  বারুইপুর মহকুমা ও পৌর ডিজিটাল তথ্যবাতায়ন
-                </h2>
-                <span className="hidden sm:inline-flex items-center gap-1 bg-red-950/80 text-red-300 text-[10px] font-bold px-2 py-0.5 rounded-full border border-red-800/50">
-                  <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
-                  ২৪/৭ লাইভ
-                </span>
-              </div>
-              <p className="text-xs text-slate-300 mt-0.5">
-                পৌরসভার ১৭টি ওয়ার্ড • শিয়ালদহ দক্ষিণ রেলওয়ে জংশন • মহকুমা আদালত, হাসপাতাল ও পুলিশ জেলা
+              <h3 className="text-base sm:text-lg font-black">
+                বারুইপুর ২৪/৭ জরুরি নাগরিক হেল্পলাইন
+              </h3>
+              <p className="text-xs text-red-100 mt-0.5">
+                পুলিশ কন্ট্রোল রুম (১১২), মহকুমা হাসপাতাল (০৩২১৮-২৫৫০২৯), দমকল (১০১) ও অ্যাম্বুল্যান্স
               </p>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2 text-xs">
-            <a
-              href="/property"
-              className="inline-flex items-center gap-1.5 bg-emerald-600/90 hover:bg-emerald-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
-            >
-              <span>🏡 ফ্ল্যাট ও জমি</span>
-            </a>
-            <a
-              href="/tenders"
-              className="inline-flex items-center gap-1.5 bg-red-600/90 hover:bg-red-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
-            >
-              <span>🏛️ সরকারি টেন্ডার</span>
-            </a>
-            <a
-              href="/health-directory?category=doctors"
-              className="inline-flex items-center gap-1.5 bg-rose-600/90 hover:bg-rose-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
-            >
-              <span>🏥 ডাক্তার ও ওপিডি</span>
-            </a>
-            <a
-              href="/transport"
-              className="inline-flex items-center gap-1.5 bg-blue-600/90 hover:bg-blue-600 text-white font-bold px-3 py-1.5 rounded-lg transition shadow-2xs"
-            >
-              <span>🚆 লোকাল ট্রেন</span>
-            </a>
-          </div>
+          <Link
+            href="/emergency-contacts"
+            className="bg-white text-slate-900 hover:bg-red-50 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-xl shadow-xs transition shrink-0"
+          >
+            জরুরি হেল্পলাইন ডিরেক্টরি →
+          </Link>
         </div>
-
-        {/* 2. Featured News: 1 Main Story + 3 Secondary Stories (Editorial Grid) */}
-        {leadArticle && (
-          <FeaturedHeroGrid
-            leadArticle={leadArticle}
-            secondaryArticles={secondaryArticles}
-          />
-        )}
-
-        {/* 3. Quick Access Directory Grid (12 Civic & Lifestyle Tiles) */}
-        <QuickAccessDirectory />
-
-        {/* Top Leaderboard Ad Slot */}
-        <AdSenseSlot format="leaderboard" className="mb-6" />
-
-        {/* 4. Main Two-Column Layout (News Content Left + Utilities Sidebar Right) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
-          {/* Left Column: News Content & Local Spotlights (9 cols) */}
-          <div className="lg:col-span-9 space-y-7 min-w-0" id="latest-news">
-            {/* 4A. Latest News Feed: 8 Compact Stories with Horizontal Category Scroll */}
-            <NewsStreamClient 
-              initialArticles={latestNewsArticles}
-              allArticles={streamPool}
-            />
-
-            {/* In-Feed Native Ad Slot */}
-            <AdSenseSlot format="in-feed" className="my-6" />
-
-            {/* 4B. Category Highlights: 4 Categories (3 Distinct Stories Each) */}
-            <div className="space-y-5">
-              {/* Municipality Spotlight */}
-              {municipalityArticles.length > 0 && (
-                <NewsCategorySection
-                  title="পৌরসভা ও নাগরিক পরিকাঠামো"
-                  subtitle="রাস্তাঘাট, পানীয় জল ও পুর পরিষেবা সংবাদ"
-                  categorySlug="municipality"
-                  viewAllHref="/category/municipality"
-                  accentColor="border-emerald-200/80 bg-emerald-50/40"
-                  badgeDotColor="bg-emerald-600"
-                  articles={municipalityArticles}
-                />
-              )}
-
-              {/* Railways & Transport Spotlight */}
-              {railwayArticles.length > 0 && (
-                <NewsCategorySection
-                  title="শিয়ালদহ দক্ষিণ রেলওয়ে ও লোকাল ট্রেন"
-                  subtitle="ট্রেন চলাচল, বাতিল ও সময়সূচি সংক্রান্ত খবর"
-                  categorySlug="railway"
-                  viewAllHref="/category/railway"
-                  accentColor="border-blue-200/80 bg-blue-50/40"
-                  badgeDotColor="bg-blue-600"
-                  articles={railwayArticles}
-                />
-              )}
-
-              {/* Law & Order / Crime Spotlight */}
-              {crimeArticles.length > 0 && (
-                <NewsCategorySection
-                  title="আইনশৃঙ্খলা ও বারুইপুর পুলিশ জেলা"
-                  subtitle="নিরাপত্তা, থানা ও মহকুমা প্রশাসনের খবর"
-                  categorySlug="crime"
-                  viewAllHref="/category/crime"
-                  accentColor="border-rose-200/80 bg-rose-50/40"
-                  badgeDotColor="bg-rose-700"
-                  articles={crimeArticles}
-                />
-              )}
-
-              {/* Culture & Festivals Spotlight */}
-              {cultureArticles.length > 0 && (
-                <NewsCategorySection
-                  title="উৎসব, সংস্কৃতি ও ঐতিহ্যের বারুইপুর"
-                  subtitle="পূজা, রাসমেলা ও সাংস্কৃতিক অনুষ্ঠান"
-                  categorySlug="culture"
-                  viewAllHref="/category/culture"
-                  accentColor="border-amber-200/80 bg-amber-50/40"
-                  badgeDotColor="bg-amber-600"
-                  articles={cultureArticles}
-                />
-              )}
-            </div>
-
-            {/* 4C. Local Information Directory: Health, Places, Organizations (Utility Layout) */}
-            <LocalDirectoryHighlights
-              facilities={healthcareFacilities}
-              places={places}
-              organizations={featuredOrganizations}
-            />
-
-            {/* 4D. Civic Services Tab Hub: Real Estate, Tenders & Notices */}
-            <CivicServicesTabHub />
-
-            {/* 4F. Evergreen Lifestyle Guides: 8 Verified Special Guides */}
-            <FeaturedGuidesSection />
-
-            {/* 4E. Annual Events Calendar Banner */}
-            <section className="bg-gradient-to-r from-amber-600 to-orange-700 text-white rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-2xs">
-              <div>
-                <span className="text-[10px] font-bold bg-white/20 px-2 py-0.5 rounded-full uppercase tracking-wider mb-1 inline-block">
-                  বাৎসরিক নির্ঘণ্ট
-                </span>
-                <h3 className="text-base sm:text-lg font-bold">
-                  বারুইপুরের উৎসব ও মেলা ক্যালেন্ডার ২০২৬
-                </h3>
-                <p className="text-xs text-amber-100 mt-0.5">
-                  ঐতিহাসিক বারুইপুর রাসমেলা, রাসমাঠের অনুষ্ঠান ও আঞ্চলিক লোকউৎসবের সূচি।
-                </p>
-              </div>
-              <a 
-                href="/events" 
-                className="bg-white text-slate-900 hover:bg-amber-50 text-xs font-bold px-4 py-2.5 rounded-xl shadow-xs whitespace-nowrap transition"
-              >
-                ইভেন্ট ক্যালেন্ডার দেখুন →
-              </a>
-            </section>
-          </div>
-
-          {/* Right Column: Utilities & Emergency Sidebar (3 cols) */}
-          <aside className="lg:col-span-3 space-y-6 min-w-0" aria-label="বারুইপুর ইউটিলিটি ও ডিরেক্টরি">
-            {/* Sidebar Top Ad Slot */}
-            <AdSenseSlot format="sidebar" className="my-0" />
-
-            <BaruipurUtilities 
-              recentPosts={newsArticles.slice(4, 12)} 
-              popularPosts={popularArticles}
-              showCategories={true}
-              showRecentPosts={true}
-              showPlaces={true}
-              showEmergency={true}
-            />
-          </aside>
-        </div>
-
-        {/* Bottom Leaderboard Ad Slot */}
-        <AdSenseSlot format="leaderboard" className="mt-8" />
-      </div>
+      </section>
     </div>
   );
 }
