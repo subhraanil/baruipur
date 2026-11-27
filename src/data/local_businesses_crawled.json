@@ -1,0 +1,54 @@
+{
+  "lastCrawledAt": "2026-11-27T11:56:00.938Z",
+  "location": "Baruipur, South 24 Parganas, West Bengal",
+  "totalBusinesses": 2,
+  "categories": {
+    "salon": {
+      "categoryBn": "সেরা সেলুন ও বিউটি পার্লার",
+      "count": 0,
+      "items": []
+    },
+    "restaurant": {
+      "categoryBn": "সেরা রেস্তোরাঁ ও ফ্যামিলি ডাইনিং",
+      "count": 0,
+      "items": []
+    },
+    "sweet_shop": {
+      "categoryBn": "বিখ্যাত মিষ্টির দোকান",
+      "count": 1,
+      "items": [
+        {
+          "name": "Jaba Sweets",
+          "category": "sweet_shop",
+          "categoryBn": "বিখ্যাত মিষ্টির দোকান",
+          "address": "Jaba Sweets, Kulpi Road, Baruipur, Greater Kolkata, Baruipur, South 24 Parganas, West Bengal, 700144, India",
+          "lat": 22.3465596,
+          "lon": 88.440326,
+          "source": "OSM-Nominatim",
+          "crawledAt": "2026-11-27T11:55:55.063Z"
+        }
+      ]
+    },
+    "cafe": {
+      "categoryBn": "সেরা ক্যাফে ও আড্ডার জায়গা",
+      "count": 1,
+      "items": [
+        {
+          "name": "Doll's Cafe Magic",
+          "category": "cafe",
+          "categoryBn": "সেরা ক্যাফে ও আড্ডার জায়গা",
+          "address": "Doll's Cafe Magic, Eastern Metropolitan Bypass, Khasmallik, Rajpur Sonarpur, Greater Kolkata, Sonarpur, South 24 Parganas, West Bengal, 700145, India",
+          "lat": 22.3852343,
+          "lon": 88.4136098,
+          "source": "OSM-Nominatim",
+          "crawledAt": "2026-11-27T11:55:57.205Z"
+        }
+      ]
+    },
+    "electronics": {
+      "categoryBn": "ইলেকট্রনিক্স ও হোম অ্যাপ্লায়েন্স শোরুম",
+      "count": 0,
+      "items": []
+    }
+  }
+}

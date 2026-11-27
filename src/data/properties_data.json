@@ -40,6 +40,41 @@
   ],
   "properties": [
     {
+      "id": "prop-brp-20261127-pnb-auction-subuddhipur",
+      "title": "পাঞ্জাব ন্যাশনাল ব্যাংক (PNB) ই-নিলাম: বারুইপুর সুবুদ্ধিপুর এলাকায় ২.৫ কাঠা জমিসহ একতলা আবাসিক বাড়ি",
+      "titleEn": "PNB SARFAESI E-Auction: Residential Land & 1-Storey Building (2.5 Cottah) at Subuddhipur, Baruipur",
+      "category": "bank_auction",
+      "categoryNameBn": "ব্যাংক নিলাম সম্পত্তি (Bank Auction)",
+      "location": "সুবুদ্ধিপুর (স্টেশন রোড সংলগ্ন), বারুইপুর, দক্ষিণ ২৪ পরগনা - 700144",
+      "locationArea": "Subuddhipur",
+      "price": "রিজার্ভ প্রাইজ: ₹২১.৪০ লক্ষ (SARFAESI ই-নিলাম)",
+      "priceNum": 2140000,
+      "priceUnit": "total",
+      "configuration": "3 Bed + 2 Bath Residential House (2.5 Cottah)",
+      "areaSqFt": "১,২৫০ বর্গফুট বিল্ট-আপ (২.৫ কাঠা জমি)",
+      "facing": "দক্ষিণ-পূর্বমুখী",
+      "floorInfo": "একতলা পাকা বাড়ি",
+      "possessionStatus": "ব্যাংক ফিজিক্যাল পজেশন (ibapi.in ভেরিফায়েড)",
+      "reraStatus": "SARFAESI Act 2002 অফিসিয়াল ব্যাংক নিলাম",
+      "approvalStatus": "PNB সার্কেল সাস্ত্র সেন্টার (South 24 Pgs) নোটিস",
+      "bankLoanApproved": "অফিশিয়াল IBAPI পোর্টাল থেকে ১০% EMD সহ বিডিং",
+      "amenities": [
+        "বারুইপুর স্টেশন থেকে ৭ মিনিট হাঁটা পথ",
+        "পাকা রাস্তা ও পৌরসভার পানীয় জল সংযোগ",
+        "ই-অকশন তারিখ: ২০২৬-১২-১৮ (EMD ₹২.১৪ লক্ষ)"
+      ],
+      "description": "পাঞ্জাব ন্যাশনাল ব্যাংকের সারফেইসি অ্যাক্ট ২০০২ অনুসারে বারুইপুর সুবুদ্ধিপুর মৌজায় ২.৫ কাঠা বাস্তু জমিসহ একতলা বাড়ির ই-নিলাম। অফিশিয়াল সেল নোটিস ও ডকুমেন্ট ibapi.in পোর্টালে উপলব্ধ।",
+      "imageUrl": "/images/baruipur-property-resale-house.jpg",
+      "images": [
+        "/images/baruipur-property-resale-house.jpg"
+      ],
+      "featured": true,
+      "contactPerson": "PNB অথরাইজড অফিসার (ibapi.in)",
+      "contactPhone": "",
+      "contactWhatsapp": "",
+      "publishedAt": "২০২৬-১১-২৭"
+    },
+    {
       "id": "prop-brp-040",
       "title": "বারুইপুর কুলপী রোড ও কাচারি মোড় সংলগ্ন প্রধান আবাসিক এলাকায় সম্পূর্ণ নতুন ২ কাঠার বাণিজ্যিক ও আবাসিক সংমিশ্রিত বাস্তু প্লট বিক্রয়",
       "titleEn": "2 Katha Prime Commercial-cum-Residential Vastu Plot for Sale near Baruipur Kulpi Road & Kachari More",

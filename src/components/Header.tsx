@@ -269,9 +269,16 @@ export default function Header() {
 
           <a
             href="/articles"
-            className="inline-flex items-center min-h-[44px] px-4 py-2 text-[16px] font-medium leading-[1.2] text-slate-900 hover:text-blue-800 hover:bg-slate-50 rounded-lg transition-colors"
+            className="inline-flex items-center min-h-[44px] px-3.5 py-2 text-[16px] font-medium leading-[1.2] text-slate-900 hover:text-blue-800 hover:bg-slate-50 rounded-lg transition-colors"
           >
             আর্টিকেল ও ব্লগ
+          </a>
+
+          <a
+            href="/property"
+            className="inline-flex items-center min-h-[44px] px-3.5 py-2 text-[16px] font-medium leading-[1.2] text-slate-900 hover:text-blue-800 hover:bg-slate-50 rounded-lg transition-colors"
+          >
+            প্রপার্টি ও নিলাম
           </a>
 
           <div className="ml-auto flex items-center text-[14px] text-slate-600 gap-1">
@@ -301,6 +308,9 @@ export default function Header() {
           </a>
           <a href="/articles" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
             আর্টিকেল ও ব্লগ
+          </a>
+          <a href="/property" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
+            প্রপার্টি ও ব্যাংক নিলাম
           </a>
           <a href="/transport" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
             লোকাল ট্রেন ও যাতায়াত

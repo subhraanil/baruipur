@@ -1,15 +1,15 @@
 # Data Issues Report (`scripts/data-lint.js`)
 
-Generated: 2026-11-27T06:17:35.988Z
+Generated: 2026-11-27T11:57:34.140Z
 
 ## Computed Inventory Counts
 - Places: **35**
 - Organizations: **25**
 - Health Facilities: **33**
 - Doctors: **295**
-- Notices: **52**
-- Tenders: **65**
-- Properties: **40** (Bank Auctions: **4**)
+- Notices: **54**
+- Tenders: **67**
+- Properties: **41** (Bank Auctions: **5**)
 
 ## Findings
 
