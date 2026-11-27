@@ -60,8 +60,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/category/all" className="hover:text-white text-slate-300 transition-colors">
-                  নাগরিক ও উৎসব গাইড
+                <a href="/articles" className="hover:text-white text-slate-300 transition-colors">
+                  আর্টিকেল ও ব্লগ
                 </a>
               </li>
             </ul>

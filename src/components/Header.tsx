@@ -267,6 +267,13 @@ export default function Header() {
             যাতায়াত
           </a>
 
+          <a
+            href="/articles"
+            className="inline-flex items-center min-h-[44px] px-4 py-2 text-[16px] font-medium leading-[1.2] text-slate-900 hover:text-blue-800 hover:bg-slate-50 rounded-lg transition-colors"
+          >
+            আর্টিকেল ও ব্লগ
+          </a>
+
           <div className="ml-auto flex items-center text-[14px] text-slate-600 gap-1">
             <Sun className="w-4 h-4 text-amber-600" />
             <span>{weatherStr}</span>
@@ -292,8 +299,8 @@ export default function Header() {
           <a href="/organizations" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
             সংগঠন ও ক্লাব
           </a>
-          <a href="/category/all" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
-            সিটিজেন গাইড (রাসমেলা ও পরিষেবা)
+          <a href="/articles" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
+            আর্টিকেল ও ব্লগ
           </a>
           <a href="/transport" className="block min-h-[44px] py-2.5 px-3 rounded-lg text-[16px] font-medium text-slate-900 hover:bg-slate-50">
             লোকাল ট্রেন ও যাতায়াত

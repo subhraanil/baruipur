@@ -418,23 +418,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Curated City Guides (3 Cards) */}
+      {/* 6. Articles & Blogs (3 Cards) */}
       {curatedGuides.length > 0 && (
         <section className="space-y-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
               <h2 className="text-[24px] sm:text-[32px] font-bold text-[#142B4A] leading-[1.38]">
-                বারুইপুর সিটিজেন গাইড ও ঐতিহ্য
+                বারুইপুর আর্টিকেল ও ব্লগ
               </h2>
               <p className="text-[17px] text-[#475467]">
-                স্থানীয় বাজার, উৎসব, নাগরিক পরিষেবা ও ঐতিহ্যের বিস্তারিত নির্দেশিকা
+                স্থানীয় বাজার, উৎসব, নাগরিক পরিষেবা ও ঐতিহ্যের বিস্তারিত লেখা ও নির্দেশিকা
               </p>
             </div>
             <a
-              href="/category/all"
+              href="/articles"
               className="inline-flex items-center gap-1.5 min-h-[44px] px-4 py-2 rounded-xl bg-[#142B4A] text-white font-semibold text-[16px] leading-[1.3] hover:bg-[#245B91] transition-colors"
             >
-              <span>সকল গাইড</span>
+              <span>সকল আর্টিকেল ও ব্লগ</span>
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>

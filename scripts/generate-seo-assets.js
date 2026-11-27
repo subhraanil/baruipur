@@ -208,6 +208,7 @@ for (const cat of categories) {
 }
 
 const staticPages = [
+  { path: '/articles/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Articles & Blogs (History, Culture, Food, Travel & Civic Guides)' },
   { path: '/notices/', priority: '0.98', changefreq: 'hourly', title: 'Baruipur Official Important Notices & Circulars (Date-Wise Public Notices & PDF)' },
   { path: '/property/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Buy & Sell Real Estate (Flats, Land, Resale & Bank Auction)' },
   { path: '/tenders/', priority: '0.95', changefreq: 'daily', title: 'Baruipur Municipality & Govt Tenders (e-Procurement NIT)' },

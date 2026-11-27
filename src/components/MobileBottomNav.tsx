@@ -50,8 +50,8 @@ export default function MobileBottomNav() {
               <a href="/transport" className="min-h-[44px] flex items-center px-3 py-2 rounded-lg bg-slate-50 text-slate-900 font-medium text-[16px]">
                 লোকাল ট্রেন
               </a>
-              <a href="/category/all" className="min-h-[44px] flex items-center px-3 py-2 rounded-lg bg-slate-50 text-slate-900 font-medium text-[16px]">
-                সিটিজেন গাইড
+              <a href="/articles" className="min-h-[44px] flex items-center px-3 py-2 rounded-lg bg-slate-50 text-slate-900 font-medium text-[16px]">
+                আর্টিকেল ও ব্লগ
               </a>
             </div>
           </div>
