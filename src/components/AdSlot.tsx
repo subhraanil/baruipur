@@ -14,12 +14,12 @@ export default function AdSlot({ variant = 'leaderboard', slotId = 'auto', class
 
   return (
     <aside
-      aria-label="Advertisement"
+      aria-label="বিজ্ঞাপন"
       data-ad-slot={slotId}
-      className={`w-full max-w-[1200px] mx-auto my-6 rounded-xl border border-slate-200 bg-slate-50 flex items-center justify-center overflow-hidden ${heightClass} ${className}`}
+      className={`w-full max-w-[1200px] mx-auto my-6 rounded-xl border border-[#E4E7EC] bg-slate-50 flex items-center justify-center overflow-hidden ${heightClass} ${className}`}
     >
-      <span className="text-[14px] text-slate-500 font-medium select-none">
-        বিজ্ঞাপন স্থান (Advertisement)
+      <span className="text-[14px] text-[#667085] font-medium select-none">
+        বিজ্ঞাপন
       </span>
     </aside>
   );

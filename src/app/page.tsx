@@ -29,6 +29,7 @@ import {
   getPlaceCategoryBn,
   isClosingSoon,
   toBengaliDigits,
+  toLatinDigits,
 } from '@/lib/formatters';
 
 export default function HomePage() {
@@ -50,7 +51,13 @@ export default function HomePage() {
   );
 
   const featuredNotices = notices.slice(0, 5);
-  const featuredTenders = tenders.slice(0, 5);
+  const now = new Date();
+  const activeTenders = tenders.filter((t) => {
+    if (!t.closingDate) return true;
+    const d = new Date(toLatinDigits(t.closingDate).trim());
+    return isNaN(d.getTime()) || d >= now;
+  });
+  const featuredTenders = activeTenders.slice(0, 5);
 
   // Featured health: Pubali Clinic (Featured), Baruipur Subdivisional Hospital, and Kabita Sebayatan / 3rd
   const sdh = healthFacilities.find((h) => h.slug === 'baruipur-subdivisional-hospital');
@@ -301,10 +308,10 @@ export default function HomePage() {
               areaLabel={h!.landmarkBn || 'বারুইপুর'}
               statusLabel={
                 h!.isOpen24Hours
-                  ? '২৪ ঘণ্টা খোলা'
+                  ? '২৪×৭ খোলা'
                   : h!.swasthyaSathiAccepted
                   ? 'স্বাস্থ্যসাথী'
-                  : 'খোলা আছে'
+                  : undefined
               }
               phone={h!.phone}
               mapUrl={h!.googleMapUrl}
@@ -365,7 +372,6 @@ export default function HomePage() {
               excerpt={p.overview || p.taglineBn}
               categoryLabel={getPlaceCategoryBn(p.category, p.categoryBn)}
               areaLabel={p.area || 'বারুইপুর'}
-              statusLabel={p.timings ? 'খোলা আছে' : undefined}
               phone={p.phone || p.contact?.phone}
               mapUrl={p.gmbMapUrl}
               isFeatured={Boolean(p.isFeatured)}

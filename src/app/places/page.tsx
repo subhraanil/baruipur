@@ -204,8 +204,8 @@ export default function PlacesIndexPage() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold text-red-700 mb-2">
-              📞 জরুরি যোগাযোগ ও হেল্পলাইন ডিরেক্টরি (Emergency Contacts)
+            <h3 className="text-[20px] font-bold text-[#142B4A] mb-2">
+              জরুরি যোগাযোগ ও হেল্পলাইন ডিরেক্টরি (Emergency Contacts)
             </h3>
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 mb-4 space-y-2 text-[15px]">
               <p><strong>বারুইপুর পুলিশ জেলা কন্ট্রোল:</strong> <span className="phone-display">033-2433-0083</span> | জরুরি পুলিশ: <span className="phone-display">112</span></p>
@@ -216,8 +216,8 @@ export default function PlacesIndexPage() {
               <p><strong>বারুইপুর বিডিও অফিস (BDO Office):</strong> <span className="phone-display">033-2433-8221</span></p>
             </div>
 
-            <h3 className="text-lg font-bold text-red-700 mb-2">
-              🌿 বারুইপুরের শীর্ষ পর্যটন ও দর্শনীয় কেন্দ্রসমূহ
+            <h3 className="text-[20px] font-bold text-[#142B4A] mb-2">
+              বারুইপুরের শীর্ষ পর্যটন ও দর্শনীয় কেন্দ্রসমূহ
             </h3>
             <p className="text-slate-600">
               পরিবার ও বন্ধুদের সাথে ডে-আউটের জন্য <strong>হ্যাপি ভ্যালি পার্ক</strong>, <strong>নীলদীপ গার্ডেন</strong>, আধ্যাত্মিক দর্শনে <strong>মা শিবানী পীঠ</strong> ও <strong>ধপধপি কালীবাড়ি</strong>, সাঁতার প্রশিক্ষণে <strong>পৌর সুইমিং পুল</strong> এবং ইতিহাসপ্রেমীদের জন্য <strong>কোদালিয়ার নেতাজি পৈতৃক ভবন</strong> ও <strong>আটঘরা প্রত্নতাত্ত্বিক ক্ষেত্র</strong> অত্যন্ত জনপ্রিয়।

@@ -12,6 +12,10 @@ import SearchClient, { SearchItem } from './SearchClient';
 export const metadata: Metadata = {
   title: 'অনুসন্ধান | বারুইপুর নাগরিক ডিরেক্টরি',
   description: 'বারুইপুরের ডাক্তার, হাসপাতাল, দর্শনীয় স্থান, ক্লাব ও সংগঠন, সরকারি নোটিস ও ই-টেন্ডার খুঁজুন।',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
     canonical: 'https://baruipur.online/search',
   },
