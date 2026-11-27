@@ -52,27 +52,45 @@ export function formatPhoneForTel(raw?: string | null): string | null {
 }
 
 /**
- * Strips markdown headings, bold/italic markers, bullet lists, numbered prefixes, and extra whitespace,
- * returning a clean 120-140 character plain-text excerpt.
+ * Strips markdown headings, bold/italic markers, bullet lists, numbered prefixes,
+ * and leading repeats of the title (U13), returning a clean 120-140 char plain-text excerpt.
  */
-export function cleanPlainExcerpt(raw?: string | null, minLen = 120, maxLen = 140): string {
+export function cleanPlainExcerpt(
+  raw?: string | null,
+  minLen = 120,
+  maxLen = 140,
+  titleBn?: string,
+  titleEn?: string
+): string {
   if (!raw) return '';
   let text = raw
-    // Remove markdown headings (# ## ###)
     .replace(/^#{1,6}\s+.*$/gm, ' ')
-    // Remove markdown links [label](url) -> label
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    // Remove bold/italic/code markers
     .replace(/[*_`~>]/g, '')
-    // Remove bullet points and leading list numbers like "1." or "1)"
     .replace(/^\s*[-•*]\s+/gm, '')
     .replace(/^\s*\d+[.)]\s+/gm, '')
-    // Remove stray single digits at start of sentences
     .replace(/\b[0-9০-৯]{1,2}\s+(?=[অ-হক-হা-ৌ])/g, '')
-    // Collapse newlines & spaces
     .replace(/[\r\n]+/g, ' ')
     .replace(/\s{2,}/g, ' ')
     .trim();
+
+  // Strip leading title / English name repeats (fixes U13)
+  if (titleBn) {
+    const tBn = titleBn.trim();
+    if (tBn && text.startsWith(tBn)) {
+      text = text.slice(tBn.length).replace(/^[\s\-–—:,()]+/, '').trim();
+    }
+  }
+  if (titleEn) {
+    const tEn = titleEn.trim();
+    if (tEn && text.toLowerCase().startsWith(tEn.toLowerCase())) {
+      text = text.slice(tEn.length).replace(/^[\s\-–—:,()]+/, '').trim();
+    }
+    const parenEn = `(${tEn})`;
+    if (text.toLowerCase().startsWith(parenEn.toLowerCase())) {
+      text = text.slice(parenEn.length).replace(/^[\s\-–—:,()]+/, '').trim();
+    }
+  }
 
   if (text.length <= maxLen) return text;
   const sliced = text.slice(0, maxLen);

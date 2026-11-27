@@ -1,6 +1,6 @@
 # Data Issues Report (`scripts/data-lint.js`)
 
-Generated: 2026-11-27T05:23:27.481Z
+Generated: 2026-11-27T06:17:35.988Z
 
 ## Computed Inventory Counts
 - Places: **35**

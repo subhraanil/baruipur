@@ -11,7 +11,7 @@ export default function Footer() {
             <a href="/" className="inline-block bg-white rounded-xl p-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/logo.png"
+                src="/images/logo-v3.png"
                 alt="বারুইপুর অনলাইন"
                 width={210}
                 height={52}

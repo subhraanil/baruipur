@@ -30,7 +30,7 @@ export default function DirectoryCard({
 }: DirectoryCardProps) {
   const safeTel = formatPhoneForTel(phone);
   const displayPhone = formatPhoneForDisplay(phone);
-  const cleanExcerpt = cleanPlainExcerpt(excerpt, 120, 140);
+  const cleanExcerpt = cleanPlainExcerpt(excerpt, 120, 140, title);
   const safeImage = imageUrl && imageUrl.trim() ? imageUrl : '/images/places/baruipur-junction-railway-station.jpg';
 
   return (
@@ -90,10 +90,10 @@ export default function DirectoryCard({
             <a
               href={safeTel}
               title={`কল করুন: ${displayPhone}`}
-              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-[#23845B] hover:bg-[#1b6b49] text-white font-semibold text-[16px] leading-[1.3] transition-colors"
+              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-white border border-[#142B4A] text-[#142B4A] hover:bg-[#F5F7FA] font-semibold text-[16px] leading-[1.3] transition-colors"
             >
               <Phone className="w-4 h-4 shrink-0" />
-              <span>কল</span>
+              <span>কল করুন</span>
             </a>
           )}
           {mapUrl && (
@@ -101,10 +101,10 @@ export default function DirectoryCard({
               href={mapUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-[#F5F7FA] hover:bg-[#E4E7EC] text-[#202938] font-semibold text-[16px] leading-[1.3] transition-colors"
+              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] px-3.5 py-2 rounded-lg bg-white border border-[#E4E7EC] hover:border-[#142B4A] text-[#202938] font-semibold text-[16px] leading-[1.3] transition-colors"
             >
               <MapPin className="w-4 h-4 shrink-0" />
-              <span>ম্যাপ</span>
+              <span>ম্যাপে দেখুন</span>
             </a>
           )}
           <a

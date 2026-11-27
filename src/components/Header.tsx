@@ -90,7 +90,7 @@ export default function Header() {
         <a href="/" className="shrink-0 flex items-center" aria-label="বারুইপুর অনলাইন হোম">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/logo.png"
+            src="/images/logo-v3.png"
             alt="বারুইপুর অনলাইন"
             width={220}
             height={56}
