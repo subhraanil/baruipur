@@ -92,9 +92,9 @@ export default function Header() {
           <img
             src="/images/logo.png"
             alt="বারুইপুর অনলাইন"
-            width={176}
-            height={44}
-            className="h-9 sm:h-11 w-auto object-contain"
+            width={220}
+            height={56}
+            className="h-11 sm:h-14 w-auto object-contain"
           />
         </a>
 

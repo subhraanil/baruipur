@@ -13,9 +13,9 @@ export default function Footer() {
               <img
                 src="/images/logo.png"
                 alt="বারুইপুর অনলাইন"
-                width={176}
-                height={44}
-                className="h-9 w-auto object-contain"
+                width={210}
+                height={52}
+                className="h-12 w-auto object-contain"
               />
             </a>
             <p className="text-[14px] text-slate-300 leading-[1.6]">
