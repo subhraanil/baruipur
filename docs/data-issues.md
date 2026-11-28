@@ -1,6 +1,6 @@
 # Data Issues Report (`scripts/data-lint.js`)
 
-Generated: 2026-11-27T11:57:34.140Z
+Generated: 2026-11-28T03:01:43.486Z
 
 ## Computed Inventory Counts
 - Places: **35**
@@ -22,5 +22,5 @@ Generated: 2026-11-27T11:57:34.140Z
 | WARN | D4/D5 | Phone `03324338550` appears on multiple entities: place:baruipur-jail (বারুইপুর কেন্দ্রীয় সংশোধনাগার (বারুইপুর জেল / Baruipur Jail)), org:real-star-club-baruipur (রিয়েল স্টার ক্লাব) |
 | WARN | D4/D5 | Phone `03324337250` appears on multiple entities: place:ashram-math-baruipur (আশ্রম মাঠ (শ্রী শ্রী রামকৃষ্ণ বিবেকানন্দ মন্দির)), org:baruipur-ramakrishna-sevashram-trust (বারুইপুর শ্রীরামকৃষ্ণ বিবেকানন্দ ভাবাদর্শ প্রচার সমিতি) |
 | WARN | D4/D5 | Phone `03324338210` appears on multiple entities: place:baruipur-stadium-sports-complex (বারুইপুর মহকুমা স্টেডিয়াম ও ক্রীড়াঙ্গন), place:atghara-heritage-site (আটঘরা প্রাচীন প্রত্নতাত্ত্বিক ক্ষেত্র) |
-| WARN | TENDER-EXPIRY | 25 tenders have closingDate in the past while status is 'active' (filtered out on homepage; labeled expired on /tenders). |
+| WARN | TENDER-EXPIRY | 5 tenders have closingDate in the past while status is 'active' (filtered out on homepage; labeled expired on /tenders). |
 | INFO | VERIFIED-AT | Missing lastVerified counts — Places: 0/35, Health: 0/33, Orgs: 0/25 |
